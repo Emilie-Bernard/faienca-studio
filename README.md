@@ -49,3 +49,31 @@ Les tests Convex vérifient le refus des accès anonymes, le refus d’un autre 
 À valider après connexion réelle : mot de passe d’atelier, CRUD depuis le navigateur, rechargement, deux onglets synchronisés, rendu ordinateur/téléphone et exports sur l’adresse Vercel. Les tests automatisés ne remplaceront pas ces contrôles réels.
 
 La première version n’envoie aucune publication sur les réseaux et ne récupère aucune statistique automatiquement. La sauvegarde JSON est un export complet des données métier ; elle ne contient pas les sessions ou secrets de connexion et n’offre pas encore de restauration par bouton.
+
+## Newsletter et Klaviyo
+
+Le formulaire public est sur `/newsletter`. Les inscriptions sont enregistrées dans Convex et transmises à Klaviyo (liste + consentement marketing). Les campagnes ponctuelles et les séquences automatiques (flows après inscription) se créent dans Klaviyo.
+
+### Configuration Klaviyo (une fois)
+
+1. Créer un compte Klaviyo et une liste **Newsletter** (double opt-in recommandé).
+2. Créer une **Private API Key** avec les scopes `profiles:write`, `lists:write`, `subscriptions:write`.
+3. Noter l’ID de la liste et la clé API.
+
+### Variables d’environnement
+
+**Convex** (développement et production) :
+
+- `NEWSLETTER_INGEST_SECRET` — secret partagé pour l’écriture des abonnés depuis l’API Next.js (`npx convex env set NEWSLETTER_INGEST_SECRET -- …`).
+
+**Vercel / `.env.local`** (même secret + clés Klaviyo) :
+
+- `NEXT_PUBLIC_CONVEX_URL`
+- `NEWSLETTER_INGEST_SECRET` (identique à Convex)
+- `KLAVIYO_PRIVATE_API_KEY`
+- `KLAVIYO_NEWSLETTER_LIST_ID`
+- `KLAVIYO_REVISION=2026-01-15` (optionnel)
+
+Dans le Studio, la vue **Newsletter** liste les abonnés enregistrés. Pour une newsletter ponctuelle ou une welcome series, utiliser l’interface Klaviyo (Campaign ou Flow déclenché à l’inscription à la liste).
+
+Documentation Klaviyo : https://developers.klaviyo.com/en/v2026-01-15/reference/bulk_subscribe_profiles

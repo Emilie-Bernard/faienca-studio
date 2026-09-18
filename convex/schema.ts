@@ -12,4 +12,13 @@ export default defineSchema({
  users: defineTable({name:v.optional(v.string()),email:v.optional(v.string()),image:v.optional(v.string()),emailVerificationTime:v.optional(v.number()),phone:v.optional(v.string()),phoneVerificationTime:v.optional(v.number()),isAnonymous:v.optional(v.boolean()),githubId:v.optional(v.string())}).index('email',['email']).index('phone',['phone']),
  entries:defineTable({...entryFields,revision:v.number(),seedKey:v.optional(v.string())}),
  seeds:defineTable({version:v.string()}).index('version',['version']),
+ newsletterSubscribers:defineTable({
+  email:v.string(),
+  createdAt:v.number(),
+  updatedAt:v.number(),
+  status:v.union(v.literal('pending'),v.literal('subscribed'),v.literal('unsubscribed')),
+  source:v.string(),
+  klaviyoJobId:v.optional(v.string()),
+  lastError:v.optional(v.string()),
+ }).index('by_email',['email']),
 });

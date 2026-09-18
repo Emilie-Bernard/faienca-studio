@@ -177,12 +177,12 @@ small,
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 0 16px 44px
+    padding: 0 16px 16px
 }
 
 .brand>span {
     font-family: Georgia, serif;
-    font-size: 33px;
+    font-size: 28px;
     line-height: 1
 }
 
@@ -190,7 +190,7 @@ small,
     display: block;
     font: 9px 'DM Sans', sans-serif;
     letter-spacing: 4px;
-    padding-top: 9px;
+    padding-top: 4px;
     color: #6e868d
 }
 
@@ -235,40 +235,8 @@ small,
     font-size: 11px
 }
 
-.sidebar-note {
-    margin-top: auto;
-    border: 1px solid #ede7db;
-    background: #fcf9f2;
-    border-radius: 10px;
-    padding: 19px 16px;
-    line-height: 1.8
-}
-
-.sidebar-note svg {
-    color: #bf8250;
-    margin-bottom: 9px
-}
-
-.sidebar-note strong {
-    display: block;
-    font-family: Georgia, serif;
-    font-size: 18px
-}
-
-.sidebar-note p {
-    font-size: 13px;
-    color: #88908b;
-    margin-top: 7px
-}
-
-.backup {
-    font-size: 12px;
-    justify-content: flex-start;
-    margin: 18px 0;
-    color: #738189
-}
-
 .profile {
+    margin-top: auto;
     border-top: 1px solid var(--line);
     padding-top: 17px;
     display: flex;
@@ -352,6 +320,13 @@ small,
     justify-content: space-between;
     margin-bottom: 30px;
     gap: 18px
+}
+
+.heading-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: none
 }
 
 .page-heading .eyebrow {
@@ -742,20 +717,34 @@ small,
 
 .filters {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 20px
 }
 
-.filters>select {
+.filter-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .4px;
+    color: #94a0a5
+}
+
+.filter-field select {
     font-size: 12px;
-    padding: 10px
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--ink)
 }
 
 .filters>.muted {
     margin-left: auto;
-    font-size: 12px
+    font-size: 12px;
+    padding-bottom: 10px
 }
 
 .search {
@@ -1460,8 +1449,6 @@ summary {
     }
 
     .nav-label,
-    .sidebar-note,
-    .backup,
     .profile {
         display: none
     }
@@ -1523,13 +1510,15 @@ summary {
         max-width: 220px
     }
 
-    .page-heading .primary {
+    .page-heading .primary,
+    .page-heading .secondary {
         font-size: 0;
         padding: 10px;
         flex: none
     }
 
-    .page-heading .primary svg {
+    .page-heading .primary svg,
+    .page-heading .secondary svg {
         width: 20px;
         height: 20px
     }
@@ -1648,7 +1637,8 @@ summary {
 
     .filters>.muted {
         width: 100%;
-        margin: 0
+        margin: 0;
+        padding-bottom: 0
     }
 
     .strategy-grid {
@@ -1760,4 +1750,54 @@ summary {
     .stat>small {
         font-size: 12px
     }
+}
+
+.newsletter-page form {
+    align-items: stretch
+}
+
+.newsletter-honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none
+}
+
+.newsletter-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--muted);
+    text-align: left
+}
+
+.newsletter-consent input {
+    margin-top: 3px;
+    flex-shrink: 0
+}
+
+.newsletter-success {
+    margin: 12px 0 0;
+    color: #2f6b4f;
+    font-weight: 600
+}
+
+.newsletter-note {
+    display: block;
+    margin-top: 16px;
+    color: var(--muted);
+    line-height: 1.5
+}
+
+.newsletter-load-more {
+    margin-top: 16px
+}
+
+.review-note a {
+    color: var(--orange);
+    font-weight: 600
 }
