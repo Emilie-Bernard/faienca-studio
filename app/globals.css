@@ -448,6 +448,8 @@ small,
 .heading-actions {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 8px;
     flex: none
 }
@@ -1189,7 +1191,8 @@ td small {
 .editor>form {
     display: flex;
     flex-direction: column;
-    max-height: 92dvh
+    max-height: 92dvh;
+    position: relative
 }
 
 .editor header {
@@ -1302,7 +1305,8 @@ td small {
     gap: 8px;
     padding: 17px 27px;
     border-top: 1px solid var(--line);
-    background: #fafcfc
+    background: #fafcfc;
+    flex-wrap: wrap
 }
 
 .spacer {
@@ -1347,6 +1351,31 @@ td small {
 .delete-confirm p {
     margin: 9px 0;
     font-size: 13px
+}
+
+.delete-confirm-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px
+}
+
+.editor-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: #163d4b99
+}
+
+.editor-overlay .delete-confirm {
+    margin: 0;
+    max-width: 420px;
+    background: white;
+    box-shadow: 0 16px 40px #0a263633
 }
 
 details {
@@ -2076,6 +2105,31 @@ summary {
     min-height: 220px
 }
 
+.archived-docs {
+    min-height: 0;
+    margin-bottom: 18px;
+    padding-bottom: 8px
+}
+
+.archived-docs-toggle {
+    width: 100%;
+    margin-bottom: 0
+}
+
+.archived-docs-toggle svg {
+    margin-left: auto;
+    flex: none;
+    transition: transform .2s ease
+}
+
+.archived-docs.open .archived-docs-toggle svg {
+    transform: rotate(180deg)
+}
+
+.archived-docs.open .archived-docs-toggle {
+    margin-bottom: 8px
+}
+
 .newsletter-subscribers {
     margin-top: 4px
 }
@@ -2297,10 +2351,8 @@ summary {
 }
 
 .editor-note {
-    margin: 0;
-    font-size: 13px;
-    flex: 1 1 180px;
-    min-width: 0
+    margin: 16px 0 0;
+    font-size: 13px
 }
 
 @media (max-width: 900px) {
@@ -2328,11 +2380,6 @@ summary {
 
     .editor--scenario footer {
         gap: 10px
-    }
-
-    .editor--scenario .editor-note {
-        flex-basis: 100%;
-        order: -1
     }
 
     .rich-email-toolbar button {

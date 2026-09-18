@@ -1,5 +1,6 @@
 export const contentStatuses = ['À préparer', 'En production', 'Programmé', 'Publié', 'À recycler'] as const;
 export const projectStatuses = ['À envisager', 'À faire', 'En cours', 'Bloqué', 'Terminé'] as const;
+export const projectPriorities = ['Haute', 'Normale', 'Basse'] as const;
 export const stages = ['Astuce', 'Participation', 'Projet complet', 'Offre'] as const;
 export const certainties = ['Hypothèse', 'À tester', 'Validé'] as const;
 export const newsletterCampaignStatuses = ['Brouillon', 'Programmé', 'Envoyé', 'Archivé'] as const;
@@ -298,4 +299,90 @@ export function parseScenarioCsv(text: string): EntryInput[] {
       })),
     };
   });
+}
+
+export const projectCsvFields = ['title', 'status', 'date', 'priority', 'text', 'tasks'] as const;
+export type ProjectCsvField = typeof projectCsvFields[number];
+
+const projectCsvHeaderAliases: Record<string, ProjectCsvField> = {
+  title: 'title', titre: 'title', projet: 'title', nom: 'title', nomduprojet: 'title',
+  status: 'status', statut: 'status',
+  date: 'date', echeance: 'date', deadline: 'date',
+  priority: 'priority', priorite: 'priority',
+  text: 'text', notes: 'text', texte: 'text', description: 'text',
+  tasks: 'tasks', etapes: 'tasks', taches: 'tasks', etapesduprojet: 'tasks',
+};
+
+function pickProjectCsv(row: Partial<Record<ProjectCsvField, string>>, field: ProjectCsvField) {
+  return unescapeCsvValue(row[field] ?? '').trim();
+}
+
+function parseProjectTasks(raw: string, line: number): Task[] {
+  const tasks = raw.split('|').flatMap(part => {
+    const value = unescapeCsvValue(part).trim();
+    if (!value) return [];
+    const done = /^\[x\]\s+/i.test(value);
+    const title = (done ? value.replace(/^\[x\]\s+/i, '') : value).trim();
+    if (!title) return [];
+    return [{ id: crypto.randomUUID(), title, done }];
+  });
+  if (tasks.length > 100) throw new Error(`Limitez le projet à 100 étapes (ligne ${line}).`);
+  return tasks;
+}
+
+export function projectCsvExample() {
+  return '\uFEFF' + [
+    projectCsvFields.join(';'),
+    ['Valider la cible', 'À faire', '2026-09-30', 'Haute', 'Faire parler les clientes.', 'Interroger cinq clientes | Séparer acheteuses | Reporter leurs mots'].map(csvEscape).join(';'),
+    ['Confirmer les produits', 'À faire', '2026-10-05', 'Haute', 'Kit vedette, stock et marge.', 'Confirmer le kit vedette | Photographier le contenu | Afficher les prix'].map(csvEscape).join(';'),
+  ].join('\r\n');
+}
+
+export function projectCsv(entries: Entry[]) {
+  const rows = entries.filter(e => e.kind === 'projet').map(e => ({
+    title: e.title,
+    status: e.status,
+    date: e.date,
+    priority: e.priority,
+    text: e.text,
+    tasks: e.tasks.map(t => (t.done ? '[x] ' : '') + t.title).join(' | '),
+  }));
+  return '\uFEFF' + [projectCsvFields.join(';'), ...rows.map(row => projectCsvFields.map(k => csvEscape(row[k])).join(';'))].join('\r\n');
+}
+
+export function parseProjectCsv(text: string): EntryInput[] {
+  const table = parseCsvTable(text);
+  if (!table.length) throw new Error('Ce fichier CSV est vide.');
+  const header = table[0]!.map(normalizeCsvHeader);
+  const mapped = header.map(cell => projectCsvHeaderAliases[cell]);
+  const hasHeaders = mapped.some(Boolean);
+  const columns: (ProjectCsvField | undefined)[] = hasHeaders ? mapped : projectCsvFields.map((field, i) => header[i] === undefined ? undefined : field);
+  const dataRows = hasHeaders ? table.slice(1) : table;
+  if (hasHeaders && !columns.includes('title')) throw new Error('Ajoutez une colonne Titre, comme dans l’exemple CSV des projets.');
+  if (dataRows.length > 200) throw new Error('Limitez l’import à 200 projets à la fois.');
+
+  const entries = dataRows.flatMap((cells, index) => {
+    const line = index + (hasHeaders ? 2 : 1);
+    const row: Partial<Record<ProjectCsvField, string>> = {};
+    columns.forEach((field, i) => { if (field) row[field] = cells[i] ?? ''; });
+    if (columns.every((field, i) => !unescapeCsvValue(cells[i] ?? '').trim())) return [];
+    const title = pickProjectCsv(row, 'title');
+    if (!title) throw new Error(`Le titre est obligatoire à la ligne ${line}.`);
+    if (title.length > 200) throw new Error(`Le titre dépasse 200 caractères à la ligne ${line}.`);
+    const status = pickProjectCsv(row, 'status') || 'À faire';
+    if (!(projectStatuses as readonly string[]).includes(status)) throw new Error(`Statut « ${status} » inconnu à la ligne ${line}.`);
+    const priority = pickProjectCsv(row, 'priority') || 'Normale';
+    if (!(projectPriorities as readonly string[]).includes(priority)) throw new Error(`Priorité « ${priority} » inconnue à la ligne ${line}.`);
+    return [{
+      ...emptyEntry('projet'),
+      title,
+      status,
+      date: parseCsvDate(pickProjectCsv(row, 'date'), line),
+      priority,
+      text: pickProjectCsv(row, 'text'),
+      tasks: parseProjectTasks(pickProjectCsv(row, 'tasks'), line),
+    }];
+  });
+  if (!entries.length) throw new Error('Aucun projet à importer. Ajoutez un titre à chaque ligne.');
+  return entries;
 }

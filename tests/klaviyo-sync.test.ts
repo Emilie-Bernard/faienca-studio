@@ -5,7 +5,10 @@ import {
   campaignSendDatetime,
   computeDelayDeltas,
   extractSyncedStepIds,
+  findFlowAction,
   scenarioStructureFingerprint,
+  sendEmailActionDefinition,
+  timeDelayActionDefinition,
   wrapEmailHtml,
 } from '../lib/klaviyo-sync';
 
@@ -54,6 +57,25 @@ describe('klaviyo-sync helpers', () => {
     });
   });
 
+  it('prépare une définition PATCH send-email et time-delay', () => {
+    const definition = {
+      actions: [
+        { id: 'email-1', type: 'send-email', data: { status: 'draft', message: { from_email: 'hello@faienca.fr', subject_line: 'Ancien' } } },
+        { id: 'delay-1', type: 'time-delay', data: { unit: 'days', value: 2, timezone: 'profile' } },
+      ],
+    };
+    expect(sendEmailActionDefinition(findFlowAction(definition, 'email-1'), 'email-1', { subject_line: 'Nouveau', template_id: 'TPL2' })).toEqual({
+      id: 'email-1',
+      type: 'send-email',
+      data: { status: 'draft', message: { from_email: 'hello@faienca.fr', subject_line: 'Nouveau', template_id: 'TPL2' } },
+    });
+    expect(timeDelayActionDefinition(findFlowAction(definition, 'delay-1'), 'delay-1', 5)).toEqual({
+      id: 'delay-1',
+      type: 'time-delay',
+      data: { unit: 'days', value: 5, timezone: 'profile' },
+    });
+  });
+
   it('formate une date d’envoi campagne', () => {
     expect(campaignSendDatetime('2026-12-24')).toBe('2026-12-24T09:00:00+01:00');
   });
@@ -77,8 +99,29 @@ describe('KlaviyoClient', () => {
     await expect(client.createTemplate('Fail', '<p>x</p>')).rejects.toBeInstanceOf(KlaviyoApiError);
   });
 
+  it('ignore un flow Klaviyo déjà absent', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: false, status: 404, text: async () => 'gone' });
+    vi.stubGlobal('fetch', fetchMock);
+    const client = new KlaviyoClient({ apiKey: 'pk_test' });
+    await expect(client.deleteFlow('FLOW1')).resolves.toBeUndefined();
+  });
+
   it('expose des URLs Klaviyo', () => {
     expect(klaviyoCampaignUrl('ABC')).toContain('ABC');
     expect(klaviyoFlowUrl('FLOW1')).toContain('FLOW1');
+  });
+
+  it('envoie definition dans le PATCH d’une action de flow', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, text: async () => '' });
+    vi.stubGlobal('fetch', fetchMock);
+    const client = new KlaviyoClient({ apiKey: 'pk_test' });
+    await client.updateFlowAction('ACT1', { id: 'ACT1', type: 'send-email', data: { message: { subject_line: 'Hello', template_id: 'TPL1' } } });
+    expect(JSON.parse(fetchMock.mock.calls[0]![1].body)).toEqual({
+      data: {
+        type: 'flow-action',
+        id: 'ACT1',
+        attributes: { definition: { id: 'ACT1', type: 'send-email', data: { message: { subject_line: 'Hello', template_id: 'TPL1' } } } },
+      },
+    });
   });
 });

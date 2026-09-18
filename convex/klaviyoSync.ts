@@ -8,9 +8,13 @@ import {
   buildFlowDefinition,
   campaignSendDatetime,
   extractSyncedStepIds,
+  findFlowAction,
   scenarioStructureFingerprint,
+  sendEmailActionDefinition,
+  timeDelayActionDefinition,
   wrapEmailHtml,
   computeDelayDeltas,
+  type FlowDefinition,
 } from '../lib/klaviyo-sync';
 
 import type { Id } from './_generated/dataModel';
@@ -163,6 +167,33 @@ export const patchKlaviyoFields = internalMutation({
   },
 });
 
+export const archiveScenarioEntry = internalMutation({
+  args: {
+    entryId: v.id('entries'),
+    revision: v.number(),
+    clearKlaviyo: v.boolean(),
+  },
+  returns: v.number(),
+  handler: async (ctx, args) => {
+    await owner(ctx as unknown as GenericMutationCtx<GenericDataModel>);
+    const before = await ctx.db.get(args.entryId);
+    if (!before) throw new ConvexError('Fiche introuvable.');
+    if (before.revision !== args.revision) throw new ConvexError('La fiche a changé. Rechargez-la.');
+    if (before.kind !== 'scenario') throw new ConvexError('Seuls les scénarios s’archivent ainsi.');
+    const nextRevision = before.revision + 1;
+    await ctx.db.patch(args.entryId, {
+      status: 'Archivé',
+      revision: nextRevision,
+      ...(args.clearKlaviyo ? {
+        klaviyoFlowId: undefined,
+        klaviyoFlowStructure: undefined,
+        emailSteps: (before.emailSteps ?? []).map(step => ({ id: step.id, delayDays: step.delayDays, subject: step.subject, body: step.body })),
+      } : {}),
+    });
+    return nextRevision;
+  },
+});
+
 const syncResult = v.object({
   created: v.boolean(),
   url: v.string(),
@@ -276,21 +307,20 @@ export const syncScenario = action({
     }
 
     if (sameStructure && flowId) {
-      const definition = await client.getFlowDefinition(flowId);
-      const { sendEmailIds, delayIds } = extractSyncedStepIds(definition as { entry_action_id?: string; actions?: Array<{ id?: string; temporary_id?: string; type: string; links?: { next?: string | null }; data?: Record<string, unknown> }> });
+      const definition = await client.getFlowDefinition(flowId) as FlowDefinition;
+      const { sendEmailIds, delayIds } = extractSyncedStepIds(definition);
       const deltas = computeDelayDeltas(steps);
       for (let i = 0; i < steps.length; i++) {
         const emailActionId = sendEmailIds[i] ?? steps[i]!.klaviyoFlowActionId;
         const delayActionId = delayIds[i] ?? steps[i]!.klaviyoDelayActionId;
         if (emailActionId) {
-          await client.updateFlowAction(emailActionId, {
-            data: {
-              message: { subject_line: steps[i]!.subject || `E-mail ${i + 1}`, template_id: templateIds[i]! },
-            },
-          });
+          await client.updateFlowAction(emailActionId, sendEmailActionDefinition(findFlowAction(definition, emailActionId), emailActionId, {
+            subject_line: steps[i]!.subject || `E-mail ${i + 1}`,
+            template_id: templateIds[i]!,
+          }));
         }
         if (i > 0 && delayActionId && deltas[i]! > 0) {
-          await client.updateFlowAction(delayActionId, { data: { unit: 'days', value: deltas[i]! } });
+          await client.updateFlowAction(delayActionId, timeDelayActionDefinition(findFlowAction(definition, delayActionId), delayActionId, deltas[i]!));
         }
         stepPatches[i] = {
           ...stepPatches[i]!,
@@ -303,8 +333,8 @@ export const syncScenario = action({
       const result = await client.createFlow(`Studio · ${entry.title}`.slice(0, 200), definition);
       flowId = result.flowId;
       created = true;
-      const savedDefinition = result.definition ?? await client.getFlowDefinition(flowId);
-      const { sendEmailIds, delayIds } = extractSyncedStepIds(savedDefinition as { entry_action_id?: string; actions?: Array<{ id?: string; temporary_id?: string; type: string; links?: { next?: string | null } }> });
+      const savedDefinition = (result.definition ?? await client.getFlowDefinition(flowId)) as FlowDefinition;
+      const { sendEmailIds, delayIds } = extractSyncedStepIds(savedDefinition);
       for (let i = 0; i < steps.length; i++) {
         stepPatches[i] = {
           ...stepPatches[i]!,
@@ -331,5 +361,32 @@ export const syncScenario = action({
       stepCount: steps.length,
       revision,
     };
+  },
+});
+
+export const archiveScenario = action({
+  args: {
+    entryId: v.id('entries'),
+    revision: v.number(),
+    deleteFromKlaviyo: v.boolean(),
+  },
+  returns: v.object({
+    revision: v.number(),
+    klaviyoDeleted: v.boolean(),
+  }),
+  handler: async (ctx, args): Promise<{ revision: number; klaviyoDeleted: boolean }> => {
+    const entry = await loadEntry(ctx, args.entryId, args.revision, 'scenario');
+    let klaviyoDeleted = false;
+    if (args.deleteFromKlaviyo && entry.klaviyoFlowId) {
+      const { client } = klaviyoEnv();
+      await client.deleteFlow(entry.klaviyoFlowId);
+      klaviyoDeleted = true;
+    }
+    const revision = await ctx.runMutation(internal.klaviyoSync.archiveScenarioEntry, {
+      entryId: args.entryId,
+      revision: args.revision,
+      clearKlaviyo: klaviyoDeleted,
+    });
+    return { revision, klaviyoDeleted };
   },
 });

@@ -9,6 +9,44 @@ export type FlowActionNode = {
   data?: Record<string, unknown>;
 };
 
+export type FlowDefinition = {
+  entry_action_id?: string;
+  actions?: FlowActionNode[];
+};
+
+function asObject(value: unknown): Record<string, unknown> {
+  return value !== null && typeof value === 'object' && !Array.isArray(value) ? { ...value as Record<string, unknown> } : {};
+}
+
+export function findFlowAction(definition: FlowDefinition, id: string | undefined) {
+  if (!id) return undefined;
+  return definition.actions?.find(action => action.id === id || action.temporary_id === id);
+}
+
+export function sendEmailActionDefinition(existing: FlowActionNode | undefined, actionId: string, message: { subject_line: string; template_id: string }) {
+  const data = asObject(existing?.data);
+  return {
+    id: existing?.id ?? actionId,
+    type: 'send-email',
+    data: {
+      ...data,
+      message: { ...asObject(data.message), ...message },
+    },
+  };
+}
+
+export function timeDelayActionDefinition(existing: FlowActionNode | undefined, actionId: string, value: number) {
+  return {
+    id: existing?.id ?? actionId,
+    type: 'time-delay',
+    data: {
+      ...asObject(existing?.data),
+      unit: 'days',
+      value,
+    },
+  };
+}
+
 export function wrapEmailHtml(body: string) {
   const trimmed = body.trim();
   if (!trimmed) return '<!DOCTYPE html><html><body></body></html>';
@@ -97,7 +135,7 @@ function buildFlowActionChain(
   return { actions, entryActionId };
 }
 
-export function extractSyncedStepIds(definition: { entry_action_id?: string; actions?: FlowActionNode[] }) {
+export function extractSyncedStepIds(definition: FlowDefinition) {
   const actions = definition.actions ?? [];
   const byKey = new Map<string, FlowActionNode>();
   for (const action of actions) {

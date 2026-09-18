@@ -136,10 +136,19 @@ export class KlaviyoClient {
     return data.data.attributes.definition;
   }
 
-  async updateFlowAction(actionId: string, patch: JsonObject) {
+  async updateFlowAction(actionId: string, definition: JsonObject) {
     await this.request('PATCH', `/api/flow-actions/${actionId}`, {
-      data: { type: 'flow-action', id: actionId, attributes: patch },
+      data: { type: 'flow-action', id: actionId, attributes: { definition } },
     });
+  }
+
+  async deleteFlow(flowId: string) {
+    try {
+      await this.request('DELETE', `/api/flows/${flowId}`);
+    } catch (error) {
+      if (error instanceof KlaviyoApiError && error.status === 404) return;
+      throw error;
+    }
   }
 
   async updateTemplateOnFlowMessage(flowMessageId: string, templateId: string) {
