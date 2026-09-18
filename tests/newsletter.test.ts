@@ -92,6 +92,17 @@ describe('Abonnés Convex', () => {
   });
 });
 
+describe('HTML e-mail', () => {
+  it('génère un bouton brandé et normalise le HTML vide', async () => {
+    const { buildEmailButtonHtml, normalizeEmailHtml } = await import('../lib/email-html');
+    const html = buildEmailButtonHtml('Découvrir', 'https://faienca.fr');
+    expect(html).toContain('Découvrir');
+    expect(html).toContain('https://faienca.fr');
+    expect(html).toContain('background:#bb633e');
+    expect(normalizeEmailHtml('<p></p>')).toBe('');
+  });
+});
+
 describe('Client Klaviyo', () => {
   it('envoie une requête subscribe avec consentement marketing', async () => {
     const fetchMock = vi.fn(async () => new Response(null, { status: 202, headers: { location: '/api/profile-subscription-bulk-create-jobs/abc123/' } }));

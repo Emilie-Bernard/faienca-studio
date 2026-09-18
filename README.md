@@ -52,12 +52,14 @@ La première version n’envoie aucune publication sur les réseaux et ne récup
 
 ## Newsletter et Klaviyo
 
-Le formulaire public est sur `/newsletter`. Les inscriptions sont enregistrées dans Convex et transmises à Klaviyo (liste + consentement marketing). Les campagnes ponctuelles et les séquences automatiques (flows après inscription) se créent dans Klaviyo.
+Le formulaire public est sur `/newsletter`. Les inscriptions sont enregistrées dans Convex et transmises à Klaviyo (liste + consentement marketing). Depuis le Studio, vous pouvez **synchroniser** une newsletter ou un scénario vers Klaviyo en **brouillon** (icône envoi dans l’éditeur), puis relire et programmer l’envoi dans Klaviyo.
 
 ### Configuration Klaviyo (une fois)
 
 1. Créer un compte Klaviyo et une liste **Newsletter** (double opt-in recommandé).
-2. Créer une **Private API Key** avec les scopes `profiles:write`, `lists:write`, `subscriptions:write`.
+2. Créer une **Private API Key** avec les scopes :
+   - Inscriptions : `profiles:write`, `lists:write`, `subscriptions:write`
+   - Sync Studio : `templates:write`, `campaigns:write`, `flows:read`, `flows:write`
 3. Noter l’ID de la liste et la clé API.
 
 ### Variables d’environnement
@@ -65,8 +67,11 @@ Le formulaire public est sur `/newsletter`. Les inscriptions sont enregistrées 
 **Convex** (développement et production) :
 
 - `NEWSLETTER_INGEST_SECRET` — secret partagé pour l’écriture des abonnés depuis l’API Next.js (`npx convex env set NEWSLETTER_INGEST_SECRET -- …`).
+- `KLAVIYO_PRIVATE_API_KEY`, `KLAVIYO_NEWSLETTER_LIST_ID` — sync Studio → Klaviyo (campagnes + flows).
+- `KLAVIYO_REVISION=2026-01-15` (optionnel)
+- `KLAVIYO_FROM_EMAIL`, `KLAVIYO_FROM_LABEL`, `KLAVIYO_REPLY_TO_EMAIL` (optionnel, expéditeur des e-mails)
 
-**Vercel / `.env.local`** (même secret + clés Klaviyo) :
+**Vercel / `.env.local`** (même secret + clés Klaviyo pour `/newsletter`) :
 
 - `NEXT_PUBLIC_CONVEX_URL`
 - `NEWSLETTER_INGEST_SECRET` (identique à Convex)
@@ -74,6 +79,13 @@ Le formulaire public est sur `/newsletter`. Les inscriptions sont enregistrées 
 - `KLAVIYO_NEWSLETTER_LIST_ID`
 - `KLAVIYO_REVISION=2026-01-15` (optionnel)
 
-Dans le Studio, la vue **Newsletter** liste les abonnés enregistrés. Pour une newsletter ponctuelle ou une welcome series, utiliser l’interface Klaviyo (Campaign ou Flow déclenché à l’inscription à la liste).
+### Sync depuis le Studio
+
+- **Newsletter ponctuelle** : crée ou met à jour un template HTML + une campagne brouillon sur la liste Newsletter.
+- **Scénario (welcome series)** : crée ou met à jour un **Flow Klaviyo complet** (e-mails J+0, J+2… avec délais). Un flow par scénario, déclenché à l’inscription à la liste.
+- Si vous changez le nombre d’e-mails ou les délais, un **nouveau flow brouillon** est créé (l’ancien reste dans Klaviyo).
+- **Images** : le HTML envoyé contient des URLs (`https://…`). Klaviyo ne stocke pas automatiquement les fichiers ; hébergez les visuels sur votre site/CDN ou uploadez-les dans la bibliothèque Klaviyo.
+
+Dans le Studio, la vue **Newsletter** liste les abonnés enregistrés.
 
 Documentation Klaviyo : https://developers.klaviyo.com/en/v2026-01-15/reference/bulk_subscribe_profiles

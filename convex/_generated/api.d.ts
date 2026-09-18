@@ -10,6 +10,7 @@
 
 import type * as auth from "../auth.js";
 import type * as http from "../http.js";
+import type * as klaviyoSync from "../klaviyoSync.js";
 import type * as newsletter from "../newsletter.js";
 import type * as studio from "../studio.js";
 
@@ -22,6 +23,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   http: typeof http;
+  klaviyoSync: typeof klaviyoSync;
   newsletter: typeof newsletter;
   studio: typeof studio;
 }>;

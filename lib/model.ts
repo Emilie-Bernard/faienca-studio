@@ -2,22 +2,42 @@ export const contentStatuses = ['À préparer', 'En production', 'Programmé', '
 export const projectStatuses = ['À envisager', 'À faire', 'En cours', 'Bloqué', 'Terminé'] as const;
 export const stages = ['Astuce', 'Participation', 'Projet complet', 'Offre'] as const;
 export const certainties = ['Hypothèse', 'À tester', 'Validé'] as const;
-export type Kind = 'publication' | 'projet' | 'strategie';
+export const newsletterCampaignStatuses = ['Brouillon', 'Programmé', 'Envoyé', 'Archivé'] as const;
+export const scenarioStatuses = ['Brouillon', 'Actif', 'En pause', 'Archivé'] as const;
+export type Kind = 'publication' | 'projet' | 'strategie' | 'newsletter' | 'scenario';
 export interface Task { id: string; title: string; done: boolean }
+export interface EmailStep {
+  id: string; delayDays: number; subject: string; body: string;
+  klaviyoTemplateId?: string; klaviyoFlowActionId?: string; klaviyoDelayActionId?: string;
+}
 export interface Entry {
   _id: string; kind: Kind; title: string; text: string; status: string;
   date: string; channel: string; format: string; objective: string;
   hook: string; cta: string; stories: string; offer: string; projectId: string;
   stage: string; priority: string; category: string; tasks: Task[];
+  emailSteps: EmailStep[];
+  klaviyoCampaignId?: string; klaviyoCampaignMessageId?: string; klaviyoTemplateId?: string;
+  klaviyoFlowId?: string; klaviyoFlowStructure?: string;
   url: string; caveat: string; original: string; revision: number;
   reach: number | null; saves: number | null; shares: number | null;
   clicks: number | null; orders: number | null;
 }
 export type EntryInput = Omit<Entry, '_id' | 'revision'>;
 export function emptyEntry(kind: Kind): EntryInput {
+  const base = {
+    title: '', text: '', date: '', channel: 'Instagram', format: 'Reel', objective: '', hook: '', cta: '', stories: '', offer: '', projectId: '', stage: 'Astuce', priority: 'Normale', category: 'Cible', tasks: [] as Task[], emailSteps: [] as EmailStep[], url: '', caveat: '', original: '', reach: null, saves: null, shares: null, clicks: null, orders: null,
+  };
+  if (kind === 'publication') return { ...base, kind, status: 'À préparer' };
+  if (kind === 'projet') return { ...base, kind, status: 'À faire' };
+  if (kind === 'strategie') return { ...base, kind, status: 'Hypothèse' };
+  if (kind === 'newsletter') return { ...base, kind, status: 'Brouillon', channel: 'E-mail', format: 'Newsletter' };
   return {
-    kind, title: '', text: '', status: kind === 'publication' ? 'À préparer' : kind === 'projet' ? 'À faire' : 'Hypothèse',
-    date: '', channel: 'Instagram', format: 'Reel', objective: '', hook: '', cta: '', stories: '', offer: '', projectId: '', stage: 'Astuce', priority: 'Normale', category: 'Cible', tasks: [], url: '', caveat: '', original: '', reach: null, saves: null, shares: null, clicks: null, orders: null,
+    ...base,
+    kind,
+    status: 'Brouillon',
+    channel: 'E-mail',
+    format: 'Séquence',
+    emailSteps: [{ id: crypto.randomUUID(), delayDays: 0, subject: '', body: '' }],
   };
 }
 export function isoToday() { return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date()); }
@@ -162,4 +182,120 @@ export function parseCalendarCsv(text: string, projects: { _id: string; title: s
   });
   if (!entries.length) throw new Error('Aucun contenu à importer. Ajoutez un titre à chaque ligne.');
   return entries;
+}
+
+export const scenarioCsvFields = ['scenario', 'status', 'delayDays', 'subject', 'body', 'caveat'] as const;
+export type ScenarioCsvField = typeof scenarioCsvFields[number];
+
+const scenarioCsvHeaderAliases: Record<string, ScenarioCsvField> = {
+  scenario: 'scenario', scenariotitle: 'scenario', titrescenario: 'scenario', titres: 'scenario', nom: 'scenario',
+  status: 'status', statut: 'status',
+  delaydays: 'delayDays', delai: 'delayDays', delaijours: 'delayDays', jours: 'delayDays', jour: 'delayDays',
+  subject: 'subject', objet: 'subject', sujet: 'subject',
+  body: 'body', corps: 'body', texte: 'body', contenu: 'body', message: 'body',
+  caveat: 'caveat', notes: 'caveat', notespourklaviyo: 'caveat', note: 'caveat',
+};
+
+function pickScenarioCsv(row: Partial<Record<ScenarioCsvField, string>>, field: ScenarioCsvField) {
+  return unescapeCsvValue(row[field] ?? '').trim();
+}
+
+function parseScenarioDelay(raw: string, line: number) {
+  const value = raw.trim();
+  if (!value) return 0;
+  const n = Number(value.replace(/\s/g, '').replace(',', '.'));
+  if (!Number.isSafeInteger(n) || n < 0 || n > 365) throw new Error(`Le délai doit être un nombre de jours entre 0 et 365 (ligne ${line}).`);
+  return n;
+}
+
+export function scenarioCsvExample() {
+  return '\uFEFF' + [
+    scenarioCsvFields.join(';'),
+    ['Welcome series', 'Brouillon', '0', 'Bienvenue chez Faïença', '<h2>Bonjour</h2><p>Merci de votre inscription. Voici l’atelier, le fil et le Sud.</p>', 'Recopier dans un Flow Klaviyo'].map(csvEscape).join(';'),
+    ['Welcome series', 'Brouillon', '2', 'L’histoire de Faïença', '<p>Depuis l’atelier, nous créons des pièces uniques…</p>', ''].map(csvEscape).join(';'),
+    ['Welcome series', 'Brouillon', '7', 'Votre première création', '<p>Commencez par une astuce simple, puis découvrez le kit vedette.</p><p style="text-align:center;margin:28px 0;"><a href="https://faienca.fr" style="display:inline-block;padding:14px 28px;background:#bb633e;color:#ffffff;text-decoration:none;border-radius:8px;font-weight:600;">Découvrir Faïença</a></p>', ''].map(csvEscape).join(';'),
+  ].join('\r\n');
+}
+
+export function scenarioCsv(entries: Entry[]) {
+  const rows = entries
+    .filter(e => e.kind === 'scenario')
+    .flatMap(entry => (entry.emailSteps ?? []).map((step, index) => ({
+      scenario: entry.title,
+      status: entry.status,
+      delayDays: step.delayDays,
+      subject: step.subject,
+      body: step.body,
+      caveat: index === 0 ? entry.caveat : '',
+    })));
+  return '\uFEFF' + [scenarioCsvFields.join(';'), ...rows.map(row => scenarioCsvFields.map(k => csvEscape(row[k])).join(';'))].join('\r\n');
+}
+
+export function parseScenarioCsv(text: string): EntryInput[] {
+  const table = parseCsvTable(text);
+  if (!table.length) throw new Error('Ce fichier CSV est vide.');
+  const header = table[0]!.map(normalizeCsvHeader);
+  const mapped = header.map(cell => scenarioCsvHeaderAliases[cell]);
+  const hasHeaders = mapped.some(Boolean);
+  const columns: (ScenarioCsvField | undefined)[] = hasHeaders ? mapped : scenarioCsvFields.map((field, i) => header[i] === undefined ? undefined : field);
+  const dataRows = hasHeaders ? table.slice(1) : table;
+  if (hasHeaders && !columns.includes('scenario')) throw new Error('Ajoutez une colonne Scénario, comme dans l’exemple CSV.');
+  if (dataRows.length > 200) throw new Error('Limitez l’import à 200 lignes à la fois.');
+
+  type Row = { line: number; scenario: string; status: string; delayDays: number; subject: string; body: string; caveat: string };
+  const parsedRows: Row[] = dataRows.flatMap((cells, index) => {
+    const line = index + (hasHeaders ? 2 : 1);
+    const row: Partial<Record<ScenarioCsvField, string>> = {};
+    columns.forEach((field, i) => { if (field) row[field] = cells[i] ?? ''; });
+    if (columns.every((field, i) => !unescapeCsvValue(cells[i] ?? '').trim())) return [];
+    const scenario = pickScenarioCsv(row, 'scenario');
+    if (!scenario) throw new Error(`Le nom du scénario est obligatoire à la ligne ${line}.`);
+    if (scenario.length > 200) throw new Error(`Le nom du scénario dépasse 200 caractères à la ligne ${line}.`);
+    const status = pickScenarioCsv(row, 'status') || 'Brouillon';
+    if (!(scenarioStatuses as readonly string[]).includes(status)) throw new Error(`Statut « ${status} » inconnu à la ligne ${line}.`);
+    return [{
+      line,
+      scenario,
+      status,
+      delayDays: parseScenarioDelay(pickScenarioCsv(row, 'delayDays'), line),
+      subject: pickScenarioCsv(row, 'subject'),
+      body: pickScenarioCsv(row, 'body'),
+      caveat: pickScenarioCsv(row, 'caveat'),
+    }];
+  });
+
+  if (!parsedRows.length) throw new Error('Aucun scénario à importer. Ajoutez au moins une ligne avec un nom de scénario.');
+  if (parsedRows.length > 200) throw new Error('Limitez l’import à 200 lignes à la fois.');
+
+  const grouped = new Map<string, Row[]>();
+  for (const row of parsedRows) {
+    const key = row.scenario.toLowerCase();
+    const list = grouped.get(key) ?? [];
+    list.push(row);
+    grouped.set(key, list);
+  }
+  if (grouped.size > 50) throw new Error('Limitez l’import à 50 scénarios à la fois.');
+
+  return [...grouped.values()].map(rowsForScenario => {
+    const sorted = [...rowsForScenario].sort((a, b) => a.delayDays - b.delayDays || a.line - b.line);
+    if (sorted.length > 20) throw new Error(`Le scénario « ${sorted[0]!.scenario} » dépasse 20 e-mails.`);
+    const statuses = [...new Set(sorted.map(r => r.status))];
+    if (statuses.length > 1) throw new Error(`Le scénario « ${sorted[0]!.scenario} » mélange plusieurs statuts. Utilisez un seul statut par scénario.`);
+    for (const row of sorted) {
+      if (row.subject.length > 200) throw new Error(`Un objet dépasse 200 caractères dans « ${row.scenario} » (ligne ${row.line}).`);
+    }
+    const caveat = sorted.find(r => r.caveat)?.caveat ?? '';
+    return {
+      ...emptyEntry('scenario'),
+      title: sorted[0]!.scenario,
+      status: sorted[0]!.status,
+      caveat,
+      emailSteps: sorted.map(row => ({
+        id: crypto.randomUUID(),
+        delayDays: row.delayDays,
+        subject: row.subject,
+        body: row.body,
+      })),
+    };
+  });
 }
