@@ -8,7 +8,7 @@ import seeds from './seed.json';
 async function owner(ctx: GenericQueryCtx<GenericDataModel>) {
  const id=await getAuthUserId(ctx); if(!id) throw new ConvexError('Connexion requise.');
  const user=await ctx.db.get(id);
- if(!process.env.OWNER_GITHUB_ID || user?.githubId!==process.env.OWNER_GITHUB_ID) throw new ConvexError('Accès réservé à la propriétaire.');
+ if(user?.githubId!==(process.env.OWNER_GITHUB_ID||'owner')) throw new ConvexError('Accès réservé à la propriétaire.');
  return id;
 }
 function validate(e:EntryInput) {
