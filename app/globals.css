@@ -1313,6 +1313,17 @@ td small {
     text-decoration: underline
 }
 
+/* Confirmation dans l’éditeur (envoi test…) */
+.editor .notice {
+    background: var(--blue);
+    color: var(--navy-hover);
+    padding: 13px;
+    border-radius: 7px;
+    margin: 12px 0;
+    font-size: 13px;
+    line-height: 1.8
+}
+
 .danger-text {
     color: #c64b2e
 }
