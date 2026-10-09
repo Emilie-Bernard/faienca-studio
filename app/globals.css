@@ -2255,6 +2255,58 @@ summary {
     max-width: min(780px, calc(100vw - 24px))
 }
 
+/* E-mails : éditeur en pleine page dans la vue Newsletter */
+.editor.editor--page {
+    position: static;
+    width: 100%;
+    max-width: 980px;
+    max-height: none;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid var(--line);
+    box-shadow: none
+}
+
+.editor--page>form {
+    max-height: none
+}
+
+.editor--page header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #fff;
+    border-radius: 13px 13px 0 0
+}
+
+.editor--page .editor-body {
+    overflow: visible
+}
+
+.editor--page footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 3;
+    border-radius: 0 0 13px 13px
+}
+
+.editor--page .rich-email-content {
+    min-height: 520px;
+    max-height: none
+}
+
+.editor--page .rich-email-editor {
+    overflow: visible
+}
+
+.editor--page .rich-email-toolbar {
+    background: #fff;
+    border-radius: 8px 8px 0 0;
+    position: sticky;
+    top: 90px;
+    z-index: 2
+}
+
 .editor-note {
     margin: 16px 0 0;
     font-size: 13px
