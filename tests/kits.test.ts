@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { convexTest } from 'convex-test';
 import { anyApi } from 'convex/server';
 import schema from '../convex/schema';
-import { emptyKit, kitError, normalizeCode, videoSource, type KitInput } from '../lib/kits';
+import { emptyKit, kitError, localizeKit, localizeLesson, normalizeCode, videoSource, type KitInput } from '../lib/kits';
 const modules = import.meta.glob('../convex/**/*.ts');
 beforeEach(() => vi.stubEnv('OWNER_GITHUB_ID', '123'));
 
@@ -88,6 +88,32 @@ describe('Kits et progression', () => {
         await marie.api.mutation(anyApi.kits.ask, { kitId, lessonId: 'a', body: 'Quelle aiguille ?' });
         await atelier.api.mutation(anyApi.kits.removeKit, { id: kitId, revision: 1 });
         expect(await t.run(async ctx => [...await ctx.db.query('kitProgress').collect(), ...await ctx.db.query('kitQuestions').collect()])).toEqual([]);
+    });
+});
+
+describe('Traductions des kits', () => {
+    it('enregistre les traductions et les renvoie aux clientes', async () => {
+        const { atelier, marie } = await setup();
+        const translated = kit({
+            accessCode: '', translations: { en: { title: 'Olive tree kit', description: '' } },
+            lessons: [{ ...lesson('a'), translations: { en: { title: 'The outline', stitch: 'Stem stitch', notes: '' }, es: { title: 'El contorno', stitch: '', notes: '' } } }, lesson('b', 'Point de nœud')],
+        });
+        const kitId = await atelier.api.mutation(anyApi.kits.saveKit, { data: translated });
+        const [entry] = await marie.api.query(anyApi.kits.catalog);
+        expect(entry.translations.en.title).toBe('Olive tree kit');
+        expect(entry.stitchTranslations.en).toEqual(['Stem stitch', 'Point de nœud']);
+        expect(entry.stitchTranslations.es).toEqual(['Point de tige', 'Point de nœud']);
+        await marie.api.mutation(anyApi.kits.activate, { kitId, code: '' });
+        const [mine] = await marie.api.query(anyApi.kits.mine);
+        expect(localizeKit(mine.kit, 'en').title).toBe('Olive tree kit');
+        expect(localizeLesson(mine.kit.lessons[0], 'es').title).toBe('El contorno');
+    });
+    it('reprend le français pour un champ vide ou une langue sans traduction', () => {
+        const l = { ...lesson('a'), notes: 'Tirez doucement.', translations: { en: { title: 'The outline', stitch: '  ', notes: '' } } };
+        expect(localizeLesson(l, 'en')).toMatchObject({ title: 'The outline', stitch: 'Point de tige', notes: 'Tirez doucement.' });
+        expect(localizeLesson(l, 'es')).toMatchObject({ title: 'Leçon a', stitch: 'Point de tige' });
+        expect(localizeLesson(l, 'fr').title).toBe('Leçon a');
+        expect(kitError(kit({ translations: { es: { title: 'x'.repeat(201), description: '' } } }))).toMatch('traduction');
     });
 });
 

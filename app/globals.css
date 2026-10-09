@@ -3267,6 +3267,11 @@ button.kit-card:hover {
         order: 1
     }
 
+    /* Le choix de langue reste au-dessus des Informations qu'il traduit */
+    .kit-page-main>section.kit-languages {
+        order: 0
+    }
+
     .kit-page-side>section {
         order: 2
     }

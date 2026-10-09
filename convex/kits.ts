@@ -1,9 +1,9 @@
 import { query, mutation, internalMutation, type QueryCtx } from './_generated/server';
 import { v, ConvexError } from 'convex/values';
 import type { Doc, Id } from './_generated/dataModel';
-import { kitFields } from './schema';
+import { kitFields, kitTranslations, lessonTranslations } from './schema';
 import { requireAdmin, requireUser } from './access';
-import { kitError, normalizeCode } from '../lib/kits';
+import { kitError, kitLanguages, localizeLesson, normalizeCode } from '../lib/kits';
 
 const MAX_OPEN_QUESTIONS = 10;
 
@@ -23,6 +23,8 @@ async function requireKitAccess(ctx: QueryCtx, kitId: Id<'kits'>) {
     return { me, kit, progress };
 }
 
+const stitchesOf = (lessons: { stitch: string }[]) => [...new Set(lessons.map(l => l.stitch).filter(Boolean))];
+
 // ——— Espace cliente ———
 
 export const catalog = query({
@@ -30,8 +32,9 @@ export const catalog = query({
         const me = await requireUser(ctx);
         const owned = new Set((await ctx.db.query('kitProgress').withIndex('by_user', q => q.eq('userId', me.id)).collect()).map(p => p.kitId));
         return (await ctx.db.query('kits').collect()).filter(k => k.published).map(k => ({
-            _id: k._id, title: k.title, description: k.description, coverUrl: k.coverUrl,
-            lessonCount: k.lessons.length, stitches: [...new Set(k.lessons.map(l => l.stitch).filter(Boolean))],
+            _id: k._id, title: k.title, description: k.description, coverUrl: k.coverUrl, translations: k.translations,
+            lessonCount: k.lessons.length, stitches: stitchesOf(k.lessons),
+            stitchTranslations: Object.fromEntries(kitLanguages.map(lang => [lang, stitchesOf(k.lessons.map(l => localizeLesson(l, lang)))])),
             needsCode: !!k.accessCode, owned: owned.has(k._id),
         }));
     }
@@ -46,7 +49,7 @@ export const mine = query({
             const kit = await ctx.db.get(p.kitId);
             if (!kit || (!kit.published && me.role !== 'admin')) continue;
             result.push({
-                kit: { _id: kit._id, title: kit.title, description: kit.description, coverUrl: kit.coverUrl, lessons: await withVideoFiles(ctx, kit.lessons) },
+                kit: { _id: kit._id, title: kit.title, description: kit.description, coverUrl: kit.coverUrl, translations: kit.translations, lessons: await withVideoFiles(ctx, kit.lessons) },
                 progress: { completed: p.completed, notes: p.notes, startedAt: p.startedAt, updatedAt: p.updatedAt, finishedAt: p.finishedAt ?? null },
             });
         }
@@ -206,5 +209,22 @@ export const importDrafts = internalMutation({
             existing.add(data.title.trim().toLowerCase()); created.push(data.title);
         }
         return { created, skipped };
+    }
+});
+
+/** Import en ligne de commande des traductions : ne modifie que les textes traduits des kits et des leçons existants. */
+export const importTranslations = internalMutation({
+    args: { kits: v.array(v.object({ id: v.id('kits'), translations: kitTranslations, lessons: v.array(v.object({ id: v.string(), translations: lessonTranslations })) })) },
+    handler: async (ctx, { kits }) => {
+        const updated: string[] = [], missing: string[] = [];
+        for (const item of kits) {
+            const kit = await ctx.db.get(item.id); if (!kit) { missing.push(item.id); continue; }
+            const byId = new Map(item.lessons.map(l => [l.id, l.translations]));
+            const data = { ...kit, translations: item.translations, lessons: kit.lessons.map(l => byId.has(l.id) ? { ...l, translations: byId.get(l.id) } : l) };
+            const error = kitError(data); if (error) throw new ConvexError(`${kit.title} : ${error}`);
+            await ctx.db.patch(item.id, { translations: data.translations, lessons: data.lessons, revision: kit.revision + 1, updatedAt: Date.now() });
+            updated.push(kit.title);
+        }
+        return { updated, missing };
     }
 });

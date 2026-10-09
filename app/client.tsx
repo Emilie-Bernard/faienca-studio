@@ -6,7 +6,7 @@ import { anyApi } from 'convex/server';
 import { ConvexError } from 'convex/values';
 import { useAuthActions } from '@convex-dev/auth/react';
 import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Flower2, KeyRound, LogOut, MessageCircleQuestion, Plus, PlayCircle, Sparkles, Trash2 } from 'lucide-react';
-import { progressPercent, videoSource, type Lesson, type Role } from '../lib/kits';
+import { localizeKit, localizeLesson, progressPercent, videoSource, type KitLanguage, type KitText, type Lesson, type Role, type Translations } from '../lib/kits';
 import { takePendingKit, type PendingKit } from '../lib/pending-kit';
 import Loader from './loader';
 import Brand from './brand';
@@ -18,8 +18,8 @@ import { LanguageSwitcher, useI18n } from './i18n';
 
 export type Me = { _id: string; name: string; email: string; role: Role };
 export type LessonView = Lesson & { videoFileUrl: string | null };
-type MyKit = { kit: { _id: string; title: string; description: string; coverUrl: string; lessons: LessonView[] }; progress: { completed: string[]; notes: string; startedAt: number; updatedAt: number; finishedAt: number | null } };
-type CatalogKit = { _id: string; title: string; description: string; coverUrl: string; lessonCount: number; stitches: string[]; needsCode: boolean; owned: boolean };
+type MyKit = { kit: { _id: string; title: string; description: string; coverUrl: string; translations?: Translations<KitText>; lessons: LessonView[] }; progress: { completed: string[]; notes: string; startedAt: number; updatedAt: number; finishedAt: number | null } };
+type CatalogKit = { _id: string; title: string; description: string; coverUrl: string; translations?: Translations<KitText>; lessonCount: number; stitches: string[]; stitchTranslations?: Partial<Record<KitLanguage, string[]>>; needsCode: boolean; owned: boolean };
 type Prefill = PendingKit & { error: string };
 type Question = { _id: string; lessonId: string; authorName: string; body: string; createdAt: number; answer: string | null; answeredAt: number | null; mine: boolean };
 
@@ -27,9 +27,10 @@ export const errorText = (err: unknown, fallback: string) => err instanceof Conv
 const doneCount = (k: MyKit) => k.kit.lessons.filter(l => k.progress.completed.includes(l.id)).length;
 
 export default function ClientSpace({ me }: { me: Me }) {
-    const kits = useQuery(anyApi.kits.mine) as MyKit[] | undefined;
-    const catalog = useQuery(anyApi.kits.catalog) as CatalogKit[] | undefined;
-    const { signOut } = useAuthActions(); const { t: { client: t, loader }, error: errorOf } = useI18n();
+    const { signOut } = useAuthActions(); const { t: { client: t, loader }, error: errorOf, locale } = useI18n();
+    // Contenu des kits dans la langue de l'interface (le français si la traduction manque).
+    const kits = (useQuery(anyApi.kits.mine) as MyKit[] | undefined)?.map(k => ({ ...k, kit: { ...localizeKit(k.kit, locale), lessons: k.kit.lessons.map(l => localizeLesson(l, locale)) } }));
+    const catalog = (useQuery(anyApi.kits.catalog) as CatalogKit[] | undefined)?.map(k => ({ ...localizeKit(k, locale), stitches: k.stitchTranslations?.[locale as KitLanguage] ?? k.stitches }));
     const [view, setView] = useState<'kits' | 'catalogue'>('kits'), [kitId, setKitId] = useState<string | null>(null), [toast, setToast] = useState('');
     useEffect(() => { const p = new URLSearchParams(location.search); setKitId(p.get('kit')); if (p.get('vue') === 'catalogue') setView('catalogue'); }, []);
     useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(''), 4500); return () => clearTimeout(t); }, [toast]);

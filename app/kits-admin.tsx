@@ -14,15 +14,18 @@ import { restrictToVerticalAxis } from '@dnd-kit/modifiers';
 import { CSS } from '@dnd-kit/utilities';
 import { cn } from '@/lib/utils';
 import { ask } from '@/components/confirm-dialog';
-import { emptyKit, kitError, newLesson, type KitInput, type Lesson, type Role } from '../lib/kits';
+import { emptyKit, kitError, newLesson, type KitInput, type KitLanguage, type KitText, type Lesson, type LessonText, type Role } from '../lib/kits';
 import { VideoPlayer, errorText, type LessonView } from './client';
 
 type AdminKit = Omit<KitInput, 'lessons'> & { _id: string; revision: number; updatedAt: number; lessons: LessonView[]; stats: { clientes: number; finished: number; openQuestions: number } };
 type AdminQuestion = { _id: string; kitTitle: string; lessonTitle: string; authorName: string; authorEmail: string; body: string; createdAt: number; answer: string | null; answeredAt: number | null };
 type Account = { _id: string; name: string; email: string; role: Role; locked: boolean; createdAt: number; kits: number };
 const dateFr = (t: number) => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
-const inputOf = (k: AdminKit): KitInput => ({ title: k.title, description: k.description, coverUrl: k.coverUrl, accessCode: k.accessCode, published: k.published, lessons: k.lessons.map(lessonInput) });
-const lessonInput = ({ id, title, stitch, videoUrl, videoStorageId, notes }: Lesson): Lesson => ({ id, title, stitch, videoUrl, notes, ...(videoStorageId ? { videoStorageId } : {}) });
+const inputOf = (k: AdminKit): KitInput => ({ title: k.title, description: k.description, coverUrl: k.coverUrl, accessCode: k.accessCode, published: k.published, lessons: k.lessons.map(lessonInput), ...(k.translations ? { translations: k.translations } : {}) });
+const lessonInput = ({ id, title, stitch, videoUrl, videoStorageId, notes, translations }: Lesson): Lesson => ({ id, title, stitch, videoUrl, notes, ...(videoStorageId ? { videoStorageId } : {}), ...(translations ? { translations } : {}) });
+/** Langue du contenu en cours d'édition : le français d'origine ou l'une de ses traductions. */
+type EditLanguage = 'fr' | KitLanguage;
+const EDIT_LANGUAGES: { id: EditLanguage, label: string }[] = [{ id: 'fr', label: 'Français' }, { id: 'en', label: 'English' }, { id: 'es', label: 'Español' }];
 function Empty({ text }: { text: string }) { return <div className="empty"><Flower2 size={28} /><p>{text}</p></div>; }
 
 export type LeaveGuard = MutableRefObject<() => Promise<boolean>>;
@@ -52,6 +55,7 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
     // Leçons dépliées : toutes repliées pour un kit existant, la nouvelle leçon s'ouvre.
     const [open, setOpen] = useState<Set<string>>(() => new Set());
     const [removed, setRemoved] = useState<{ lesson: Lesson, index: number } | null>(null);
+    const [lang, setLang] = useState<EditLanguage>('fr');
     useEffect(() => { if (!removed) return; const t = setTimeout(() => setRemoved(null), 10000); return () => clearTimeout(t); }, [removed]);
     const release = () => { leaveGuard.current = async () => true; };
     useEffect(() => {
@@ -60,6 +64,8 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
     });
     useEffect(() => { if (!dirty) return; const before = (e: BeforeUnloadEvent) => e.preventDefault(); addEventListener('beforeunload', before); return () => removeEventListener('beforeunload', before); }, [dirty]);
     const set = (patch: Partial<KitInput>) => { setData(d => ({ ...d, ...patch })); setDirty(true); };
+    const text = (field: keyof KitText) => lang === 'fr' ? data[field] : data.translations?.[lang]?.[field] ?? '';
+    const setText = (field: keyof KitText, value: string) => lang === 'fr' ? set({ [field]: value }) : set({ translations: { ...data.translations, [lang]: { title: '', description: '', ...data.translations?.[lang], [field]: value } } });
     const setLessons = (fn: (lessons: Lesson[]) => Lesson[]) => { setData(d => ({ ...d, lessons: fn(d.lessons) })); setDirty(true); };
     const setLesson = (id: string, patch: Partial<Lesson>) => setLessons(ls => ls.map(l => l.id === id ? { ...l, ...patch } : l));
     const toggle = (id: string, force?: boolean) => setOpen(o => { const n = new Set(o); if (force ?? !n.has(id)) n.add(id); else n.delete(id); return n; });
@@ -110,13 +116,16 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
         {error && <div role="alert" className="error">{error}<button type="button" onClick={() => setError('')}>Fermer</button></div>}
         <div className="kit-page-grid">
             <div className="kit-page-main">
+                <section className="panel kit-languages"><div className="panel-title"><h2>Langue du contenu</h2><div className="segmented" role="group" aria-label="Langue du contenu">{EDIT_LANGUAGES.map(l => <button key={l.id} type="button" lang={l.id} aria-pressed={lang === l.id} className={lang === l.id ? 'selected' : ''} onClick={() => setLang(l.id)}>{l.label}</button>)}</div></div>
+                    <p className="muted kit-page-help">{lang === 'fr' ? 'Le titre, la description et le texte des leçons en français. Choisissez English ou Español pour les traduire.' : 'Traduction affichée aux clientes qui consultent le site dans cette langue. Un champ vide reprend le texte français, indiqué en gris.'}</p>
+                </section>
                 <section className="panel"><div className="panel-title"><h2>Informations</h2></div><div className="grid gap-5">
-                    <div className="grid gap-1.5"><Label htmlFor="kit-title" className={fieldLabel}>Titre</Label><Input id="kit-title" required maxLength={200} value={data.title} placeholder="Le vase aux citrons" className="h-11 bg-card text-base" onChange={e => set({ title: e.target.value })} /></div>
-                    <div className="grid gap-1.5"><Label htmlFor="kit-description" className={fieldLabel}>Description</Label><Textarea id="kit-description" rows={4} maxLength={5000} value={data.description} placeholder="Ce que contient le kit, le niveau, le temps de broderie…" className="bg-card text-base" onChange={e => set({ description: e.target.value })} /></div>
+                    <div className="grid gap-1.5"><Label htmlFor="kit-title" className={fieldLabel}>Titre</Label><Input id="kit-title" lang={lang} required={lang === 'fr'} maxLength={200} value={text('title')} placeholder={lang === 'fr' ? 'Le vase aux citrons' : data.title} className="h-11 bg-card text-base" onChange={e => setText('title', e.target.value)} /></div>
+                    <div className="grid gap-1.5"><Label htmlFor="kit-description" className={fieldLabel}>Description</Label><Textarea id="kit-description" lang={lang} rows={4} maxLength={5000} value={text('description')} placeholder={lang === 'fr' ? 'Ce que contient le kit, le niveau, le temps de broderie…' : data.description} className="bg-card text-base" onChange={e => setText('description', e.target.value)} /></div>
                 </div></section>
                 <section className="panel"><div className="panel-title"><h2>Leçons</h2><div className="flex items-center gap-3"><span className="muted">{data.lessons.length} leçon{data.lessons.length > 1 ? 's' : ''}</span>{data.lessons.length > 1 && <Button type="button" variant="link" className="h-auto p-0 text-xs" onClick={() => setOpen(o => o.size ? new Set() : new Set(data.lessons.map(l => l.id)))}>{open.size ? 'Tout replier' : 'Tout déplier'}</Button>}</div></div>
                     <p className="muted kit-page-help">Une leçon par point ou par étape. Glissez la poignée <GripVertical className="inline size-3.5 align-[-2px]" /> pour changer l’ordre, ou utilisez les flèches.</p>
-                    <LessonList lessons={data.lessons} open={open} uploading={uploading} existingFile={existingFile}
+                    <LessonList lessons={data.lessons} lang={lang} open={open} uploading={uploading} existingFile={existingFile}
                         onReorder={lessons => setLessons(() => lessons)} onToggle={toggle} onChange={setLesson} onRemove={removeLesson} onUpload={(id, f) => void upload(id, f)} />
                     {removed && <div className="lesson-undo" role="status">Leçon « {removed.lesson.title || 'sans titre'} » supprimée.<Button type="button" variant="link" className="h-auto p-0 font-semibold text-yellow-cream" onClick={undoRemove}>Annuler</Button></div>}
                     <Button id="add-lesson" type="button" variant="outline" className="mt-3 w-full border-dashed" onClick={addLesson}><Plus />Ajouter une leçon</Button>
@@ -153,8 +162,8 @@ const dndAnnouncements = (lessons: Lesson[]) => {
 };
 
 /** Liste des leçons, réordonnable à la souris, au doigt ou au clavier. */
-function LessonList({ lessons, open, uploading, existingFile, onReorder, onToggle, onChange, onRemove, onUpload }: {
-    lessons: Lesson[], open: Set<string>, uploading: string, existingFile: (l: Lesson) => string | null,
+function LessonList({ lessons, lang, open, uploading, existingFile, onReorder, onToggle, onChange, onRemove, onUpload }: {
+    lessons: Lesson[], lang: EditLanguage, open: Set<string>, uploading: string, existingFile: (l: Lesson) => string | null,
     onReorder: (lessons: Lesson[]) => void, onToggle: (id: string) => void, onChange: (id: string, patch: Partial<Lesson>) => void, onRemove: (id: string) => void, onUpload: (id: string, f: File) => void,
 }) {
     const sensors = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 4 } }), useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates }));
@@ -179,19 +188,21 @@ function LessonList({ lessons, open, uploading, existingFile, onReorder, onToggl
     return <DndContext sensors={sensors} collisionDetection={closestCenter} modifiers={[restrictToVerticalAxis]} onDragEnd={onDragEnd}
         accessibility={{ announcements: dndAnnouncements(lessons), screenReaderInstructions: { draggable: 'Pour déplacer une leçon, appuyez sur Espace ou Entrée, utilisez les flèches haut et bas, puis Espace ou Entrée pour la déposer. Échap annule.' } }}>
         <SortableContext items={lessons.map(l => l.id)} strategy={verticalListSortingStrategy}>
-            <ol className="lesson-list-edit">{lessons.map((l, i) => <LessonCard key={l.id} lesson={l} index={i} count={lessons.length} open={open.has(l.id)} highlighted={moved === l.id}
+            <ol className="lesson-list-edit">{lessons.map((l, i) => <LessonCard key={l.id} lesson={l} lang={lang} index={i} count={lessons.length} open={open.has(l.id)} highlighted={moved === l.id}
                 file={l.videoStorageId ? existingFile(l) : null} uploading={uploading}
                 onToggle={() => onToggle(l.id)} onMove={step => move(l.id, step)} onChange={patch => onChange(l.id, patch)} onRemove={() => onRemove(l.id)} onUpload={f => onUpload(l.id, f)} />)}</ol>
         </SortableContext>
     </DndContext>;
 }
 
-function LessonCard({ lesson: l, index, count, open, highlighted, file, uploading, onToggle, onMove, onChange, onRemove, onUpload }: {
-    lesson: Lesson, index: number, count: number, open: boolean, highlighted: boolean, file: string | null, uploading: string,
+function LessonCard({ lesson: l, lang, index, count, open, highlighted, file, uploading, onToggle, onMove, onChange, onRemove, onUpload }: {
+    lesson: Lesson, lang: EditLanguage, index: number, count: number, open: boolean, highlighted: boolean, file: string | null, uploading: string,
     onToggle: () => void, onMove: (step: -1 | 1) => void, onChange: (patch: Partial<Lesson>) => void, onRemove: () => void, onUpload: (f: File) => void,
 }) {
     const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, transition, isDragging } = useSortable({ id: l.id });
     const hasVideo = !!(l.videoUrl || l.videoStorageId);
+    const text = (field: keyof LessonText) => lang === 'fr' ? l[field] : l.translations?.[lang]?.[field] ?? '';
+    const setText = (field: keyof LessonText, value: string) => onChange(lang === 'fr' ? { [field]: value } : { translations: { ...l.translations, [lang]: { title: '', stitch: '', notes: '', ...l.translations?.[lang], [field]: value } } });
     return <li ref={setNodeRef} data-lesson={l.id} style={{ transform: CSS.Translate.toString(transform), transition }}
         className={cn('lesson-card', open && 'open', isDragging && 'dragging', highlighted && 'moved')}>
         <div className="lesson-card-head">
@@ -209,12 +220,12 @@ function LessonCard({ lesson: l, index, count, open, highlighted, file, uploadin
             </div>
         </div>
         {open && <div className="lesson-card-body" id={'lesson-body-' + l.id}><div className="form-grid">
-            <label>Titre<input id={'lesson-' + l.id} required maxLength={200} value={l.title} placeholder="Le contour du vase" onChange={e => onChange({ title: e.target.value })} /></label>
-            <label>Point brodé<input maxLength={120} value={l.stitch} placeholder="Point de tige" onChange={e => onChange({ stitch: e.target.value })} /></label>
+            <label>Titre<input id={'lesson-' + l.id} lang={lang} required={lang === 'fr'} maxLength={200} value={text('title')} placeholder={lang === 'fr' ? 'Le contour du vase' : l.title} onChange={e => setText('title', e.target.value)} /></label>
+            <label>Point brodé<input lang={lang} maxLength={120} value={text('stitch')} placeholder={lang === 'fr' ? 'Point de tige' : l.stitch} onChange={e => setText('stitch', e.target.value)} /></label>
             <label className="full">Lien vidéo (YouTube, Vimeo ou fichier .mp4)<input type="url" value={l.videoUrl} placeholder="https://youtu.be/…" disabled={!!l.videoStorageId} onChange={e => onChange({ videoUrl: e.target.value })} /></label>
             <div className="full upload-row">{l.videoStorageId ? <><span className="chip">{file ? 'Fichier vidéo joint' : 'Nouveau fichier prêt à enregistrer'}</span><Button type="button" variant="outline" onClick={() => onChange({ videoStorageId: undefined })}>Retirer le fichier</Button></> : <Button asChild variant="outline"><label className="upload-button"><Upload />{uploading === l.id ? 'Téléversement…' : 'Téléverser une vidéo'}<input type="file" accept="video/*" hidden disabled={!!uploading} onChange={e => { const f = e.target.files?.[0]; if (f) onUpload(f); e.target.value = ''; }} /></label></Button>}</div>
             {(file || l.videoUrl) && <div className="full lesson-preview"><VideoPlayer lesson={{ title: l.title, videoUrl: l.videoUrl, videoFileUrl: file }} /></div>}
-            <label className="full">Conseils affichés sous la vidéo<textarea rows={3} maxLength={5000} value={l.notes} onChange={e => onChange({ notes: e.target.value })} /></label>
+            <label className="full">Conseils affichés sous la vidéo<textarea lang={lang} rows={3} maxLength={5000} value={text('notes')} placeholder={lang === 'fr' ? undefined : l.notes} onChange={e => setText('notes', e.target.value)} /></label>
         </div></div>}
     </li>;
 }

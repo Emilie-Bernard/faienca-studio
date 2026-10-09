@@ -1,8 +1,24 @@
 export const roles = ['admin', 'cliente'] as const;
 export type Role = typeof roles[number];
 
-export interface Lesson { id: string; title: string; stitch: string; videoUrl: string; videoStorageId?: string; notes: string }
-export interface KitInput { title: string; description: string; coverUrl: string; accessCode: string; published: boolean; lessons: Lesson[] }
+/** Langues de traduction du contenu des kits ; le français est la langue d'origine. */
+export const kitLanguages = ['en', 'es'] as const;
+export type KitLanguage = typeof kitLanguages[number];
+export type Translations<T> = Partial<Record<KitLanguage, T>>;
+export type LessonText = { title: string; stitch: string; notes: string };
+export type KitText = { title: string; description: string };
+
+export interface Lesson { id: string; title: string; stitch: string; videoUrl: string; videoStorageId?: string; notes: string; translations?: Translations<LessonText> }
+export interface KitInput { title: string; description: string; coverUrl: string; accessCode: string; published: boolean; lessons: Lesson[]; translations?: Translations<KitText> }
+
+/** Remplace chaque champ par sa traduction quand elle existe ; un champ vide reprend le français. */
+export function localized<T extends Record<string, string>>(base: T, translations: Translations<T> | undefined, language: string): T {
+  const t = (kitLanguages as readonly string[]).includes(language) ? translations?.[language as KitLanguage] : undefined;
+  if (!t) return base;
+  return Object.fromEntries(Object.entries(base).map(([k, v]) => [k, t[k]?.trim() ? t[k] : v])) as T;
+}
+export const localizeLesson = <L extends Lesson>(l: L, language: string): L => ({ ...l, ...localized({ title: l.title, stitch: l.stitch, notes: l.notes }, l.translations, language) });
+export const localizeKit = <K extends KitText & { translations?: Translations<KitText> }>(k: K, language: string): K => ({ ...k, ...localized({ title: k.title, description: k.description }, k.translations, language) });
 
 export const emptyKit = (): KitInput => ({ title: '', description: '', coverUrl: '', accessCode: '', published: false, lessons: [] });
 export const newLesson = (): Lesson => ({ id: crypto.randomUUID(), title: '', stitch: '', videoUrl: '', notes: '' });
@@ -19,7 +35,9 @@ export function kitError(k: KitInput): string | null {
     if (!l.title.trim() || l.title.length > 200) return `La leçon ${i + 1} doit avoir un titre (200 caractères maximum).`;
     if (l.stitch.length > 120 || l.notes.length > 5000) return `La leçon ${i + 1} est trop longue.`;
     if (l.videoUrl && !/^https:\/\//i.test(l.videoUrl)) return `La vidéo de la leçon ${i + 1} doit être un lien https://.`;
+    for (const t of Object.values(l.translations ?? {})) if (t && (t.title.length > 200 || t.stitch.length > 120 || t.notes.length > 5000)) return `Une traduction de la leçon ${i + 1} est trop longue.`;
   }
+  for (const t of Object.values(k.translations ?? {})) if (t && (t.title.length > 200 || t.description.length > 5000)) return 'Une traduction du titre ou de la description est trop longue.';
   return null;
 }
 

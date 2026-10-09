@@ -7,13 +7,19 @@ const emailSteps = v.array(v.object({
     klaviyoFlowActionId: v.optional(v.string()),
     klaviyoDelayActionId: v.optional(v.string()),
 }));
+/** Traductions anglaise et espagnole ; un champ vide reprend le français. */
+const translated = <T extends Record<string, ReturnType<typeof v.string>>>(fields: T) => v.optional(v.object({ en: v.optional(v.object(fields)), es: v.optional(v.object(fields)) }));
+export const lessonTranslations = translated({ title: v.string(), stitch: v.string(), notes: v.string() });
+export const kitTranslations = translated({ title: v.string(), description: v.string() });
 export const lessonFields = v.object({
     id: v.string(), title: v.string(), stitch: v.string(), videoUrl: v.string(),
     videoStorageId: v.optional(v.id('_storage')), notes: v.string(),
+    translations: lessonTranslations,
 });
 export const kitFields = {
     title: v.string(), description: v.string(), coverUrl: v.string(), accessCode: v.string(),
     published: v.boolean(), lessons: v.array(lessonFields),
+    translations: kitTranslations,
 };
 export const entryFields = {
     kind: v.union(v.literal('publication'), v.literal('projet'), v.literal('strategie'), v.literal('newsletter'), v.literal('scenario')),
