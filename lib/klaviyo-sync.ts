@@ -47,11 +47,14 @@ export function timeDelayActionDefinition(existing: FlowActionNode | undefined, 
   };
 }
 
+/** Edensor (titres et boutons Faïença), servie par le studio. Gmail et Outlook Windows l’ignorent et passent à Georgia. */
+export const EMAIL_FONT_FACE = "@font-face{font-family:'Edensor';src:url('https://faienca-studio.vercel.app/fonts/Edensor.otf') format('opentype');font-weight:normal;font-style:normal;}";
+
 export function wrapEmailHtml(body: string) {
   const trimmed = body.trim();
   if (!trimmed) return '<!DOCTYPE html><html><body></body></html>';
   if (/<html[\s>]/i.test(trimmed)) return trimmed;
-  return `<!DOCTYPE html><html><body style="font-family:Georgia,serif;color:#2c2825;line-height:1.6;max-width:600px;margin:0 auto;padding:24px;">${trimmed}</body></html>`;
+  return `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${EMAIL_FONT_FACE}</style></head><body style="font-family:Georgia,serif;color:#2c2825;line-height:1.6;max-width:600px;margin:0 auto;padding:24px;">${trimmed}</body></html>`;
 }
 
 export function scenarioStructureFingerprint(steps: Pick<EmailStep, 'delayDays'>[]) {

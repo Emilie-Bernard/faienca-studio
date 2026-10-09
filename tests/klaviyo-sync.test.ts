@@ -15,6 +15,7 @@ import {
 describe('klaviyo-sync helpers', () => {
   it('wraps plain HTML for e-mail clients', () => {
     expect(wrapEmailHtml('<p>Bonjour</p>')).toContain('<html>');
+    expect(wrapEmailHtml('<p>Bonjour</p>')).toContain("font-family:'Edensor'");
     expect(wrapEmailHtml('<html><body>x</body></html>')).toContain('<html>');
   });
 
