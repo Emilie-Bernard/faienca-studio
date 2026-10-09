@@ -70,9 +70,11 @@ export class KlaviyoClient {
         attributes: {
           name,
           audiences: { included: [listId] },
+          // Révision 2024-10-15 et suivantes : `datetime` directement sous send_strategy (plus de `options_static`).
           send_strategy: {
             method: 'static',
-            options_static: { datetime: sendDatetime },
+            datetime: sendDatetime,
+            options: { is_local: false },
           },
           'campaign-messages': {
             data: [{
