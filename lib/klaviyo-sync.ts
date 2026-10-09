@@ -50,11 +50,46 @@ export function timeDelayActionDefinition(existing: FlowActionNode | undefined, 
 /** Edensor (titres et boutons Faïença), servie par le studio. Gmail et Outlook Windows l’ignorent et passent à Georgia. */
 export const EMAIL_FONT_FACE = "@font-face{font-family:'Edensor';src:url('https://faienca-studio.vercel.app/fonts/Edensor.otf') format('opentype');font-weight:normal;font-style:normal;}";
 
+const EMAIL_LOGO_URL = 'https://faienca.fr/cdn/shop/files/Logo_textuel_bleu.png?width=360';
+
+/** Styles du contenu rédigé dans l’éditeur (paragraphes, titres, images, liens). */
+const EMAIL_CONTENT_CSS = [
+  EMAIL_FONT_FACE,
+  'body{margin:0;padding:0;background:#faf6f0;}',
+  ".fa-content p{margin:0 0 16px;font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.65;color:#4a443f;}",
+  ".fa-content h2,.fa-content h3{margin:28px 0 12px;font-family:'Edensor',Georgia,'Times New Roman',serif;font-weight:normal;color:#2c2825;line-height:1.25;}",
+  '.fa-content h2{font-size:28px;}.fa-content h3{font-size:22px;}',
+  '.fa-content img{display:block;width:100%;max-width:100%;height:auto;margin:24px 0;border-radius:10px;}',
+  '.fa-content a{color:#4553ae;}',
+  '.fa-content ul,.fa-content ol{margin:0 0 16px;padding-left:22px;color:#4a443f;font-family:Georgia,serif;font-size:16px;line-height:1.65;}',
+  '@media (max-width:620px){.fa-card{border-radius:0 !important;}.fa-pad{padding-left:22px !important;padding-right:22px !important;}}',
+].join('');
+
+/** L’éditeur met le texte des boutons en gras (<strong>) ; Edensor n’a pas de graisse, on le retire. */
+export function stripButtonBold(html: string) {
+  return html.replace(/(<a\b[^>]*display:\s*inline-block[^>]*>)\s*<strong>([\s\S]*?)<\/strong>\s*(<\/a>)/gi, '$1$2$3');
+}
+
+/** Mise en page Faïença : fond crème, carte blanche, logo, liseré doré, pied de page avec désinscription Klaviyo. */
 export function wrapEmailHtml(body: string) {
-  const trimmed = body.trim();
-  if (!trimmed) return '<!DOCTYPE html><html><body></body></html>';
-  if (/<html[\s>]/i.test(trimmed)) return trimmed;
-  return `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${EMAIL_FONT_FACE}</style></head><body style="font-family:Georgia,serif;color:#2c2825;line-height:1.6;max-width:600px;margin:0 auto;padding:24px;">${trimmed}</body></html>`;
+  const content = body.trim();
+  if (!content) return '<!DOCTYPE html><html><body></body></html>';
+  if (/<html[\s>]/i.test(content)) return content;
+  const trimmed = stripButtonBold(content);
+  return `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>${EMAIL_CONTENT_CSS}</style></head>`
+    + `<body style="margin:0;padding:0;background:#faf6f0;">`
+    + `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#faf6f0;"><tr><td align="center" style="padding:28px 12px;">`
+    + `<table role="presentation" class="fa-card" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;background:#ffffff;border:1px solid #e4dcd1;border-radius:14px;">`
+    + `<tr><td align="center" style="padding:30px 32px 18px;"><a href="https://faienca.fr" style="text-decoration:none;"><img src="${EMAIL_LOGO_URL}" alt="Faïença" width="160" style="display:block;width:160px;max-width:160px;height:auto;border:0;"></a></td></tr>`
+    + `<tr><td style="padding:0 32px;"><div style="height:1px;line-height:1px;font-size:1px;background:#c9a96e;opacity:0.7;">&nbsp;</div></td></tr>`
+    + `<tr><td class="fa-pad fa-content" style="padding:28px 40px 12px;font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.65;color:#4a443f;">${trimmed}</td></tr>`
+    + `</table>`
+    + `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;"><tr><td align="center" style="padding:22px 24px 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.7;color:#9a918a;">`
+    + `Faïença Broderie · broderie main inspirée de la Provence<br>`
+    + `<a href="https://faienca.fr" style="color:#9a918a;">faienca.fr</a> · <a href="https://instagram.com/faienca_broderie" style="color:#9a918a;">Instagram</a><br>`
+    + `{{ organization.full_address }}<br>{% unsubscribe 'Se désinscrire' %}`
+    + `</td></tr></table>`
+    + `</td></tr></table></body></html>`;
 }
 
 export function scenarioStructureFingerprint(steps: Pick<EmailStep, 'delayDays'>[]) {

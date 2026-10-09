@@ -14,7 +14,14 @@ import {
 
 describe('klaviyo-sync helpers', () => {
   it('wraps plain HTML for e-mail clients', () => {
-    expect(wrapEmailHtml('<p>Bonjour</p>')).toContain('<html>');
+    const wrapped = wrapEmailHtml('<p>Bonjour</p>');
+    expect(wrapped).toContain('<html lang="fr">');
+    expect(wrapped).toContain('<p>Bonjour</p>');
+    expect(wrapped).toContain('Logo_textuel_bleu');
+    expect(wrapped).toContain("{% unsubscribe");
+    const full = '<!DOCTYPE html><html lang="fr"><body>x</body></html>';
+    expect(wrapEmailHtml(full)).toBe(full);
+    expect(wrapEmailHtml('<p><a href="https://faienca.fr" style="display: inline-block; padding: 14px"><strong>Faire le quiz</strong></a></p>')).toContain('padding: 14px">Faire le quiz</a>');
     expect(wrapEmailHtml('<p>Bonjour</p>')).toContain("font-family:'Edensor'");
     expect(wrapEmailHtml('<html><body>x</body></html>')).toContain('<html>');
   });

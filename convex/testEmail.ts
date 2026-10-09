@@ -40,7 +40,7 @@ export const sendTest = action({
         const res = await fetch('https://api.resend.com/emails', {
             method: 'POST',
             headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-            body: JSON.stringify({ from, to: [to], subject: testSubject(subject), html: wrapEmailHtml(previewMergeTags(body, 'Émilie')) }),
+            body: JSON.stringify({ from, to: [to], subject: testSubject(subject), html: previewMergeTags(wrapEmailHtml(body), 'Émilie') }),
         });
         if (!res.ok) throw new ConvexError(`Resend a refusé l’envoi (${res.status}) : ${(await res.text()).slice(0, 300)}`);
         return { to };
