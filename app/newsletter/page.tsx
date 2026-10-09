@@ -1,7 +1,7 @@
 'use client';
 import { useState, type FormEvent } from 'react';
+import { Button } from '@/components/ui/button';
 import { ArrowUpRight, Flower2 } from 'lucide-react';
-import '../globals.css';
 
 export default function NewsletterPage() {
   const [email, setEmail] = useState('');
@@ -69,10 +69,10 @@ export default function NewsletterPage() {
             <input type="checkbox" required checked={consent} onChange={e => setConsent(e.target.checked)} disabled={busy} />
             <span>J’accepte de recevoir la newsletter Faïença. Je peux me désinscrire à tout moment.</span>
           </label>
-          <button className="primary" type="submit" disabled={busy || !consent}>
+          <Button type="submit" disabled={busy || !consent}>
             {busy ? 'Inscription…' : 'S’inscrire à la newsletter'}
             <ArrowUpRight size={18} />
-          </button>
+          </Button>
         </form>
         {message && <p className="newsletter-success" role="status">{message}</p>}
         {error && <p role="alert" className="error">{error}</p>}

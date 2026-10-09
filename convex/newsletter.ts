@@ -1,7 +1,7 @@
-import { queryGeneric as query, mutationGeneric as mutation, type GenericQueryCtx, type GenericDataModel } from 'convex/server';
+import { queryGeneric as query, mutationGeneric as mutation } from 'convex/server';
 import { paginationOptsValidator } from 'convex/server';
 import { v, ConvexError } from 'convex/values';
-import { getAuthUserId } from '@convex-dev/auth/server';
+import { requireAdmin } from './access';
 
 const subscriberStatus = v.union(v.literal('pending'), v.literal('subscribed'), v.literal('unsubscribed'));
 
@@ -17,13 +17,7 @@ const subscriberDoc = v.object({
   lastError: v.optional(v.string()),
 });
 
-async function owner(ctx: GenericQueryCtx<GenericDataModel>) {
-  const id = await getAuthUserId(ctx);
-  if (!id) throw new ConvexError('Connexion requise.');
-  const user = await ctx.db.get(id);
-  if (user?.githubId !== (process.env.OWNER_GITHUB_ID || 'owner')) throw new ConvexError('Accès réservé à la propriétaire.');
-  return id;
-}
+const owner = requireAdmin;
 
 function normalizeEmail(email: string) {
   return email.trim().toLowerCase();

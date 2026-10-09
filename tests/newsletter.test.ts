@@ -98,7 +98,7 @@ describe('HTML e-mail', () => {
     const html = buildEmailButtonHtml('Découvrir', 'https://faienca.fr');
     expect(html).toContain('Découvrir');
     expect(html).toContain('https://faienca.fr');
-    expect(html).toContain('background:#bb633e');
+    expect(html).toContain('background:#4553ae');
     expect(normalizeEmailHtml('<p></p>')).toBe('');
   });
 });

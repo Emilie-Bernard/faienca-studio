@@ -1,6 +1,6 @@
 # Faïença Studio
 
-Espace privé en français : calendrier éditorial, projets, stratégie et résultats manuels. Next.js, TypeScript, Convex et Convex Auth. L’accès se fait avec le mot de passe `STUDIO_PASSWORD` défini dans l’environnement Convex, puis chaque fonction serveur vérifie l’identifiant propriétaire.
+Espace privé en français : calendrier éditorial, projets, stratégie et résultats manuels. Next.js, TypeScript, Convex et Convex Auth. Deux rôles : **admin** (tout l’atelier) et **cliente** (espace brodeuses : suivi des kits, vidéos des points, questions-réponses). Les clientes créent leur compte avec e-mail et mot de passe ; le compte atelier historique se connecte toujours avec `STUDIO_PASSWORD` via le lien « Accès atelier ». Chaque fonction serveur vérifie le rôle.
 
 ## Prise en main
 
@@ -20,6 +20,8 @@ Node.js 22 ou 24, puis `npm ci`, `npx convex dev`, `npm run dev`. Le projet Conv
 - Développement : `https://vivid-boar-705.convex.cloud`
 - Production : `https://ardent-jellyfish-354.convex.cloud`
 - Console : https://dashboard.convex.dev/t/emilie-bernard/faienca-studio
+
+Interface : composants [shadcn/ui](https://ui.shadcn.com) dans `components/ui` (Tailwind CSS v4, thème aux couleurs Faïença dans `app/ui.css`). L’ancien CSS (`app/globals.css`) est chargé dans le layer `legacy`, sous les utilitaires Tailwind : un composant shadcn garde toujours son style. Ajouter un composant avec `npx shadcn@latest add <nom>` puis vérifier que ses imports pointent vers `@/lib/utils`. Sous 1024 px (768 px dans l’espace cliente), la barre latérale laisse place à un menu tiroir (`components/app-nav.tsx`).
 
 L’environnement local `.env.local` est ignoré par Git. `NEXT_PUBLIC_CONVEX_URL` est une URL publique de service, jamais une clé. La configuration Vercel cible le déploiement Convex de production.
 
@@ -49,6 +51,26 @@ Les tests Convex vérifient le refus des accès anonymes, le refus d’un autre 
 À valider après connexion réelle : mot de passe d’atelier, CRUD depuis le navigateur, rechargement, deux onglets synchronisés, rendu ordinateur/téléphone et exports sur l’adresse Vercel. Les tests automatisés ne remplaceront pas ces contrôles réels.
 
 La première version n’envoie aucune publication sur les réseaux et ne récupère aucune statistique automatiquement. La sauvegarde JSON est un export complet des données métier ; elle ne contient pas les sessions ou secrets de connexion et n’offre pas encore de restauration par bouton.
+
+## Espace brodeuses (rôle cliente)
+
+- **Créer un compte** sur la page d’accueil (prénom, e-mail, mot de passe de 8 caractères minimum). Tout nouveau compte est **cliente** ; le rôle n’est jamais lu depuis le formulaire.
+- **Ajouter un kit** : la cliente choisit un kit publié et saisit son code d’activation (casse, espaces et tirets ignorés). Sans code défini, l’accès est libre.
+- **Suivi** : une vidéo par leçon, case « J’ai brodé ce point », pourcentage, date de fin, points appris et notes personnelles.
+- **Questions et réponses** par kit ou par leçon. Une question reste privée jusqu’à la réponse, puis la réponse est visible par toutes les clientes du kit. Dix questions en attente maximum par cliente.
+
+Côté atelier (admin), trois vues s’ajoutent au menu :
+
+- **Kits** : titre, description, couverture, code d’activation, publication, leçons (point brodé, vidéo, conseils). Vidéo par lien YouTube (non répertorié conseillé), Vimeo, fichier `.mp4` en https, ou fichier téléversé dans Convex. Décocher « Publié » masque le kit sans effacer les progressions ; supprimer efface progressions, questions et vidéos téléversées.
+- **Questions** : questions en attente, réponse ou modification, suppression.
+- **Clientes** : liste des comptes et changement de rôle. Le compte atelier reste toujours admin et personne ne peut modifier son propre rôle. Pour utiliser un compte e-mail comme admin, le créer puis le promouvoir depuis le compte atelier.
+
+**Mot de passe oublié** : depuis l’écran de connexion, la cliente reçoit par e-mail un code à 8 chiffres (valable 15 minutes) envoyé via Resend, puis choisit un nouveau mot de passe. Variables Convex (développement et production) :
+
+- `AUTH_RESEND_KEY` : clé API Resend (`npx convex env set AUTH_RESEND_KEY -- …`, ne jamais l’écrire dans le dépôt).
+- `AUTH_EMAIL_FROM` : expéditeur, par exemple `Faïença <bonjour@faienca.fr>`. Le domaine doit être vérifié dans Resend ; sans cette variable, l’adresse de test `onboarding@resend.dev` n’envoie qu’à l’adresse du compte Resend.
+
+L’adresse e-mail n’est pas vérifiée à l’inscription.
 
 ## Newsletter et Klaviyo
 

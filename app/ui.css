@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+/* L'ancien CSS vit dans le layer « legacy » : il passe au-dessus du reset Tailwind,
+   mais sous les utilitaires, pour que les composants shadcn gardent leur style. */
+@layer theme, base, legacy, components, utilities;
+
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import './globals.css' layer(legacy);
+
+@custom-variant dark (&:is(.dark *));
+
+/* Thème shadcn aux couleurs du brand board Faïença */
+:root {
+    --radius: 0.5rem;
+    --background: #faf6f0;
+    --foreground: #2c2825;
+    --card: #fffdf8;
+    --card-foreground: #2c2825;
+    --popover: #fffdf8;
+    --popover-foreground: #2c2825;
+    --primary: #4553ae;
+    --primary-foreground: #fffdf8;
+    --secondary: #f3ede4;
+    --secondary-foreground: #2c2825;
+    --muted: #f3ede4;
+    --muted-foreground: #6b625a;
+    --accent: #eceefa;
+    --accent-foreground: #37417f;
+    --destructive: #c64b2e;
+    --border: #e4dcd1;
+    --input: #d8cec1;
+    --ring: #4553ae;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-destructive: var(--destructive);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+    --color-violet-blue: #4553ae;
+    --color-earth-yellow: #f9ad4f;
+    --color-jasper: #c64b2e;
+    --color-yellow-cream: #fffccf;
+    --color-reseda-green: #6c8245;
+    --radius-sm: calc(var(--radius) - 4px);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) + 4px);
+    --font-sans: var(--font-body);
+    --font-serif: var(--font-heading);
+}

@@ -31,7 +31,7 @@ export default function RichEmailEditor({ value, onChange, placeholder = 'Rédig
       Underline,
       Link.configure({
         openOnClick: false,
-        HTMLAttributes: { style: 'color:#154757;text-decoration:underline;' },
+        HTMLAttributes: { style: 'color:#4553ae;text-decoration:underline;' },
       }),
       Image.configure({
         HTMLAttributes: { style: 'display:block;max-width:100%;height:auto;margin:16px auto;border-radius:8px;' },

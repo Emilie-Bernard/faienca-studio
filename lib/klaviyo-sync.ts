@@ -51,7 +51,7 @@ export function wrapEmailHtml(body: string) {
   const trimmed = body.trim();
   if (!trimmed) return '<!DOCTYPE html><html><body></body></html>';
   if (/<html[\s>]/i.test(trimmed)) return trimmed;
-  return `<!DOCTYPE html><html><body style="font-family:Georgia,serif;color:#154757;line-height:1.6;max-width:600px;margin:0 auto;padding:24px;">${trimmed}</body></html>`;
+  return `<!DOCTYPE html><html><body style="font-family:Georgia,serif;color:#2c2825;line-height:1.6;max-width:600px;margin:0 auto;padding:24px;">${trimmed}</body></html>`;
 }
 
 export function scenarioStructureFingerprint(steps: Pick<EmailStep, 'delayDays'>[]) {

@@ -2,7 +2,6 @@ import { v, ConvexError } from 'convex/values';
 import { action, internalMutation, internalQuery, type ActionCtx } from './_generated/server';
 import { type GenericQueryCtx, type GenericDataModel, type GenericMutationCtx } from 'convex/server';
 import { internal } from './_generated/api';
-import { getAuthUserId } from '@convex-dev/auth/server';
 import { KlaviyoClient, klaviyoCampaignUrl, klaviyoFlowUrl } from '../lib/klaviyo-api';
 import {
   buildFlowDefinition,
@@ -18,6 +17,7 @@ import {
 } from '../lib/klaviyo-sync';
 
 import type { Id } from './_generated/dataModel';
+import { requireAdmin } from './access';
 
 type SyncEntry = {
   _id: Id<'entries'>;
@@ -43,12 +43,7 @@ type SyncEntry = {
   }>;
 };
 
-async function owner(ctx: GenericQueryCtx<GenericDataModel> | GenericMutationCtx<GenericDataModel>) {
-  const id = await getAuthUserId(ctx);
-  if (!id) throw new ConvexError('Connexion requise.');
-  const user = await ctx.db.get(id);
-  if (user?.githubId !== (process.env.OWNER_GITHUB_ID || 'owner')) throw new ConvexError('Accès réservé à la propriétaire.');
-}
+const owner = requireAdmin;
 
 function klaviyoEnv() {
   const apiKey = process.env.KLAVIYO_PRIVATE_API_KEY;

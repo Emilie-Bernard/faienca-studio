@@ -1,16 +1,11 @@
-import { queryGeneric as query, mutationGeneric as mutation, type GenericQueryCtx, type GenericDataModel } from 'convex/server';
+import { queryGeneric as query, mutationGeneric as mutation } from 'convex/server';
 import { v, ConvexError } from 'convex/values';
-import { getAuthUserId } from '@convex-dev/auth/server';
 import { entryFields } from './schema';
 import { contentStatuses, projectStatuses, certainties, stages, newsletterCampaignStatuses, scenarioStatuses, type EntryInput } from '../lib/model';
 import seeds from './seed.json';
+import { requireAdmin } from './access';
 
-async function owner(ctx: GenericQueryCtx<GenericDataModel>) {
-    const id = await getAuthUserId(ctx); if (!id) throw new ConvexError('Connexion requise.');
-    const user = await ctx.db.get(id);
-    if (user?.githubId !== (process.env.OWNER_GITHUB_ID || 'owner')) throw new ConvexError('Accès réservé à la propriétaire.');
-    return id;
-}
+const owner = requireAdmin;
 function validate(e: EntryInput) {
     if (!e.title.trim() || e.title.length > 200) throw new ConvexError('Le titre doit contenir entre 1 et 200 caractères.');
     const statuses = e.kind === 'publication' ? contentStatuses : e.kind === 'projet' ? projectStatuses : e.kind === 'newsletter' ? newsletterCampaignStatuses : e.kind === 'scenario' ? scenarioStatuses : certainties;

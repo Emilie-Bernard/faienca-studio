@@ -6,3 +6,8 @@ node_modules/
 .convex/
 *.tsbuildinfo
 test-results/
+scripts/shopify-to-etsy/.env
+scripts/shopify-to-etsy/.etsy-tokens.json
+scripts/shopify-to-etsy/.shopify-tokens.json
+scripts/shopify-to-etsy/mapping.json
+scripts/shopify-to-etsy/.taxonomy-cache.json

@@ -214,7 +214,7 @@ export function scenarioCsvExample() {
     scenarioCsvFields.join(';'),
     ['Welcome series', 'Brouillon', '0', 'Bienvenue chez Faïença', '<h2>Bonjour</h2><p>Merci de votre inscription. Voici l’atelier, le fil et le Sud.</p>', 'Recopier dans un Flow Klaviyo'].map(csvEscape).join(';'),
     ['Welcome series', 'Brouillon', '2', 'L’histoire de Faïença', '<p>Depuis l’atelier, nous créons des pièces uniques…</p>', ''].map(csvEscape).join(';'),
-    ['Welcome series', 'Brouillon', '7', 'Votre première création', '<p>Commencez par une astuce simple, puis découvrez le kit vedette.</p><p style="text-align:center;margin:28px 0;"><a href="https://faienca.fr" style="display:inline-block;padding:14px 28px;background:#bb633e;color:#ffffff;text-decoration:none;border-radius:8px;font-weight:600;">Découvrir Faïença</a></p>', ''].map(csvEscape).join(';'),
+    ['Welcome series', 'Brouillon', '7', 'Votre première création', '<p>Commencez par une astuce simple, puis découvrez le kit vedette.</p><p style="text-align:center;margin:28px 0;"><a href="https://faienca.fr" style="display:inline-block;padding:14px 28px;background:#4553ae;color:#fffdf8;text-decoration:none;border-radius:8px;font-weight:600;">Découvrir Faïença</a></p>', ''].map(csvEscape).join(';'),
   ].join('\r\n');
 }
 
