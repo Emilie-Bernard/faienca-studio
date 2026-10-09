@@ -6,6 +6,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
 import Brand from '@/app/brand';
+import { useI18n } from '@/app/i18n';
 
 export type NavItem = { label: string; icon: ComponentType<{ size?: number }>; count?: number };
 export type NavGroup = { title?: string; items: NavItem[] };
@@ -27,14 +28,14 @@ export function NavLinks({ groups, current, onSelect, compact = false }: { group
 
 /** En-tête compact avec bouton menu : remplace la barre latérale sous 1024 px. */
 export function MobileNav({ label, title, groups, current, onSelect, footer }: { label: string, title: string, groups: NavGroup[], current: string, onSelect: (label: string) => void, footer?: ReactNode }) {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false); const { t } = useI18n();
     return <header className="mobile-header">
         <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger asChild><Button variant="ghost" size="icon" aria-label="Ouvrir le menu"><Menu className="size-5" /></Button></SheetTrigger>
+            <SheetTrigger asChild><Button variant="ghost" size="icon" aria-label={t.nav.open}><Menu className="size-5" /></Button></SheetTrigger>
             <SheetContent side="left" className="w-[290px] gap-0 bg-card p-0">
                 <SheetHeader className="px-5 pt-5 pb-3">
                     <SheetTitle asChild><a className="brand" href="/"><Brand label={label} /></a></SheetTitle>
-                    <SheetDescription className="sr-only">Menu de navigation</SheetDescription>
+                    <SheetDescription className="sr-only">{t.nav.description}</SheetDescription>
                 </SheetHeader>
                 <div className="flex-1 overflow-y-auto px-3 pb-4"><NavLinks groups={groups} current={current} onSelect={v => { setOpen(false); onSelect(v); }} /></div>
                 {footer && <><Separator /><div className="p-3">{footer}</div></>}

@@ -2,6 +2,7 @@
 import { useState, type FormEvent } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowUpRight, Flower2 } from 'lucide-react';
+import { LanguageSwitcher, Lines, useI18n } from '../i18n';
 
 export default function NewsletterPage() {
   const [email, setEmail] = useState('');
@@ -9,6 +10,7 @@ export default function NewsletterPage() {
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+  const { t: { newsletter: t, tagline }, server } = useI18n();
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -28,15 +30,15 @@ export default function NewsletterPage() {
       });
       const data = await response.json() as { ok?: boolean; message?: string; error?: string };
       if (!response.ok) {
-        setError(data.error ?? 'Inscription impossible pour le moment.');
+        setError(data.error ? server(data.error) : t.failed);
         return;
       }
-      setMessage(data.message ?? 'Merci pour votre inscription !');
+      setMessage(data.message ? server(data.message) : t.thanks);
       setEmail('');
       setConsent(false);
       form.reset();
     } catch {
-      setError('Connexion impossible. Réessayez dans un instant.');
+      setError(t.offline);
     } finally {
       setBusy(false);
     }
@@ -47,11 +49,12 @@ export default function NewsletterPage() {
       <div className="welcome-brand">
         <Flower2 size={40} />
         <span>faïença<span className="studio-word">NEWSLETTER</span></span>
+        <LanguageSwitcher />
       </div>
       <section>
-        <div className="eyebrow">LE FIL ENTRE VOS MAINS</div>
-        <h1>Recevez nos actualités<br />et nos belles idées créatives.</h1>
-        <p>Astuces, coulisses de l’atelier et nouveautés Faïença — directement dans votre boîte mail.</p>
+        <div className="eyebrow">{t.eyebrow}</div>
+        <h1><Lines text={t.title} /></h1>
+        <p>{t.intro}</p>
         <form className="newsletter-form" onSubmit={submit}>
           <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="newsletter-honeypot" />
           <input
@@ -59,26 +62,26 @@ export default function NewsletterPage() {
             type="email"
             required
             autoComplete="email"
-            placeholder="Votre adresse e-mail"
-            aria-label="Adresse e-mail"
+            placeholder={t.placeholder}
+            aria-label={t.emailLabel}
             value={email}
             onChange={e => setEmail(e.target.value)}
             disabled={busy}
           />
           <label className="newsletter-consent">
             <input type="checkbox" required checked={consent} onChange={e => setConsent(e.target.checked)} disabled={busy} />
-            <span>J’accepte de recevoir la newsletter Faïença. Je peux me désinscrire à tout moment.</span>
+            <span>{t.consent}</span>
           </label>
           <Button type="submit" disabled={busy || !consent}>
-            {busy ? 'Inscription…' : 'S’inscrire à la newsletter'}
+            {busy ? t.subscribing : t.subscribe}
             <ArrowUpRight size={18} />
           </Button>
         </form>
         {message && <p className="newsletter-success" role="status">{message}</p>}
         {error && <p role="alert" className="error">{error}</p>}
-        <small className="newsletter-note">Après inscription, une série de mails de bienvenue peut vous être envoyée automatiquement.</small>
+        <small className="newsletter-note">{t.note}</small>
       </section>
-      <footer>Le Sud dans les idées. Le fil entre les mains.</footer>
+      <footer>{tagline}</footer>
     </main>
   );
 }

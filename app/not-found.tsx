@@ -2,24 +2,29 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { MESSAGES } from '../lib/i18n';
+import { getLocale } from '../lib/locale-server';
+import { LanguageSwitcher, Lines } from './i18n';
 
-export const metadata: Metadata = { title: 'Page introuvable · Faïença Studio' };
+export async function generateMetadata(): Promise<Metadata> { return { title: MESSAGES[await getLocale()].meta.notFound }; }
 
 /** Un panneau de carreaux de faïence où il manque une pièce : la page demandée. */
 const TILES = 16, MISSING = 6;
 
-export default function NotFound() {
+export default async function NotFound() {
+    const all = MESSAGES[await getLocale()], t = all.notFound;
     return <main className="not-found">
         <section className="not-found-text">
-            <Link href="/" className="not-found-brand"><img src="/brand/logo-horizontal.svg" alt="Faïença, accueil" /></Link>
-            <div className="eyebrow">ERREUR 404</div>
-            <h1>Il manque<br />un carreau.</h1>
-            <p>Cette page s’est détachée du motif. Elle a peut-être été déplacée, ou le lien contient une petite erreur.</p>
+            <Link href="/" className="not-found-brand"><img src="/brand/logo-horizontal.svg" alt={t.home} /></Link>
+            <LanguageSwitcher className="not-found-lang" />
+            <div className="eyebrow">{t.eyebrow}</div>
+            <h1><Lines text={t.title} /></h1>
+            <p>{t.body}</p>
             <div className="not-found-actions">
-                <Button asChild size="lg"><Link href="/"><ArrowLeft />Revenir à l’atelier</Link></Button>
-                <Button asChild size="lg" variant="outline"><a href="https://faienca.fr" target="_blank" rel="noreferrer">Découvrir les kits<ArrowUpRight /></a></Button>
+                <Button asChild size="lg"><Link href="/"><ArrowLeft />{t.back}</Link></Button>
+                <Button asChild size="lg" variant="outline"><a href="https://faienca.fr" target="_blank" rel="noreferrer">{t.kits}<ArrowUpRight /></a></Button>
             </div>
-            <footer>Le Sud dans les idées. Le fil entre les mains.</footer>
+            <footer>{all.tagline}</footer>
         </section>
         <div className="not-found-tiles" aria-hidden="true">
             {Array.from({ length: TILES }, (_, i) => i === MISSING

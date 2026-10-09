@@ -1952,7 +1952,8 @@ summary {
     text-align: left
 }
 
-.newsletter-consent input {
+.welcome .newsletter-consent input {
+    width: auto;
     margin-top: 3px;
     flex-shrink: 0
 }
@@ -3711,4 +3712,49 @@ button.kit-card:hover {
 .daily-todos li svg.auto {
     flex: none;
     color: #a8641a
+}
+
+/* Sélecteur de langue (FR · EN · ES) de l'espace brodeuses */
+.lang-switch {
+    display: inline-flex;
+    flex: none;
+    gap: 2px;
+    padding: 2px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: #fffdf8
+}
+
+.lang-switch button {
+    min-width: 34px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font: 600 11px var(--font-body);
+    letter-spacing: 1px;
+    color: #6f665d;
+    cursor: pointer
+}
+
+.lang-switch button:hover {
+    color: var(--ink)
+}
+
+.lang-switch button[aria-pressed=true] {
+    background: var(--violet-blue);
+    color: #fff
+}
+
+.welcome-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.welcome-brand .lang-switch {
+    margin-left: auto
+}
+
+.not-found-lang {
+    align-self: flex-start;
+    margin-top: 18px
 }
