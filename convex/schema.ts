@@ -57,5 +57,7 @@ export default defineSchema({
     todos: defineTable({
         title: v.string(), day: v.string(), createdAt: v.number(),
         doneDay: v.optional(v.string()), doneAt: v.optional(v.number()),
-    }).index('by_doneDay', ['doneDay']),
+        // Tâche proposée automatiquement : clé de l'élément d'origine, pour ne pas la proposer deux fois.
+        source: v.optional(v.string()), dismissed: v.optional(v.boolean()),
+    }).index('by_doneDay', ['doneDay']).index('by_source', ['source']),
 });

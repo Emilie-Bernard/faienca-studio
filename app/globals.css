@@ -3695,3 +3695,20 @@ button.kit-card:hover {
     font-size: 13px;
     margin-top: 8px
 }
+
+.daily-todos .daily-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.daily-todos .daily-actions button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px
+}
+
+.daily-todos li svg.auto {
+    flex: none;
+    color: #a8641a
+}
