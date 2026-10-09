@@ -29,7 +29,15 @@ export default function RichEmailEditor({ value, onChange, placeholder = 'Rédig
     extensions: [
       StarterKit.configure({ heading: { levels: [2, 3] } }),
       Underline,
-      Link.configure({
+      // Garde le style propre à un lien (les boutons d’e-mail) : il s’ajoute après le style par défaut et l’emporte.
+      Link.extend({
+        addAttributes() {
+          return {
+            ...this.parent?.(),
+            style: { default: null, parseHTML: el => el.getAttribute('style'), renderHTML: attrs => (attrs.style ? { style: attrs.style } : {}) },
+          };
+        },
+      }).configure({
         openOnClick: false,
         HTMLAttributes: { style: 'color:#4553ae;text-decoration:underline;' },
       }),
