@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { ask as confirmAsk } from '@/components/confirm-dialog';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
@@ -7,6 +7,7 @@ import { ConvexError } from 'convex/values';
 import { useAuthActions } from '@convex-dev/auth/react';
 import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Flower2, KeyRound, LogOut, MessageCircleQuestion, Plus, PlayCircle, Sparkles, Trash2 } from 'lucide-react';
 import { progressPercent, videoSource, type Lesson, type Role } from '../lib/kits';
+import { takePendingKit, type PendingKit } from '../lib/pending-kit';
 import Loader from './loader';
 import Brand from './brand';
 import { MobileNav, type NavGroup } from '@/components/app-nav';
@@ -17,6 +18,7 @@ export type Me = { _id: string; name: string; email: string; role: Role };
 export type LessonView = Lesson & { videoFileUrl: string | null };
 type MyKit = { kit: { _id: string; title: string; description: string; coverUrl: string; lessons: LessonView[] }; progress: { completed: string[]; notes: string; startedAt: number; updatedAt: number; finishedAt: number | null } };
 type CatalogKit = { _id: string; title: string; description: string; coverUrl: string; lessonCount: number; stitches: string[]; needsCode: boolean; owned: boolean };
+type Prefill = PendingKit & { error: string };
 type Question = { _id: string; lessonId: string; authorName: string; body: string; createdAt: number; answer: string | null; answeredAt: number | null; mine: boolean };
 
 export const errorText = (err: unknown, fallback: string) => err instanceof ConvexError && typeof err.data === 'string' ? err.data : fallback;
@@ -34,6 +36,21 @@ export default function ClientSpace({ me }: { me: Me }) {
         const v = next.view ?? 'kits', k = next.kit ?? null; setView(v); setKitId(k);
         history.replaceState(null, '', k ? '?kit=' + encodeURIComponent(k) : v === 'catalogue' ? '?vue=catalogue' : location.pathname); window.scrollTo(0, 0);
     };
+    // Lien « Vidéos du kit » de la boutique : active le kit mis de côté, puis l'ouvre.
+    const activate = useMutation(anyApi.kits.activate);
+    const [prefill, setPrefill] = useState<Prefill | null>(null);
+    const pendingHandled = useRef(false);
+    useEffect(() => {
+        if (!kits || !catalog || pendingHandled.current) return;
+        pendingHandled.current = true;
+        const pending = takePendingKit();
+        if (!pending) return;
+        if (kits.some(k => k.kit._id === pending.kitId)) { go({ kit: pending.kitId }); return; }
+        activate({ kitId: pending.kitId, code: pending.code })
+            .then(() => { setToast('Kit ajouté à votre carnet. Bonne broderie !'); go({ kit: pending.kitId }); })
+            .catch(err => { setPrefill({ ...pending, error: errorText(err, 'Ce kit n’a pas pu être ajouté. Saisissez le code de la carte glissée dans votre boîte.') }); go({ view: 'catalogue' }); });
+        // eslint-disable-next-line react-hooks/exhaustive-deps -- une seule fois, quand le carnet est chargé
+    }, [kits, catalog]);
     if (!kits || !catalog) return <Loader message="Préparation de votre carnet…" />;
     const firstName = me.name.split(/\s+/)[0] || 'brodeuse';
     const navGroups: NavGroup[] = [{ items: [{ label: 'Mes kits', icon: BookHeart }, { label: 'Ajouter un kit', icon: Plus }] }];
@@ -49,7 +66,7 @@ export default function ClientSpace({ me }: { me: Me }) {
         <MobileNav label="MON CARNET" title={open ? open.kit.title : current} groups={navGroups} current={open ? '' : current} onSelect={select} footer={<div className="flex flex-col gap-1"><div className="flex items-center gap-3 px-2 py-2"><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="truncate text-sm">{me.name || me.email}</span></div><Button variant="ghost" className="justify-start text-destructive hover:text-destructive" onClick={() => void signOut()}><LogOut />Déconnexion</Button></div>} />
         <main className="client-main">
             {open ? <KitView key={open.kit._id} item={open} onBack={() => go({ view: 'kits' })} onToast={setToast} />
-                : view === 'catalogue' ? <Catalogue kits={toDiscover} onActivated={id => { setToast('Kit ajouté à votre carnet. Bonne broderie !'); go({ kit: id }); }} />
+                : view === 'catalogue' ? <Catalogue kits={toDiscover} prefill={prefill} onActivated={id => { setToast('Kit ajouté à votre carnet. Bonne broderie !'); go({ kit: id }); }} />
                     : <Dashboard firstName={firstName} kits={kits} hasCatalogue={toDiscover.length > 0} onOpen={id => go({ kit: id })} onAdd={() => go({ view: 'catalogue' })} />}
         </main>
         {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
@@ -71,15 +88,15 @@ function Dashboard({ firstName, kits, hasCatalogue, onOpen, onAdd }: { firstName
     </>;
 }
 
-function Catalogue({ kits, onActivated }: { kits: CatalogKit[], onActivated: (id: string) => void }) {
+function Catalogue({ kits, prefill, onActivated }: { kits: CatalogKit[], prefill: Prefill | null, onActivated: (id: string) => void }) {
     return <>
         <div className="page-heading"><div><div className="eyebrow">AJOUTER UN KIT</div><h1>Activez votre kit.</h1><p>Le code se trouve sur la carte glissée dans votre boîte.</p></div></div>
-        {kits.length ? <div className="kit-grid">{kits.map(k => <ActivateCard key={k._id} kit={k} onActivated={onActivated} />)}</div> : <section className="panel client-empty"><Flower2 size={28} /><p>Tous les kits disponibles sont déjà dans votre carnet.</p></section>}
+        {kits.length ? <div className="kit-grid">{kits.map(k => <ActivateCard key={k._id} kit={k} prefill={prefill?.kitId === k._id ? prefill : null} onActivated={onActivated} />)}</div> : <section className="panel client-empty"><Flower2 size={28} /><p>Tous les kits disponibles sont déjà dans votre carnet.</p></section>}
     </>;
 }
 
-function ActivateCard({ kit, onActivated }: { kit: CatalogKit, onActivated: (id: string) => void }) {
-    const activate = useMutation(anyApi.kits.activate); const [code, setCode] = useState(''), [busy, setBusy] = useState(false), [error, setError] = useState('');
+function ActivateCard({ kit, prefill, onActivated }: { kit: CatalogKit, prefill: Prefill | null, onActivated: (id: string) => void }) {
+    const activate = useMutation(anyApi.kits.activate); const [code, setCode] = useState(prefill?.code ?? ''), [busy, setBusy] = useState(false), [error, setError] = useState(prefill?.error ?? '');
     const submit = async (e: FormEvent) => { e.preventDefault(); setBusy(true); setError(''); try { await activate({ kitId: kit._id, code }); onActivated(kit._id); } catch (err) { setError(errorText(err, 'L’activation a échoué. Réessayez.')); setBusy(false); } };
     return <article className="kit-card static"><Cover url={kit.coverUrl} /><div className="kit-card-body"><div className="card-top"><small>{kit.lessonCount} leçon{kit.lessonCount > 1 ? 's' : ''} vidéo</small></div><h3>{kit.title}</h3>{kit.description && <p>{kit.description}</p>}{kit.stitches.length > 0 && <div className="chips">{kit.stitches.map(s => <span key={s} className="chip">{s}</span>)}</div>}
         <form className="activate-form" onSubmit={submit}>{kit.needsCode && <label className="code-field"><KeyRound size={16} /><input value={code} onChange={e => setCode(e.target.value)} required placeholder="Code d’activation" aria-label={'Code d’activation pour ' + kit.title} autoComplete="off" autoCapitalize="characters" disabled={busy} /></label>}<Button disabled={busy}>{busy ? 'Activation…' : 'Ajouter à mes kits'}</Button></form>

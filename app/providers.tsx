@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -12,6 +12,7 @@ import { ArrowUpRight } from 'lucide-react';
 import Loader from './loader';
 import Studio from './studio';
 import ClientSpace, { type Me } from './client';
+import { peekPendingKit } from '../lib/pending-kit';
 const url = process.env.NEXT_PUBLIC_CONVEX_URL;
 const client = url ? new ConvexReactClient(url) : null;
 type Mode = 'signIn' | 'signUp' | 'atelier' | 'reset' | 'reset-verification';
@@ -40,6 +41,9 @@ function message(err: unknown, mode: Mode) {
 function AuthScreen() {
     const { signIn } = useAuthActions(); const [mode, setMode] = useState<Mode>('signIn'); const [error, setError] = useState(''), [notice, setNotice] = useState(''), [busy, setBusy] = useState(false), [email, setEmail] = useState('');
     const switchTo = (m: Mode) => { setMode(m); setError(''); setNotice(''); };
+    // Lien « Vidéos du kit » de la boutique : le kit est mis de côté jusqu'à la connexion.
+    const [kitWaiting, setKitWaiting] = useState(false);
+    useEffect(() => { setKitWaiting(!!peekPendingKit()); }, []);
     const submit = async (form: HTMLFormElement) => {
         setBusy(true); setError('');
         const data = new FormData(form);
@@ -83,7 +87,7 @@ function AuthScreen() {
         </Tabs>
         {alerts}
         <p className="auth-switch">{mode === 'signUp' ? <>Déjà un compte ? {link('Se connecter', () => switchTo('signIn'))}</> : <>Pas encore de compte ? {link('Créer un compte', () => switchTo('signUp'))}</>}</p>
-        {mode === 'signUp' && <small>Votre code d’activation se trouve dans la boîte de votre kit. Vous le saisirez juste après.</small>}
+        {kitWaiting ? <small>Votre kit sera ajouté à votre carnet dès que vous serez connectée.</small> : mode === 'signUp' && <small>Votre code d’activation se trouve dans la boîte de votre kit. Vous le saisirez juste après.</small>}
         <div className="auth-links">{link('Accès atelier', () => switchTo('atelier'), 'text-muted-foreground')}</div>
     </Welcome>;
 }
