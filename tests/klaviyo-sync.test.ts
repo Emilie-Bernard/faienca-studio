@@ -21,7 +21,15 @@ describe('klaviyo-sync helpers', () => {
     expect(wrapped).toContain("{% unsubscribe");
     const full = '<!DOCTYPE html><html lang="fr"><body>x</body></html>';
     expect(wrapEmailHtml(full)).toBe(full);
-    expect(wrapEmailHtml('<p><a href="https://faienca.fr" style="display: inline-block; padding: 14px"><strong>Faire le quiz</strong></a></p>')).toContain('padding: 14px">Faire le quiz</a>');
+    const old = wrapEmailHtml('<p><a href="https://faienca.fr" style="display: inline-block; padding: 14px; background: rgb(69, 83, 174); border-radius: 3px"><strong>Faire le quiz</strong></a></p>');
+    expect(old).toContain('text-transform:uppercase;');
+    expect(old).toContain('background:#4553ae;color:#ffffff;');
+    expect(old).toContain('>Faire le quiz</a>');
+    expect(old).not.toContain('<strong>');
+    expect(old).not.toContain('border-radius: 3px');
+    expect(wrapEmailHtml('<p><a href="https://faienca.fr" style="display:inline-block;background:transparent;border:1px solid #4553ae;">Voir</a></p>')).toContain('background:transparent;color:#4553ae;');
+    expect(wrapEmailHtml('<p>Bonjour</p>')).toContain('Atelier Faïença · Barcelone');
+    expect(wrapEmailHtml('<p>Bonjour</p>')).toContain("font-family:'Myriad Pro'");
     expect(wrapEmailHtml('<p>Bonjour</p>')).toContain("font-family:'Edensor'");
     expect(wrapEmailHtml('<html><body>x</body></html>')).toContain('<html>');
   });
@@ -117,6 +125,16 @@ describe('KlaviyoClient', () => {
   it('expose des URLs Klaviyo', () => {
     expect(klaviyoCampaignUrl('ABC')).toContain('ABC');
     expect(klaviyoFlowUrl('FLOW1')).toContain('FLOW1');
+  });
+
+  it('crée une campagne avec une stratégie d’envoi statique au format courant', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, text: async () => JSON.stringify({ data: { id: 'CMP1', relationships: { 'campaign-messages': { data: [{ id: 'MSG1' }] } } } }) });
+    vi.stubGlobal('fetch', fetchMock);
+    const client = new KlaviyoClient({ apiKey: 'pk_test' });
+    await expect(client.createEmailCampaign('Octobre', 'LIST1', { fromEmail: 'hello@faienca.fr', fromLabel: 'Faïença' }, 'Objet', '', '2026-10-15T09:00:00+01:00')).resolves.toEqual({ campaignId: 'CMP1', messageId: 'MSG1' });
+    const body = JSON.parse(fetchMock.mock.calls[0]![1].body);
+    expect(body.data.attributes.send_strategy).toEqual({ method: 'static', datetime: '2026-10-15T09:00:00+01:00', options: { is_local: false } });
+    expect(JSON.stringify(body)).not.toContain('options_static');
   });
 
   it('envoie definition dans le PATCH d’une action de flow', async () => {

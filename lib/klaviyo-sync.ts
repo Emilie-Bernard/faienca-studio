@@ -1,5 +1,6 @@
 import type { KlaviyoSender } from './klaviyo-api';
 import type { EmailStep } from './model';
+import { EMAIL_TEXT_FONT, restyleEmailButtons } from './email-html';
 
 export type FlowActionNode = {
   id?: string;
@@ -47,47 +48,55 @@ export function timeDelayActionDefinition(existing: FlowActionNode | undefined, 
   };
 }
 
-/** Edensor (titres et boutons Faïença), servie par le studio. Gmail et Outlook Windows l’ignorent et passent à Georgia. */
+/** Edensor (titres Faïença), servie par le studio. Gmail et Outlook Windows l’ignorent et passent à Georgia. */
 export const EMAIL_FONT_FACE = "@font-face{font-family:'Edensor';src:url('https://faienca-studio.vercel.app/fonts/Edensor.otf') format('opentype');font-weight:normal;font-style:normal;}";
 
 const EMAIL_LOGO_URL = 'https://faienca.fr/cdn/shop/files/Logo_textuel_bleu.png?width=360';
+const EMAIL_HEADING_FONT = "'Edensor',Georgia,'Times New Roman',serif";
 
-/** Styles du contenu rédigé dans l’éditeur (paragraphes, titres, images, liens). */
+/**
+ * Styles du contenu rédigé dans l’éditeur, alignés sur faienca.fr : texte en sans-serif (Myriad Pro sur le site),
+ * titres Edensor bleus, images et boutons à angles droits.
+ */
 const EMAIL_CONTENT_CSS = [
   EMAIL_FONT_FACE,
   'body{margin:0;padding:0;background:#faf6f0;}',
-  ".fa-content p{margin:0 0 16px;font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.65;color:#4a443f;}",
-  ".fa-content h2,.fa-content h3{margin:28px 0 12px;font-family:'Edensor',Georgia,'Times New Roman',serif;font-weight:normal;color:#2c2825;line-height:1.25;}",
-  '.fa-content h2{font-size:28px;}.fa-content h3{font-size:22px;}',
-  '.fa-content img{display:block;width:100%;max-width:100%;height:auto;margin:24px 0;border-radius:10px;}',
+  `.fa-content p{margin:0 0 18px;font-family:${EMAIL_TEXT_FONT};font-size:16px;line-height:1.7;color:#2c2825;}`,
+  `.fa-content h2,.fa-content h3{margin:30px 0 12px;font-family:${EMAIL_HEADING_FONT};font-weight:normal;line-height:1.2;letter-spacing:-0.3px;}`,
+  '.fa-content h2{font-size:34px;color:#4553ae;}.fa-content h3{font-size:24px;color:#2c2825;}',
+  '.fa-content h2:first-child,.fa-content h3:first-child{margin-top:0;}',
+  '.fa-content img{display:block;width:100%;max-width:100%;height:auto;margin:26px 0 !important;border-radius:0 !important;}',
   '.fa-content a{color:#4553ae;}',
-  '.fa-content ul,.fa-content ol{margin:0 0 16px;padding-left:22px;color:#4a443f;font-family:Georgia,serif;font-size:16px;line-height:1.65;}',
-  '@media (max-width:620px){.fa-card{border-radius:0 !important;}.fa-pad{padding-left:22px !important;padding-right:22px !important;}}',
+  `.fa-content ul,.fa-content ol{margin:0 0 18px;padding-left:22px;color:#2c2825;font-family:${EMAIL_TEXT_FONT};font-size:16px;line-height:1.7;}`,
+  '.fa-content blockquote{margin:24px 0;padding:4px 0 4px 18px;border-left:2px solid #c9a96e;color:#5f5f66;font-style:italic;}',
+  '@media (max-width:620px){.fa-pad{padding-left:22px !important;padding-right:22px !important;}.fa-content h2{font-size:30px !important;}}',
 ].join('');
 
-/** L’éditeur met le texte des boutons en gras (<strong>) ; Edensor n’a pas de graisse, on le retire. */
-export function stripButtonBold(html: string) {
-  return html.replace(/(<a\b[^>]*display:\s*inline-block[^>]*>)\s*<strong>([\s\S]*?)<\/strong>\s*(<\/a>)/gi, '$1$2$3');
-}
-
-/** Mise en page Faïença : fond crème, carte blanche, logo, liseré doré, pied de page avec désinscription Klaviyo. */
+/**
+ * Mise en page Faïença, dans l’esprit de faienca.fr : fond crème, carte blanche à angles droits, logo bleu,
+ * sur-titre en capitales, texte sans-serif, pied de page avec la signature du site et la désinscription Klaviyo.
+ */
 export function wrapEmailHtml(body: string) {
   const content = body.trim();
   if (!content) return '<!DOCTYPE html><html><body></body></html>';
   if (/<html[\s>]/i.test(content)) return content;
-  const trimmed = stripButtonBold(content);
-  return `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>${EMAIL_CONTENT_CSS}</style></head>`
+  const styled = restyleEmailButtons(content);
+  const small = `font-family:${EMAIL_TEXT_FONT};font-size:12px;line-height:1.8;color:#8a8279;`;
+  const eyebrow = `font-family:${EMAIL_TEXT_FONT};font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#4553ae;`;
+  return `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="x-apple-disable-message-reformatting"><style>${EMAIL_CONTENT_CSS}</style></head>`
     + `<body style="margin:0;padding:0;background:#faf6f0;">`
-    + `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#faf6f0;"><tr><td align="center" style="padding:28px 12px;">`
-    + `<table role="presentation" class="fa-card" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;background:#ffffff;border:1px solid #e4dcd1;border-radius:14px;">`
-    + `<tr><td align="center" style="padding:30px 32px 18px;"><a href="https://faienca.fr" style="text-decoration:none;"><img src="${EMAIL_LOGO_URL}" alt="Faïença" width="160" style="display:block;width:160px;max-width:160px;height:auto;border:0;"></a></td></tr>`
-    + `<tr><td style="padding:0 32px;"><div style="height:1px;line-height:1px;font-size:1px;background:#c9a96e;opacity:0.7;">&nbsp;</div></td></tr>`
-    + `<tr><td class="fa-pad fa-content" style="padding:28px 40px 12px;font-family:Georgia,'Times New Roman',serif;font-size:16px;line-height:1.65;color:#4a443f;">${trimmed}</td></tr>`
+    + `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#faf6f0;"><tr><td align="center" style="padding:32px 12px 24px;">`
+    + `<table role="presentation" class="fa-card" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;background:#ffffff;border:1px solid #e9e2d8;">`
+    + `<tr><td align="center" style="padding:34px 32px 10px;"><a href="https://faienca.fr" style="text-decoration:none;"><img src="${EMAIL_LOGO_URL}" alt="Faïença" width="150" style="display:block;width:150px;max-width:150px;height:auto;border:0;"></a></td></tr>`
+    + `<tr><td align="center" style="padding:0 32px 26px;${eyebrow}">Atelier Faïença · Barcelone</td></tr>`
+    + `<tr><td style="padding:0 40px;" class="fa-pad"><div style="height:1px;line-height:1px;font-size:1px;background:#c9a96e;">&nbsp;</div></td></tr>`
+    + `<tr><td class="fa-pad fa-content" style="padding:30px 40px 16px;font-family:${EMAIL_TEXT_FONT};font-size:16px;line-height:1.7;color:#2c2825;">${styled}</td></tr>`
     + `</table>`
-    + `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;"><tr><td align="center" style="padding:22px 24px 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.7;color:#9a918a;">`
-    + `Faïença Broderie · broderie main inspirée de la Provence<br>`
-    + `<a href="https://faienca.fr" style="color:#9a918a;">faienca.fr</a> · <a href="https://instagram.com/faienca_broderie" style="color:#9a918a;">Instagram</a><br>`
-    + `{{ organization.full_address }}<br>{% unsubscribe 'Se désinscrire' %}`
+    + `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;"><tr><td align="center" style="padding:26px 24px 8px;">`
+    + `<div style="${eyebrow}margin-bottom:6px;">Faïença Broderie</div>`
+    + `<div style="${small}">Broderie traditionnelle inspirée du sud de la France<br>`
+    + `<a href="https://faienca.fr" style="color:#4553ae;text-decoration:none;">faienca.fr</a> &nbsp;·&nbsp; <a href="https://instagram.com/faienca_broderie" style="color:#4553ae;text-decoration:none;">Instagram</a><br>`
+    + `{{ organization.full_address }}<br>{% unsubscribe 'Se désinscrire' %}</div>`
     + `</td></tr></table>`
     + `</td></tr></table></body></html>`;
 }

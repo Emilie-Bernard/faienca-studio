@@ -99,6 +99,9 @@ describe('HTML e-mail', () => {
     expect(html).toContain('Découvrir');
     expect(html).toContain('https://faienca.fr');
     expect(html).toContain('background:#4553ae');
+    expect(html).toContain('text-transform:uppercase');
+    expect(html).toContain('border-radius:0');
+    expect(buildEmailButtonHtml('Voir', 'https://faienca.fr', 'outline')).toContain('background:transparent;color:#4553ae');
     expect(normalizeEmailHtml('<p></p>')).toBe('');
   });
 });

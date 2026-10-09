@@ -42,7 +42,7 @@ export default function RichEmailEditor({ value, onChange, placeholder = 'Rédig
         HTMLAttributes: { style: 'color:#4553ae;text-decoration:underline;' },
       }),
       Image.configure({
-        HTMLAttributes: { style: 'display:block;max-width:100%;height:auto;margin:16px auto;border-radius:8px;' },
+        HTMLAttributes: { style: 'display:block;width:100%;max-width:100%;height:auto;margin:24px auto;' },
       }),
       Placeholder.configure({ placeholder }),
       TextAlign.configure({ types: ['heading', 'paragraph'] }),
@@ -94,8 +94,10 @@ export default function RichEmailEditor({ value, onChange, placeholder = 'Rédig
     if (label === null) return;
     const url = window.prompt('Lien du bouton (https://…)', 'https://');
     if (!url?.trim()) return;
+    // Un seul bouton plein par e-mail de préférence ; les actions secondaires prennent le bouton à contour.
+    const outline = !window.confirm('Bouton principal (bleu plein) ? Annuler = bouton secondaire à contour.');
     try {
-      editor.chain().focus().insertContent(buildEmailButtonHtml(label, url)).run();
+      editor.chain().focus().insertContent(buildEmailButtonHtml(label, url, outline ? 'outline' : 'primary')).run();
     } catch (err) {
       window.alert(err instanceof Error ? err.message : 'Lien invalide.');
     }

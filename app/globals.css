@@ -2179,6 +2179,7 @@ summary {
     max-height: 360px;
     overflow: auto;
     padding: 16px 18px;
+    font-family: var(--font-body);
     font-size: 15px;
     line-height: 1.65;
     color: var(--ink)
@@ -2201,11 +2202,12 @@ summary {
 }
 
 .rich-email-content h2 {
-    font-size: 24px
+    font-size: 26px
 }
 
 .rich-email-content h3 {
-    font-size: 19px
+    font-size: 20px;
+    color: var(--ink)
 }
 
 .rich-email-content ul,
@@ -2224,10 +2226,11 @@ summary {
 
 .rich-email-content img {
     display: block;
+    width: 100%;
     max-width: 100%;
     height: auto;
     margin: 16px auto;
-    border-radius: 8px
+    border-radius: 0 !important
 }
 
 .rich-email-content a {
