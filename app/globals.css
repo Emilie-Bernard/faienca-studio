@@ -2256,6 +2256,12 @@ summary {
 }
 
 /* E-mails : éditeur en pleine page dans la vue Newsletter */
+@media (max-width: 1023px) {
+    .editor--page {
+        --page-sticky-top: 60px
+    }
+}
+
 .editor.editor--page {
     position: static;
     width: 100%;
@@ -2273,7 +2279,7 @@ summary {
 
 .editor--page header {
     position: sticky;
-    top: 0;
+    top: var(--page-sticky-top, 0px);
     z-index: 3;
     background: #fff;
     border-radius: 13px 13px 0 0
@@ -2303,7 +2309,7 @@ summary {
     background: #fff;
     border-radius: 8px 8px 0 0;
     position: sticky;
-    top: 90px;
+    top: calc(var(--page-sticky-top, 0px) + 90px);
     z-index: 2
 }
 
