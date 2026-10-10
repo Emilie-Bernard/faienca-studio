@@ -2,7 +2,7 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
-import { ArrowLeft, ExternalLink, Flower2, Package, Plus, ShoppingBasket, Trash2 } from 'lucide-react';
+import { ArrowLeft, Copy, ExternalLink, Flower2, Package, Plus, ShoppingBasket, Trash2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Textarea } from '@/components/ui/textarea';
 import { ask } from '@/components/confirm-dialog';
 import {
-  costSummary, emptyProduct, euro, materialPurposeLabels, materialPurposes, newContent, newMaterial, newShopLink, newTask, pdfLanguageLabels, pdfLanguages, productError, productStatuses, productTypeLabels, productTypes, taskProgress,
+  costSummary, duplicateProduct, emptyProduct, euro, isDefaultChecklist, launchChecklist, materialPurposeLabels, materialPurposes, newContent, newMaterial, newShopLink, newTask, pdfLanguageLabels, pdfLanguages, productError, productStatuses, productTypeLabels, productTypes, taskProgress,
   type Material, type PdfLanguage, type ProductFile, type ProductInput, type ProductType,
 } from '../lib/products';
 import { errorText } from './client';
@@ -30,17 +30,17 @@ const fieldLabel = 'text-xs font-semibold text-muted-foreground';
 /** Liste des produits, ou page d'édition d'un produit. */
 export function ProductsAdmin({ leaveGuard, onToast }: { leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
   const rows = useQuery(anyApi.products.list) as Row[] | undefined;
-  const [editing, setEditing] = useState<string | null>(null), [newType, setNewType] = useState<ProductType>('kit');
+  const [editing, setEditing] = useState<string | null>(null), [draft, setDraft] = useState<{ key: number, data: ProductInput | null }>({ key: 0, data: null });
   if (!rows) return <p className="muted">Chargement des produits…</p>;
   if (editing) {
     const product = editing === 'new' ? null : rows.find(r => r._id === editing);
     if (product === undefined) return <section className="panel"><div className="empty"><Flower2 size={28} /><p>Ce produit n’existe plus.</p></div><div className="flex justify-center"><Button variant="outline" onClick={() => setEditing(null)}><ArrowLeft />Retour aux produits</Button></div></section>;
-    return <ProductPage key={editing} product={product} type={newType} leaveGuard={leaveGuard} onBack={() => setEditing(null)} onCreated={id => setEditing(id)} onToast={onToast} />;
+    return <ProductPage key={editing + draft.key} product={product} initial={draft.data} leaveGuard={leaveGuard} onDuplicate={data => { setDraft(d => ({ key: d.key + 1, data: duplicateProduct(data) })); setEditing('new'); }} onBack={() => setEditing(null)} onCreated={id => setEditing(id)} onToast={onToast} />;
   }
-  const open = (type: ProductType) => { setNewType(type); setEditing('new'); };
+  const open = () => { setDraft(d => ({ key: d.key + 1, data: null })); setEditing('new'); };
   return <>
     <div className="page-tools"><div className="review-note"><Package size={22} /><p>Un espace par produit : contenu, matériaux à acheter avec leurs liens, PDF en trois langues et liste des étapes avant la mise en vente.</p></div>
-      <div className="filters"><span className="muted">{rows.length} produit{rows.length > 1 ? 's' : ''}</span><Button onClick={() => open('kit')}><Plus size={16} />Nouveau kit</Button><Button variant="outline" onClick={() => open('pdf')}><Plus size={16} />Nouveau modèle PDF</Button></div></div>
+      <div className="filters"><span className="muted">{rows.length} produit{rows.length > 1 ? 's' : ''}</span><Button onClick={open}><Plus size={16} />Nouveau produit</Button></div></div>
     {rows.length ? <div className="strategy-grid">{rows.map(p => {
       const { done, total } = taskProgress(p.tasks), { margin } = costSummary(p);
       return <button type="button" key={p._id} className="strategy-card" onClick={() => setEditing(p._id)}>
@@ -55,11 +55,11 @@ export function ProductsAdmin({ leaveGuard, onToast }: { leaveGuard: LeaveGuard,
   </>;
 }
 
-function ProductPage({ product, type, leaveGuard, onBack, onCreated, onToast }: { product: Row | null, type: ProductType, leaveGuard: LeaveGuard, onBack: () => void, onCreated: (id: string) => void, onToast: (s: string) => void }) {
+function ProductPage({ product, initial, leaveGuard, onDuplicate, onBack, onCreated, onToast }: { product: Row | null, initial: ProductInput | null, leaveGuard: LeaveGuard, onDuplicate: (data: ProductInput) => void, onBack: () => void, onCreated: (id: string) => void, onToast: (s: string) => void }) {
   const save = useMutation(anyApi.products.save), remove = useMutation(anyApi.products.remove), uploadUrl = useMutation(anyApi.products.generateUploadUrl);
   const kits = useQuery(anyApi.kits.adminList) as { _id: string; title: string }[] | undefined;
-  const [data, setData] = useState<ProductInput>(() => product ? inputOf(product) : emptyProduct(type));
-  const [revision, setRevision] = useState(product?.revision), [busy, setBusy] = useState(false), [error, setError] = useState(''), [dirty, setDirty] = useState(false);
+  const [data, setData] = useState<ProductInput>(() => product ? inputOf(product) : initial ?? emptyProduct());
+  const [revision, setRevision] = useState(product?.revision), [busy, setBusy] = useState(false), [error, setError] = useState(''), [dirty, setDirty] = useState(!!initial);
   const release = () => { leaveGuard.current = async () => true; };
   useEffect(() => {
     leaveGuard.current = async () => { if (!dirty) return true; const ok = await ask({ title: 'Quitter sans enregistrer ?', description: 'Les modifications de ce produit seront perdues.', confirmLabel: 'Quitter sans enregistrer', destructive: true }); if (ok) release(); return ok; };
@@ -67,6 +67,8 @@ function ProductPage({ product, type, leaveGuard, onBack, onCreated, onToast }: 
   });
   useEffect(() => { if (!dirty) return; const before = (e: BeforeUnloadEvent) => e.preventDefault(); addEventListener('beforeunload', before); return () => removeEventListener('beforeunload', before); }, [dirty]);
   const set = (patch: Partial<ProductInput>) => { setData(d => ({ ...d, ...patch })); setDirty(true); };
+  const duplicate = async () => { if (busy || !await leaveGuard.current()) return; onDuplicate(data); };
+  const chooseType = (type: ProductType) => set({ type, ...(isDefaultChecklist(data.tasks, data.type) ? { tasks: launchChecklist(type) } : {}) });
   const back = async () => { if (busy) return; if (await leaveGuard.current()) onBack(); };
   const submit = async (e: FormEvent) => {
     e.preventDefault(); const problem = productError(data);
@@ -92,6 +94,7 @@ function ProductPage({ product, type, leaveGuard, onBack, onCreated, onToast }: 
       <div className="kit-page-title"><span className="eyebrow">{productTypeLabels[data.type].toUpperCase()}</span><h1>{data.title.trim() || 'Sans titre'}</h1></div>
       <span className={'badge ' + statusClass(data.status)}>{data.status}</span><span className="spacer" />
       {dirty && <span className="kit-page-dirty" role="status">Modifications non enregistrées</span>}
+      {product && <Button type="button" variant="outline" disabled={busy} onClick={() => void duplicate()}><Copy size={16} />Dupliquer</Button>}
       <Button disabled={busy || (!!product && !dirty)}>{busy ? 'Enregistrement…' : product ? 'Enregistrer' : 'Créer le produit'}</Button>
     </div>
     {error && <div role="alert" className="error">{error}<button type="button" onClick={() => setError('')}>Fermer</button></div>}
@@ -105,6 +108,7 @@ function ProductPage({ product, type, leaveGuard, onBack, onCreated, onToast }: 
       </TabsList>
 
       <TabsContent value="general"><section className="panel stage-form">
+        {!product && <div><span className={fieldLabel}>Type de produit</span><div className="segmented" role="group" aria-label="Type de produit">{productTypes.map(t => <button key={t} type="button" aria-pressed={data.type === t} className={data.type === t ? 'selected' : ''} onClick={() => chooseType(t)}>{productTypeLabels[t]}</button>)}</div></div>}
         <div><Label htmlFor="p-title">Titre</Label><Input id="p-title" maxLength={200} value={data.title} onChange={e => set({ title: e.target.value })} placeholder={isKit ? 'Ex. Kit Citron' : 'Ex. Modèle Cigale'} /></div>
         <div className="stage-form-row">
           <div><Label htmlFor="p-status">Avancement</Label><select id="p-status" value={data.status} onChange={e => set({ status: e.target.value })}>{productStatuses.map(s => <option key={s}>{s}</option>)}</select></div>

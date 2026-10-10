@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { convexTest } from 'convex-test';
 import { anyApi } from 'convex/server';
 import schema from '../convex/schema';
-import { costSummary, emptyProduct, launchChecklist, newMaterial, productError, taskProgress, type ProductInput } from '../lib/products';
+import { costSummary, duplicateProduct, emptyProduct, isDefaultChecklist, launchChecklist, newMaterial, productError, taskProgress, type ProductInput } from '../lib/products';
 const modules = import.meta.glob('../convex/**/*.ts');
 beforeEach(() => vi.stubEnv('OWNER_GITHUB_ID', '123'));
 
@@ -12,7 +12,7 @@ const material = (patch = {}) => ({ ...newMaterial(), name: 'Fil DMC', unitCost:
 async function setup() {
     const t = convexTest(schema, modules);
     const as = async (doc: Record<string, unknown>) => { const id = await t.run(ctx => ctx.db.insert('users', doc)); return t.withIdentity({ subject: id + '|session' }); };
-    return { atelier: await as({ githubId: '123' }), marie: await as({ email: 'marie@example.com', role: 'cliente' }), lola: await as({ email: 'lola@example.com', role: 'stagiaire' }) };
+    return { t, atelier: await as({ githubId: '123' }), marie: await as({ email: 'marie@example.com', role: 'cliente' }), lola: await as({ email: 'lola@example.com', role: 'stagiaire' }) };
 }
 
 describe('Validation des produits', () => {
@@ -73,5 +73,40 @@ describe('Produits (backend)', () => {
         await expect(atelier.mutation(anyApi.products.remove, { id, revision: 1 })).rejects.toThrow('changé');
         await atelier.mutation(anyApi.products.remove, { id, revision: 2 });
         expect(await atelier.query(anyApi.products.list)).toEqual([]);
+    });
+});
+
+describe('Duplication et import', () => {
+    it('duplique sans fichiers téléversés, sans achats cochés ni lien boutique', () => {
+        const source = product({
+            title: 'Kit Citron', status: 'En vente', shopUrl: 'https://boutique.example/citron', linkedKitId: 'k1',
+            materials: [material({ bought: true, links: [{ id: 'l', shop: 'M', url: 'https://m.example', note: '' }] })],
+            tasks: [{ id: 't', title: 'Fait', done: true }],
+            pdfs: { fr: { id: 'a', label: 'Lien', url: 'https://x.example/a.pdf' }, en: { id: 'b', label: 'Fichier', url: '', storageId: 's1' } },
+        });
+        const copy = duplicateProduct(source);
+        expect(copy).toMatchObject({ title: 'Kit Citron (copie)', status: 'Idée', shopUrl: '', linkedKitId: '' });
+        expect(Object.keys(copy.pdfs)).toEqual(['fr']);
+        expect(copy.materials[0]).toMatchObject({ bought: false, name: 'Fil DMC' });
+        expect(copy.materials[0]!.id).not.toBe(source.materials[0]!.id);
+        expect(copy.materials[0]!.links[0]!.id).not.toBe('l');
+        expect(copy.tasks[0]).toMatchObject({ title: 'Fait', done: false });
+        expect(productError(copy)).toBeNull();
+    });
+    it('reconnaît la checklist de départ pour changer de type sans perdre un travail déjà fait', () => {
+        expect(isDefaultChecklist(launchChecklist('kit'), 'kit')).toBe(true);
+        expect(isDefaultChecklist(launchChecklist('kit'), 'pdf')).toBe(false);
+        expect(isDefaultChecklist([{ id: 'a', title: 'Valider le motif et le niveau visé', done: true }], 'kit')).toBe(false);
+    });
+    it('importe sans doublon et relie un kit d’espace brodeuses quand un seul titre correspond', async () => {
+        const { t, atelier } = await setup();
+        const kitId = await atelier.mutation(anyApi.kits.saveKit, { data: { title: 'Citron brodé', description: '', coverUrl: '', accessCode: '', published: true, lessons: [] } });
+        const batch = { products: [{ type: 'kit', title: 'Kit Citron', motif: 'Citron' }, { type: 'pdf', title: 'PDF Citron' }, { type: 'kit', title: 'Kit Cigale', motif: 'Cigale' }] };
+        const first = await t.mutation(anyApi.products.importDrafts as never, batch as never) as { created: string[] };
+        expect(first.created).toHaveLength(3);
+        const rows = await atelier.query(anyApi.products.list);
+        const linked = (title: string) => rows.find((r: { title: string }) => r.title === title).linkedKitId;
+        expect([linked('Kit Citron'), linked('Kit Cigale'), linked('PDF Citron')]).toEqual([kitId, '', '']);
+        expect((await t.mutation(anyApi.products.importDrafts as never, batch as never) as { skipped: string[] }).skipped).toHaveLength(3);
     });
 });

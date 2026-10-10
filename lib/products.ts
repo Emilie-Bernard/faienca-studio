@@ -85,3 +85,20 @@ export function costSummary(p: Pick<ProductInput, 'materials' | 'price'>) {
 }
 export const taskProgress = (tasks: { done: boolean }[]) => ({ done: tasks.filter(t => t.done).length, total: tasks.length });
 export const euro = (n: number) => n.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' });
+
+/** Vrai tant que la checklist est celle de départ : on peut alors la remplacer en changeant de type. */
+export const isDefaultChecklist = (tasks: ProductTask[], type: ProductType) =>
+  tasks.every(t => !t.done) && tasks.map(t => t.title).join('|') === launchChecklist(type).map(t => t.title).join('|');
+
+/** Copie prête à enregistrer : étapes à refaire, rien d'acheté, sans lien boutique ni leçons reliées.
+ *  Les PDF téléversés ne sont pas copiés (un fichier appartient à un seul produit) ; les liens le sont. */
+export function duplicateProduct(p: ProductInput): ProductInput {
+  const pdfs: ProductInput['pdfs'] = {};
+  for (const lang of pdfLanguages) { const f = p.pdfs[lang]; if (f && !f.storageId) pdfs[lang] = { ...f, id: crypto.randomUUID() }; }
+  return {
+    ...p, title: `${p.title.trim()} (copie)`.slice(0, 200), status: productStatuses[0], shopUrl: '', linkedKitId: '', pdfs,
+    contents: p.contents.map(c => ({ ...c, id: crypto.randomUUID() })),
+    materials: p.materials.map(m => ({ ...m, id: crypto.randomUUID(), bought: false, links: m.links.map(l => ({ ...l, id: crypto.randomUUID() })) })),
+    tasks: p.tasks.map(t => ({ ...t, id: crypto.randomUUID(), done: false })),
+  };
+}

@@ -1,8 +1,8 @@
-import { query, mutation, type MutationCtx } from './_generated/server';
+import { query, mutation, internalMutation, type MutationCtx } from './_generated/server';
 import { v, ConvexError } from 'convex/values';
 import type { Doc, Id } from './_generated/dataModel';
 import { requireAdmin } from './access';
-import { pdfLanguages, productError, type ProductInput } from '../lib/products';
+import { emptyProduct, pdfLanguages, productError, type ProductInput } from '../lib/products';
 
 const productData = v.object({
     type: v.union(v.literal('kit'), v.literal('pdf')), title: v.string(), description: v.string(), status: v.string(),
@@ -60,4 +60,25 @@ export const remove = mutation({
 
 export const generateUploadUrl = mutation({
     args: {}, handler: async (ctx) => { await requireAdmin(ctx); return await ctx.storage.generateUploadUrl(); }
+});
+
+/** Import en ligne de commande : crée les produits dont le titre n'existe pas encore et relie un kit d'espace brodeuses quand un seul titre correspond au motif. */
+export const importDrafts = internalMutation({
+    args: { products: v.array(v.object({ type: v.union(v.literal('kit'), v.literal('pdf')), title: v.string(), status: v.optional(v.string()), motif: v.optional(v.string()) })) },
+    handler: async (ctx, { products }) => {
+        const existing = new Set((await ctx.db.query('products').collect()).map(p => p.title.trim().toLowerCase()));
+        const kits = await ctx.db.query('kits').collect();
+        const created: string[] = [], skipped: string[] = [];
+        for (const item of products) {
+            const title = item.title.trim();
+            if (existing.has(title.toLowerCase())) { skipped.push(title); continue; }
+            const base = emptyProduct(item.type);
+            const matches = item.type === 'kit' && item.motif ? kits.filter(k => k.title.toLowerCase().includes(item.motif!.toLowerCase())) : [];
+            const data = { ...base, pdfs: {}, title, status: item.status ?? base.status, linkedKitId: matches.length === 1 ? matches[0]!._id : '' };
+            const error = productError(data); if (error) throw new ConvexError(`${title} : ${error}`);
+            await ctx.db.insert('products', { ...data, revision: 1, updatedAt: Date.now() });
+            existing.add(title.toLowerCase()); created.push(title);
+        }
+        return { created, skipped };
+    }
 });
