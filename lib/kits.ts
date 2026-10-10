@@ -28,7 +28,7 @@ export function kitError(k: KitInput): string | null {
   if (!k.title.trim() || k.title.length > 200) return 'Le titre du kit doit contenir entre 1 et 200 caractères.';
   if (k.description.length > 5000) return 'La description ne peut pas dépasser 5 000 caractères.';
   if (k.coverUrl && !/^https:\/\//i.test(k.coverUrl)) return 'L’image de couverture doit commencer par https://.';
-  if (k.accessCode.length > 60) return 'Le code d’activation ne peut pas dépasser 60 caractères.';
+  if (k.accessCode.length > 300) return 'Les codes d’activation ne peuvent pas dépasser 300 caractères.';
   if (k.lessons.length > 80) return 'Un kit contient au maximum 80 leçons.';
   if (new Set(k.lessons.map(l => l.id)).size !== k.lessons.length) return 'Identifiants de leçons dupliqués.';
   for (const [i, l] of k.lessons.entries()) {
@@ -43,6 +43,15 @@ export function kitError(k: KitInput): string | null {
 
 /** Normalise un code d'activation : la casse, les espaces et les tirets ne comptent pas. */
 export const normalizeCode = (code: string) => code.toUpperCase().replace(/[\s-]+/g, '');
+
+/** Un kit peut accepter plusieurs codes (lien Shopify, livret des ventes physiques…), séparés par des virgules. */
+export const kitCodes = (accessCode: string) => accessCode.split(/[,;\n]/).map(normalizeCode).filter(Boolean);
+
+/** Sans code, le kit est en accès libre ; sinon le code saisi doit correspondre à l'un d'eux. */
+export const codeMatches = (code: string, accessCode: string) => {
+  const codes = kitCodes(accessCode);
+  return codes.length === 0 || codes.includes(normalizeCode(code));
+};
 
 export type VideoSource = { type: 'iframe', src: string } | { type: 'video', src: string };
 

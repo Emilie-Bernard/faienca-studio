@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { convexTest } from 'convex-test';
 import { anyApi } from 'convex/server';
 import schema from '../convex/schema';
-import { emptyKit, kitError, localizeKit, localizeLesson, normalizeCode, videoSource, type KitInput } from '../lib/kits';
+import { codeMatches, emptyKit, kitCodes, kitError, localizeKit, localizeLesson, normalizeCode, videoSource, type KitInput } from '../lib/kits';
 const modules = import.meta.glob('../convex/**/*.ts');
 beforeEach(() => vi.stubEnv('OWNER_GITHUB_ID', '123'));
 
@@ -57,6 +57,16 @@ describe('Kits et progression', () => {
         const [mine] = await marie.api.query(anyApi.kits.mine);
         expect(mine.kit.lessons).toHaveLength(2);
         expect(mine.kit).not.toHaveProperty('accessCode');
+    });
+    it('accepte chacun des codes d’un kit (lien Shopify et livret)', async () => {
+        const { atelier, marie, lea } = await setup();
+        const kitId = await atelier.api.mutation(anyApi.kits.saveKit, { data: kit({ accessCode: 'SHOP-OLIVE, olive livret 26' }) });
+        await expect(marie.api.mutation(anyApi.kits.activate, { kitId, code: 'OLIVE' })).rejects.toThrow('code');
+        await expect(marie.api.mutation(anyApi.kits.activate, { kitId, code: 'SHOP-OLIVE, OLIVELIVRET26' })).rejects.toThrow('code');
+        await marie.api.mutation(anyApi.kits.activate, { kitId, code: 'shopolive' });
+        await lea.api.mutation(anyApi.kits.activate, { kitId, code: 'OLIVE-LIVRET-26' });
+        expect(await marie.api.query(anyApi.kits.mine)).toHaveLength(1);
+        expect(await lea.api.query(anyApi.kits.mine)).toHaveLength(1);
     });
     it('suit les leçons brodées et date la fin de l’ouvrage', async () => {
         const { atelier, marie } = await setup();
@@ -148,6 +158,9 @@ describe('Validation et vidéos', () => {
         expect(kitError(kit({ lessons: [{ ...lesson('a'), videoUrl: 'http://exemple.fr/v.mp4' }] }))).toMatch('https');
         expect(kitError(kit({ lessons: [lesson('a'), lesson('a')] }))).toMatch('dupliqués');
         expect(normalizeCode(' olive-24 ')).toBe('OLIVE24');
+        expect(kitCodes(' a-1 , ;b 2\n')).toEqual(['A1', 'B2']);
+        expect(codeMatches('n’importe', ' , ')).toBe(true);
+        expect(kitError(kit({ accessCode: 'X'.repeat(301) }))).toMatch('300');
     });
     it('convertit les liens YouTube, Vimeo et fichiers vidéo', () => {
         const yt = 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0';

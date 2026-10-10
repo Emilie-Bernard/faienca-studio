@@ -3,7 +3,7 @@ import { v, ConvexError } from 'convex/values';
 import type { Doc, Id } from './_generated/dataModel';
 import { kitFields, kitTranslations, lessonTranslations } from './schema';
 import { requireAdmin, requireUser } from './access';
-import { kitError, kitLanguages, localizeLesson, normalizeCode } from '../lib/kits';
+import { codeMatches, kitError, kitLanguages, localizeLesson } from '../lib/kits';
 
 const MAX_OPEN_QUESTIONS = 10;
 
@@ -63,7 +63,7 @@ export const activate = mutation({
         const kit = await ctx.db.get(kitId);
         if (!kit || !kit.published) throw new ConvexError('Kit introuvable.');
         const existing = await progressOf(ctx, me.id, kitId); if (existing) return existing._id;
-        if (kit.accessCode && normalizeCode(code) !== normalizeCode(kit.accessCode)) throw new ConvexError('Ce code ne correspond pas à ce kit. Vérifiez la carte glissée dans votre boîte.');
+        if (!codeMatches(code, kit.accessCode)) throw new ConvexError('Ce code ne correspond pas à ce kit. Vérifiez la carte glissée dans votre boîte.');
         const now = Date.now();
         return await ctx.db.insert('kitProgress', { userId: me.id, kitId, completed: [], notes: '', startedAt: now, updatedAt: now });
     }
