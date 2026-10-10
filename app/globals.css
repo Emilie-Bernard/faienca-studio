@@ -3942,3 +3942,32 @@ button.kit-card:hover {
 .kit-languages-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px }
 .kit-linked { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none }
 .kit-linked a { display: inline-flex; align-items: center; gap: 6px }
+
+/* ——— Stage (atelier) ——— */
+.stage-callout { display: flex; align-items: flex-start; gap: 10px; background: var(--blue); color: var(--navy); border-radius: 8px; padding: 12px 14px; font-size: 13px; margin-bottom: 18px }
+.stage-callout p { color: var(--ink) }
+.stage-phase-head { display: grid; grid-template-columns: auto auto 1fr; align-items: center; gap: 12px; margin-bottom: 10px }
+.stage-phase-head h2 { font-family: var(--font-heading); font-size: 22px; margin: 0 }
+.stage-phase-head .muted { font-size: 12px }
+.stage-phase-head .progress { margin: 0; max-width: 220px; justify-self: end; width: 100% }
+.stage-rows { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none }
+.stage-row { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; transition: border-color .15s }
+.stage-row:hover { border-color: #cfc3b3 }
+.stage-row.review { border-left: 3px solid #b03f25 }
+.stage-row-main { display: flex; flex-direction: column; gap: 3px; flex: 1; min-width: 0; color: inherit; text-decoration: none }
+.stage-row-main strong { font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.stage-row-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted-text) }
+.stage-row-meta span { display: inline-flex; align-items: center; gap: 4px }
+.stage-row-badges { display: flex; gap: 6px }
+.stage-row-tools { display: flex }
+.stage-review { background: var(--bg) }
+.stage-review.review { border-color: #f2cfc4 }
+.stage-review-head { display: flex; align-items: center; gap: 10px }
+.stage-review-head small { display: block; font-size: 12px; color: var(--muted-text) }
+.stage-review h3 { font-size: 12px; font-weight: 600; color: var(--muted-text); margin-bottom: 6px }
+@media (max-width: 640px) {
+    .stage-phase-head { grid-template-columns: 1fr auto }
+    .stage-phase-head .progress { grid-column: 1 / -1; max-width: none }
+    .stage-row { flex-wrap: wrap }
+    .stage-row-main { flex-basis: calc(100% - 40px) }
+}
