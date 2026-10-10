@@ -17,6 +17,7 @@ import {
 import { errorText } from './client';
 import { FileAdder, FileLinks, type FileView } from './stage-files';
 import type { LeaveGuard } from './kits-admin';
+import { clearDraft, useLocalDraft } from './local-draft';
 
 type Row = Omit<ProductInput, 'pdfs'> & { _id: string; revision: number; updatedAt: number; pdfs: Partial<Record<PdfLanguage, FileView>> };
 const inputOf = (p: Row): ProductInput => ({
@@ -30,12 +31,6 @@ const https = (s: string) => /^https:\/\//i.test(s);
 const fieldLabel = 'text-xs font-semibold text-muted-foreground';
 const TABS = ['fiche', 'contenu', 'materiaux', 'pdf', 'todo'] as const;
 type Tab = typeof TABS[number];
-
-/** Modifications non enregistrées, gardées dans ce navigateur pour survivre à un rechargement. */
-type Draft = { data: ProductInput; revision: number | null };
-const draftKey = (id: string) => 'faienca-product-draft:' + id;
-function readDraft(id: string): Draft | null { try { const raw = localStorage.getItem(draftKey(id)); return raw ? JSON.parse(raw) as Draft : null; } catch { return null; } }
-function writeDraft(id: string, draft: Draft | null) { try { if (draft) localStorage.setItem(draftKey(id), JSON.stringify(draft)); else localStorage.removeItem(draftKey(id)); } catch { /* stockage indisponible */ } }
 
 /** Liste des produits, ou fiche d'un produit quand l'adresse contient ?produit=<id|new>. */
 export function ProductsAdmin({ productId, onOpenProduct, leaveGuard, onToast }: { productId: string | null, onOpenProduct: (id: string | null, replace?: boolean) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
@@ -84,24 +79,20 @@ function ProductPage({ product, initial, leaveGuard, onDuplicate, onBack, onCrea
   const kits = useQuery(anyApi.kits.adminList) as { _id: string; title: string }[] | undefined;
   const id = product?._id ?? 'new';
   const [data, setData] = useState<ProductInput>(() => initial ?? (product ? inputOf(product) : emptyProduct()));
-  const [revision, setRevision] = useState(product?.revision), [busy, setBusy] = useState(false), [error, setError] = useState(''), [dirty, setDirty] = useState(!!initial), [restored, setRestored] = useState(false);
+  const [revision, setRevision] = useState(product?.revision), [busy, setBusy] = useState(false), [error, setError] = useState(''), [dirty, setDirty] = useState(!!initial);
   const [tab, setTabState] = useState<Tab>('fiche');
-  // Lu après l'affichage : l'adresse et le stockage du navigateur n'existent pas pendant le rendu serveur.
-  // Un brouillon local n'est repris que s'il part de la version enregistrée actuelle.
-  useEffect(() => {
-    const t = new URLSearchParams(location.search).get('onglet'); if ((TABS as readonly string[]).includes(t ?? '')) setTabState(t as Tab);
-    if (initial) return;
-    const d = readDraft(id); if (d && d.revision === (product?.revision ?? null)) { setData(d.data); setDirty(true); setRestored(true); }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps -- une seule fois, à l'ouverture de la fiche
+  // Lu après l'affichage : l'adresse n'existe pas pendant le rendu serveur.
+  useEffect(() => { const t = new URLSearchParams(location.search).get('onglet'); if ((TABS as readonly string[]).includes(t ?? '')) setTabState(t as Tab); }, []);
+  const draftKey = 'faienca-product-draft:' + id;
+  const { restored, forget } = useLocalDraft({ key: draftKey, revision: product?.revision ?? null, data, dirty, skip: !!initial, onRestore: d => { setData(d); setDirty(true); } });
   const setTab = (t: string) => { setTabState(t as Tab); const p = new URLSearchParams(location.search); if (t === 'fiche') p.delete('onglet'); else p.set('onglet', t); history.replaceState(null, '', '?' + p.toString()); };
   const release = () => { leaveGuard.current = async () => true; };
   useEffect(() => {
-    leaveGuard.current = async () => { if (!dirty) return true; const ok = await ask({ title: 'Quitter sans enregistrer ?', description: 'Les modifications de ce produit seront perdues.', confirmLabel: 'Quitter sans enregistrer', destructive: true }); if (ok) { writeDraft(id, null); release(); } return ok; };
+    leaveGuard.current = async () => { if (!dirty) return true; const ok = await ask({ title: 'Quitter sans enregistrer ?', description: 'Les modifications de ce produit seront perdues.', confirmLabel: 'Quitter sans enregistrer', destructive: true }); if (ok) { clearDraft(draftKey); release(); } return ok; };
     return release;
   });
-  useEffect(() => { writeDraft(id, dirty ? { data, revision: product?.revision ?? null } : null); }, [id, dirty, data, product?.revision]);
   const set = (patch: Partial<ProductInput>) => { setData(d => ({ ...d, ...patch })); setDirty(true); };
-  const discard = async () => { if (!await ask({ title: 'Annuler les modifications ?', description: 'Le produit revient à sa dernière version enregistrée.', confirmLabel: 'Annuler les modifications', destructive: true })) return; writeDraft(id, null); setDirty(false); setRestored(false); if (product) setData(inputOf(product)); else onBack(); };
+  const discard = async () => { if (!await ask({ title: 'Annuler les modifications ?', description: 'Le produit revient à sa dernière version enregistrée.', confirmLabel: 'Annuler les modifications', destructive: true })) return; forget(); setDirty(false); if (product) setData(inputOf(product)); else onBack(); };
   const duplicate = async () => { if (busy || !await leaveGuard.current()) return; onDuplicate(data); };
   const chooseType = (type: ProductType) => set({ type, ...(isDefaultChecklist(data.tasks, data.type) ? { tasks: launchChecklist(type) } : {}) });
   const back = async () => { if (busy) return; if (await leaveGuard.current()) onBack(); };
@@ -111,14 +102,14 @@ function ProductPage({ product, initial, leaveGuard, onDuplicate, onBack, onCrea
     setBusy(true); setError('');
     try {
       const saved = await save({ data, ...(product ? { id: product._id, revision } : {}) }) as string;
-      writeDraft(id, null); setDirty(false);
+      clearDraft(draftKey); setDirty(false);
       if (product) { setRevision(r => (r ?? 0) + 1); onToast('Produit enregistré'); } else { release(); onToast('Produit créé'); onCreated(saved); }
     } catch (err) { setError(errorText(err, 'Impossible d’enregistrer. Vos modifications restent sur la page.')); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     setBusy(false);
   };
   const erase = async () => {
     if (!product || !await ask({ title: 'Supprimer ce produit ?', description: 'Sa fiche, sa liste de matériaux et ses PDF seront supprimés.', confirmLabel: 'Supprimer', destructive: true })) return;
-    setBusy(true); try { await remove({ id: product._id, revision }); writeDraft(id, null); release(); onToast('Produit supprimé'); onBack(); } catch (err) { setError(errorText(err, 'La suppression a échoué.')); setBusy(false); }
+    setBusy(true); try { await remove({ id: product._id, revision }); clearDraft(draftKey); release(); onToast('Produit supprimé'); onBack(); } catch (err) { setError(errorText(err, 'La suppression a échoué.')); setBusy(false); }
   };
   const isKit = data.type === 'kit';
   const { done, total } = taskProgress(data.tasks), summary = costSummary(data), pdfCount = pdfLanguages.filter(l => data.pdfs[l]).length;
@@ -140,7 +131,7 @@ function ProductPage({ product, initial, leaveGuard, onDuplicate, onBack, onCrea
       <Button disabled={busy || (!!product && !dirty)}>{busy ? 'Enregistrement…' : product ? 'Enregistrer' : 'Créer le produit'}</Button>
     </div>
     {error && <div role="alert" className="error">{error}<button type="button" onClick={() => setError('')}>Fermer</button></div>}
-    {restored && dirty && <p className="product-restored" role="status"><RotateCcw size={15} />Vos modifications non enregistrées ont été retrouvées. Enregistrez-les ou annulez-les.</p>}
+    {restored && <p className="product-restored" role="status"><RotateCcw size={15} />Vos modifications non enregistrées ont été retrouvées. Enregistrez-les ou annulez-les.</p>}
 
     <section className="product-kpis">
       <Kpi label="Prix de vente" value={data.price !== null ? euro(data.price) : '—'} />

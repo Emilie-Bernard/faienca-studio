@@ -3932,3 +3932,13 @@ button.kit-card:hover {
     .product-material-fields, .product-link, .product-contents li { grid-template-columns: 1fr }
     .product-kpi>strong { font-size: 22px }
 }
+
+/* ——— Kits (liste et fiche) ——— */
+.kit-list-help { font-size: 13px; margin: -6px 0 16px }
+.kit-warn { color: #a8641a }
+.kit-card-stats { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--muted-text); border-top: 1px solid var(--line); padding-top: 10px; margin-top: 6px }
+.kit-card-stats strong { color: var(--ink); font-weight: 600 }
+.product-kpi.warn>strong { color: #a8641a }
+.kit-languages-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px }
+.kit-linked { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none }
+.kit-linked a { display: inline-flex; align-items: center; gap: 6px }

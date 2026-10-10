@@ -7,7 +7,7 @@ import { Switch } from '@/components/ui/switch';
 import { Textarea } from '@/components/ui/textarea';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
-import { ArrowDown, ArrowLeft, ArrowUp, BookOpenCheck, ChevronDown, Flower2, GripVertical, MessageCircleQuestion, PlayCircle, Plus, Trash2, Upload, Users } from 'lucide-react';
+import { ArrowDown, ArrowLeft, ArrowUp, ChevronDown, Flower2, GripVertical, MessageCircleQuestion, Package, PlayCircle, Plus, RotateCcw, Trash2, Upload, Users } from 'lucide-react';
 import { DndContext, KeyboardSensor, PointerSensor, closestCenter, useSensor, useSensors, type DragCancelEvent, type DragEndEvent, type DragOverEvent, type DragStartEvent } from '@dnd-kit/core';
 import { SortableContext, arrayMove, sortableKeyboardCoordinates, useSortable, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import { restrictToVerticalAxis } from '@dnd-kit/modifiers';
@@ -16,6 +16,7 @@ import { cn } from '@/lib/utils';
 import { ask } from '@/components/confirm-dialog';
 import { emptyKit, kitError, newLesson, type KitInput, type KitLanguage, type KitText, type Lesson, type LessonText, type Role } from '../lib/kits';
 import { VideoPlayer, errorText, type LessonView } from './client';
+import { clearDraft, useLocalDraft } from './local-draft';
 
 type AdminKit = Omit<KitInput, 'lessons'> & { _id: string; revision: number; updatedAt: number; lessons: LessonView[]; stats: { clientes: number; finished: number; openQuestions: number } };
 type AdminQuestion = { _id: string; kitTitle: string; lessonTitle: string; authorName: string; authorEmail: string; body: string; createdAt: number; answer: string | null; answeredAt: number | null };
@@ -39,10 +40,31 @@ export function KitsAdmin({ kitId, onOpenKit, leaveGuard, onToast }: { kitId: st
         if (kit === undefined) return <section className="panel"><Empty text="Ce kit n’existe plus ou a été supprimé." /><div className="flex justify-center"><Button variant="outline" onClick={() => onOpenKit(null)}><ArrowLeft />Retour aux kits</Button></div></section>;
         return <KitPage key={kitId} kit={kit} leaveGuard={leaveGuard} onBack={() => onOpenKit(null)} onCreated={id => onOpenKit(id, true)} onToast={onToast} />;
     }
+    return <KitList kits={kits} onOpenKit={onOpenKit} />;
+}
+
+const noVideo = (k: { lessons: Lesson[] }) => k.lessons.filter(l => !l.videoUrl && !l.videoStorageId).length;
+
+function KitList({ kits, onOpenKit }: { kits: AdminKit[], onOpenKit: (id: string | null) => void }) {
+    const [filter, setFilter] = useState<'all' | 'published' | 'draft'>('all');
+    const count = { all: kits.length, published: kits.filter(k => k.published).length, draft: kits.filter(k => !k.published).length };
+    const shown = kits.filter(k => filter === 'all' || (filter === 'published') === k.published);
     return <>
-        <div className="page-tools"><div className="review-note"><BookOpenCheck size={22} /><p>Une leçon par point, avec sa vidéo : lien YouTube non répertorié, Vimeo, ou fichier téléversé. Le code d’activation se glisse dans la boîte ; laissez-le vide pour un accès libre. Seuls les kits publiés sont visibles des clientes.</p></div><div className="filters"><span className="muted">{kits.length} kit{kits.length > 1 ? 's' : ''}</span><span className="spacer" /><Button type="button" onClick={() => onOpenKit('new')}><Plus size={18} />Nouveau kit</Button></div></div>
-        {kits.length ? <div className="strategy-grid">{kits.map(k => <button type="button" className="strategy-card admin-kit-card" key={k._id} onClick={() => onOpenKit(k._id)}><div className="card-top"><span className={'badge ' + (k.published ? 'green' : 'orange')}>{k.published ? 'Publié' : 'Brouillon'}</span><small>{k.lessons.length} leçon{k.lessons.length > 1 ? 's' : ''}</small></div><h2>{k.title}</h2><p>{k.description || 'Sans description'}</p><small className="kit-stats"><span>{k.stats.clientes} cliente{k.stats.clientes > 1 ? 's' : ''}</span><span>{k.stats.finished} terminé{k.stats.finished > 1 ? 's' : ''}</span>{k.stats.openQuestions > 0 && <span className="pending-count">{k.stats.openQuestions} question{k.stats.openQuestions > 1 ? 's' : ''} en attente</span>}</small><small>{k.accessCode ? 'Code : ' + k.accessCode : 'Accès libre'}</small></button>)}</div>
-            : <section className="panel"><Empty text="Créez votre premier kit pour ouvrir l’espace des brodeuses." /></section>}
+        <div className="filters product-filters">
+            <div className="segmented" role="group" aria-label="Filtrer les kits">{([['all', 'Tous'], ['published', 'Publiés'], ['draft', 'Brouillons']] as const).map(([v, label]) => <button key={v} type="button" aria-pressed={filter === v} className={filter === v ? 'selected' : ''} onClick={() => setFilter(v)}>{label} <span className="muted">{count[v]}</span></button>)}</div>
+            <span className="spacer" /><Button type="button" onClick={() => onOpenKit('new')}><Plus size={16} />Nouveau kit</Button>
+        </div>
+        <p className="muted kit-list-help">Une leçon vidéo par point. Seuls les kits publiés sont visibles des clientes ; le code d’activation se glisse dans la boîte.</p>
+        {shown.length ? <div className="product-list">{shown.map(k => { const missing = noVideo(k); return <a key={k._id} href={'?vue=Kits&kit=' + k._id} className="product-card" onClick={e => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); onOpenKit(k._id); }}>
+            {/^https:\/\//.test(k.coverUrl) ? <img className="product-cover" src={k.coverUrl} alt="" loading="lazy" /> : <div className="product-cover placeholder"><Flower2 size={26} /></div>}
+            <div className="product-card-body">
+                <div className="card-top"><span className="eyebrow">{k.accessCode ? 'CODE ' + k.accessCode.toUpperCase() : 'ACCÈS LIBRE'}</span><span className={'badge ' + (k.published ? 'green' : 'orange')}>{k.published ? 'Publié' : 'Brouillon'}</span></div>
+                <h3>{k.title}</h3>
+                <p className="product-card-meta"><span>{k.lessons.length} leçon{k.lessons.length > 1 ? 's' : ''}</span>{missing > 0 && <span className="kit-warn">{missing} sans vidéo</span>}</p>
+                <p className="kit-card-stats"><span><strong>{k.stats.clientes}</strong> cliente{k.stats.clientes > 1 ? 's' : ''}</span><span><strong>{k.stats.finished}</strong> terminé{k.stats.finished > 1 ? 's' : ''}</span>{k.stats.openQuestions > 0 && <span className="pending-count">{k.stats.openQuestions} question{k.stats.openQuestions > 1 ? 's' : ''}</span>}</p>
+            </div>
+        </a>; })}</div>
+            : <section className="panel"><Empty text={kits.length ? 'Aucun kit dans cette catégorie.' : 'Créez votre premier kit pour ouvrir l’espace des brodeuses.'} /></section>}
     </>;
 }
 
@@ -56,10 +78,13 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
     const [open, setOpen] = useState<Set<string>>(() => new Set());
     const [removed, setRemoved] = useState<{ lesson: Lesson, index: number } | null>(null);
     const [lang, setLang] = useState<EditLanguage>('fr');
+    const products = useQuery(anyApi.products.list) as { _id: string; title: string; linkedKitId: string }[] | undefined;
+    const draftKey = 'faienca-kit-draft:' + (kit?._id ?? 'new');
+    const { restored, forget } = useLocalDraft({ key: draftKey, revision: kit?.revision ?? null, data, dirty, onRestore: d => { setData(d); setDirty(true); } });
     useEffect(() => { if (!removed) return; const t = setTimeout(() => setRemoved(null), 10000); return () => clearTimeout(t); }, [removed]);
     const release = () => { leaveGuard.current = async () => true; };
     useEffect(() => {
-        leaveGuard.current = async () => { if (!dirty) return true; const ok = await ask({ title: 'Quitter sans enregistrer ?', description: 'Les modifications de ce kit seront perdues.', confirmLabel: 'Quitter sans enregistrer', destructive: true }); if (ok) release(); return ok; };
+        leaveGuard.current = async () => { if (!dirty) return true; const ok = await ask({ title: 'Quitter sans enregistrer ?', description: 'Les modifications de ce kit seront perdues.', confirmLabel: 'Quitter sans enregistrer', destructive: true }); if (ok) { clearDraft(draftKey); release(); } return ok; };
         return release;
     });
     useEffect(() => { if (!dirty) return; const before = (e: BeforeUnloadEvent) => e.preventDefault(); addEventListener('beforeunload', before); return () => removeEventListener('beforeunload', before); }, [dirty]);
@@ -96,13 +121,15 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
         setBusy(true); setError('');
         try {
             const id = await save({ data: { ...data, lessons: data.lessons.map(lessonInput) }, ...(kit ? { id: kit._id, revision } : {}) }) as string;
-            setDirty(false); setBusy(false); setRemoved(null);
+            clearDraft(draftKey); setDirty(false); setBusy(false); setRemoved(null);
             if (kit) { setRevision(r => (r ?? 0) + 1); onToast('Kit enregistré'); }
             else { release(); onToast('Kit créé'); onCreated(id); }
         } catch (err) { setError(errorText(err, 'Impossible d’enregistrer. Vos modifications restent sur la page.')); setBusy(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }
     };
-    const erase = async () => { if (!kit) return; setBusy(true); try { await remove({ id: kit._id, revision }); release(); onToast('Kit supprimé'); onBack(); } catch (err) { setError(errorText(err, 'La suppression a échoué.')); setBusy(false); setConfirm(false); } };
+    const erase = async () => { if (!kit) return; setBusy(true); try { await remove({ id: kit._id, revision }); clearDraft(draftKey); release(); onToast('Kit supprimé'); onBack(); } catch (err) { setError(errorText(err, 'La suppression a échoué.')); setBusy(false); setConfirm(false); } };
     const fieldLabel = 'text-xs font-semibold text-muted-foreground';
+    const discard = async () => { if (!await ask({ title: 'Annuler les modifications ?', description: 'Le kit revient à sa dernière version enregistrée.', confirmLabel: 'Annuler les modifications', destructive: true })) return; forget(); setDirty(false); setRemoved(null); if (kit) setData(inputOf(kit)); else { release(); onBack(); } };
+    const missing = noVideo(data), linked = products?.filter(p => kit && p.linkedKitId === kit._id) ?? [];
     return <form className="kit-page" onSubmit={submit}>
         <div className="kit-page-bar">
             <Button type="button" variant="ghost" className="-ml-3 text-muted-foreground" onClick={() => void back()}><ArrowLeft />Kits</Button>
@@ -110,14 +137,21 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
             <span className={'badge ' + (data.published ? 'green' : 'orange')}>{data.published ? 'Publié' : 'Brouillon'}</span>
             <span className="spacer" />
             {dirty && <span className="kit-page-dirty" role="status">Modifications non enregistrées</span>}
-            <Button type="button" variant="outline" className="max-[760px]:hidden" disabled={busy} onClick={() => void back()}>{dirty ? 'Annuler' : 'Fermer'}</Button>
+            {dirty && <Button type="button" variant="ghost" disabled={busy} onClick={() => void discard()}><RotateCcw size={16} />Annuler</Button>}
             <Button disabled={busy || !!uploading || (!!kit && !dirty)}>{busy ? 'Enregistrement…' : kit ? 'Enregistrer' : 'Créer le kit'}</Button>
         </div>
         {error && <div role="alert" className="error">{error}<button type="button" onClick={() => setError('')}>Fermer</button></div>}
+        {restored && <p className="product-restored" role="status"><RotateCcw size={15} />Vos modifications non enregistrées ont été retrouvées. Enregistrez-les ou annulez-les.</p>}
+        <section className="product-kpis">
+            <div className="product-kpi"><span>Leçons</span><strong>{data.lessons.length}</strong><small>{[...new Set(data.lessons.map(l => l.stitch.trim()).filter(Boolean))].length} points différents</small></div>
+            <div className={cn('product-kpi', missing > 0 && 'warn')}><span>Vidéos</span><strong>{data.lessons.length - missing}/{data.lessons.length}</strong><small>{missing ? `${missing} leçon${missing > 1 ? 's' : ''} sans vidéo` : 'Toutes les leçons ont leur vidéo'}</small></div>
+            {kit && <div className="product-kpi"><span>Clientes</span><strong>{kit.stats.clientes}</strong><small>{kit.stats.finished} kit{kit.stats.finished > 1 ? 's' : ''} terminé{kit.stats.finished > 1 ? 's' : ''}</small></div>}
+            {kit && <div className={cn('product-kpi', kit.stats.openQuestions > 0 && 'warn')}><span>Questions</span><strong>{kit.stats.openQuestions}</strong><small>en attente de réponse</small></div>}
+        </section>
         <div className="kit-page-grid">
             <div className="kit-page-main">
-                <section className="panel kit-languages"><div className="panel-title"><h2>Langue du contenu</h2><div className="segmented" role="group" aria-label="Langue du contenu">{EDIT_LANGUAGES.map(l => <button key={l.id} type="button" lang={l.id} aria-pressed={lang === l.id} className={lang === l.id ? 'selected' : ''} onClick={() => setLang(l.id)}>{l.label}</button>)}</div></div>
-                    <p className="muted kit-page-help">{lang === 'fr' ? 'Le titre, la description et le texte des leçons en français. Choisissez English ou Español pour les traduire.' : 'Traduction affichée aux clientes qui consultent le site dans cette langue. Un champ vide reprend le texte français, indiqué en gris.'}</p>
+                <section className="kit-languages"><div className="kit-languages-row"><span className={fieldLabel}>Langue du contenu</span><div className="segmented" role="group" aria-label="Langue du contenu">{EDIT_LANGUAGES.map(l => <button key={l.id} type="button" lang={l.id} aria-pressed={lang === l.id} className={lang === l.id ? 'selected' : ''} onClick={() => setLang(l.id)}>{l.label}</button>)}</div></div>
+                    {lang !== 'fr' && <p className="muted kit-page-help">Traduction affichée aux clientes qui consultent le site dans cette langue. Un champ vide reprend le texte français, indiqué en gris.</p>}
                 </section>
                 <section className="panel"><div className="panel-title"><h2>Informations</h2></div><div className="grid gap-5">
                     <div className="grid gap-1.5"><Label htmlFor="kit-title" className={fieldLabel}>Titre</Label><Input id="kit-title" lang={lang} required={lang === 'fr'} maxLength={200} value={text('title')} placeholder={lang === 'fr' ? 'Le vase aux citrons' : data.title} className="h-11 bg-card text-base" onChange={e => setText('title', e.target.value)} /></div>
@@ -140,7 +174,11 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
                     {data.coverUrl && /^https:\/\//.test(data.coverUrl) ? <img className="kit-page-cover" src={data.coverUrl} alt="" /> : <div className="kit-page-cover kit-cover placeholder"><Flower2 size={30} /></div>}
                     <div className="mt-4 grid gap-1.5"><Label htmlFor="kit-cover" className={fieldLabel}>Lien de l’image (https)</Label><Input id="kit-cover" type="url" value={data.coverUrl} placeholder="https://…" className="h-11 bg-card" onChange={e => set({ coverUrl: e.target.value })} /></div>
                 </section>
-                {kit && <section className="panel"><div className="panel-title"><h2>Suivi</h2></div><dl className="kit-page-stats"><div><dt>Clientes</dt><dd>{kit.stats.clientes}</dd></div><div><dt>Terminés</dt><dd>{kit.stats.finished}</dd></div><div><dt>Questions en attente</dt><dd>{kit.stats.openQuestions}</dd></div></dl><small>Modifié le {dateFr(kit.updatedAt)}</small></section>}
+                {kit && <section className="panel"><div className="panel-title"><h2>Produit boutique</h2></div>
+                    {linked.length ? <ul className="kit-linked">{linked.map(p => <li key={p._id}><a className="edit-link" href={'?vue=Produits&produit=' + p._id}><Package size={15} />{p.title}</a></li>)}</ul>
+                        : <p className="muted">Aucun produit relié. Dans <a className="edit-link" href="?vue=Produits">Produits</a>, choisissez ce kit dans « Leçons vidéo » pour relier sa fiche.</p>}
+                    <small className="mt-3 block">Modifié le {dateFr(kit.updatedAt)}</small>
+                </section>}
                 {kit && <section className="panel kit-page-danger"><div className="panel-title"><h2>Supprimer le kit</h2></div>
                     {confirm ? <><p>La progression de {kit.stats.clientes} cliente{kit.stats.clientes > 1 ? 's' : ''}, les questions et les vidéos téléversées seront effacées. Pour le masquer simplement, désactivez la publication.</p><div className="mt-3 flex flex-wrap gap-2"><Button type="button" variant="outline" disabled={busy} onClick={() => setConfirm(false)}>Annuler</Button><Button type="button" variant="destructive" disabled={busy} onClick={() => void erase()}>Supprimer définitivement</Button></div></>
                         : <><p>Efface le kit, la progression des clientes et leurs questions.</p><Button type="button" variant="outline" className="mt-3 text-destructive hover:text-destructive" disabled={busy} onClick={() => setConfirm(true)}><Trash2 />Supprimer…</Button></>}
