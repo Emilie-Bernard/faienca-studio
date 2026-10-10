@@ -12,6 +12,7 @@ import { ArrowUpRight } from 'lucide-react';
 import Loader from './loader';
 import Studio from './studio';
 import ClientSpace, { type Me } from './client';
+import TraineeSpace from './stagiaire';
 import { peekPendingKit } from '../lib/pending-kit';
 import type { Messages } from '../lib/i18n';
 import { LanguageSwitcher, Lines, useI18n } from './i18n';
@@ -28,7 +29,7 @@ function Home() {
     const me = useQuery(anyApi.users.me) as Me | null | undefined; const { signOut } = useAuthActions(); const { t } = useI18n();
     if (me === undefined) return <Loader message={t.loader.space} />;
     if (me === null) return <Welcome><p>{t.auth.unavailable}</p><Button onClick={() => void signOut()}>{t.auth.backToSignIn}</Button></Welcome>;
-    return me.role === 'admin' ? <Studio /> : <ClientSpace me={me} />;
+    return me.role === 'admin' ? <Studio /> : me.role === 'stagiaire' ? <TraineeSpace me={me} /> : <ClientSpace me={me} />;
 }
 const notConfigured = (err: unknown) => err instanceof Error && /is not configured/.test(err.message);
 function message(err: unknown, mode: Mode, t: Messages['auth'], server: (m: string) => string) {

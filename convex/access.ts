@@ -21,6 +21,13 @@ export async function requireUser(ctx: Ctx) {
     return { id: id as Id<'users'>, user, role: roleOf(user)! };
 }
 
+/** Espace Stage : la stagiaire et l'administratrice. */
+export async function requireTrainee(ctx: Ctx) {
+    const me = await requireUser(ctx);
+    if (me.role !== 'stagiaire' && me.role !== 'admin') throw new ConvexError('Accès réservé à la stagiaire.');
+    return me;
+}
+
 export async function requireAdmin(ctx: Ctx) {
     const me = await requireUser(ctx);
     if (me.role !== 'admin') throw new ConvexError('Accès réservé à la propriétaire.');

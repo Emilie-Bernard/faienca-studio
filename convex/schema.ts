@@ -7,6 +7,8 @@ const emailSteps = v.array(v.object({
     klaviyoFlowActionId: v.optional(v.string()),
     klaviyoDelayActionId: v.optional(v.string()),
 }));
+export const missionFile = v.object({ id: v.string(), label: v.string(), url: v.string(), storageId: v.optional(v.id('_storage')) });
+export const missionStatus = v.union(v.literal('todo'), v.literal('doing'), v.literal('submitted'), v.literal('validated'));
 /** Traductions anglaise et espagnole ; un champ vide reprend le français. */
 const translated = <T extends Record<string, ReturnType<typeof v.string>>>(fields: T) => v.optional(v.object({ en: v.optional(v.object(fields)), es: v.optional(v.object(fields)) }));
 export const lessonTranslations = translated({ title: v.string(), stitch: v.string(), notes: v.string() });
@@ -36,7 +38,7 @@ export const entryFields = {
 };
 export default defineSchema({
     ...authTables,
-    users: defineTable({ name: v.optional(v.string()), email: v.optional(v.string()), image: v.optional(v.string()), emailVerificationTime: v.optional(v.number()), phone: v.optional(v.string()), phoneVerificationTime: v.optional(v.number()), isAnonymous: v.optional(v.boolean()), githubId: v.optional(v.string()), role: v.optional(v.union(v.literal('admin'), v.literal('cliente'))), createdAt: v.optional(v.number()) }).index('email', ['email']).index('phone', ['phone']),
+    users: defineTable({ name: v.optional(v.string()), email: v.optional(v.string()), image: v.optional(v.string()), emailVerificationTime: v.optional(v.number()), phone: v.optional(v.string()), phoneVerificationTime: v.optional(v.number()), isAnonymous: v.optional(v.boolean()), githubId: v.optional(v.string()), role: v.optional(v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire'))), createdAt: v.optional(v.number()) }).index('email', ['email']).index('phone', ['phone']),
     entries: defineTable({ ...entryFields, emailSteps: v.optional(emailSteps), revision: v.number(), seedKey: v.optional(v.string()) }),
     seeds: defineTable({ version: v.string() }).index('version', ['version']),
     newsletterSubscribers: defineTable({
@@ -59,6 +61,15 @@ export default defineSchema({
         body: v.string(), createdAt: v.number(),
         answer: v.optional(v.string()), answeredAt: v.optional(v.number()),
     }).index('by_kit', ['kitId', 'createdAt']).index('by_user', ['userId']),
+    // Stage : missions préparées par l'atelier, suivies à son rythme par la stagiaire.
+    missions: defineTable({
+        title: v.string(), description: v.string(), phase: v.string(), dueDate: v.string(), published: v.boolean(),
+        resources: v.array(missionFile), order: v.number(), revision: v.number(), updatedAt: v.number(),
+    }),
+    missionProgress: defineTable({
+        userId: v.id('users'), missionId: v.id('missions'), status: missionStatus,
+        notes: v.string(), deliverables: v.array(missionFile), feedback: v.string(), updatedAt: v.number(),
+    }).index('by_user', ['userId']).index('by_mission', ['missionId']).index('by_user_mission', ['userId', 'missionId']),
     // To-do du jour : une tâche non terminée reste dans la liste les jours suivants.
     todos: defineTable({
         title: v.string(), day: v.string(), createdAt: v.number(),

@@ -1,4 +1,4 @@
-export const roles = ['admin', 'cliente'] as const;
+export const roles = ['admin', 'cliente', 'stagiaire'] as const;
 export type Role = typeof roles[number];
 
 /** Langues de traduction du contenu des kits ; le français est la langue d'origine. */

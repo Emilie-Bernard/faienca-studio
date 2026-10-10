@@ -24,7 +24,7 @@ export const list = query({
 });
 
 export const setRole = mutation({
-    args: { userId: v.id('users'), role: v.union(v.literal('admin'), v.literal('cliente')) }, handler: async (ctx, { userId, role }) => {
+    args: { userId: v.id('users'), role: v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire')) }, handler: async (ctx, { userId, role }) => {
         const me = await requireAdmin(ctx);
         if (userId === me) throw new ConvexError('Vous ne pouvez pas modifier votre propre rôle.');
         const user = await ctx.db.get(userId); if (!user) throw new ConvexError('Compte introuvable.');
@@ -35,7 +35,7 @@ export const setRole = mutation({
 
 /** Réservé à la ligne de commande : npx convex run users:setRoleByEmail '{"email":"…","role":"admin"}' */
 export const setRoleByEmail = internalMutation({
-    args: { email: v.string(), role: v.union(v.literal('admin'), v.literal('cliente')) }, handler: async (ctx, { email, role }) => {
+    args: { email: v.string(), role: v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire')) }, handler: async (ctx, { email, role }) => {
         const user = await ctx.db.query('users').withIndex('email', q => q.eq('email', email.trim().toLowerCase())).unique();
         if (!user) throw new ConvexError('Aucun compte avec cette adresse.');
         await ctx.db.patch(user._id, { role });

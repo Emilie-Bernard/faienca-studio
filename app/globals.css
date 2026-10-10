@@ -3835,3 +3835,29 @@ button.kit-card:hover {
     align-self: flex-start;
     margin-top: 18px
 }
+
+/* Espace stage */
+.stage-phase { margin-top: 26px }
+.stage-phase>h2 { font-family: var(--font-heading); font-size: 22px; margin-bottom: 10px }
+.stage-mission { padding: 0; margin-bottom: 10px }
+.stage-mission-head { display: flex; align-items: center; gap: 12px; width: 100%; padding: 14px 18px; text-align: left; background: none; border: 0; cursor: pointer }
+.stage-mission-title { display: flex; flex-direction: column; gap: 3px; flex: 1; min-width: 0; text-align: left; background: none; border: 0; cursor: pointer; padding: 0 }
+.stage-mission-title small { display: inline-flex; align-items: center; gap: 5px; color: var(--muted-text); font-size: 12px }
+.stage-chevron { color: var(--muted-text); transition: transform .15s }
+.stage-mission.open .stage-chevron { transform: rotate(180deg) }
+.stage-mission-body { display: flex; flex-direction: column; gap: 18px; padding: 4px 18px 20px; border-top: 1px solid var(--line) }
+.stage-mission-body h3 { font-size: 13px; font-weight: 600; margin: 14px 0 8px; display: flex; align-items: center; gap: 6px }
+.stage-description { white-space: pre-wrap; line-height: 1.7; font-size: 14px; margin-top: 12px }
+.stage-files { display: flex; flex-direction: column; gap: 4px; margin: 0 0 8px; padding: 0; list-style: none }
+.stage-files li { display: flex; align-items: center; justify-content: space-between; gap: 8px; border: 1px solid var(--line); border-radius: 7px; padding: 4px 4px 4px 12px; background: var(--bg) }
+.stage-files a { display: inline-flex; align-items: center; gap: 8px; color: var(--navy); font-size: 14px; min-width: 0; padding: 6px 0 }
+.stage-files a span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.stage-adder { display: flex; flex-direction: column; gap: 8px; margin-top: 10px }
+.stage-adder-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px }
+.stage-adder-row input[type=url] { flex: 1; min-width: 180px }
+.error-inline { color: #b03f25; font-size: 13px }
+.stage-form { display: flex; flex-direction: column; gap: 16px; margin-top: 16px }
+.stage-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px }
+.stage-switch { display: flex; align-items: center; gap: 10px; font-size: 14px }
+.stage-review { display: flex; flex-direction: column; gap: 10px; border: 1px solid var(--line); border-radius: 8px; padding: 16px }
+@media (max-width: 640px) { .stage-form-row { grid-template-columns: 1fr } }
