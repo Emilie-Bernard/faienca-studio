@@ -70,6 +70,20 @@ export default defineSchema({
         userId: v.id('users'), missionId: v.id('missions'), status: missionStatus,
         notes: v.string(), deliverables: v.array(missionFile), feedback: v.string(), updatedAt: v.number(),
     }).index('by_user', ['userId']).index('by_mission', ['missionId']).index('by_user_mission', ['userId', 'missionId']),
+    // Produits de la boutique : kits et modèles PDF, avec contenu, matériaux, fichiers et checklist de lancement.
+    products: defineTable({
+        type: v.union(v.literal('kit'), v.literal('pdf')), title: v.string(), description: v.string(), status: v.string(),
+        price: v.union(v.number(), v.null()), shopUrl: v.string(), coverUrl: v.string(), linkedKitId: v.string(),
+        contents: v.array(v.object({ id: v.string(), name: v.string(), notes: v.string() })),
+        materials: v.array(v.object({
+            id: v.string(), name: v.string(), quantity: v.string(), purpose: v.union(v.literal('kit'), v.literal('atelier')),
+            unitCost: v.union(v.number(), v.null()), bought: v.boolean(), notes: v.string(),
+            links: v.array(v.object({ id: v.string(), shop: v.string(), url: v.string(), note: v.string() })),
+        })),
+        pdfs: v.object({ fr: v.optional(missionFile), en: v.optional(missionFile), es: v.optional(missionFile) }),
+        tasks: v.array(v.object({ id: v.string(), title: v.string(), done: v.boolean() })),
+        revision: v.number(), updatedAt: v.number(),
+    }),
     // To-do du jour : une tâche non terminée reste dans la liste les jours suivants.
     todos: defineTable({
         title: v.string(), day: v.string(), createdAt: v.number(),

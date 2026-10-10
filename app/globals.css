@@ -3861,3 +3861,20 @@ button.kit-card:hover {
 .stage-switch { display: flex; align-items: center; gap: 10px; font-size: 14px }
 .stage-review { display: flex; flex-direction: column; gap: 10px; border: 1px solid var(--line); border-radius: 8px; padding: 16px }
 @media (max-width: 640px) { .stage-form-row { grid-template-columns: 1fr } }
+
+/* Produits */
+.product-tabs { flex-wrap: wrap; height: auto; margin-bottom: 12px }
+.product-row { display: flex; align-items: center; gap: 8px }
+.product-row>input:first-child { flex: 2 }
+.product-row>input:nth-child(2) { flex: 1.5 }
+.product-row3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px }
+.product-row3>div { display: flex; flex-direction: column; gap: 4px }
+.product-material { display: flex; flex-direction: column; gap: 12px; border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: var(--bg) }
+.product-links { display: flex; flex-direction: column; gap: 6px }
+.product-link { display: grid; grid-template-columns: 1fr 2fr 1fr auto auto; gap: 6px; align-items: center }
+.product-open { display: inline-flex; padding: 8px; color: var(--navy) }
+.product-bought { display: inline-flex; align-items: center; gap: 8px; font-size: 13px }
+.product-task { display: flex; align-items: center; gap: 10px }
+.product-task>input[type=checkbox] { width: 18px; height: 18px; flex: none }
+.product-task>input:not([type=checkbox]) { flex: 1 }
+@media (max-width: 640px) { .product-row3, .product-link { grid-template-columns: 1fr } .product-row { flex-wrap: wrap } }

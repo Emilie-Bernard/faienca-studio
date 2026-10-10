@@ -15,6 +15,7 @@ import type * as http from "../http.js";
 import type * as kits from "../kits.js";
 import type * as klaviyoSync from "../klaviyoSync.js";
 import type * as newsletter from "../newsletter.js";
+import type * as products from "../products.js";
 import type * as stage from "../stage.js";
 import type * as studio from "../studio.js";
 import type * as testEmail from "../testEmail.js";
@@ -35,6 +36,7 @@ declare const fullApi: ApiFromModules<{
   kits: typeof kits;
   klaviyoSync: typeof klaviyoSync;
   newsletter: typeof newsletter;
+  products: typeof products;
   stage: typeof stage;
   studio: typeof studio;
   testEmail: typeof testEmail;
