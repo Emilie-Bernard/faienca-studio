@@ -3971,3 +3971,13 @@ button.kit-card:hover {
     .stage-row { flex-wrap: wrap }
     .stage-row-main { flex-basis: calc(100% - 40px) }
 }
+
+/* Bibliothèque partagée atelier / stagiaires */
+.library { display: flex; flex-direction: column; gap: 18px }
+.library-add h2 { font-family: var(--font-heading); font-size: 20px; margin: 0 0 4px }
+.library-add .stage-form-row { margin-top: 14px }
+.library-field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; font-weight: 600; color: var(--muted-text) }
+.library-items { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none }
+.library-items>li { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px }
+.library-items .stage-files { margin: 0 }
+.library-description { white-space: pre-wrap; font-size: 13px; line-height: 1.6; margin: 2px 0 0 }

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { useAuthActions } from '@convex-dev/auth/react';
-import { CalendarDays, Check, ChevronDown, Flower2, LogOut, MessageSquareText, Paperclip } from 'lucide-react';
+import { CalendarDays, Check, ChevronDown, ClipboardList, Flower2, Library as LibraryIcon, LogOut, MessageSquareText, Paperclip } from 'lucide-react';
 import { groupByPhase, missionStatusLabels, percentDone, traineeStatuses, type MissionStatus } from '../lib/stage';
 import Loader from './loader';
 import Brand from './brand';
@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { errorText, type Me } from './client';
 import { FileAdder, FileLinks, type FileView } from './stage-files';
+import { Library } from './library';
 
 export type TraineeMission = {
     _id: string; title: string; description: string; phase: string; dueDate: string; resources: FileView[];
@@ -22,7 +23,7 @@ export const dueLabel = (date: string) => new Date(date + 'T12:00:00').toLocaleD
 export default function TraineeSpace({ me }: { me: Me }) {
     const { signOut } = useAuthActions();
     const missions = useQuery(anyApi.stage.mine) as TraineeMission[] | undefined;
-    const [openId, setOpenId] = useState<string | null>(null), [toast, setToast] = useState('');
+    const [openId, setOpenId] = useState<string | null>(null), [toast, setToast] = useState(''), [tab, setTab] = useState<'missions' | 'library'>('missions');
     useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(''), 4500); return () => clearTimeout(t); }, [toast]);
     if (!missions) return <Loader message="Chargement de votre stage…" />;
     const firstName = me.name.split(/\s+/)[0] || 'toi';
@@ -30,10 +31,13 @@ export default function TraineeSpace({ me }: { me: Me }) {
     const count = (s: MissionStatus) => statuses.filter(x => x === s).length;
     const next = missions.find(m => m.progress.status === 'doing') ?? missions.find(m => m.progress.status === 'todo');
     return <div className="client">
-        <header className="client-bar"><a className="brand" href="/"><Brand label="STAGE" /></a><span />
+        <header className="client-bar"><a className="brand" href="/"><Brand label="STAGE" /></a>
+            <nav>{([['missions', 'Mes missions', ClipboardList], ['library', 'Bibliothèque', LibraryIcon]] as const).map(([id, label, Icon]) => <Button key={id} type="button" variant="ghost" aria-current={tab === id ? 'page' : undefined} className={cn('text-muted-foreground', tab === id && 'bg-accent font-semibold text-accent-foreground')} onClick={() => setTab(id)}><Icon size={16} />{label}</Button>)}</nav>
             <div className="client-user"><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="client-name">{me.name || me.email}</span><Button variant="ghost" size="icon" aria-label="Se déconnecter" title="Se déconnecter" onClick={() => void signOut()}><LogOut /></Button></div>
         </header>
-        <main className="client-main">
+        <main className="client-main">{tab === 'library' ? <>
+            <div className="page-heading"><div><div className="eyebrow">BIBLIOTHÈQUE</div><h1>Bibliothèque</h1><p>Les documents partagés avec l’atelier. Tu peux aussi y ajouter les tiens.</p></div></div>
+            <Library onToast={setToast} /></> : <>
             <div className="page-heading"><div><div className="eyebrow">MON STAGE</div><h1>Bonjour {firstName}</h1><p>Voici tes missions. Avance à ton rythme : les dates sont des repères, pas des échéances.</p></div></div>
             <section className="stats"><Stat label="Missions" value={missions.length} /><Stat label="En cours" value={count('doing')} /><Stat label="À relire" value={count('submitted')} /><Stat label="Validées" value={count('validated')} /></section>
             {missions.length > 0 && <div className="progress" role="img" aria-label={`Avancement : ${percentDone(statuses)} %`}><span style={{ width: percentDone(statuses) + '%' }} /></div>}
@@ -41,7 +45,7 @@ export default function TraineeSpace({ me }: { me: Me }) {
             {missions.length ? groupByPhase(missions).map(g => <section key={g.phase} className="stage-phase"><h2>{g.phase}</h2>
                 {g.missions.map(m => <MissionCard key={m._id} mission={m} open={openId === m._id} onToggle={() => setOpenId(openId === m._id ? null : m._id)} onToast={setToast} />)}</section>)
                 : <section className="panel client-empty"><Flower2 size={28} /><p>Aucune mission pour le moment. Elles apparaîtront ici dès qu’elles seront prêtes.</p></section>}
-        </main>
+        </>}</main>
         {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
     </div>;
 }

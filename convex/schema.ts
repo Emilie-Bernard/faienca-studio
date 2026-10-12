@@ -70,6 +70,11 @@ export default defineSchema({
         userId: v.id('users'), missionId: v.id('missions'), status: missionStatus,
         notes: v.string(), deliverables: v.array(missionFile), feedback: v.string(), updatedAt: v.number(),
     }).index('by_user', ['userId']).index('by_mission', ['missionId']).index('by_user_mission', ['userId', 'missionId']),
+    // Bibliothèque partagée entre l'atelier et les stagiaires.
+    libraryItems: defineTable({
+        title: v.string(), category: v.string(), description: v.string(), file: missionFile,
+        authorId: v.id('users'), authorName: v.string(), createdAt: v.number(),
+    }),
     // Produits de la boutique : kits et modèles PDF, avec contenu, matériaux, fichiers et checklist de lancement.
     products: defineTable({
         type: v.union(v.literal('kit'), v.literal('pdf')), title: v.string(), description: v.string(), status: v.string(),
