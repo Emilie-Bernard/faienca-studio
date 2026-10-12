@@ -14,6 +14,7 @@ import type * as crons from "../crons.js";
 import type * as http from "../http.js";
 import type * as kits from "../kits.js";
 import type * as klaviyoSync from "../klaviyoSync.js";
+import type * as library from "../library.js";
 import type * as newsletter from "../newsletter.js";
 import type * as products from "../products.js";
 import type * as stage from "../stage.js";
@@ -35,6 +36,7 @@ declare const fullApi: ApiFromModules<{
   http: typeof http;
   kits: typeof kits;
   klaviyoSync: typeof klaviyoSync;
+  library: typeof library;
   newsletter: typeof newsletter;
   products: typeof products;
   stage: typeof stage;
