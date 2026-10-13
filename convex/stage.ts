@@ -1,4 +1,4 @@
-import { query, mutation, type MutationCtx, type QueryCtx } from './_generated/server';
+import { query, mutation, internalMutation, type MutationCtx, type QueryCtx } from './_generated/server';
 import { v, ConvexError } from 'convex/values';
 import type { Doc, Id } from './_generated/dataModel';
 import { missionFile, missionStatus } from './schema';
@@ -163,5 +163,25 @@ export const review = mutation({
         const patch = { status, feedback: feedback.trim(), updatedAt: Date.now() };
         if (p) await ctx.db.patch(p._id, patch);
         else await ctx.db.insert('missionProgress', { userId, missionId, notes: '', deliverables: [], ...patch });
+    }
+});
+
+/** Import en ligne de commande : ajoute en brouillon les missions dont le titre n'existe pas encore, à la suite des autres. */
+export const importMissions = internalMutation({
+    args: { missions: v.array(v.object({ title: v.string(), description: v.string(), phase: v.string(), resources: v.array(v.object({ label: v.string(), url: v.string() })) })) },
+    handler: async (ctx, { missions }) => {
+        const existing = await ctx.db.query('missions').collect();
+        const titles = new Set(existing.map(m => m.title.trim().toLowerCase()));
+        let order = existing.reduce((n, m) => Math.max(n, m.order), 0);
+        const created: string[] = [], skipped: string[] = [];
+        for (const m of missions) {
+            const title = m.title.trim();
+            if (titles.has(title.toLowerCase())) { skipped.push(title); continue; }
+            const data = { title, description: m.description.trim(), phase: m.phase.trim(), dueDate: '', published: false, resources: m.resources.map(r => ({ id: crypto.randomUUID(), label: r.label.trim(), url: r.url })) };
+            const error = missionError(data); if (error) throw new ConvexError(`${title} : ${error}`);
+            await ctx.db.insert('missions', { ...data, order: ++order, revision: 1, updatedAt: Date.now() });
+            titles.add(title.toLowerCase()); created.push(title);
+        }
+        return { created, skipped };
     }
 });

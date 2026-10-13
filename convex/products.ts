@@ -82,3 +82,20 @@ export const importDrafts = internalMutation({
         return { created, skipped };
     }
 });
+
+/** En ligne de commande : donne aux produits sans image la couverture du kit relié, ou du kit au même titre (tirets et casse ignorés). */
+export const linkCovers = internalMutation({
+    args: {}, handler: async (ctx) => {
+        const key = (s: string) => s.toLowerCase().replace(/[‐-―-]/g, '-').replace(/\s+/g, ' ').trim();
+        const kits = (await ctx.db.query('kits').collect()).filter(k => /^https:\/\//i.test(k.coverUrl));
+        const linked: string[] = [], missing: string[] = [];
+        for (const p of await ctx.db.query('products').collect()) {
+            if (p.coverUrl) continue;
+            const kit = kits.find(k => k._id === p.linkedKitId) ?? kits.find(k => key(k.title) === key(p.title));
+            if (!kit) { missing.push(p.title); continue; }
+            await ctx.db.patch(p._id, { coverUrl: kit.coverUrl, revision: p.revision + 1, updatedAt: Date.now() });
+            linked.push(p.title);
+        }
+        return { linked, missing };
+    }
+});
