@@ -1,6 +1,6 @@
-import { queryGeneric as query, mutationGeneric as mutation } from 'convex/server';
+import { queryGeneric as query, mutationGeneric as mutation, internalMutationGeneric as internalMutation } from 'convex/server';
 import { v, ConvexError } from 'convex/values';
-import { entryFields } from './schema';
+import { entryFields, missionFile } from './schema';
 import { contentStatuses, projectStatuses, certainties, stages, newsletterCampaignStatuses, scenarioStatuses, type EntryInput } from '../lib/model';
 import seeds from './seed.json';
 import { requireAdmin } from './access';
@@ -39,6 +39,7 @@ export const save = mutation({
 export const remove = mutation({
     args: { id: v.id('entries'), revision: v.number() }, handler: async (ctx, { id, revision }) => {
         await owner(ctx); const before = await ctx.db.get(id); if (!before) throw new ConvexError('Élément introuvable.'); if (before.revision !== revision) throw new ConvexError('La fiche a changé. Rechargez-la.');
+        for (const f of before.media ?? []) if (f.storageId) await ctx.storage.delete(f.storageId);
         if (before.kind === 'projet') for (const e of await ctx.db.query('entries').collect()) if (e.projectId === id) await ctx.db.patch(e._id, { projectId: '', revision: e.revision + 1 });
         await ctx.db.delete(id);
     }
@@ -53,4 +54,45 @@ export const initialize = mutation({
         for (const s of seeds.filter(e => e.data.kind !== 'projet')) { const data = { ...s.data, kind: s.data.kind as EntryInput['kind'], projectId: ids[s.data.projectId] ?? '', emailSteps: [] }; validate(data); await ctx.db.insert('entries', { ...data, revision: 1, seedKey: s.key }); inserted++; }
         await ctx.db.insert('seeds', { version }); return { inserted };
     }
+});
+
+// Visuels à poster : rangés à part de la fiche, sans toucher à sa révision, pour qu'un envoi ne bloque pas l'enregistrement en cours.
+const MAX_MEDIA = 20;
+async function publication(ctx: { db: any }, id: string) {
+    const e = await ctx.db.get(id); if (!e || e.kind !== 'publication') throw new ConvexError('Publication introuvable.');
+    return e as { _id: string; media?: { id: string; label: string; url: string; storageId?: string }[] };
+}
+async function appendMedia(ctx: { db: any }, id: string, files: { id: string; label: string; url: string; storageId?: string }[]) {
+    const e = await publication(ctx, id); const media = [...(e.media ?? []), ...files];
+    if (media.length > MAX_MEDIA) throw new ConvexError(`${MAX_MEDIA} visuels au maximum par publication.`);
+    if (files.some(f => !f.storageId || f.label.length > 120)) throw new ConvexError('Visuel invalide.');
+    await ctx.db.patch(e._id as never, { media });
+}
+export const media = query({
+    args: { id: v.id('entries') }, handler: async (ctx, { id }) => {
+        await owner(ctx); const e = await ctx.db.get(id); if (!e) return [];
+        return await Promise.all((e.media ?? []).map(async (f: { storageId?: string }) => ({ ...f, fileUrl: f.storageId ? await ctx.storage.getUrl(f.storageId) : null })));
+    }
+});
+export const generateUploadUrl = mutation({
+    args: {}, handler: async (ctx) => { await owner(ctx); return await ctx.storage.generateUploadUrl(); }
+});
+export const addMedia = mutation({
+    args: { id: v.id('entries'), files: v.array(missionFile) }, handler: async (ctx, { id, files }) => { await owner(ctx); await appendMedia(ctx, id, files); }
+});
+export const removeMedia = mutation({
+    args: { id: v.id('entries'), fileId: v.string() }, handler: async (ctx, { id, fileId }) => {
+        await owner(ctx); const e = await publication(ctx, id); const file = (e.media ?? []).find(f => f.id === fileId); if (!file) return;
+        if (file.storageId) await ctx.storage.delete(file.storageId as never);
+        await ctx.db.patch(e._id as never, { media: (e.media ?? []).filter(f => f.id !== fileId) });
+    }
+});
+/** En ligne de commande : URL d'envoi, puis rattachement des visuels envoyés à une publication. */
+export const cliUploadUrl = internalMutation({ args: {}, handler: async (ctx) => await ctx.storage.generateUploadUrl() });
+export const cliAttachMedia = internalMutation({
+    args: { id: v.id('entries'), files: v.array(missionFile) }, handler: async (ctx, { id, files }) => { await appendMedia(ctx, id, files); return { count: files.length }; }
+});
+export const cliPatchPublication = internalMutation({
+    args: { id: v.id('entries'), patch: v.object({ hook: v.optional(v.string()), text: v.optional(v.string()), cta: v.optional(v.string()), caveat: v.optional(v.string()), format: v.optional(v.string()), stories: v.optional(v.string()) }) },
+    handler: async (ctx, { id, patch }) => { const e = await ctx.db.get(id); if (!e || e.kind !== 'publication') throw new ConvexError('Publication introuvable.'); await ctx.db.patch(id, { ...patch, revision: e.revision + 1 }); }
 });

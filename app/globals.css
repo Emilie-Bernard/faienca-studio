@@ -4038,3 +4038,11 @@ a.library-card-title::after { content: ''; position: absolute; inset: 0; border-
     .library-link input:first-of-type, .library-link input[type=url] { flex-basis: 100% }
     .library-toolbar .search { min-width: 0; flex: 1 1 100% }
 }
+.publication-media { display: flex; flex-direction: column; align-items: flex-start; gap: 10px }
+.publication-media-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100% }
+.publication-media-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; width: 100%; margin: 0; padding: 0; list-style: none }
+.publication-media-grid li { position: relative; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--bg) }
+.publication-media-grid a { display: block; aspect-ratio: 4 / 5 }
+.publication-media-grid img, .publication-media-grid video { width: 100%; height: 100%; object-fit: cover; display: block }
+.publication-media-num { position: absolute; top: 6px; left: 6px; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; background: rgba(255,255,255,.9); color: var(--navy); font-size: 12px; font-weight: 600; display: grid; place-items: center }
+.publication-media-actions { display: flex; justify-content: space-between; border-top: 1px solid var(--line) }

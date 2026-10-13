@@ -39,7 +39,7 @@ export const entryFields = {
 export default defineSchema({
     ...authTables,
     users: defineTable({ name: v.optional(v.string()), email: v.optional(v.string()), image: v.optional(v.string()), emailVerificationTime: v.optional(v.number()), phone: v.optional(v.string()), phoneVerificationTime: v.optional(v.number()), isAnonymous: v.optional(v.boolean()), githubId: v.optional(v.string()), role: v.optional(v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire'))), createdAt: v.optional(v.number()) }).index('email', ['email']).index('phone', ['phone']),
-    entries: defineTable({ ...entryFields, emailSteps: v.optional(emailSteps), revision: v.number(), seedKey: v.optional(v.string()) }),
+    entries: defineTable({ ...entryFields, emailSteps: v.optional(emailSteps), revision: v.number(), seedKey: v.optional(v.string()), media: v.optional(v.array(missionFile)) }),
     seeds: defineTable({ version: v.string() }).index('version', ['version']),
     newsletterSubscribers: defineTable({
         email: v.string(),
