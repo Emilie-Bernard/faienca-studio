@@ -3973,11 +3973,68 @@ button.kit-card:hover {
 }
 
 /* Bibliothèque partagée atelier / stagiaires */
-.library { display: flex; flex-direction: column; gap: 18px }
-.library-add h2 { font-family: var(--font-heading); font-size: 20px; margin: 0 0 4px }
-.library-add .stage-form-row { margin-top: 14px }
-.library-field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; font-weight: 600; color: var(--muted-text) }
-.library-items { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none }
-.library-items>li { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px }
-.library-items .stage-files { margin: 0 }
-.library-description { white-space: pre-wrap; font-size: 13px; line-height: 1.6; margin: 2px 0 0 }
+.library { display: flex; flex-direction: column; gap: 22px }
+.library-add { display: flex; flex-direction: column; gap: 14px }
+.library-add-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 14px 24px }
+.library-add-head>div { flex: 1 1 320px }
+.library-add h2 { font-family: var(--font-heading); font-size: 22px; margin: 0 0 4px }
+.library-add-head p { margin: 0; font-size: 13px }
+.library-field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; font-weight: 600; color: var(--muted-text); flex: 0 1 280px }
+.library-drop { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; padding: 30px 16px; border: 2px dashed #d6cbbd; border-radius: 12px; background: var(--bg); color: var(--muted-text); cursor: pointer; transition: border-color .15s, background .15s, color .15s }
+.library-drop svg { color: var(--navy); margin-bottom: 4px }
+.library-drop strong { font-size: 15px; color: var(--ink) }
+.library-drop span { font-size: 13px }
+.library-drop u { color: var(--navy); text-underline-offset: 3px }
+.library-drop:hover, .library-drop:focus-visible { border-color: var(--navy); outline: none }
+.library-drop.over { border-color: var(--navy); background: var(--blue); border-style: solid }
+.library-drop.over strong { color: var(--navy) }
+.library-uploads { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none }
+.library-uploads li { display: grid; grid-template-columns: 16px minmax(0, 1fr) minmax(90px, 32%); align-items: center; gap: 10px; font-size: 13px }
+.library-uploads .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.library-uploads .bar { height: 6px; border-radius: 3px; background: #efe8de; overflow: hidden }
+.library-uploads .bar span { display: block; height: 100%; background: var(--navy); border-radius: 3px; transition: width .2s }
+.library-uploads .done svg { color: var(--reseda-green) }
+.library-uploads .done .bar span { background: var(--reseda-green) }
+.library-uploads .error { color: #b03f25 }
+.library-uploads li.error { grid-template-columns: 16px minmax(0, 1fr) }
+.library-uploads .why { grid-column: 2; font-size: 12px }
+.library-uploads .waiting { color: var(--muted-text) }
+.library-uploads li.clear { display: flex; justify-content: flex-end }
+.library-uploads .spin { animation: library-spin 1s linear infinite }
+@keyframes library-spin { to { transform: rotate(360deg) } }
+.library-link { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 14px; border-top: 1px solid var(--line) }
+.library-link input:first-of-type { flex: 0 1 220px }
+.library-link input[type=url] { flex: 1 1 220px }
+.library-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px }
+.library-chips { display: flex; flex-wrap: wrap; gap: 6px }
+.library-chips button { font-size: 13px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); transition: border-color .15s, background .15s }
+.library-chips button span { color: var(--muted-text); font-size: 12px; margin-left: 2px }
+.library-chips button:hover { border-color: var(--navy) }
+.library-chips button[aria-pressed=true] { background: var(--navy); border-color: var(--navy); color: #fff }
+.library-chips button[aria-pressed=true] span { color: #dfe2f6 }
+.library-group h2 { font-family: var(--font-heading); font-size: 22px; margin: 0 0 10px; display: flex; align-items: baseline; gap: 8px }
+.library-group h2 span { font-family: var(--font-body); font-size: 12px; color: var(--muted-text); font-weight: 400 }
+.library-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none }
+.library-card { position: relative; display: flex; gap: 12px; align-items: flex-start; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; transition: border-color .15s, box-shadow .15s; min-width: 0 }
+.library-card:hover { border-color: #cfc3b3; box-shadow: 0 2px 10px #2c28250d }
+.library-thumb { flex: none; width: 56px; height: 56px; border-radius: 8px; display: grid; place-items: center; overflow: hidden; background: var(--blue); color: var(--navy) }
+.library-thumb img { width: 100%; height: 100%; object-fit: cover }
+.library-thumb.kind-pdf { background: var(--purple); color: var(--jasper) }
+.library-thumb.kind-image { background: var(--green); color: var(--reseda-green) }
+.library-thumb.kind-video { background: #fdf0dc; color: #a8620f }
+.library-thumb.kind-sheet { background: var(--green); color: var(--reseda-green) }
+.library-thumb.kind-slides { background: #fdf0dc; color: #a8620f }
+.library-thumb.kind-archive, .library-thumb.kind-file { background: #f3ede4; color: var(--muted-text) }
+.library-card-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; padding-right: 26px }
+.library-card-title { font-weight: 600; font-size: 14px; line-height: 1.35; color: var(--ink); text-decoration: none; overflow-wrap: anywhere }
+a.library-card-title:hover { color: var(--navy); text-decoration: underline }
+a.library-card-title::after { content: ''; position: absolute; inset: 0; border-radius: 10px }
+.library-card-body p { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted-text); white-space: pre-wrap; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden }
+.library-card-body small { font-size: 12px; color: #8b8178 }
+.library-remove { position: absolute; top: 6px; right: 6px; z-index: 1; opacity: .55 }
+.library-card:hover .library-remove, .library-remove:focus-visible { opacity: 1 }
+@media (max-width: 640px) {
+    .library-field { flex-basis: 100% }
+    .library-link input:first-of-type, .library-link input[type=url] { flex-basis: 100% }
+    .library-toolbar .search { min-width: 0; flex: 1 1 100% }
+}
