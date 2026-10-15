@@ -80,17 +80,22 @@ export const generateUploadUrl = mutation({
 export const addMedia = mutation({
     args: { id: v.id('entries'), files: v.array(missionFile) }, handler: async (ctx, { id, files }) => { await owner(ctx); await appendMedia(ctx, id, files); }
 });
+async function deleteMedia(ctx: { db: any; storage: any }, id: string, fileId: string) {
+    const e = await publication(ctx, id); const file = (e.media ?? []).find(f => f.id === fileId); if (!file) return false;
+    if (file.storageId) await ctx.storage.delete(file.storageId as never);
+    await ctx.db.patch(e._id as never, { media: (e.media ?? []).filter(f => f.id !== fileId) });
+    return true;
+}
 export const removeMedia = mutation({
-    args: { id: v.id('entries'), fileId: v.string() }, handler: async (ctx, { id, fileId }) => {
-        await owner(ctx); const e = await publication(ctx, id); const file = (e.media ?? []).find(f => f.id === fileId); if (!file) return;
-        if (file.storageId) await ctx.storage.delete(file.storageId as never);
-        await ctx.db.patch(e._id as never, { media: (e.media ?? []).filter(f => f.id !== fileId) });
-    }
+    args: { id: v.id('entries'), fileId: v.string() }, handler: async (ctx, { id, fileId }) => { await owner(ctx); await deleteMedia(ctx, id, fileId); }
 });
 /** En ligne de commande : URL d'envoi, puis rattachement des visuels envoyés à une publication. */
 export const cliUploadUrl = internalMutation({ args: {}, handler: async (ctx) => await ctx.storage.generateUploadUrl() });
 export const cliAttachMedia = internalMutation({
     args: { id: v.id('entries'), files: v.array(missionFile) }, handler: async (ctx, { id, files }) => { await appendMedia(ctx, id, files); return { count: files.length }; }
+});
+export const cliRemoveMedia = internalMutation({
+    args: { id: v.id('entries'), fileId: v.string() }, handler: async (ctx, { id, fileId }) => ({ removed: await deleteMedia(ctx, id, fileId) })
 });
 export const cliPatchPublication = internalMutation({
     args: { id: v.id('entries'), patch: v.object({ hook: v.optional(v.string()), text: v.optional(v.string()), cta: v.optional(v.string()), caveat: v.optional(v.string()), format: v.optional(v.string()), stories: v.optional(v.string()) }) },
