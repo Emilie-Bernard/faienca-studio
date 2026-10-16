@@ -1,3 +1,5 @@
+import { releaseLocale } from './release-email';
+
 /** Code à chiffres tiré avec un générateur cryptographique (sans biais de modulo). */
 export function randomDigits(length: number) {
   let code = '';
@@ -8,21 +10,46 @@ export function randomDigits(length: number) {
   return code;
 }
 
-/** E-mail de réinitialisation aux couleurs Faïença (styles en ligne pour les messageries). */
-export function resetEmail(code: string, minutes: number) {
-  const subject = 'Votre code pour changer de mot de passe';
-  const text = `Bonjour,\n\nVoici votre code pour choisir un nouveau mot de passe sur votre carnet Faïença : ${code}\n\nIl est valable ${minutes} minutes. Si vous n’êtes pas à l’origine de cette demande, ignorez simplement cet e-mail : votre mot de passe reste inchangé.\n\nÉmilie · Faïença`;
-  const html = `<!DOCTYPE html><html lang="fr"><body style="margin:0;padding:32px 16px;background:#faf6f0;font-family:'Myriad Pro','Segoe UI',Arial,sans-serif;color:#2c2825;">
+const COPY = {
+  fr: {
+    subject: 'Votre code pour changer de mot de passe', eyebrow: 'Mot de passe oublié', title: 'Votre code Faïença', hello: 'Bonjour,',
+    intro: (code: string) => `Voici votre code pour choisir un nouveau mot de passe sur votre carnet Faïença : ${code}`,
+    lead: 'Saisissez ce code sur la page de connexion pour choisir un nouveau mot de passe.',
+    validity: (m: number) => `Il est valable ${m} minutes. Si vous n’êtes pas à l’origine de cette demande, ignorez cet e-mail : votre mot de passe reste inchangé.`,
+    tagline: 'Le Sud dans les idées. Le fil entre les mains.',
+  },
+  en: {
+    subject: 'Your code to change your password', eyebrow: 'Forgotten password', title: 'Your Faïença code', hello: 'Hello,',
+    intro: (code: string) => `Here is your code to choose a new password for your Faïença notebook: ${code}`,
+    lead: 'Enter this code on the sign-in page to choose a new password.',
+    validity: (m: number) => `It is valid for ${m} minutes. If you did not make this request, simply ignore this email: your password stays the same.`,
+    tagline: 'The South in our ideas. The thread in your hands.',
+  },
+  es: {
+    subject: 'Tu código para cambiar la contraseña', eyebrow: 'Contraseña olvidada', title: 'Tu código Faïença', hello: 'Hola:',
+    intro: (code: string) => `Este es tu código para elegir una nueva contraseña en tu cuaderno Faïença: ${code}`,
+    lead: 'Introduce este código en la página de inicio de sesión para elegir una nueva contraseña.',
+    validity: (m: number) => `Es válido durante ${m} minutos. Si no has hecho esta solicitud, ignora este correo: tu contraseña no cambia.`,
+    tagline: 'El Sur en las ideas. El hilo entre las manos.',
+  },
+};
+
+/** E-mail de réinitialisation aux couleurs Faïença (styles en ligne pour les messageries), dans la langue de la cliente. */
+export function resetEmail(code: string, minutes: number, locale?: string) {
+  const lang = releaseLocale(locale), c = COPY[lang];
+  const subject = c.subject;
+  const text = `${c.hello}\n\n${c.intro(code)}\n\n${c.validity(minutes)}\n\nÉmilie · Faïença`;
+  const html = `<!DOCTYPE html><html lang="${lang}"><body style="margin:0;padding:32px 16px;background:#faf6f0;font-family:'Myriad Pro','Segoe UI',Arial,sans-serif;color:#2c2825;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;margin:0 auto;background:#fffdf8;border:1px solid #e4dcd1;border-radius:10px;">
 <tr><td style="height:10px;background:#4553ae;border-radius:10px 10px 0 0;"></td></tr>
 <tr><td style="padding:32px 32px 8px;">
-<p style="margin:0 0 6px;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#c64b2e;font-weight:600;">Mot de passe oublié</p>
-<h1 style="margin:0 0 18px;font-family:Georgia,serif;font-weight:400;font-size:28px;color:#2c2825;">Votre code Faïença</h1>
-<p style="margin:0 0 22px;font-size:15px;line-height:1.7;">Saisissez ce code sur la page de connexion pour choisir un nouveau mot de passe.</p>
+<p style="margin:0 0 6px;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#b03f25;font-weight:600;">${c.eyebrow}</p>
+<h1 style="margin:0 0 18px;font-family:Georgia,serif;font-weight:400;font-size:28px;color:#2c2825;">${c.title}</h1>
+<p style="margin:0 0 22px;font-size:15px;line-height:1.7;">${c.lead}</p>
 <p style="margin:0 0 22px;padding:18px;text-align:center;background:#eceefa;border-radius:8px;font-size:32px;letter-spacing:.3em;font-weight:700;color:#4553ae;">${code}</p>
-<p style="margin:0 0 8px;font-size:13px;line-height:1.7;color:#6b625a;">Il est valable ${minutes} minutes. Si vous n’êtes pas à l’origine de cette demande, ignorez cet e-mail : votre mot de passe reste inchangé.</p>
+<p style="margin:0 0 8px;font-size:13px;line-height:1.7;color:#6b625a;">${c.validity(minutes)}</p>
 </td></tr>
-<tr><td style="padding:16px 32px 28px;font-size:12px;color:#8b8178;">Émilie · Faïença — Le Sud dans les idées. Le fil entre les mains.</td></tr>
+<tr><td style="padding:16px 32px 28px;font-size:12px;color:#6b625a;">Émilie · Faïença · ${c.tagline}</td></tr>
 </table></body></html>`;
   return { subject, text, html };
 }

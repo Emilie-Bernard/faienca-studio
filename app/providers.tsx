@@ -15,7 +15,7 @@ import ClientSpace, { type Me } from './client';
 import TraineeSpace from './stagiaire';
 import { peekPendingKit } from '../lib/pending-kit';
 import type { Messages } from '../lib/i18n';
-import { LanguageSwitcher, Lines, useI18n } from './i18n';
+import { LanguageSwitcher, Lines, useForcedLocale, useI18n } from './i18n';
 const url = process.env.NEXT_PUBLIC_CONVEX_URL;
 const client = url ? new ConvexReactClient(url) : null;
 type Mode = 'signIn' | 'signUp' | 'atelier' | 'reset' | 'reset-verification';
@@ -32,8 +32,10 @@ function Home() {
     useEffect(() => { void ping({ locale }).catch(() => {}); }, [ping, locale]);
     if (me === undefined) return <Loader message={t.loader.space} />;
     if (me === null) return <Welcome><p>{t.auth.unavailable}</p><Button onClick={() => void signOut()}>{t.auth.backToSignIn}</Button></Welcome>;
-    return me.role === 'admin' ? <Studio /> : me.role === 'stagiaire' ? <TraineeSpace me={me} /> : <ClientSpace me={me} />;
+    return me.role === 'admin' ? <French><Studio /></French> : me.role === 'stagiaire' ? <French><TraineeSpace me={me} /></French> : <ClientSpace me={me} />;
 }
+/** L'atelier et l'espace stagiaire sont rédigés en français : boîtes de dialogue, chargements et menus suivent. */
+function French({ children }: { children: React.ReactNode }) { useForcedLocale('fr'); return <>{children}</>; }
 const notConfigured = (err: unknown) => err instanceof Error && /is not configured/.test(err.message);
 function message(err: unknown, mode: Mode, t: Messages['auth'], server: (m: string) => string) {
     if (err instanceof ConvexError && typeof err.data === 'string') return server(err.data);

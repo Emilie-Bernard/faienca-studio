@@ -13,7 +13,7 @@ import { restrictToVerticalAxis } from '@dnd-kit/modifiers';
 import { CSS } from '@dnd-kit/utilities';
 import { cn } from '@/lib/utils';
 import { ask } from '@/components/confirm-dialog';
-import { emptyKit, kitError, kitStatus, newLesson, statusFields, type KitInput, type KitStatus, type KitLanguage, type KitText, type Lesson, type LessonText, type Role } from '../lib/kits';
+import { emptyKit, incompleteLanguages, kitError, kitLanguages, kitStatus, newLesson, statusFields, translationGaps, type KitInput, type KitStatus, type KitLanguage, type KitText, type Lesson, type LessonText, type Role } from '../lib/kits';
 import { VideoPlayer, errorText, type LessonView } from './client';
 import { clearDraft, useLocalDraft } from './local-draft';
 
@@ -62,7 +62,7 @@ function KitList({ kits, onOpenKit }: { kits: AdminKit[], onOpenKit: (id: string
             <div className="product-card-body">
                 <div className="card-top"><span className="eyebrow">{k.accessCode ? 'CODE ' + k.accessCode.toUpperCase() : 'ACCÈS LIBRE'}</span><StatusBadge status={kitStatus(k)} /></div>
                 <h3>{k.title}</h3>
-                <p className="product-card-meta"><span>{k.lessons.length} leçon{k.lessons.length > 1 ? 's' : ''}</span>{missing > 0 && <span className="kit-warn">{missing} sans vidéo</span>}</p>
+                <p className="product-card-meta"><span>{k.lessons.length} leçon{k.lessons.length > 1 ? 's' : ''}</span>{missing > 0 && <span className="kit-warn">{missing} sans vidéo</span>}{incompleteLanguages(k).length > 0 && <span className="kit-warn">{incompleteLanguages(k).map(l => l.toUpperCase()).join(' · ')} à traduire</span>}</p>
                 <p className="kit-card-stats"><span><strong>{k.stats.clientes}</strong> cliente{k.stats.clientes > 1 ? 's' : ''}</span><span><strong>{k.stats.finished}</strong> terminé{k.stats.finished > 1 ? 's' : ''}</span>{k.stats.waiting > 0 && <span><strong>{k.stats.waiting}</strong> en attente</span>}{k.stats.openQuestions > 0 && <span className="pending-count">{k.stats.openQuestions} question{k.stats.openQuestions > 1 ? 's' : ''}</span>}</p>
             </div>
         </a>; })}</div>
@@ -120,6 +120,8 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
     const submit = async (e: FormEvent) => {
         e.preventDefault(); const problem = kitError(data);
         if (problem) { setError(problem); data.lessons.filter(l => !l.title.trim()).forEach(l => toggle(l.id, true)); window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+        const gaps = incompleteLanguages(data);
+        if (data.published && !kit?.published && gaps.length && !await ask({ title: 'Publier avec des traductions incomplètes ?', description: `Les clientes qui lisent le site en ${gaps.map(l => LANGUAGE_NAMES[l]).join(' et en ')} verront les textes manquants en français, mêlés à la traduction.`, confirmLabel: 'Publier quand même', cancelLabel: 'Revenir au kit' })) return;
         setBusy(true); setError('');
         try {
             const id = await save({ data: { ...data, lessons: data.lessons.map(lessonInput) }, ...(kit ? { id: kit._id, revision } : {}) }) as string;
@@ -152,7 +154,8 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
         </section>
         <div className="kit-page-grid">
             <div className="kit-page-main">
-                <section className="kit-languages"><div className="kit-languages-row"><span className={fieldLabel}>Langue du contenu</span><div className="segmented" role="group" aria-label="Langue du contenu">{EDIT_LANGUAGES.map(l => <button key={l.id} type="button" lang={l.id} aria-pressed={lang === l.id} className={lang === l.id ? 'selected' : ''} onClick={() => setLang(l.id)}>{l.label}</button>)}</div></div>
+                <section className="kit-languages"><div className="kit-languages-row"><span className={fieldLabel}>Langue du contenu</span><div className="segmented" role="group" aria-label="Langue du contenu">{EDIT_LANGUAGES.map(l => { const n = l.id === 'fr' ? 0 : translationGaps(data, l.id).missing; return <button key={l.id} type="button" lang={l.id} aria-pressed={lang === l.id} className={lang === l.id ? 'selected' : ''} onClick={() => setLang(l.id)}>{l.label}{n > 0 && <span className="lang-gap" aria-label={`${n} texte${n > 1 ? 's' : ''} à traduire`}>{n}</span>}</button>; })}</div></div>
+                    <TranslationSummary data={data} />
                     {lang !== 'fr' && <p className="muted kit-page-help">Traduction affichée aux clientes qui consultent le site dans cette langue. Un champ vide reprend le texte français, indiqué en gris.</p>}
                 </section>
                 <section className="panel"><div className="panel-title"><h2>Informations</h2></div><div className="grid gap-5">
@@ -190,6 +193,17 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
             </aside>
         </div>
     </form>;
+}
+
+const LANGUAGE_NAMES: Record<KitLanguage, string> = { en: 'anglais', es: 'espagnol' };
+/** Ce qu'il reste à traduire, langue par langue : un texte manquant s'affiche en français aux clientes. */
+function TranslationSummary({ data }: { data: KitInput }) {
+    const rows = kitLanguages.map(lang => ({ lang, gaps: translationGaps(data, lang) }));
+    if (!data.title.trim()) return null;
+    return <ul className="translation-summary">{rows.map(({ lang, gaps: g }) => {
+        const parts = [g.title && 'titre', g.description && 'description', g.lessons && `${g.lessons} leçon${g.lessons > 1 ? 's' : ''} sur ${g.lessonTotal}`].filter(Boolean);
+        return <li key={lang} className={g.missing ? 'incomplete' : 'complete'}><strong>{EDIT_LANGUAGES.find(l => l.id === lang)!.label}</strong>{g.missing ? <span>À traduire : {parts.join(', ')}</span> : <span>Traduction complète</span>}</li>;
+    })}</ul>;
 }
 
 /** Clientes qui ont ajouté le kit avant sa sortie : l'e-mail part à l'enregistrement du kit publié. */
@@ -264,7 +278,7 @@ function LessonCard({ lesson: l, lang, index, count, open, highlighted, file, up
             <span className="lesson-num">{index + 1}</span>
             <button type="button" className="lesson-card-summary" aria-expanded={open} aria-controls={'lesson-body-' + l.id} onClick={onToggle}>
                 <span className="lesson-card-title">{l.title.trim() || <em>Leçon sans titre</em>}</span>
-                <span className="lesson-card-meta">{l.stitch && <span className="chip">{l.stitch}</span>}{hasVideo ? <span className="lesson-card-video"><PlayCircle />Vidéo</span> : <span className="lesson-card-novideo">Sans vidéo</span>}</span>
+                <span className="lesson-card-meta">{lang !== 'fr' && ([['title'], ['stitch'], ['notes']] as const).some(([f]) => l[f].trim() && !l.translations?.[lang]?.[f]?.trim()) && <span className="lesson-card-novideo">À traduire</span>}{l.stitch && <span className="chip">{l.stitch}</span>}{hasVideo ? <span className="lesson-card-video"><PlayCircle />Vidéo</span> : <span className="lesson-card-novideo">Sans vidéo</span>}</span>
             </button>
             <div className="lesson-card-tools">
                 <Button type="button" variant="ghost" size="icon-sm" data-move="-1" aria-label={`Monter la leçon ${index + 1}`} disabled={index === 0} onClick={() => onMove(-1)}><ArrowUp /></Button>

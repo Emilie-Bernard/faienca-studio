@@ -1,20 +1,29 @@
 'use client';
-import { createContext, Fragment, useContext, useState } from 'react';
+import { createContext, Fragment, useContext, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ConvexError } from 'convex/values';
 import { formatDate, LOCALE_COOKIE, LOCALE_NAMES, LOCALES, MESSAGES, translateServerMessage, type Locale } from '../lib/i18n';
 import { cn } from '@/lib/utils';
 
-const LocaleContext = createContext<{ locale: Locale, setLocale: (l: Locale) => void }>({ locale: 'fr', setLocale: () => {} });
+const LocaleContext = createContext<{ locale: Locale, setLocale: (l: Locale) => void, force: (l: Locale | null) => void }>({ locale: 'fr', setLocale: () => {}, force: () => {} });
 
 /** Langue de l'interface : choisie côté serveur (cookie ou navigateur), modifiable par le sélecteur. */
 export function LocaleProvider({ initial, children }: { initial: Locale, children: React.ReactNode }) {
-    const [locale, set] = useState(initial); const router = useRouter();
+    const [chosen, set] = useState(initial), [forced, force] = useState<Locale | null>(null); const router = useRouter();
+    // Une langue imposée (l'atelier reste en français) prime sur le choix de la visiteuse, sans toucher au cookie.
+    const locale = forced ?? chosen;
+    useEffect(() => { document.documentElement.lang = locale; }, [locale]);
     const setLocale = (l: Locale) => {
         document.cookie = `${LOCALE_COOKIE}=${l}; path=/; max-age=31536000; samesite=lax`;
         document.documentElement.lang = l; set(l); router.refresh();
     };
-    return <LocaleContext value={{ locale, setLocale }}>{children}</LocaleContext>;
+    return <LocaleContext value={{ locale, setLocale, force }}>{children}</LocaleContext>;
+}
+
+/** Impose une langue tant que le composant est affiché (fenêtres partagées comprises). */
+export function useForcedLocale(locale: Locale) {
+    const { force } = useContext(LocaleContext);
+    useEffect(() => { force(locale); return () => force(null); }, [force, locale]);
 }
 
 export function useI18n() {

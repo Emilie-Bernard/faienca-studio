@@ -12,4 +12,10 @@ describe('Mot de passe oublié', () => {
         for (const body of [mail.text, mail.html]) { expect(body).toContain('12345678'); expect(body).toContain('15 minutes'); }
         expect(mail.subject).toMatch(/mot de passe/);
     });
+    it('parle la langue de la cliente, le français par défaut', () => {
+        expect(resetEmail('12345678', 15, 'en').subject).toBe('Your code to change your password');
+        expect(resetEmail('12345678', 15, 'es').html).toContain('lang="es"');
+        expect(resetEmail('12345678', 15, 'xx').subject).toMatch(/mot de passe/);
+        for (const l of ['fr', 'en', 'es']) expect(resetEmail('12345678', 15, l).text).toContain('12345678');
+    });
 });

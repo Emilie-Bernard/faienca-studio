@@ -4074,3 +4074,11 @@ a.library-card-title::after { content: ''; position: absolute; inset: 0; border-
 .kit-status button { flex: 1 }
 .kit-waiting { margin-top: 14px; padding: 12px 14px; border-radius: 8px; background: #eceefa; color: #37417f; font-size: 13px; line-height: 1.5; display: grid; gap: 10px; justify-items: start }
 .kit-waiting p { margin: 0 }
+
+/* Traductions manquantes des kits */
+.lang-gap { display: inline-grid; place-items: center; min-width: 18px; height: 18px; margin-left: 6px; padding: 0 5px; border-radius: 9px; background: #fef0d8; color: #8a5014; font-size: 11px; font-weight: 700 }
+.translation-summary { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 4px; font-size: 13px }
+.translation-summary li { display: flex; gap: 8px; align-items: baseline }
+.translation-summary li strong { min-width: 64px; font-weight: 600 }
+.translation-summary li.incomplete span { color: #8a5014 }
+.translation-summary li.complete span { color: #5b6f39 }

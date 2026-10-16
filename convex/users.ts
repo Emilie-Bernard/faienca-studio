@@ -1,4 +1,4 @@
-import { query, mutation, internalMutation } from './_generated/server';
+import { query, mutation, internalMutation, internalQuery } from './_generated/server';
 import { v, ConvexError } from 'convex/values';
 import { getAuthUserId } from '@convex-dev/auth/server';
 import { requireAdmin, roleOf } from './access';
@@ -61,6 +61,14 @@ export const setRole = mutation({
         const user = await ctx.db.get(userId); if (!user) throw new ConvexError('Compte introuvable.');
         if (roleOf({ githubId: user.githubId }) === 'admin') throw new ConvexError('Le compte de l’atelier reste administrateur.');
         await ctx.db.patch(userId, { role });
+    }
+});
+
+/** Langue de l'interface retenue pour une adresse (e-mail du mot de passe oublié). */
+export const localeByEmail = internalQuery({
+    args: { email: v.string() }, handler: async (ctx, { email }) => {
+        const user = await ctx.db.query('users').withIndex('email', q => q.eq('email', email.trim().toLowerCase())).unique();
+        return user?.locale ?? null;
     }
 });
 

@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { convexTest } from 'convex-test';
 import { anyApi } from 'convex/server';
 import schema from '../convex/schema';
-import { emptyKit, kitStatus, statusFields, type KitInput } from '../lib/kits';
+import { emptyKit, incompleteLanguages, kitStatus, statusFields, translationGaps, type KitInput } from '../lib/kits';
 import { releaseEmail } from '../lib/release-email';
 const modules = import.meta.glob('../convex/**/*.ts');
 
@@ -116,5 +116,22 @@ describe('E-mail de sortie', () => {
         expect(fr.text).toContain('https://carnet.faienca.fr/?kit=1');
         expect(releaseEmail({ locale: 'es', firstName: '', kitTitle: 'Olivo', coverUrl: '', kitUrl: 'https://x.fr', logoUrl: 'https://x.fr/l.png' }).html).toContain('Hola:');
         expect(() => releaseEmail({ firstName: '', kitTitle: 'x', coverUrl: '', kitUrl: 'javascript:alert(1)', logoUrl: '' })).toThrow();
+    });
+});
+
+describe('Traductions manquantes', () => {
+    it('compte les textes français sans traduction, langue par langue', () => {
+        const k = kit({ description: 'Un joli kit', translations: { en: { title: 'Olive kit', description: 'A lovely kit' }, es: { title: 'Kit Olivo', description: '' } } });
+        k.lessons[0]!.translations = { en: { title: 'Lesson a', stitch: 'Stem stitch', notes: '' } };
+        expect(translationGaps(k, 'en')).toEqual({ title: false, description: false, lessons: 1, lessonTotal: 2, missing: 2 });
+        expect(translationGaps(k, 'es')).toMatchObject({ title: false, description: true, lessons: 2, missing: 5 });
+        expect(incompleteLanguages(k)).toEqual(['en', 'es']);
+        k.lessons[1]!.translations = { en: { title: 'Lesson b', stitch: 'Stem stitch', notes: '' } };
+        expect(incompleteLanguages(k)).toEqual(['es']);
+    });
+    it('retrouve la langue d’une cliente pour l’e-mail du mot de passe', async () => {
+        const { t } = await setup();
+        expect(await t.query(anyApi.users.localeByEmail, { email: ' Marie@example.com ' })).toBe('en');
+        expect(await t.query(anyApi.users.localeByEmail, { email: 'lea@example.com' })).toBeNull();
     });
 });

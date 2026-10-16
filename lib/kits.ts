@@ -20,6 +20,23 @@ export function localized<T extends Record<string, string>>(base: T, translation
 export const localizeLesson = <L extends Lesson>(l: L, language: string): L => ({ ...l, ...localized({ title: l.title, stitch: l.stitch, notes: l.notes }, l.translations, language) });
 export const localizeKit = <K extends KitText & { translations?: Translations<KitText> }>(k: K, language: string): K => ({ ...k, ...localized({ title: k.title, description: k.description }, k.translations, language) });
 
+/** Textes français sans traduction dans une langue (un texte français vide n'a rien à traduire). */
+export type TranslationGaps = { title: boolean; description: boolean; lessons: number; lessonTotal: number; missing: number };
+export function translationGaps(k: KitInput, language: KitLanguage): TranslationGaps {
+  const empty = (fr: string, t: string | undefined) => !!fr.trim() && !t?.trim();
+  const kt = k.translations?.[language];
+  const title = empty(k.title, kt?.title), description = empty(k.description, kt?.description);
+  let missing = Number(title) + Number(description), lessons = 0;
+  for (const l of k.lessons) {
+    const lt = l.translations?.[language];
+    const n = Number(empty(l.title, lt?.title)) + Number(empty(l.stitch, lt?.stitch)) + Number(empty(l.notes, lt?.notes));
+    if (n) { lessons++; missing += n; }
+  }
+  return { title, description, lessons, lessonTotal: k.lessons.length, missing };
+}
+/** Langues dont la traduction est incomplète. */
+export const incompleteLanguages = (k: KitInput) => kitLanguages.filter(lang => translationGaps(k, lang).missing > 0);
+
 export const emptyKit = (): KitInput => ({ title: '', description: '', coverUrl: '', accessCode: '', published: false, lessons: [] });
 export const newLesson = (): Lesson => ({ id: crypto.randomUUID(), title: '', stitch: '', videoUrl: '', notes: '' });
 

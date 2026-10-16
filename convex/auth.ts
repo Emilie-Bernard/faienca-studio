@@ -3,6 +3,7 @@ import { Password } from '@convex-dev/auth/providers/Password';
 import { Email } from '@convex-dev/auth/providers/Email';
 import { convexAuth, createAccount, retrieveAccount } from '@convex-dev/auth/server';
 import { ConvexError } from 'convex/values';
+import { makeFunctionReference, type GenericActionCtx } from 'convex/server';
 import { normalizeEmail, isValidEmail } from '../lib/newsletter';
 import { randomDigits, resetEmail } from '../lib/reset-email';
 
@@ -19,6 +20,8 @@ function sameSecret(a: string, b: string) {
 }
 
 const RESET_MINUTES = 15;
+// Référence par nom pour éviter une dépendance circulaire avec les types générés.
+const localeByEmail = makeFunctionReference<'query', { email: string }, string | null>('users:localeByEmail');
 
 // Mot de passe oublié : un code à 8 chiffres envoyé par Resend (AUTH_RESEND_KEY, AUTH_EMAIL_FROM).
 const resetByEmail = Email({
@@ -26,9 +29,11 @@ const resetByEmail = Email({
     apiKey: process.env.AUTH_RESEND_KEY,
     maxAge: RESET_MINUTES * 60,
     generateVerificationToken: async () => randomDigits(8),
-    sendVerificationRequest: async ({ identifier, token, provider }) => {
+    sendVerificationRequest: async ({ identifier, token, provider }, ctx?: { runQuery: GenericActionCtx<any>['runQuery'] }) => {
         if (!provider.apiKey) throw new ConvexError('L’envoi d’e-mails n’est pas encore configuré.');
-        const { subject, text, html } = resetEmail(token, RESET_MINUTES);
+        // L'e-mail part dans la langue de l'interface retenue lors des dernières visites de la cliente.
+        const locale = ctx ? await ctx.runQuery(localeByEmail, { email: identifier }).catch(() => null) : null;
+        const { subject, text, html } = resetEmail(token, RESET_MINUTES, locale ?? undefined);
         const res = await fetch('https://api.resend.com/emails', {
             method: 'POST',
             headers: { Authorization: `Bearer ${provider.apiKey}`, 'Content-Type': 'application/json' },
