@@ -12,6 +12,7 @@ import type * as access from "../access.js";
 import type * as auth from "../auth.js";
 import type * as crons from "../crons.js";
 import type * as http from "../http.js";
+import type * as kitRelease from "../kitRelease.js";
 import type * as kits from "../kits.js";
 import type * as klaviyoSync from "../klaviyoSync.js";
 import type * as library from "../library.js";
@@ -34,6 +35,7 @@ declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   crons: typeof crons;
   http: typeof http;
+  kitRelease: typeof kitRelease;
   kits: typeof kits;
   klaviyoSync: typeof klaviyoSync;
   library: typeof library;

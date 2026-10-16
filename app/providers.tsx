@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { ConvexReactClient, useConvexAuth, useQuery } from 'convex/react';
+import { ConvexReactClient, useConvexAuth, useMutation, useQuery } from 'convex/react';
 import { ConvexAuthProvider, useAuthActions } from '@convex-dev/auth/react';
 import { anyApi } from 'convex/server';
 import { ConvexError } from 'convex/values';
@@ -26,7 +26,10 @@ function Gate() {
     return <AuthScreen />;
 }
 function Home() {
-    const me = useQuery(anyApi.users.me) as Me | null | undefined; const { signOut } = useAuthActions(); const { t } = useI18n();
+    const me = useQuery(anyApi.users.me) as Me | null | undefined; const { signOut } = useAuthActions(); const { t, locale } = useI18n();
+    // Dernière connexion et langue de l'interface, pour le suivi des comptes et les e-mails.
+    const ping = useMutation(anyApi.users.ping);
+    useEffect(() => { void ping({ locale }).catch(() => {}); }, [ping, locale]);
     if (me === undefined) return <Loader message={t.loader.space} />;
     if (me === null) return <Welcome><p>{t.auth.unavailable}</p><Button onClick={() => void signOut()}>{t.auth.backToSignIn}</Button></Welcome>;
     return me.role === 'admin' ? <Studio /> : me.role === 'stagiaire' ? <TraineeSpace me={me} /> : <ClientSpace me={me} />;

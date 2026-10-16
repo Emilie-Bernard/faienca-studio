@@ -9,7 +9,7 @@ export type LessonText = { title: string; stitch: string; notes: string };
 export type KitText = { title: string; description: string };
 
 export interface Lesson { id: string; title: string; stitch: string; videoUrl: string; videoStorageId?: string; notes: string; translations?: Translations<LessonText> }
-export interface KitInput { title: string; description: string; coverUrl: string; accessCode: string; published: boolean; lessons: Lesson[]; translations?: Translations<KitText> }
+export interface KitInput { title: string; description: string; coverUrl: string; accessCode: string; published: boolean; upcoming?: boolean; lessons: Lesson[]; translations?: Translations<KitText> }
 
 /** Remplace chaque champ par sa traduction quand elle existe ; un champ vide reprend le français. */
 export function localized<T extends Record<string, string>>(base: T, translations: Translations<T> | undefined, language: string): T {
@@ -75,5 +75,10 @@ export function videoSource(url: string): VideoSource | null {
   if (/\.(mp4|webm|mov|m4v)$/i.test(u.pathname)) return { type: 'video', src: u.toString() };
   return null;
 }
+
+export type KitStatus = 'draft' | 'upcoming' | 'published';
+/** Publié l'emporte sur « À venir » ; sinon le kit reste un brouillon invisible. */
+export const kitStatus = (k: { published: boolean; upcoming?: boolean }): KitStatus => k.published ? 'published' : k.upcoming ? 'upcoming' : 'draft';
+export const statusFields = (status: KitStatus) => ({ published: status === 'published', upcoming: status === 'upcoming' });
 
 export const progressPercent = (done: number, total: number) => total ? Math.round(done / total * 100) : 0;

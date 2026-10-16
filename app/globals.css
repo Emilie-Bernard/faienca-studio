@@ -4046,3 +4046,31 @@ a.library-card-title::after { content: ''; position: absolute; inset: 0; border-
 .publication-media-grid img, .publication-media-grid video { width: 100%; height: 100%; object-fit: cover; display: block }
 .publication-media-num { position: absolute; top: 6px; left: 6px; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; background: rgba(255,255,255,.9); color: var(--navy); font-size: 12px; font-weight: 600; display: grid; place-items: center }
 .publication-media-actions { display: flex; justify-content: space-between; border-top: 1px solid var(--line) }
+
+/* Kits « À venir » : présents dans le catalogue et le carnet, sans contenu. */
+.kit-card.upcoming .kit-cover { filter: saturate(.55); opacity: .85 }
+.kit-card-body .upcoming-hint { font-size: 13px; color: var(--muted-text); border-left: 2px solid #f9ad4f; padding-left: 10px }
+
+/* Suivi des comptes */
+.accounts-filters { flex-wrap: wrap; gap: 10px; align-items: center }
+.accounts-filters .filter-field { flex-direction: row; align-items: center; gap: 8px }
+.accounts-table th, .accounts-table td:nth-child(5), .accounts-table td:nth-child(6), .accounts-table td:nth-child(8) { white-space: nowrap }
+.accounts-table td:first-child { min-width: 140px }
+.accounts-table .chips { flex-wrap: nowrap; gap: 4px }
+.accounts-table .chip { white-space: nowrap; max-width: 160px; overflow: hidden; text-overflow: ellipsis }
+.accounts-table tr.open td { background: var(--accent, #eceefa) }
+.accounts-table .seen-recent { color: #5b6f39; font-weight: 600 }
+.accounts-table tr.account-detail td { background: #fffdf8; padding: 14px 18px 18px }
+.account-kits { width: 0; min-width: 100% } /* ne pas élargir le tableau */
+.account-kits select { max-width: 320px }
+.account-kits ul { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 8px }
+.account-kits li { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid var(--line, #e4dcd1); border-radius: 8px; padding: 10px 12px; background: #fff }
+.account-kit-main { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-width: 220px }
+.account-kit-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; font-size: 12px; color: var(--muted-text); flex: 1 }
+.account-kit-meta > span { display: inline-flex; align-items: center; gap: 8px }
+.account-progress { width: 80px; display: inline-block }
+.account-grant { display: flex; align-items: flex-end; gap: 10px; flex-wrap: wrap; margin-bottom: 6px }
+.kit-status { display: flex; width: 100% }
+.kit-status button { flex: 1 }
+.kit-waiting { margin-top: 14px; padding: 12px 14px; border-radius: 8px; background: #eceefa; color: #37417f; font-size: 13px; line-height: 1.5; display: grid; gap: 10px; justify-items: start }
+.kit-waiting p { margin: 0 }

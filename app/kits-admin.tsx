@@ -3,7 +3,6 @@ import { useEffect, useState, type FormEvent, type MutableRefObject } from 'reac
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Switch } from '@/components/ui/switch';
 import { Textarea } from '@/components/ui/textarea';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
@@ -14,19 +13,22 @@ import { restrictToVerticalAxis } from '@dnd-kit/modifiers';
 import { CSS } from '@dnd-kit/utilities';
 import { cn } from '@/lib/utils';
 import { ask } from '@/components/confirm-dialog';
-import { emptyKit, kitError, newLesson, type KitInput, type KitLanguage, type KitText, type Lesson, type LessonText, type Role } from '../lib/kits';
+import { emptyKit, kitError, kitStatus, newLesson, statusFields, type KitInput, type KitStatus, type KitLanguage, type KitText, type Lesson, type LessonText, type Role } from '../lib/kits';
 import { VideoPlayer, errorText, type LessonView } from './client';
 import { clearDraft, useLocalDraft } from './local-draft';
 
-type AdminKit = Omit<KitInput, 'lessons'> & { _id: string; revision: number; updatedAt: number; lessons: LessonView[]; stats: { clientes: number; finished: number; openQuestions: number } };
+type AdminKit = Omit<KitInput, 'lessons'> & { _id: string; revision: number; updatedAt: number; lessons: LessonView[]; stats: { clientes: number; finished: number; openQuestions: number; waiting: number } };
 type AdminQuestion = { _id: string; kitTitle: string; lessonTitle: string; authorName: string; authorEmail: string; body: string; createdAt: number; answer: string | null; answeredAt: number | null };
-type Account = { _id: string; name: string; email: string; role: Role; locked: boolean; createdAt: number; kits: number };
+type AccountKit = { kitId: string; title: string; status: KitStatus; source: 'code' | 'admin'; done: number; total: number; startedAt: number; updatedAt: number; finishedAt: number | null; awaitingRelease: boolean; notifiedAt: number | null };
+type Account = { _id: string; name: string; email: string; role: Role; locked: boolean; createdAt: number; lastSeenAt: number | null; visits: number; kits: AccountKit[] };
 const dateFr = (t: number) => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
-const inputOf = (k: AdminKit): KitInput => ({ title: k.title, description: k.description, coverUrl: k.coverUrl, accessCode: k.accessCode, published: k.published, lessons: k.lessons.map(lessonInput), ...(k.translations ? { translations: k.translations } : {}) });
+const inputOf = (k: AdminKit): KitInput => ({ title: k.title, description: k.description, coverUrl: k.coverUrl, accessCode: k.accessCode, published: k.published, upcoming: !!k.upcoming, lessons: k.lessons.map(lessonInput), ...(k.translations ? { translations: k.translations } : {}) });
 const lessonInput = ({ id, title, stitch, videoUrl, videoStorageId, notes, translations }: Lesson): Lesson => ({ id, title, stitch, videoUrl, notes, ...(videoStorageId ? { videoStorageId } : {}), ...(translations ? { translations } : {}) });
 /** Langue du contenu en cours d'édition : le français d'origine ou l'une de ses traductions. */
 type EditLanguage = 'fr' | KitLanguage;
 const EDIT_LANGUAGES: { id: EditLanguage, label: string }[] = [{ id: 'fr', label: 'Français' }, { id: 'en', label: 'English' }, { id: 'es', label: 'Español' }];
+const STATUS: Record<KitStatus, { label: string, badge: string }> = { draft: { label: 'Brouillon', badge: 'orange' }, upcoming: { label: 'À venir', badge: 'blue' }, published: { label: 'Publié', badge: 'green' } };
+function StatusBadge({ status }: { status: KitStatus }) { return <span className={'badge ' + STATUS[status].badge}>{STATUS[status].label}</span>; }
 function Empty({ text }: { text: string }) { return <div className="empty"><Flower2 size={28} /><p>{text}</p></div>; }
 
 export type LeaveGuard = MutableRefObject<() => Promise<boolean>>;
@@ -46,22 +48,22 @@ export function KitsAdmin({ kitId, onOpenKit, leaveGuard, onToast }: { kitId: st
 const noVideo = (k: { lessons: Lesson[] }) => k.lessons.filter(l => !l.videoUrl && !l.videoStorageId).length;
 
 function KitList({ kits, onOpenKit }: { kits: AdminKit[], onOpenKit: (id: string | null) => void }) {
-    const [filter, setFilter] = useState<'all' | 'published' | 'draft'>('all');
-    const count = { all: kits.length, published: kits.filter(k => k.published).length, draft: kits.filter(k => !k.published).length };
-    const shown = kits.filter(k => filter === 'all' || (filter === 'published') === k.published);
+    const [filter, setFilter] = useState<'all' | KitStatus>('all');
+    const count = { all: kits.length, published: kits.filter(k => kitStatus(k) === 'published').length, upcoming: kits.filter(k => kitStatus(k) === 'upcoming').length, draft: kits.filter(k => kitStatus(k) === 'draft').length };
+    const shown = kits.filter(k => filter === 'all' || kitStatus(k) === filter);
     return <>
         <div className="filters product-filters">
-            <div className="segmented" role="group" aria-label="Filtrer les kits">{([['all', 'Tous'], ['published', 'Publiés'], ['draft', 'Brouillons']] as const).map(([v, label]) => <button key={v} type="button" aria-pressed={filter === v} className={filter === v ? 'selected' : ''} onClick={() => setFilter(v)}>{label} <span className="muted">{count[v]}</span></button>)}</div>
+            <div className="segmented" role="group" aria-label="Filtrer les kits">{([['all', 'Tous'], ['published', 'Publiés'], ['upcoming', 'À venir'], ['draft', 'Brouillons']] as const).map(([v, label]) => <button key={v} type="button" aria-pressed={filter === v} className={filter === v ? 'selected' : ''} onClick={() => setFilter(v)}>{label} <span className="muted">{count[v]}</span></button>)}</div>
             <span className="spacer" /><Button type="button" onClick={() => onOpenKit('new')}><Plus size={16} />Nouveau kit</Button>
         </div>
-        <p className="muted kit-list-help">Une leçon vidéo par point. Seuls les kits publiés sont visibles des clientes ; le code d’activation se glisse dans la boîte.</p>
+        <p className="muted kit-list-help">Une leçon vidéo par point. Seuls les kits publiés sont visibles des clientes ; un kit « À venir » s’affiche sans ses leçons et peut déjà être activé avec son code. Le code d’activation se glisse dans la boîte.</p>
         {shown.length ? <div className="product-list">{shown.map(k => { const missing = noVideo(k); return <a key={k._id} href={'?vue=Kits&kit=' + k._id} className="product-card" onClick={e => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); onOpenKit(k._id); }}>
             {/^https:\/\//.test(k.coverUrl) ? <img className="product-cover" src={k.coverUrl} alt="" loading="lazy" /> : <div className="product-cover placeholder"><Flower2 size={26} /></div>}
             <div className="product-card-body">
-                <div className="card-top"><span className="eyebrow">{k.accessCode ? 'CODE ' + k.accessCode.toUpperCase() : 'ACCÈS LIBRE'}</span><span className={'badge ' + (k.published ? 'green' : 'orange')}>{k.published ? 'Publié' : 'Brouillon'}</span></div>
+                <div className="card-top"><span className="eyebrow">{k.accessCode ? 'CODE ' + k.accessCode.toUpperCase() : 'ACCÈS LIBRE'}</span><StatusBadge status={kitStatus(k)} /></div>
                 <h3>{k.title}</h3>
                 <p className="product-card-meta"><span>{k.lessons.length} leçon{k.lessons.length > 1 ? 's' : ''}</span>{missing > 0 && <span className="kit-warn">{missing} sans vidéo</span>}</p>
-                <p className="kit-card-stats"><span><strong>{k.stats.clientes}</strong> cliente{k.stats.clientes > 1 ? 's' : ''}</span><span><strong>{k.stats.finished}</strong> terminé{k.stats.finished > 1 ? 's' : ''}</span>{k.stats.openQuestions > 0 && <span className="pending-count">{k.stats.openQuestions} question{k.stats.openQuestions > 1 ? 's' : ''}</span>}</p>
+                <p className="kit-card-stats"><span><strong>{k.stats.clientes}</strong> cliente{k.stats.clientes > 1 ? 's' : ''}</span><span><strong>{k.stats.finished}</strong> terminé{k.stats.finished > 1 ? 's' : ''}</span>{k.stats.waiting > 0 && <span><strong>{k.stats.waiting}</strong> en attente</span>}{k.stats.openQuestions > 0 && <span className="pending-count">{k.stats.openQuestions} question{k.stats.openQuestions > 1 ? 's' : ''}</span>}</p>
             </div>
         </a>; })}</div>
             : <section className="panel"><Empty text={kits.length ? 'Aucun kit dans cette catégorie.' : 'Créez votre premier kit pour ouvrir l’espace des brodeuses.'} /></section>}
@@ -134,7 +136,7 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
         <div className="kit-page-bar">
             <Button type="button" variant="ghost" className="-ml-3 text-muted-foreground" onClick={() => void back()}><ArrowLeft />Kits</Button>
             <div className="kit-page-title"><span className="eyebrow">{kit ? 'MODIFIER LE KIT' : 'NOUVEAU KIT'}</span><h1>{data.title.trim() || 'Sans titre'}</h1></div>
-            <span className={'badge ' + (data.published ? 'green' : 'orange')}>{data.published ? 'Publié' : 'Brouillon'}</span>
+            <StatusBadge status={kitStatus(data)} />
             <span className="spacer" />
             {dirty && <span className="kit-page-dirty" role="status">Modifications non enregistrées</span>}
             {dirty && <Button type="button" variant="ghost" disabled={busy} onClick={() => void discard()}><RotateCcw size={16} />Annuler</Button>}
@@ -167,7 +169,9 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
             </div>
             <aside className="kit-page-side">
                 <section className="panel"><div className="panel-title"><h2>Publication</h2></div>
-                    <div className="flex items-center justify-between gap-4"><Label htmlFor="kit-published" className="leading-snug font-normal">Visible et activable par les clientes</Label><Switch id="kit-published" checked={data.published} onCheckedChange={v => set({ published: v })} /></div>
+                    <div className="segmented kit-status" role="radiogroup" aria-label="Statut du kit">{(['draft', 'upcoming', 'published'] as const).map(st => <button key={st} type="button" role="radio" aria-checked={kitStatus(data) === st} className={kitStatus(data) === st ? 'selected' : ''} onClick={() => set(statusFields(st))}>{STATUS[st].label}</button>)}</div>
+                    <p className="muted kit-page-help mt-2">{kitStatus(data) === 'draft' ? 'Invisible des clientes.' : kitStatus(data) === 'upcoming' ? 'Visible dans le catalogue sans ses leçons. Les clientes peuvent déjà saisir leur code ; elles recevront un e-mail à la publication.' : 'Visible et activable par les clientes.'}</p>
+                    {kit && kit.stats.waiting > 0 && <ReleaseNotice kit={kit} willPublish={!kit.published && data.published} onToast={onToast} />}
                     <div className="mt-5 grid gap-1.5"><Label htmlFor="kit-code" className={fieldLabel}>Codes d’activation</Label><Input id="kit-code" maxLength={300} value={data.accessCode} placeholder="Vide = accès libre" autoComplete="off" className="h-11 bg-card font-mono tracking-wider uppercase placeholder:font-sans placeholder:tracking-normal placeholder:normal-case" onChange={e => set({ accessCode: e.target.value })} /><small>Plusieurs codes possibles, séparés par des virgules (par exemple le code du lien Shopify et celui du livret). Majuscules, espaces et tirets ne comptent pas.</small></div>
                 </section>
                 <section className="panel"><div className="panel-title"><h2>Couverture</h2></div>
@@ -186,6 +190,18 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
             </aside>
         </div>
     </form>;
+}
+
+/** Clientes qui ont ajouté le kit avant sa sortie : l'e-mail part à l'enregistrement du kit publié. */
+function ReleaseNotice({ kit, willPublish, onToast }: { kit: AdminKit, willPublish: boolean, onToast: (s: string) => void }) {
+    const notify = useMutation(anyApi.kits.notifyRelease); const [busy, setBusy] = useState(false), [error, setError] = useState('');
+    const n = kit.stats.waiting, who = `${n} cliente${n > 1 ? 's' : ''}`;
+    const send = async () => { setBusy(true); setError(''); try { await notify({ kitId: kit._id }); onToast('E-mails en cours d’envoi'); } catch (err) { setError(errorText(err, 'L’envoi n’a pas démarré.')); } finally { setBusy(false); } };
+    return <div className="kit-waiting" role="status">
+        <p><strong>{who}</strong> {n > 1 ? 'attendent' : 'attend'} ce kit. {kit.published ? 'L’e-mail de sortie ne leur est pas encore parvenu.' : `${n > 1 ? 'Elles recevront' : 'Elle recevra'} ${willPublish ? 'l’e-mail de sortie dès l’enregistrement.' : 'un e-mail quand vous le publierez.'}`}</p>
+        {kit.published && <Button type="button" variant="outline" size="sm" disabled={busy} onClick={() => void send()}>{busy ? 'Envoi…' : 'Envoyer l’e-mail de sortie'}</Button>}
+        {error && <p role="alert" className="error">{error}</p>}
+    </div>;
 }
 
 const dndAnnouncements = (lessons: Lesson[]) => {
@@ -289,15 +305,95 @@ function AnswerCard({ q, onToast }: { q: AdminQuestion, onToast: (s: string) => 
         <form onSubmit={submit}><textarea rows={3} maxLength={4000} value={text} onChange={e => setText(e.target.value)} placeholder="Votre réponse…" aria-label={'Réponse à ' + q.authorName} disabled={busy} />{error && <p role="alert" className="error">{error}</p>}<div className="answer-actions"><Button disabled={busy || text.trim() === (q.answer ?? '')}>{busy ? 'Envoi…' : q.answer ? 'Mettre à jour' : 'Répondre'}</Button></div></form></article>;
 }
 
+const DAY = 86400000;
+const dateTimeFr = (t: number) => new Date(t).toLocaleString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+/** « Il y a 3 h », « Hier », « Il y a 12 j »… puis la date au-delà de deux mois. */
+function ago(t: number) {
+    const d = Date.now() - t, min = Math.round(d / 60000);
+    if (min < 5) return 'À l’instant';
+    if (min < 60) return `Il y a ${min} min`;
+    if (min < 24 * 60) return `Il y a ${Math.round(min / 60)} h`;
+    const days = Math.round(d / DAY);
+    return days <= 1 ? 'Hier' : days < 60 ? `Il y a ${days} j` : dateFr(t);
+}
+type SortKey = 'lastSeen' | 'created' | 'name';
+
 export function ClientsAdmin({ onToast }: { onToast: (s: string) => void }) {
     const accounts = useQuery(anyApi.users.list) as Account[] | undefined; const me = useQuery(anyApi.users.me) as { _id: string } | null | undefined;
+    const kits = useQuery(anyApi.kits.adminList) as AdminKit[] | undefined;
     const setRole = useMutation(anyApi.users.setRole); const [error, setError] = useState('');
+    const [search, setSearch] = useState(''), [roleFilter, setRoleFilter] = useState<'all' | Role>('all'), [sort, setSort] = useState<SortKey>('lastSeen'), [openId, setOpenId] = useState<string | null>(null);
     if (!accounts) return <p className="muted">Chargement des comptes…</p>;
     const change = async (a: Account, role: Role) => { if (role === 'admin' && !await ask(`Donner l’accès complet à l’atelier à ${a.email || a.name} ?`)) return; setError(''); try { await setRole({ userId: a._id, role }); onToast('Rôle mis à jour'); } catch (err) { setError(errorText(err, 'Le rôle n’a pas été modifié.')); } };
+    const now = Date.now(), n = (r: Role) => accounts.filter(a => a.role === r).length;
+    const q = search.trim().toLowerCase();
+    const shown = accounts.filter(a => (roleFilter === 'all' || a.role === roleFilter) && (!q || a.name.toLowerCase().includes(q) || a.email.toLowerCase().includes(q) || a.kits.some(k => k.title.toLowerCase().includes(q))))
+        .sort((a, b) => sort === 'name' ? (a.name || a.email).localeCompare(b.name || b.email, 'fr') : sort === 'created' ? b.createdAt - a.createdAt : (b.lastSeenAt ?? 0) - (a.lastSeenAt ?? 0));
+    const clientes = accounts.filter(a => a.role === 'cliente');
+    const within = (t: number | null, days: number) => !!t && now - t < days * DAY;
     return <>
-        <div className="filters"><Users size={18} /><span className="muted">{accounts.filter(a => a.role === 'cliente').length} cliente{accounts.filter(a => a.role === 'cliente').length > 1 ? 's' : ''} · {accounts.filter(a => a.role === 'stagiaire').length} stagiaire{accounts.filter(a => a.role === 'stagiaire').length > 1 ? 's' : ''} · {accounts.filter(a => a.role === 'admin').length} admin</span></div>
+        <section className="product-kpis">
+            <div className="product-kpi"><span>Clientes</span><strong>{clientes.length}</strong><small>{n('stagiaire')} stagiaire{n('stagiaire') > 1 ? 's' : ''} · {n('admin')} admin</small></div>
+            <div className="product-kpi"><span>Actives sur 7 jours</span><strong>{clientes.filter(a => within(a.lastSeenAt, 7)).length}</strong><small>{clientes.filter(a => within(a.lastSeenAt, 30)).length} sur 30 jours</small></div>
+            <div className="product-kpi"><span>Inscriptions sur 30 jours</span><strong>{clientes.filter(a => within(a.createdAt, 30)).length}</strong><small>{clientes.filter(a => within(a.createdAt, 7)).length} cette semaine</small></div>
+            <div className="product-kpi"><span>Kits dans les carnets</span><strong>{clientes.reduce((s, a) => s + a.kits.length, 0)}</strong><small>{clientes.reduce((s, a) => s + a.kits.filter(k => k.awaitingRelease).length, 0)} en attente de sortie</small></div>
+        </section>
+        <div className="filters accounts-filters">
+            <Users size={18} />
+            <Input type="search" value={search} onChange={e => setSearch(e.target.value)} placeholder="Nom, e-mail ou kit…" aria-label="Rechercher un compte" className="h-10 max-w-xs bg-card" />
+            <div className="segmented" role="group" aria-label="Filtrer par rôle">{([['all', 'Tous'], ['cliente', 'Clientes'], ['stagiaire', 'Stagiaires'], ['admin', 'Admins']] as const).map(([v, label]) => <button key={v} type="button" aria-pressed={roleFilter === v} className={roleFilter === v ? 'selected' : ''} onClick={() => setRoleFilter(v)}>{label}</button>)}</div>
+            <span className="spacer" />
+            <label className="filter-field">Trier par<select value={sort} onChange={e => setSort(e.target.value as SortKey)}><option value="lastSeen">Dernière connexion</option><option value="created">Inscription</option><option value="name">Nom</option></select></label>
+        </div>
         {error && <div role="alert" className="error">{error}<button onClick={() => setError('')}>Fermer</button></div>}
-        <div className="table-scroll"><table><thead><tr>{['Nom', 'E-mail', 'Rôle', 'Kits', 'Inscription'].map(h => <th key={h}>{h}</th>)}</tr></thead><tbody>{accounts.length ? accounts.map(a => <tr key={a._id}><td>{a.name || (a.locked ? 'Compte atelier' : '—')}</td><td>{a.email || '—'}</td><td><select aria-label={'Rôle de ' + (a.email || a.name)} value={a.role} disabled={a.locked || a._id === me?._id} onChange={e => void change(a, e.target.value as Role)}><option value="cliente">Cliente</option><option value="stagiaire">Stagiaire</option><option value="admin">Admin</option></select></td><td>{a.kits}</td><td>{dateFr(a.createdAt)}</td></tr>) : <tr><td colSpan={5}><Empty text="Aucun compte pour le moment." /></td></tr>}</tbody></table></div>
-        <p className="muted help"><MessageCircleQuestion size={14} /> Un compte Admin accède à tout l’atelier (calendrier, newsletter, kits). Le compte atelier reste toujours administrateur.</p>
+        <div className="table-scroll"><table className="accounts-table"><thead><tr>{['Nom', 'E-mail', 'Rôle', 'Kits', 'Inscription', 'Dernière connexion', 'Visites', ''].map((h, i) => <th key={i}>{h}</th>)}</tr></thead><tbody>{shown.length ? shown.flatMap(a => {
+            const open = openId === a._id, label = a.name || a.email || 'Compte atelier';
+            const row = <tr key={a._id} className={open ? 'open' : undefined}>
+                <td>{a.name || (a.locked ? 'Compte atelier' : '—')}</td><td>{a.email || '—'}</td>
+                <td><select aria-label={'Rôle de ' + label} value={a.role} disabled={a.locked || a._id === me?._id} onChange={e => void change(a, e.target.value as Role)}><option value="cliente">Cliente</option><option value="stagiaire">Stagiaire</option><option value="admin">Admin</option></select></td>
+                <td>{a.kits.length ? <div className="chips">{a.kits.slice(0, 2).map(k => <span key={k.kitId} className="chip">{k.title}</span>)}{a.kits.length > 2 && <span className="chip">+{a.kits.length - 2}</span>}</div> : <span className="muted">—</span>}</td>
+                <td>{dateFr(a.createdAt)}</td>
+                <td>{a.lastSeenAt ? <span title={dateTimeFr(a.lastSeenAt)} className={within(a.lastSeenAt, 7) ? 'seen-recent' : undefined}>{ago(a.lastSeenAt)}</span> : <span className="muted" title="Aucune ouverture de l’espace depuis la mise en place du suivi">—</span>}</td>
+                <td>{a.visits || '—'}</td>
+                <td><Button type="button" variant="ghost" size="sm" aria-expanded={open} aria-controls={'account-' + a._id} onClick={() => setOpenId(open ? null : a._id)}>Gérer<ChevronDown className={cn('transition-transform', open && 'rotate-180')} /></Button></td>
+            </tr>;
+            return open ? [row, <tr key={a._id + '-kits'} className="account-detail"><td colSpan={8} id={'account-' + a._id}><AccountKits account={a} kits={kits} onToast={onToast} /></td></tr>] : [row];
+        }) : <tr><td colSpan={8}><Empty text={accounts.length ? 'Aucun compte ne correspond à cette recherche.' : 'Aucun compte pour le moment.'} /></td></tr>}</tbody></table></div>
+        <p className="muted help"><MessageCircleQuestion size={14} /> La dernière connexion est relevée à chaque ouverture de l’espace (au plus toutes les 5 minutes) ; une nouvelle visite compte après 30 minutes d’absence. Un compte Admin accède à tout l’atelier. Le compte atelier reste toujours administrateur.</p>
     </>;
+}
+
+/** Kits du carnet d'une cliente : progression, origine, ajout et retrait depuis l'atelier. */
+function AccountKits({ account: a, kits, onToast }: { account: Account, kits: AdminKit[] | undefined, onToast: (s: string) => void }) {
+    const grant = useMutation(anyApi.kits.grant), revoke = useMutation(anyApi.kits.revoke);
+    const [pick, setPick] = useState(''), [busy, setBusy] = useState(false), [error, setError] = useState('');
+    const owned = new Set(a.kits.map(k => k.kitId)), available = (kits ?? []).filter(k => !owned.has(k._id));
+    const who = a.name || a.email;
+    const add = async (e: FormEvent) => {
+        e.preventDefault(); const kit = available.find(k => k._id === pick); if (!kit) return;
+        setBusy(true); setError('');
+        try { await grant({ userId: a._id, kitId: kit._id }); setPick(''); onToast(kitStatus(kit) === 'published' ? `Kit ajouté au carnet de ${who}` : `Kit réservé pour ${who} : e-mail à la publication`); }
+        catch (err) { setError(errorText(err, 'Le kit n’a pas été ajouté.')); } finally { setBusy(false); }
+    };
+    const remove = async (k: AccountKit) => {
+        if (!await ask({ title: `Retirer « ${k.title} » ?`, description: `Le kit disparaît du carnet de ${who}, avec sa progression et ses notes. Ses questions restent visibles.`, confirmLabel: 'Retirer le kit', destructive: true })) return;
+        setError(''); try { await revoke({ userId: a._id, kitId: k.kitId }); onToast('Kit retiré'); } catch (err) { setError(errorText(err, 'Le kit n’a pas été retiré.')); }
+    };
+    return <div className="account-kits">
+        {a.kits.length ? <ul>{a.kits.map(k => <li key={k.kitId}>
+            <div className="account-kit-main"><strong>{k.title}</strong><StatusBadge status={k.status} /><span className="chip">{k.source === 'admin' ? 'Offert par l’atelier' : 'Code saisi'}</span></div>
+            <div className="account-kit-meta">
+                {k.status === 'published' && <span>{k.finishedAt ? `Terminé le ${dateFr(k.finishedAt)}` : `${k.done}/${k.total} leçon${k.total > 1 ? 's' : ''}`}{k.total > 0 && <span className="progress account-progress"><span style={{ width: Math.round(k.done / k.total * 100) + '%' }} /></span>}</span>}
+                <span>Ajouté le {dateFr(k.startedAt)}{k.updatedAt - k.startedAt > 60000 ? ` · dernière activité ${ago(k.updatedAt).toLowerCase()}` : ''}</span>
+                {k.awaitingRelease ? <span className="kit-warn">E-mail à la publication</span> : k.notifiedAt ? <span>Prévenue le {dateFr(k.notifiedAt)}</span> : null}
+            </div>
+            <Button type="button" variant="ghost" size="icon-sm" className="text-destructive hover:text-destructive" aria-label={`Retirer ${k.title} du carnet de ${who}`} onClick={() => void remove(k)}><Trash2 /></Button>
+        </li>)}</ul> : <p className="muted">Aucun kit dans ce carnet.</p>}
+        <form className="account-grant" onSubmit={add}>
+            <label className="filter-field">Ajouter un kit<select value={pick} onChange={e => setPick(e.target.value)} disabled={busy || !available.length}><option value="">{kits ? available.length ? 'Choisir un kit…' : 'Tous les kits sont déjà dans ce carnet' : 'Chargement…'}</option>{available.map(k => <option key={k._id} value={k._id}>{k.title} · {STATUS[kitStatus(k)].label}</option>)}</select></label>
+            <Button size="sm" disabled={busy || !pick}><Plus />{busy ? 'Ajout…' : 'Ajouter sans code'}</Button>
+        </form>
+        <small className="muted">Un kit « À venir » ou en brouillon s’affiche dans son carnet à sa sortie, avec l’e-mail de notification.</small>
+        {error && <p role="alert" className="error">{error}</p>}
+    </div>;
 }

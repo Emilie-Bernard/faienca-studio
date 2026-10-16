@@ -1,4 +1,5 @@
-import { query, mutation, internalMutation, type QueryCtx } from './_generated/server';
+import { query, mutation, internalMutation, type QueryCtx, type MutationCtx } from './_generated/server';
+import { internal } from './_generated/api';
 import { v, ConvexError } from 'convex/values';
 import type { Doc, Id } from './_generated/dataModel';
 import { kitFields, kitTranslations, lessonTranslations } from './schema';
@@ -23,6 +24,13 @@ async function requireKitAccess(ctx: QueryCtx, kitId: Id<'kits'>) {
     return { me, kit, progress };
 }
 
+/** Ajoute le kit au carnet ; s'il n'est pas encore publié, la cliente sera prévenue par e-mail à sa sortie. */
+async function addToNotebook(ctx: MutationCtx, userId: Id<'users'>, kit: Doc<'kits'>, source: 'code' | 'admin') {
+    const now = Date.now();
+    return await ctx.db.insert('kitProgress', { userId, kitId: kit._id, completed: [], notes: '', startedAt: now, updatedAt: now, source, ...(kit.published ? {} : { awaitingRelease: true }) });
+}
+const visible = (k: Doc<'kits'>) => k.published || !!k.upcoming;
+
 const stitchesOf = (lessons: { stitch: string }[]) => [...new Set(lessons.map(l => l.stitch).filter(Boolean))];
 
 // ——— Espace cliente ———
@@ -31,11 +39,11 @@ export const catalog = query({
     args: {}, handler: async (ctx) => {
         const me = await requireUser(ctx);
         const owned = new Set((await ctx.db.query('kitProgress').withIndex('by_user', q => q.eq('userId', me.id)).collect()).map(p => p.kitId));
-        return (await ctx.db.query('kits').collect()).filter(k => k.published).map(k => ({
+        return (await ctx.db.query('kits').collect()).filter(visible).map(k => ({
             _id: k._id, title: k.title, description: k.description, coverUrl: k.coverUrl, translations: k.translations,
             lessonCount: k.lessons.length, stitches: stitchesOf(k.lessons),
             stitchTranslations: Object.fromEntries(kitLanguages.map(lang => [lang, stitchesOf(k.lessons.map(l => localizeLesson(l, lang)))])),
-            needsCode: !!k.accessCode, owned: owned.has(k._id),
+            needsCode: !!k.accessCode, owned: owned.has(k._id), upcoming: !k.published,
         }));
     }
 });
@@ -47,9 +55,11 @@ export const mine = query({
         const result = [];
         for (const p of rows) {
             const kit = await ctx.db.get(p.kitId);
-            if (!kit || (!kit.published && me.role !== 'admin')) continue;
+            if (!kit || (!visible(kit) && me.role !== 'admin')) continue;
+            // Un kit « À venir » apparaît dans le carnet, sans son contenu.
+            const upcoming = !kit.published;
             result.push({
-                kit: { _id: kit._id, title: kit.title, description: kit.description, coverUrl: kit.coverUrl, translations: kit.translations, lessons: await withVideoFiles(ctx, kit.lessons) },
+                kit: { _id: kit._id, title: kit.title, description: kit.description, coverUrl: kit.coverUrl, translations: kit.translations, upcoming, lessons: upcoming ? [] : await withVideoFiles(ctx, kit.lessons) },
                 progress: { completed: p.completed, notes: p.notes, startedAt: p.startedAt, updatedAt: p.updatedAt, finishedAt: p.finishedAt ?? null },
             });
         }
@@ -61,11 +71,10 @@ export const activate = mutation({
     args: { kitId: v.id('kits'), code: v.string() }, handler: async (ctx, { kitId, code }) => {
         const me = await requireUser(ctx);
         const kit = await ctx.db.get(kitId);
-        if (!kit || !kit.published) throw new ConvexError('Kit introuvable.');
+        if (!kit || !visible(kit)) throw new ConvexError('Kit introuvable.');
         const existing = await progressOf(ctx, me.id, kitId); if (existing) return existing._id;
         if (!codeMatches(code, kit.accessCode)) throw new ConvexError('Ce code ne correspond pas à ce kit. Vérifiez la carte glissée dans votre boîte.');
-        const now = Date.now();
-        return await ctx.db.insert('kitProgress', { userId: me.id, kitId, completed: [], notes: '', startedAt: now, updatedAt: now });
+        return await addToNotebook(ctx, me.id, kit, 'code');
     }
 });
 
@@ -135,7 +144,7 @@ export const adminList = query({
             const questions = await ctx.db.query('kitQuestions').withIndex('by_kit', q => q.eq('kitId', k._id)).collect();
             return {
                 ...k, lessons: await withVideoFiles(ctx, k.lessons),
-                stats: { clientes: progress.length, finished: progress.filter(p => p.finishedAt).length, openQuestions: questions.filter(q => !q.answer).length },
+                stats: { clientes: progress.length, finished: progress.filter(p => p.finishedAt).length, openQuestions: questions.filter(q => !q.answer).length, waiting: progress.filter(p => p.awaitingRelease).length },
             };
         }));
     }
@@ -145,13 +154,15 @@ export const saveKit = mutation({
     args: { id: v.optional(v.id('kits')), revision: v.optional(v.number()), data: v.object(kitFields) }, handler: async (ctx, { id, revision, data }) => {
         await requireAdmin(ctx);
         const error = kitError(data); if (error) throw new ConvexError(error);
-        const clean = { ...data, title: data.title.trim(), accessCode: data.accessCode.trim() };
+        const clean = { ...data, title: data.title.trim(), accessCode: data.accessCode.trim(), upcoming: !data.published && !!data.upcoming };
         if (!id) return await ctx.db.insert('kits', { ...clean, revision: 1, updatedAt: Date.now() });
         const before = await ctx.db.get(id); if (!before) throw new ConvexError('Kit introuvable.');
         if (before.revision !== revision) throw new ConvexError('Ce kit a été modifié dans une autre session. Rechargez-le avant d’enregistrer.');
         const kept = new Set(clean.lessons.map(l => l.videoStorageId).filter(Boolean));
         for (const l of before.lessons) if (l.videoStorageId && !kept.has(l.videoStorageId)) await ctx.storage.delete(l.videoStorageId);
         await ctx.db.patch(id, { ...clean, revision: before.revision + 1, updatedAt: Date.now() });
+        // Sortie du kit : les clientes qui l'attendaient reçoivent un e-mail.
+        if (!before.published && clean.published) await ctx.scheduler.runAfter(0, internal.kitRelease.notify, { kitId: id });
         return id;
     }
 });
@@ -165,6 +176,36 @@ export const removeKit = mutation({
         for (const q of await ctx.db.query('kitQuestions').withIndex('by_kit', q => q.eq('kitId', id)).collect()) await ctx.db.delete(q._id);
         for (const l of kit.lessons) if (l.videoStorageId) await ctx.storage.delete(l.videoStorageId);
         await ctx.db.delete(id);
+    }
+});
+
+/** Relance l'e-mail de sortie pour les clientes qui ne l'ont pas encore reçu. */
+export const notifyRelease = mutation({
+    args: { kitId: v.id('kits') }, handler: async (ctx, { kitId }) => {
+        await requireAdmin(ctx);
+        const kit = await ctx.db.get(kitId); if (!kit) throw new ConvexError('Kit introuvable.');
+        if (!kit.published) throw new ConvexError('Publiez le kit avant de prévenir les clientes.');
+        await ctx.scheduler.runAfter(0, internal.kitRelease.notify, { kitId });
+    }
+});
+
+/** Offre un kit à une cliente depuis l'atelier, sans code. */
+export const grant = mutation({
+    args: { userId: v.id('users'), kitId: v.id('kits') }, handler: async (ctx, { userId, kitId }) => {
+        await requireAdmin(ctx);
+        const [user, kit] = await Promise.all([ctx.db.get(userId), ctx.db.get(kitId)]);
+        if (!user) throw new ConvexError('Compte introuvable.');
+        if (!kit) throw new ConvexError('Kit introuvable.');
+        const existing = await progressOf(ctx, userId, kitId); if (existing) return existing._id;
+        return await addToNotebook(ctx, userId, kit, 'admin');
+    }
+});
+
+/** Retire un kit du carnet d'une cliente (sa progression et ses notes sont effacées). */
+export const revoke = mutation({
+    args: { userId: v.id('users'), kitId: v.id('kits') }, handler: async (ctx, { userId, kitId }) => {
+        await requireAdmin(ctx);
+        const progress = await progressOf(ctx, userId, kitId); if (progress) await ctx.db.delete(progress._id);
     }
 });
 

@@ -22,6 +22,8 @@ export const kitFields = {
     title: v.string(), description: v.string(), coverUrl: v.string(), accessCode: v.string(),
     published: v.boolean(), lessons: v.array(lessonFields),
     translations: kitTranslations,
+    // Kit non publié mais annoncé : visible « À venir », les clientes peuvent déjà saisir leur code.
+    upcoming: v.optional(v.boolean()),
 };
 export const entryFields = {
     kind: v.union(v.literal('publication'), v.literal('projet'), v.literal('strategie'), v.literal('newsletter'), v.literal('scenario')),
@@ -38,7 +40,9 @@ export const entryFields = {
 };
 export default defineSchema({
     ...authTables,
-    users: defineTable({ name: v.optional(v.string()), email: v.optional(v.string()), image: v.optional(v.string()), emailVerificationTime: v.optional(v.number()), phone: v.optional(v.string()), phoneVerificationTime: v.optional(v.number()), isAnonymous: v.optional(v.boolean()), githubId: v.optional(v.string()), role: v.optional(v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire'))), createdAt: v.optional(v.number()) }).index('email', ['email']).index('phone', ['phone']),
+    users: defineTable({ name: v.optional(v.string()), email: v.optional(v.string()), image: v.optional(v.string()), emailVerificationTime: v.optional(v.number()), phone: v.optional(v.string()), phoneVerificationTime: v.optional(v.number()), isAnonymous: v.optional(v.boolean()), githubId: v.optional(v.string()), role: v.optional(v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire'))), createdAt: v.optional(v.number()),
+        // Suivi des connexions : dernière visite, nombre de visites et langue de l'interface (pour les e-mails).
+        lastSeenAt: v.optional(v.number()), visits: v.optional(v.number()), locale: v.optional(v.string()) }).index('email', ['email']).index('phone', ['phone']),
     entries: defineTable({ ...entryFields, emailSteps: v.optional(emailSteps), revision: v.number(), seedKey: v.optional(v.string()), media: v.optional(v.array(missionFile)) }),
     seeds: defineTable({ version: v.string() }).index('version', ['version']),
     newsletterSubscribers: defineTable({
@@ -55,6 +59,10 @@ export default defineSchema({
         userId: v.id('users'), kitId: v.id('kits'),
         completed: v.array(v.string()), notes: v.string(),
         startedAt: v.number(), updatedAt: v.number(), finishedAt: v.optional(v.number()),
+        // Code saisi par la cliente ou kit offert depuis l'atelier.
+        source: v.optional(v.union(v.literal('code'), v.literal('admin'))),
+        // Kit ajouté pendant qu'il était « À venir » : un e-mail part à sa publication.
+        awaitingRelease: v.optional(v.boolean()), notifiedAt: v.optional(v.number()),
     }).index('by_user', ['userId']).index('by_user_kit', ['userId', 'kitId']).index('by_kit', ['kitId']),
     kitQuestions: defineTable({
         kitId: v.id('kits'), lessonId: v.string(), userId: v.id('users'), authorName: v.string(),

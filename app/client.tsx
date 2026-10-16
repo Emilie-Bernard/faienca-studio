@@ -18,8 +18,8 @@ import { LanguageSwitcher, useI18n } from './i18n';
 
 export type Me = { _id: string; name: string; email: string; role: Role };
 export type LessonView = Lesson & { videoFileUrl: string | null };
-type MyKit = { kit: { _id: string; title: string; description: string; coverUrl: string; translations?: Translations<KitText>; lessons: LessonView[] }; progress: { completed: string[]; notes: string; startedAt: number; updatedAt: number; finishedAt: number | null } };
-type CatalogKit = { _id: string; title: string; description: string; coverUrl: string; translations?: Translations<KitText>; lessonCount: number; stitches: string[]; stitchTranslations?: Partial<Record<KitLanguage, string[]>>; needsCode: boolean; owned: boolean };
+type MyKit = { kit: { _id: string; title: string; description: string; coverUrl: string; translations?: Translations<KitText>; upcoming?: boolean; lessons: LessonView[] }; progress: { completed: string[]; notes: string; startedAt: number; updatedAt: number; finishedAt: number | null } };
+type CatalogKit = { _id: string; title: string; description: string; coverUrl: string; translations?: Translations<KitText>; lessonCount: number; stitches: string[]; stitchTranslations?: Partial<Record<KitLanguage, string[]>>; needsCode: boolean; owned: boolean; upcoming?: boolean };
 type Prefill = PendingKit & { error: string };
 type Question = { _id: string; lessonId: string; authorName: string; body: string; createdAt: number; answer: string | null; answeredAt: number | null; mine: boolean };
 
@@ -42,14 +42,16 @@ export default function ClientSpace({ me }: { me: Me }) {
     const activate = useMutation(anyApi.kits.activate);
     const [prefill, setPrefill] = useState<Prefill | null>(null);
     const pendingHandled = useRef(false);
+    // Un kit « À venir » rejoint le carnet sans s'ouvrir : la cliente sera prévenue à sa sortie.
+    const added = (id: string) => { if (catalog?.find(k => k._id === id)?.upcoming) { setToast(t.kitReserved); go({ view: 'kits' }); } else { setToast(t.kitAdded); go({ kit: id }); } };
     useEffect(() => {
         if (!kits || !catalog || pendingHandled.current) return;
         pendingHandled.current = true;
         const pending = takePendingKit();
         if (!pending) return;
-        if (kits.some(k => k.kit._id === pending.kitId)) { go({ kit: pending.kitId }); return; }
+        if (kits.some(k => k.kit._id === pending.kitId)) { go(kits.some(k => k.kit._id === pending.kitId && k.kit.upcoming) ? { view: 'kits' } : { kit: pending.kitId }); return; }
         activate({ kitId: pending.kitId, code: pending.code })
-            .then(() => { setToast(t.kitAdded); go({ kit: pending.kitId }); })
+            .then(() => added(pending.kitId))
             .catch(err => { setPrefill({ ...pending, error: errorOf(err, t.kitAddFailed) }); go({ view: 'catalogue' }); });
         // eslint-disable-next-line react-hooks/exhaustive-deps -- une seule fois, quand le carnet est chargé
     }, [kits, catalog]);
@@ -58,7 +60,7 @@ export default function ClientSpace({ me }: { me: Me }) {
     const navGroups: NavGroup[] = [{ items: [{ label: t.myKits, icon: BookHeart }, { label: t.addKit, icon: Plus }] }];
     const current = view === 'catalogue' ? t.addKit : t.myKits;
     const select = (label: string) => go({ view: label === t.addKit ? 'catalogue' : 'kits' });
-    const open = kits.find(k => k.kit._id === kitId);
+    const open = kits.find(k => k.kit._id === kitId && !k.kit.upcoming);
     const toDiscover = catalog.filter(k => !k.owned);
     return <div className="client">
         <header className="client-bar"><a className="brand" href="/"><Brand label={t.space} /></a>
@@ -68,7 +70,7 @@ export default function ClientSpace({ me }: { me: Me }) {
         <MobileNav label={t.space} title={open ? open.kit.title : current} groups={navGroups} current={open ? '' : current} onSelect={select} footer={<div className="flex flex-col gap-1"><div className="flex items-center gap-3 px-2 py-2"><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="truncate text-sm">{me.name || me.email}</span></div><LanguageSwitcher className="mx-2 mb-1" /><Button variant="ghost" className="justify-start text-destructive hover:text-destructive" onClick={() => void signOut()}><LogOut />{t.logout}</Button></div>} />
         <main className="client-main">
             {open ? <KitView key={open.kit._id} item={open} onBack={() => go({ view: 'kits' })} onToast={setToast} />
-                : view === 'catalogue' ? <Catalogue kits={toDiscover} prefill={prefill} onActivated={id => { setToast(t.kitAdded); go({ kit: id }); }} />
+                : view === 'catalogue' ? <Catalogue kits={toDiscover} prefill={prefill} onActivated={added} />
                     : <Dashboard firstName={firstName} kits={kits} hasCatalogue={toDiscover.length > 0} onOpen={id => go({ kit: id })} onAdd={() => go({ view: 'catalogue' })} />}
         </main>
         {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
@@ -76,16 +78,20 @@ export default function ClientSpace({ me }: { me: Me }) {
 }
 
 function Dashboard({ firstName, kits, hasCatalogue, onOpen, onAdd }: { firstName: string, kits: MyKit[], hasCatalogue: boolean, onOpen: (id: string) => void, onAdd: () => void }) {
-    const finished = kits.filter(k => k.kit.lessons.length && doneCount(k) === k.kit.lessons.length);
     const { t: { client: t } } = useI18n();
+    const upcoming = kits.filter(k => k.kit.upcoming), ready = kits.filter(k => !k.kit.upcoming);
+    const finished = ready.filter(k => k.kit.lessons.length && doneCount(k) === k.kit.lessons.length);
     const stitches = new Set(kits.flatMap(k => k.kit.lessons.filter(l => l.stitch && k.progress.completed.includes(l.id)).map(l => l.stitch.toLowerCase())));
     return <>
         <div className="page-heading"><div><div className="eyebrow">{t.dashboardEyebrow}</div><h1>{fill(t.hello, { name: firstName })}</h1><p>{t.resume}</p></div></div>
-        <section className="stats"><Stat label={t.statInProgress} value={kits.length - finished.length} /><Stat label={t.statFinished} value={finished.length} /><Stat label={t.statStitches} value={stitches.size} /><Stat label={t.statLessons} value={kits.reduce((n, k) => n + doneCount(k), 0)} /></section>
-        {kits.length ? <div className="kit-grid">{kits.map(k => { const done = doneCount(k), total = k.kit.lessons.length, next = k.kit.lessons.find(l => !k.progress.completed.includes(l.id)); return <button type="button" key={k.kit._id} className="kit-card" onClick={() => onOpen(k.kit._id)}>
+        <section className="stats"><Stat label={t.statInProgress} value={ready.length - finished.length} /><Stat label={t.statFinished} value={finished.length} /><Stat label={t.statStitches} value={stitches.size} /><Stat label={t.statLessons} value={kits.reduce((n, k) => n + doneCount(k), 0)} /></section>
+        {kits.length ? <div className="kit-grid">{ready.map(k => { const done = doneCount(k), total = k.kit.lessons.length, next = k.kit.lessons.find(l => !k.progress.completed.includes(l.id)); return <button type="button" key={k.kit._id} className="kit-card" onClick={() => onOpen(k.kit._id)}>
             <Cover url={k.kit.coverUrl} />
             <div className="kit-card-body"><div className="card-top"><span className={'badge ' + (total && done === total ? 'green' : 'blue')}>{total && done === total ? t.finished : done ? t.inProgress : t.notStarted}</span><small>{fill(t.lessonsCount, { done, total })}</small></div><h3>{k.kit.title}</h3><div className="progress"><span style={{ width: progressPercent(done, total) + '%' }} /></div><p>{next ? <>{t.nextStep} <strong>{next.title}</strong></> : t.allDone}</p><span className="edit-link">{done ? t.continue : t.start} <ArrowRight size={15} /></span></div>
-        </button>; })}</div>
+        </button>; })}{upcoming.map(k => <article key={k.kit._id} className="kit-card static upcoming">
+            <Cover url={k.kit.coverUrl} />
+            <div className="kit-card-body"><div className="card-top"><span className="badge orange">{t.upcoming}</span></div><h3>{k.kit.title}</h3><p>{t.upcomingOwned}</p></div>
+        </article>)}</div>
             : <section className="panel client-empty"><Sparkles size={28} /><h2>{t.firstKitTitle}</h2><p>{t.firstKitBody}</p><Button onClick={onAdd}><Plus size={17} />{t.addKit}</Button></section>}
         {kits.length > 0 && hasCatalogue && <Button type="button" variant="outline" className="add-kit-link" onClick={onAdd}><Plus size={16} />{t.addAnotherKit}</Button>}
     </>;
@@ -103,7 +109,7 @@ function ActivateCard({ kit, prefill, onActivated }: { kit: CatalogKit, prefill:
     const activate = useMutation(anyApi.kits.activate); const [code, setCode] = useState(prefill?.code ?? ''), [busy, setBusy] = useState(false), [error, setError] = useState(prefill?.error ?? '');
     const { t: { client: t }, error: errorOf } = useI18n();
     const submit = async (e: FormEvent) => { e.preventDefault(); setBusy(true); setError(''); try { await activate({ kitId: kit._id, code }); onActivated(kit._id); } catch (err) { setError(errorOf(err, t.activationFailed)); setBusy(false); } };
-    return <article className="kit-card static"><Cover url={kit.coverUrl} /><div className="kit-card-body"><div className="card-top"><small>{t.videoLessons(kit.lessonCount)}</small></div><h3>{kit.title}</h3>{kit.description && <p>{kit.description}</p>}{kit.stitches.length > 0 && <div className="chips">{kit.stitches.map(s => <span key={s} className="chip">{s}</span>)}</div>}
+    return <article className="kit-card static"><Cover url={kit.coverUrl} /><div className="kit-card-body"><div className="card-top">{kit.upcoming && <span className="badge orange">{t.upcoming}</span>}<small>{t.videoLessons(kit.lessonCount)}</small></div><h3>{kit.title}</h3>{kit.description && <p>{kit.description}</p>}{kit.upcoming && <p className="upcoming-hint">{t.upcomingHint}</p>}{kit.stitches.length > 0 && <div className="chips">{kit.stitches.map(s => <span key={s} className="chip">{s}</span>)}</div>}
         <form className="activate-form" onSubmit={submit}>{kit.needsCode && <label className="code-field"><KeyRound size={16} /><input value={code} onChange={e => setCode(e.target.value)} required placeholder={t.activationCode} aria-label={fill(t.activationCodeFor, { title: kit.title })} autoComplete="off" autoCapitalize="characters" disabled={busy} /></label>}<Button disabled={busy}>{busy ? t.activating : t.addToMyKits}</Button></form>
         {error && <p role="alert" className="error">{error}</p>}</div></article>;
 }
