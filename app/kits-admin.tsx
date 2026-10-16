@@ -3,7 +3,8 @@ import { useEffect, useState, type FormEvent, type MutableRefObject } from 'reac
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
+import RichTextEditor from './rich-text-editor';
+import { richTextToPlain } from '../lib/rich-text';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { ArrowDown, ArrowLeft, ArrowUp, ChevronDown, Flower2, GripVertical, MessageCircleQuestion, Package, PlayCircle, Plus, RotateCcw, Trash2, Upload, Users } from 'lucide-react';
@@ -160,7 +161,7 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
                 </section>
                 <section className="panel"><div className="panel-title"><h2>Informations</h2></div><div className="grid gap-5">
                     <div className="grid gap-1.5"><Label htmlFor="kit-title" className={fieldLabel}>Titre</Label><Input id="kit-title" lang={lang} required={lang === 'fr'} maxLength={200} value={text('title')} placeholder={lang === 'fr' ? 'Le vase aux citrons' : data.title} className="h-11 bg-card text-base" onChange={e => setText('title', e.target.value)} /></div>
-                    <div className="grid gap-1.5"><Label htmlFor="kit-description" className={fieldLabel}>Description</Label><Textarea id="kit-description" lang={lang} rows={4} maxLength={5000} value={text('description')} placeholder={lang === 'fr' ? 'Ce que contient le kit, le niveau, le temps de broderie…' : data.description} className="bg-card text-base" onChange={e => setText('description', e.target.value)} /></div>
+                    <div className="grid gap-1.5"><span id="kit-description-label" className={fieldLabel}>Description</span><RichTextEditor key={lang} lang={lang} label={`Description (${EDIT_LANGUAGES.find(l => l.id === lang)!.label})`} value={text('description')} placeholder={lang === 'fr' ? 'Ce que contient le kit, le niveau, le temps de broderie…' : richTextToPlain(data.description).slice(0, 160)} onChange={v => setText('description', v)} /><small>Les clientes voient le début sur la carte du kit, puis la description complète, mise en forme, en ouvrant sa fiche.</small></div>
                 </div></section>
                 <section className="panel"><div className="panel-title"><h2>Leçons</h2><div className="flex items-center gap-3"><span className="muted">{data.lessons.length} leçon{data.lessons.length > 1 ? 's' : ''}</span>{data.lessons.length > 1 && <Button type="button" variant="link" className="h-auto p-0 text-xs" onClick={() => setOpen(o => o.size ? new Set() : new Set(data.lessons.map(l => l.id)))}>{open.size ? 'Tout replier' : 'Tout déplier'}</Button>}</div></div>
                     <p className="muted kit-page-help">Une leçon par point ou par étape. Glissez la poignée <GripVertical className="inline size-3.5 align-[-2px]" /> pour changer l’ordre, ou utilisez les flèches.</p>
@@ -410,4 +411,32 @@ function AccountKits({ account: a, kits, onToast }: { account: Account, kits: Ad
         <small className="muted">Un kit « À venir » ou en brouillon s’affiche dans son carnet à sa sortie, avec l’e-mail de notification.</small>
         {error && <p role="alert" className="error">{error}</p>}
     </div>;
+}
+
+type KitRequest = { _id: string; status: 'pending' | 'accepted' | 'refused'; message: string; createdAt: number; decidedAt: number | null; name: string; email: string; kitId: string; kitTitle: string; kitPublished: boolean };
+const REQUEST_STATUS: Record<KitRequest['status'], { label: string, badge: string }> = { pending: { label: 'En attente', badge: 'orange' }, accepted: { label: 'Acceptée', badge: 'green' }, refused: { label: 'Refusée', badge: 'blue' } };
+
+/** Demandes d'activation sans code : accepter ajoute le kit au carnet et envoie un e-mail à la cliente. */
+export function RequestsAdmin({ onToast }: { onToast: (s: string) => void }) {
+    const requests = useQuery(anyApi.kitRequests.list) as KitRequest[] | undefined;
+    const decide = useMutation(anyApi.kitRequests.decide);
+    const [filter, setFilter] = useState<'pending' | 'all'>('pending'), [busy, setBusy] = useState(''), [error, setError] = useState('');
+    if (!requests) return <p className="muted">Chargement des demandes…</p>;
+    const pending = requests.filter(r => r.status === 'pending'), shown = filter === 'pending' ? pending : requests;
+    const answer = async (r: KitRequest, accept: boolean) => {
+        const who = r.name || r.email;
+        if (!accept && !await ask({ title: 'Refuser cette demande ?', description: `${who} ne recevra pas le kit « ${r.kitTitle} ». Aucun e-mail ne lui est envoyé ; elle pourra refaire une demande.`, confirmLabel: 'Refuser la demande', destructive: true })) return;
+        setBusy(r._id); setError('');
+        try { await decide({ id: r._id, accept }); onToast(accept ? `Kit ajouté au carnet de ${who} : e-mail envoyé` : 'Demande refusée'); }
+        catch (err) { setError(errorText(err, 'La réponse n’a pas été enregistrée.')); } finally { setBusy(''); }
+    };
+    return <>
+        <div className="filters"><div className="segmented"><button type="button" className={filter === 'pending' ? 'selected' : ''} onClick={() => setFilter('pending')}>En attente ({pending.length})</button><button type="button" className={filter === 'all' ? 'selected' : ''} onClick={() => setFilter('all')}>Toutes ({requests.length})</button></div><span className="muted">Vous recevez un e-mail à chaque nouvelle demande.</span></div>
+        {error && <div role="alert" className="error">{error}<button type="button" onClick={() => setError('')}>Fermer</button></div>}
+        {shown.length ? <div className="request-list">{shown.map(r => <article key={r._id} className="panel request-card">
+            <div className="qa-meta"><span className={'badge ' + REQUEST_STATUS[r.status].badge}>{REQUEST_STATUS[r.status].label}</span><small>{dateTimeFr(r.createdAt)}{r.decidedAt ? ' · répondu le ' + dateFr(r.decidedAt) : ''}</small></div>
+            <div><p className="answer-author"><strong>{r.name || r.email}</strong> <small>{r.email}</small></p><p>demande le kit <strong>{r.kitTitle}</strong>{!r.kitPublished && <span className="muted"> (pas encore publié : il sera réservé dans son carnet)</span>}</p>{r.message && <blockquote>{r.message}</blockquote>}</div>
+            {r.status === 'pending' && <div className="request-actions"><Button type="button" variant="outline" disabled={!!busy} onClick={() => void answer(r, false)}>Refuser</Button><Button type="button" disabled={!!busy} onClick={() => void answer(r, true)}>{busy === r._id ? 'Envoi…' : 'Accepter'}</Button></div>}
+        </article>)}</div> : <section className="panel"><Empty text={filter === 'pending' ? 'Aucune demande en attente.' : 'Aucune demande pour le moment.'} /></section>}
+    </>;
 }

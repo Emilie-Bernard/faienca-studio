@@ -64,6 +64,12 @@ export default defineSchema({
         // Kit ajouté pendant qu'il était « À venir » : un e-mail part à sa publication.
         awaitingRelease: v.optional(v.boolean()), notifiedAt: v.optional(v.number()),
     }).index('by_user', ['userId']).index('by_user_kit', ['userId', 'kitId']).index('by_kit', ['kitId']),
+    // Demande d'activation sans code : l'administratrice l'accepte (le kit entre dans le carnet, e-mail à la cliente) ou la refuse.
+    kitRequests: defineTable({
+        userId: v.id('users'), kitId: v.id('kits'), message: v.string(),
+        status: v.union(v.literal('pending'), v.literal('accepted'), v.literal('refused')),
+        createdAt: v.number(), decidedAt: v.optional(v.number()),
+    }).index('by_user_kit', ['userId', 'kitId']).index('by_status', ['status', 'createdAt']).index('by_kit', ['kitId']),
     kitQuestions: defineTable({
         kitId: v.id('kits'), lessonId: v.string(), userId: v.id('users'), authorName: v.string(),
         body: v.string(), createdAt: v.number(),

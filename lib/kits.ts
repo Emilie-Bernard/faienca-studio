@@ -43,7 +43,7 @@ export const newLesson = (): Lesson => ({ id: crypto.randomUUID(), title: '', st
 /** Renvoie un message d'erreur en français, ou null si le kit est valide. */
 export function kitError(k: KitInput): string | null {
   if (!k.title.trim() || k.title.length > 200) return 'Le titre du kit doit contenir entre 1 et 200 caractères.';
-  if (k.description.length > 5000) return 'La description ne peut pas dépasser 5 000 caractères.';
+  if (k.description.length > 20000) return 'La description ne peut pas dépasser 20 000 caractères (mise en forme comprise).';
   if (k.coverUrl && !/^https:\/\//i.test(k.coverUrl)) return 'L’image de couverture doit commencer par https://.';
   if (k.accessCode.length > 300) return 'Les codes d’activation ne peuvent pas dépasser 300 caractères.';
   if (k.lessons.length > 80) return 'Un kit contient au maximum 80 leçons.';
@@ -54,7 +54,7 @@ export function kitError(k: KitInput): string | null {
     if (l.videoUrl && !/^https:\/\//i.test(l.videoUrl)) return `La vidéo de la leçon ${i + 1} doit être un lien https://.`;
     for (const t of Object.values(l.translations ?? {})) if (t && (t.title.length > 200 || t.stitch.length > 120 || t.notes.length > 5000)) return `Une traduction de la leçon ${i + 1} est trop longue.`;
   }
-  for (const t of Object.values(k.translations ?? {})) if (t && (t.title.length > 200 || t.description.length > 5000)) return 'Une traduction du titre ou de la description est trop longue.';
+  for (const t of Object.values(k.translations ?? {})) if (t && (t.title.length > 200 || t.description.length > 20000)) return 'Une traduction du titre ou de la description est trop longue.';
   return null;
 }
 

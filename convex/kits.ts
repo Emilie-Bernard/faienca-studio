@@ -174,6 +174,7 @@ export const removeKit = mutation({
         if (kit.revision !== revision) throw new ConvexError('Ce kit a changé. Rechargez-le.');
         for (const p of await ctx.db.query('kitProgress').withIndex('by_kit', q => q.eq('kitId', id)).collect()) await ctx.db.delete(p._id);
         for (const q of await ctx.db.query('kitQuestions').withIndex('by_kit', q => q.eq('kitId', id)).collect()) await ctx.db.delete(q._id);
+        for (const r of await ctx.db.query('kitRequests').withIndex('by_kit', q => q.eq('kitId', id)).collect()) await ctx.db.delete(r._id);
         for (const l of kit.lessons) if (l.videoStorageId) await ctx.storage.delete(l.videoStorageId);
         await ctx.db.delete(id);
     }

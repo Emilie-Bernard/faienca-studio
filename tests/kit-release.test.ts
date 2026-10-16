@@ -135,3 +135,40 @@ describe('Traductions manquantes', () => {
         expect(await t.query(anyApi.users.localeByEmail, { email: 'lea@example.com' })).toBeNull();
     });
 });
+
+describe('Demandes d’activation', () => {
+    it('prévient l’atelier, puis la cliente quand sa demande est acceptée', async () => {
+        vi.useFakeTimers(); vi.stubEnv('ADMIN_EMAIL', 'emilie@faienca.fr');
+        const { t, atelier, marie, lea } = await setup();
+        const fetch = vi.fn(async () => new Response('{"id":"x"}', { status: 200 }));
+        vi.stubGlobal('fetch', fetch);
+        const kitId = await atelier.api.mutation(anyApi.kits.saveKit, { data: kit({ published: true, upcoming: false }) });
+        const id = await marie.api.mutation(anyApi.kitRequests.request, { kitId, message: 'Achat sur Etsy' });
+        expect(await marie.api.mutation(anyApi.kitRequests.request, { kitId, message: '' })).toBe(id);
+        expect(await marie.api.query(anyApi.kitRequests.mine)).toEqual({ [kitId]: 'pending' });
+        await expect(marie.api.query(anyApi.kitRequests.list)).rejects.toThrow('propriétaire');
+        await expect(marie.api.mutation(anyApi.kitRequests.decide, { id, accept: true })).rejects.toThrow('propriétaire');
+        await t.finishAllScheduledFunctions(vi.runAllTimers);
+        const sent = () => fetch.mock.calls.map(c => JSON.parse(String((c as unknown as [string, RequestInit])[1].body)) as { to: string[], subject: string, html: string });
+        expect(sent()[0]).toMatchObject({ to: ['emilie@faienca.fr'], subject: 'Demande d’activation : Kit Olivier (Marie Dupont)' });
+        expect(sent()[0]!.html).toContain('https://carnet.faienca.fr/?vue=Demandes');
+        await atelier.api.mutation(anyApi.kitRequests.decide, { id, accept: true });
+        await t.finishAllScheduledFunctions(vi.runAllTimers);
+        expect(sent()[1]).toMatchObject({ to: ['marie@example.com'], subject: 'Your “Kit Olivier” kit is activated' });
+        expect((await marie.api.query(anyApi.kits.mine)).map((k: { kit: { _id: string } }) => k.kit._id)).toEqual([kitId]);
+        await expect(atelier.api.mutation(anyApi.kitRequests.decide, { id, accept: false })).rejects.toThrow('déjà reçu');
+        await expect(marie.api.mutation(anyApi.kitRequests.request, { kitId, message: '' })).rejects.toThrow('déjà dans votre carnet');
+        // Refus : pas de kit ni d'e-mail à la cliente, et une nouvelle demande reste possible.
+        const refused = await lea.api.mutation(anyApi.kitRequests.request, { kitId, message: '' });
+        await atelier.api.mutation(anyApi.kitRequests.decide, { id: refused, accept: false });
+        await t.finishAllScheduledFunctions(vi.runAllTimers);
+        expect(sent().map(e => e.to[0])).toEqual(['emilie@faienca.fr', 'marie@example.com', 'emilie@faienca.fr']);
+        expect(await lea.api.query(anyApi.kits.mine)).toEqual([]);
+        expect(await lea.api.query(anyApi.kitRequests.mine)).toEqual({ [kitId]: 'refused' });
+    });
+    it('refuse une demande pour un brouillon', async () => {
+        const { atelier, marie } = await setup();
+        const kitId = await atelier.api.mutation(anyApi.kits.saveKit, { data: kit({ upcoming: false }) });
+        await expect(marie.api.mutation(anyApi.kitRequests.request, { kitId, message: '' })).rejects.toThrow('introuvable');
+    });
+});

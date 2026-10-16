@@ -4082,3 +4082,51 @@ a.library-card-title::after { content: ''; position: absolute; inset: 0; border-
 .translation-summary li strong { min-width: 64px; font-weight: 600 }
 .translation-summary li.incomplete span { color: #8a5014 }
 .translation-summary li.complete span { color: #5b6f39 }
+
+/* Catalogue : extrait sur la carte, fiche complète en dialogue */
+.catalog-card .kit-excerpt, .kit-heading .kit-excerpt { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden }
+.catalog-card .edit-link { margin-top: 14px; padding-top: 0 }
+.kit-read-more { margin-top: 8px; background: none; padding: 0 }
+.request-state { display: flex; gap: 6px; align-items: center; font-size: 13px; color: #8a4f12 !important; margin-top: 10px !important }
+.kit-dialog { padding: 0; gap: 0 }
+.kit-dialog-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: var(--cream) }
+.kit-dialog-cover.placeholder { display: grid; place-items: center; aspect-ratio: 16/6 }
+.kit-dialog-body { padding: 22px 26px 26px; display: flex; flex-direction: column; min-width: 0 }
+.kit-dialog-title { font-family: var(--font-heading); font-weight: 400; font-size: 30px; line-height: 1.15; margin: 10px 0 14px; color: var(--ink) }
+.kit-dialog .upcoming-hint { font-size: 14px; color: var(--muted-text); border-left: 2px solid #f9ad4f; padding-left: 12px; margin-top: 16px }
+.kit-dialog-actions { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line) }
+.kit-dialog-actions .activate-form { margin-top: 0 }
+.kit-request { margin-top: 18px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; font-size: 14px; color: #6b625a; background: #faf6f0; border-radius: 10px; padding: 14px 16px }
+.kit-request p { margin: 0 }
+.kit-request .request-state { margin-top: 0 !important }
+.kit-request-form { display: flex; flex-direction: column; gap: 8px; width: 100% }
+.kit-request-form label { font-size: 13px; font-weight: 600; color: var(--ink) }
+.kit-request-form textarea { width: 100%; background: var(--surface) }
+.kit-request-row { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap }
+@media (max-width: 640px) { .kit-dialog-body { padding: 18px 16px 20px } .kit-dialog-title { font-size: 25px } }
+
+/* Description mise en forme (éditeur de l'atelier) */
+.rich-text { font-size: 15px; line-height: 1.7; color: #4a423b; overflow-wrap: anywhere }
+.rich-text > * + * { margin-top: 12px }
+.rich-text h2 { font-family: var(--font-heading); font-weight: 400; font-size: 23px; line-height: 1.25; color: var(--navy); margin-top: 22px }
+.rich-text h3 { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #b03f25; margin-top: 20px }
+.rich-text h2 + *, .rich-text h3 + * { margin-top: 6px }
+.rich-text ul, .rich-text ol { padding-left: 22px }
+.rich-text ul { list-style: disc }
+.rich-text ol { list-style: decimal }
+.rich-text li + li { margin-top: 4px }
+.rich-text li::marker { color: #f9ad4f }
+.rich-text strong { color: var(--ink) }
+.rich-text a { color: var(--navy); text-decoration: underline }
+.rich-text blockquote { border-left: 3px solid #f9ad4f; background: #faf6f0; padding: 10px 14px; border-radius: 0 8px 8px 0 }
+.rich-text-editor .rich-text-content { min-height: 180px; max-height: 480px }
+.rich-text-content blockquote { border-left: 3px solid #f9ad4f; background: #faf6f0; padding: 8px 12px; margin: 0 0 12px }
+.rich-text-content h3 { font-family: var(--font-body); font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #b03f25 }
+
+/* Demandes d'activation (atelier) */
+.request-list { display: grid; gap: 12px }
+.request-card { display: grid; grid-template-columns: 1fr auto; gap: 8px 16px; align-items: start }
+.request-card .qa-meta { grid-column: 1 / -1 }
+.request-card blockquote { margin: 6px 0 0; padding: 8px 12px; background: #faf6f0; border-left: 3px solid #f9ad4f; font-size: 14px; color: #4a423b }
+.request-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end }
+@media (max-width: 640px) { .request-card { grid-template-columns: 1fr } .request-actions { justify-content: flex-start } }

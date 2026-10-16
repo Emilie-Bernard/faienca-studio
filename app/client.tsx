@@ -1,17 +1,19 @@
 'use client';
-import { useEffect, useRef, useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { ask as confirmAsk } from '@/components/confirm-dialog';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { ConvexError } from 'convex/values';
 import { useAuthActions } from '@convex-dev/auth/react';
-import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Flower2, KeyRound, LogOut, MessageCircleQuestion, Plus, PlayCircle, Sparkles, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Clock3, Flower2, KeyRound, LogOut, Mail, MessageCircleQuestion, Plus, PlayCircle, Send, Sparkles, Trash2 } from 'lucide-react';
 import { localizeKit, localizeLesson, progressPercent, videoSource, type KitLanguage, type KitText, type Lesson, type Role, type Translations } from '../lib/kits';
 import { takePendingKit, type PendingKit } from '../lib/pending-kit';
 import Loader from './loader';
 import Brand from './brand';
 import { MobileNav, type NavGroup } from '@/components/app-nav';
 import { Button } from '@/components/ui/button';
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
+import { richTextToPlain, sanitizeRichText } from '../lib/rich-text';
 import { cn } from '@/lib/utils';
 import { fill } from '../lib/i18n';
 import { LanguageSwitcher, useI18n } from './i18n';
@@ -99,25 +101,79 @@ function Dashboard({ firstName, kits, hasCatalogue, onOpen, onAdd }: { firstName
 
 function Catalogue({ kits, prefill, onActivated }: { kits: CatalogKit[], prefill: Prefill | null, onActivated: (id: string) => void }) {
     const { t: { client: t } } = useI18n();
+    const requests = useQuery(anyApi.kitRequests.mine) as Record<string, RequestStatus> | undefined;
+    // Un lien d'activation (code dans l'adresse) ouvre directement la fiche du kit concerné.
+    const [openId, setOpenId] = useState<string | null>(prefill?.kitId ?? null);
+    const open = kits.find(k => k._id === openId);
     return <>
         <div className="page-heading"><div><div className="eyebrow">{t.catalogEyebrow}</div><h1>{t.catalogTitle}</h1><p>{t.catalogBody}</p></div></div>
-        {kits.length ? <div className="kit-grid">{kits.map(k => <ActivateCard key={k._id} kit={k} prefill={prefill?.kitId === k._id ? prefill : null} onActivated={onActivated} />)}</div> : <section className="panel client-empty"><Flower2 size={28} /><p>{t.catalogEmpty}</p></section>}
+        {kits.length ? <div className="kit-grid">{kits.map(k => <CatalogCard key={k._id} kit={k} request={requests?.[k._id]} onOpen={() => setOpenId(k._id)} />)}</div> : <section className="panel client-empty"><Flower2 size={28} /><p>{t.catalogEmpty}</p></section>}
+        {open && <ActivateDialog key={open._id} kit={open} request={requests?.[open._id]} prefill={prefill?.kitId === open._id ? prefill : null} onClose={() => setOpenId(null)} onActivated={onActivated} />}
     </>;
 }
 
-function ActivateCard({ kit, prefill, onActivated }: { kit: CatalogKit, prefill: Prefill | null, onActivated: (id: string) => void }) {
-    const activate = useMutation(anyApi.kits.activate); const [code, setCode] = useState(prefill?.code ?? ''), [busy, setBusy] = useState(false), [error, setError] = useState(prefill?.error ?? '');
+type RequestStatus = 'pending' | 'accepted' | 'refused';
+
+/** Carte du catalogue : le début de la description ; la fiche complète s'ouvre au clic. */
+function CatalogCard({ kit, request, onOpen }: { kit: CatalogKit, request?: RequestStatus, onOpen: () => void }) {
+    const { t: { client: t } } = useI18n();
+    const excerpt = richTextToPlain(kit.description);
+    return <button type="button" className="kit-card catalog-card" aria-label={fill(t.kitDetails, { title: kit.title })} onClick={onOpen}><Cover url={kit.coverUrl} /><div className="kit-card-body"><div className="card-top">{kit.upcoming && <span className="badge orange">{t.upcoming}</span>}<small>{t.videoLessons(kit.lessonCount)}</small></div><h3>{kit.title}</h3>{excerpt && <p className="kit-excerpt">{excerpt}</p>}
+        {request === 'pending' && <p className="request-state"><Clock3 size={14} />{t.requestPending}</p>}
+        <span className="edit-link">{t.readMore} <ArrowRight size={15} /></span></div></button>;
+}
+
+/** Description mise en forme dans l'atelier (ou texte brut des anciens kits). */
+export function RichText({ html, className }: { html: string, className?: string }) {
+    return <div className={cn('rich-text', className)} dangerouslySetInnerHTML={{ __html: sanitizeRichText(html) }} />;
+}
+
+function KitDialogShell({ kit, onClose, top, children }: { kit: { title: string, coverUrl: string, description: string }, onClose: () => void, top?: ReactNode, children?: ReactNode }) {
+    const { t: { client: t } } = useI18n();
+    return <Dialog open onOpenChange={o => { if (!o) onClose(); }}>
+        <DialogContent className="kit-dialog bg-card" closeLabel={t.close} aria-describedby={undefined}>
+            {kit.coverUrl ? <img className="kit-dialog-cover" src={kit.coverUrl} alt="" /> : <div className="kit-dialog-cover kit-cover placeholder"><Flower2 size={34} /></div>}
+            <div className="kit-dialog-body">
+                {top && <div className="card-top">{top}</div>}
+                <DialogTitle className="kit-dialog-title">{kit.title}</DialogTitle>
+                {kit.description && <RichText html={kit.description} />}
+                {children}
+            </div>
+        </DialogContent>
+    </Dialog>;
+}
+
+function ActivateDialog({ kit, request, prefill, onClose, onActivated }: { kit: CatalogKit, request?: RequestStatus, prefill: Prefill | null, onClose: () => void, onActivated: (id: string) => void }) {
+    const activate = useMutation(anyApi.kits.activate), sendRequest = useMutation(anyApi.kitRequests.request);
+    const [code, setCode] = useState(prefill?.code ?? ''), [busy, setBusy] = useState<'' | 'code' | 'request'>(''), [error, setError] = useState(prefill?.error ?? '');
+    const [asking, setAsking] = useState(false), [message, setMessage] = useState(''), [sent, setSent] = useState(false);
     const { t: { client: t }, error: errorOf } = useI18n();
-    const submit = async (e: FormEvent) => { e.preventDefault(); setBusy(true); setError(''); try { await activate({ kitId: kit._id, code }); onActivated(kit._id); } catch (err) { setError(errorOf(err, t.activationFailed)); setBusy(false); } };
-    return <article className="kit-card static"><Cover url={kit.coverUrl} /><div className="kit-card-body"><div className="card-top">{kit.upcoming && <span className="badge orange">{t.upcoming}</span>}<small>{t.videoLessons(kit.lessonCount)}</small></div><h3>{kit.title}</h3>{kit.description && <p>{kit.description}</p>}{kit.upcoming && <p className="upcoming-hint">{t.upcomingHint}</p>}{kit.stitches.length > 0 && <div className="chips">{kit.stitches.map(s => <span key={s} className="chip">{s}</span>)}</div>}
-        <form className="activate-form" onSubmit={submit}>{kit.needsCode && <label className="code-field"><KeyRound size={16} /><input value={code} onChange={e => setCode(e.target.value)} required placeholder={t.activationCode} aria-label={fill(t.activationCodeFor, { title: kit.title })} autoComplete="off" autoCapitalize="characters" disabled={busy} /></label>}<Button disabled={busy}>{busy ? t.activating : t.addToMyKits}</Button></form>
-        {error && <p role="alert" className="error">{error}</p>}</div></article>;
+    const submit = async (e: FormEvent) => { e.preventDefault(); setBusy('code'); setError(''); try { await activate({ kitId: kit._id, code }); onActivated(kit._id); } catch (err) { setError(errorOf(err, t.activationFailed)); setBusy(''); } };
+    const submitRequest = async (e: FormEvent) => { e.preventDefault(); setBusy('request'); setError(''); try { await sendRequest({ kitId: kit._id, message }); setSent(true); setAsking(false); } catch (err) { setError(errorOf(err, t.requestFailed)); } finally { setBusy(''); } };
+    const pending = sent || request === 'pending';
+    return <KitDialogShell kit={kit} onClose={onClose} top={<>{kit.upcoming && <span className="badge orange">{t.upcoming}</span>}<small>{t.videoLessons(kit.lessonCount)}</small></>}>
+        {kit.stitches.length > 0 && <div className="chips">{kit.stitches.map(s => <span key={s} className="chip">{s}</span>)}</div>}
+        {kit.upcoming && <p className="upcoming-hint">{t.upcomingHint}</p>}
+        <div className="kit-dialog-actions">
+            <form className="activate-form" onSubmit={submit}>{kit.needsCode && <label className="code-field"><KeyRound size={16} /><input value={code} onChange={e => setCode(e.target.value)} required placeholder={t.activationCode} aria-label={fill(t.activationCodeFor, { title: kit.title })} autoComplete="off" autoCapitalize="characters" disabled={!!busy} /></label>}<Button disabled={!!busy}>{busy === 'code' ? t.activating : t.addToMyKits}</Button></form>
+            {error && <p role="alert" className="error">{error}</p>}
+            {kit.needsCode && <div className="kit-request">
+                {pending ? <p className="request-state" role="status"><Clock3 size={15} />{sent ? t.requestSent : t.requestPending}</p>
+                    : asking ? <form className="kit-request-form" onSubmit={submitRequest}>
+                        <label htmlFor={'request-' + kit._id}>{t.requestMessage}</label>
+                        <textarea id={'request-' + kit._id} rows={3} maxLength={1000} value={message} placeholder={t.requestPlaceholder} disabled={!!busy} autoFocus onChange={e => setMessage(e.target.value)} />
+                        <div className="kit-request-row"><Button type="button" variant="ghost" disabled={!!busy} onClick={() => setAsking(false)}>{t.requestCancel}</Button><Button variant="outline" disabled={!!busy}><Send size={15} />{busy === 'request' ? t.requestSending : t.requestSend}</Button></div>
+                    </form>
+                    : <><p><strong>{t.noCodeTitle}</strong> {t.noCodeBody}</p>{request === 'refused' && <p className="muted">{t.requestRefused}</p>}<Button type="button" variant="outline" onClick={() => { setAsking(true); setError(''); }}><Mail size={15} />{t.requestActivation}</Button></>}
+            </div>}
+        </div>
+    </KitDialogShell>;
 }
 
 function KitView({ item, onBack, onToast }: { item: MyKit, onBack: () => void, onToast: (s: string) => void }) {
     const { kit, progress } = item; const setLesson = useMutation(anyApi.kits.setLesson);
     const [current, setCurrent] = useState(() => (kit.lessons.find(l => !progress.completed.includes(l.id)) ?? kit.lessons[0])?.id ?? '');
-    const [error, setError] = useState(''); const { t: { client: t }, error: errorOf, date } = useI18n();
+    const [error, setError] = useState(''), [about, setAbout] = useState(false); const { t: { client: t }, error: errorOf, date } = useI18n();
     const lesson = kit.lessons.find(l => l.id === current) ?? kit.lessons[0];
     const index = lesson ? kit.lessons.indexOf(lesson) : -1;
     const done = doneCount(item), total = kit.lessons.length, percent = progressPercent(done, total);
@@ -125,13 +181,14 @@ function KitView({ item, onBack, onToast }: { item: MyKit, onBack: () => void, o
     const markAndNext = async () => { if (!lesson) return; await toggle(lesson.id, true); const next = kit.lessons.slice(index + 1).find(l => !progress.completed.includes(l.id)) ?? kit.lessons[index + 1]; if (next) { setCurrent(next.id); window.scrollTo({ top: 0, behavior: 'smooth' }); } };
     return <>
         <button type="button" className="back-link" onClick={onBack}><ArrowLeft size={16} />{t.myKits}</button>
-        <div className="page-heading kit-heading"><div><div className="eyebrow">{progress.finishedAt ? fill(t.finishedOn, { date: date(progress.finishedAt).toUpperCase() }) : fill(t.startedOn, { date: date(progress.startedAt).toUpperCase() })}</div><h1>{kit.title}</h1>{kit.description && <p>{kit.description}</p>}</div><div className="kit-meter" aria-label={fill(t.progressLabel, { percent })}><strong>{percent}<small>%</small></strong><span>{fill(t.lessonsCount, { done, total })}</span><div className="progress"><span style={{ width: percent + '%' }} /></div></div></div>
+        <div className="page-heading kit-heading"><div><div className="eyebrow">{progress.finishedAt ? fill(t.finishedOn, { date: date(progress.finishedAt).toUpperCase() }) : fill(t.startedOn, { date: date(progress.startedAt).toUpperCase() })}</div><h1>{kit.title}</h1>{kit.description && <p className="kit-excerpt">{richTextToPlain(kit.description)}</p>}{kit.description && <button type="button" className="edit-link kit-read-more" onClick={() => setAbout(true)}>{t.readMore} <ArrowRight size={15} /></button>}</div><div className="kit-meter" aria-label={fill(t.progressLabel, { percent })}><strong>{percent}<small>%</small></strong><span>{fill(t.lessonsCount, { done, total })}</span><div className="progress"><span style={{ width: percent + '%' }} /></div></div></div>
         {error && <div role="alert" className="error">{error}<button onClick={() => setError('')}>{t.close}</button></div>}
         {lesson ? <div className="lesson-layout">
             <section className="lesson-main panel"><VideoPlayer lesson={lesson} /><div className="lesson-info"><div className="card-top"><span className="eyebrow">{fill(t.lessonOf, { n: index + 1, total })}</span>{lesson.stitch && <span className="chip">{lesson.stitch}</span>}</div><h2>{lesson.title}</h2>{lesson.notes && <p className="lesson-notes">{lesson.notes}</p>}
                 <div className="lesson-actions">{progress.completed.includes(lesson.id) ? <Button type="button" variant="outline" onClick={() => void toggle(lesson.id, false)}><CheckCircle2 size={17} />{t.undoDone}</Button> : <Button type="button" onClick={() => void markAndNext()}><Check size={17} />{t.markDone}</Button>}<span className="spacer" /><Button type="button" variant="outline" disabled={index <= 0} onClick={() => setCurrent(kit.lessons[index - 1]!.id)}><ArrowLeft size={16} />{t.previous}</Button><Button type="button" variant="outline" disabled={index >= total - 1} onClick={() => setCurrent(kit.lessons[index + 1]!.id)}>{t.next}<ArrowRight size={16} /></Button></div></div></section>
             <aside className="lesson-list panel"><div className="panel-title"><h2>{t.stitches}</h2><span className="muted">{done}/{total}</span></div><ol>{kit.lessons.map((l, i) => { const ok = progress.completed.includes(l.id); return <li key={l.id} className={(l.id === lesson.id ? 'current ' : '') + (ok ? 'done' : '')}><button type="button" className="lesson-check" aria-label={(ok ? t.markTodo : t.markDoneFor) + l.title} aria-pressed={ok} onClick={() => void toggle(l.id, !ok)}>{ok ? <CheckCircle2 size={20} /> : <Circle size={20} />}</button><button type="button" className="lesson-link" onClick={() => setCurrent(l.id)}><small>{String(i + 1).padStart(2, '0')}{l.stitch ? ' · ' + l.stitch : ''}</small><span>{l.title}</span></button>{l.id === lesson.id && <PlayCircle size={16} className="lesson-playing" />}</li>; })}</ol></aside>
         </div> : <section className="panel client-empty"><p>{t.lessonsSoon}</p></section>}
+        {about && <KitDialogShell kit={kit} onClose={() => setAbout(false)} />}
         <Notes kitId={kit._id} initial={progress.notes} />
         <QuestionsPanel kitId={kit._id} lessons={kit.lessons} currentLesson={lesson?.id ?? ''} />
     </>;
