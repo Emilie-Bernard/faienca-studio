@@ -272,6 +272,7 @@ small,
 }
 
 .workspace {
+    width: 100%;
     max-width: 1540px;
     margin: auto;
     padding: 35px 38px 28px
@@ -628,6 +629,7 @@ small,
 }
 
 .app-footer {
+    width: 100%;
     max-width: 1540px;
     margin: auto;
     padding: 20px 38px 30px;
@@ -2267,6 +2269,7 @@ summary {
 
 /* ——— Espace brodeuses ——— */
 .client-main {
+    width: 100%;
     max-width: 1240px;
     margin: auto;
     padding: 35px 38px 60px
