@@ -33,7 +33,7 @@ export default function TraineeSpace({ me }: { me: Me }) {
     const tabs = [['missions', 'Mes missions', ClipboardList], ['projects', 'Mes projets', Lightbulb], ['library', 'Bibliothèque', LibraryIcon]] as const;
     const navGroups: NavGroup[] = [{ items: tabs.map(([, label, icon]) => ({ label, icon })) }];
     const current = tabs.find(([id]) => id === tab)![1];
-    return <AppShell label="STAGE" groups={navGroups} current={current} onSelect={label => { setTab(tabs.find(([, l]) => l === label)![0]); window.scrollTo(0, 0); }} title={current}
+    return <AppShell navbar label="STAGE" groups={navGroups} current={current} onSelect={label => { setTab(tabs.find(([, l]) => l === label)![0]); window.scrollTo(0, 0); }} title={current}
         user={{ name: me.name || me.email, detail: 'Stagiaire' }} onSignOut={() => void signOut()} signOutLabel="Déconnexion">
         <main className="client-main">{tab === 'library' ? <>
             <div className="page-heading"><div><div className="eyebrow">BIBLIOTHÈQUE</div><h1>Bibliothèque</h1><p>Les documents partagés avec l’atelier. Tu peux aussi y ajouter les tiens.</p></div></div>

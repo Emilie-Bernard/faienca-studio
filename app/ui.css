@@ -81,3 +81,8 @@
     --color-sidebar: var(--sidebar);
 }
 
+
+/* Bordures shadcn sans couleur précisée : la couleur des lignes du brand board, pas le noir par défaut. */
+@layer base {
+    *, ::before, ::after { border-color: var(--border) }
+}

@@ -63,7 +63,7 @@ export default function ClientSpace({ me }: { me: Me }) {
     const select = (label: string) => go({ view: label === t.addKit ? 'catalogue' : 'kits' });
     const open = kits.find(k => k.kit._id === kitId && !k.kit.upcoming);
     const toDiscover = catalog.filter(k => !k.owned);
-    return <AppShell label={t.space} groups={navGroups} current={open ? '' : current} onSelect={select} title={open ? open.kit.title : current} aside={<LanguageSwitcher />}
+    return <AppShell navbar label={t.space} groups={navGroups} current={open ? '' : current} onSelect={select} title={open ? open.kit.title : current} aside={<LanguageSwitcher />}
         user={{ name: me.name || me.email }} onSignOut={() => void signOut()} signOutLabel={t.logout}>
         <main className="client-main">
             {open ? <KitView key={open.kit._id} item={open} onBack={() => go({ view: 'kits' })} onToast={setToast} />
