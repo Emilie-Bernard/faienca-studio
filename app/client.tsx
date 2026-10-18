@@ -5,12 +5,11 @@ import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { ConvexError } from 'convex/values';
 import { useAuthActions } from '@convex-dev/auth/react';
-import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Clock3, Flower2, KeyRound, LogOut, Mail, MessageCircleQuestion, Plus, PlayCircle, Send, Sparkles, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Clock3, Flower2, KeyRound, Mail, MessageCircleQuestion, Plus, PlayCircle, Send, Sparkles, Trash2 } from 'lucide-react';
 import { localizeKit, localizeLesson, progressPercent, videoSource, type KitLanguage, type KitText, type Lesson, type Role, type Translations } from '../lib/kits';
 import { takePendingKit, type PendingKit } from '../lib/pending-kit';
 import Loader from './loader';
-import Brand from './brand';
-import { MobileNav, type NavGroup } from '@/components/app-nav';
+import { AppShell, type NavGroup } from '@/components/app-nav';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { richTextToPlain, sanitizeRichText } from '../lib/rich-text';
@@ -34,11 +33,11 @@ export default function ClientSpace({ me }: { me: Me }) {
     const kits = (useQuery(anyApi.kits.mine) as MyKit[] | undefined)?.map(k => ({ ...k, kit: { ...localizeKit(k.kit, locale), lessons: k.kit.lessons.map(l => localizeLesson(l, locale)) } }));
     const catalog = (useQuery(anyApi.kits.catalog) as CatalogKit[] | undefined)?.map(k => ({ ...localizeKit(k, locale), stitches: k.stitchTranslations?.[locale as KitLanguage] ?? k.stitches }));
     const [view, setView] = useState<'kits' | 'catalogue'>('kits'), [kitId, setKitId] = useState<string | null>(null), [toast, setToast] = useState('');
-    useEffect(() => { const p = new URLSearchParams(location.search); setKitId(p.get('kit')); if (p.get('vue') === 'catalogue') setView('catalogue'); }, []);
+    // Lien d’un e-mail (/?kit=<id>) : le kit s’ouvre une fois, puis l’adresse redevient « / ».
+    useEffect(() => { const k = new URLSearchParams(location.search).get('kit'); if (k) { setKitId(k); history.replaceState(null, '', location.pathname); } }, []);
     useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(''), 4500); return () => clearTimeout(t); }, [toast]);
     const go = (next: { view?: 'kits' | 'catalogue', kit?: string | null }) => {
-        const v = next.view ?? 'kits', k = next.kit ?? null; setView(v); setKitId(k);
-        history.replaceState(null, '', k ? '?kit=' + encodeURIComponent(k) : v === 'catalogue' ? '?vue=catalogue' : location.pathname); window.scrollTo(0, 0);
+        setView(next.view ?? 'kits'); setKitId(next.kit ?? null); window.scrollTo(0, 0);
     };
     // Lien « Vidéos du kit » de la boutique : active le kit mis de côté, puis l'ouvre.
     const activate = useMutation(anyApi.kits.activate);
@@ -64,19 +63,15 @@ export default function ClientSpace({ me }: { me: Me }) {
     const select = (label: string) => go({ view: label === t.addKit ? 'catalogue' : 'kits' });
     const open = kits.find(k => k.kit._id === kitId && !k.kit.upcoming);
     const toDiscover = catalog.filter(k => !k.owned);
-    return <div className="client">
-        <header className="client-bar"><a className="brand" href="/"><Brand label={t.space} /></a>
-            <nav>{navGroups[0]!.items.map(({ label, icon: Icon }) => <Button key={label} type="button" variant="ghost" aria-current={current === label ? 'page' : undefined} className={cn('text-muted-foreground', current === label && 'bg-accent font-semibold text-accent-foreground')} onClick={() => select(label)}><Icon size={16} />{label}</Button>)}</nav>
-            <div className="client-user"><LanguageSwitcher /><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="client-name">{me.name || me.email}</span><Button variant="ghost" size="icon" aria-label={t.signOut} title={t.signOut} onClick={() => void signOut()}><LogOut /></Button></div>
-        </header>
-        <MobileNav label={t.space} title={open ? open.kit.title : current} groups={navGroups} current={open ? '' : current} onSelect={select} footer={<div className="flex flex-col gap-1"><div className="flex items-center gap-3 px-2 py-2"><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="truncate text-sm">{me.name || me.email}</span></div><LanguageSwitcher className="mx-2 mb-1" /><Button variant="ghost" className="justify-start text-destructive hover:text-destructive" onClick={() => void signOut()}><LogOut />{t.logout}</Button></div>} />
+    return <AppShell label={t.space} groups={navGroups} current={open ? '' : current} onSelect={select} title={open ? open.kit.title : current} aside={<LanguageSwitcher />}
+        user={{ name: me.name || me.email }} onSignOut={() => void signOut()} signOutLabel={t.logout}>
         <main className="client-main">
             {open ? <KitView key={open.kit._id} item={open} onBack={() => go({ view: 'kits' })} onToast={setToast} />
                 : view === 'catalogue' ? <Catalogue kits={toDiscover} prefill={prefill} onActivated={added} />
                     : <Dashboard firstName={firstName} kits={kits} hasCatalogue={toDiscover.length > 0} onOpen={id => go({ kit: id })} onAdd={() => go({ view: 'catalogue' })} />}
         </main>
         {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
-    </div>;
+    </AppShell>;
 }
 
 function Dashboard({ firstName, kits, hasCatalogue, onOpen, onAdd }: { firstName: string, kits: MyKit[], hasCatalogue: boolean, onOpen: (id: string) => void, onAdd: () => void }) {

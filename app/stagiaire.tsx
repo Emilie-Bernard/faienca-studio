@@ -3,11 +3,10 @@ import { useEffect, useState } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { useAuthActions } from '@convex-dev/auth/react';
-import { CalendarDays, Check, ChevronDown, ClipboardList, Flower2, Library as LibraryIcon, Lightbulb, LogOut, MessageSquareText, Paperclip } from 'lucide-react';
+import { CalendarDays, Check, ChevronDown, ClipboardList, Flower2, Library as LibraryIcon, Lightbulb, MessageSquareText, Paperclip } from 'lucide-react';
 import { groupByPhase, missionStatusLabels, percentDone, traineeStatuses, type MissionStatus } from '../lib/stage';
 import Loader from './loader';
-import Brand from './brand';
-import { Button } from '@/components/ui/button';
+import { AppShell, type NavGroup } from '@/components/app-nav';
 import { cn } from '@/lib/utils';
 import { errorText, type Me } from './client';
 import { FileAdder, FileLinks, type FileView } from './stage-files';
@@ -31,11 +30,11 @@ export default function TraineeSpace({ me }: { me: Me }) {
     const statuses = missions.map(m => m.progress.status);
     const count = (s: MissionStatus) => statuses.filter(x => x === s).length;
     const next = missions.find(m => m.progress.status === 'doing') ?? missions.find(m => m.progress.status === 'todo');
-    return <div className="client">
-        <header className="client-bar"><a className="brand" href="/"><Brand label="STAGE" /></a>
-            <nav>{([['missions', 'Mes missions', ClipboardList], ['projects', 'Mes projets', Lightbulb], ['library', 'Bibliothèque', LibraryIcon]] as const).map(([id, label, Icon]) => <Button key={id} type="button" variant="ghost" aria-current={tab === id ? 'page' : undefined} className={cn('text-muted-foreground', tab === id && 'bg-accent font-semibold text-accent-foreground')} onClick={() => setTab(id)}><Icon size={16} />{label}</Button>)}</nav>
-            <div className="client-user"><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="client-name">{me.name || me.email}</span><Button variant="ghost" size="icon" aria-label="Se déconnecter" title="Se déconnecter" onClick={() => void signOut()}><LogOut /></Button></div>
-        </header>
+    const tabs = [['missions', 'Mes missions', ClipboardList], ['projects', 'Mes projets', Lightbulb], ['library', 'Bibliothèque', LibraryIcon]] as const;
+    const navGroups: NavGroup[] = [{ items: tabs.map(([, label, icon]) => ({ label, icon })) }];
+    const current = tabs.find(([id]) => id === tab)![1];
+    return <AppShell label="STAGE" groups={navGroups} current={current} onSelect={label => { setTab(tabs.find(([, l]) => l === label)![0]); window.scrollTo(0, 0); }} title={current}
+        user={{ name: me.name || me.email, detail: 'Stagiaire' }} onSignOut={() => void signOut()} signOutLabel="Déconnexion">
         <main className="client-main">{tab === 'library' ? <>
             <div className="page-heading"><div><div className="eyebrow">BIBLIOTHÈQUE</div><h1>Bibliothèque</h1><p>Les documents partagés avec l’atelier. Tu peux aussi y ajouter les tiens.</p></div></div>
             <Library onToast={setToast} /></> : tab === 'projects' ? <>
@@ -50,7 +49,7 @@ export default function TraineeSpace({ me }: { me: Me }) {
                 : <section className="panel client-empty"><Flower2 size={28} /><p>Aucune mission pour le moment. Elles apparaîtront ici dès qu’elles seront prêtes.</p></section>}
         </>}</main>
         {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
-    </div>;
+    </AppShell>;
 }
 
 function Stat({ label, value }: { label: string, value: number }) { return <div className="stat"><span>{label}</span><strong>{value.toString().padStart(2, '0')}</strong></div>; }

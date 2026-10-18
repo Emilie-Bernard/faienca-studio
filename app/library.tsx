@@ -2,13 +2,14 @@
 import { useRef, useState, type DragEvent } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
-import { Check, CircleAlert, CloudUpload, File, FileArchive, FileSpreadsheet, FileText, Film, ImageIcon, Library as LibraryIcon, Link2, LoaderCircle, Presentation, Search, Trash2, X } from 'lucide-react';
+import { Check, CircleAlert, CloudUpload, Library as LibraryIcon, Link2, LoaderCircle, Search, Trash2, X } from 'lucide-react';
+import { FileThumb, kindOf, kinds, useGallery } from './file-preview';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ask } from '@/components/confirm-dialog';
 import { cn } from '@/lib/utils';
 import { categoryOf, groupByCategory } from '../lib/library';
-import { newFile, type MissionFile } from '../lib/stage';
+import { newFile } from '../lib/stage';
 import { errorText } from './client';
 import type { FileView } from './stage-files';
 
@@ -17,26 +18,6 @@ type Upload = { id: string; name: string; progress: number; state: 'waiting' | '
 const dayFr = (t: number) => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
 const MAX_BYTES = 50 * 1024 * 1024, MAX_FILES = 20, PARALLEL = 3;
 
-const kinds = {
-    pdf: { label: 'PDF', Icon: FileText, ext: ['pdf'] },
-    image: { label: 'Image', Icon: ImageIcon, ext: ['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg', 'heic', 'avif'] },
-    video: { label: 'Vidéo', Icon: Film, ext: ['mp4', 'mov', 'webm', 'm4v'] },
-    sheet: { label: 'Tableur', Icon: FileSpreadsheet, ext: ['xls', 'xlsx', 'csv', 'ods', 'numbers'] },
-    slides: { label: 'Présentation', Icon: Presentation, ext: ['ppt', 'pptx', 'key', 'odp'] },
-    doc: { label: 'Document', Icon: FileText, ext: ['doc', 'docx', 'odt', 'txt', 'rtf', 'pages', 'md'] },
-    archive: { label: 'Archive', Icon: FileArchive, ext: ['zip', 'rar', '7z'] },
-    link: { label: 'Lien', Icon: Link2, ext: [] },
-    file: { label: 'Fichier', Icon: File, ext: [] },
-} as const;
-type Kind = keyof typeof kinds;
-
-/** Devine le type d'un document à partir de l'extension de son nom de fichier ou de son lien. */
-function kindOf(f: MissionFile): Kind {
-    if (!f.storageId && /youtu\.?be|vimeo\.com/i.test(f.url)) return 'video';
-    const ext = (f.storageId ? f.label : f.url.split(/[?#]/)[0]!).match(/\.([a-z0-9]{2,7})$/i)?.[1]?.toLowerCase();
-    const found = (Object.keys(kinds) as Kind[]).find(k => ext && (kinds[k].ext as readonly string[]).includes(ext));
-    return found ?? (f.storageId ? 'file' : 'link');
-}
 const withoutExtension = (name: string) => name.replace(/\.[a-z0-9]{2,7}$/i, '') || name;
 
 /** Téléverse un fichier vers Convex en suivant la progression. */
@@ -57,10 +38,11 @@ export function Library({ onToast }: { onToast: (s: string) => void }) {
     const items = useQuery(anyApi.library.list) as Item[] | undefined;
     const remove = useMutation(anyApi.library.remove);
     const [search, setSearch] = useState(''), [filter, setFilter] = useState(''), [error, setError] = useState('');
+    const q = search.trim().toLowerCase();
+    const shown = (items ?? []).filter(d => (!filter || categoryOf(d) === filter) && (!q || `${d.title} ${d.category} ${d.description} ${d.authorName}`.toLowerCase().includes(q)));
+    const { open, lightbox } = useGallery(shown, d => d.file, d => d.title);
     if (!items) return <p className="muted">Chargement de la bibliothèque…</p>;
     const categories = groupByCategory(items).map(g => ({ name: g.category, count: g.items.length }));
-    const q = search.trim().toLowerCase();
-    const shown = items.filter(d => (!filter || categoryOf(d) === filter) && (!q || `${d.title} ${d.category} ${d.description} ${d.authorName}`.toLowerCase().includes(q)));
     const erase = async (d: Item) => {
         if (!await ask({ title: `Retirer « ${d.title} » ?`, description: 'Le document sera retiré de la bibliothèque pour tout le monde.', confirmLabel: 'Retirer', destructive: true })) return;
         setError('');
@@ -79,25 +61,24 @@ export function Library({ onToast }: { onToast: (s: string) => void }) {
             : !shown.length ? <p className="muted">Aucun document ne correspond à cette recherche.</p>
             : groupByCategory(shown).map(g => <section key={g.category} className="library-group">
                 <h2>{g.category} <span>{g.items.length}</span></h2>
-                <ul className="library-grid">{g.items.map(d => <LibraryCard key={d._id} d={d} onRemove={d.canRemove ? () => void erase(d) : undefined} />)}</ul>
+                <ul className="library-grid">{g.items.map(d => <LibraryCard key={d._id} d={d} onOpen={() => open(d)} onRemove={d.canRemove ? () => void erase(d) : undefined} />)}</ul>
             </section>)}
+        {lightbox}
     </div>;
 }
 
-function LibraryCard({ d, onRemove }: { d: Item, onRemove?: () => void }) {
-    const kind = kindOf(d.file), { Icon, label } = kinds[kind], href = d.file.fileUrl ?? d.file.url;
-    const [broken, setBroken] = useState(false);
-    const thumb = kind === 'image' && d.file.fileUrl && !broken;
+function LibraryCard({ d, onOpen, onRemove }: { d: Item, onOpen: () => boolean, onRemove?: () => void }) {
+    const kind = kindOf(d.file), { label } = kinds[kind], href = d.file.fileUrl ?? d.file.url;
+    // Une image s'agrandit dans la galerie ; les autres documents s'ouvrent dans un nouvel onglet.
+    const click = (e: React.MouseEvent) => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; if (onOpen()) e.preventDefault(); };
     return <li className="library-card">
-        <a className={cn('library-thumb', 'kind-' + kind)} href={href || undefined} target="_blank" rel="noopener noreferrer" tabIndex={-1} aria-hidden>
-            {thumb ? <img src={d.file.fileUrl!} alt="" loading="lazy" onError={() => setBroken(true)} /> : <Icon size={22} />}
-        </a>
+        <a className="library-thumb" href={href || undefined} target="_blank" rel="noopener noreferrer" tabIndex={-1} aria-hidden onClick={click}><FileThumb file={d.file} /></a>
         <div className="library-card-body">
-            {href ? <a className="library-card-title" href={href} target="_blank" rel="noopener noreferrer">{d.title}</a> : <span className="library-card-title muted">{d.title}</span>}
+            {href ? <a className="library-card-title" href={href} target="_blank" rel="noopener noreferrer" onClick={click}>{d.title}</a> : <span className="library-card-title muted">{d.title}</span>}
             {d.description && <p>{d.description}</p>}
             <small>{label} · {d.authorName} · {dayFr(d.createdAt)}</small>
         </div>
-        {onRemove && <Button type="button" variant="ghost" size="icon" className="library-remove" aria-label={'Retirer ' + d.title} onClick={onRemove}><Trash2 size={15} /></Button>}
+        {onRemove && <Button type="button" variant="secondary" size="icon" className="library-remove" aria-label={'Retirer ' + d.title} onClick={onRemove}><Trash2 size={15} /></Button>}
     </li>;
 }
 

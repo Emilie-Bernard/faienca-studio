@@ -34,7 +34,7 @@ const fr = {
     loader: { default: 'Votre atelier prend place…', studio: 'Ouverture de votre atelier…', space: 'Ouverture de votre espace…', notebook: 'Préparation de votre carnet…' },
     error: { title: 'L’atelier n’a pas pu s’ouvrir.', body: 'Vérifiez votre connexion et réessayez. Les données déjà enregistrées sont conservées.', retry: 'Réessayer' },
     confirm: { title: 'Confirmer', deleteTitle: 'Confirmer la suppression', cancel: 'Annuler', confirm: 'Confirmer', delete: 'Supprimer' },
-    nav: { open: 'Ouvrir le menu', description: 'Menu de navigation' },
+    nav: { open: 'Ouvrir le menu', toggle: 'Afficher ou masquer le menu', description: 'Menu de navigation' },
     auth: {
         eyebrow: 'VOTRE ATELIER AU QUOTIDIEN',
         title: 'Brodez à votre rythme.|On vous accompagne.',
@@ -209,7 +209,7 @@ const en: Messages = {
     loader: { default: 'Your studio is getting ready…', studio: 'Opening your studio…', space: 'Opening your space…', notebook: 'Preparing your notebook…' },
     error: { title: 'The studio could not open.', body: 'Check your connection and try again. Everything already saved is kept.', retry: 'Try again' },
     confirm: { title: 'Confirm', deleteTitle: 'Confirm deletion', cancel: 'Cancel', confirm: 'Confirm', delete: 'Delete' },
-    nav: { open: 'Open menu', description: 'Navigation menu' },
+    nav: { open: 'Open menu', toggle: 'Show or hide the menu', description: 'Navigation menu' },
     auth: {
         eyebrow: 'YOUR EVERYDAY STUDIO',
         title: 'Stitch at your own pace.|We’re here to help.',
@@ -382,7 +382,7 @@ const es: Messages = {
     loader: { default: 'Tu taller se está preparando…', studio: 'Abriendo tu taller…', space: 'Abriendo tu espacio…', notebook: 'Preparando tu cuaderno…' },
     error: { title: 'No se ha podido abrir el taller.', body: 'Comprueba tu conexión y vuelve a intentarlo. Los datos ya guardados se conservan.', retry: 'Reintentar' },
     confirm: { title: 'Confirmar', deleteTitle: 'Confirmar la eliminación', cancel: 'Cancelar', confirm: 'Confirmar', delete: 'Eliminar' },
-    nav: { open: 'Abrir el menú', description: 'Menú de navegación' },
+    nav: { open: 'Abrir el menú', toggle: 'Mostrar u ocultar el menú', description: 'Menú de navegación' },
     auth: {
         eyebrow: 'TU TALLER DEL DÍA A DÍA',
         title: 'Borda a tu ritmo.|Te acompañamos.',

@@ -30,36 +30,35 @@ const toReview = (m: AdminMission) => m.progress.filter(p => p.status === 'submi
 const validated = (m: AdminMission) => m.progress.length > 0 && m.progress.every(p => p.status === 'validated');
 
 /** Liste des missions, ou fiche d'une mission quand l'adresse contient ?mission=<id|new>. */
-export function StageAdmin({ missionId, onOpenMission, leaveGuard, onToast }: { missionId: string | null, onOpenMission: (id: string | null, replace?: boolean) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
+export function StageAdmin({ missionId, onOpenMission, onGo, leaveGuard, onToast }: { missionId: string | null, onOpenMission: (id: string | null) => void, onGo: (view: string) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
     const data = useQuery(anyApi.stage.adminList) as Data | undefined;
     if (!data) return <p className="muted">Chargement du stage…</p>;
     if (missionId) {
         const mission = missionId === 'new' ? null : data.missions.find(m => m._id === missionId);
         if (mission === undefined) return <section className="panel"><div className="empty"><Flower2 size={28} /><p>Cette mission n’existe plus ou a été supprimée.</p></div><div className="flex justify-center"><Button variant="outline" onClick={() => onOpenMission(null)}><ArrowLeft />Retour aux missions</Button></div></section>;
         const phases = [...new Set(data.missions.map(m => m.phase.trim()).filter(Boolean))];
-        return <MissionPage key={missionId} mission={mission} trainees={data.trainees} phases={phases} leaveGuard={leaveGuard} onBack={() => onOpenMission(null)} onCreated={id => onOpenMission(id, true)} onToast={onToast} />;
+        return <MissionPage key={missionId} mission={mission} trainees={data.trainees} phases={phases} leaveGuard={leaveGuard} onGo={onGo} onBack={() => onOpenMission(null)} onCreated={id => onOpenMission(id)} onToast={onToast} />;
     }
-    return <StageSections data={data} onOpenMission={onOpenMission} onToast={onToast} />;
+    return <StageSections data={data} onOpenMission={onOpenMission} onGo={onGo} onToast={onToast} />;
 }
 
-/** Missions préparées par l'atelier, ou projets proposés par la stagiaire (?onglet=projets). */
-function StageSections({ data, onOpenMission, onToast }: { data: Data, onOpenMission: (id: string) => void, onToast: (s: string) => void }) {
-    const [section, setSection] = useState<'missions' | 'projets'>(() => new URLSearchParams(location.search).get('onglet') === 'projets' ? 'projets' : 'missions');
+/** Missions préparées par l'atelier, ou projets proposés par la stagiaire. */
+function StageSections({ data, onOpenMission, onGo, onToast }: { data: Data, onOpenMission: (id: string) => void, onGo: (view: string) => void, onToast: (s: string) => void }) {
+    const [section, setSection] = useState<'missions' | 'projets'>('missions');
     const pending = useQuery(anyApi.projects.adminPending) as number | undefined;
-    const choose = (s: typeof section) => { setSection(s); history.replaceState(null, '', '?vue=Stage' + (s === 'projets' ? '&onglet=projets' : '')); };
+    const choose = (s: typeof section) => setSection(s);
     return <>
         <div className="stage-tabs" role="tablist" aria-label="Stage">{([['missions', 'Missions'], ['projets', 'Projets de la stagiaire']] as const).map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={section === id} className={section === id ? 'selected' : ''} onClick={() => choose(id)}>{label}{id === 'projets' && !!pending && <span className="badge purple">{pending}</span>}</button>)}</div>
-        {section === 'projets' ? <ProjectsAdmin onToast={onToast} /> : <MissionList data={data} onOpenMission={onOpenMission} />}
+        {section === 'projets' ? <ProjectsAdmin onToast={onToast} /> : <MissionList data={data} onOpenMission={onOpenMission} onGo={onGo} />}
     </>;
 }
 
-function MissionList({ data: { missions, trainees }, onOpenMission }: { data: Data, onOpenMission: (id: string) => void }) {
+function MissionList({ data: { missions, trainees }, onOpenMission, onGo }: { data: Data, onOpenMission: (id: string) => void, onGo: (view: string) => void }) {
     const move = useMutation(anyApi.stage.moveMission);
     const [filter, setFilter] = useState<'all' | 'review' | 'draft'>('all'), [error, setError] = useState('');
     const reviewCount = missions.reduce((n, m) => n + toReview(m), 0);
     const count = { all: missions.length, review: missions.filter(m => toReview(m) > 0).length, draft: missions.filter(m => !m.published).length };
     const shown = missions.filter(m => filter === 'all' || (filter === 'review' ? toReview(m) > 0 : !m.published));
-    const open = (e: React.MouseEvent, id: string) => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); onOpenMission(id); };
     const moveTo = (id: string, direction: 'up' | 'down') => void move({ id, direction }).catch(err => setError(errorText(err, 'Déplacement impossible.')));
     return <>
         <section className="product-kpis">
@@ -68,7 +67,7 @@ function MissionList({ data: { missions, trainees }, onOpenMission }: { data: Da
             <div className="product-kpi"><span>Validées</span><strong>{missions.filter(validated).length}</strong><small>missions terminées</small><div className="progress"><span style={{ width: missions.length ? missions.filter(validated).length / missions.length * 100 + '%' : '0%' }} /></div></div>
             <div className="product-kpi"><span>Stagiaires</span><strong>{trainees.length}</strong><small className="truncate">{trainees.map(nameOf).join(', ') || 'aucune pour l’instant'}</small></div>
         </section>
-        {!trainees.length && <div className="stage-callout"><UserPlus size={18} /><p>Pour donner accès à ta stagiaire : elle crée son compte sur la page d’accueil, puis tu passes son rôle à « Stagiaire » dans <a className="edit-link" href="?vue=Clientes">Clientes</a>.</p></div>}
+        {!trainees.length && <div className="stage-callout"><UserPlus size={18} /><p>Pour donner accès à ta stagiaire : elle crée son compte sur la page d’accueil, puis tu passes son rôle à « Stagiaire » dans <button type="button" className="edit-link inline-link" onClick={() => onGo('Clientes')}>Clientes</button>.</p></div>}
         <div className="filters product-filters">
             <div className="segmented" role="group" aria-label="Filtrer les missions">{([['all', 'Toutes'], ['review', 'À relire'], ['draft', 'Brouillons']] as const).map(([v, label]) => <button key={v} type="button" aria-pressed={filter === v} className={filter === v ? 'selected' : ''} onClick={() => setFilter(v)}>{label} <span className="muted">{count[v]}</span></button>)}</div>
             <span className="spacer" /><Button type="button" onClick={() => onOpenMission('new')}><Plus size={16} />Nouvelle mission</Button>
@@ -81,10 +80,10 @@ function MissionList({ data: { missions, trainees }, onOpenMission }: { data: Da
                 const files = m.progress.reduce((n, p) => n + p.deliverables.length, 0);
                 return <li key={m._id} className={cn('stage-row', review > 0 && 'review')}>
                     <span className="lesson-num">{index + 1}</span>
-                    <a className="stage-row-main" href={'?vue=Stage&mission=' + m._id} onClick={e => open(e, m._id)}>
+                    <button type="button" className="stage-row-main" onClick={() => onOpenMission(m._id)}>
                         <strong>{m.title}</strong>
                         <span className="stage-row-meta">{m.dueDate && <span><CalendarDays size={13} />{dueLabel(m.dueDate)}</span>}{m.resources.length > 0 && <span><Paperclip size={13} />{m.resources.length} ressource{m.resources.length > 1 ? 's' : ''}</span>}{files > 0 && <span>{files} rendu{files > 1 ? 's' : ''}</span>}</span>
-                    </a>
+                    </button>
                     <span className="stage-row-badges">{!m.published && <span className="badge orange">Brouillon</span>}{review > 0 ? <span className="badge purple">À relire</span> : single && single !== 'todo' && <span className={'badge ' + statusBadge[single]}>{missionStatusLabels[single]}</span>}</span>
                     <span className="stage-row-tools">
                         <Button type="button" variant="ghost" size="icon-sm" aria-label={'Monter « ' + m.title + ' »'} disabled={index === 0} onClick={() => moveTo(m._id, 'up')}><ArrowUp /></Button>
@@ -97,7 +96,7 @@ function MissionList({ data: { missions, trainees }, onOpenMission }: { data: Da
     </>;
 }
 
-function MissionPage({ mission, trainees, phases, leaveGuard, onBack, onCreated, onToast }: { mission: AdminMission | null, trainees: Trainee[], phases: string[], leaveGuard: LeaveGuard, onBack: () => void, onCreated: (id: string) => void, onToast: (s: string) => void }) {
+function MissionPage({ mission, trainees, phases, leaveGuard, onGo, onBack, onCreated, onToast }: { mission: AdminMission | null, trainees: Trainee[], phases: string[], leaveGuard: LeaveGuard, onGo: (view: string) => void, onBack: () => void, onCreated: (id: string) => void, onToast: (s: string) => void }) {
     const save = useMutation(anyApi.stage.saveMission), remove = useMutation(anyApi.stage.removeMission), uploadUrl = useMutation(anyApi.stage.adminUploadUrl);
     const [data, setData] = useState<MissionInput>(() => mission ? inputOf(mission) : emptyMission());
     const [revision, setRevision] = useState(mission?.revision), [busy, setBusy] = useState(false), [error, setError] = useState(''), [dirty, setDirty] = useState(false);
@@ -155,7 +154,7 @@ function MissionPage({ mission, trainees, phases, leaveGuard, onBack, onCreated,
                 </section>
                 {mission && <section className="panel"><div className="panel-title"><h2>Suivi</h2>{review > 0 && <span className="badge purple">{review} à relire</span>}</div>
                     {trainees.length ? <div className="grid gap-4">{trainees.map(t => <TraineeReview key={t._id} trainee={t} mission={mission} progress={mission.progress.find(p => p.userId === t._id)} onToast={onToast} />)}</div>
-                        : <p className="muted">Aucune stagiaire pour l’instant. Passe un compte au rôle « Stagiaire » dans <a className="edit-link" href="?vue=Clientes">Clientes</a>.</p>}
+                        : <p className="muted">Aucune stagiaire pour l’instant. Passe un compte au rôle « Stagiaire » dans <button type="button" className="edit-link inline-link" onClick={() => onGo('Clientes')}>Clientes</button>.</p>}
                 </section>}
             </div>
             <aside className="kit-page-side">

@@ -2,22 +2,28 @@
 import { useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Link2, Paperclip, Trash2, Upload } from 'lucide-react';
+import { Link2, Trash2, Upload } from 'lucide-react';
+import { FileThumb, kinds, previewOf, useGallery } from './file-preview';
 import { newFile, type MissionFile } from '../lib/stage';
 
 export type FileView = MissionFile & { fileUrl: string | null };
 const MAX_BYTES = 50 * 1024 * 1024;
 
-/** Fichiers téléversés ou liens : ouverts dans un nouvel onglet. */
+/** Fichiers téléversés ou liens, en galerie : aperçu des images et de la première page des PDF. */
 export function FileLinks({ files, onRemove }: { files: FileView[], onRemove?: (f: FileView) => void }) {
+    const { open, lightbox } = useGallery(files, f => f, f => f.label || 'Image');
     if (!files.length) return null;
-    return <ul className="stage-files">{files.map(f => {
-        const href = f.fileUrl ?? f.url;
-        return <li key={f.id}>
-            {href ? <a href={href} target="_blank" rel="noopener noreferrer">{f.storageId ? <Paperclip size={15} /> : <Link2 size={15} />}<span>{f.label || (f.storageId ? 'Fichier' : f.url)}</span></a> : <span className="muted">{f.label || 'Fichier indisponible'}</span>}
-            {onRemove && <Button type="button" variant="ghost" size="icon" aria-label={'Retirer ' + (f.label || 'ce fichier')} onClick={() => onRemove(f)}><Trash2 size={15} /></Button>}
+    return <><ul className="file-gallery">{files.map(f => {
+        const href = f.fileUrl ?? f.url, { kind } = previewOf(f), name = f.label || (f.storageId ? 'Fichier' : f.url);
+        return <li key={f.id} className="file-card">
+            {href ? <a href={href} target="_blank" rel="noopener noreferrer" onClick={e => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; if (open(f)) e.preventDefault(); }}>
+                <FileThumb file={f} />
+                <span className="file-card-name">{f.storageId ? null : <Link2 size={13} />}<span>{name}</span></span>
+                <small>{kinds[kind].label}</small>
+            </a> : <div className="file-card-missing"><FileThumb file={f} /><span className="file-card-name muted"><span>{f.label || 'Fichier indisponible'}</span></span></div>}
+            {onRemove && <Button type="button" variant="secondary" size="icon" className="file-card-remove" aria-label={'Retirer ' + (f.label || 'ce fichier')} onClick={() => onRemove(f)}><Trash2 size={15} /></Button>}
         </li>;
-    })}</ul>;
+    })}</ul>{lightbox}</>;
 }
 
 /** Ajoute un fichier (téléversé dans Convex) ou un lien https à une liste. */

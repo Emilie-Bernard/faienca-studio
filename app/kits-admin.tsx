@@ -35,13 +35,13 @@ function Empty({ text }: { text: string }) { return <div className="empty"><Flow
 export type LeaveGuard = MutableRefObject<() => Promise<boolean>>;
 
 /** Liste des kits, ou page d'édition d'un kit quand l'URL contient ?kit=<id|new>. */
-export function KitsAdmin({ kitId, onOpenKit, leaveGuard, onToast }: { kitId: string | null, onOpenKit: (id: string | null, replace?: boolean) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
+export function KitsAdmin({ kitId, onOpenKit, onGo, leaveGuard, onToast }: { kitId: string | null, onOpenKit: (id: string | null) => void, onGo: (view: string, id?: string) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
     const kits = useQuery(anyApi.kits.adminList) as AdminKit[] | undefined;
     if (!kits) return <p className="muted">Chargement des kits…</p>;
     if (kitId) {
         const kit = kitId === 'new' ? null : kits.find(k => k._id === kitId);
         if (kit === undefined) return <section className="panel"><Empty text="Ce kit n’existe plus ou a été supprimé." /><div className="flex justify-center"><Button variant="outline" onClick={() => onOpenKit(null)}><ArrowLeft />Retour aux kits</Button></div></section>;
-        return <KitPage key={kitId} kit={kit} leaveGuard={leaveGuard} onBack={() => onOpenKit(null)} onCreated={id => onOpenKit(id, true)} onToast={onToast} />;
+        return <KitPage key={kitId} kit={kit} leaveGuard={leaveGuard} onGo={onGo} onBack={() => onOpenKit(null)} onCreated={id => onOpenKit(id)} onToast={onToast} />;
     }
     return <KitList kits={kits} onOpenKit={onOpenKit} />;
 }
@@ -58,7 +58,7 @@ function KitList({ kits, onOpenKit }: { kits: AdminKit[], onOpenKit: (id: string
             <span className="spacer" /><Button type="button" onClick={() => onOpenKit('new')}><Plus size={16} />Nouveau kit</Button>
         </div>
         <p className="muted kit-list-help">Une leçon vidéo par point. Seuls les kits publiés sont visibles des clientes ; un kit « À venir » s’affiche sans ses leçons et peut déjà être activé avec son code. Le code d’activation se glisse dans la boîte.</p>
-        {shown.length ? <div className="product-list">{shown.map(k => { const missing = noVideo(k); return <a key={k._id} href={'?vue=Kits&kit=' + k._id} className="product-card" onClick={e => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); onOpenKit(k._id); }}>
+        {shown.length ? <div className="product-list">{shown.map(k => { const missing = noVideo(k); return <button type="button" key={k._id} className="product-card" onClick={() => onOpenKit(k._id)}>
             {/^https:\/\//.test(k.coverUrl) ? <img className="product-cover" src={k.coverUrl} alt="" loading="lazy" /> : <div className="product-cover placeholder"><Flower2 size={26} /></div>}
             <div className="product-card-body">
                 <div className="card-top"><span className="eyebrow">{k.accessCode ? 'CODE ' + k.accessCode.toUpperCase() : 'ACCÈS LIBRE'}</span><StatusBadge status={kitStatus(k)} /></div>
@@ -66,12 +66,12 @@ function KitList({ kits, onOpenKit }: { kits: AdminKit[], onOpenKit: (id: string
                 <p className="product-card-meta"><span>{k.lessons.length} leçon{k.lessons.length > 1 ? 's' : ''}</span>{missing > 0 && <span className="kit-warn">{missing} sans vidéo</span>}{incompleteLanguages(k).length > 0 && <span className="kit-warn">{incompleteLanguages(k).map(l => l.toUpperCase()).join(' · ')} à traduire</span>}</p>
                 <p className="kit-card-stats"><span><strong>{k.stats.clientes}</strong> cliente{k.stats.clientes > 1 ? 's' : ''}</span><span><strong>{k.stats.finished}</strong> terminé{k.stats.finished > 1 ? 's' : ''}</span>{k.stats.waiting > 0 && <span><strong>{k.stats.waiting}</strong> en attente</span>}{k.stats.openQuestions > 0 && <span className="pending-count">{k.stats.openQuestions} question{k.stats.openQuestions > 1 ? 's' : ''}</span>}</p>
             </div>
-        </a>; })}</div>
+        </button>; })}</div>
             : <section className="panel"><Empty text={kits.length ? 'Aucun kit dans cette catégorie.' : 'Créez votre premier kit pour ouvrir l’espace des brodeuses.'} /></section>}
     </>;
 }
 
-function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKit | null, leaveGuard: LeaveGuard, onBack: () => void, onCreated: (id: string) => void, onToast: (s: string) => void }) {
+function KitPage({ kit, leaveGuard, onGo, onBack, onCreated, onToast }: { kit: AdminKit | null, leaveGuard: LeaveGuard, onGo: (view: string, id?: string) => void, onBack: () => void, onCreated: (id: string) => void, onToast: (s: string) => void }) {
     const save = useMutation(anyApi.kits.saveKit), remove = useMutation(anyApi.kits.removeKit), uploadUrl = useMutation(anyApi.kits.generateUploadUrl);
     const [data, setData] = useState<KitInput>(() => kit ? inputOf(kit) : emptyKit());
     // Révision de départ : un enregistrement fait ailleurs entre-temps sera signalé au lieu d'être écrasé.
@@ -183,8 +183,8 @@ function KitPage({ kit, leaveGuard, onBack, onCreated, onToast }: { kit: AdminKi
                     <div className="mt-4 grid gap-1.5"><Label htmlFor="kit-cover" className={fieldLabel}>Lien de l’image (https)</Label><Input id="kit-cover" type="url" value={data.coverUrl} placeholder="https://…" className="h-11 bg-card" onChange={e => set({ coverUrl: e.target.value })} /></div>
                 </section>
                 {kit && <section className="panel"><div className="panel-title"><h2>Produit boutique</h2></div>
-                    {linked.length ? <ul className="kit-linked">{linked.map(p => <li key={p._id}><a className="edit-link" href={'?vue=Produits&produit=' + p._id}><Package size={15} />{p.title}</a></li>)}</ul>
-                        : <p className="muted">Aucun produit relié. Dans <a className="edit-link" href="?vue=Produits">Produits</a>, choisissez ce kit dans « Leçons vidéo » pour relier sa fiche.</p>}
+                    {linked.length ? <ul className="kit-linked">{linked.map(p => <li key={p._id}><button type="button" className="edit-link" onClick={() => void onGo('Produits', p._id)}><Package size={15} />{p.title}</button></li>)}</ul>
+                        : <p className="muted">Aucun produit relié. Dans <button type="button" className="edit-link inline-link" onClick={() => void onGo('Produits')}>Produits</button>, choisissez ce kit dans « Leçons vidéo » pour relier sa fiche.</p>}
                     <small className="mt-3 block">Modifié le {dateFr(kit.updatedAt)}</small>
                 </section>}
                 {kit && <section className="panel kit-page-danger"><div className="panel-title"><h2>Supprimer le kit</h2></div>

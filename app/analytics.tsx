@@ -2,11 +2,10 @@
 import { Analytics as VercelAnalytics, type BeforeSendEvent } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-/** Seule la vue (?vue=…) est gardée : les codes d'activation et identifiants de kits ne quittent pas le site. */
+/** Paramètres retirés : les codes d'activation et identifiants de kits ne quittent pas le site. */
 function stripQuery(event: BeforeSendEvent) {
     const url = new URL(event.url);
-    const view = url.searchParams.get('vue');
-    url.search = view ? '?vue=' + encodeURIComponent(view) : '';
+    url.search = '';
     return { ...event, url: url.toString() };
 }
 

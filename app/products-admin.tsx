@@ -33,7 +33,7 @@ const TABS = ['fiche', 'contenu', 'materiaux', 'pdf', 'todo'] as const;
 type Tab = typeof TABS[number];
 
 /** Liste des produits, ou fiche d'un produit quand l'adresse contient ?produit=<id|new>. */
-export function ProductsAdmin({ productId, onOpenProduct, leaveGuard, onToast }: { productId: string | null, onOpenProduct: (id: string | null, replace?: boolean) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
+export function ProductsAdmin({ productId, onOpenProduct, leaveGuard, onToast }: { productId: string | null, onOpenProduct: (id: string | null) => void, leaveGuard: LeaveGuard, onToast: (s: string) => void }) {
   const rows = useQuery(anyApi.products.list) as Row[] | undefined;
   const [copy, setCopy] = useState<{ key: number, data: ProductInput | null }>({ key: 0, data: null });
   const [filter, setFilter] = useState<'all' | ProductType>('all');
@@ -43,7 +43,7 @@ export function ProductsAdmin({ productId, onOpenProduct, leaveGuard, onToast }:
     if (product === undefined) return <section className="panel"><div className="empty"><Flower2 size={28} /><p>Ce produit n’existe plus ou a été supprimé.</p></div><div className="flex justify-center"><Button variant="outline" onClick={() => onOpenProduct(null)}><ArrowLeft />Retour aux produits</Button></div></section>;
     return <ProductPage key={productId + copy.key} product={product} initial={productId === 'new' ? copy.data : null} leaveGuard={leaveGuard}
       onDuplicate={data => { setCopy(c => ({ key: c.key + 1, data: duplicateProduct(data) })); onOpenProduct('new'); }}
-      onBack={() => onOpenProduct(null)} onCreated={id => { setCopy(c => ({ key: c.key, data: null })); onOpenProduct(id, true); }} onToast={onToast} />;
+      onBack={() => onOpenProduct(null)} onCreated={id => { setCopy(c => ({ key: c.key, data: null })); onOpenProduct(id); }} onToast={onToast} />;
   }
   const shown = rows.filter(p => filter === 'all' || p.type === filter);
   const create = () => { setCopy(c => ({ key: c.key + 1, data: null })); onOpenProduct('new'); };
@@ -54,7 +54,7 @@ export function ProductsAdmin({ productId, onOpenProduct, leaveGuard, onToast }:
     </div>
     {shown.length ? <div className="product-list">{shown.map(p => {
       const { done, total } = taskProgress(p.tasks), { margin } = costSummary(p), pdfCount = pdfLanguages.filter(l => p.pdfs[l]).length;
-      return <a key={p._id} href={'?vue=Produits&produit=' + p._id} className="product-card" onClick={e => { if (e.metaKey || e.ctrlKey || e.shiftKey) return; e.preventDefault(); onOpenProduct(p._id); }}>
+      return <button type="button" key={p._id} className="product-card" onClick={() => onOpenProduct(p._id)}>
         <Cover url={p.coverUrl} type={p.type} />
         <div className="product-card-body">
           <div className="card-top"><span className="eyebrow">{productTypeLabels[p.type].toUpperCase()}</span><span className={'badge ' + statusClass(p.status)}>{p.status}</span></div>
@@ -63,7 +63,7 @@ export function ProductsAdmin({ productId, onOpenProduct, leaveGuard, onToast }:
           <div className="progress" role="img" aria-label={`${done} étapes faites sur ${total}`}><span style={{ width: total ? done / total * 100 + '%' : '0%' }} /></div>
           <small className="muted">{done}/{total} étapes avant la mise en vente</small>
         </div>
-      </a>;
+      </button>;
     })}</div> : <section className="panel"><div className="empty"><Flower2 size={28} /><p>{rows.length ? 'Aucun produit de ce type.' : 'Ajoutez votre premier kit ou modèle PDF.'}</p></div></section>}
   </>;
 }
