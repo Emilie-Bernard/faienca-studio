@@ -16,6 +16,7 @@ import { FileAdder, FileLinks, type FileView } from './stage-files';
 import { dueLabel, statusBadge } from './stagiaire';
 import type { LeaveGuard } from './kits-admin';
 import { clearDraft, useLocalDraft } from './local-draft';
+import { ProjectsAdmin } from './stage-projects';
 
 type Progress = { userId: string; status: MissionStatus; notes: string; feedback: string; updatedAt: number; deliverables: FileView[] };
 type AdminMission = Omit<MissionInput, 'resources'> & { _id: string; revision: number; order: number; resources: FileView[]; progress: Progress[] };
@@ -38,7 +39,18 @@ export function StageAdmin({ missionId, onOpenMission, leaveGuard, onToast }: { 
         const phases = [...new Set(data.missions.map(m => m.phase.trim()).filter(Boolean))];
         return <MissionPage key={missionId} mission={mission} trainees={data.trainees} phases={phases} leaveGuard={leaveGuard} onBack={() => onOpenMission(null)} onCreated={id => onOpenMission(id, true)} onToast={onToast} />;
     }
-    return <MissionList data={data} onOpenMission={onOpenMission} />;
+    return <StageSections data={data} onOpenMission={onOpenMission} onToast={onToast} />;
+}
+
+/** Missions préparées par l'atelier, ou projets proposés par la stagiaire (?onglet=projets). */
+function StageSections({ data, onOpenMission, onToast }: { data: Data, onOpenMission: (id: string) => void, onToast: (s: string) => void }) {
+    const [section, setSection] = useState<'missions' | 'projets'>(() => new URLSearchParams(location.search).get('onglet') === 'projets' ? 'projets' : 'missions');
+    const pending = useQuery(anyApi.projects.adminPending) as number | undefined;
+    const choose = (s: typeof section) => { setSection(s); history.replaceState(null, '', '?vue=Stage' + (s === 'projets' ? '&onglet=projets' : '')); };
+    return <>
+        <div className="stage-tabs" role="tablist" aria-label="Stage">{([['missions', 'Missions'], ['projets', 'Projets de la stagiaire']] as const).map(([id, label]) => <button key={id} type="button" role="tab" aria-selected={section === id} className={section === id ? 'selected' : ''} onClick={() => choose(id)}>{label}{id === 'projets' && !!pending && <span className="badge purple">{pending}</span>}</button>)}</div>
+        {section === 'projets' ? <ProjectsAdmin onToast={onToast} /> : <MissionList data={data} onOpenMission={onOpenMission} />}
+    </>;
 }
 
 function MissionList({ data: { missions, trainees }, onOpenMission }: { data: Data, onOpenMission: (id: string) => void }) {

@@ -9,6 +9,7 @@ const emailSteps = v.array(v.object({
 }));
 export const missionFile = v.object({ id: v.string(), label: v.string(), url: v.string(), storageId: v.optional(v.id('_storage')) });
 export const missionStatus = v.union(v.literal('todo'), v.literal('doing'), v.literal('submitted'), v.literal('validated'));
+export const projectStatus = v.union(v.literal('idea'), v.literal('doing'), v.literal('paused'), v.literal('done'));
 /** Traductions anglaise et espagnole ; un champ vide reprend le français. */
 const translated = <T extends Record<string, ReturnType<typeof v.string>>>(fields: T) => v.optional(v.object({ en: v.optional(v.object(fields)), es: v.optional(v.object(fields)) }));
 export const lessonTranslations = translated({ title: v.string(), stitch: v.string(), notes: v.string() });
@@ -84,6 +85,17 @@ export default defineSchema({
         userId: v.id('users'), missionId: v.id('missions'), status: missionStatus,
         notes: v.string(), deliverables: v.array(missionFile), feedback: v.string(), updatedAt: v.number(),
     }).index('by_user', ['userId']).index('by_mission', ['missionId']).index('by_user_mission', ['userId', 'missionId']),
+    // Projets proposés par la stagiaire elle-même : une idée, des documents, des questions pour l'atelier.
+    traineeProjects: defineTable({
+        authorId: v.id('users'), title: v.string(), description: v.string(), status: projectStatus,
+        files: v.array(missionFile), createdAt: v.number(), updatedAt: v.number(),
+        // Dernière consultation par l'atelier : signale les nouveautés dans la liste.
+        seenByAdminAt: v.optional(v.number()),
+    }).index('by_author', ['authorId']),
+    projectQuestions: defineTable({
+        projectId: v.id('traineeProjects'), authorId: v.id('users'), body: v.string(), createdAt: v.number(),
+        answer: v.optional(v.string()), answeredAt: v.optional(v.number()),
+    }).index('by_project', ['projectId', 'createdAt']),
     // Bibliothèque partagée entre l'atelier et les stagiaires.
     libraryItems: defineTable({
         title: v.string(), category: v.string(), description: v.string(), file: missionFile,

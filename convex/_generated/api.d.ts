@@ -19,6 +19,7 @@ import type * as klaviyoSync from "../klaviyoSync.js";
 import type * as library from "../library.js";
 import type * as newsletter from "../newsletter.js";
 import type * as products from "../products.js";
+import type * as projects from "../projects.js";
 import type * as stage from "../stage.js";
 import type * as studio from "../studio.js";
 import type * as testEmail from "../testEmail.js";
@@ -43,6 +44,7 @@ declare const fullApi: ApiFromModules<{
   library: typeof library;
   newsletter: typeof newsletter;
   products: typeof products;
+  projects: typeof projects;
   stage: typeof stage;
   studio: typeof studio;
   testEmail: typeof testEmail;

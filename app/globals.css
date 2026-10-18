@@ -4130,3 +4130,19 @@ a.library-card-title::after { content: ''; position: absolute; inset: 0; border-
 .request-card blockquote { margin: 6px 0 0; padding: 8px 12px; background: #faf6f0; border-left: 3px solid #f9ad4f; font-size: 14px; color: #4a423b }
 .request-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end }
 @media (max-width: 640px) { .request-card { grid-template-columns: 1fr } .request-actions { justify-content: flex-start } }
+/* Projets proposés par la stagiaire */
+.stage-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 20px; overflow-x: auto }
+.stage-tabs button { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; font-size: 14px; color: var(--muted-text); background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; cursor: pointer; white-space: nowrap }
+.stage-tabs button.selected { color: var(--ink); font-weight: 600; border-bottom-color: #b03f25 }
+.stage-mission.review { border-left: 3px solid #b03f25 }
+.project-form { display: flex; flex-direction: column; gap: 12px }
+.panel.project-form { margin-bottom: 16px }
+.project-field { display: grid; gap: 6px; font-size: 12px; font-weight: 600; color: var(--muted-text) }
+.project-field input, .project-field textarea { font-size: 14px; font-weight: 400; color: var(--ink); background: var(--surface) }
+.project-questions { display: flex; flex-direction: column; gap: 10px; margin: 0 0 12px; padding: 0; list-style: none }
+.project-questions li { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--bg) }
+.project-answer { margin-top: 8px; padding: 8px 12px; border-left: 3px solid #b03f25; background: var(--surface); border-radius: 0 6px 6px 0 }
+.project-answer strong { font-size: 12px }
+.project-answer p { white-space: pre-wrap; line-height: 1.6; font-size: 14px; margin-top: 2px }
+.project-ask { display: flex; flex-direction: column; gap: 8px; margin-top: 8px }
+.project-ask textarea { background: var(--surface) }

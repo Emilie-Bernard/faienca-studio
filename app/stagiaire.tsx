@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { useAuthActions } from '@convex-dev/auth/react';
-import { CalendarDays, Check, ChevronDown, ClipboardList, Flower2, Library as LibraryIcon, LogOut, MessageSquareText, Paperclip } from 'lucide-react';
+import { CalendarDays, Check, ChevronDown, ClipboardList, Flower2, Library as LibraryIcon, Lightbulb, LogOut, MessageSquareText, Paperclip } from 'lucide-react';
 import { groupByPhase, missionStatusLabels, percentDone, traineeStatuses, type MissionStatus } from '../lib/stage';
 import Loader from './loader';
 import Brand from './brand';
@@ -12,6 +12,7 @@ import { cn } from '@/lib/utils';
 import { errorText, type Me } from './client';
 import { FileAdder, FileLinks, type FileView } from './stage-files';
 import { Library } from './library';
+import { TraineeProjects } from './stage-projects';
 
 export type TraineeMission = {
     _id: string; title: string; description: string; phase: string; dueDate: string; resources: FileView[];
@@ -23,7 +24,7 @@ export const dueLabel = (date: string) => new Date(date + 'T12:00:00').toLocaleD
 export default function TraineeSpace({ me }: { me: Me }) {
     const { signOut } = useAuthActions();
     const missions = useQuery(anyApi.stage.mine) as TraineeMission[] | undefined;
-    const [openId, setOpenId] = useState<string | null>(null), [toast, setToast] = useState(''), [tab, setTab] = useState<'missions' | 'library'>('missions');
+    const [openId, setOpenId] = useState<string | null>(null), [toast, setToast] = useState(''), [tab, setTab] = useState<'missions' | 'projects' | 'library'>('missions');
     useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(''), 4500); return () => clearTimeout(t); }, [toast]);
     if (!missions) return <Loader message="Chargement de votre stage…" />;
     const firstName = me.name.split(/\s+/)[0] || 'toi';
@@ -32,12 +33,14 @@ export default function TraineeSpace({ me }: { me: Me }) {
     const next = missions.find(m => m.progress.status === 'doing') ?? missions.find(m => m.progress.status === 'todo');
     return <div className="client">
         <header className="client-bar"><a className="brand" href="/"><Brand label="STAGE" /></a>
-            <nav>{([['missions', 'Mes missions', ClipboardList], ['library', 'Bibliothèque', LibraryIcon]] as const).map(([id, label, Icon]) => <Button key={id} type="button" variant="ghost" aria-current={tab === id ? 'page' : undefined} className={cn('text-muted-foreground', tab === id && 'bg-accent font-semibold text-accent-foreground')} onClick={() => setTab(id)}><Icon size={16} />{label}</Button>)}</nav>
+            <nav>{([['missions', 'Mes missions', ClipboardList], ['projects', 'Mes projets', Lightbulb], ['library', 'Bibliothèque', LibraryIcon]] as const).map(([id, label, Icon]) => <Button key={id} type="button" variant="ghost" aria-current={tab === id ? 'page' : undefined} className={cn('text-muted-foreground', tab === id && 'bg-accent font-semibold text-accent-foreground')} onClick={() => setTab(id)}><Icon size={16} />{label}</Button>)}</nav>
             <div className="client-user"><span className="avatar">{firstName[0]!.toUpperCase()}</span><span className="client-name">{me.name || me.email}</span><Button variant="ghost" size="icon" aria-label="Se déconnecter" title="Se déconnecter" onClick={() => void signOut()}><LogOut /></Button></div>
         </header>
         <main className="client-main">{tab === 'library' ? <>
             <div className="page-heading"><div><div className="eyebrow">BIBLIOTHÈQUE</div><h1>Bibliothèque</h1><p>Les documents partagés avec l’atelier. Tu peux aussi y ajouter les tiens.</p></div></div>
-            <Library onToast={setToast} /></> : <>
+            <Library onToast={setToast} /></> : tab === 'projects' ? <>
+            <div className="page-heading"><div><div className="eyebrow">MES PROJETS</div><h1>Mes projets</h1><p>Tes idées et les projets que tu portes toi-même. Ajoute tes documents et tes questions : l’atelier les voit.</p></div></div>
+            <TraineeProjects onToast={setToast} /></> : <>
             <div className="page-heading"><div><div className="eyebrow">MON STAGE</div><h1>Bonjour {firstName}</h1><p>Voici tes missions. Avance à ton rythme : les dates sont des repères, pas des échéances.</p></div></div>
             <section className="stats"><Stat label="Missions" value={missions.length} /><Stat label="En cours" value={count('doing')} /><Stat label="À relire" value={count('submitted')} /><Stat label="Validées" value={count('validated')} /></section>
             {missions.length > 0 && <div className="progress" role="img" aria-label={`Avancement : ${percentDone(statuses)} %`}><span style={{ width: percentDone(statuses) + '%' }} /></div>}
