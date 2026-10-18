@@ -11,6 +11,7 @@
 import type * as access from "../access.js";
 import type * as auth from "../auth.js";
 import type * as crons from "../crons.js";
+import type * as expenses from "../expenses.js";
 import type * as http from "../http.js";
 import type * as kitRelease from "../kitRelease.js";
 import type * as kitRequests from "../kitRequests.js";
@@ -36,6 +37,7 @@ declare const fullApi: ApiFromModules<{
   access: typeof access;
   auth: typeof auth;
   crons: typeof crons;
+  expenses: typeof expenses;
   http: typeof http;
   kitRelease: typeof kitRelease;
   kitRequests: typeof kitRequests;

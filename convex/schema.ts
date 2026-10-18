@@ -122,4 +122,9 @@ export default defineSchema({
         // Tâche proposée automatiquement : clé de l'élément d'origine, pour ne pas la proposer deux fois.
         source: v.optional(v.string()), dismissed: v.optional(v.boolean()),
     }).index('by_doneDay', ['doneDay']).index('by_source', ['source']),
+    // Dépenses de l'atelier : une facture ou un achat, montant TTC en euros, justificatif facultatif.
+    expenses: defineTable({
+        date: v.string(), supplier: v.string(), label: v.string(), category: v.string(), amount: v.number(), notes: v.string(),
+        receipt: v.optional(missionFile), createdAt: v.number(), updatedAt: v.number(),
+    }).index('by_date', ['date']),
 });

@@ -3950,3 +3950,40 @@ button.edit-link.inline-link {
     .library-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px }
     .file-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px }
 }
+
+/* Dépenses */
+.expenses { display: flex; flex-direction: column; gap: 18px }
+.expenses .product-kpis { margin-bottom: 0 }
+.expenses-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px }
+.expenses-toolbar .spacer, .expense-dialog footer .spacer { flex: 1 }
+.expenses-charts { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px }
+@media (min-width: 960px) { .expenses-charts { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr) } }
+.expenses-months { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 6px; list-style: none; margin: 8px 0 0; padding: 0 }
+.expenses-months li { display: flex; flex-direction: column; align-items: center; gap: 6px; cursor: default }
+.expenses-month-bar { display: flex; align-items: flex-end; width: 100%; height: 150px; border-bottom: 1px solid var(--line) }
+.expenses-month-bar>span { display: block; width: 100%; max-width: 28px; margin: 0 auto; background: var(--violet-blue); border-radius: 4px 4px 0 0; min-height: 0; transition: opacity .15s }
+.expenses-months li:hover .expenses-month-bar>span { opacity: .8 }
+.expenses-months small { font-size: 11px; color: var(--muted-text) }
+.expenses-categories { display: flex; flex-direction: column; gap: 4px; list-style: none; margin: 0; padding: 0 }
+.expenses-categories button { display: flex; flex-direction: column; gap: 5px; width: 100%; text-align: left; padding: 8px 10px; border-radius: 8px; background: none; border: 1px solid transparent; cursor: pointer }
+.expenses-categories button:hover { background: #f8f3eb }
+.expenses-categories button[aria-pressed=true] { border-color: var(--line); background: #f8f3eb }
+.expenses-category-head { display: flex; justify-content: space-between; gap: 10px; font-size: 13px }
+.expenses-category-bar { display: block; height: 6px; background: #f3ede4; border-radius: 4px; overflow: hidden }
+.expenses-category-bar>span { display: block; height: 100%; background: var(--violet-blue); border-radius: 4px }
+.expenses-categories small { font-size: 11px; color: var(--muted-text) }
+.expenses-list .filters { margin-bottom: 14px }
+.expenses-table { min-width: 640px }
+.expenses-table td:first-child { min-width: 0; white-space: nowrap }
+.expenses-amount { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600 }
+.expenses-actions { text-align: right; white-space: nowrap }
+.expenses-actions>* { margin-left: 4px }
+.expense-dialog { padding: 0 }
+.expense-dialog form { display: flex; flex-direction: column; gap: 16px; padding: 24px }
+.expense-dialog header h2 { font-family: var(--font-heading); font-size: 26px; font-weight: 500; margin: 2px 0 }
+.expense-dialog header p { font-size: 13px }
+.expense-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px }
+@media (min-width: 560px) { .expense-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) } .expense-grid .full { grid-column: 1 / -1 } }
+.expense-grid>div { display: flex; flex-direction: column; gap: 6px; min-width: 0 }
+.expense-select { height: 36px; border: 1px solid var(--line); border-radius: 6px; padding: 0 10px; background: var(--surface); font: inherit; font-size: 14px }
+.expense-dialog footer { display: flex; align-items: center; gap: 8px; padding-top: 6px; border-top: 1px solid var(--line) }
