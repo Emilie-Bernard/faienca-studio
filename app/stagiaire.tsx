@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
 import { useAuthActions } from '@convex-dev/auth/react';
-import { ArrowLeft, CalendarDays, Check, ChevronRight, ClipboardList, Flower2, Library as LibraryIcon, Lightbulb, MessageSquareText, Paperclip } from 'lucide-react';
+import { ArrowLeft, CalendarDays, Check, ChevronRight, Circle, ClipboardList, Flag, Flower2, Hammer, Library as LibraryIcon, Lightbulb, MessageSquareText, NotebookPen, Paperclip, Send } from 'lucide-react';
 import { groupByPhase, missionStatusLabels, percentDone, traineeStatuses, type MissionStatus } from '../lib/stage';
 import Loader from './loader';
 import { AppShell, type NavGroup } from '@/components/app-nav';
@@ -80,7 +80,12 @@ function MissionRow({ mission: m, onOpen }: { mission: TraineeMission, onOpen: (
     </article>;
 }
 
-const timeFr = (t: number) => new Date(t).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+const stepInfo = {
+    todo: { icon: Circle, title: 'À faire', hint: 'Pas encore commencée' },
+    doing: { icon: Hammer, title: 'En cours', hint: 'J’y travaille' },
+    submitted: { icon: Send, title: 'J’ai terminé', hint: 'L’atelier relit' },
+} satisfies Record<(typeof traineeStatuses)[number], { icon: typeof Circle, title: string, hint: string }>;
+const timeFr =(t: number) => new Date(t).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
 
 /**
  * Page d'une mission. Les notes sont gardées dans ce navigateur à chaque frappe (rien n'est perdu au rechargement)
@@ -120,15 +125,29 @@ function MissionPage({ mission: m, onBack, onToast }: { mission: TraineeMission,
             {m.description && <p className="stage-description">{m.description}</p>}
             {m.resources.length > 0 && <div><h3>Fichiers et ressources</h3><FileLinks files={m.resources} /></div>}
             {m.progress.feedback && <div className="review-note"><MessageSquareText size={20} /><div><strong>{locked ? 'Validée par l’atelier' : 'Commentaire de l’atelier'}</strong><p>{m.progress.feedback}</p></div></div>}
-            <div><h3>Où en es-tu ?</h3>
-                {locked ? <p className="muted">Cette mission est validée, bravo ! Pour la reprendre, demande à l’atelier de la rouvrir.</p>
-                    : <div className="segmented" role="group" aria-label="Statut de la mission">{traineeStatuses.map(s => <button key={s} type="button" aria-pressed={status === s} className={status === s ? 'selected' : ''} onClick={() => void choose(s)}>{s === 'submitted' ? 'J’ai terminé, à relire' : missionStatusLabels[s]}</button>)}</div>}</div>
-            <div><h3>Mes notes</h3><textarea rows={8} maxLength={5000} value={notes} aria-label="Mes notes pour cette mission" placeholder="Ce que tu as essayé, ce qui a bloqué, tes questions…" onChange={e => setNotes(e.target.value)} onBlur={() => void persistNotes()} />
-                <p className="muted" aria-live="polite">{hint}</p></div>
-            <div><h3><Paperclip size={15} /> Mes rendus</h3>
+            <div className="mission-block">
+                <div className="mission-block-head"><h3><Flag size={15} />Où en es-tu ?</h3></div>
+                {locked ? <p className="mission-done"><Check size={16} />Cette mission est validée, bravo ! Pour la reprendre, demande à l’atelier de la rouvrir.</p>
+                    : <div className="mission-steps" role="group" aria-label="Statut de la mission">{traineeStatuses.map((s, i) => {
+                        const { icon: Icon, title, hint } = stepInfo[s], reached = traineeStatuses.indexOf(status as typeof s) >= i;
+                        return <button key={s} type="button" aria-pressed={status === s} className={'mission-step' + (status === s ? ' current' : reached ? ' reached' : '')} onClick={() => void choose(s)}>
+                            <span className="mission-step-icon">{reached && status !== s ? <Check size={16} /> : <Icon size={16} />}</span>
+                            <span><strong>{title}</strong><small>{hint}</small></span>
+                        </button>;
+                    })}</div>}
+            </div>
+            <div className="mission-block">
+                <div className="mission-block-head"><h3><NotebookPen size={15} />Mes notes</h3>
+                    <span className={'mission-save' + (saving ? ' saving' : dirty ? ' dirty' : '')} aria-live="polite" title={hint}><span className="dot" />{saving ? 'Enregistrement…' : dirty ? 'Pas encore envoyées' : savedAt ? `Envoyées à ${timeFr(savedAt)}` : 'À jour'}</span></div>
+                <textarea className="mission-notes" rows={6} maxLength={5000} value={notes} aria-label="Mes notes pour cette mission" placeholder="Ce que tu as essayé, ce qui a bloqué, tes questions…" onChange={e => setNotes(e.target.value)} onBlur={() => void persistNotes()} />
+                <p className="mission-block-foot"><span>{hint}</span><span>{notes.length} / 5000</span></p>
+            </div>
+            <div className="mission-block">
+                <div className="mission-block-head"><h3><Paperclip size={15} />Mes rendus{m.progress.deliverables.length > 0 && <span className="product-count">{m.progress.deliverables.length}</span>}</h3></div>
+                <p className="mission-block-help">Photos de ton travail, fichiers ou liens : ajoute ce que tu veux montrer à l’atelier.</p>
                 <FileLinks files={m.progress.deliverables} onRemove={locked ? undefined : f => void removeFile({ missionId: m._id, fileId: f.id }).catch(err => fail(err, 'Le rendu n’a pas été retiré.'))} />
-                {!m.progress.deliverables.length && <p className="muted">Photos de ton travail, fichiers ou liens : ajoute ce que tu veux montrer.</p>}
-                {!locked && <FileAdder what="rendu" upload={() => uploadUrl() as Promise<string>} onAdd={async file => { try { await addFile({ missionId: m._id, file }); onToast('Rendu ajouté'); } catch (err) { throw new Error(errorText(err, 'Le rendu n’a pas été ajouté.')); } }} />}</div>
+                {!locked && <FileAdder drop what="rendu" upload={() => uploadUrl() as Promise<string>} onAdd={async file => { try { await addFile({ missionId: m._id, file }); onToast('Rendu ajouté'); } catch (err) { throw new Error(errorText(err, 'Le rendu n’a pas été ajouté.')); } }} />}
+            </div>
         </section>
     </div>;
 }

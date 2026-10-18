@@ -27,8 +27,8 @@ export function FileLinks({ files, onRemove }: { files: FileView[], onRemove?: (
 }
 
 /** Ajoute un fichier (téléversé dans Convex) ou un lien https à une liste. */
-export function FileAdder({ upload, onAdd, disabled, what = 'fichier' }: { upload: () => Promise<string>, onAdd: (file: MissionFile) => Promise<void>, disabled?: boolean, what?: string }) {
-    const [label, setLabel] = useState(''), [url, setUrl] = useState(''), [busy, setBusy] = useState(false), [error, setError] = useState('');
+export function FileAdder({ upload, onAdd, disabled, what = 'fichier', drop }: { upload: () => Promise<string>, onAdd: (file: MissionFile) => Promise<void>, disabled?: boolean, what?: string, /** Zone de dépôt (glisser-déposer) au lieu du bouton. */ drop?: boolean }) {
+    const [label, setLabel] = useState(''), [url, setUrl] = useState(''), [busy, setBusy] = useState(false), [error, setError] = useState(''), [over, setOver] = useState(false);
     const input = useRef<HTMLInputElement>(null);
     const run = async (fn: () => Promise<MissionFile>) => {
         setBusy(true); setError('');
@@ -50,6 +50,27 @@ export function FileAdder({ upload, onAdd, disabled, what = 'fichier' }: { uploa
         if (!/^https:\/\//i.test(url.trim())) { setError('Le lien doit commencer par https://.'); return; }
         void run(async () => ({ ...newFile(), label: label.trim() || url.trim(), url: url.trim() }));
     };
+    const off = disabled || busy;
+    const fileInput = <input ref={input} type="file" hidden onChange={e => pick(e.target.files?.[0])} />;
+    const linkInput = <Input aria-label="Lien https" type="url" placeholder="https://…" value={url} disabled={off} onChange={e => setUrl(e.target.value)} onKeyDown={e => { if (e.key === 'Enter') { e.preventDefault(); addLink(); } }} />;
+    const linkButton = <Button type="button" variant="outline" disabled={off || !url.trim()} onClick={addLink}><Link2 size={16} />Ajouter le lien</Button>;
+    if (drop) return <div className="stage-adder">
+        {fileInput}
+        <button type="button" className={'stage-drop' + (over ? ' over' : '')} disabled={off} onClick={() => input.current?.click()}
+            onDragOver={e => { e.preventDefault(); if (!off) setOver(true); }} onDragLeave={() => setOver(false)}
+            onDrop={e => { e.preventDefault(); setOver(false); if (!off) pick(e.dataTransfer.files[0]); }}>
+            <span className="stage-drop-icon"><Upload size={20} /></span>
+            <strong>{busy ? 'Envoi en cours…' : 'Dépose un fichier ici'}</strong>
+            <small>ou clique pour le choisir · photo, PDF, vidéo… jusqu’à 50 Mo</small>
+        </button>
+        <div className="stage-adder-link">
+            <span className="muted">ou un lien</span>
+            {linkInput}
+            <Input className="stage-adder-label" aria-label={`Nom du ${what}`} placeholder="Nom (facultatif)" maxLength={120} value={label} disabled={off} onChange={e => setLabel(e.target.value)} />
+            {linkButton}
+        </div>
+        {error && <p role="alert" className="error-inline">{error}</p>}
+    </div>;
     return <div className="stage-adder">
         <Input aria-label={`Nom du ${what}`} placeholder={`Nom du ${what} (facultatif)`} maxLength={120} value={label} disabled={disabled || busy} onChange={e => setLabel(e.target.value)} />
         <div className="stage-adder-row">
