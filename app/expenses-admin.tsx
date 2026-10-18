@@ -116,9 +116,9 @@ function ExpenseDialog({ expense, today, onClose, onToast }: { expense: Row | nu
     const close = async () => { if (!busy && (!dirty || await ask('Fermer sans enregistrer cette dépense ?'))) onClose(); };
     const submit = async (e: FormEvent) => {
         e.preventDefault();
-        const { receipt, ...rest } = data;
-        // Le lien d'aperçu (fileUrl) est calculé par le serveur : il ne fait pas partie de la dépense.
-        const input: ExpenseInput = { ...rest, ...(receipt ? { receipt: { id: receipt.id, label: receipt.label, url: receipt.url, ...(receipt.storageId ? { storageId: receipt.storageId } : {}) } } : {}) };
+        const { date, supplier, label, category, amount, notes, receipt } = data;
+        // Seuls les champs de la dépense partent au serveur : ni son _id, ni le lien d'aperçu (fileUrl) calculé par le serveur.
+        const input: ExpenseInput = { date, supplier, label, category, amount, notes, ...(receipt ? { receipt: { id: receipt.id, label: receipt.label, url: receipt.url, ...(receipt.storageId ? { storageId: receipt.storageId } : {}) } } : {}) };
         const problem = expenseError(input); if (problem) { setError(problem); return; }
         setBusy(true); setError('');
         try { await save({ data: input, ...(expense ? { id: expense._id } : {}) }); onToast(expense ? 'Dépense mise à jour' : 'Dépense ajoutée'); onClose(); }
