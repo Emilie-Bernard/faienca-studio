@@ -8,6 +8,8 @@ import { useAuthActions } from '@convex-dev/auth/react';
 import { ArrowLeft, ArrowRight, BookHeart, Check, CheckCircle2, Circle, Clock3, Flower2, KeyRound, Mail, MessageCircleQuestion, Plus, PlayCircle, Send, Sparkles, Trash2 } from 'lucide-react';
 import { localizeKit, localizeLesson, progressPercent, videoSource, type KitLanguage, type KitText, type Lesson, type Role, type Translations } from '../lib/kits';
 import { takePendingKit, type PendingKit } from '../lib/pending-kit';
+import { usePathRoute } from '@/hooks/use-path-route';
+import { clientPath, parseClientPath } from '../lib/routes';
 import Loader from './loader';
 import { AppShell, type NavGroup } from '@/components/app-nav';
 import { Button } from '@/components/ui/button';
@@ -32,12 +34,15 @@ export default function ClientSpace({ me }: { me: Me }) {
     // Contenu des kits dans la langue de l'interface (le français si la traduction manque).
     const kits = (useQuery(anyApi.kits.mine) as MyKit[] | undefined)?.map(k => ({ ...k, kit: { ...localizeKit(k.kit, locale), lessons: k.kit.lessons.map(l => localizeLesson(l, locale)) } }));
     const catalog = (useQuery(anyApi.kits.catalog) as CatalogKit[] | undefined)?.map(k => ({ ...localizeKit(k, locale), stitches: k.stitchTranslations?.[locale as KitLanguage] ?? k.stitches }));
-    const [view, setView] = useState<'kits' | 'catalogue'>('kits'), [kitId, setKitId] = useState<string | null>(null), [toast, setToast] = useState('');
-    // Lien d’un e-mail (/?kit=<id>) : le kit s’ouvre une fois, puis l’adresse redevient « / ».
-    useEffect(() => { const k = new URLSearchParams(location.search).get('kit'); if (k) { setKitId(k); history.replaceState(null, '', location.pathname); } }, []);
+    // Page et kit ouverts font partie de l'adresse : /, /catalogue, /kits/<id>.
+    const [route, setRoute] = usePathRoute(parseClientPath, clientPath);
+    const { view, kitId } = route;
+    const [toast, setToast] = useState('');
+    // Lien d’un e-mail (/?kit=<id>) : devient l’adresse du kit.
+    useEffect(() => { const k = new URLSearchParams(location.search).get('kit'); if (k) { history.replaceState(null, '', clientPath({ view: 'kits', kitId: k })); setRoute({ view: 'kits', kitId: k }); } }, []);
     useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(''), 4500); return () => clearTimeout(t); }, [toast]);
     const go = (next: { view?: 'kits' | 'catalogue', kit?: string | null }) => {
-        setView(next.view ?? 'kits'); setKitId(next.kit ?? null); window.scrollTo(0, 0);
+        setRoute({ view: next.view ?? 'kits', kitId: next.kit ?? null }); window.scrollTo(0, 0);
     };
     // Lien « Vidéos du kit » de la boutique : active le kit mis de côté, puis l'ouvre.
     const activate = useMutation(anyApi.kits.activate);

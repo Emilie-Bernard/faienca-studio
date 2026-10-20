@@ -338,3 +338,18 @@ export function normalizeVideo(raw: unknown): VideoInput | null {
   };
   return v.title && v.url ? v : null;
 }
+
+/** Étiquette courte pour une carte : « Entreprise du Patrimoine Vivant (2008, selon son site) » devient « EPV ». */
+export function shortTag(t: string): string {
+  if (/patrimoine vivant/i.test(t)) return 'EPV';
+  if (/meilleur ouvrier/i.test(t)) return 'MOF';
+  if (/ma[iî]tre d.art/i.test(t)) return 'Maître d’art';
+  const s = t.replace(/\s*\([^)]*\)/g, '').split(/\s*[:;]\s/)[0]!.trim();
+  return s.length > 32 ? s.slice(0, 30).trimEnd() + '…' : s;
+}
+
+/** Les étiquettes d'une carte : labels connus d'abord (EPV, MOF…), puis techniques, sans doublon. */
+export function cardTags(labels: string[], techniques: string[], max = 3): string[] {
+  const known = labels.map(shortTag).filter(t => ['EPV', 'MOF', 'Maître d’art'].includes(t));
+  return [...new Set([...known, ...techniques.map(shortTag)])].filter(Boolean).slice(0, max);
+}

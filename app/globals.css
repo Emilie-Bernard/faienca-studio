@@ -4181,3 +4181,22 @@ button.edit-link.inline-link {
 .veille-gallery small { font-size: 12px; color: var(--muted-text) }
 .veille-gallery p { margin: 2px 0 0; font-size: 13px; line-height: 1.45 }
 .veille-portrait-facts a svg:last-child { opacity: .6 }
+/* Cartes de la veille : brodeuses et ateliers */
+.veille-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)) !important; gap: 14px !important }
+.veille-card { display: flex; flex-direction: column; width: 100%; height: 100%; padding: 0; overflow: hidden; text-align: left; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .15s }
+.veille-card:hover { border-color: #cfc3b3; box-shadow: 0 6px 20px #2c28251a; transform: translateY(-1px) }
+.veille-card:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px }
+.veille-card-cover { display: grid; place-items: center; aspect-ratio: 16 / 9; background: var(--purple); color: var(--jasper); font: 400 34px var(--font-heading); overflow: hidden }
+.veille-card-cover img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s }
+.veille-card:hover .veille-card-cover img { transform: scale(1.03) }
+.veille-card-head { display: flex; align-items: center; gap: 12px; padding: 16px 16px 0 }
+.veille-card-head>span:last-child { display: flex; flex-direction: column; gap: 2px; min-width: 0 }
+.veille-card-head strong, .veille-card-body>strong { font: 500 20px/1.15 var(--font-heading) }
+.veille-card-head small, .veille-card-body>small { font-size: 12px; color: var(--muted-text) }
+.veille-card-body { display: flex; flex-direction: column; gap: 6px; flex: 1; padding: 12px 16px 14px; min-width: 0 }
+.veille-card.person .veille-card-body { padding-top: 10px }
+.veille-card-summary { font-size: 13px; line-height: 1.5; color: var(--muted-text); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden }
+.veille-tags.compact { flex-wrap: wrap; margin-top: auto; padding-top: 4px }
+.veille-tags.compact>span { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; line-height: 1.6 }
+.veille-card-foot { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 10px 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted-text); background: #fbf8f2 }
+.veille-card-foot>span:first-child:not(:only-child) { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }

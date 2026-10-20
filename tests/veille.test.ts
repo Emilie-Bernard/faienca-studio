@@ -114,4 +114,11 @@ describe('Veille textile : partage et agent', () => {
         expect(a.works.map((w: { title: string }) => w.title)).toEqual(['Pétales', 'Nœuds']);
         expect(a.news).toHaveLength(2);
     });
+
+    it('garde plusieurs nouvelles qui renvoient à la même page, si leurs dates diffèrent', async () => {
+        const { t } = await setup();
+        const page = 'https://artiste.fr/a-propos';
+        const r = await t.mutation(anyApi.veille.importPortrait, { json: JSON.stringify({ name: 'Zoé', news: [news({ title: 'Expo A', url: page, startDate: '2026-03', endDate: '' }), news({ title: 'Expo B', url: page, startDate: '2026-06', endDate: '' }), news({ title: 'Expo B bis', url: page, startDate: '2026-06', endDate: '' })] }) });
+        expect(r.news).toBe(2);
+    });
 });

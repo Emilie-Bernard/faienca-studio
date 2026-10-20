@@ -10,7 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
 import { ask } from '@/components/confirm-dialog';
 import { cn } from '@/lib/utils';
-import { dateFr, emptyVideo, emptyWorkshop, platformLabels, platformOf, platforms, sortTimeline, timelineKinds, videoError, videoKindLabels, videoKinds, workshopError, youtubeId, type Link, type Person, type Platform, type TimelineItem, type VideoInput, type VideoKind, type WorkshopInput } from '../lib/veille';
+import { cardTags, dateFr, emptyVideo, emptyWorkshop, platformLabels, platformOf, platforms, sortTimeline, timelineKinds, videoError, videoKindLabels, videoKinds, workshopError, youtubeId, type Link, type Person, type Platform, type TimelineItem, type VideoInput, type VideoKind, type WorkshopInput } from '../lib/veille';
 import { isoToday } from '../lib/model';
 import { errorText } from './client';
 import { Avatar } from './veille';
@@ -40,18 +40,22 @@ export function Workshops({ onOpen, onToast }: { onOpen: (id: string) => void, o
     // Fermé : une date de fermeture, ou le label « Maison disparue » quand on ne connaît pas la date.
     const isClosed = (r: WorkshopRow) => !!r.closedDate || r.labels.some(l => /disparue|fermée/i.test(l));
     const open = shown.filter(r => !isClosed(r)), closed = shown.filter(isClosed);
-    const card = (r: WorkshopRow) => <li key={r._id}>
-        <button type="button" className="veille-person" onClick={() => onOpen(r._id)}>
-            <Avatar name={r.name} photo={r.photoUrl || r.cover} />
-            <span className="veille-person-body">
-                <strong>{r.name}</strong>
-                <small>{[r.city, r.region, years(r)].filter(Boolean).join(' · ')}</small>
-                {r.summary && <span className="veille-person-summary">{r.summary}</span>}
-                {(r.labels.length > 0 || r.techniques.length > 0) && <span className="veille-tags">{[...r.labels.slice(0, 2), ...r.techniques.slice(0, 3)].map(t => <span key={t}>{t}</span>)}</span>}
-            </span>
-            <span className="veille-person-meta">{r.founders.length > 0 && <span>{r.founders.slice(0, 2).join(', ')}</span>}{r.people > 0 && <span>{r.people} personne{r.people > 1 ? 's' : ''}</span>}{r.works > 0 && <span>{r.works} réalisation{r.works > 1 ? 's' : ''}</span>}</span>
-        </button>
-    </li>;
+    const card = (r: WorkshopRow) => {
+        const tags = cardTags(r.labels, r.techniques);
+        const foot = [r.founders.length ? 'Fondé par ' + r.founders.slice(0, 2).join(', ') : '', r.works ? `${r.works} réalisation${r.works > 1 ? 's' : ''}` : ''].filter(Boolean);
+        return <li key={r._id}>
+            <button type="button" className="veille-card" onClick={() => onOpen(r._id)}>
+                <CardCover src={r.cover || r.photoUrl} name={r.name} />
+                <span className="veille-card-body">
+                    <strong>{r.name}</strong>
+                    <small>{[r.city || r.region, years(r)].filter(Boolean).join(' · ')}</small>
+                    {r.summary && <span className="veille-card-summary">{r.summary}</span>}
+                    {tags.length > 0 && <span className="veille-tags compact">{tags.map(t => <span key={t} title={t}>{t}</span>)}</span>}
+                </span>
+                {foot.length > 0 && <span className="veille-card-foot">{foot.map(f => <span key={f}>{f}</span>)}</span>}
+            </button>
+        </li>;
+    };
     return <>
         <div className="veille-toolbar">
             <label className="search"><Search size={16} /><input aria-label="Rechercher un atelier" placeholder="Atelier, ville, fondateur, technique…" value={search} onChange={e => setSearch(e.target.value)} /></label>
@@ -139,6 +143,14 @@ export function WorkshopPage({ id, onBack, onOpenArtist, onToast }: { id: string
         </div>
         {editing && <WorkshopDialog workshop={w} onClose={() => setEditing(false)} onSaved={() => setEditing(false)} onToast={onToast} />}
     </article>;
+}
+
+/** Image de tête d'une carte d'atelier ; sans image, un aplat avec les initiales. */
+function CardCover({ src, name }: { src: string, name: string }) {
+    const [broken, setBroken] = useState(false);
+    return <span className="veille-card-cover" aria-hidden>
+        {src && !broken ? <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} /> : <span>{name.split(/\s+/).filter(w => /^[A-ZÀ-Ý]/.test(w)).map(w => w[0]).slice(0, 2).join('')}</span>}
+    </span>;
 }
 
 /** Une image qui ne se charge plus disparaît au lieu de laisser un cadre vide. */

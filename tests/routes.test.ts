@@ -1,5 +1,20 @@
 import { describe, expect, it } from 'vitest';
-import { parseStudioPath, studioPath, studioRoutes } from '../lib/routes';
+import { clientPath, parseClientPath, parseStudioPath, parseTraineePath, studioPath, studioRoutes, traineePath } from '../lib/routes';
+
+describe('Adresses des espaces stagiaire et brodeuse', () => {
+    it('donnent une adresse à chaque onglet et à la fiche ouverte', () => {
+        expect(parseTraineePath('/')).toEqual({ tab: 'missions', missionId: null, veille: '' });
+        expect(parseTraineePath('/missions/m1')).toEqual({ tab: 'missions', missionId: 'm1', veille: '' });
+        expect(parseTraineePath('/projets').tab).toBe('projects');
+        expect(parseTraineePath('/veille/atelier/w1')).toEqual({ tab: 'veille', missionId: null, veille: 'atelier/w1' });
+        expect(parseTraineePath('/depenses')).toEqual({ tab: 'missions', missionId: null, veille: '' });
+        for (const p of ['/', '/missions/m1', '/projets', '/bibliotheque', '/veille', '/veille/ateliers', '/veille/atelier/w1']) expect(traineePath(parseTraineePath(p))).toBe(p);
+        expect(parseClientPath('/kits/k1')).toEqual({ view: 'kits', kitId: 'k1' });
+        expect(parseClientPath('/catalogue')).toEqual({ view: 'catalogue', kitId: null });
+        expect(parseClientPath('/veille')).toEqual({ view: 'kits', kitId: null });
+        for (const p of ['/', '/catalogue', '/kits/k1']) expect(clientPath(parseClientPath(p))).toBe(p);
+    });
+});
 
 describe('Adresses du studio', () => {
     it('donne une adresse à chaque page, et aux fiches ouvertes', () => {

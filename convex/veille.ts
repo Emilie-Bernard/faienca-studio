@@ -215,22 +215,28 @@ async function endRun(ctx: MutationCtx, runId: Id<'agentRuns'>, text: string, er
     await ctx.db.patch(runId, { status: error ? 'error' : 'done', finishedAt: now, ...(error ? { error } : {}), log: [...r.log, { at: now, level: error ? 'error' as const : 'info' as const, text }].slice(-400) });
 }
 
-/** Ajoute les nouvelles absentes (même lien ou même titre) et les relie aux artistes citées. */
+/**
+ * Ajoute les nouvelles absentes et les relie aux artistes citées. Une nouvelle est déjà connue si elle a le même titre,
+ * ou le même lien et la même date : plusieurs nouvelles peuvent renvoyer à une même page (« À propos » d'une artiste).
+ */
 async function addNews(ctx: MutationCtx, items: NewsInput[], also: Id<'artists'>[] = []) {
     const [existing, people] = await Promise.all([ctx.db.query('textileNews').collect(), ctx.db.query('artists').collect()]);
-    const urls = new Set(existing.map(n => n.url).filter(Boolean)), titles = new Set(existing.map(n => nameKey(n.title)));
+    const known: { _id?: Id<'textileNews'>; title: string; url: string; startDate: string; artistIds: Id<'artists'>[] }[] = [...existing];
+    const same = (a: { title: string; url: string; startDate: string }, b: NewsInput) => nameKey(a.title) === nameKey(b.title) || (!!b.url && a.url === b.url && a.startDate === b.startDate);
     let added = 0;
     for (const n of items) {
-        if (newsError(n) || (n.url && urls.has(n.url)) || titles.has(nameKey(n.title))) {
+        if (newsError(n)) continue;
+        const twin = known.find(e => same(e, n));
+        if (twin) {
             // Déjà connue : on la relie simplement à l'artiste recherchée.
-            const twin = existing.find(e => (n.url && e.url === n.url) || nameKey(e.title) === nameKey(n.title));
-            if (twin && also.some(a => !twin.artistIds.includes(a))) await ctx.db.patch(twin._id, { artistIds: [...new Set([...twin.artistIds, ...also])] });
+            if (twin._id && also.some(a => !twin.artistIds.includes(a))) await ctx.db.patch(twin._id, { artistIds: [...new Set([...twin.artistIds, ...also])] });
             continue;
         }
         const artistIds = [...new Set([...also, ...mentionedArtists(people, `${n.title} ${n.summary}`).map(a => a._id)])];
         const now = Date.now();
-        await ctx.db.insert('textileNews', { ...n, artistIds, source: 'agent', createdAt: now, updatedAt: now, authorName: 'Agent de veille' });
-        if (n.url) urls.add(n.url); titles.add(nameKey(n.title)); added++;
+        const _id = await ctx.db.insert('textileNews', { ...n, artistIds, source: 'agent', createdAt: now, updatedAt: now, authorName: 'Agent de veille' });
+        known.push({ _id, title: n.title, url: n.url, startDate: n.startDate, artistIds });
+        added++;
     }
     return added;
 }

@@ -11,6 +11,8 @@ import { errorText, type Me } from './client';
 import { FileAdder, FileLinks, type FileView } from './stage-files';
 import { Library } from './library';
 import { Veille } from './veille';
+import { usePathRoute } from '@/hooks/use-path-route';
+import { parseTraineePath, traineePath, type TraineeTab } from '../lib/routes';
 import { TraineeProjects } from './stage-projects';
 import { useLocalDraft } from './local-draft';
 
@@ -21,24 +23,19 @@ export type TraineeMission = {
 export const statusBadge: Record<MissionStatus, string> = { todo: '', doing: 'blue', submitted: 'orange', validated: 'green' };
 export const dueLabel = (date: string) => new Date(date + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
 
-type Tab = 'missions' | 'projects' | 'library' | 'veille';
-const VIEW_KEY = 'faienca-stage-view';
 const AUTOSAVE_MS = 5 * 60 * 1000;
-/** Onglet et mission ouverts, gardés pour cet onglet du navigateur : un rechargement ramène au même endroit, sans rien dans l'adresse. */
-function readView(): { tab: Tab, missionId: string | null } {
-    try { const v = JSON.parse(sessionStorage.getItem(VIEW_KEY) ?? 'null') as { tab?: Tab, missionId?: string | null } | null; if (v?.tab) return { tab: v.tab, missionId: v.missionId ?? null }; } catch { /* stockage indisponible */ }
-    return { tab: 'missions', missionId: null };
-}
 
 export default function TraineeSpace({ me }: { me: Me }) {
     const { signOut } = useAuthActions();
     const missions = useQuery(anyApi.stage.mine) as TraineeMission[] | undefined;
-    const [openId, setOpenId] = useState<string | null>(null), [toast, setToast] = useState(''), [tab, setTab] = useState<Tab>('missions'), [ready, setReady] = useState(false);
-    useEffect(() => { const v = readView(); setTab(v.tab); setOpenId(v.missionId); setReady(true); }, []);
-    useEffect(() => { if (ready) try { sessionStorage.setItem(VIEW_KEY, JSON.stringify({ tab, missionId: openId })); } catch { /* stockage indisponible */ } }, [ready, tab, openId]);
-    const openMission = (id: string | null) => { setOpenId(id); window.scrollTo(0, 0); };
+    // Onglet, mission et page de veille ouverts font partie de l'adresse : /missions/<id>, /projets, /veille/atelier/<id>…
+    const [route, setRoute] = usePathRoute(parseTraineePath, traineePath);
+    const { tab, missionId: openId } = route;
+    const [toast, setToast] = useState('');
+    const openMission = (id: string | null) => { setRoute({ tab: 'missions', missionId: id, veille: '' }); window.scrollTo(0, 0); };
+    const setTab = (t: TraineeTab) => setRoute({ tab: t, missionId: null, veille: '' });
     useEffect(() => { if (!toast) return; const t = setTimeout(() => setToast(''), 4500); return () => clearTimeout(t); }, [toast]);
-    if (!missions || !ready) return <Loader message="Chargement de votre stage…" />;
+    if (!missions) return <Loader message="Chargement de votre stage…" />;
     const open = tab === 'missions' ? missions.find(m => m._id === openId) : undefined;
     const firstName = me.name.split(/\s+/)[0] || 'toi';
     const statuses = missions.map(m => m.progress.status);
@@ -47,11 +44,11 @@ export default function TraineeSpace({ me }: { me: Me }) {
     const tabs = [['missions', 'Mes missions', ClipboardList], ['projects', 'Mes projets', Lightbulb], ['library', 'Bibliothèque', LibraryIcon], ['veille', 'Veille textile', Newspaper]] as const;
     const navGroups: NavGroup[] = [{ items: tabs.map(([, label, icon]) => ({ label, icon })) }];
     const current = tabs.find(([id]) => id === tab)![1];
-    return <AppShell navbar label="STAGE" groups={navGroups} current={current} onSelect={label => { setTab(tabs.find(([, l]) => l === label)![0]); openMission(null); }} title={open ? open.title : current}
+    return <AppShell navbar label="STAGE" groups={navGroups} current={current} onSelect={label => { setTab(tabs.find(([, l]) => l === label)![0]); window.scrollTo(0, 0); }} title={open ? open.title : current}
         user={{ name: me.name || me.email, detail: 'Stagiaire' }} onSignOut={() => void signOut()} signOutLabel="Déconnexion">
         <main className="client-main">{tab === 'veille' ? <>
             <div className="page-heading"><div><div className="eyebrow">VEILLE TEXTILE</div><h1>Veille textile</h1><p>Les brodeuses d’art et les nouvelles du monde textile. Lance une recherche : l’agent prépare le portrait.</p></div></div>
-            <Veille onToast={setToast} /></> : tab === 'library' ? <>
+            <Veille onToast={setToast} path={route.veille} onNavigate={veille => { setRoute({ tab: 'veille', missionId: null, veille }); window.scrollTo(0, 0); }} /></> : tab === 'library' ? <>
             <div className="page-heading"><div><div className="eyebrow">BIBLIOTHÈQUE</div><h1>Bibliothèque</h1><p>Les documents partagés avec l’atelier. Tu peux aussi y ajouter les tiens.</p></div></div>
             <Library onToast={setToast} /></> : tab === 'projects' ? <>
             <div className="page-heading"><div><div className="eyebrow">MES PROJETS</div><h1>Mes projets</h1><p>Tes idées et les projets que tu portes toi-même. Ajoute tes documents et tes questions : l’atelier les voit.</p></div></div>

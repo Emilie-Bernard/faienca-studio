@@ -19,18 +19,44 @@ let failed = 0;
 
 function run(fn, payload) {
     const r = spawnSync(process.execPath, ['node_modules/convex/bin/main.js', 'run', ...(prod ? ['--prod'] : []), fn, JSON.stringify({ json: payload })], { encoding: 'utf8' });
-    if (r.status !== 0) throw new Error((r.stderr || r.stdout).trim().split('\n').slice(-3).join(' '));
+    if (r.error) throw r.error;
+    if (r.status !== 0) throw new Error(((r.stderr || r.stdout) ?? '').trim().split('\n').slice(-3).join(' '));
     const i = r.stdout.indexOf('{');
     return i < 0 ? {} : JSON.parse(r.stdout.slice(i));
 }
 const readJson = file => JSON.stringify(JSON.parse(readFileSync(file, 'utf8')));
 const jsonIn = dir => existsSync(dir) ? readdirSync(dir).filter(f => f.endsWith('.json')).sort().map(f => join(dir, f)) : [];
 
+/**
+ * Windows limite une ligne de commande à 32 000 caractères : une fiche trop longue part en plusieurs envois.
+ * Le premier porte les textes, les suivants le reste des listes (œuvres, dates, sources…) ; l'import les fusionne.
+ */
+const MAX = 20000;
+function chunks(json) {
+    if (json.length <= MAX) return [json];
+    const fiche = JSON.parse(json);
+    const lists = Object.keys(fiche).filter(k => Array.isArray(fiche[k]) && fiche[k].some(x => x && typeof x === 'object'));
+    const first = Object.fromEntries(Object.entries(fiche).map(([k, v]) => [k, lists.includes(k) ? [] : v]));
+    const out = [first];
+    for (const k of lists) for (const item of fiche[k]) {
+        const last = out[out.length - 1], next = { ...last, [k]: [...(last[k] ?? []), item] };
+        if (JSON.stringify(next).length <= MAX) out[out.length - 1] = next;
+        else out.push({ name: fiche.name, [k]: [item] });
+    }
+    return out.map(c => JSON.stringify(c));
+}
+// Additionne les compteurs des envois successifs d'une même fiche (nouvelles ajoutées, fiche créée).
+const merge = (a, b) => ({ ...a, ...b, news: (a.news ?? 0) + (b.news ?? 0), created: a.created ?? b.created });
+
 function importEach(label, list, fn, report) {
     if (!list.length) { console.log(`Aucun fichier pour : ${label}.`); return; }
     console.log(`${label} : envoi de ${list.length} fichier(s) vers ${target}…`);
     for (const file of list) {
-        try { const json = readJson(file); console.log(`✓ ${JSON.parse(json).name} : ${report(run(fn, json))}`); }
+        try {
+            const json = readJson(file), parts = chunks(json);
+            const out = parts.reduce((acc, part) => merge(acc, run(fn, part)), {});
+            console.log(`✓ ${JSON.parse(json).name} : ${report(out)}${parts.length > 1 ? ` (en ${parts.length} envois)` : ''}`);
+        }
         catch (err) { console.log(`✗ ${basename(file)} : ${err.message}`); failed++; }
     }
 }
