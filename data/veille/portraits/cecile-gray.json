@@ -1,0 +1,228 @@
+{
+  "name": "Cécile Gray",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "maille métallique tissée à la main",
+    "sertissage de perles sur fils d'acier câblés",
+    "broderie au fil d'or",
+    "broderie métallique (incrustation de maille)",
+    "vêtements-bijoux",
+    "tissage de fil d'or sur cadre",
+    "pliage de papier washi",
+    "vannerie métallique"
+  ],
+  "summary": "Ancienne architecte, Cécile Gray (née Cécile Gayraud) dirige à Paris un studio de création de matières souples. Elle a mis au point sa propre maille métallique, faite de fils d'acier câblés reliés par des perles serties une à une, dont elle tire des vêtements-bijoux, des accessoires et des pièces de décor pour le luxe.",
+  "biography": "Originaire des Pyrénées, Cécile Gayraud, qui signe Cécile Gray, a d'abord été architecte pendant environ sept ans. Lassée des journées devant l'ordinateur, elle veut retrouver la matière et le travail des mains. En 2016, elle se reconvertit au design textile et suit une formation de styliste à l'Atelier Chardon Savard, à Paris. C'est là, en cherchant une matière pour sa collection de fin d'études sur les architectes vêtus de noir, qu'elle invente sa maille métallique. Le nom de son studio rend hommage à Eileen Gray et à Madame Grès.\n\nEn avril 2018, elle présente au 33e Festival de mode de Hyères sept vêtements-bijoux faits de centaines de fils fins sertis à la main, et remporte le prix du public dans la catégorie accessoires. Elle fonde son studio en 2019 et travaille depuis avec des maisons du luxe, dont Hermès, Lemarié et Ruinart. Elle est incubée aux Ateliers de Paris (BDMMA) de 2021 à 2023 et travaille aujourd'hui dans le 20e arrondissement, avec la designer textile Rose Crouan et la brodeuse Pascale Feuerhan.\n\nSa technique part d'une grille dessinée sur papier, qui sert de patron. Les fils câblés sont reliés par des perles écrasées et serties, empruntées à la bijouterie fantaisie : la maille reste souple, bouge avec le corps et reprend sa forme. Une pièce peut demander jusqu'à 200 heures, et tout se pense en amont, car une fois assemblée la maille ne se recoupe pas. Sa formation d'architecte se voit partout : elle pense en volume et construit plutôt qu'elle ne drape.\n\nSes projets vont de la mode au décor : le panier à champagne « No pressure » pour Ruinart, tressé à partir de 86 muselets ; des vases-bijoux en maille nés d'une résidence au Limousin en 2020 ; des vitrines pour Shang Xia ; des cadres tissés de fil d'or et des grilles en papier washi pour le programme Inspiration of Kyoto en 2022 ; une robe-bijou sur commande en 2023 ; l'installation de broches « Murmuration » ; la scénographie de flacons pour le salon Les Places d'Or en 2024 ; deux sacs avec la maison Léclisse en 2025.\n\nElle a reçu le Prix des Artisanes ELLE x LVMH en 2022 et le soutien de la Fondation Banque Populaire (métiers d'art) en 2024, puis l'Immersion Oui Design! de la Villa Albertine à New York en 2025. En 2026, elle signe une collection capsule avec l'Atelier De Latour & Maïques, qui mêle sa grille métallique à des pétales de soie et de dentelle, et fait partie de la résidence franco-finlandaise « Crafted Connections », présentée fin août dans la vitrine du grand magasin Stockmann pendant la Helsinki Design Week.",
+  "website": "https://cecilegray.fr",
+  "instagram": "https://www.instagram.com/cecile_gray/",
+  "photoUrl": "https://villa-albertine.org/wp-content/uploads/2025/04/Portrait-Cecile-gray-c-Gabrielle-Gayraud-1-scaled-e1743696763895.jpg",
+  "works": [
+    {
+      "title": "Et si le bijou prenait corps ? (vêtements-bijoux)",
+      "year": "2018",
+      "technique": "maille métallique tissée à la main",
+      "description": "Collection de sept vêtements-bijoux présentée au 33e Festival de mode de Hyères, en avril 2018. La maille, assez souple pour suivre le mouvement, lui vaut le prix du public dans la catégorie accessoires.",
+      "url": "https://cecilegray.fr/projets/bijoux-vetements/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecilegray-bijou-vetement_accueil.jpg"
+    },
+    {
+      "title": "Collection PAP, fin d'études à l'Atelier Chardon Savard",
+      "year": "2018",
+      "technique": "stylisme, maille métallique dorée",
+      "description": "Collection de diplôme qui explore pourquoi les architectes s'habillent en noir, avec un premier usage de la maille métallique dorée (look 1 : combinaison trench dorée).",
+      "url": "https://cecilegray.fr/projets/2017-defile/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/CG-H18-Look01.jpg"
+    },
+    {
+      "title": "No pressure, panier à champagne pour Ruinart",
+      "year": "2021",
+      "technique": "maille et ganse tressée en fil de muselet",
+      "description": "Panier pique-nique fait de 86 muselets de champagne torsadés, assemblés en maille et bordés d'une ganse tressée. Environ 50 heures de conception et 15 heures de fabrication, avec une quinzaine d'essais de mailles et de tressages.",
+      "url": "https://cecilegray.fr/journal/muselets-ruinart/",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PSv9WAG-headergd.jpg"
+    },
+    {
+      "title": "Vitrines Shang Xia",
+      "year": "2020",
+      "technique": "maille métallique",
+      "description": "Exposition et pièces exclusives pour les vitrines de la boutique Shang Xia (groupe Hermès), rue de Sèvres à Paris.",
+      "url": "https://cecilegray.fr/journal/vitrines-shang-xia/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecile-gray-shang-xia-01_accueil.jpg"
+    },
+    {
+      "title": "Broderie métallique, veste",
+      "year": "2021",
+      "technique": "incrustation de maille métallique sertie",
+      "description": "Veste en coton ornée d'un monogramme « CG » en maille métallique : un embellissement contemporain réalisé par sertissage.",
+      "url": "https://cecilegray.fr/projets/2021-broderie-metallique/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecile-gray-veste-00.jpg"
+    },
+    {
+      "title": "Gold thread frames (cadres de fil d'or)",
+      "year": "2022",
+      "technique": "tissage de fil d'or",
+      "description": "Six cadres en bois tissés de fil d'or, dont le motif met en valeur un fil du maître japonais Terashima. Issu du programme Inspiration of Kyoto avec le fabricant de fil d'or Terayasu.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5X2AQ",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PSvAWAW-headergd.jpg"
+    },
+    {
+      "title": "Inspiration of Kyoto, Cécile Gray x Kanmaki",
+      "year": "2022",
+      "technique": "dorure à chaud et pliage de papier washi",
+      "description": "Une grille dorée imprimée à chaud sur papier washi par Kansai Makitori, en une cinquantaine d'exemplaires, que Cécile Gray plie en textures en trois dimensions. Exposé à la Paris Design Week en septembre 2022, puis au Japon.",
+      "url": "https://cecilegray.fr/projets/2022-iok/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecile-gray-IOK-19.jpg"
+    },
+    {
+      "title": "Small metal mesh vase (petit vase en maille)",
+      "year": "",
+      "technique": "maille métallique",
+      "description": "Vase assemblé entièrement à la main, en fils d'acier reliés par des centaines de petites perles métalliques. Il est souple et reprend sa forme après manipulation.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5W2AQ",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PSvBWAW-headergd.jpg"
+    },
+    {
+      "title": "Metalmesh plastron",
+      "year": "",
+      "technique": "maille métallique, perles dorées serties",
+      "description": "Plastron en fils d'acier reliés par des perles dorées serties, avec une collerette autour du buste et une finition en cristaux Swarovski à l'encolure.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5V2AQ",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PSvCWAW-headergd.jpg"
+    },
+    {
+      "title": "Metalmesh blouse",
+      "year": "",
+      "technique": "maille métallique croisée",
+      "description": "Un bijou pensé comme un vêtement : blouse à manches bouffantes, en centaines de fils d'acier reliés par des perles dorées serties, selon un motif croisé.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5Z2AQ",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PSv8WAG-headergd.jpg"
+    },
+    {
+      "title": "Pièce unique, robe-bijou",
+      "year": "2023",
+      "technique": "maille métallique",
+      "description": "Robe-bijou réalisée sur commande pour une cliente particulière, dans sa maille métallique signature.",
+      "url": "https://cecilegray.fr/projets/2023-robe-maille/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/2023_09_14_Cecile-Gray-370c.jpg"
+    },
+    {
+      "title": "Murmuration",
+      "year": "2023",
+      "technique": "maille métallique, broches",
+      "description": "Installation collective d'une soixantaine de broches réalisées en duo, formant une « murmuration » de 4 mètres pour le Parcours Bijoux. Avec la ciseleuse Lucille Grandchamp, l'Atelier Fables, le designer Xavier Montoy et l'Atelier Sumbiosis, anciens résidents des Ateliers de Paris.",
+      "url": "https://cecilegray.fr/projets/2023-parcours-bijoux",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecilegray-lucillegrandchamp_4-1024x1024.jpg"
+    },
+    {
+      "title": "Les Places d'Or, scénographie",
+      "year": "2024",
+      "technique": "maille de fibres de papier et de fil d'or",
+      "description": "Vitrine pensée comme une petite architecture pour le salon Les Places d'Or : quatre flacons habillés de motifs géométriques sur mesure, en fibres naturelles de papier et fin fil d'or.",
+      "url": "https://cecilegray.fr/projets/2024-places-dor/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecilegray_placesdor2024_04-667x1024.jpg"
+    },
+    {
+      "title": "Cécile Gray x Léclisse",
+      "year": "2025",
+      "technique": "maille métallique tissée à la main, cuir",
+      "description": "Deux sacs pièces uniques avec la maison Léclisse de Fanny Serouart, en cuir, bois et métal, dont un en maille métallique qui a demandé des dizaines d'heures de tissage.",
+      "url": "https://cecilegray.fr/projets/2025-cecilegray-x-leclisse/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecilegray_leclisse_06-1-scaled.jpg"
+    },
+    {
+      "title": "Au cœur de la matière",
+      "year": "2025",
+      "technique": "maille métallique",
+      "description": "Recherche sur les possibilités de la maille métallique : transparence, variations de texture, souplesse et structure.",
+      "url": "https://cecilegray.fr/projets/mailles-metalliques/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecilegray_matiere_10.jpg"
+    },
+    {
+      "title": "Cécile Gray x De Latour & Maïques",
+      "year": "2026",
+      "technique": "grille métallique, contrecollage de soie et de dentelle, découpe numérique",
+      "description": "Collection capsule avec le duo Vincent De Latour et Claire Maïques : la grille métallique de Cécile Gray rencontre des pétales de soie et de dentelle, avec des dégradés d'or et d'argent, pour la mode, la haute couture et l'architecture d'intérieur.",
+      "url": "https://cecilegray.fr/projets/cgxdlm/",
+      "imageUrl": "https://cecilegray.fr/wp-content/uploads/cecilegray-x-delatour-maiques_01.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "2016", "kind": "formation", "label": "Après environ sept ans en architecture, reconversion et formation de styliste à l'Atelier Chardon Savard" },
+    { "date": "2018", "kind": "oeuvre", "label": "Collection de fin d'études à l'Atelier Chardon Savard, premiers vêtements en maille métallique dorée" },
+    { "date": "2018-04", "kind": "prix", "label": "Prix du public, catégorie accessoires, au 33e Festival de mode de Hyères" },
+    { "date": "2019", "kind": "vie", "label": "Création de son studio Cécile Gray à Paris" },
+    { "date": "2020-09", "kind": "residence", "label": "Résidence à l'Hôtel Expérimenta, en Limousin : prototypes de vases-bijoux en maille" },
+    { "date": "2020", "kind": "exposition", "label": "Vitrines de la boutique Shang Xia, rue de Sèvres à Paris" },
+    { "date": "2021", "kind": "residence", "label": "Entrée à l'incubateur des Ateliers de Paris (BDMMA), jusqu'en 2023" },
+    { "date": "2021-07", "kind": "oeuvre", "label": "Panier à champagne « No pressure » en muselets pour Ruinart" },
+    { "date": "2022-09", "kind": "exposition", "label": "Exposition Inspiration of Kyoto à la Paris Design Week, puis au Japon en octobre" },
+    { "date": "2022-11", "kind": "prix", "label": "Lauréate du Prix des Artisanes ELLE x LVMH, métiers de la mode" },
+    { "date": "2023", "kind": "exposition", "label": "Installation « Murmuration » au Parcours Bijoux" },
+    { "date": "2024", "kind": "prix", "label": "Lauréate de la Fondation Banque Populaire, catégorie métiers d'art" },
+    { "date": "2024", "kind": "exposition", "label": "Scénographie de flacons au salon Les Places d'Or" },
+    { "date": "2025", "kind": "residence", "label": "Immersion Oui Design! de la Villa Albertine à New York" },
+    { "date": "2025", "kind": "oeuvre", "label": "Deux sacs pièces uniques avec la maison Léclisse" },
+    { "date": "2026", "kind": "oeuvre", "label": "Collection capsule avec l'Atelier De Latour & Maïques" },
+    { "date": "2026-08-27", "kind": "exposition", "label": "Résidence franco-finlandaise Crafted Connections, présentée dans la vitrine de Stockmann à Helsinki" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "Crafted Connections, Liens tissés à la Helsinki Design Week",
+      "summary": "Cécile Gray fait partie des artistes de la résidence franco-finlandaise créée par l'Institut français de Finlande avec les Manufactures nationales (Sèvres et Mobilier national). Les œuvres ont été dévoilées dans la vitrine du grand magasin Stockmann. Elle a aussi échangé avec Laura Väinölä, directrice artistique de Marimekko, lors de l'événement Design Diplomacy à l'ambassade de France.",
+      "place": "Vitrine Stockmann",
+      "city": "Helsinki",
+      "country": "Finlande",
+      "zone": "europe",
+      "startDate": "2026-08-27",
+      "endDate": "",
+      "url": "https://www.france.fi/fr/archives/helsinki-design-week-2026-crafted-connections-pahkinankuoressa/"
+    },
+    {
+      "kind": "actualite",
+      "title": "Collection capsule Cécile Gray x De Latour & Maïques",
+      "summary": "Une collaboration née sur un salon professionnel : la grille métallique de Cécile Gray associée aux pétales de soie et de dentelle contrecollés et à la découpe numérique du duo Vincent De Latour et Claire Maïques, avec des dégradés d'or et d'argent.",
+      "place": "Studio Cécile Gray",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026",
+      "endDate": "",
+      "url": "https://cecilegray.fr/projets/cgxdlm/"
+    }
+  ],
+  "sources": [
+    { "label": "Homo Faber, fiche de Cécile Gray", "url": "https://www.homofaber.com/en/artisans/ccile-gray-embroidery-france" },
+    { "label": "Homo Faber, Gold thread frames", "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5X2AQ" },
+    { "label": "Homo Faber, Small metal mesh vase", "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5W2AQ" },
+    { "label": "Homo Faber, Metalmesh plastron", "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5V2AQ" },
+    { "label": "Homo Faber, No pressure picnic basket for Ruinart", "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5Y2AQ" },
+    { "label": "Homo Faber, Metalmesh blouse", "url": "https://www.homofaber.com/en/objects/a1VTG000000ey5Z2AQ" },
+    { "label": "Cécile Gray, site du studio", "url": "https://cecilegray.fr" },
+    { "label": "Cécile Gray, à propos (CV)", "url": "https://cecilegray.fr/cv/" },
+    { "label": "Cécile Gray, projets", "url": "https://cecilegray.fr/projets/" },
+    { "label": "Cécile Gray, Et si le bijou prenait corps ?", "url": "https://cecilegray.fr/projets/bijoux-vetements/" },
+    { "label": "Cécile Gray, muselets Ruinart", "url": "https://cecilegray.fr/journal/muselets-ruinart/" },
+    { "label": "Cécile Gray, broderie métallique", "url": "https://cecilegray.fr/projets/2021-broderie-metallique/" },
+    { "label": "Cécile Gray, Inspiration of Kyoto", "url": "https://cecilegray.fr/projets/2022-iok/" },
+    { "label": "Cécile Gray, robe-bijou 2023", "url": "https://cecilegray.fr/projets/2023-robe-maille/" },
+    { "label": "Cécile Gray, Murmuration", "url": "https://cecilegray.fr/projets/2023-parcours-bijoux" },
+    { "label": "Cécile Gray, Les Places d'Or 2024", "url": "https://cecilegray.fr/projets/2024-places-dor/" },
+    { "label": "Cécile Gray, Léclisse", "url": "https://cecilegray.fr/projets/2025-cecilegray-x-leclisse/" },
+    { "label": "Cécile Gray, Au cœur de la matière", "url": "https://cecilegray.fr/projets/mailles-metalliques/" },
+    { "label": "Cécile Gray, collaboration De Latour & Maïques", "url": "https://cecilegray.fr/projets/cgxdlm/" },
+    { "label": "Cécile Gray, résidence Expérimenta", "url": "https://cecilegray.fr/journal/residence-hotel-experimenta/" },
+    { "label": "Cécile Gray, journal", "url": "https://cecilegray.fr/journal/" },
+    { "label": "Villa Albertine, Cécile Gray", "url": "https://villa-albertine.org/va/?p=3331198" },
+    { "label": "Gallifet Art Center, Cécile Gray", "url": "https://www.hoteldegallifet.com/en/p/288/cecile-gray" },
+    { "label": "BDMMA, incubateur des Ateliers de Paris", "url": "https://www.bdmma.paris/en/accompagnement/incubateur/cecile-gray/" },
+    { "label": "Maison du Savoir-Faire et de la Création, l'architecte des mailles métalliques", "url": "https://maisondusavoirfaire.com/en/magazine/cecile-gray-the-architect-of-metallic-knits" },
+    { "label": "Les Places d'Or, Cécile Gray entre technicité et sensibilité", "url": "https://www.lesplacesdor.com/cecile-gray-entre-technicite-et-sensibilite/" },
+    { "label": "Institut français de Finlande, Crafted Connections 2026", "url": "https://www.france.fi/fr/archives/helsinki-design-week-2026-crafted-connections-pahkinankuoressa/" }
+  ],
+  "researchNotes": "Orthographe : « Cécile Gray » est son nom d'atelier ; son nom de naissance est Cécile Gayraud (Villa Albertine, Gallifet, BDMMA, Maison du Savoir-Faire). Le lien Homo Faber s'écrit « ccile-gray » sans le é, c'est seulement l'adresse de la page. Date de naissance non publique. Les sources varient sur la durée en architecture (sept ans pour Homo Faber, la Villa Albertine et le BDMMA, huit pour Gallifet) et sur le début de sa carrière (2018 pour Homo Faber, technique développée dès 2017 selon Les Places d'Or). Le panier Ruinart est daté 2020 sur la page Projets et juillet 2021 dans le journal : 2021 retenu. La page IOK situe la seconde exposition à la Villa Murin-an « à Tokyo », alors que Murin-an est une villa de Kyoto : lieu à vérifier, d'où « au Japon ». Pour Crafted Connections, je n'ai pas trouvé avec qui elle était en binôme (une recherche cite Hanna-Kaisa Korolainen, non confirmé par la page lue), ni ce qu'elle a créé, ni la date de fin de l'exposition. Non lus en détail : collaboration Piaget (décembre 2023), exposition Symbiose (octobre 2023), Milan Design Week (avril 2024), participation à Première Vision (une page partenaire septembre 2025 renvoie une erreur 404). La page Homo Faber porte le bandeau de la biennale « An Island of Light » (Venise, septembre 2026) sans preuve qu'elle y exposait. Les années des pièces Homo Faber (vase, plastron, blouse) ne sont pas données. Pas de fiche Ateliers d'Art de France, INMA ou EPV trouvée à son nom."
+}

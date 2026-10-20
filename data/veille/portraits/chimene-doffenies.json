@@ -1,0 +1,125 @@
+{
+  "name": "Chimène Doffenies",
+  "country": "France",
+  "city": "Chaon",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "broderie main",
+    "broderie de Lunéville",
+    "broderie d'art et broderie à l'aiguille",
+    "crochet traditionnel et crochet à la fourche",
+    "dentelle d'Irlande au crochet",
+    "plumasserie (plumes à plat, boas, incrustations)",
+    "manipulations textiles (couper, torsader, chauffer, brosser, déchirer, tresser, brûler)",
+    "enfilage traditionnel de perles"
+  ],
+  "summary": "Brodeuse, crocheteuse et plumassière installée à Chaon, en Loir-et-Cher, Chimène Doffenies signe son travail « Chimène D ». Elle réalise des échantillons, prototypes et petites séries pour les grandes maisons de luxe, et mène en parallèle « La Nomade », des toiles où la plume remplace la peinture.",
+  "biography": "Chimène Doffenies apprend le crochet enfant, auprès de sa mère. Elle se tourne vers la broderie après avoir quitté un emploi qui ne lui plaisait pas, et commence sa carrière professionnelle par un travail sur une robe Dior. Selon sa fiche ARTactif, elle s'est formée directement au sein de la Maison Lemarié, la maison parisienne de plumasserie et de fleurs.\n\nFin 2019, elle crée sa société, Chimène D, d'abord à Saint-Cyr-en-Val, près d'Orléans, puis ouvre son atelier en 2020. Début 2023, l'entreprise s'installe à Chaon, en Sologne (Loir-et-Cher). Elle se présente comme une « brodeuse éclectique » : broderie de Lunéville, broderie à l'aiguille, crochet traditionnel ou à la fourche, dentelle d'Irlande, plumasserie et enfilage de perles. Tout ce qui se pique ou se brode l'intéresse : rubans, perles, sequins, plumes, laine, tulle, strass, carton, papier ou impressions 3D, qu'elle coupe, torsade, chauffe, brosse, déchire, tresse ou brûle pour obtenir des effets piquants ou des imitations de fourrure.\n\nElle travaille pour les grandes maisons du luxe et affiche parmi ses références YSL, Dior, Givenchy, Chanel, Vauthier, Valentino, Margiela et Fendi. Sur son site, elle cite notamment Margiela/Galliano (2018), Chanel Haute Couture (2021) et la collection Renaissance Couture de Balmain avec Beyoncé (2023). En 2021, elle participe au défilé du Salon du Chocolat de Paris avec la créatrice Elsa Muse et le chef pâtissier François Daubinet : une robe haute couture en chocolat, environ 3 000 disques et 70 heures de broderie. Elle développe aussi ses propres galons, passepoils et appliqués pour les professionnels du textile.\n\nSes pièces présentées par Homo Faber montrent son goût pour le mélange des savoir-faire : un ruban de plumes de paon, une cape en cuir d'agneau aux finitions crochetées réalisée avec un fourreur d'Orléans, une ombrelle brodée de perles dorées, chatons et lurex sur acétate bleu électrique, un éventail brodé de motifs abstraits avec l'un des derniers éventaillistes français, et « Skull #2 », un décor mural en plumes de faisan qui se lit comme un crâne ou comme un papillon.\n\nSon projet personnel, « La Nomade », est une série de toiles murales où les plumes, sur fond noir, sont utilisées comme de la peinture : leurs reflets verts, bleus, or et violets changent avec la lumière. La première série tourne autour du cercle ; les suivantes passent au relief et aux objets. Ces toiles ont été exposées à l'automne 2025 à la Maison du Braconnage de Chaon.",
+  "website": "https://chimened.com",
+  "instagram": "https://www.instagram.com/chimened",
+  "photoUrl": "https://chimened.com/wp-content/uploads/28234997_10215881187488760_3801757867782229436_o-683x1024.jpg",
+  "works": [
+    {
+      "title": "Peacock ribbon (ruban de plumes de paon)",
+      "year": "",
+      "technique": "plumasserie",
+      "description": "Ruban fait de plumes de paon vertes imbriquées les unes dans les autres. Au soleil, le vert vire au bleu ou à l'or. Homo Faber le propose comme textile pour un abat-jour.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cm2AI",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YLTG0000000IbF4AU-null.jpg"
+    },
+    {
+      "title": "Leather cape (cape en cuir)",
+      "year": "",
+      "technique": "crochet et assemblage sur cuir",
+      "description": "Cape en cuir d'agneau marron, avec des finitions crochetées et des jonctions rayées en fibre de coton marron. Réalisée en collaboration avec un fourreur d'Orléans.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cp2AI",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YLTG0000000Ig54AE-null.jpg"
+    },
+    {
+      "title": "Umbrella (ombrelle brodée)",
+      "year": "",
+      "technique": "broderie perlée",
+      "description": "Motif inspiré du cachemire, brodé de perles dorées, de chatons et de lurex sur un fond d'acétate bleu électrique.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cl2AI",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YLTG0000000IZd4AM-null.jpg"
+    },
+    {
+      "title": "Skull #2",
+      "year": "",
+      "technique": "plumasserie",
+      "description": "Décor mural en plumes de faisan utilisées à la place de la peinture. Illusion d'optique : on y voit un crâne ou un papillon. Au soleil, le bordeaux tire sur le vin et le vert sur l'or.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cn2AI",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YLTG0000000Icr4AE-null.jpg"
+    },
+    {
+      "title": "Embroidered fan (éventail brodé)",
+      "year": "",
+      "technique": "broderie",
+      "description": "Éventail en coton bleu brodé de motifs abstraits multicolores, réalisé avec l'un des derniers éventaillistes français.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Co2AI",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YLTG0000000IeT4AU-null.jpg"
+    },
+    {
+      "title": "Robe en chocolat du Salon du Chocolat",
+      "year": "2021",
+      "technique": "broderie de disques de chocolat",
+      "description": "Robe « haute couture » dessinée par Elsa Muse, réalisée avec le chef pâtissier François Daubinet pour le défilé du Salon du Chocolat de Paris : environ 3 000 disques de chocolat et 70 heures de broderie dans un atelier froid, en octobre.",
+      "url": "https://www.homofaber.com/en/artisans/chimene-doffenies-bbsw2a",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Nomade, toiles de plumes",
+      "year": "2025",
+      "technique": "plumasserie sur toile",
+      "description": "Projet artistique personnel : des toiles murales sur fond noir où chaque plume est choisie, coupée et travaillée comme une touche de peinture. Une première série autour du cercle, d'inspiration ethnique et graphique, puis des motifs à plat ou en relief, jusqu'aux objets. Exposée à la Maison du Braconnage de Chaon à l'automne 2025.",
+      "url": "https://chimened.com/la-nomade/",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "2017", "kind": "vie", "label": "Début de sa carrière professionnelle, avec un travail sur une robe Dior" },
+    { "date": "2018", "kind": "oeuvre", "label": "Travail pour Margiela, sous la direction de John Galliano" },
+    { "date": "2019-12-18", "kind": "autre", "label": "Création de sa société Chimène D à Saint-Cyr-en-Val (Loiret)" },
+    { "date": "2020", "kind": "vie", "label": "Ouverture de son propre atelier" },
+    { "date": "2020", "kind": "prix", "label": "Obtient le label Artisan d'art (selon ARTactif)" },
+    { "date": "2021", "kind": "oeuvre", "label": "Travail pour Chanel Haute Couture" },
+    { "date": "2021-10-28", "kind": "oeuvre", "label": "Robe en chocolat avec Elsa Muse et François Daubinet au défilé du Salon du Chocolat de Paris" },
+    { "date": "2023-01", "kind": "vie", "label": "L'atelier s'installe à Chaon, en Loir-et-Cher" },
+    { "date": "2023", "kind": "oeuvre", "label": "Participation à la collection Balmain x Beyoncé, Renaissance Couture" },
+    { "date": "2025-09", "kind": "exposition", "label": "Exposition « La Nomade, toiles de plumes » à la Maison du Braconnage de Chaon, jusqu'au 11 novembre 2025" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "La Nomade, toiles de plumes by Chimène D",
+      "summary": "Exposition de ses toiles murales en plumes, où les reflets changent avec la lumière, dans le cadre de la saison d'automne de la Maison du Braconnage.",
+      "place": "Maison du Braconnage",
+      "city": "Chaon",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2025-09-03",
+      "endDate": "2025-11-11",
+      "url": "https://www.agenda-des-sorties.com/detail.php?id=325507"
+    }
+  ],
+  "sources": [
+    { "label": "Homo Faber, fiche de Chimène Doffenies", "url": "https://www.homofaber.com/en/artisans/chimene-doffenies-bbsw2a" },
+    { "label": "Homo Faber, Peacock ribbon", "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cm2AI" },
+    { "label": "Homo Faber, Leather cape", "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cp2AI" },
+    { "label": "Homo Faber, Umbrella", "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cl2AI" },
+    { "label": "Homo Faber, Skull #2", "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Cn2AI" },
+    { "label": "Homo Faber, Embroidered fan", "url": "https://www.homofaber.com/en/objects/a1VTG000000f1Co2AI" },
+    { "label": "Chimène D, site officiel", "url": "https://chimened.com" },
+    { "label": "Chimène D, portrait « Brodeuse éclectique »", "url": "https://chimened.com/broderie-crochet-plumasserie-technicienne/" },
+    { "label": "Chimène D, savoir-faire et références", "url": "https://chimened.com/savoir-faire/" },
+    { "label": "Chimène D, La Nomade", "url": "https://chimened.com/la-nomade/" },
+    { "label": "Chimène D, contact", "url": "https://chimened.com/contact/" },
+    { "label": "Societe.com, fiche de la société CHIMENE D", "url": "https://www.societe.com/societe/chimene-d-879916120.html" },
+    { "label": "ARTactif, La Nomade by Chimène D", "url": "https://www.artactif.com/artistes/la-nomade-by-chimene-d/" },
+    { "label": "Agenda des sorties, exposition La Nomade à Chaon", "url": "https://www.agenda-des-sorties.com/detail.php?id=325507" },
+    { "label": "Paris Zigzag, Salon du Chocolat 2021", "url": "https://www.pariszigzag.fr/?p=131881" }
+  ],
+  "researchNotes": "Orthographe confirmée : « Chimène Doffenies » (è accentué, pas d'accent sur Doffenies), d'après les annonces légales reprises par Societe.com et la fiche Homo Faber. Elle signe « Chimène D » ou « Chimène D. ». Date de naissance non publique. Homo Faber se contredit sur le début de carrière (2015 dans un passage, 2017 ailleurs) ; 2017 est retenu. La formation chez Lemarié et le label Artisan d'art (2020) ne viennent que de la fiche ARTactif, à recouper. Les références de maisons (Margiela/Galliano 2018, Chanel 2021, Balmain x Beyoncé 2023) viennent de son propre site, sans détail sur son rôle exact. La presse sur le Salon du Chocolat 2021 parle d'une robe de 1 200 pièces en chocolat portée par Alicia Aylies, alors qu'Homo Faber dit 3 000 disques : chiffre à vérifier. Les dates de l'exposition La Nomade varient sur la page (3 ou 11 septembre 2025). Son site parle à la fois du Loiret et de Chaon (Loir-et-Cher) : l'adresse actuelle est bien à Chaon (41). La page Homo Faber porte le bandeau de la biennale « An Island of Light » (Venise, 1er au 30 septembre 2026), mais je n'ai pas pu confirmer qu'elle y exposait. Les années des œuvres Homo Faber ne sont pas indiquées. Images de La Nomade et de la robe en chocolat non retenues faute de légende vérifiable. Pas trouvé de fiche Ateliers d'Art de France, INMA ou EPV à son nom (l'ancien annuaire-metiersdart.com redirige vers l'annuaire de l'Institut pour les savoir-faire français, non consulté)."
+}

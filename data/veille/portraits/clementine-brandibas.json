@@ -1,78 +1,836 @@
 {
   "name": "Clémentine Brandibas",
-  "country": "France", "city": "Hostens", "zone": "france",
-  "birthDate": "1989", "deathDate": "",
-  "techniques": ["broderie à l'aiguille", "teinture et peinture sur soie", "marouflage de plumes", "crochet de Lunéville", "inclusion de matières (nacre, coquillages, perles, fil de pêche, rhodoïd)"],
+  "country": "France",
+  "city": "Hostens",
+  "zone": "france",
+  "birthDate": "1989",
+  "deathDate": "",
+  "techniques": [
+    "broderie à l'aiguille",
+    "teinture et peinture sur soie",
+    "marouflage de plumes",
+    "crochet de Lunéville",
+    "inclusion de matières (nacre, coquillages, perles, fil de pêche, rhodoïd)"
+  ],
   "summary": "Brodeuse « organique » installée à Hostens, en Gironde, Clémentine Brandibas brode à l'aiguille des paysages miniatures inspirés de la nature, sur des soies qu'elle teint et peint elle-même. Elle a inventé sa propre technique de marouflage de plumes.",
-  "biography": "Clémentine Brandibas est née en 1989 à Toulouse. Elle dessine et peint beaucoup avant de découvrir la broderie en 2006. Elle obtient en 2011 un DMA textile option broderie à l'École Duperré, à Paris, et se forme aussi au crochet de Lunéville à l'école Lesage. Elle se dit pourtant autodidacte dans sa façon de travailler : elle détourne les méthodes apprises, remet au goût du jour des points oubliés et avance par l'observation et l'essai.\n\nSa carrière commence en 2012. En 2016, la créatrice de haute couture Yiqing Yin fait appel à elle, et cette collaboration lui permet de se consacrer pleinement à la broderie d'art. Elle a aussi travaillé avec un ébéniste, une créatrice de mode et la créatrice de masques Muriel Nisse.\n\nSon univers vient de la nature, du microcosme au macrocosme : glaciers, écume, récifs, ciels étoilés, paysages lunaires. Elle parle de biomimétisme et d'évocations poétiques de paysages organiques. Elle teint et peint ses soies, puis brode à l'aiguille en y glissant des matières qu'elle récolte. Les plumes sont l'une de ses matières préférées : elle a mis au point le marouflage de plumes, qui joue sur les découpes et les nuances. Elle dit aussi s'inspirer de la peinture et de la philosophie chinoises.\n\nParmi ses œuvres marquantes, on trouve Voie lactée (2016), Monts de Vénus (2017), primée en 2018, Glacier et Écumes (2018), Abysses (2019) et Condensation des souffles (2020). Écumes, broderie à l'aiguille sur soie teinte qui évoque la texture de l'océan, a été adaptée en papier peint panoramique par la manufacture Isidore Leroy. En 2018, elle reçoit le Prix Jeune Création Métiers d'art et le prix régional Nouvelle-Aquitaine des Ateliers d'Art de France.\n\nElle expose régulièrement en salon et en galerie : Révélations au Grand Palais, Résonance[s] à Strasbourg, Homo Faber à Venise en 2022 (Next of Europe) puis en 2024, l'exposition Mémoire Désir au Centre d'art de l'Hôtel de Gallifet à Aix-en-Provence, ou encore le Bon Marché à Paris en 2023. En 2025, elle est de nouveau à Révélations et devient lauréate du programme de mobilité internationale de recherche artistique de l'Institut français, catégorie Métiers d'art.",
+  "biography": "Clémentine Brandibas est née en 1989 à Toulouse. Elle dessine et peint beaucoup avant de découvrir la broderie en 2006. Elle obtient en 2011 un DMA textile option broderie à l'École Duperré, à Paris, et se forme aussi au crochet de Lunéville à l'école Lesage. Elle se dit pourtant autodidacte dans sa façon de travailler : elle détourne les méthodes apprises, remet au goût du jour des points oubliés et avance par l'observation et l'essai.\n\nSa carrière commence en 2012. En 2016, la créatrice de haute couture Yiqing Yin fait appel à elle, et cette collaboration lui permet de se consacrer pleinement à la broderie d'art. Elle a aussi travaillé avec un ébéniste, une créatrice de mode et la créatrice de masques Muriel Nisse.\n\nSon univers vient de la nature, du microcosme au macrocosme : glaciers, écume, récifs, ciels étoilés, paysages lunaires. Elle parle de biomimétisme et d'évocations poétiques de paysages organiques. Elle teint et peint ses soies, puis brode à l'aiguille en y glissant des matières qu'elle récolte. Les plumes sont l'une de ses matières préférées : elle a mis au point le marouflage de plumes, qui joue sur les découpes et les nuances. Elle dit aussi s'inspirer de la peinture et de la philosophie chinoises.\n\nParmi ses œuvres marquantes, on trouve Voie lactée (2016), Monts de Vénus (2017), primée en 2018, Glacier et Écumes (2018), Abysses (2019) et Condensation des souffles (2020). Écumes, broderie à l'aiguille sur soie teinte qui évoque la texture de l'océan, a été adaptée en papier peint panoramique par la manufacture Isidore Leroy. En 2018, elle reçoit le Prix Jeune Création Métiers d'art et le prix régional Nouvelle-Aquitaine des Ateliers d'Art de France.\n\nElle expose régulièrement en salon et en galerie : Révélations au Grand Palais, Résonance[s] à Strasbourg, Homo Faber à Venise en 2022 (Next of Europe) puis en 2024, l'exposition Mémoire Désir au Centre d'art de l'Hôtel de Gallifet à Aix-en-Provence, ou encore le Bon Marché à Paris en 2023. En 2025, elle est de nouveau à Révélations et devient lauréate du programme de mobilité internationale de recherche artistique de l'Institut français, catégorie Métiers d'art.\n\nSon site présente une quarantaine d'œuvres datées de 2012 à 2020, souvent encadrées en 30, 40 ou 50 cm, avec des séries comme Fata Morgana et Icônes, et une installation de 1,50 m de diamètre, Avant que le ciel ne s'effondre (2019). Sur sa fiche Homo Faber, elle montre aussi deux tableaux plus récents, Origine I et Origine II, en marqueterie de plumes sur papier peint : l'un part d'une recherche sur les iris de l'œil, l'autre des récits de la naissance du cosmos. En novembre 2026, elle figure parmi les exposants du salon Résonance[s] à Strasbourg.",
   "website": "https://www.clementinebrandibas.com",
   "instagram": "https://www.instagram.com/clementinebrandibas/",
   "photoUrl": "https://static.wixstatic.com/media/790b23_6aee21237aee4be7ac5eb4edae856201~mv2.jpg",
   "works": [
-    { "title": "Écumes", "year": "2018", "technique": "Broderie à l'aiguille sur soie teinte", "description": "Composition fluide de lignes fines et de minuscules points qui explore la texture de l'océan. Cadre 50 x 50 cm, partie brodée de 32 cm de diamètre. Présentée à Homo Faber 2022 et adaptée en papier peint panoramique par Isidore Leroy.", "url": "https://www.clementinebrandibas.com/ecumes", "imageUrl": "https://static.wixstatic.com/media/790b23_34f39f8dc8fd4dc5adb8f701d9bec59c~mv2.jpg" },
-    { "title": "Monts de Vénus", "year": "2017", "technique": "Broderie", "description": "Cadre 50 x 50 cm, partie brodée de 34 cm de diamètre. Lauréate Nouvelle-Aquitaine du concours des Ateliers d'Art de France 2018, catégorie Patrimoine. Vendue.", "url": "https://www.clementinebrandibas.com/montsdevenus", "imageUrl": "https://static.wixstatic.com/media/790b23_2ec8753dd37640cca31ae8bb5616fc06~mv2.jpg" },
-    { "title": "Voie lactée", "year": "2016", "technique": "Broderie", "description": "Cadre 50 x 50 cm, partie brodée de 22 cm de diamètre. Exposée à l'Institut culturel Bernard Magrez à Bordeaux en 2017. Vendue.", "url": "https://www.clementinebrandibas.com/voie-lactee", "imageUrl": "https://static.wixstatic.com/media/790b23_61c2c05846584dfca6702e55d5a46c00~mv2.jpg" },
-    { "title": "Glacier", "year": "2018", "technique": "Broderie", "description": "Cadre 50 x 50 cm, partie brodée de 29 cm de diamètre. Vendue.", "url": "https://www.clementinebrandibas.com/glacier", "imageUrl": "https://static.wixstatic.com/media/790b23_4c5fb4088eb54e3c9199621a925efb16~mv2.jpg" },
-    { "title": "Abysses", "year": "2019", "technique": "Broderie", "description": "Cadre 40 x 40 cm. Vendue.", "url": "https://www.clementinebrandibas.com/abysses", "imageUrl": "https://static.wixstatic.com/media/790b23_8578390da39e42eb85e9f50e4db95060~mv2.jpg" },
-    { "title": "Condensation des souffles", "year": "2020", "technique": "Broderie", "description": "Cadre 40 x 40 cm. Vendue.", "url": "https://www.clementinebrandibas.com/condensationdessouffles", "imageUrl": "https://static.wixstatic.com/media/790b23_81733be58e314d838dd1d82b96a3676f~mv2.jpg" },
-    { "title": "Le serpent qui danse", "year": "2020", "technique": "Broderie", "description": "Cadre 40 x 40 cm. Vendue.", "url": "https://www.clementinebrandibas.com/leserpentquidanse", "imageUrl": "https://static.wixstatic.com/media/790b23_28ca7fa16a9b4e298985ba8a89c3ec49~mv2.jpg" },
-    { "title": "Coalescence", "year": "2020", "technique": "Broderie", "description": "Série Fata Morgana. Cadre 30 x 30 cm. Montrée à l'Hôtel de Gallifet (Aix-en-Provence).", "url": "https://www.clementinebrandibas.com/coalescence", "imageUrl": "https://static.wixstatic.com/media/790b23_93ea871fa8d34dc99a026320a2d6a0a9~mv2.jpg" },
-    { "title": "Phoenix", "year": "2012", "technique": "Broderie", "description": "Cadre 50 x 50 cm, partie brodée de 46 x 40 cm. Vendue.", "url": "https://www.clementinebrandibas.com/phoenix", "imageUrl": "https://static.wixstatic.com/media/790b23_e8f132fa39094abf996db28d895b6387~mv2.jpg" }
+    {
+      "title": "Écumes",
+      "year": "2018",
+      "technique": "Broderie à l'aiguille sur soie teinte",
+      "description": "Composition fluide de lignes fines et de minuscules points qui explore la texture de l'océan. Cadre 50 x 50 cm, partie brodée de 32 cm de diamètre. Présentée à Homo Faber 2022 et adaptée en papier peint panoramique par Isidore Leroy.",
+      "url": "https://www.clementinebrandibas.com/ecumes",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_34f39f8dc8fd4dc5adb8f701d9bec59c~mv2.jpg"
+    },
+    {
+      "title": "Monts de Vénus",
+      "year": "2017",
+      "technique": "Broderie à l'aiguille sur soie teinte",
+      "description": "Cadre 50 x 50 cm, partie brodée de 34 cm de diamètre. Lauréate Nouvelle-Aquitaine du concours des Ateliers d'Art de France 2018, catégorie Patrimoine. Vendue. Inspirée de la structure organique des coquillages (fiche Homo Faber).",
+      "url": "https://www.clementinebrandibas.com/montsdevenus",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_2ec8753dd37640cca31ae8bb5616fc06~mv2.jpg"
+    },
+    {
+      "title": "Voie lactée",
+      "year": "2016",
+      "technique": "Broderie",
+      "description": "Cadre 50 x 50 cm, partie brodée de 22 cm de diamètre. Exposée à l'Institut culturel Bernard Magrez à Bordeaux en 2017. Vendue.",
+      "url": "https://www.clementinebrandibas.com/voie-lactee",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_61c2c05846584dfca6702e55d5a46c00~mv2.jpg"
+    },
+    {
+      "title": "Glacier",
+      "year": "2018",
+      "technique": "Broderie à l'aiguille sur soie teinte",
+      "description": "Cadre 50 x 50 cm, partie brodée de 29 cm de diamètre. Vendue. Inspirée des différents processus de cristallisation (fiche Homo Faber).",
+      "url": "https://www.clementinebrandibas.com/glacier",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_4c5fb4088eb54e3c9199621a925efb16~mv2.jpg"
+    },
+    {
+      "title": "Abysses",
+      "year": "2019",
+      "technique": "Broderie à l'aiguille sur soie teinte",
+      "description": "Cadre 40 x 40 cm. Vendue. Inspirée de l'univers organique des abysses (fiche Homo Faber).",
+      "url": "https://www.clementinebrandibas.com/abysses",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_8578390da39e42eb85e9f50e4db95060~mv2.jpg"
+    },
+    {
+      "title": "Condensation des souffles",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/condensationdessouffles",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_81733be58e314d838dd1d82b96a3676f~mv2.jpg"
+    },
+    {
+      "title": "Le serpent qui danse",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/leserpentquidanse",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_28ca7fa16a9b4e298985ba8a89c3ec49~mv2.jpg"
+    },
+    {
+      "title": "Coalescence",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Fata Morgana. Cadre 30 x 30 cm. Montrée à l'Hôtel de Gallifet (Aix-en-Provence).",
+      "url": "https://www.clementinebrandibas.com/coalescence",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_93ea871fa8d34dc99a026320a2d6a0a9~mv2.jpg"
+    },
+    {
+      "title": "Phoenix",
+      "year": "2012",
+      "technique": "Broderie",
+      "description": "Cadre 50 x 50 cm, partie brodée de 46 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/phoenix",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_e8f132fa39094abf996db28d895b6387~mv2.jpg"
+    },
+    {
+      "title": "Origine I",
+      "year": "",
+      "technique": "Marqueterie de plumes sur papier peint",
+      "description": "Tableau mural encadré, fait main, issu d'une recherche sur les iris de l'œil et la transformation de la plume. Présenté sur sa fiche Homo Faber.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezw92AA",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PPihWAG-headergd.jpg"
+    },
+    {
+      "title": "Origine II",
+      "year": "",
+      "technique": "Marqueterie de plumes sur papier peint",
+      "description": "Tableau mural encadré, fait main, inspiré des récits de la naissance du cosmos. Présenté sur sa fiche Homo Faber.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezwA2AQ",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PPigWAG-headergd.jpg"
+    },
+    {
+      "title": "Terres promises",
+      "year": "2016",
+      "technique": "Broderie",
+      "description": "Œuvre commencée en 2016 et toujours en cours de réalisation selon son site.",
+      "url": "https://www.clementinebrandibas.com/terrespromises",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_3992be6e69e14cf5af0dc83448da58e4~mv2_d_3620_3616_s_4_2.jpg"
+    },
+    {
+      "title": "Météorite",
+      "year": "2016",
+      "technique": "Broderie",
+      "description": "Cadre 50 x 50 cm, partie brodée de 24 cm de diamètre. Vendue.",
+      "url": "https://www.clementinebrandibas.com/meteorite",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_bea327e27fbc4096b9d04341c2fc2555~mv2_d_3498_3462_s_4_2.jpg"
+    },
+    {
+      "title": "Paysage lunaire",
+      "year": "2016",
+      "technique": "Broderie",
+      "description": "Cadre 50 x 50 cm, partie brodée de 15 cm de diamètre. Vendue.",
+      "url": "https://www.clementinebrandibas.com/paysage-lunaire",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_75ebb28d7fe14c62862a6b37033f9f4d~mv2_d_3270_3210_s_4_2.jpg"
+    },
+    {
+      "title": "Entre ciel et mer",
+      "year": "2017",
+      "technique": "Broderie",
+      "description": "Cadre 50 x 50 cm, partie brodée de 24 cm de diamètre. Vendue.",
+      "url": "https://www.clementinebrandibas.com/entrecieletmer",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_64230e0bb7a04541b36dd9e1e3add6f9~mv2_d_3606_3648_s_4_2.jpg"
+    },
+    {
+      "title": "Paradis blanc",
+      "year": "2018",
+      "technique": "Broderie",
+      "description": "Cadre 50 x 50 cm, partie brodée de 25 cm de diamètre. Vendue.",
+      "url": "https://www.clementinebrandibas.com/paradisblanc",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_9a9c9deb435645e6866a2f0c5f796df2~mv2_d_3412_3380_s_4_2.jpg"
+    },
+    {
+      "title": "Eaux douces",
+      "year": "2018",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/eauxdouces",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_45e74f2b86824b8ab20cbdde860e76e7~mv2_d_3606_3648_s_4_2.jpg"
+    },
+    {
+      "title": "Skye",
+      "year": "2018",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/skye",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_be52f72bdd664190909e8e8299f30f69~mv2_d_3618_3546_s_4_2.jpg"
+    },
+    {
+      "title": "Avant que le ciel ne s'effondre",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Installation de 1,50 m de diamètre.",
+      "url": "https://www.clementinebrandibas.com/copie-de-ciel-n-2",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_2187537a72cd4deb82be89067b156ec6~mv2_d_3652_3595_s_4_2.jpg"
+    },
+    {
+      "title": "Kokoro Munashiku",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/kokoromunashiku",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_288b6a8d0bb746f5aaa85a8166b1e738~mv2_d_3615_3516_s_4_2.jpg"
+    },
+    {
+      "title": "Blizzard",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/blizzard",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_f40294e27afe40da8ba0d99c4ecea3f5~mv2_d_3252_3180_s_4_2.jpg"
+    },
+    {
+      "title": "Récif",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 40 x 40 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-ciel-n-4",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_93401bcf1943453ab84e76afc1c187a7~mv2.jpg"
+    },
+    {
+      "title": "Abîme",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/abime",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_58b8fc8842604f0792357bf01857076e~mv2_d_3341_3257_s_4_2.jpg"
+    },
+    {
+      "title": "Cendres",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/cendres",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_b9a8c676e16a4dcdb60aef024778bb69~mv2_d_3341_3257_s_4_2.jpg"
+    },
+    {
+      "title": "Grande Ourse",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-ciel-n-1",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_c8661cb702124dfa94cbed9eededb9ed~mv2_d_3590_3269_s_4_2.jpg"
+    },
+    {
+      "title": "L'Heure bleue",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-grande-ourse",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_dab00c90f1c24405bd2124e76c902b19~mv2_d_3642_3690_s_4_2.jpg"
+    },
+    {
+      "title": "L'Heure dorée",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/copie-de-l-heure-bleue",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_5a97d0237ae04ef0883edc9b2724c5b1~mv2_d_3579_3410_s_4_2.jpg"
+    },
+    {
+      "title": "Géantes bleues",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/copie-de-recif",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_0e4233909eac42f5a23d05792ab59a5d~mv2_d_3077_3132_s_4_2.jpg"
+    },
+    {
+      "title": "Relique céleste",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-geantes-bleues",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_a4b395a9c3ca4f049cd2150459cef7f6~mv2_d_2884_2891_s_4_2.jpg"
+    },
+    {
+      "title": "Rayonnement",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-relique-celeste",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_f9ab14d79738471e88821ad6c0b0d7e8~mv2_d_3263_3228_s_4_2.jpg"
+    },
+    {
+      "title": "Ciel n°1",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-rayonnement",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_b258853d9da84145a9c864eef96762f5~mv2_d_1513_1500_s_2.jpg"
+    },
+    {
+      "title": "Ciel n°4",
+      "year": "2019",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/copie-de-skye",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_067e13ca189b4385b607e358cd42ba4a~mv2_d_3169_3223_s_4_2.jpg"
+    },
+    {
+      "title": "Éther",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Fata Morgana. Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/ether",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_c81bde3954d541f58d6269ecc3608456~mv2.jpg"
+    },
+    {
+      "title": "L'Île suspendue",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Fata Morgana. Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/lilesuspendue",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_be564485cdd34b438c86b4f0875fc099~mv2.jpg"
+    },
+    {
+      "title": "Vestige",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Fata Morgana. Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/vestige",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_672688f598114f9b925fd35fb5dfd02f~mv2.jpg"
+    },
+    {
+      "title": "Orohena",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/orohena",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_10f52eababf44888bbc85f1fb03f04eb~mv2.jpg"
+    },
+    {
+      "title": "Reflets",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Cadre 30 x 30 cm.",
+      "url": "https://www.clementinebrandibas.com/reflets",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_00725b98c0d14c5ab4700a6fe7307817~mv2.jpg"
+    },
+    {
+      "title": "Étreinte",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Cadre 22 x 22 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/etreinte",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_183b570195f843f0aff2389f49066208~mv2.jpg"
+    },
+    {
+      "title": "Terre n°1",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Icônes. Cadre 22 x 22 cm.",
+      "url": "https://www.clementinebrandibas.com/terre1",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_877cc59b0fe04066a6ebb77b3bc07a0d~mv2.jpg"
+    },
+    {
+      "title": "Terre n°2",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Icônes. Cadre 22 x 22 cm. Vendue.",
+      "url": "https://www.clementinebrandibas.com/terre2",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_78bc8fee5607486599266f1920491551~mv2.jpg"
+    },
+    {
+      "title": "Terre n°3",
+      "year": "2020",
+      "technique": "Broderie",
+      "description": "Série Icônes. Cadre 22 x 22 cm.",
+      "url": "https://www.clementinebrandibas.com/terre3",
+      "imageUrl": "https://static.wixstatic.com/media/790b23_effe5539229d46b98012b0e1ee21d3ac~mv2.jpg"
+    }
   ],
   "timeline": [
-    { "date": "1989", "kind": "vie", "label": "Naissance à Toulouse" },
-    { "date": "2006", "kind": "formation", "label": "Découvre la broderie, après des années de dessin et de peinture" },
-    { "date": "2011", "kind": "formation", "label": "DMA textile option broderie à l'École Duperré, Paris" },
-    { "date": "2012", "kind": "autre", "label": "Début de sa carrière de brodeuse" },
-    { "date": "2012", "kind": "oeuvre", "label": "Phoenix" },
-    { "date": "2016", "kind": "autre", "label": "Collaboration avec la créatrice de haute couture Yiqing Yin" },
-    { "date": "2016", "kind": "oeuvre", "label": "Voie lactée" },
-    { "date": "2017", "kind": "exposition", "label": "« Voie lactée », Institut culturel Bernard Magrez, Bordeaux (Grand Prix Bernard Magrez)" },
-    { "date": "2017", "kind": "oeuvre", "label": "Monts de Vénus" },
-    { "date": "2018", "kind": "prix", "label": "Lauréate nationale du Prix Jeune Création Métiers d'art" },
-    { "date": "2018", "kind": "prix", "label": "Lauréate Nouvelle-Aquitaine du concours des Ateliers d'Art de France, catégorie Patrimoine, pour Monts de Vénus" },
-    { "date": "2018", "kind": "oeuvre", "label": "Écumes et Glacier" },
-    { "date": "2018-10", "kind": "exposition", "label": "Salon du Patrimoine culturel, Carrousel du Louvre, Paris" },
-    { "date": "2018-12", "kind": "exposition", "label": "« Les Jeunes Marchands chez Sotheby's », Paris" },
-    { "date": "2019-05", "kind": "exposition", "label": "Salon Révélations, Grand Palais, Paris" },
-    { "date": "2020", "kind": "oeuvre", "label": "Condensation des souffles, Le serpent qui danse, Coalescence" },
-    { "date": "2021-05", "kind": "exposition", "label": "« Cabinet nomade de curiosités », cours Xavier Arnozan, Bordeaux" },
-    { "date": "2022-04", "kind": "exposition", "label": "Homo Faber 2022, exposition Next of Europe, Venise" },
-    { "date": "2022", "kind": "autre", "label": "Écumes adaptée en papier peint par Isidore Leroy" },
-    { "date": "2022-11-10", "kind": "exposition", "label": "Exposition collective « Mémoire Désir », Centre d'art Gallifet, Aix-en-Provence (jusqu'au 29 janvier 2023)" },
-    { "date": "2023-06", "kind": "exposition", "label": "Salon Révélations, Paris" },
-    { "date": "2023-07", "kind": "exposition", "label": "Festival du Lin, Normandie" },
-    { "date": "2023-11", "kind": "exposition", "label": "Salon Résonance[s], Strasbourg" },
-    { "date": "2023-12", "kind": "exposition", "label": "« Condensation des souffles », Bon Marché, Paris" },
-    { "date": "2024-09", "kind": "exposition", "label": "Homo Faber 2024, section Afterlife, Venise" },
-    { "date": "2025-05", "kind": "exposition", "label": "Salon Révélations, Grand Palais, Paris" },
-    { "date": "2025", "kind": "prix", "label": "Lauréate du programme de mobilité internationale de recherche artistique de l'Institut français, catégorie Métiers d'art" }
+    {
+      "date": "1989",
+      "kind": "vie",
+      "label": "Naissance à Toulouse"
+    },
+    {
+      "date": "2006",
+      "kind": "formation",
+      "label": "Découvre la broderie, après des années de dessin et de peinture"
+    },
+    {
+      "date": "2011",
+      "kind": "formation",
+      "label": "DMA textile option broderie à l'École Duperré, Paris"
+    },
+    {
+      "date": "2012",
+      "kind": "autre",
+      "label": "Début de sa carrière de brodeuse"
+    },
+    {
+      "date": "2012",
+      "kind": "oeuvre",
+      "label": "Phoenix"
+    },
+    {
+      "date": "2016",
+      "kind": "autre",
+      "label": "Collaboration avec la créatrice de haute couture Yiqing Yin"
+    },
+    {
+      "date": "2016",
+      "kind": "oeuvre",
+      "label": "Voie lactée"
+    },
+    {
+      "date": "2016",
+      "kind": "oeuvre",
+      "label": "Météorite et Paysage lunaire ; début de Terres promises, toujours en cours"
+    },
+    {
+      "date": "2017",
+      "kind": "exposition",
+      "label": "« Voie lactée », Institut culturel Bernard Magrez, Bordeaux (Grand Prix Bernard Magrez)"
+    },
+    {
+      "date": "2017",
+      "kind": "oeuvre",
+      "label": "Monts de Vénus"
+    },
+    {
+      "date": "2017",
+      "kind": "oeuvre",
+      "label": "Entre ciel et mer"
+    },
+    {
+      "date": "2017-01",
+      "kind": "autre",
+      "label": "Article dans Vivre Bordeaux"
+    },
+    {
+      "date": "2017-04",
+      "kind": "exposition",
+      "label": "Salon Talents 2017, Strasbourg"
+    },
+    {
+      "date": "2017-12",
+      "kind": "exposition",
+      "label": "« Les ambassades soyeuses », Institut franco-chinois, Lyon"
+    },
+    {
+      "date": "2018",
+      "kind": "prix",
+      "label": "Lauréate nationale du Prix Jeune Création Métiers d'art"
+    },
+    {
+      "date": "2018",
+      "kind": "prix",
+      "label": "Lauréate Nouvelle-Aquitaine du concours des Ateliers d'Art de France, catégorie Patrimoine, pour Monts de Vénus"
+    },
+    {
+      "date": "2018",
+      "kind": "oeuvre",
+      "label": "Écumes et Glacier"
+    },
+    {
+      "date": "2018",
+      "kind": "oeuvre",
+      "label": "Paradis blanc, Eaux douces, Skye"
+    },
+    {
+      "date": "2018-03",
+      "kind": "exposition",
+      "label": "Galerie des métiers d'art de Limoges, dans le cadre du concours des Ateliers d'Art de France (mars-avril)"
+    },
+    {
+      "date": "2018-04",
+      "kind": "autre",
+      "label": "Article dans Art et Décoration, volet Sud-Ouest"
+    },
+    {
+      "date": "2018-09",
+      "kind": "exposition",
+      "label": "Les Vivres de l'Art, Bordeaux, Nuit Féline #11"
+    },
+    {
+      "date": "2018-10",
+      "kind": "exposition",
+      "label": "Salon du Patrimoine culturel, Carrousel du Louvre, Paris"
+    },
+    {
+      "date": "2018-12",
+      "kind": "exposition",
+      "label": "« Les Jeunes Marchands chez Sotheby's », Paris"
+    },
+    {
+      "date": "2019",
+      "kind": "oeuvre",
+      "label": "Installation Avant que le ciel ne s'effondre (1,50 m de diamètre) et une série de tableaux dont Kokoro Munashiku, Blizzard, Récif, Grande Ourse, L'Heure bleue"
+    },
+    {
+      "date": "2019-03",
+      "kind": "exposition",
+      "label": "Salon Talents 2019, Strasbourg"
+    },
+    {
+      "date": "2019-05",
+      "kind": "exposition",
+      "label": "Salon Révélations, Grand Palais, Paris"
+    },
+    {
+      "date": "2019-12",
+      "kind": "exposition",
+      "label": "Exposition à la maison Gramont, Fanjeaux"
+    },
+    {
+      "date": "2020",
+      "kind": "oeuvre",
+      "label": "Condensation des souffles, Le serpent qui danse, Coalescence"
+    },
+    {
+      "date": "2020",
+      "kind": "oeuvre",
+      "label": "Série Fata Morgana (Éther, L'Île suspendue, Vestige) et série Icônes (Terre n°1 à 3)"
+    },
+    {
+      "date": "2020-11",
+      "kind": "exposition",
+      "label": "Exposition Arte Factus, maison galerie Laurence Pustetto, Libourne (novembre-décembre)"
+    },
+    {
+      "date": "2021-05",
+      "kind": "exposition",
+      "label": "« Cabinet nomade de curiosités », cours Xavier Arnozan, Bordeaux"
+    },
+    {
+      "date": "2022",
+      "kind": "autre",
+      "label": "Écumes adaptée en papier peint par Isidore Leroy"
+    },
+    {
+      "date": "2022-04",
+      "kind": "exposition",
+      "label": "Homo Faber 2022, exposition Next of Europe, Venise"
+    },
+    {
+      "date": "2022-11-10",
+      "kind": "exposition",
+      "label": "Exposition collective « Mémoire Désir », Centre d'art Gallifet, Aix-en-Provence (jusqu'au 29 janvier 2023)"
+    },
+    {
+      "date": "2022-11-11",
+      "kind": "exposition",
+      "label": "Salon Résonance[s], Strasbourg (jusqu'au 14 novembre)"
+    },
+    {
+      "date": "2023-06",
+      "kind": "exposition",
+      "label": "Salon Révélations, Paris"
+    },
+    {
+      "date": "2023-07",
+      "kind": "exposition",
+      "label": "Festival du Lin, Normandie"
+    },
+    {
+      "date": "2023-11",
+      "kind": "exposition",
+      "label": "Salon Résonance[s], Strasbourg"
+    },
+    {
+      "date": "2023-12",
+      "kind": "exposition",
+      "label": "« Condensation des souffles », Bon Marché, Paris"
+    },
+    {
+      "date": "2024-09",
+      "kind": "exposition",
+      "label": "Homo Faber 2024, section Afterlife, Venise"
+    },
+    {
+      "date": "2025",
+      "kind": "prix",
+      "label": "Lauréate du programme de mobilité internationale de recherche artistique de l'Institut français, catégorie Métiers d'art"
+    },
+    {
+      "date": "2025-05",
+      "kind": "exposition",
+      "label": "Salon Révélations, Grand Palais, Paris"
+    },
+    {
+      "date": "2026-11-06",
+      "kind": "exposition",
+      "label": "Salon Résonance[s], Strasbourg, 14e édition (jusqu'au 9 novembre)"
+    }
   ],
   "news": [
-    { "kind": "salon", "title": "Révélations au Grand Palais", "summary": "Clémentine Brandibas expose à la biennale Révélations, organisée par Ateliers d'Art de France.", "place": "Grand Palais", "city": "Paris", "country": "France", "zone": "france", "startDate": "2025-05-21", "endDate": "2025-05-25", "url": "https://www.clementinebrandibas.com/actualites" },
-    { "kind": "actualite", "title": "Lauréate de la mobilité internationale de l'Institut français", "summary": "Elle est lauréate du programme de mobilité internationale de recherche artistique de l'Institut français, catégorie Métiers d'art. Le lieu et les dates du séjour ne sont pas précisés.", "place": "", "city": "", "country": "", "zone": "monde", "startDate": "2025", "endDate": "", "url": "https://www.clementinebrandibas.com/actualites" }
+    {
+      "kind": "salon",
+      "title": "Révélations au Grand Palais",
+      "summary": "Clémentine Brandibas expose à la biennale Révélations, organisée par Ateliers d'Art de France.",
+      "place": "Grand Palais",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2025-05-21",
+      "endDate": "2025-05-25",
+      "url": "https://www.clementinebrandibas.com/actualites"
+    },
+    {
+      "kind": "actualite",
+      "title": "Lauréate de la mobilité internationale de l'Institut français",
+      "summary": "Elle est lauréate du programme de mobilité internationale de recherche artistique de l'Institut français, catégorie Métiers d'art. Le lieu et les dates du séjour ne sont pas précisés.",
+      "place": "",
+      "city": "",
+      "country": "",
+      "zone": "monde",
+      "startDate": "2025",
+      "endDate": "",
+      "url": "https://www.clementinebrandibas.com/actualites"
+    },
+    {
+      "kind": "salon",
+      "title": "Résonance[s] 2026, salon européen des métiers d'art",
+      "summary": "Clémentine Brandibas figure dans la liste des exposants de la 14e édition du salon Résonance[s], présentée comme brodeuse.",
+      "place": "Salon Résonance[s]",
+      "city": "Strasbourg",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-09",
+      "url": "https://www.salon-resonances.com/exposant/brandibas-clementine-3/"
+    }
   ],
   "sources": [
-    { "label": "Homo Faber 2022, fiche Écumes (Next of Europe)", "url": "https://2022.homofaber.com/en/ecollection/clementine-brandibas-425" },
-    { "label": "Homo Faber Guide, profil de l'artisane", "url": "https://www.homofaber.com/en/artisans/clmentine-brandibas-embroidery-france" },
-    { "label": "Site de l'artiste, accueil", "url": "https://www.clementinebrandibas.com" },
-    { "label": "Site de l'artiste, présentation", "url": "https://www.clementinebrandibas.com/presentation" },
-    { "label": "Site de l'artiste, œuvres", "url": "https://www.clementinebrandibas.com/oeuvresclementinebrandibas" },
-    { "label": "Site de l'artiste, actualités, expositions et prix", "url": "https://www.clementinebrandibas.com/actualites" },
-    { "label": "Site de l'artiste, Écumes", "url": "https://www.clementinebrandibas.com/ecumes" },
-    { "label": "Site de l'artiste, Monts de Vénus", "url": "https://www.clementinebrandibas.com/montsdevenus" },
-    { "label": "Site de l'artiste, Voie lactée", "url": "https://www.clementinebrandibas.com/voie-lactee" },
-    { "label": "Site de l'artiste, Glacier", "url": "https://www.clementinebrandibas.com/glacier" },
-    { "label": "Site de l'artiste, Abysses", "url": "https://www.clementinebrandibas.com/abysses" },
-    { "label": "Site de l'artiste, Condensation des souffles", "url": "https://www.clementinebrandibas.com/condensationdessouffles" },
-    { "label": "Site de l'artiste, Le serpent qui danse", "url": "https://www.clementinebrandibas.com/leserpentquidanse" },
-    { "label": "Site de l'artiste, Coalescence", "url": "https://www.clementinebrandibas.com/coalescence" },
-    { "label": "Site de l'artiste, Phoenix", "url": "https://www.clementinebrandibas.com/phoenix" },
-    { "label": "Hôtel de Gallifet, page de l'artiste (Mémoire Désir)", "url": "https://www.hoteldegallifet.com/en/p/218/clementine-brandibas" },
-    { "label": "Engel & Völkers, « Organic embroidery: the art of Clémentine Brandibas »", "url": "https://engelvoelkers.com/fr/en/resources/organic-embroidery-the-art-of-clementine-brandibas-weaver-of-nature" },
-    { "label": "Artelier, fiche de l'artiste", "url": "https://www.artelier.com/artist/clementine-brandibas" },
-    { "label": "Isidore Leroy, papier peint Écume", "url": "https://us.isidoreleroy.com/products/ecume-bespoke" },
-    { "label": "Instagram de l'artiste", "url": "https://www.instagram.com/clementinebrandibas/" }
+    {
+      "label": "Homo Faber 2022, fiche Écumes (Next of Europe)",
+      "url": "https://2022.homofaber.com/en/ecollection/clementine-brandibas-425"
+    },
+    {
+      "label": "Homo Faber Guide, profil de l'artisane",
+      "url": "https://www.homofaber.com/en/artisans/clmentine-brandibas-embroidery-france"
+    },
+    {
+      "label": "Site de l'artiste, accueil",
+      "url": "https://www.clementinebrandibas.com"
+    },
+    {
+      "label": "Site de l'artiste, présentation",
+      "url": "https://www.clementinebrandibas.com/presentation"
+    },
+    {
+      "label": "Site de l'artiste, œuvres",
+      "url": "https://www.clementinebrandibas.com/oeuvresclementinebrandibas"
+    },
+    {
+      "label": "Site de l'artiste, actualités, expositions et prix",
+      "url": "https://www.clementinebrandibas.com/actualites"
+    },
+    {
+      "label": "Site de l'artiste, Écumes",
+      "url": "https://www.clementinebrandibas.com/ecumes"
+    },
+    {
+      "label": "Site de l'artiste, Monts de Vénus",
+      "url": "https://www.clementinebrandibas.com/montsdevenus"
+    },
+    {
+      "label": "Site de l'artiste, Voie lactée",
+      "url": "https://www.clementinebrandibas.com/voie-lactee"
+    },
+    {
+      "label": "Site de l'artiste, Glacier",
+      "url": "https://www.clementinebrandibas.com/glacier"
+    },
+    {
+      "label": "Site de l'artiste, Abysses",
+      "url": "https://www.clementinebrandibas.com/abysses"
+    },
+    {
+      "label": "Site de l'artiste, Condensation des souffles",
+      "url": "https://www.clementinebrandibas.com/condensationdessouffles"
+    },
+    {
+      "label": "Site de l'artiste, Le serpent qui danse",
+      "url": "https://www.clementinebrandibas.com/leserpentquidanse"
+    },
+    {
+      "label": "Site de l'artiste, Coalescence",
+      "url": "https://www.clementinebrandibas.com/coalescence"
+    },
+    {
+      "label": "Site de l'artiste, Phoenix",
+      "url": "https://www.clementinebrandibas.com/phoenix"
+    },
+    {
+      "label": "Hôtel de Gallifet, page de l'artiste (Mémoire Désir)",
+      "url": "https://www.hoteldegallifet.com/en/p/218/clementine-brandibas"
+    },
+    {
+      "label": "Engel & Völkers, « Organic embroidery: the art of Clémentine Brandibas »",
+      "url": "https://engelvoelkers.com/fr/en/resources/organic-embroidery-the-art-of-clementine-brandibas-weaver-of-nature"
+    },
+    {
+      "label": "Artelier, fiche de l'artiste",
+      "url": "https://www.artelier.com/artist/clementine-brandibas"
+    },
+    {
+      "label": "Isidore Leroy, papier peint Écume",
+      "url": "https://us.isidoreleroy.com/products/ecume-bespoke"
+    },
+    {
+      "label": "Instagram de l'artiste",
+      "url": "https://www.instagram.com/clementinebrandibas/"
+    },
+    {
+      "label": "Homo Faber, fiche de l'objet Origine I",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezw92AA"
+    },
+    {
+      "label": "Homo Faber, fiche de l'objet Origine II",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezwA2AQ"
+    },
+    {
+      "label": "Site de l'artiste, Terres promises",
+      "url": "https://www.clementinebrandibas.com/terrespromises"
+    },
+    {
+      "label": "Site de l'artiste, Météorite",
+      "url": "https://www.clementinebrandibas.com/meteorite"
+    },
+    {
+      "label": "Site de l'artiste, Paysage lunaire",
+      "url": "https://www.clementinebrandibas.com/paysage-lunaire"
+    },
+    {
+      "label": "Site de l'artiste, Entre ciel et mer",
+      "url": "https://www.clementinebrandibas.com/entrecieletmer"
+    },
+    {
+      "label": "Site de l'artiste, Paradis blanc",
+      "url": "https://www.clementinebrandibas.com/paradisblanc"
+    },
+    {
+      "label": "Site de l'artiste, Eaux douces",
+      "url": "https://www.clementinebrandibas.com/eauxdouces"
+    },
+    {
+      "label": "Site de l'artiste, Skye",
+      "url": "https://www.clementinebrandibas.com/skye"
+    },
+    {
+      "label": "Site de l'artiste, Avant que le ciel ne s'effondre",
+      "url": "https://www.clementinebrandibas.com/copie-de-ciel-n-2"
+    },
+    {
+      "label": "Site de l'artiste, Kokoro Munashiku",
+      "url": "https://www.clementinebrandibas.com/kokoromunashiku"
+    },
+    {
+      "label": "Site de l'artiste, Blizzard",
+      "url": "https://www.clementinebrandibas.com/blizzard"
+    },
+    {
+      "label": "Site de l'artiste, Récif",
+      "url": "https://www.clementinebrandibas.com/copie-de-ciel-n-4"
+    },
+    {
+      "label": "Site de l'artiste, Abîme",
+      "url": "https://www.clementinebrandibas.com/abime"
+    },
+    {
+      "label": "Site de l'artiste, Cendres",
+      "url": "https://www.clementinebrandibas.com/cendres"
+    },
+    {
+      "label": "Site de l'artiste, Grande Ourse",
+      "url": "https://www.clementinebrandibas.com/copie-de-ciel-n-1"
+    },
+    {
+      "label": "Site de l'artiste, L'Heure bleue",
+      "url": "https://www.clementinebrandibas.com/copie-de-grande-ourse"
+    },
+    {
+      "label": "Site de l'artiste, L'Heure dorée",
+      "url": "https://www.clementinebrandibas.com/copie-de-l-heure-bleue"
+    },
+    {
+      "label": "Site de l'artiste, Géantes bleues",
+      "url": "https://www.clementinebrandibas.com/copie-de-recif"
+    },
+    {
+      "label": "Site de l'artiste, Relique céleste",
+      "url": "https://www.clementinebrandibas.com/copie-de-geantes-bleues"
+    },
+    {
+      "label": "Site de l'artiste, Rayonnement",
+      "url": "https://www.clementinebrandibas.com/copie-de-relique-celeste"
+    },
+    {
+      "label": "Site de l'artiste, Ciel n°1",
+      "url": "https://www.clementinebrandibas.com/copie-de-rayonnement"
+    },
+    {
+      "label": "Site de l'artiste, Ciel n°4",
+      "url": "https://www.clementinebrandibas.com/copie-de-skye"
+    },
+    {
+      "label": "Site de l'artiste, Éther",
+      "url": "https://www.clementinebrandibas.com/ether"
+    },
+    {
+      "label": "Site de l'artiste, L'Île suspendue",
+      "url": "https://www.clementinebrandibas.com/lilesuspendue"
+    },
+    {
+      "label": "Site de l'artiste, Vestige",
+      "url": "https://www.clementinebrandibas.com/vestige"
+    },
+    {
+      "label": "Site de l'artiste, Orohena",
+      "url": "https://www.clementinebrandibas.com/orohena"
+    },
+    {
+      "label": "Site de l'artiste, Reflets",
+      "url": "https://www.clementinebrandibas.com/reflets"
+    },
+    {
+      "label": "Site de l'artiste, Étreinte",
+      "url": "https://www.clementinebrandibas.com/etreinte"
+    },
+    {
+      "label": "Site de l'artiste, Terre n°1",
+      "url": "https://www.clementinebrandibas.com/terre1"
+    },
+    {
+      "label": "Site de l'artiste, Terre n°2",
+      "url": "https://www.clementinebrandibas.com/terre2"
+    },
+    {
+      "label": "Site de l'artiste, Terre n°3",
+      "url": "https://www.clementinebrandibas.com/terre3"
+    },
+    {
+      "label": "Homo Faber, fiche de l'objet Abysses",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezw62AA"
+    },
+    {
+      "label": "Homo Faber, fiche de l'objet Glacier",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezw72AA"
+    },
+    {
+      "label": "Homo Faber, fiche de l'objet Monts de Vénus",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000ezw82AA"
+    },
+    {
+      "label": "Salon Résonance[s] 2026, fiche exposante",
+      "url": "https://www.salon-resonances.com/exposant/brandibas-clementine-3/"
+    },
+    {
+      "label": "Salon Résonance[s], liste des exposants 2026",
+      "url": "https://www.salon-resonances.com/exposant/"
+    }
   ],
-  "researchNotes": "Pas d'homonyme trouvé. Formation : Duperré (DMA 2011) est sûr ; l'article Engel & Völkers cite aussi l'ENS Cachan et l'école Lesage (crochet de Lunéville), sans date, à confirmer. Le profil Homo Faber la dit « autodidacte » malgré ce diplôme : c'est sa façon de travailler, pas son parcours. Ville : Homo Faber donne Hostens (Résidence du Lac, 33125, sur rendez-vous), son site dit seulement « région bordelaise ». L'année de l'adaptation d'Écumes par Isidore Leroy (2022) vient du seul article Engel & Völkers, non daté ; la page Isidore Leroy ne donne pas d'année. Révélations mai 2025 : présence annoncée sur son site, mais introuvable dans les pages Révélations lues ; dates 21 au 25 mai 2025 prises de la biennale elle-même. Institut français 2025 : programme probablement MIRA, mais aucune liste de lauréats trouvée, ni destination ni dates. Homo Faber 2024 « Afterlife » : sur son site et dans ses stories Instagram, pas confirmé par les articles Homo Faber lus. Actualité 2026 non confirmée : sa bio Instagram renvoie vers salon-resonances.com (Résonance[s] Strasbourg, 6 au 9 ou 10 novembre 2026, Parc des expositions), et un compte Révélations China l'a identifiée dans un post du 14 octobre 2026 (Révélations China, Shanghai, 19 au 23 novembre 2026). Sa participation à ces deux salons reste à vérifier, d'où leur absence dans news. Les œuvres du site n'ont ni technique détaillée ni texte : seules les dimensions et l'année sont sûres. Artelier mentionne des expositions au Grand Palais, chez Sotheby's et au Louvre, et des collections en France, Royaume-Uni, Allemagne, Émirats, sans détail."
+  "researchNotes": "Pas d'homonyme trouvé. Formation : Duperré (DMA 2011) est sûr ; l'article Engel & Völkers cite aussi l'ENS Cachan et l'école Lesage (crochet de Lunéville), sans date, à confirmer. Le profil Homo Faber la dit « autodidacte » malgré ce diplôme : c'est sa façon de travailler, pas son parcours. Ville : Homo Faber donne Hostens (Résidence du Lac, 33125, sur rendez-vous), son site dit seulement « région bordelaise ». L'année de l'adaptation d'Écumes par Isidore Leroy (2022) vient du seul article Engel & Völkers, non daté ; la page Isidore Leroy ne donne pas d'année. Révélations mai 2025 : présence annoncée sur son site, mais introuvable dans les pages Révélations lues ; dates 21 au 25 mai 2025 prises de la biennale elle-même. Institut français 2025 : programme probablement MIRA, mais aucune liste de lauréats trouvée, ni destination ni dates. Homo Faber 2024 « Afterlife » : sur son site et dans ses stories Instagram, pas confirmé par les articles Homo Faber lus. Actualité 2026 non confirmée : sa bio Instagram renvoie vers salon-resonances.com (Résonance[s] Strasbourg, 6 au 9 ou 10 novembre 2026, Parc des expositions), et un compte Révélations China l'a identifiée dans un post du 14 octobre 2026 (Révélations China, Shanghai, 19 au 23 novembre 2026). Sa participation à ces deux salons reste à vérifier, d'où leur absence dans news. Les œuvres du site n'ont ni technique détaillée ni texte : seules les dimensions et l'année sont sûres. Artelier mentionne des expositions au Grand Palais, chez Sotheby's et au Louvre, et des collections en France, Royaume-Uni, Allemagne, Émirats, sans détail. Mise à jour du 20 octobre 2026 : la fiche Homo Faber actuelle confirme les participations à Homo Faber 2022 et 2024 (la section « Afterlife » reste non confirmée par Homo Faber) et liste cinq œuvres, dont Origine I et II, sans année ni dimensions : leur date reste à trouver. La fiche exposante Résonance[s] 2026 la situe à Saint Hilaire la Forêt (Vendée), alors que Homo Faber donne toujours Hostens (Gironde) : un possible déménagement, à vérifier avant de changer la ville. Sa participation à Résonance[s] 2026 vient de la liste des exposants du site du salon (titre « Édition 2026 »), sans numéro de stand. Révélations China (Shanghai, 19 au 23 novembre 2026) : aucune liste d'exposants publiée trouvée, participation toujours non confirmée. Institut français 2025 : toujours aucune liste de lauréats, ni destination ni dates. Les œuvres ajoutées viennent des pages de son site (titre, année, dimensions, mention « sold ») ; leurs images sont la première vue de chaque page, contrôlée visuellement ; la technique détaillée n'y est pas donnée. Deux liens de la page Œuvres (« insoutenablelegereté » et « nymphéas ») renvoient une erreur 404. Les dates de presse (Vivre Bordeaux, janvier 2017 ; Art et Décoration, avril 2018) viennent de la page Actualités, articles non lus."
 }

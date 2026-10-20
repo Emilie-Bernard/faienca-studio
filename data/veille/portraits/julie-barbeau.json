@@ -1,0 +1,173 @@
+{
+  "name": "Julie Barbeau",
+  "country": "France",
+  "city": "Saint-Aignan-Grandlieu",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "broderie au crochet de Lunéville",
+    "broderie de paillettes au point de chaînette",
+    "travail sur l'envers de la toile tendue sur métier",
+    "tableaux brodés et sculptures pailletées",
+    "broderie de paillettes sur papier",
+    "textiles optiques pour l'architecture intérieure et le design"
+  ],
+  "summary": "Artiste textile et brodeuse installée près de Nantes, Julie Barbeau brode des tableaux et des sculptures pailletées, abstraits et géométriques, qui jouent avec la lumière et les phénomènes optiques.",
+  "biography": "Julie Barbeau a d'abord suivi une formation en design et arts appliqués, puis s'est formée à la broderie en région parisienne. Selon Homo Faber, elle découvre la broderie à 17 ans dans une école professionnelle près de Paris. C'est par la haute couture qu'elle entre dans le monde des métiers d'art. Elle travaille ensuite ponctuellement pour plusieurs ateliers de broderie franciliens, avant de fonder son atelier à son nom en 2019. Il se trouve aujourd'hui à Saint-Aignan-Grandlieu, en Loire-Atlantique, et se visite sur rendez-vous.\n\nSa technique est celle de la broderie de haute couture : la toile est tendue sur un métier, et chaque paillette est fixée à la main au crochet de Lunéville, au point de chaînette. Elle brode sur l'envers de la toile et ne découvre l'endroit qu'à la fin. Chaque panneau commence par un dessin, puis il est brodé, encadré ou mis en forme. Elle dit traiter ses broderies comme des tableaux. Elle crée aussi des textiles chatoyants et optiques sur mesure pour l'architecture, le mobilier et le design. Pour France Design Week 2024, elle a brodé une pièce de 8 mètres de long qui lui a demandé deux mois de travail.\n\nSon univers est abstrait, géométrique, souvent monochrome avec des touches d'or. Elle explore la lumière et les phénomènes optiques, en puisant dans la physique, l'optique et les mathématiques : cercles, ellipses, hexagones, cubes en perspective, hyperboles. Elle tient beaucoup à l'origine de ses matériaux : lin 100 % français, coton recyclé ou biologique, fils de coton et paillettes en acétate de cellulose fabriqués en France. Son site montre d'ailleurs l'arrachage du lin et le tissage en Normandie.\n\nParmi ses œuvres : Géométries, Cube en cavalière et Tensions, équilibre (2020), Quart de cercles, Ellipses et Sur fond de chevrons (2021), La première couleur est vermeil (2023), L'avalanche des accords et Les fragments d'ellipses (2024), puis ses premières sculptures pailletées, Skopen et Au delà de cette kaléidoscopie (2025). Elle a reçu une dotation recherche de l'ADAGP et le trophée Les Mains d'Or de la Chambre de Métiers et de l'Artisanat des Pays de la Loire en 2023, et elle a été sélectionnée par Culture Sélection de la Samoa à Nantes la même année. En 2021, elle était nommée au Prix européen des arts appliqués à Mons (Belgique).\n\nElle expose régulièrement à Nantes (galerie Sabrina Lucas, galerie Le Rayon Vert) et dans les grands salons : Maison&Objet (2023, 2024, 2025), Résonance[s] à Strasbourg (2024) et Révélations au Grand Palais en mai 2025, en même temps que l'exposition « Précieux » de la boutique Talents d'Ateliers d'Art de France à Paris. Elle est membre d'Ateliers d'Art de France et de l'ADAGP, et enseigne la broderie depuis 2019.",
+  "website": "https://www.julie-barbeau.com",
+  "instagram": "https://www.instagram.com/juliebarbeau.broderie",
+  "photoUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/julie-barbeau-creatrice-broderie-photograhpe-alice-emeriau.jpg",
+  "works": [
+    {
+      "title": "Géométries",
+      "year": "2020",
+      "technique": "Broderie main au crochet de Lunéville, paillettes sur toile de coton, fil ganse",
+      "description": "Tableau brodé géométrique, environ 101 x 78 cm encadré.",
+      "url": "https://artree.fr/en/julie-barbeau",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-geometries-julie-barbeau.jpg"
+    },
+    {
+      "title": "Cube en cavalière",
+      "year": "2020",
+      "technique": "Broderie main au crochet de Lunéville, paillettes sur toile de coton, fil ganse",
+      "description": "Un cube dessiné en perspective cavalière, tout en paillettes, environ 63 x 52 cm encadré.",
+      "url": "https://artree.fr/en/julie-barbeau",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-cube-en-cavaliere-julie-barbeau.jpg"
+    },
+    {
+      "title": "Tensions, équilibre",
+      "year": "2020",
+      "technique": "Broderie main au crochet de Lunéville, paillettes sur toile de coton, fil ganse",
+      "description": "Tableau brodé abstrait, environ 106 x 104 cm encadré.",
+      "url": "https://artree.fr/en/julie-barbeau",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-tensions-equilibre-julie-barbeau.jpg"
+    },
+    {
+      "title": "Quart de cercles",
+      "year": "2021",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Tableau textile minimaliste construit sur des quarts de cercle.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-quart-de-cercles-julie-barbeau.jpg"
+    },
+    {
+      "title": "Ellipses",
+      "year": "2021",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Tableau brodé autour de la forme de l'ellipse.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-ellipses-julie-barbeau.jpg"
+    },
+    {
+      "title": "Les hexagones, trois pour un",
+      "year": "2021",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Tableau brodé à base d'hexagones, présenté sur Homo Faber sous le titre « Trois pour Un ».",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-les-hexagones-trois-pour-un-julie-barbeau.jpg"
+    },
+    {
+      "title": "Sur fond de chevrons",
+      "year": "2021",
+      "technique": "Broderie main au crochet de Lunéville, paillettes sur toile de coton, fil ganse",
+      "description": "Tableau brodé sur un fond de chevrons, environ 112 x 105 cm encadré.",
+      "url": "https://artree.fr/en/julie-barbeau",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-sur-fond-de-chevrons-julie-barbeau.jpg"
+    },
+    {
+      "title": "La première couleur est vermeil",
+      "year": "2023",
+      "technique": "Broderie main au crochet de Lunéville, paillettes sur toile de coton, fil ganse",
+      "description": "Tableau brodé d'environ 115 x 88 cm encadré.",
+      "url": "https://artree.fr/en/julie-barbeau",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-la-premiere-couleur-est-vermeil-julie-barbeau.jpg"
+    },
+    {
+      "title": "L'avalanche des accords",
+      "year": "2024",
+      "technique": "Broderie main au crochet de Lunéville, paillettes sur toile de coton, fil ganse",
+      "description": "Tableau contemporain pailleté d'environ 110 x 76 cm encadré.",
+      "url": "https://artree.fr/en/julie-barbeau",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-l-avalanche-des-accords-julie-barbeau-1.jpg"
+    },
+    {
+      "title": "Les fragments d'ellipses",
+      "year": "2024",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Tableau brodé qui reprend et découpe le motif de l'ellipse.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-les-fragments-d-ellipses-julie-barbeau.jpg"
+    },
+    {
+      "title": "Hyperboles",
+      "year": "2024",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Tableau brodé autour de courbes hyperboliques.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-hyperboles-julie-barbeau.jpg"
+    },
+    {
+      "title": "Souvenir de Veules-les-Roses",
+      "year": "2024",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Tableau brodé dont le titre évoque Veules-les-Roses, en Normandie.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2024/11/tableau-souvenir-de-veules-les-roses-julie-barbeau.jpg"
+    },
+    {
+      "title": "Points de vue pour un ensemble",
+      "year": "2024",
+      "technique": "Broderie de paillettes au crochet de Lunéville",
+      "description": "Quadriptyque de tableaux pailletés géométriques.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2025/04/quadriptyque-points-de-vue-pour-un-ensemble-julie-barbeau.jpg"
+    },
+    {
+      "title": "Skopen",
+      "year": "2025",
+      "technique": "Sculpture pailletée",
+      "description": "Sculpture brodée de paillettes, parmi ses premières pièces en volume.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2025/04/sculpture-skopen-julie-barbeau.jpg"
+    },
+    {
+      "title": "Au delà de cette kaléidoscopie",
+      "year": "2025",
+      "technique": "Sculpture pailletée",
+      "description": "Sculpture brodée de paillettes.",
+      "url": "https://julie-barbeau.com/oeuvres/",
+      "imageUrl": "https://julie-barbeau.com/wp-content/uploads/2025/04/sculpture-au-dela-de-cette-kaleidoscopie-julie-barbeau.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "2017", "kind": "exposition", "label": "« Ex-Fabrica », Théâtre de l'Horizon, La Rochelle" },
+    { "date": "2019", "kind": "vie", "label": "Création de son atelier de broderie à son nom, et début de l'enseignement" },
+    { "date": "2020", "kind": "exposition", "label": "Première exposition personnelle, « La P'tite Expo », Office de tourisme de Saint-Étienne-de-Montluc" },
+    { "date": "2020", "kind": "prix", "label": "Nommée au concours régional Ateliers d'Art de France, catégorie Création, Pays de la Loire (aussi en 2021)" },
+    { "date": "2021", "kind": "exposition", "label": "« Là où naissent les jolies choses », exposition personnelle, L'atelier argentique, Nantes" },
+    { "date": "2021", "kind": "prix", "label": "Nommée au Prix européen des arts appliqués (BeCraft), exposition aux Anciens Abattoirs de Mons, Belgique" },
+    { "date": "2022", "kind": "exposition", "label": "« Mural », galerie Excellsens, Paris" },
+    { "date": "2022", "kind": "prix", "label": "Coup de cœur du jury, challenge de projets du Forum Entreprendre dans la Culture en Pays de la Loire" },
+    { "date": "2023", "kind": "prix", "label": "Dotation recherche de l'ADAGP, trophée Les Mains d'Or (CMA Pays de la Loire) et Culture Sélection de la Samoa" },
+    { "date": "2023", "kind": "exposition", "label": "« En une minute naissent sous mes doigts quatorze points de lumière », galerie Sabrina Lucas, Nantes, et Maison&Objet, Paris" },
+    { "date": "2024", "kind": "exposition", "label": "« Tout le corps à l'oeuvre », Lunettes etc., Nantes, et Salon Résonance[s], Strasbourg" },
+    { "date": "2024", "kind": "oeuvre", "label": "Pièce brodée de 8 mètres pour France Design Week" },
+    { "date": "2025-01", "kind": "exposition", "label": "Maison&Objet, Paris Nord Villepinte" },
+    { "date": "2025-03", "kind": "exposition", "label": "Invitée d'honneur du salon Talents, Illkirch" },
+    { "date": "2025-05", "kind": "exposition", "label": "Révélations, Grand Palais, Paris, et « Précieux » à la boutique Talents d'Ateliers d'Art de France" },
+    { "date": "2025", "kind": "oeuvre", "label": "Premières sculptures pailletées : Skopen et Au delà de cette kaléidoscopie" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Homo Faber, fiche de Julie Barbeau", "url": "https://www.homofaber.com/en/artisans/julie-barbeau-z0zlzc" },
+    { "label": "Site de Julie Barbeau, accueil", "url": "https://www.julie-barbeau.com" },
+    { "label": "Site de Julie Barbeau, démarche artistique et prix", "url": "https://julie-barbeau.com/demarche-artistique/" },
+    { "label": "Site de Julie Barbeau, œuvres", "url": "https://julie-barbeau.com/oeuvres/" },
+    { "label": "Site de Julie Barbeau, expositions", "url": "https://julie-barbeau.com/expositions/" },
+    { "label": "Site de Julie Barbeau, revue de presse", "url": "https://julie-barbeau.com/revue-de-presse/" },
+    { "label": "ARTree, fiche artiste et œuvres", "url": "https://artree.fr/en/julie-barbeau" },
+    { "label": "Révélations, exposition « Précieux »", "url": "https://www.revelations-grandpalais.com/en/programmation/in-the-city/precieux/" }
+  ],
+  "researchNotes": "Pas de date de naissance publique, ni le nom de l'école de broderie ni celui des maisons de haute couture. Homo Faber parle d'une découverte de la broderie à 17 ans dans une école professionnelle près de Paris, et d'un enseignement commencé en 2019 : non repris sur son site. ARTree la situe à Nantes ; son site et Homo Faber donnent Saint-Aignan-Grandlieu (Loire-Atlantique). Aucune actualité datée d'octobre 2025 à octobre 2026 trouvée : son site annonce encore « Précieux » comme exposition en cours alors qu'elle s'est tenue du 13 au 31 mai 2025, donc la page n'est sans doute pas à jour. À vérifier sur Instagram (@juliebarbeau.broderie), non lisible ici. Les dimensions viennent d'ARTree (en pouces, converties et arrondies en cm). « Trois pour Un » (Homo Faber) correspond sans doute à « Les hexagones, trois pour un » (2021) de son site. La pièce de 8 m pour France Design Week 2024 n'a ni titre ni image. Les images Homo Faber répondent en application/octet-stream et ont été écartées ; images et portrait viennent de son site (photo d'Alice Emeriau). Revue de presse : Ouest-France et Presse Océan (2020, 2022, scans « une brodeuse au Hangar du Pendule »), Le Courrier de l'Ouest (2021), magazine Ateliers d'Art (2020), non lus en détail. Homonymes : nombreuses pages sur Marius Barbeau, ethnologue canadien, sans rapport."
+}

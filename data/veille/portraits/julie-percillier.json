@@ -1,0 +1,164 @@
+{
+  "name": "Julie Percillier",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "1997",
+  "deathDate": "",
+  "techniques": [
+    "broderie à la main",
+    "broderie machine en piqué libre",
+    "dentelle aux fuseaux",
+    "broderie en volume",
+    "mousseline et satin de soie, fils métalliques, perles de verre",
+    "association de végétaux séchés ou stabilisés et de textile",
+    "ligatures"
+  ],
+  "summary": "Brodeuse et « paysagère textile » installée à Paris, Julie Percillier, née en 1997, marie broderie et plantes séchées ou stabilisées dans des sculptures, des installations et des paysages textiles. Formée à Bruxelles, elle a présenté son travail à Homo Faber 2026 à Venise.",
+  "biography": "Julie Percillier est née en 1997. Fille d'un paysagiste, elle a grandi dans une ville entourée de forêts, et la botanique nourrit son travail depuis l'enfance. Après avoir appris le métier de la broderie et approfondi ses connaissances en technologie textile, elle part en Belgique et suit le cursus Tapisserie - Arts textiles (bachelier puis master) à l'Académie royale des Beaux-Arts de Bruxelles (ArBA-EsA).\n\nElle ouvre son atelier en 2021. Elle a inventé un mot pour sa pratique : le « paysagisme textile », un dialogue entre le fil et le végétal. Tout commence par l'observation : en promenade ou dans les livres de botanique, elle regarde textures et silhouettes, garde un herbier de plantes cueillies qu'elle annote d'idées textiles, puis passe par le dessin analytique et les essais de matière. À l'atelier, elle brode à la main ou à la machine, pratique aussi la dentelle aux fuseaux, et associe ses broderies à des plantes séchées ou stabilisées.\n\nSes pièces sont uniques : vases sculptés en fils entrelacés, miroirs bordés de feuillages brodés, tiges de coquelicot ou de vergerette posées sur des socles en sapin, grandes feuilles de rhubarbe liées à des tiges de métal. Elle travaille la mousseline et le satin de soie, le velours de coton, la laine, les fils métalliques et les perles de verre. Elle réalise des œuvres pour les galeries et des commandes pour des intérieurs privés, des hôtels, des restaurants, des bureaux, des scénographies et des vitrines.\n\nDès 2022, elle expose à Bruxelles (Recyclart) et à Montrouge (Miniartextil). Depuis 2025, elle travaille avec la galerie Maison Parisienne, enseigne, et est résidente de l'incubateur Les Ateliers de Paris, rue Faidherbe, pour 2025-2027. En avril 2026, elle y anime un atelier de broderie d'herbier textile pour les Journées européennes des métiers d'art. En septembre 2026, elle est l'une des artisanes d'Homo Faber « An Island of Light », à Venise. Son site est en cours de refonte en octobre 2026.",
+  "website": "https://juliepercillier.com/",
+  "instagram": "https://www.instagram.com/julie_percilliertextile/",
+  "photoUrl": "https://juliepercillier.com/wp-content/uploads/2026/10/portrait_site-768x1152.jpg",
+  "works": [
+    {
+      "title": "Dentelle de fougère",
+      "year": "",
+      "technique": "Broderie et dentelle textile autour de la fougère",
+      "description": "Pièce présentée à Homo Faber 2026 et proposée par la galerie Maison Parisienne.",
+      "url": "https://www.homofaber.com/en/artisans/julie_percillier-embroidery-paris",
+      "imageUrl": "https://api.homofaber.com/uploads/Dentelle_de_fougere_Julie_Percillier_Artisan_Julie_Percillier_01314fa919.jpg"
+    },
+    {
+      "title": "Rhubarbe géante (Giant rhubarb)",
+      "year": "2022",
+      "technique": "Feuilles de rhubarbe séchées, mousseline brodée, satin de soie, liens de corde, fines tiges de métal noir",
+      "description": "Une sculpture de grandes feuilles de rhubarbe vert pâle et brunes, liées à des tiges de métal noir qui sortent du sol.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG0000032x772AA",
+      "imageUrl": "https://api.homofaber.com/uploads/OBJ_1_Rhubarbe_geante_2022_Julie_Percillier_9419d5fd9b.jpg"
+    },
+    {
+      "title": "Vase entrelacs",
+      "year": "",
+      "technique": "Mousseline de soie, fils métalliques, perles de verre, ligatures",
+      "description": "Un vase sculptural en brins brodés verts entrelacés, qui montent en formes organiques comme des branches. Structure ajourée et finition délicate.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG0000032x782AA",
+      "imageUrl": "https://api.homofaber.com/uploads/OBJ_2_Vase_en_entrelcas_Julie_Percillier_2241e076d3.jpg"
+    },
+    {
+      "title": "Ronde de saule",
+      "year": "",
+      "technique": "Laine, velours de coton, mousseline de soie, perles, fils métalliques, broderie à la main, miroir convexe cerclé de laiton",
+      "description": "Un miroir mural rond entouré de feuilles de saule brodées et superposées, dans des verts et gris doux.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG0000032x792AA",
+      "imageUrl": "https://api.homofaber.com/uploads/OBJ_3_Ronde_de_saule_Julie_Percillier_d4a044f4ee.jpg"
+    },
+    {
+      "title": "Vergerette du Canada",
+      "year": "",
+      "technique": "Plante stabilisée, broderie sur mousseline de soie, fils métalliques, socle cylindrique en sapin",
+      "description": "Une tige de vergerette du Canada aux fleurs fines et ramifiées, vert pâle et brunes, entre végétal vrai et végétal brodé.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG0000032x7A2AQ",
+      "imageUrl": "https://api.homofaber.com/uploads/OBJ_4_Vergerette_du_Canada_Julie_Percillier_36b04bb535.jpg"
+    },
+    {
+      "title": "Coquelicot",
+      "year": "",
+      "technique": "Capsules de coquelicot séchées, mousseline de soie brodée, corde, fils de métal, socle en sapin noir",
+      "description": "Des tiges de coquelicot fines avec leurs capsules pâles et un feuillage vert brodé.",
+      "url": "https://www.homofaber.com/it/objects/a1VTG0000032x7B2AQ",
+      "imageUrl": "https://api.homofaber.com/uploads/OBJ_5_Coquelicot_Julie_Percillier_432d8d19d4.jpg"
+    },
+    {
+      "title": "Vase Volutes",
+      "year": "2026",
+      "technique": "Broderie textile",
+      "description": "Un vase récent proposé par la galerie Maison Parisienne.",
+      "url": "https://maisonparisienne.fr/artiste/julie-percillier/",
+      "imageUrl": "https://maisonparisienne.fr/wp-content/uploads/2026/10/1_Volutes_2026_Julie-Percilliercouverture.jpg"
+    },
+    {
+      "title": "Ronde d'olivier",
+      "year": "",
+      "technique": "Broderie textile",
+      "description": "Une pièce de la série des « Rondes », autour de l'olivier, proposée par Maison Parisienne.",
+      "url": "https://maisonparisienne.fr/artiste/julie-percillier/",
+      "imageUrl": "https://maisonparisienne.fr/wp-content/uploads/2026/06/ronde-dolivier-scaled.jpg"
+    },
+    {
+      "title": "Lianes",
+      "year": "",
+      "technique": "Textile et éléments naturels séchés",
+      "description": "Une œuvre aérienne en forme de branches, qu'elle cite comme l'une de ses premières pièces après son installation à son compte.",
+      "url": "https://www.homofaber.com/en/artisans/julie_percillier-embroidery-paris",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "1997", "kind": "vie", "label": "Naissance" },
+    { "date": "2021", "kind": "formation", "label": "Études en Tapisserie - Arts textiles (bachelier et master) à l'Académie royale des Beaux-Arts de Bruxelles" },
+    { "date": "2021", "kind": "vie", "label": "Ouvre son atelier de broderie et invente le « paysagisme textile »" },
+    { "date": "2022", "kind": "oeuvre", "label": "« Rhubarbe géante »" },
+    { "date": "2022-02-25", "kind": "exposition", "label": "Exposition à Recyclart, Bruxelles (jusqu'au 18 mars)" },
+    { "date": "2022-03", "kind": "exposition", "label": "Une pièce à Miniartextil, Beffroi de Montrouge (jusqu'au 13 mars)" },
+    { "date": "2025", "kind": "residence", "label": "Entre à l'incubateur Les Ateliers de Paris (Faidherbe), pour 2025-2027" },
+    { "date": "2025", "kind": "autre", "label": "Début de sa collaboration avec la galerie Maison Parisienne et de son enseignement" },
+    { "date": "2026-04-11", "kind": "autre", "label": "Atelier broderie « herbier textile » pour les Journées européennes des métiers d'art, Ateliers de Paris" },
+    { "date": "2026-09", "kind": "exposition", "label": "Homo Faber 2026 « An Island of Light », Fondazione Giorgio Cini, Venise" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "Homo Faber 2026 : An Island of Light",
+      "summary": "Julie Percillier fait partie des artisans de la biennale des métiers d'art, avec notamment « Dentelle de fougère ».",
+      "place": "Fondazione Giorgio Cini, île de San Giorgio Maggiore",
+      "city": "Venise",
+      "country": "Italie",
+      "zone": "europe",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30",
+      "url": "https://www.homofaber.com/en/artisans/julie_percillier-embroidery-paris"
+    },
+    {
+      "kind": "actualite",
+      "title": "Atelier broderie avec Julie Percillier (Journées européennes des métiers d'art)",
+      "summary": "Atelier gratuit d'initiation au point de feston : on brode le contour de modèles végétaux, puis on les découpe et les monte pour créer un herbier textile.",
+      "place": "Incubateur Faidherbe, Les Ateliers de Paris, 28 rue Faidherbe",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-11",
+      "url": "https://www.paris.fr/evenements/journees-europeennes-des-metiers-d-art-atelier-broderie-avec-julie-percillier-107784"
+    },
+    {
+      "kind": "actualite",
+      "title": "Nouvelles pièces chez Maison Parisienne",
+      "summary": "La galerie présente ses œuvres récentes, dont le « Vase Volutes » (2026), le « Vase Oléacés » et la « Ronde d'olivier ».",
+      "place": "Maison Parisienne",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026",
+      "endDate": "",
+      "url": "https://maisonparisienne.fr/artiste/julie-percillier/"
+    }
+  ],
+  "sources": [
+    { "label": "Homo Faber : fiche de Julie Percillier", "url": "https://www.homofaber.com/en/artisans/julie_percillier-embroidery-paris" },
+    { "label": "Homo Faber : Giant rhubarb", "url": "https://www.homofaber.com/en/objects/a1VTG0000032x772AA" },
+    { "label": "Homo Faber : Vase entrelacs", "url": "https://www.homofaber.com/en/objects/a1VTG0000032x782AA" },
+    { "label": "Homo Faber : Ronde de saule", "url": "https://www.homofaber.com/en/objects/a1VTG0000032x792AA" },
+    { "label": "Homo Faber : Vergerette du Canada", "url": "https://www.homofaber.com/en/objects/a1VTG0000032x7A2AQ" },
+    { "label": "Homo Faber : Coquelicot", "url": "https://www.homofaber.com/it/objects/a1VTG0000032x7B2AQ" },
+    { "label": "Homo Faber 2026 : infos pratiques (dates)", "url": "https://www.homofaber.com/fr/biennial/homofaber-2026-practical-info" },
+    { "label": "Site de Julie Percillier : accueil", "url": "https://juliepercillier.com/" },
+    { "label": "Site de Julie Percillier : à propos", "url": "https://juliepercillier.com/apropos/" },
+    { "label": "Maison Parisienne : Julie Percillier", "url": "https://maisonparisienne.fr/artiste/julie-percillier/" },
+    { "label": "ArBA-EsA : alumni, Julie Percillier", "url": "https://arba-esa.be/fr/alumni/percillier-julie" },
+    { "label": "BDMMA : incubateur Les Ateliers de Paris, Julie Percillier", "url": "https://www.bdmma.paris/accompagnement/incubateur/julie-percillier/" },
+    { "label": "Paris.fr : JEMA 2026, atelier broderie avec Julie Percillier", "url": "https://www.paris.fr/evenements/journees-europeennes-des-metiers-d-art-atelier-broderie-avec-julie-percillier-107784" },
+    { "label": "Sakartonn : Julie Percillier (février 2022)", "url": "https://www.sakartonn.fr/julie-percillier/" },
+    { "label": "Instagram @julie_percilliertextile", "url": "https://www.instagram.com/julie_percilliertextile/" }
+  ],
+  "researchNotes": "À vérifier, non lus sur une page fiable : des résultats de recherche (LinkedIn, ancienne page « expositions » de son site, aujourd'hui en 404) évoquent le prix Laurent Moonens en octobre 2021 avec une résidence de huit mois à la Fondation Moonens à Bruxelles, une exposition collective pour les dix ans de la Fondation Moonens en septembre 2024, un premier prix Mathias de l'association Matières Libres au Mobilier national en novembre 2024, et des études à l'ENSAAMA (Paris) avant Bruxelles. L'année de diplôme à l'ArBA-EsA n'est pas indiquée : 2021 est déduite des photos de jury datées de juin 2021 sur la page alumni. Les années des expositions Recyclart et Miniartextil (2022) viennent de la date de l'article Sakartonn. La plupart des œuvres n'ont pas d'année publiée. Son site est en refonte (octobre 2026) et la page Maison Parisienne de ses œuvres ne donne ni matières ni dimensions ; « Dentelle de fougère » est décrite seulement par son titre. Aucune date d'exposition à venir trouvée. Deux adresses e-mail circulent (juliepercillier@outlook.com sur Homo Faber, contact@juliepercillier.com sur son site). Homonyme sans lien : Nathalie Percillier, réalisatrice ; une « Julie » designer textile à Bruxelles sur Wecandoo n'est pas forcément elle."
+}

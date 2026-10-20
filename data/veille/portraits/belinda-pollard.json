@@ -1,0 +1,294 @@
+{
+  "name": "Belinda Pollard",
+  "country": "France",
+  "city": "Dieulefit",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "broderie au fil d'or",
+    "crochet de Lunéville avec fils métallisés",
+    "peinture sur soie et sur organza de soie",
+    "superposition de couches d'organza",
+    "cannetille, jaseron et lurex",
+    "broderie de perles de verre",
+    "mobiles et pièces suspendues brodées",
+    "moulage et technique mixte"
+  ],
+  "summary": "Ancienne productrice de cinéma, Belinda Pollard brode au fil d'or des paysages, des cartes et des reliefs sur soie peinte dans son atelier de Dieulefit, dans la Drôme. Artisan d'art, membre d'Ateliers d'Art de France, elle expose à Résonance[s] et à Révélations et travaille aussi pour des maisons de luxe et des architectes.",
+  "biography": "Belinda Pollard a d'abord suivi une voie d'images : licence d'arts plastiques à l'Université Rennes 2 (2003-2006), master en théorie du cinéma à l'ULB de Bruxelles (2006-2008), puis le département production de La Fémis (2008-2012). Elle travaille ensuite plusieurs années comme productrice de cinéma. La broderie, elle la tient de ses deux grands-mères, et elle finit par y revenir.\n\nElle se forme alors au métier : stylisme au lycée Paul Poiret avec le GRETA (2017-2018), puis CAP de broderie main au lycée Octave Feuillet (2018-2019). Selon Homo Faber, elle ouvre son atelier dans le sud de la France en 2016 ; son site indique qu'elle fonde Maison Abel, une marque de bijoux brodés, en 2017. L'atelier se trouve 29 rue du Bourg à Dieulefit. Elle enseigne depuis 2019 et elle est reconnue Artisan d'art en 2020.\n\nSon travail parle de « la mémoire des paysages ». Elle peint la soie ou l'organza, superpose les couches, puis brode au fil d'or, au lurex, à la cannetille ou au jaseron des lignes de crête, des courbes de niveau, des sols craquelés. Plusieurs pièces portent pour titre des coordonnées GPS, comme « Latitude 44.0937 Longitude 6.23591 ». « Archipel » s'inspire d'une carte géologique de la Drôme provençale, « Interstices » (2023) comble au fil d'or les fissures d'une terre desséchée, à la manière du kintsugi. Le cinéma reste présent dans sa façon de jouer avec les couches, le mouvement et la lumière : elle a réalisé un paysage mobile de 85 éléments brodés qui projettent des ombres changeantes sur les murs.\n\nSes pièces murales sortent pour la première fois de l'atelier en novembre 2022 au salon Résonance[s] de Strasbourg, où elle revient chaque année. Suivent le Carrousel des métiers d'art au Carreau du Temple (2022), la galerie Decorde à Strasbourg, la Biennale Révélations au Grand Palais (2025) et bien d'autres. Elle reçoit en 2024 le prix Coup de cœur de la Maison des métiers d'art de Québec. Elle collabore avec des maisons de luxe et des architectes (Armani, Francis Kurkdjian, Chaumet) et a brodé en 2024 un diptyque tout en fil d'or pour l'hôtel Jumeirah Marsa Al-Arab à Dubaï.\n\nL'automne 2026 est chargé : elle fait partie des 12 créateurs accompagnés par la galerie Empreintes d'Ateliers d'Art de France pour le cycle 2026-2027, expose « Un vent de douceur » au Carré Saint-Cyr en Normandie jusqu'au 20 décembre, puis revient à Résonance[s] à Strasbourg du 6 au 9 novembre et part à Révélation China à Shanghai. Elle est annoncée à la Biennale Révélations au Grand Palais en mai 2027.",
+  "website": "https://www.belinda-pollard.com/",
+  "instagram": "https://www.instagram.com/belindapollard_/",
+  "photoUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/ada68498-beb7-4e2b-bd59-ea8306797360/Atelier+Belinda+Pollard+2026+10%28c%29belindapollard%40dagp+copie+recadr%C3%A9e.jpg",
+  "works": [
+    {
+      "title": "Interstices",
+      "year": "2023",
+      "technique": "Peinture sur soie, broderie d'or, cannetille",
+      "description": "Panneau de soie inspiré d'un sol désertique craquelé : le fil d'or comble les fissures de la soie peinte, à la manière du kintsugi, et la cannetille fait scintiller les failles.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f2Ty2AI",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=682x2048:format=jpg/path/saf2836ad2efae1f0/image/if6f35f0070934f67/version/1774016844/image.jpg"
+    },
+    {
+      "title": "Archipel",
+      "year": "",
+      "technique": "Trois couches d'organza de soie peintes à la main, broderie au fil d'or",
+      "description": "Pièce murale aux formes d'îles abstraites, inspirée d'une carte géologique de la Drôme provençale.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fq2AI",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=682x2048:format=jpg/path/saf2836ad2efae1f0/image/i9d94997090982f99/version/1774023065/image.jpg"
+    },
+    {
+      "title": "Les bulles #1",
+      "year": "2022",
+      "technique": "Broderie d'or (jaseron) et fils de soie, points de nœud",
+      "description": "Délicate broderie sur soie de bulles flottantes au jaseron d'or, une composition légère inspirée de l'eau.",
+      "url": "https://www.maisonabel.com/oeuvres/",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=1280x10000:format=jpg/path/saf2836ad2efae1f0/image/ib24334d115e52dca/version/1666093235/image.jpg"
+    },
+    {
+      "title": "Triptyque",
+      "year": "2023",
+      "technique": "Peinture sur soie, broderie de fils métallisés or au crochet de Lunéville, 3 x 40 x 100 cm",
+      "description": "Trois panneaux de courbes de niveau brodées d'or sur soie bleue, aux coordonnées latitude 44.5390430, longitude 5.0960760.",
+      "url": "https://www.maisonabel.com/oeuvres/",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=682x2048:format=jpg/path/saf2836ad2efae1f0/image/i1a0a065eca0bf9d0/version/1774017701/image.jpg"
+    },
+    {
+      "title": "Les particules",
+      "year": "2023",
+      "technique": "Technique mixte, moulage et peinture sur soie, broderie d'or, diamètre 70 cm",
+      "description": "Un disque sombre parsemé de particules en relief.",
+      "url": "https://www.maisonabel.com/oeuvres/",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=682x2048:format=jpg/path/saf2836ad2efae1f0/image/i97af70af845eb296/version/1774017991/image.jpg"
+    },
+    {
+      "title": "Latitude 44.6362 Longitude 5.20007",
+      "year": "",
+      "technique": "Broderie sur soie",
+      "description": "Commande privée pour un hôtel à Dubaï, présentée avec la Galerie Durst à Paris : un relief de lignes brodées sur fond bleu.",
+      "url": "https://www.maisonabel.com/oeuvres/",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=682x2048:format=jpg/path/saf2836ad2efae1f0/image/i1a3f86378336fb7a/version/1774018605/image.jpg"
+    },
+    {
+      "title": "Mémoire des Cimes",
+      "year": "2024",
+      "technique": "Broderie au fil d'or sur soie",
+      "description": "Lignes de crêtes brodées de milliers de points dorés sur fond bleu nuit.",
+      "url": "https://www.belinda-pollard.com/galerie",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/e2254223-05d2-446d-933b-534fd5b70a3c/MEMOIRE+DES+CIMES+Belinda+Pollard+2024+copie.jpg"
+    },
+    {
+      "title": "D'écumes et de cimes",
+      "year": "2025",
+      "technique": "Broderie sur soie peinte",
+      "description": "Montagnes en couches successives, du bleu profond au blanc de la brume.",
+      "url": "https://www.belinda-pollard.com/galerie",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/f5be1fef-1806-4598-b003-109eda33f62f/d+ecumes+et+de+cimes+Belinda+Pollard+%28c%29+Vestudio+copie.jpg"
+    },
+    {
+      "title": "Mobile Les Strates",
+      "year": "",
+      "technique": "Mobile de formes brodées suspendues",
+      "description": "Paysage suspendu de fragments translucides aux tons rosés, qui jouent avec la lumière et les ombres.",
+      "url": "https://www.belinda-pollard.com/galerie",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/6069cf4c-158c-4940-884a-53f235ea5e78/MOBILE+LES+STRATES+%C2%A9BelindaPollard%40dagp.jpg"
+    },
+    {
+      "title": "Concrétion 1",
+      "year": "",
+      "technique": "Broderie au fil d'or sur organza",
+      "description": "Relief blanc et doré qui sort du cadre, comme une concrétion minérale.",
+      "url": "https://www.belinda-pollard.com/galerie",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/3634c73a-ed68-43f4-9bc5-d07a6f561263/Concretion+1+%28c%29belindapollard+%40adagp+v2-2.jpg"
+    },
+    {
+      "title": "Horizons",
+      "year": "",
+      "technique": "Broderie au fil d'or sur soie peinte",
+      "description": "Dégradé de bleus traversé de lignes dorées, comme des horizons qui se superposent.",
+      "url": "https://www.belinda-pollard.com/galerie",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/6ed3c6da-1298-493d-ac95-3cf3eef96691/horizons+%28c%29belindapollard.jpg"
+    },
+    {
+      "title": "Diptyque",
+      "year": "2024",
+      "technique": "Broderie sur soie",
+      "description": "Deux grands panneaux bleus aux reliefs brodés, photographiés avec l'artiste.",
+      "url": "https://www.belinda-pollard.com/galerie",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6a4ba0d5852c0f5df2d45b9c/44db190b-dd4b-44c7-a5b6-d1e6f5c1b034/DYPTIQUE+BELINDA+POLLARD+2024+1.jpg"
+    },
+    {
+      "title": "Au-delà des Cimes",
+      "year": "",
+      "technique": "Organza de soie peint, broderie de fil lurex scintillant",
+      "description": "Pièce murale dont les lignes brodées évoquent des crêtes et une lumière changeante, un paysage en couches qui varie selon le point de vue.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fp2AI",
+      "imageUrl": ""
+    },
+    {
+      "title": "Latitude 44.0937 Longitude 6.23591",
+      "year": "",
+      "technique": "Fils de viscose et de coton brodés",
+      "description": "Panneau textile aux lignes topographiques qui dessinent un paysage de montagne.",
+      "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fs2AI",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "2003", "kind": "formation", "label": "Licence d'arts plastiques, Université Rennes 2 (2003-2006)" },
+    { "date": "2006", "kind": "formation", "label": "Master en théorie du cinéma, ULB Bruxelles (2006-2008)" },
+    { "date": "2008", "kind": "formation", "label": "Département production de La Fémis (2008-2012)" },
+    { "date": "2012", "kind": "autre", "label": "Productrice de cinéma (jusqu'en 2016)" },
+    { "date": "2016", "kind": "autre", "label": "Ouvre son atelier dans le sud de la France (selon Homo Faber)" },
+    { "date": "2017", "kind": "autre", "label": "Fonde Maison Abel, marque de bijoux brodés" },
+    { "date": "2017", "kind": "formation", "label": "Formation stylisme, lycée Paul Poiret / GRETA (2017-2018)" },
+    { "date": "2018", "kind": "exposition", "label": "Biennale Émergence, 5e édition, CND Pantin" },
+    { "date": "2018", "kind": "formation", "label": "CAP broderie main, lycée Octave Feuillet (2018-2019)" },
+    { "date": "2019", "kind": "autre", "label": "Commence à enseigner" },
+    { "date": "2020", "kind": "prix", "label": "Reconnue Artisan d'art" },
+    { "date": "2022", "kind": "oeuvre", "label": "« Les bulles #1 » et « Les bulles #2 »" },
+    { "date": "2022", "kind": "exposition", "label": "Carrousel des métiers d'art, Carreau du Temple, Paris" },
+    { "date": "2022-11", "kind": "exposition", "label": "Résonance[s], 10e édition, Strasbourg : première présentation de ses pièces murales" },
+    { "date": "2023", "kind": "oeuvre", "label": "« Interstices », « Triptyque », « Les particules »" },
+    { "date": "2023", "kind": "exposition", "label": "Résonance[s] 11e édition, « Trésor[s] noir » à la galerie Decorde, exposition du concours régional d'Ateliers d'Art de France à Saint-Uze" },
+    { "date": "2024", "kind": "prix", "label": "Prix Coup de cœur de la Maison des métiers d'art de Québec" },
+    { "date": "2024", "kind": "oeuvre", "label": "Diptyque brodé au fil d'or pour l'hôtel Jumeirah Marsa Al-Arab, Dubaï ; « Mémoire des Cimes »" },
+    { "date": "2024", "kind": "exposition", "label": "Résonance[s] 12e édition, « Trésor[s] » galerie Decorde, « Insectes » à L'Usine du Poët-Laval, « Haut la main » à Obernai" },
+    { "date": "2025-05-21", "kind": "exposition", "label": "Biennale Révélations, Grand Palais, Paris (21-25 mai)" },
+    { "date": "2025", "kind": "exposition", "label": "« Cannetilles », La Cure, Saint-Jean-Saint-Maurice-sur-Loire" },
+    { "date": "2025-10", "kind": "exposition", "label": "Biennale Sillon" },
+    { "date": "2025-11", "kind": "exposition", "label": "Résonance[s], 13e édition, Strasbourg" },
+    { "date": "2026-04", "kind": "exposition", "label": "SUPERNATURE, Obernai (avril-mai)" },
+    { "date": "2026", "kind": "autre", "label": "Sélectionnée parmi les 12 créateurs accompagnés par la galerie Empreintes pour 2026-2027" },
+    { "date": "2026-09-10", "kind": "exposition", "label": "Paris Design Week, Maison Kyka (10-14 septembre)" },
+    { "date": "2026-09-17", "kind": "exposition", "label": "Galerie Collection-Empreinte, Paris (jusqu'au 31 juillet 2027)" },
+    { "date": "2026-10-07", "kind": "exposition", "label": "« Un vent de douceur », Carré Saint-Cyr, Normandie (jusqu'au 20 décembre)" },
+    { "date": "2026-11-06", "kind": "exposition", "label": "Résonance[s], Strasbourg (6-9 novembre)" },
+    { "date": "2026-11", "kind": "exposition", "label": "Révélation China, Shanghai" },
+    { "date": "2027-05-19", "kind": "exposition", "label": "Biennale Révélations, Grand Palais, Paris (19-23 mai)" }
+  ],
+  "news": [
+    {
+      "kind": "salon",
+      "title": "Résonance[s], 13e édition",
+      "summary": "Belinda Pollard expose ses broderies au salon européen des métiers d'art de Strasbourg.",
+      "place": "Résonance[s]",
+      "city": "Strasbourg",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2025-11",
+      "endDate": "",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "exposition",
+      "title": "SUPERNATURE",
+      "summary": "Exposition collective à Obernai à laquelle elle participe au printemps 2026.",
+      "place": "",
+      "city": "Obernai",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-04",
+      "endDate": "2026-05",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "actualite",
+      "title": "Belinda Pollard dans « 100% Création » sur RFI",
+      "summary": "Reportage radio consacré à son travail, diffusé le 3 mai 2026, après un article de six pages dans Mode et Travaux en avril.",
+      "place": "RFI",
+      "city": "",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-05-03",
+      "endDate": "",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "salon",
+      "title": "Paris Design Week à la Maison Kyka",
+      "summary": "Ses pièces brodées sont présentées à la Maison Kyka pendant la Paris Design Week.",
+      "place": "Maison Kyka",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-14",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "exposition",
+      "title": "Galerie Collection-Empreinte, cycle 2026-2027",
+      "summary": "Sélectionnée parmi 12 créateurs accompagnés par la galerie Empreintes d'Ateliers d'Art de France, elle y est exposée pendant près d'un an.",
+      "place": "Galerie Empreintes",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-09-17",
+      "endDate": "2027-07-31",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "exposition",
+      "title": "Un vent de douceur",
+      "summary": "Exposition au Carré Saint-Cyr, galerie des métiers d'art installée en Normandie.",
+      "place": "Carré Saint-Cyr",
+      "city": "",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-10-07",
+      "endDate": "2026-12-20",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "salon",
+      "title": "Résonance[s] 2026",
+      "summary": "Retour au salon européen des métiers d'art de Strasbourg, où ses pièces murales ont été montrées pour la première fois en 2022.",
+      "place": "Résonance[s]",
+      "city": "Strasbourg",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-09",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "salon",
+      "title": "Révélation China",
+      "summary": "Participation à l'édition chinoise de la biennale des métiers d'art Révélations.",
+      "place": "Révélation China",
+      "city": "Shanghai",
+      "country": "Chine",
+      "zone": "monde",
+      "startDate": "2026-11",
+      "endDate": "",
+      "url": "https://www.belinda-pollard.com/about"
+    },
+    {
+      "kind": "salon",
+      "title": "Biennale Révélations 2027",
+      "summary": "Elle est annoncée à la biennale internationale des métiers d'art et de la création au Grand Palais.",
+      "place": "Grand Palais",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2027-05-19",
+      "endDate": "2027-05-23",
+      "url": "https://www.belinda-pollard.com/about"
+    }
+  ],
+  "sources": [
+    { "label": "Homo Faber, fiche artisan", "url": "https://www.homofaber.com/en/artisans/belinda_pollard-gold_thread_embroidery-dieulefit" },
+    { "label": "Homo Faber, Interstices", "url": "https://www.homofaber.com/en/objects/a1VTG000000f2Ty2AI" },
+    { "label": "Homo Faber, Au-delà des Cimes", "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fp2AI" },
+    { "label": "Homo Faber, Archipel", "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fq2AI" },
+    { "label": "Homo Faber, Latitude 44.0937 Longitude 6.23591", "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fs2AI" },
+    { "label": "Homo Faber, Les bulles", "url": "https://www.homofaber.com/en/objects/a1VTG000000f4Fr2AI" },
+    { "label": "Site de Belinda Pollard, accueil", "url": "https://www.belinda-pollard.com/" },
+    { "label": "Site de Belinda Pollard, à propos (parcours, expositions, presse)", "url": "https://www.belinda-pollard.com/about" },
+    { "label": "Site de Belinda Pollard, galerie", "url": "https://www.belinda-pollard.com/galerie" },
+    { "label": "Maison Abel, accueil", "url": "https://www.maisonabel.com/" },
+    { "label": "Maison Abel, œuvres", "url": "https://www.maisonabel.com/oeuvres/" }
+  ],
+  "researchNotes": "Date de naissance non publique. Début de l'atelier : Homo Faber dit 2016, son site dit qu'elle fonde Maison Abel en 2017 ; son site écrit aussi « Productrice 20212 à 2016 », probablement 2012-2016. Les expositions, prix, presse et l'agenda 2026-2027 viennent tous de sa page « À propos » : je n'ai trouvé aucune confirmation externe (recherche sans résultat pour « Un vent de douceur » au Carré Saint-Cyr, et pour sa sélection à la galerie Empreintes). Le Carré Saint-Cyr serait au Vaudreuil (Eure) d'après Normandie Tourisme, non lu, donc ville laissée vide. « Galerie Collection-Empreinte » est sans doute la galerie Empreintes d'Ateliers d'Art de France (5 rue de Picardie, Paris) : à confirmer. Les titres et années des œuvres de la galerie du nouveau site (Mémoire des Cimes 2024, D'écumes et de cimes 2025, Diptyque 2024, Mobile Les Strates, Concrétion 1, Horizons) sont déduits des noms de fichiers d'images, sans fiche détaillée ; leurs descriptions viennent de ce que montrent les images. On ne sait pas si le « Diptyque 2024 » est celui de l'hôtel Jumeirah de Dubaï. Les images Homo Faber de ses œuvres et son portrait Homo Faber répondent en application/octet-stream, donc écartés ; images reprises de maisonabel.com et belinda-pollard.com quand elles existent (vérifiées visuellement). Le site maisonabel.com annonce que les œuvres sont désormais sur le nouveau site. Aucun homonyme brodeuse repéré."
+}

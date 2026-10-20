@@ -1,0 +1,154 @@
+{
+  "name": "Julie Romero",
+  "country": "France",
+  "city": "Azé",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "broderie au crochet de Lunéville",
+    "broderie d'art haute couture",
+    "point tiré de soie (silk shading) au crochet de Lunéville",
+    "broderie or (goldwork)",
+    "broderie de perles et de sequins",
+    "broderie en volume (3D)",
+    "soutache"
+  ],
+  "summary": "Brodeuse d'art formée à l'École Lesage, Julie Romero a brodé pour des maisons de haute couture avant de créer son studio dans la vallée de la Loire, à Azé. Elle y conçoit des prototypes pour le luxe, des pièces très texturées et des cours en ligne suivis dans le monde entier.",
+  "biography": "Julie Romero a grandi entre l'Amérique latine, l'Asie et l'Europe, au gré de la carrière de son père, dans un environnement culturel latin. Elle se forme d'abord en comptabilité et en gestion, et travaille dans le management en entreprise. C'est en revenant à la broderie comme loisir qu'elle trouve sa voie : elle partage ses apprentissages sur Facebook, une communauté se forme autour d'elle et les premières demandes de cours arrivent.\n\nElle se forme ensuite à l'École Lesage, à Paris, et commence sa carrière de brodeuse en 2015. Elle travaille comme brodeuse professionnelle sur des collections de maisons de haute couture françaises et pour des collections de Karl Lagerfeld. Elle maîtrise le crochet de Lunéville, la broderie or, les perles et les sequins, et se distingue par des broderies très texturées, souvent en volume.\n\nAujourd'hui installée à Azé, dans la vallée de la Loire, loin des réseaux habituels des métiers d'art, elle développe des échantillons et des prototypes brodés pour des marques et des créateurs, en toute confidentialité. Elle parle de « luxury slow embroidery » : des pièces faites main, avec des matériaux choisis et durables. Elle s'approvisionne autant que possible chez des fournisseurs français, comme la soie Au Ver à Soie, et utilise des sequins français anciens. Ses couleurs chaudes viennent de ses racines latino-américaines, et la nature reste sa source d'inspiration favorite.\n\nElle enseigne depuis 2019. Elle a donné des ateliers de broderie de Lunéville dans toute l'Europe (Stuttgart, Naples, Rome, Bergame, Londres, Thessalonique, Florence) et a créé l'École Julie Romero, une école en ligne avec vidéos et kits de matériel, suivie par des élèves d'Italie, des Pays-Bas, du Canada, du Pérou, des États-Unis, d'Espagne ou du Japon. Parmi ses cours : « Jardin à la française » (point tiré de soie au crochet de Lunéville, niveau avancé), « Letters from Amalfi », « Pandora », « Les Roses ».\n\nParmi ses créations : « Tourbillon », un tableau de pétales dorés en spirale sur fond noir, « Birds and Lemons », « La Fontaine », un sac brodé de perles et de sequins, ou la pochette « Capri ». En avril 2026, elle a présenté la broderie à la main au château de Chambord pour les Journées européennes des métiers d'art. En septembre 2027, elle fera partie des quatre brodeuses qui enseigneront au château royal de Blois pour les 200 ans de la maison de soie Au Ver à Soie.",
+  "website": "https://www.julieromero.fr/",
+  "instagram": "https://www.instagram.com/julieromerodesigns/",
+  "photoUrl": "https://api.homofaber.com/uploads/3_DSC_4592_cf5c179a2b.jpg",
+  "works": [
+    {
+      "title": "Tourbillon",
+      "year": "",
+      "technique": "broderie d'art, pétales dorés et sequins",
+      "description": "Un tableau encadré : des pétales et feuilles dorés tournent en spirale sur un fond noir.",
+      "url": "https://www.homofaber.com/en/artisans/julie_romero-embroidery-az%C3%A9",
+      "imageUrl": "https://api.homofaber.com/uploads/2_NEW_DSC_5259_2_c622a3b16c.jpg"
+    },
+    {
+      "title": "Birds and Lemons",
+      "year": "",
+      "technique": "broderie d'art en volume",
+      "description": "Un tableau encadré où des oiseaux bleus se posent dans un citronnier brodé, feuilles et citrons en relief.",
+      "url": "https://www.homofaber.com/en/artisans/julie_romero-embroidery-az%C3%A9",
+      "imageUrl": "https://api.homofaber.com/uploads/5_NEW_DSC_5237_2_14b65d347a.jpg"
+    },
+    {
+      "title": "Mini garden",
+      "year": "",
+      "technique": "broderie en volume, perles et sequins",
+      "description": "Une petite boîte ronde couverte d'un jardin brodé en relief, aux tons rosés et dorés.",
+      "url": "https://www.homofaber.com/en/artisans/julie_romero-embroidery-az%C3%A9",
+      "imageUrl": "https://api.homofaber.com/uploads/obj_2_DSC_4055_4ed690e7c4.jpg"
+    },
+    {
+      "title": "La Fontaine",
+      "year": "",
+      "technique": "broderie de perles et de sequins",
+      "description": "Un petit sac cylindrique entièrement brodé de perles, sequins et fleurs, porté sur une chaîne dorée.",
+      "url": "https://www.homofaber.com/en/artisans/julie_romero-embroidery-az%C3%A9",
+      "imageUrl": "https://api.homofaber.com/uploads/obj_1_DSC_0965_6113bc07e0.jpg"
+    },
+    {
+      "title": "Letters from Amalfi",
+      "year": "",
+      "technique": "broderie de perles et de sequins",
+      "description": "Une pochette en forme d'enveloppe, brodée de citrons jaunes et de feuillage. C'est aussi le titre de l'un de ses cours en ligne.",
+      "url": "https://www.homofaber.com/en/artisans/julie_romero-embroidery-az%C3%A9",
+      "imageUrl": "https://api.homofaber.com/uploads/obj_4_Letters_from_Amalfi_15_julie_romero_designs_sans_logo_f89642efbe.jpg"
+    },
+    {
+      "title": "Capri",
+      "year": "",
+      "technique": "broderie de perles",
+      "description": "Une pochette rigide blanche brodée de coraux turquoise et du mot « Capri » en perles rouges.",
+      "url": "https://www.julieromero.fr/portfolio",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/674f45a246dd4a5f4a2561a2/3eafc943-0a4c-459e-b33f-0edc5cac1d18/Capri+clutch+by+julie+Romero"
+    },
+    {
+      "title": "The New Yorker",
+      "year": "",
+      "technique": "broderie d'art, perles, sequins et fils métalliques",
+      "description": "Une couverture du magazine The New Yorker réinterprétée en broderie, avec un visage aux lèvres rouges et un décor doré et cuivré.",
+      "url": "https://www.julieromero.fr/portfolio",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/674f45a246dd4a5f4a2561a2/a8288abc-bb02-49c4-9a5f-520dd2e10c18/the+new+yorker+by+julie+romero"
+    },
+    {
+      "title": "Papillons",
+      "year": "",
+      "technique": "broderie de perles et sequins noirs, en volume",
+      "description": "Un sac à main noir couvert de papillons brodés en relief.",
+      "url": "https://www.julieromero.fr/portfolio",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/674f45a246dd4a5f4a2561a2/889ff226-b960-4ce7-bcd3-420c2c568429/Papillons+bag+by+Julie+Romero"
+    },
+    {
+      "title": "Les Roses",
+      "year": "",
+      "technique": "broderie en volume, perles et sequins",
+      "description": "Des roses roses et rouges brodées en relief au milieu d'une pluie de perles. « Les Roses » est aussi un cours de niveau 2 de son école en ligne.",
+      "url": "https://www.julieromero.fr/portfolio",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/674f45a246dd4a5f4a2561a2/980701e2-0c79-46a6-8251-62a667fc42bb/DSC_1820.jpg"
+    },
+    {
+      "title": "Fleurs",
+      "year": "",
+      "technique": "broderie d'art en volume",
+      "description": "Un panneau de fleurs aux tons pastel, brodées en relief sur un fond clair.",
+      "url": "https://www.julieromero.fr/portfolio",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/674f45a246dd4a5f4a2561a2/9a822b71-6eb1-4da2-9b99-9fc6b611b456/Les+Fleurs+by+julie+romero+designs+01.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "2015", "kind": "vie", "label": "Début de sa carrière de brodeuse, après sa formation à l'École Lesage" },
+    { "date": "2017-04", "kind": "autre", "label": "Atelier de soutache à Stuttgart" },
+    { "date": "2017-11", "kind": "autre", "label": "Atelier de broderie de Lunéville à Naples" },
+    { "date": "2018", "kind": "autre", "label": "Ateliers de Lunéville à Bergame, Londres, Rome, Florence et Thessalonique" },
+    { "date": "2019", "kind": "autre", "label": "Commence à enseigner (d'après Homo Faber)" },
+    { "date": "2024-03", "kind": "autre", "label": "Ateliers au salon Fiera Creattiva, Bergame et Milan" },
+    { "date": "2025-04-02", "kind": "autre", "label": "Atelier « Soleil de Paris » pour les élèves de l'Atelier Natalia Rios (Brésil)" },
+    { "date": "2026-04", "kind": "exposition", "label": "Exposition et démonstration de broderie main au château de Chambord, Journées européennes des métiers d'art" },
+    { "date": "2027-09", "kind": "autre", "label": "Enseigne au château royal de Blois pour les 200 ans d'Au Ver à Soie" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "Journées européennes des métiers d'art au château de Chambord",
+      "summary": "Exposition de broderie main et démonstration en direct. Soirée d'ouverture le 7 avril, journée des scolaires le 10, public les 11 et 12 avril.",
+      "place": "Château de Chambord",
+      "city": "Chambord",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-12",
+      "url": "https://www.julieromero.fr/events"
+    },
+    {
+      "kind": "technique",
+      "title": "Deux siècles de soie : retraite brodée pour les 200 ans d'Au Ver à Soie",
+      "summary": "Une semaine de broderie imaginée par Au Ver à Soie : quatre brodeuses (Jenny Adin-Christie, Julie Romero, Alison Cole et Ekta Kaul) dessinent chacune une partie d'une pièce commémorative et l'enseignent tour à tour. Inscriptions closes, liste d'attente complète.",
+      "place": "Château royal de Blois",
+      "city": "Blois",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2027-09-12",
+      "endDate": "2027-09-18",
+      "url": "https://www.sieclesdesoie.com"
+    }
+  ],
+  "sources": [
+    { "label": "Homo Faber, fiche Julie Romero", "url": "https://www.homofaber.com/en/artisans/julie_romero-embroidery-az%C3%A9" },
+    { "label": "Site de Julie Romero, accueil", "url": "https://www.julieromero.fr/" },
+    { "label": "Site de Julie Romero, à propos", "url": "https://www.julieromero.fr/about" },
+    { "label": "Site de Julie Romero, portfolio", "url": "https://www.julieromero.fr/portfolio" },
+    { "label": "Site de Julie Romero, événements", "url": "https://www.julieromero.fr/events" },
+    { "label": "École Julie Romero, cours avec kit", "url": "https://www.julieromero.fr/ecolejulieromero" },
+    { "label": "École Julie Romero, cours Jardin à la française", "url": "https://www.julieromero.fr/french-gardenembroidery-course" },
+    { "label": "Deux siècles de soie, Au Ver à Soie (Blois, 2027)", "url": "https://www.sieclesdesoie.com" },
+    { "label": "Domaine national de Chambord, communiqué JEMA 2026", "url": "https://cdn1.chambord.org/fr/wp-content/uploads/sites/2/2026/04/CHAMBORD-JEMA-2026-COMMUNIQU%C3%89-DE-PRESSE.pdf" },
+    { "label": "By Hand London, « A touch of Haute Couture » (2020)", "url": "https://byhandlondon.com/blogs/by-hand-london/a-touch-of-haute-couture" }
+  ],
+  "researchNotes": "Ni son pays d'origine précis ni sa date de naissance ne sont publiés : son site parle d'une enfance entre Amérique latine, Asie et Europe et Homo Faber de « racines latino-américaines ». Les maisons de haute couture pour lesquelles elle a brodé ne sont pas nommées (seul Karl Lagerfeld est cité) ; le portfolio de son site contient un titre « CHANEL » sans détail. Les années d'obtention du diplôme Lesage ne sont pas données. Il existe deux communes nommées Azé (Loir-et-Cher et Mayenne) : Homo Faber dit seulement « Azé, France » et son site « vallée de la Loire », ce qui pointe vers Azé (Loir-et-Cher), à confirmer. Sa participation aux JEMA 2026 à Chambord vient uniquement de sa page Événements : le communiqué du château (11-12 avril, artisans du Centre-Val de Loire) ne cite pas les noms des exposants. Le portrait « Julie Romero, l'élégance de la haute couture » du site Le Temps de Broder renvoie une erreur 410 : non lu. Son ancienne école Teachable est fermée et l'ancien site atelierjulieromero.com est cité par By Hand London en 2020. Aucune année n'est donnée pour ses œuvres. Je n'ai trouvé aucune mention dans les annuaires Ateliers d'Art de France, INMA ou EPV via la recherche web (non vérifié directement dans ces annuaires). Les images d'œuvres sont reliées à leur titre par le texte alternatif (Homo Faber : « Julie Romero Tourbillon », etc. ; son site : « Capri clutch », « the new yorker by julie romero »...) et je les ai regardées pour vérifier qu'elles montrent bien l'œuvre."
+}
