@@ -1,0 +1,99 @@
+{
+  "name": "Métral",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [],
+  "people": [],
+  "techniques": [
+    "Broderie haute couture",
+    "Broderie de perles de verre à l'aiguille",
+    "Paillettes rebrodées",
+    "Crochet de Lunéville"
+  ],
+  "clients": [
+    "Balenciaga"
+  ],
+  "labels": [
+    "Maison disparue"
+  ],
+  "summary": "Petit atelier de broderie parisien qui a travaillé pour Balenciaga, au moins de 1947 au milieu des années 1960, aujourd'hui disparu. Le Palais Galliera conserve plusieurs pièces Balenciaga dont la broderie lui est attribuée.",
+  "history": "Métral fait partie de ces petits ateliers de broderie qui travaillaient pour la haute couture parisienne au milieu du XXe siècle, à côté des grandes maisons comme Lesage ou Rébé. On ne connaît pour l'instant ni ses fondateurs, ni son adresse exacte, ni ses dates d'ouverture et de fermeture : la maison a disparu et son nom survit surtout dans les notices de musées.\n\nSon client le mieux documenté est Cristóbal Balenciaga. Le Palais Galliera, musée de la Mode de la Ville de Paris, conserve un ensemble du soir de printemps-été 1947, un boléro et une robe fourreau dans une soie imprimée de grandes fleurs, où Métral a rebrodé des paillettes de la couleur de chaque motif. Il conserve aussi une veste du soir de printemps-été 1949 en soie de Bianchini-Férier, brodée de grosses fleurs et de feuillages.\n\nPour l'automne-hiver 1965-1966, Métral brode avec Lesage un ensemble veste et robe fourreau en organza noir, à motif de losanges, donné au musée par Balenciaga lui-même en 1971. La notice de la veste détaille un travail de perles de verre à l'aiguille, de paillettes et de lame plastique posée au crochet de Lunéville. Cet ensemble a été montré dans l'exposition « Balenciaga, l'œuvre au noir » au musée Bourdelle en 2017, puis au Kimbell Art Museum de Fort Worth en 2018.\n\nUne autre pièce Balenciaga, un boléro du soir présenté en 2015 à la Cité de la dentelle et de la mode de Calais, montre l'ingéniosité de l'atelier : sur un fond de tulle trop léger pour porter de grosses fleurs brodées, Métral a ajouté un fond de pongé de soie en forme de fleur.\n\nDans les années 1950, le futur brodeur milanais Pino Grasso fréquente l'atelier Métral, avec Lanel, Goby, Lisbeth et Vermont, après s'être formé chez Mesrine. Aujourd'hui, l'ensemble Balenciaga de 1947 a été exposé au Palais Galliera dans « Tisser, broder, sublimer. Les savoir-faire de la mode » (décembre 2025 à octobre 2026).",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    { "date": "1947", "kind": "oeuvre", "label": "Printemps-été 1947 : paillettes rebrodées sur l'ensemble du soir boléro et robe fourreau de Balenciaga (Palais Galliera)" },
+    { "date": "1949", "kind": "oeuvre", "label": "Printemps-été 1949 : broderie de grosses fleurs et feuillages sur une veste du soir Balenciaga (Palais Galliera, 1984.135.1)" },
+    { "date": "1950", "kind": "residence", "label": "Années 1950 : le brodeur milanais Pino Grasso fréquente l'atelier Métral" },
+    { "date": "1965", "kind": "oeuvre", "label": "Automne-hiver 1965-1966 : avec Lesage, broderie de l'ensemble veste et robe fourreau en organza noir de Balenciaga (Palais Galliera, 1970.92.5)" },
+    { "date": "2015", "kind": "exposition", "label": "Un boléro Balenciaga brodé par Métral dans « Balenciaga, magicien de la dentelle », Cité de la dentelle et de la mode, Calais" },
+    { "date": "2017-03-08", "kind": "exposition", "label": "L'ensemble veste et robe de 1965-1966 dans « Balenciaga, l'œuvre au noir », musée Bourdelle, Paris" },
+    { "date": "2018-10-06", "kind": "exposition", "label": "Le même ensemble dans « Balenciaga in Black », Kimbell Art Museum, Fort Worth" },
+    { "date": "2025-12-13", "kind": "exposition", "label": "L'ensemble du soir de 1947 dans « Tisser, broder, sublimer. Les savoir-faire de la mode », Palais Galliera" }
+  ],
+  "works": [
+    {
+      "title": "Ensemble du soir, boléro et robe fourreau",
+      "year": "1947",
+      "technique": "Balenciaga · paillettes rebrodées sur soie imprimée",
+      "description": "Boléro court et robe longue dans un crêpe de soie imprimé de grandes fleurs stylisées, avec des paillettes rebrodées de la couleur de chaque motif. Donné au Palais Galliera en 1963 par la comtesse de Castéja, il a été exposé dans « Les savoir-faire de la mode » en 2025-2026.",
+      "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/ensemble-du-soir-3",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/styles/pm_notice/public/atoms/images/GAL/cglv_gal1963.20.1.0_001.jpg?itok=W6MkrGaW"
+    },
+    {
+      "title": "Veste du soir",
+      "year": "1949",
+      "technique": "Balenciaga · broderie de fleurs et feuillages",
+      "description": "Veste à petite basque et col droit, en soie de Bianchini-Férier, brodée de grosses fleurs et de feuillages (Palais Galliera, 1984.135.1).",
+      "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/veste-du-soir-0",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/styles/pm_notice/public/atoms/images/GAL/lpdp_45020-9.jpg?itok=kPD80A-5"
+    },
+    {
+      "title": "Veste et robe fourreau",
+      "year": "1965",
+      "technique": "Balenciaga · broderie avec Lesage, perles, paillettes",
+      "description": "Ensemble en organza noir à motif de losanges, automne-hiver 1965-1966, brodé par Lesage et Métral, donné par Cristóbal Balenciaga au Palais Galliera en 1971 (1970.92.5).",
+      "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/veste-et-robe-11",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/styles/pm_notice/public/atoms/images/GAL/cglv_gal1970.92.5_001.jpg?itok=sjXhBkzw"
+    },
+    {
+      "title": "Veste de l'ensemble en organza noir",
+      "year": "1965",
+      "technique": "Balenciaga · perles de verre à l'aiguille, lame plastique au crochet de Lunéville",
+      "description": "Veste courte en organza noir et ruban de satin, brodée de perles de verre à l'aiguille, de paillettes et de lame plastique au crochet de Lunéville. Son bolduc d'atelier porte « Août 65 ».",
+      "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/veste-555",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/styles/pm_notice/public/atoms/images/GAL/cglv_gal1970.92.5a_001.jpg?itok=8crv5-90"
+    },
+    {
+      "title": "Robe fourreau de l'ensemble en organza noir",
+      "year": "1965",
+      "technique": "Balenciaga · broderie de perles et paillettes avec Lesage",
+      "description": "Robe droite sans manches en organza noir, ceinture à nouer en ruban de satin noir, brodée de losanges par Lesage et Métral.",
+      "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/robe-fourreau-17",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/styles/pm_notice/public/atoms/images/GAL/cglv_gal1970.92.5b_001.jpg?itok=ieADj5ZB"
+    },
+    {
+      "title": "Boléro du soir sur tulle",
+      "year": "",
+      "technique": "Balenciaga · fleurs brodées sur fond de pongé de soie",
+      "description": "Sur un tulle brun imitant la dentelle, Métral a ajouté un fond de pongé de soie en forme de fleur pour porter de lourdes fleurs en velours aubergine, perles, strass et chenille. Pièce montrée à Calais en 2015.",
+      "url": "https://www.alaintruong.com/archives/2015/04/12/31878889.html",
+      "imageUrl": ""
+    }
+  ],
+  "sources": [
+    { "label": "Paris Musées, Palais Galliera : Ensemble du soir Balenciaga, 1947", "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/ensemble-du-soir-3" },
+    { "label": "Paris Musées, Palais Galliera : Veste du soir Balenciaga, 1949", "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/veste-du-soir-0" },
+    { "label": "Paris Musées, Palais Galliera : Veste et robe Balenciaga, 1965-1966", "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/veste-et-robe-11" },
+    { "label": "Paris Musées, Palais Galliera : Veste Balenciaga, 1965-1966", "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/veste-555" },
+    { "label": "Paris Musées, Palais Galliera : Robe fourreau Balenciaga, 1965-1966", "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/robe-fourreau-17" },
+    { "label": "Paris Musées : toutes les œuvres de Métral (brodeur)", "url": "https://www.parismuseescollections.paris.fr/fr/recherche/type/oeuvre/ET/auteur/M%C3%A9tral%20%28brodeur%29" },
+    { "label": "Alain R. Truong : « Balenciaga, magicien de la dentelle » à Calais (2015)", "url": "https://www.alaintruong.com/archives/2015/04/12/31878889.html" },
+    { "label": "Pino Grasso Ricami, About us (archive Wayback Machine)", "url": "https://web.archive.org/web/2025/https://www.pinograsso-ricami.com/en/about-us/" }
+  ],
+  "researchNotes": "Orthographe « Métral » confirmée par l'extrait d'Émilie et par les notices du Palais Galliera (auteur « Métral (brodeur) »). Le Pino Grasso Ricami l'écrit « Metral ». La notice de la veste 1970.92.5a écrit « au crochet Lunéville par Métal » : sans doute une coquille pour Métral, mais elle peut aussi vouloir dire que le crochet de Lunéville revient à Métral et l'aiguille à Lesage, à confirmer. Paris Musées liste 5 notices (l'ensemble 1965-1966 compte pour 3 : ensemble, veste, robe). Le numéro d'inventaire de l'ensemble de 1947 n'est pas lisible sur la notice (les images portent 1963.20.1). Le boléro de Calais : ni date sûre (le texte parle du tournant 1950-1960 et dit « si celui-ci date de 1959 »), ni musée prêteur, ni image vérifiable. Non vérifié, vu seulement en extraits de moteur de recherche : une critique d'ItArtBag sur « Tisser, broder, sublimer » qui citerait la « maison Métral » et la dirait spécialisée dans la broderie mécanique de haute qualité (site injoignable) ; un article de WWD sur « Balenciaga, l'œuvre au noir » citant des broderies de Lesage, Rébé ou Métral. Le dossier de presse du Palais Galliera ne nomme pas Métral. Aucun lien sourcé avec Dior, Balmain ou Dessès. Rien trouvé au V&A ni au Met. Fondateurs, adresse, dates d'ouverture et de fermeture inconnus : pistes, les Bottins du commerce parisiens (Gallica, rubrique Brodeurs), les archives Balenciaga, le musée Bourdelle (catalogue 2017), la Cité de la dentelle de Calais. Émilie a aussi un extrait (source à préciser) qui cite Métral parmi les petits ateliers des années 1950 aujourd'hui disparus. Ne pas confondre avec les Maisons Alain Métral, constructeur de maisons en Savoie."
+}

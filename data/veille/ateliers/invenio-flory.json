@@ -1,0 +1,170 @@
+{
+  "name": "Invenio Flory",
+  "city": "Le Pré-Saint-Gervais",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "2011",
+  "closedDate": "",
+  "founders": [
+    "Flory Brisset"
+  ],
+  "people": [
+    {
+      "name": "Flory Brisset",
+      "role": "fondatrice et directrice artistique, brodeuse formée à l'École Duperré"
+    },
+    {
+      "name": "Hugo Rubio",
+      "role": "collaborateur, profil ingénieur puis commerce et management (cité en 2016)"
+    },
+    {
+      "name": "Gabriela",
+      "role": "membre de l'équipe (prénom seul, rôle non précisé)"
+    }
+  ],
+  "techniques": [
+    "Broderie contemporaine",
+    "Broderie en strates et en volume",
+    "Broderie lumineuse",
+    "Impression 3D",
+    "Découpe laser et CNC",
+    "Impression numérique sur textile et sur plastique",
+    "Thermoformage",
+    "Moulage et coulage",
+    "Plumasserie",
+    "Dorure à la feuille",
+    "Maille et tissage",
+    "Peinture, dessin et teinture",
+    "Marqueterie de chaînes",
+    "Sculpture de papier"
+  ],
+  "clients": [
+    "Jean Paul Gaultier",
+    "Maison Margiela",
+    "Stéphane Rolland",
+    "Schiaparelli",
+    "Saint Laurent",
+    "Balenciaga",
+    "Chanel",
+    "Dior",
+    "Balmain",
+    "Céline",
+    "Carven",
+    "L'Oréal Prestige"
+  ],
+  "labels": [
+    "Entreprise du Patrimoine Vivant (2018)",
+    "Prix spécial du jury, concours Créatrice d'Avenir (2016)",
+    "Prix de l'innovation, concours Stars et Métiers",
+    "Label Paris Region Business Club (2019)"
+  ],
+  "summary": "Studio de création fondé en 2011 par la brodeuse Flory Brisset, aujourd'hui installé au Pré-Saint-Gervais, qui crée des oeuvres ornementales en matériaux souples. Il marie broderie et métiers d'art avec des techniques nouvelles comme l'impression 3D, la découpe laser ou le thermoformage, pour la haute couture, le luxe et l'art.",
+  "history": "Flory Brisset vient du Pas-de-Calais. Elle suit d'abord une formation aux métiers d'art du textile, puis la section direction artistique de l'École Duperré, où elle se spécialise en broderie. En 2011, encore étudiante, elle fonde son propre atelier de broderie contemporaine, avec une approche très sculpturale du textile.\n\nTrès vite, l'atelier brode pour la haute couture. Pour Stéphane Rolland, il imagine en 2013 et 2014 des pièces comme « Cariatide » ou « Or coulant », avec des manches, ceintures et bustiers tissés de marqueterie de chaînes dorées. Pour Jean Paul Gaultier, au printemps-été 2014, il brode des « papillons changeants » dont les ailes passent du vert lagon au bleu nuit, déclinés en blanc pour la mariée. En 2015, Flory Brisset participe au parcours « L'art de la broderie » au Grand Palais, autour de l'exposition Jean Paul Gaultier.\n\nL'atelier devient Invenio Flory, un studio et laboratoire de recherche qui mêle art, design et métiers d'art sous le nom d'« Arts Unifiés ». Il met au point quatre procédés exclusifs, dont Indici Couleur, Transfer Imprimo et Flexi Exprimo. Parmi ses réalisations : une structure ornementale thermoformée pour Maison Margiela (2017), des sculptures de papier pour Chanel (2017), un ornement iridescent pour Schiaparelli (2018), des fleurs pop brodées pour Saint Laurent (2019) et des pointes géantes en matière souple pour une veste Balenciaga (automne-hiver 2020-2021).\n\nLe studio reçoit le prix spécial du jury du concours Créatrice d'Avenir en 2016, puis le label Entreprise du Patrimoine Vivant fin 2018. Il expose aux Journées Européennes des Métiers d'Art et à l'exposition « Métiers d'art et innovation : pépites des régions ». En 2025, un portrait le présente au Pré-Saint-Gervais, sollicité par Chanel, Balmain et Balenciaga pour leurs pièces les plus novatrices.",
+  "training": "Le studio propose des expériences immersives réservées par l'intermédiaire de passtolocal.paris : une visite découverte avec l'histoire de la broderie et la vision de la fondatrice, une initiation à la broderie à l'aiguille (tous niveaux, broche brodée en 3D avec perles, paillettes et pièces en biomatériau imprimées en 3D), une initiation au crochet de Lunéville (pour qui a déjà un bon niveau en broderie à l'aiguille), des ateliers de création plastique et de création durable, et des formats pour les groupes. Le site dit aussi que l'atelier forme aux savoir-faire traditionnels. Prix, durée et dates non indiqués.",
+  "website": "https://invenioflory.fr/",
+  "instagram": "https://www.instagram.com/invenioflory/",
+  "photoUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PWOCWA4-left1.jpg",
+  "timeline": [
+    { "date": "2011", "kind": "vie", "label": "Flory Brisset fonde son atelier de broderie contemporaine pendant ses études à l'École Duperré" },
+    { "date": "2013", "kind": "oeuvre", "label": "« Cariatide », « Crystal » et « Bubbles » pour Stéphane Rolland" },
+    { "date": "2014", "kind": "oeuvre", "label": "« Papillons changeants » pour le défilé haute couture printemps-été 2014 de Jean Paul Gaultier" },
+    { "date": "2014", "kind": "oeuvre", "label": "« Or coulant » pour la collection haute couture automne-hiver 2014-2015 de Stéphane Rolland" },
+    { "date": "2015", "kind": "exposition", "label": "Parcours « L'art de la broderie » au Grand Palais, autour de l'exposition Jean Paul Gaultier" },
+    { "date": "2016", "kind": "prix", "label": "Prix spécial du jury du concours Créatrice d'Avenir" },
+    { "date": "2017", "kind": "oeuvre", "label": "« Exo ornemental » pour Maison Margiela" },
+    { "date": "2017", "kind": "oeuvre", "label": "Sculptures de papier pour Chanel" },
+    { "date": "2018", "kind": "oeuvre", "label": "« Optique » pour Jean Paul Gaultier haute couture printemps-été 2018" },
+    { "date": "2018", "kind": "oeuvre", "label": "« Illusion ornementale » pour Schiaparelli automne-hiver 2018" },
+    { "date": "2018", "kind": "prix", "label": "Label Entreprise du Patrimoine Vivant" },
+    { "date": "2019", "kind": "prix", "label": "Label Paris Region Business Club" },
+    { "date": "2019", "kind": "exposition", "label": "Exposition « Métiers d'art et innovation : pépites des régions »" },
+    { "date": "2019", "kind": "oeuvre", "label": "« Pop Flowers » pour Saint Laurent automne-hiver 2019" },
+    { "date": "2020", "kind": "autre", "label": "Membre du jury du concours L'Art et la Matière" },
+    { "date": "2020", "kind": "oeuvre", "label": "« Soft Picots » pour Balenciaga automne-hiver 2020-2021" },
+    { "date": "2021", "kind": "exposition", "label": "Exposition nationale des Journées Européennes des Métiers d'Art" },
+    { "date": "2022", "kind": "exposition", "label": "Journées Européennes des Métiers d'Art" }
+  ],
+  "works": [
+    {
+      "title": "Papillons changeants",
+      "year": "2014",
+      "technique": "Jean Paul Gaultier · broderie en strates, peintures et matières innovantes",
+      "description": "Des papillons brodés en strates dont les ailes changent de couleur, du vert lagon au bleu nuit, quand le mannequin marche. Le motif existe en trois versions, dont une en blanc pour la mariée du défilé haute couture printemps-été 2014.",
+      "url": "https://invenioflory.fr/i/papillons-changeants/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2020/09/Papillons-changeants-Broderie-papillons-en-strate-modele-mariee-creee-par-Invenio-Flory-pour-Jean-Paul-Gaultier-1.jpg"
+    },
+    {
+      "title": "Or coulant",
+      "year": "2014",
+      "technique": "Stéphane Rolland · marqueterie de chaînes dorées",
+      "description": "Pour la collection haute couture automne-hiver 2014-2015, le studio a travaillé l'or en maille fluide, voile et drapé : manches, ceintures et bustiers tissés de marqueterie de chaînes.",
+      "url": "https://invenioflory.fr/i/or-coulant/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2021/02/Invenio-Flory-Or-coulant-Stephane-Rolland-2014-Mode-4.jpg"
+    },
+    {
+      "title": "Exo ornemental",
+      "year": "2017",
+      "technique": "Maison Margiela · thermoformage, coloration et assemblage d'ornements",
+      "description": "Une silhouette de la collection Artisanal où l'ornement devient la structure même du vêtement. Le studio a inventé un procédé pour mettre en forme, colorer et assembler ces éléments.",
+      "url": "https://invenioflory.fr/i/exo-ornemental/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2021/02/Invenio-Flory-Exo-ornemental-Margiela-2017-Mode-5.jpg"
+    },
+    {
+      "title": "Sculptures de papier",
+      "year": "2017",
+      "technique": "Chanel · sculpture de papier brodé",
+      "description": "Une série de sculptures de papier en carte blanche autour des motifs de la maison (ruban, camélia, dentelle), avec un travail de scénographie pour une exposition internationale de haute joaillerie.",
+      "url": "https://invenioflory.fr/i/sculpture-de-papier/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2020/09/Sculpture-de-papier-Fleurs-de-papier-brodees-creees-par-Invenio-Flory-pour-la-maison-Chanel.jpg"
+    },
+    {
+      "title": "Optique",
+      "year": "2018",
+      "technique": "Jean Paul Gaultier · broderie de sphères 3D sur imprimé",
+      "description": "Une version augmentée d'un motif de silhouette haute couture printemps-été 2018 : des sphères en 3D et des lignes graphiques brodées sur l'imprimé jouent sur les pleins et les vides.",
+      "url": "https://invenioflory.fr/i/optique/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2021/02/Invenio-Flory-Optique-Jean-Paul-Gaultier-2018-Mode-4.jpg"
+    },
+    {
+      "title": "Illusion ornementale",
+      "year": "2018",
+      "technique": "Schiaparelli · ornementation souple en relief, matière iridescente",
+      "description": "Une relecture en relief de l'ornementation baroque d'une veste portée par la duchesse de Windsor, avec une matière iridescente aux couleurs changeantes.",
+      "url": "https://invenioflory.fr/i/illusion-ornementale/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2020/09/Illusion-ornementale-Ornementation-souple-relief-creee-par-Invenio-Flory-pour-Schiaparelli.jpg"
+    },
+    {
+      "title": "Pop Flowers",
+      "year": "2019",
+      "technique": "Saint Laurent · broderie de perles, paillettes et cuvettes",
+      "description": "Des motifs floraux au style pop pour l'automne-hiver 2019, qui mêlent tons métalliques et couleurs vives en perles, paillettes et cuvettes.",
+      "url": "https://invenioflory.fr/i/pop-flowers/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2020/09/Pop-Flowers-Broderie-de-fleurs-creee-par-Invenio-Flory-pour-Saint-Laurent.jpg"
+    },
+    {
+      "title": "Soft Picots",
+      "year": "2020",
+      "technique": "Balenciaga · conception 3D et procédé exclusif de volumes en matière souple",
+      "description": "Une veste-sculpture de l'automne-hiver 2020-2021 hérissée de pointes géantes mais souples. Le studio a mêlé ingénierie, conception 3D et mise au point chimique pour créer ce procédé.",
+      "url": "https://invenioflory.fr/i/soft-picots/",
+      "imageUrl": "https://invenioflory.fr/wp-content/uploads/2021/02/Invenio-Flory-Soft-Picot-Balenciaga-2021-Mode-6.jpg"
+    }
+  ],
+  "sources": [
+    { "label": "Invenio Flory, site officiel", "url": "https://invenioflory.fr/" },
+    { "label": "Invenio Flory, À propos", "url": "https://invenioflory.fr/a-propos/" },
+    { "label": "Invenio Flory, Démarche", "url": "https://invenioflory.fr/demarche/" },
+    { "label": "Invenio Flory, Portfolio", "url": "https://invenioflory.fr/portfolio/" },
+    { "label": "Invenio Flory, News", "url": "https://invenioflory.fr/news/" },
+    { "label": "Invenio Flory, Durabilité", "url": "https://invenioflory.fr/durabilite/" },
+    { "label": "Invenio Flory, Visites et ateliers", "url": "https://invenioflory.fr/les-experiences-immersives-visites-et-ateliers/" },
+    { "label": "Invenio Flory, Labellisation EPV", "url": "https://invenioflory.fr/i/labellisation-epv/" },
+    { "label": "Invenio Flory, Lauréate Créatrice d'avenir 2016", "url": "https://invenioflory.fr/i/concours-creatrice-davenir-2016/" },
+    { "label": "Invenio Flory, Prix de l'innovation Stars et Métiers", "url": "https://invenioflory.fr/i/prix-de-linnovation-stars-et-metiers/" },
+    { "label": "Invenio Flory, Parcours l'art de la broderie au Grand Palais", "url": "https://invenioflory.fr/i/parcours-lart-de-la-broderie-au-grand-palais/" },
+    { "label": "Homo Faber, Invenio Flory", "url": "https://www.homofaber.com/fr/artisans/invenio-flory-textile-creation-france" },
+    { "label": "Journal du Luxe, Flory Brisset, architecte du textile (2016)", "url": "https://www.journalduluxe.fr/fr/business/flory-brisset-architecte-du-textile" },
+    { "label": "Presse Agence, Invenio Flory, la brodeuse 3.0 convoitée par la haute couture (2025)", "url": "https://presseagence.fr/paris-invenio-flory-la-brodeuse-3-0-convoitee-par-la-haute-couture/" }
+  ],
+  "researchNotes": "Nom dicté « Florie Brisset » : l'orthographe exacte est Flory Brisset, et son atelier s'appelle Invenio Flory (d'abord présenté sous son seul nom en 2016). En activité : un portrait de juin 2025 le présente au Pré-Saint-Gervais (4 rue Jean-Baptiste Clément selon Homo Faber).\n\nÀ vérifier : « diplômée de l'École Duperré ». Les sources disent qu'elle a suivi la section direction artistique de Duperré en se spécialisant en broderie et qu'elle a fondé l'atelier en 2011 pendant ses études ; aucune ne mentionne le diplôme obtenu ni l'année.\n\n« Broderie issue de l'impression 3D et des nouvelles matières polymères » : l'impression 3D figure bien dans la démarche du studio et dans ses ateliers (pièces en biomatériau imprimées en 3D), et le portfolio cite une « empreinte plastique iridescente » (Schiaparelli) et des matériaux souples. Le mot « polymère » n'apparaît dans aucune page lue : la formule reste une interprétation.\n\nClients : Dior, Céline et Carven viennent seulement du Journal du Luxe (2016) ; Balmain seulement de Presse Agence (2025). Le portfolio cite aussi Nicholas Paris, Redemption, Adélie Métayer et Métiers Rares. Le Journal du Luxe annonçait en 2016 une oeuvre lumineuse pour le Salon du luxe Paris à la Maison de la Chimie, sans confirmation que l'oeuvre a été présentée. La date du prix Stars et Métiers et son niveau (départemental, régional ou national) ne sont pas donnés. Il faudrait vérifier si le label EPV est toujours valable (il se renouvelle tous les cinq ans).\n\nLe Pré-Saint-Gervais est en Seine-Saint-Denis. L'ancienne adresse de l'atelier à Paris n'est pas connue.\n\nImages : toutes viennent des pages projet du site officiel, avec un texte alternatif qui nomme la pièce et la maison. La photo d'atelier (brodeuse sur métier à broder) vient de la fiche Homo Faber (texte alternatif « Invenio Flory Le Pré-Saint-Gervais », crédit Invenio Flory)."
+}

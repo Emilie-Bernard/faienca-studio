@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Sylvie Deschamps",
+    "country": "France",
+    "zone": "france",
+    "living": true,
+    "why": "Maître d'art (2010), elle dirige à Rochefort le seul atelier de France entièrement consacré à la broderie au fil d'or : or nué, cannetille, restaurations militaires et liturgiques, prototypes pour le luxe.",
+    "hint": "Atelier Le Bégonia d'Or, Rochefort (Charente-Maritime) ; cadran de montre Piaget brodé, Vierge à l'Enfant en or nué pour Cartier avec Philippe Nicolas ; Homo Faber Master Artisan",
+    "sources": [
+      "https://2022.homofaber.com/en/discover/artisans-sylvie-deschamps"
+    ]
+  },
+  {
+    "name": "Aude Remy",
+    "country": "France",
+    "zone": "france",
+    "living": true,
+    "why": "Brodeuse d'art haute couture et maître de stage, elle anime le Conservatoire des Broderies de Lunéville, où elle transmet le crochet de Lunéville (perles, paillettes), inscrit au patrimoine culturel immatériel.",
+    "hint": "Conservatoire des Broderies de Lunéville François-Remy, château de Lunéville ; exposition « Les Grandes Époques de la Mode » du 29 mars 2026 au 21 mars 2027 ; ne pas confondre avec la présidente Maryvonne François-Remy",
+    "sources": [
+      "https://luneville.fr/wp-content/uploads/2026/02/Dossier-de-Presse-2026-2027-Les-grandes-Epoques-de-la-Mode-.pdf"
+    ]
+  },
+  {
+    "name": "Emmanuelle Dupont",
+    "country": "France",
+    "zone": "france",
+    "living": true,
+    "why": "Lauréate du Prix Liliane Bettencourt pour l'intelligence de la main en 2008, brodeuse et sculptrice textile qui fait passer la broderie à l'aiguille en volume, avec des formes végétales et aquatiques.",
+    "hint": "Atelier Du Pont, Sauve (Gard) ; œuvres « Fleur de lin n°2 », « Les trois gorgones », « Orchidée noire et phalaenopsis » ; enseigne en DNMADE à Nîmes",
+    "sources": [
+      "https://www.homofaber.com/en/artisans/emmanuelle-dupont-embroidery-france",
+      "https://www.fondationbs.org/sites/default/files/2023-10/carnet_prix_pour_lintelligence_de_la_main_2023.pdf"
+    ]
+  },
+  {
+    "name": "Clémentine Brandibas",
+    "country": "France",
+    "zone": "france",
+    "living": true,
+    "why": "Brodeuse autodidacte qui mêle broderie, teinture et peinture sur soie et a mis au point son propre « marouflage de plumes » pour des paysages brodés inspirés de la nature.",
+    "hint": "Hostens (Gironde), née à Toulouse en 1989, diplômée de Duperré ; œuvre « Écumes » ; exposée à Homo Faber 2022 (Next of Europe) ; Prix Jeune Création Métiers d'art 2018",
+    "sources": [
+      "https://2022.homofaber.com/en/ecollection/clementine-brandibas-425",
+      "https://www.homofaber.com/en/artisans/clmentine-brandibas-embroidery-france"
+    ]
+  },
+  {
+    "name": "Marie Berthouloux",
+    "country": "France",
+    "zone": "france",
+    "living": true,
+    "why": "Brodeuse spécialiste de la broderie métallique et de la cannetille, qu'elle associe aux perles, au cuir et à l'Alcantara pour des panneaux muraux et des pièces de décoration intérieure.",
+    "hint": "Label Ekceli (Brest, dit aussi travailler à Paris) ; œuvres « Ekceli Basa Basalt 2 », « Equatorial Forest », « Troposphère » ; Homo Faber Master Artisan",
+    "sources": [
+      "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux"
+    ]
+  },
+  {
+    "name": "Laetitia Baqué",
+    "country": "France",
+    "zone": "france",
+    "living": true,
+    "why": "Cofondatrice avec Victor Molinié de l'atelier de broderie haute couture Baqué Molinié, qui sort la broderie perlée de l'ornement par des projets avec d'autres disciplines, pour Dior, Saint Laurent et Chanel.",
+    "hint": "Atelier Baqué Molinié, 70 rue René Boulanger, Paris 10e, fondé en 2011 ; tous deux diplômés de Duperré ; étui de rouge Guerlain « Rouge G Majestic Feather », pièce tuft-broderie avec Pinton (2023) ; Homo Faber 2024",
+    "sources": [
+      "https://www.homofaber.com/en/artisans/atelier-baqu-molini-iwob9t",
+      "https://2022.homofaber.com/en/discover/discover-atelier-baque-molinie"
+    ]
+  },
+  {
+    "name": "Charles-Germain de Saint-Aubin",
+    "country": "France",
+    "zone": "france",
+    "living": false,
+    "why": "Dessinateur du Roi sous Louis XV (1721-1786), auteur de « L'Art du brodeur » (1770), traité illustré qui reste la référence technique de la broderie française du XVIIIe siècle.",
+    "hint": "Né et mort à Paris (17 janvier 1721 - 6 mars 1786) ; gravures d'Augustin de Saint-Aubin ; texte disponible sur Project Gutenberg ; aussi « Essai de papillonneries humaines »",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Charles-Germain_de_Saint-Aubin",
+      "https://www.kent.edu/museum/art-embroiderer"
+    ]
+  },
+  {
+    "name": "François Lesage",
+    "country": "France",
+    "zone": "france",
+    "living": false,
+    "why": "Brodeur haute couture (1929-2011) qui a dirigé l'atelier familial Lesage de 1949 à sa vente à Chanel, et a brodé pour Schiaparelli, Dior, Givenchy, Saint Laurent et Lagerfeld ; nommé Maître d'art en 2011.",
+    "hint": "Maison Lesage, Paris (aujourd'hui Chanel / Paraffection, dirigée par Hubert Barrère) ; vestes Iris et Tournesols d'après Van Gogh pour Saint Laurent, été 1988 (600 heures chacune) ; École Lesage",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage"
+    ]
+  },
+  {
+    "name": "Severija Inčirauskaitė-Kriaunevičienė",
+    "country": "Lituanie",
+    "zone": "europe",
+    "living": true,
+    "why": "Artiste lituanienne qui brode au point de croix des fleurs sur des objets de métal rouillé (bidons, couvercles de barils, portières), confrontant la douceur de l'ouvrage domestique à la dureté industrielle.",
+    "hint": "Vilnius ; œuvres « OFFSIDE » (2024), « MEADOWS » (2023), « Timeless Fragility » (2022), « Water Lilies » (citerne installée dans l'espace public de Vilnius) ; article Colossal du 24 janvier 2025",
+    "sources": [
+      "https://www.thisiscolossal.com/?p=449075"
+    ]
+  },
+  {
+    "name": "Alice Kettle",
+    "country": "Royaume-Uni",
+    "zone": "europe",
+    "living": true,
+    "why": "Artiste textile britannique connue pour ses grandes œuvres figuratives brodées, qui mêlent point à la main, machines à coudre anciennes et broderie numérique.",
+    "hint": "Professeure à la Manchester School of Art ; « Thread Bearing Witness » (The Whitworth, 2018-2019, sur les réfugiés) ; invitée de « Untitled, 2020 » à la Punta della Dogana, Venise ; galerie Candida Stevens",
+    "sources": [
+      "https://candidastevens.com/exhibitions/46/press_release_text"
+    ]
+  },
+  {
+    "name": "Raquel Rodrigo",
+    "country": "Espagne",
+    "zone": "europe",
+    "living": true,
+    "why": "Designer espagnole qui brode au point de croix des fleurs géantes sur des façades, en tendant de la grosse ficelle sur du grillage : la broderie passe à l'échelle de l'architecture.",
+    "hint": "Studio Arquicostura (arquicostura.com), installations à Madrid et Valence ; façade du bar Ocho y Medio, place Lope de Vega, pour le festival Intramurs",
+    "sources": [
+      "https://www.visualflood.com/post/raquel-rodrigos-embroidered-street-art"
+    ]
+  },
+  {
+    "name": "May Morris",
+    "country": "Royaume-Uni",
+    "zone": "europe",
+    "living": false,
+    "why": "Figure de l'Arts and Crafts (1862-1938), fille de William Morris, elle a dirigé à partir de 1885 la section broderie de Morris & Co. et défendu l'« art needlework » en soie ombrée.",
+    "hint": "Livre « Decorative Needlework » (1893) ; broderie crewel apprise avec Jane Morris et Bessie Burden ; Kelmscott Manor ; dessins au V&A",
+    "sources": [
+      "https://collections.vam.ac.uk/item/O586569/embroidery-design-may-morris/"
+    ]
+  }
+]

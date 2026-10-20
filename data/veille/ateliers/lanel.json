@@ -1,0 +1,111 @@
+{
+  "name": "Lanel",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1949",
+  "closedDate": "2014",
+  "founders": [
+    "Madame de Rop"
+  ],
+  "people": [
+    {
+      "name": "Madame de Rop",
+      "role": "fondatrice de l'atelier en 1949"
+    },
+    {
+      "name": "Régis Lièvre",
+      "role": "repreneur en 1984, dirigeant et directeur artistique jusqu'au rachat par Lesage en 2013"
+    },
+    {
+      "name": "Bruno Pavlovsky",
+      "role": "président de la société Lanel Broderie de décembre 2013 à mai 2014, aussi dirigeant de Lesage Paris"
+    },
+    {
+      "name": "Bernard Perris",
+      "role": "directeur artistique cité en 2014 par le livre Haute Couture Ateliers"
+    }
+  ],
+  "techniques": [
+    "Broderie haute couture",
+    "Broderie de perles et de paillettes",
+    "Broderie de Rhodoid, pierres de verre et sequins sur tulle"
+  ],
+  "clients": [
+    "Chanel",
+    "Dior",
+    "Valentino"
+  ],
+  "labels": [],
+  "summary": "Atelier parisien de broderie pour la haute couture, fondé en 1949 par Madame de Rop et travaillant pour Chanel, Dior et Valentino. Il a été racheté en décembre 2013 par la maison Lesage et a rejoint ainsi les métiers d'art de Chanel.",
+  "history": "Lanel naît en 1949 à Paris, créé par Madame de Rop, et se consacre dès le départ aux créations de broderie pour la haute couture. Dans les années 1950, l'atelier rachète environ un millier d'échantillons à la maison Ramos, spécialiste de la passementerie, qui viennent compléter ses propres archives.\n\nEn 1984, Régis Lièvre rachète l'atelier et en devient le dirigeant et le directeur artistique. La société, Lanel Broderie, a son siège au 20 rue des Petits-Champs, dans le 2e arrondissement. L'atelier brode alors pour les grandes maisons, notamment Chanel, Dior et Valentino, et constitue un fonds d'environ dix mille échantillons créés par ses équipes.\n\nLe 2 décembre 2013, la maison Lesage, qui appartient à Paraffection, la filiale de Chanel consacrée aux métiers d'art, annonce le rachat de Lanel. Régis Lièvre, qui souhaite prendre sa retraite, cède l'atelier, qui compte alors neuf brodeuses confirmées. Lesage récupère aussi ses deux fonds d'archives. Bruno Pavlovsky, également dirigeant de Lesage Paris, devient président de la société.\n\nLa société Lanel Broderie est dissoute sans liquidation sur décision de son associé unique et radiée en mai 2014 : l'atelier n'existe plus comme entreprise indépendante et son savoir-faire est rattaché à Lesage. Le nom Lanel figure toujours dans la liste des maisons de Paraffection, avec la mention « racheté par Lesage en 2013 ».",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1949",
+      "kind": "vie",
+      "label": "Madame de Rop fonde l'atelier de broderie Lanel à Paris"
+    },
+    {
+      "date": "1961-01-01",
+      "kind": "vie",
+      "label": "Date de création de la société Lanel Broderie au registre (siège 20 rue des Petits-Champs, Paris 2e)"
+    },
+    {
+      "date": "1984",
+      "kind": "vie",
+      "label": "Régis Lièvre rachète l'atelier et en devient le directeur artistique"
+    },
+    {
+      "date": "2013-12-02",
+      "kind": "vie",
+      "label": "Lesage, maison de broderie de Chanel, annonce le rachat de Lanel"
+    },
+    {
+      "date": "2013-12-14",
+      "kind": "vie",
+      "label": "Bruno Pavlovsky, dirigeant de Lesage Paris, succède à Régis Lièvre à la présidence"
+    },
+    {
+      "date": "2014-05-02",
+      "kind": "vie",
+      "label": "Dissolution sans liquidation de la société Lanel Broderie, radiée ensuite du registre"
+    }
+  ],
+  "sources": [
+    {
+      "label": "FashionNetwork (AFP), Le brodeur Lanel rejoint Lesage dans les métiers d'art de Chanel (2 décembre 2013)",
+      "url": "https://fr.fashionnetwork.com/news/Le-brodeur-lanel-rejoint-lesage-dans-les-metiers-d-art-de-chanel,372348.html"
+    },
+    {
+      "label": "FashionUnited, Lesage (Chanel) rachète son fournisseur en broderie Lanel (2013)",
+      "url": "https://fashionunited.fr/v1/mode/lesage-chanel-rachete-son-fournisseur-en-broderie-lanel/201312052828"
+    },
+    {
+      "label": "Societe.com, SOC LANEL BRODERIE (SIREN 612 056 127)",
+      "url": "https://www.societe.com/societe/soc-lanel-broderie-612056127.html"
+    },
+    {
+      "label": "Wikipedia, Paraffection",
+      "url": "https://en.wikipedia.org/wiki/Paraffection"
+    },
+    {
+      "label": "Quintessence, Haute Couture Ateliers (2014)",
+      "url": "https://quintessenceblog.com/haute-couture-ateliers/"
+    }
+  ],
+  "researchNotes": "Lanel et Lesage : le rachat est certain. Lesage a acheté Lanel en décembre 2013 (FashionNetwork/AFP, FashionUnited, Wikipedia Paraffection). La société Lanel Broderie a ensuite été dissoute sans liquidation par décision de son associé unique (BODACC du 22 mai 2014, cité par Societe.com) et radiée en juin 2014. Ce type de dissolution transmet en principe tout le patrimoine à l'associé unique, mais la page ne nomme pas cet associé : que ce soit Lesage Paris est très probable (dirigeant commun, Bruno Pavlovsky) mais pas écrit noir sur blanc. On ne sait pas si un atelier ou une marque Lanel existe encore à part dans Lesage, ni où travaillent aujourd'hui ses brodeuses : la liste des maisons du 19M lue via une recherche ne cite pas Lanel. La date de 1961 est celle de la société au registre, pas celle de l'atelier (1949).\n\nÀ vérifier : l'article de WWD (Lesage Acquires Lanel Embroidery Atelier) n'a pas pu être lu (redirection payante) ; d'après un extrait de recherche, il donne Régis Lièvre, 62 ans, à la tête de l'atelier jusqu'à sa retraite en mai 2014. Le blog Quintessence (octobre 2014), d'après le livre Haute Couture Ateliers d'Hélène Farnault, présente Bernard Perris comme directeur artistique de Lanel ; sur cette page, textes et photos de Lanel et de Broderies Vermont semblent mélangés. Un blog de 2009 (creationdemarie.canalblog.com) montre un échantillon brodé « réalisé à l'atelier Lanel lors d'un stage », sans plus de détails sur ces stages. La photographe Anne-Laure Camilleri a une galerie Lanel Broderie Haute Couture (dont une manche pour une robe Christian Dior selon un résultat de recherche), mais le site a renvoyé une erreur 403. Aucune pièce de musée attribuée à Lanel n'a été trouvée : au Met et au V&A, Lanel renvoie à Luc Lanel, orfèvre chez Christofle, sans rapport avec l'atelier. Pas de site officiel, d'Instagram ni de label trouvés.",
+  "works": [
+    {
+      "title": "Broderie fuchsia en volutes de Rhodoid",
+      "year": "",
+      "technique": "Lanel · Rhodoid, pierres de verre et sequins sur tulle blanc",
+      "description": "Création présentée dans le livre Haute Couture Ateliers : des volutes fuchsia de Rhodoid ornées de pierres de verre et de sequins sur tulle blanc (photo Sophie Carre).",
+      "url": "https://quintessenceblog.com/haute-couture-ateliers/",
+      "imageUrl": ""
+    }
+  ]
+}

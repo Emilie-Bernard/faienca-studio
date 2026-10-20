@@ -1,0 +1,155 @@
+{
+  "name": "Atelier Bizet",
+  "city": "Levallois-Perret",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "2005",
+  "closedDate": "",
+  "founders": [
+    "Corinne Bizet"
+  ],
+  "people": [
+    {
+      "name": "Corinne Bizet",
+      "role": "fondatrice, brodeuse d'art et présidente de la société Atelier Bizet depuis 2014"
+    },
+    {
+      "name": "Olivia",
+      "role": "brodeuse de l'atelier (prénom seul cité par Destination Hauts-de-Seine)"
+    },
+    {
+      "name": "Pauline",
+      "role": "brodeuse de l'atelier (prénom seul cité par Destination Hauts-de-Seine)"
+    }
+  ],
+  "techniques": [
+    "Broderie haute couture traditionnelle",
+    "Broderie en volume",
+    "Broderie en relief au fil d'or",
+    "Broderie perlée et pailletée",
+    "Broderie mosaïque",
+    "Habillage brodé d'objets de décoration",
+    "Création de dessins et d'échantillons"
+  ],
+  "clients": [
+    "Stéphane Rolland Haute Couture",
+    "Celestina Agostino (robes de mariée)",
+    "Guerlain",
+    "Repetto",
+    "Christophe Josse",
+    "Margareth et moi",
+    "Christophe Alexandre Docquin",
+    "Stéphane Mahéas",
+    "Wako (Japon)",
+    "M2 Malletier (Espagne)"
+  ],
+  "labels": [
+    "Prix du jury, Grand Prix UNiCLEN de la jeune entreprise (4e édition, 2017)",
+    "Artisans du Tourisme (Département des Hauts-de-Seine)"
+  ],
+  "summary": "Petit atelier de broderie d'art installé à Levallois-Perret, fondé par Corinne Bizet, qui brode pour la haute couture (surtout Stéphane Rolland), les maisons de luxe et les mariées. Sa signature, ce sont les volumes : fleurs perlées, reliefs au fil d'or, objets entièrement habillés de broderie.",
+  "history": "L'Atelier Bizet est né en 2005 autour de Corinne Bizet, brodeuse d'art à Levallois-Perret, aux portes de Paris. En janvier 2014, l'activité prend la forme d'une société, Atelier Bizet, dont Corinne Bizet est la présidente. Tout se fait sur place : le dessin, les échantillons puis la broderie des modèles.\n\nL'atelier travaille pour les maisons de haute couture et de luxe. Son client le plus présent est Stéphane Rolland, dont il brode des pièces pour plusieurs défilés haute couture, de 2017-2018 jusqu'à la collection automne-hiver 2021 et ses broderies mosaïque. Il a aussi brodé pour Christophe Josse.\n\nAvec les maisons de luxe, l'atelier sort du vêtement : des éléments de vitrine pour Repetto, des accessoires brodés posés sur les flacons de l'édition limitée Muguet 2017 de Guerlain, une abeille en relief brodée au fil d'or pour une plaque Guerlain, des motifs de sacs pour M2 Malletier en Espagne et une collection de broches brodées pour Wako au Japon.\n\nLes mariées tiennent une grande place : l'atelier propose une création personnalisée avec un large choix d'échantillons et réalise, avec une styliste, des robes de mariée uniques et sur mesure. Il brode aussi pour la créatrice de robes de mariée Celestina Agostino. Côté décoration, il réalise des broderies en volume pour des objets d'exception, comme un oeuf rebrodé ou une bougie habillée.\n\nL'atelier a reçu en 2017 le prix du jury du Grand Prix UNiCLEN de la jeune entreprise et fait partie des Artisans du Tourisme des Hauts-de-Seine. Il a été filmé par BFM TV (2016) et TV5monde (2018). Il ouvre ses portes au public pour des visites.",
+  "training": "Visites de l'atelier sur demande, par petits groupes de 4 personnes au plus, le vendredi de 14 h à 17 h, uniquement sur rendez-vous (Destination Hauts-de-Seine). L'atelier propose aussi, avec Explore Paris, une visite d'environ une heure « Dans les coulisses de la broderie de luxe » avec démonstration des techniques, à 10 euros, à partir de 6 inscrits. Aucune formation ni accueil de stagiaires n'est annoncé sur les pages lues.",
+  "website": "https://atelier-bizet-paris.com/",
+  "instagram": "",
+  "photoUrl": "https://exploreparis.com/26183-thickbox_default/dans-les-coulisses-de-la-broderie-de-luxe-immersion-a-latelier-bizet.jpg",
+  "timeline": [
+    { "date": "2005", "kind": "vie", "label": "Début de l'Atelier Bizet à Levallois-Perret" },
+    { "date": "2014-01-14", "kind": "vie", "label": "Création de la société Atelier Bizet, présidée par Corinne Bizet" },
+    { "date": "2016-01-02", "kind": "autre", "label": "Reportage BFM TV « Métiers d'art, métiers de luxe »" },
+    { "date": "2017-02-15", "kind": "autre", "label": "Reportage « L'Atelier Bizet à Maison d'Exception »" },
+    { "date": "2017", "kind": "oeuvre", "label": "Accessoires brodés pour les flacons Muguet de Guerlain, édition limitée" },
+    { "date": "2017-11-22", "kind": "prix", "label": "Prix du jury du Grand Prix UNiCLEN de la jeune entreprise (4e édition)" },
+    { "date": "2018-05-12", "kind": "autre", "label": "Reportage TV5monde « Repérages pour les mariées »" },
+    { "date": "2020", "kind": "oeuvre", "label": "Broderies pour le défilé haute couture printemps-été 2020 de Stéphane Rolland" },
+    { "date": "2021", "kind": "oeuvre", "label": "Broderies mosaïque pour la collection automne-hiver 2021 de Stéphane Rolland" }
+  ],
+  "works": [
+    {
+      "title": "Flacon Muguet, édition limitée",
+      "year": "2017",
+      "technique": "Guerlain · accessoires brodés en volume, perles et fil d'or",
+      "description": "Pour l'édition limitée 2017 du parfum Muguet, l'atelier a brodé les accessoires posés sur les flacons : clochettes de muguet blanches et feuille bordée de fil d'or.",
+      "url": "https://atelier-bizet-paris.com/Partenariats-maisons-de-luxe/",
+      "imageUrl": "https://atelier-bizet-paris.com/content/4.Partenariats-maisons-de-luxe/018-4-flacon_PhotoGraphie.Pro.jpg"
+    },
+    {
+      "title": "Plaque abeille",
+      "year": "",
+      "technique": "Guerlain · broderie en relief au fil d'or",
+      "description": "Une abeille en relief brodée au fil d'or, symbole de Guerlain, réalisée par Corinne Bizet pour une plaque d'exception. Il faut environ trois heures de travail entièrement à la main pour une abeille.",
+      "url": "https://atelier-bizet-paris.com/Partenariats-maisons-de-luxe/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Vitrines Repetto",
+      "year": "",
+      "technique": "Repetto · éléments de scénographie brodés",
+      "description": "L'atelier a créé des éléments de scénographie pour les vitrines de Repetto, dont des peignes ornés de fleurs perlées.",
+      "url": "https://atelier-bizet-paris.com/Partenariats-maisons-de-luxe/",
+      "imageUrl": "https://atelier-bizet-paris.com/content/4.Partenariats-maisons-de-luxe/001-repetto1_PhotoGraphie.Pro.jpg"
+    },
+    {
+      "title": "Sac brodé de fleurs",
+      "year": "",
+      "technique": "M2 Malletier · broderie de perles et paillettes sur cuir",
+      "description": "Dessins de broderie pour les sacs de la maison espagnole M2 Malletier : des fleurs rouges et roses et des feuillages perlés et pailletés.",
+      "url": "https://atelier-bizet-paris.com/Partenariats-maisons-de-luxe/",
+      "imageUrl": "https://atelier-bizet-paris.com/content/4.Partenariats-maisons-de-luxe/M002%20BORDADO_03%20-%20copie.jpeg"
+    },
+    {
+      "title": "Broderie mosaïque",
+      "year": "2021",
+      "technique": "Stéphane Rolland · broderie mosaïque haute couture",
+      "description": "Bustier brodé en mosaïque pour la collection haute couture automne-hiver 2021 de Stéphane Rolland, client le plus fidèle de l'atelier.",
+      "url": "https://atelier-bizet-paris.com/Nos-References/",
+      "imageUrl": "https://atelier-bizet-paris.com/content/6.Nos-References/broderie-mosaique-stephane-rolland-AH2021-1.png"
+    },
+    {
+      "title": "Défilés haute couture Stéphane Rolland et Christophe Josse",
+      "year": "",
+      "technique": "Stéphane Rolland, Christophe Josse · broderie haute couture",
+      "description": "Plusieurs silhouettes de défilés haute couture de Stéphane Rolland et de Christophe Josse ont été brodées à l'Atelier Bizet.",
+      "url": "https://atelier-bizet-paris.com/Nos-References/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Oeuf rebrodé",
+      "year": "",
+      "technique": "Objet de décoration · broderie perlée en volume",
+      "description": "Un oeuf sur pied entièrement rebrodé de perles blanches, turquoise, corail et or, exemple des objets d'exception brodés par l'atelier.",
+      "url": "https://atelier-bizet-paris.com/Objets-d-exceptions/",
+      "imageUrl": "https://atelier-bizet-paris.com/content/5.Objets-d-exceptions/006-5oeuf-rebrode_PhotoGraphie.Pro.jpg"
+    },
+    {
+      "title": "Bougie baobab habillée",
+      "year": "",
+      "technique": "Objet de décoration · broderie en volume, perles et paillettes",
+      "description": "Une bougie dont le pot est habillé d'une branche de baobab brodée en relief, avec perles, paillettes et pierres.",
+      "url": "https://atelier-bizet-paris.com/Objets-d-exceptions/",
+      "imageUrl": "https://atelier-bizet-paris.com/content/5.Objets-d-exceptions/008-5bougie-baobab-habillee_PhotoGraphie.Pro.jpg"
+    },
+    {
+      "title": "Robes de mariée sur mesure",
+      "year": "",
+      "technique": "Particuliers, Celestina Agostino · broderie de mariée",
+      "description": "L'atelier propose aux mariées une création personnalisée et réalise, avec une styliste, des robes de mariée uniques et sur mesure.",
+      "url": "https://atelier-bizet-paris.com/Broderie-Haute-Couture/Mariees/",
+      "imageUrl": ""
+    }
+  ],
+  "sources": [
+    { "label": "Atelier Bizet, site officiel (accueil)", "url": "https://atelier-bizet-paris.com/" },
+    { "label": "Atelier Bizet, Mariées", "url": "https://atelier-bizet-paris.com/Broderie-Haute-Couture/Mariees/" },
+    { "label": "Atelier Bizet, Nos références", "url": "https://atelier-bizet-paris.com/Nos-References/" },
+    { "label": "Atelier Bizet, Nos clients", "url": "https://atelier-bizet-paris.com/Links/Nos-Clients/" },
+    { "label": "Atelier Bizet, Partenariat maisons de luxe", "url": "https://atelier-bizet-paris.com/Partenariats-maisons-de-luxe/" },
+    { "label": "Atelier Bizet, Décoration (objets d'exception)", "url": "https://atelier-bizet-paris.com/Objets-d-exceptions/" },
+    { "label": "Destination Hauts-de-Seine, Corinne Bizet, Artisan du Tourisme", "url": "https://destination.hauts-de-seine.fr/atelier-bizet-artisan-du-tourisme-2019-hauts-de-seine.html" },
+    { "label": "Explore Paris, Dans les coulisses de la broderie de luxe à l'atelier Bizet", "url": "https://exploreparis.com/fr/9524-dans-les-coulisses-de-la-broderie-de-luxe-immersion-a-latelier-bizet.html" },
+    { "label": "Photographie.Pro, Atelier Corinne Bizet Paris", "url": "https://photographie.pro/ENTREPRISE/ARTISANAT/ATELIER-BIZET-PARIS/" },
+    { "label": "Societe.com, Atelier Bizet (SIREN 799602164)", "url": "https://www.societe.com/societe/atelier-bizet-799602164.html" },
+    { "label": "PagesJaunes, Atelier Bizet SASU", "url": "https://www.pagesjaunes.fr/pros/50667955" }
+  ],
+  "researchNotes": "Nom dicté « Corinne Bizet » : confirmé, l'atelier s'appelle Atelier Bizet (site atelier-bizet-paris.com). Toujours en activité selon Societe.com (3 à 5 salariés).\n\nNon confirmé par une page lue : la reconversion « après 40 ans ». Un résumé de recherche attribue à la page du Rotary Club de Levallois (https://www.rotary-levallois.com/event/conference-atelier-bizet/) l'idée d'une formation aux ateliers Lesage en 2000 en vue d'une reconversion, puis d'environ quatorze ans en micro-entreprise avant la société de 2014. Cette page n'a pas pu être ouverte (connexion refusée) : à vérifier avant de l'écrire dans la fiche. Le métier exercé avant la broderie et l'âge ne sont dans aucune source lue.\n\nLe même résumé cite, d'après LinkedIn (page non lisible), le titre de Maître artisan d'art, les noms de famille des brodeuses (Olivia Hauvette, Pauline Di Donato), d'autres prénoms (Aylla, Alice), 26 modèles brodés pour la collection Stéphane Rolland automne-hiver 2026-2027 et 163 robes haute couture en 2025. Rien de tout cela n'est vérifié. Le Rotary citerait aussi Cartier et Dior ; le site de l'atelier contient un fichier image nommé « Création pour Dior », introuvable (erreur 404) : à confirmer.\n\nLa date de 2005 vient de Destination Hauts-de-Seine ; la société date du 14 janvier 2014. Les adresses ne concordent pas : 40 rue Trébois (siège légal, Societe.com) et 33 rue Chaptal (PagesJaunes, Destination Hauts-de-Seine). L'année du label Artisans du Tourisme n'est pas donnée dans la page (l'adresse de la page contient seulement « 2019 »).\n\nUn avis laissé sur Explore Paris laisse entendre que la dirigeante pourrait bientôt prendre sa retraite : à suivre. Aucun compte Instagram officiel trouvé.\n\nImages : le contenu de chaque image a été vérifié à l'oeil et par le nom de fichier ou la page de l'atelier. La photo de l'atelier (brodeuses au crochet sur métier) vient d'Explore Paris, avec le crédit « (c) Atelier Bizet ». L'image de l'abeille Guerlain est un visuel avec texte, donc non reprise. Les photos des robes de mariée n'ont ni légende ni texte alternatif, et le fichier « Robe de mariée.jpg » renvoie une erreur 404."
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Yann Lagoutte",
+  "country": "France",
+  "city": "Quimper",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "point de Beauvais (crochet de Lunéville)",
+    "broderie glazig",
+    "passé empiétant",
+    "jours de Cilaos",
+    "perlage à l'aiguille",
+    "broderie au ruban",
+    "Haute-Broderie"
+  ],
+  "summary": "Brodeur venu de Roanne et formé d'abord à la bijouterie, Yann Lagoutte enseigne à l'École de Broderie d'Art de Quimper depuis 2004. Meilleur Ouvrier de France broderie option point de Beauvais en 2011, il dirige l'école depuis le départ de son fondateur Pascal Jaouen.",
+  "biography": "Yann Lagoutte est originaire de Roanne, dans la Loire. Il apprivoise la broderie très jeune, pour le plaisir, au sein du groupe Avel Mor de Roanne, puis suit des études de bijouterie et de joaillerie. En 2003, quand il doit faire un stage pour découvrir un métier d'art, il choisit l'École de Broderie d'Art de Quimper. Le coup de foudre est tel qu'il rejoint l'équipe l'année suivante, en 2004.\n\nIl devient à la fois professeur à l'école et directeur artistique des collections Pascal Jaouen. En 2011, il obtient le titre de Meilleur Ouvrier de France en broderie, option point de Beauvais, une broderie au crochet venue de Lunéville où la couleur se construit au point de chaînette, un peu comme une peinture à l'aiguille. Sa collègue Karine Dorval a le même titre : l'école compte ainsi deux MOF dans son équipe.\n\nQuand Pascal Jaouen prend sa retraite après le défilé « A-Galon » de septembre 2022, il lui confie les clés de l'école. Ses envies affichées : garder l'esprit de la maison, proposer des rendez-vous plus intimes, mettre en avant la mercerie et présenter des pièces uniques brodées main. Il dirige aussi l'équipe qui réalise les tenues de Haute-Broderie sous le nom de Kollectif EDB, exposées dans l'espace Baradoz-Paradis et dans la mercerie.\n\nAujourd'hui, l'école du 16 rue Haute à Quimper accueille environ 2 000 élèves dans une trentaine de lieux, en Bretagne et au-delà. On y apprend la broderie couleur (glazig, passé empiétant, point d'ombre, plumetis, broderie bigoudène et melenig), la broderie blanche (Richelieu, jours anciens, jours de Cilaos, broderie sur tulle), le crochet de Lunéville et le point de Beauvais, le perlage, le ruban et l'ameublement. Yann Lagoutte enseigne lui-même en stage, par exemple à Lyon ou à Orléans.\n\nCôté actualité, la rentrée 2026 de l'équipe a eu lieu le 7 septembre : il y a présenté les motifs du trimestre, les salons à venir et une exposition repoussée à cause de travaux. En octobre 2026, il était au salon des artisans de MOD#4, l'événement mode du Festival de Cornouaille, et membre du jury de la section contemporaine du concours « Des Modes Et Nous ». Il anime du 27 au 29 novembre 2026 un stage à Orléans (glazig, passé empiétant, jours de Cilaos), et l'école prévoit d'autres stages à Lyon en février et en mai 2027.",
+  "website": "https://www.ecoledebroderie.com/",
+  "instagram": "",
+  "photoUrl": "https://www.ecoledebroderie.com/wp-content/uploads/2026/04/Yann-Lagoutte.webp",
+  "works": [
+    {
+      "title": "Collections Pascal Jaouen (direction artistique)",
+      "year": "",
+      "technique": "Haute-Broderie",
+      "description": "Avant de diriger l'école, il était directeur artistique des collections Pascal Jaouen, présentées lors des grands défilés-spectacles.",
+      "url": "https://unidivers.fr/quimper-yann-lagoutte-ecole-broderie-art/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Tenues de Haute-Broderie du Kollectif EDB",
+      "year": "",
+      "technique": "Haute-Broderie",
+      "description": "Tenues brodées réalisées par l'équipe de l'école sous sa direction, exposées à l'espace Baradoz-Paradis et dans la mercerie.",
+      "url": "https://www.ecoledebroderie.com/lecole-de-broderie/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Exposition « Kinklenn-Coquette »",
+      "year": "2025",
+      "technique": "broderie (sacs et pochettes)",
+      "description": "Sacs et pochettes brodés par l'équipe de l'école, dont Yann, montés en bijoux de bras par Catherine Roncin ; exposés à Quimper jusqu'au 12 mars 2025, puis au Garage à Saint-Nazaire du 26 mars au 2 avril 2025.",
+      "url": "https://web.archive.org/web/20251018072955/https://www.pascaljaouen.com/expositions",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "2003", "kind": "formation", "label": "Après des études de bijouterie et joaillerie, stage à l'École de Broderie d'Art de Quimper" },
+    { "date": "2004", "kind": "vie", "label": "Rejoint l'école comme professeur ; plus tard directeur artistique des collections Pascal Jaouen" },
+    { "date": "2011", "kind": "prix", "label": "Meilleur Ouvrier de France, broderie option point de Beauvais" },
+    { "date": "2022-09-25", "kind": "autre", "label": "Défilé « A-Galon » : Pascal Jaouen prend sa retraite et lui confie l'école" },
+    { "date": "2023", "kind": "vie", "label": "Directeur de l'École de Broderie d'Art de Quimper" },
+    { "date": "2025-03", "kind": "exposition", "label": "Exposition « Kinklenn-Coquette » à Quimper, puis à Saint-Nazaire" },
+    { "date": "2025-06-14", "kind": "exposition", "label": "Salon des créateurs de broderie au Château-d'Oléron avec Karine Dorval" },
+    { "date": "2026-02-13", "kind": "autre", "label": "Stage de broderie d'art à Lyon avec Fanny Le Gall" },
+    { "date": "2026-10", "kind": "autre", "label": "Juré de la section contemporaine du concours « Des Modes Et Nous » à MOD#4" }
+  ],
+  "news": [
+    {
+      "kind": "actualite",
+      "title": "Stage de broderie d'art à Lyon (février)",
+      "summary": "Yann Lagoutte et Fanny Le Gall animent trois jours de stage avec l'association Bretagne à Lyon, pour apprendre les bases ou approfondir.",
+      "place": "",
+      "city": "Lyon",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-15",
+      "url": "https://web.archive.org/web/20260114105647/https://www.pascaljaouen.com/ecoledebroderie"
+    },
+    {
+      "kind": "actualite",
+      "title": "Stage de broderie à Lyon (octobre)",
+      "summary": "Stage de trois jours avec Yann Lagoutte et Fanny Le Gall : broderie glazig, broderie au ruban ou perlage à l'aiguille. Complet.",
+      "place": "Maison de quartier Villette - Paul Bert",
+      "city": "Lyon",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-11",
+      "url": "https://www.ecoledebroderie.com/stages-hors-bretagne/"
+    },
+    {
+      "kind": "salon",
+      "title": "MOD#4, l'événement mode du Festival de Cornouaille",
+      "summary": "Yann Lagoutte et Karine Dorval au salon des artisans (démonstration de broderie glazig, présentation du projet de l'école pour KempeR'Ose) ; Yann Lagoutte siège au jury de la section contemporaine du concours « Des Modes Et Nous ».",
+      "place": "",
+      "city": "",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-10",
+      "endDate": "",
+      "url": "https://www.ecoledebroderie.com/mod4/"
+    },
+    {
+      "kind": "technique",
+      "title": "Stage à Orléans avec Yann Lagoutte",
+      "summary": "Trois jours pour découvrir ou approfondir la broderie glazig, le passé empiétant et les jours de Cilaos, avec l'ASCAO.",
+      "place": "",
+      "city": "Orléans",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-29",
+      "url": "https://www.ecoledebroderie.com/stage-a-orleans/"
+    },
+    {
+      "kind": "technique",
+      "title": "Stages de l'école à Lyon en 2027",
+      "summary": "Deux nouveaux stages de trois jours : glazig, perlage à l'aiguille et passé empiétant en février ; glazig, perlage et initiation au point de Beauvais en mai (du 28 au 30 mai 2027). Intervenants non précisés.",
+      "place": "Maison de quartier Villette - Paul Bert",
+      "city": "Lyon",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2027-02-19",
+      "endDate": "2027-02-21",
+      "url": "https://www.ecoledebroderie.com/stage/stages-a-lyon-octobre-26-fevrier-27-mai-27/"
+    }
+  ],
+  "sources": [
+    { "label": "Unidivers : Yann Lagoutte, nouveau directeur de l'École de Broderie d'Art (26 janvier 2023)", "url": "https://unidivers.fr/quimper-yann-lagoutte-ecole-broderie-art/" },
+    { "label": "École de Broderie d'Art : l'école (équipe, MOF)", "url": "https://www.ecoledebroderie.com/lecole-de-broderie/" },
+    { "label": "École de Broderie d'Art : accueil", "url": "https://www.ecoledebroderie.com/" },
+    { "label": "École de Broderie d'Art : actualités", "url": "https://www.ecoledebroderie.com/actualites/" },
+    { "label": "École de Broderie d'Art : MOD#4", "url": "https://www.ecoledebroderie.com/mod4/" },
+    { "label": "École de Broderie d'Art : stage à Orléans", "url": "https://www.ecoledebroderie.com/stage-a-orleans/" },
+    { "label": "École de Broderie d'Art : stages hors Bretagne", "url": "https://www.ecoledebroderie.com/stages-hors-bretagne/" },
+    { "label": "École de Broderie d'Art : stages à Lyon 2026-2027", "url": "https://www.ecoledebroderie.com/stage/stages-a-lyon-octobre-26-fevrier-27-mai-27/" },
+    { "label": "École de Broderie d'Art : rentrée de l'équipe", "url": "https://www.ecoledebroderie.com/rentree-de-lequipe-validee/" },
+    { "label": "École de Broderie d'Art : point de Beauvais", "url": "https://www.ecoledebroderie.com/point-de-beauvais/" },
+    { "label": "École de Broderie d'Art : Richelieu", "url": "https://www.ecoledebroderie.com/richelieu/" },
+    { "label": "Ville de Quimper : École de broderie d'art", "url": "https://www.quimper.bzh/1301-ecole-de-broderie-d-art-de-quimper.htm" },
+    { "label": "Ancien site pascaljaouen.com : l'équipe (archive avril 2025)", "url": "https://web.archive.org/web/20250425031457/https://www.pascaljaouen.com/equipe" },
+    { "label": "Ancien site pascaljaouen.com : expositions (archive octobre 2025)", "url": "https://web.archive.org/web/20251018072955/https://www.pascaljaouen.com/expositions" },
+    { "label": "Ancien site pascaljaouen.com : école (archive janvier 2026)", "url": "https://web.archive.org/web/20260114105647/https://www.pascaljaouen.com/ecoledebroderie" }
+  ],
+  "researchNotes": "MOF : l'année 2011 vient d'Unidivers ; la spécialité « broderie option point de Beauvais » vient du site de l'école (légende de sa photo) et de l'ancienne page équipe. Un extrait de recherche (letempsdebroder.com, page en erreur 410) dit aussi « MOF Beauvais en 2011 » ; la liste officielle des lauréats n'a pas été consultée. Date de prise de direction : Unidivers (janvier 2023) le présente comme nouveau directeur après la retraite de Pascal Jaouen en 2022, le site de l'école et la Ville de Quimper écrivent « depuis 2023 ». Unidivers écrit une fois « Legoutte » et Wikipédia (page Jaouen) « Yann Legoutte » : la bonne orthographe est Lagoutte (site de l'école). Date de naissance non trouvée. Lunéville et Richelieu sont bien enseignés à l'école (pages techniques, travaux d'élèves), mais aucune page ne dit que Yann Lagoutte enseigne lui-même le Richelieu. MOD#4 : dates exactes et lieu non indiqués (article du 19 octobre 2026). Préparation au CAP Broderie d'art : aucune mention sur le site de l'école, la Ville de Quimper ou l'office de tourisme ; à demander directement à l'école (02 98 95 23 66, contact@ecoledebroderie.com). Pas d'Instagram personnel trouvé. Aucune œuvre personnelle titrée et datée trouvée, d'où des œuvres sans image."
+}

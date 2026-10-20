@@ -1,0 +1,284 @@
+{
+  "name": "Maison Vuillaume",
+  "city": "Diarville",
+  "region": "Grand Est",
+  "country": "France",
+  "foundedDate": "1850",
+  "closedDate": "",
+  "founders": [
+    "Constant Vuillaume"
+  ],
+  "people": [
+    {
+      "name": "Constant Vuillaume",
+      "role": "fondateur en 1850, marchand de vin et fabricant de broderie blanche et de dentelles"
+    },
+    {
+      "name": "Louis Vuillaume",
+      "role": "2e génération, reprend en 1899 et achète la maison de Diarville qui abrite toujours l'atelier"
+    },
+    {
+      "name": "Maria Vuillaume, née Harmand",
+      "role": "épouse de Louis, spécialiste de la perle et du point de Lunéville"
+    },
+    {
+      "name": "Jean Vuillaume",
+      "role": "3e génération (1920), spécialise l'atelier dans les sacs du soir perlés"
+    },
+    {
+      "name": "Xavier Vuillaume",
+      "role": "4e génération, reprend en 1967 et oriente l'atelier vers le prêt-à-porter de luxe"
+    },
+    {
+      "name": "Hubert Vuillaume",
+      "role": "5e génération, dirigeant depuis 2016"
+    },
+    {
+      "name": "Évelyne",
+      "role": "responsable de l'atelier et brodeuse"
+    },
+    {
+      "name": "Élise",
+      "role": "brodeuse, 16 ans d'expérience, formée au brevet des métiers d'art à Paris"
+    },
+    {
+      "name": "Étienne Landon",
+      "role": "artiste nancéien, créateur de la lampe brodée « Sérendipité » réalisée avec l'atelier"
+    }
+  ],
+  "techniques": [
+    "Crochet de Lunéville",
+    "Point de Lunéville",
+    "Broderie perlée et pailletée",
+    "Broderie à l'aiguille",
+    "Broderie blanche",
+    "Point de bourdon",
+    "Point riche",
+    "Fleurs en relief"
+  ],
+  "clients": [
+    "Daum"
+  ],
+  "labels": [
+    "Entreprise du Patrimoine Vivant (2022)",
+    "Prix spécial du jury des Médailles du Saintois (2024)"
+  ],
+  "summary": "Atelier familial de Diarville, en Lorraine, tenu par la famille Vuillaume depuis 1850 et aujourd'hui par Hubert Vuillaume, cinquième génération. Ses huit brodeuses travaillent le crochet de Lunéville, perles et paillettes, pour la haute couture, le prêt-à-porter et la maroquinerie de luxe.",
+  "history": "Tout commence en 1850 avec Constant Vuillaume, marchand de vin et fabricant de broderie blanche et de dentelles. En 1899, son fils Louis prend la suite avec son épouse Maria, née Harmand, spécialiste de la perle et du point de Lunéville. Il achète la maison de Diarville, sur la route de Nancy à Mirecourt, où l'atelier travaille encore aujourd'hui.\n\nEn 1920, Jean Vuillaume se concentre sur les sacs du soir brodés de perles. À la Belle Époque, ces sacs brodés partent jusqu'aux États-Unis, et l'atelier garde encore dans ses cartons des centaines de jupes et de sacs anciens qui inspirent les brodeuses. En 1967, Xavier Vuillaume oriente la maison vers le prêt-à-porter de luxe. En 2016, son fils Hubert reprend l'activité et l'ouvre aussi aux accessoires de mode et à la décoration intérieure.\n\nL'atelier se présente comme la plus ancienne entreprise lorraine de broderie encore en activité. Il brode à la main, au crochet de Lunéville et à l'aiguille, pour de grandes maisons de haute couture, de prêt-à-porter et de maroquinerie, dont les noms restent confidentiels. L'équipe compte huit brodeuses, avec plus de quinze ans d'ancienneté en moyenne. En 2021, deux robes de la maison, « Chésames d'or » et « Chésames », sont exposées à la galerie des Gobelins à Paris pour l'exposition nationale des Journées européennes des métiers d'art.\n\nLe label Entreprise du Patrimoine Vivant arrive le 6 mai 2022. En mai 2023, l'atelier dévoile au château de Lunéville une étoffe d'apparat brodée pour le projet « Au Fil du Destin », en hommage à la duchesse Élisabeth-Charlotte. En décembre 2024, il reçoit le prix spécial du jury des premières Médailles du Saintois, au marché de Noël de Sion.\n\nEn 2025, la maison présente sa broderie perlée au Salon Talents d'Illkirch-Graffenstaden, avec la lampe haute couture « Sérendipité » imaginée par Étienne Landon, et signe pour Daum la parure brodée du cheval en cristal « Le Majestueux Impérial », éditée à 25 exemplaires, avec un tapis de selle bleu outremer rehaussé de broderies dorées. L'Est Républicain lui consacre un article en octobre 2025, qui présente Évelyne, responsable de l'atelier, et les brodeuses Pauline B., Marlène, Élise, Gabrielle, Manon et Pauline D.",
+  "training": "Aucune formation, aucun stage ni aucune visite n'est proposé sur le site ou dans l'annuaire de l'Institut pour les savoir-faire français. D'après L'Est Républicain (octobre 2025), la transmission passe par les écoles spécialisées, dont l'école de broderie d'art de Lunéville, puis par l'accompagnement des brodeuses expérimentées au sein de l'atelier. Pour une demande de stage : 06 79 77 64 65 ou la page contact du site.",
+  "website": "https://maison-vuillaume.fr/",
+  "instagram": "https://www.instagram.com/maison_vuillaume/",
+  "photoUrl": "https://maison-vuillaume.fr/wp-content/uploads/2021/07/brodeuse-lunevilleuse-en-atelier-32-560px-1.jpg",
+  "timeline": [
+    {
+      "date": "1850",
+      "kind": "vie",
+      "label": "Constant Vuillaume ouvre son atelier de broderie blanche"
+    },
+    {
+      "date": "1899",
+      "kind": "vie",
+      "label": "Louis Vuillaume et son épouse Maria reprennent l'atelier et s'installent dans la maison de Diarville"
+    },
+    {
+      "date": "1920",
+      "kind": "vie",
+      "label": "Jean Vuillaume spécialise l'atelier dans les sacs du soir perlés"
+    },
+    {
+      "date": "1967",
+      "kind": "vie",
+      "label": "Xavier Vuillaume reprend la maison et l'oriente vers le prêt-à-porter de luxe"
+    },
+    {
+      "date": "2016",
+      "kind": "vie",
+      "label": "Hubert Vuillaume, cinquième génération, prend la suite"
+    },
+    {
+      "date": "2021-04-09",
+      "kind": "exposition",
+      "label": "Robes « Chésames d'or » et « Chésames » à l'exposition nationale des JEMA, galerie des Gobelins, Paris"
+    },
+    {
+      "date": "2022-05-06",
+      "kind": "prix",
+      "label": "Obtention du label Entreprise du Patrimoine Vivant"
+    },
+    {
+      "date": "2023-05",
+      "kind": "oeuvre",
+      "label": "Étoffe d'apparat brodée « Au Fil du Destin » dévoilée au château de Lunéville"
+    },
+    {
+      "date": "2024-04-08",
+      "kind": "autre",
+      "label": "Reportage de France 3 sur les brodeuses de la maison"
+    },
+    {
+      "date": "2024-12-13",
+      "kind": "prix",
+      "label": "Prix spécial du jury des Médailles du Saintois, au marché de Noël de Sion"
+    },
+    {
+      "date": "2025-03-22",
+      "kind": "exposition",
+      "label": "Salon Talents 2025 consacré à la broderie d'art, Illkirch-Graffenstaden, avec la lampe « Sérendipité » d'Étienne Landon"
+    },
+    {
+      "date": "2025",
+      "kind": "residence",
+      "label": "Parure brodée du cheval en cristal « Le Majestueux Impérial » pour Daum, 25 exemplaires"
+    },
+    {
+      "date": "2025-10-10",
+      "kind": "autre",
+      "label": "Article de L'Est Républicain « L'art du fil se perpétue » sur l'atelier"
+    }
+  ],
+  "works": [
+    {
+      "title": "Parure brodée du « Majestueux Impérial » (cheval en cristal)",
+      "year": "2025",
+      "technique": "Daum · broderie perlée et dorée à la main",
+      "description": "Pour le cheval en cristal « Le Majestueux Impérial » de Daum, coloris blanc-gris édité à 25 exemplaires, l'atelier a brodé à la main la parure : un tapis de selle bleu outremer rehaussé de broderies dorées et de franges perlées, inspiré des harnais royaux (site de la maison, avril et septembre 2025).",
+      "url": "https://maison-vuillaume.fr/reportages/majestueux-imperial-daum-27-04-2025",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2025/09/majestueux-imperial-cheval-daum-1.jpg"
+    },
+    {
+      "title": "Robe « Chésames d'or »",
+      "year": "2021",
+      "technique": "Création de la maison · crochet de Lunéville et aiguille, fleurs en organza, plumes",
+      "description": "Robe sur crêpe ivoire brodée main au crochet de Lunéville et à l'aiguille, avec fleurs en organza de soie faites main, perles, laminette or et argent, plumes d'autruche et bijoux, exposée du 9 avril au 6 juin 2021 à la galerie des Gobelins pour l'exposition nationale des JEMA.",
+      "url": "https://maison-vuillaume.fr/evenements/exposition-nationale-jema-2021-galerie-des-gobelins-paris-09-04-2021",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2021/04/chesames-or-robe-brodee-main-10-900x1200.jpg"
+    },
+    {
+      "title": "Robe « Chésames » en mousseline de soie noire",
+      "year": "2021",
+      "technique": "Création de la maison · broderie perlée et pailletée",
+      "description": "Seconde robe présentée par l'atelier à l'exposition nationale des JEMA 2021 (galerie des Gobelins, Paris), en mousseline de soie noire brodée de perles, de paillettes et de motifs en éclats.",
+      "url": "https://maison-vuillaume.fr/evenements/exposition-nationale-jema-2021-galerie-des-gobelins-paris-09-04-2021",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2021/04/chesames-robe-mousseline-soie-noir-1-900x1200.jpg"
+    },
+    {
+      "title": "Étoffe d'apparat « Au Fil du Destin »",
+      "year": "2023",
+      "technique": "Château de Lunéville · broderie sur velours",
+      "description": "L'atelier a participé à la réalisation de l'étoffe d'apparat brodée du projet « Au Fil du Destin », hommage à la duchesse Élisabeth-Charlotte, dévoilée en mai 2023 au château de Lunéville (photo du château de Lunéville reprise par la maison).",
+      "url": "https://maison-vuillaume.fr/presse/etoffe-dapparat-chateau-de-luneville-23-05-2023",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2024/02/broderie-chateau-de-luneville-2023-b.jpg"
+    },
+    {
+      "title": "Lampe haute couture « Sérendipité »",
+      "year": "2025",
+      "technique": "Étienne Landon · broderie de perles et de paillettes",
+      "description": "Lampe dessinée par l'artiste nancéien Étienne Landon, entièrement brodée de perles et de paillettes avec la maison Vuillaume, présentée au Salon Talents d'Illkirch-Graffenstaden les 22 et 23 mars 2025.",
+      "url": "https://maison-vuillaume.fr/evenements/salon-talents-2025-25-03-2025",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2025/09/lampe-etienne-landon-haute-couture-800x1200.jpg"
+    },
+    {
+      "title": "Sacs du soir en broderie perlée",
+      "year": "",
+      "technique": "Création de la maison · broderie perlée au crochet",
+      "description": "Sacs perlés des archives de l'atelier, présentés par la maison comme des pièces des années 1960 lancées par Jean Vuillaume et vendues jusqu'à New York, brodés de très petites perles.",
+      "url": "https://maison-vuillaume.fr/sacs-de-haute-couture-en-broderie-perlee",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2021/08/sac-broderie-perlee-08-600x423.jpg"
+    },
+    {
+      "title": "Échantillon « Lotus noir »",
+      "year": "",
+      "technique": "Haute couture · broderie perlée, tubes et strass",
+      "description": "Échantillon haute couture de l'atelier présenté sur la page Créations : un lotus en perles noires et tubes, rehaussé de pierres navettes.",
+      "url": "https://maison-vuillaume.fr/creations",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2021/07/lotus-noir-peles-haute-couture-600x450.jpg"
+    },
+    {
+      "title": "Échantillon « Feu d'artifice rouge et or »",
+      "year": "",
+      "technique": "Haute couture · broderie perlée et pailletée sur tulle",
+      "description": "Échantillon de l'atelier présenté sur la page Créations, brodé sur tulle rouge de tubes, cuvettes et perles rouges et or.",
+      "url": "https://maison-vuillaume.fr/creations",
+      "imageUrl": "https://maison-vuillaume.fr/wp-content/uploads/2021/07/broderie-feu-artifice-rouge-or-600x450.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Maison Vuillaume : accueil",
+      "url": "https://maison-vuillaume.fr/"
+    },
+    {
+      "label": "Maison Vuillaume : la Maison (cinq générations)",
+      "url": "https://maison-vuillaume.fr/presentation"
+    },
+    {
+      "label": "Maison Vuillaume : savoir-faire",
+      "url": "https://maison-vuillaume.fr/savoir-faire"
+    },
+    {
+      "label": "Maison Vuillaume : actualités",
+      "url": "https://maison-vuillaume.fr/actualite"
+    },
+    {
+      "label": "Maison Vuillaume : mentions légales",
+      "url": "https://maison-vuillaume.fr/mentions-legales"
+    },
+    {
+      "label": "Maison Vuillaume : L'art du fil se perpétue (L'Est Républicain, 10 octobre 2025)",
+      "url": "https://maison-vuillaume.fr/presse/art-du-fil-se-perpetue-10-10-2025"
+    },
+    {
+      "label": "Maison Vuillaume : parure du Majestueux Impérial pour Daum",
+      "url": "https://maison-vuillaume.fr/reportages/majestueux-imperial-daum-27-04-2025"
+    },
+    {
+      "label": "Maison Vuillaume : Salon Talents 2025",
+      "url": "https://maison-vuillaume.fr/evenements/salon-talents-2025-25-03-2025"
+    },
+    {
+      "label": "Maison Vuillaume : prix des Médailles du Saintois (décembre 2024)",
+      "url": "https://maison-vuillaume.fr/presse/maison-vuillaume-recompensee-pour-son-excellence-artisanale-15-12-2024"
+    },
+    {
+      "label": "Maison Vuillaume : reportage France 3 sur les brodeuses (avril 2024)",
+      "url": "https://maison-vuillaume.fr/reportages/luxe-a-la-francaise-les-brodeuses-de-la-maison-vuillaume-france-3-08-04-2024"
+    },
+    {
+      "label": "Maison Vuillaume : la broderie perlée au service des grandes maisons (janvier 2024)",
+      "url": "https://maison-vuillaume.fr/presse/lart-de-la-broderie-perlee-au-service-des-grandes-maisons-de-mode-05-01-2024"
+    },
+    {
+      "label": "Maison Vuillaume : étoffe d'apparat du château de Lunéville (mai 2023)",
+      "url": "https://maison-vuillaume.fr/presse/etoffe-dapparat-chateau-de-luneville-23-05-2023"
+    },
+    {
+      "label": "Maison Vuillaume : obtention du label EPV",
+      "url": "https://maison-vuillaume.fr/evenements/obtention-label-epv-06-05-2022"
+    },
+    {
+      "label": "Maison Vuillaume : exposition nationale des JEMA 2021",
+      "url": "https://maison-vuillaume.fr/evenements/exposition-nationale-jema-2021-galerie-des-gobelins-paris-09-04-2021"
+    },
+    {
+      "label": "Maison Vuillaume : la broderie perlée est encore présente en Lorraine (L'Écho des Vosges, mars 2021)",
+      "url": "https://maison-vuillaume.fr/presse/la-broderie-perlee-est-encore-presente-en-lorraine-18-03-2021"
+    },
+    {
+      "label": "Maison Vuillaume : reportage broderie perlée (février 2021)",
+      "url": "https://maison-vuillaume.fr/reportages/reportage-broderie-perlee-atelier-vuillaume-25-02-2021"
+    },
+    {
+      "label": "Institut pour les savoir-faire français : Atelier Vuillaume broderies",
+      "url": "https://www.institut-savoirfaire.fr/acteur/atelier-vuillaume-broderies"
+    },
+    {
+      "label": "Maison Vuillaume : créations (échantillons haute couture)",
+      "url": "https://maison-vuillaume.fr/creations"
+    },
+    {
+      "label": "Maison Vuillaume : sacs de haute couture en broderie perlée",
+      "url": "https://maison-vuillaume.fr/sacs-de-haute-couture-en-broderie-perlee"
+    }
+  ],
+  "researchNotes": "Date de création : 1850 partout sur le site et dans la présentation de l'annuaire de l'Institut pour les savoir-faire français, mais la fiche de ce même annuaire indique 1977, sans explication (peut-être la date d'une ancienne structure juridique, non vérifié). Structure actuelle selon les mentions légales : entreprise individuelle de M. Hubert Vuillaume, exploitée sous le nom « Atelier Vuillaume Broderies Perlées », 12 place du Docteur Raymond Midon, 54930 Diarville, SIRET 938 697 893 00015 ; ce numéro semble récent mais sa date d'immatriculation n'a pas été vérifiée. Homonyme à ne pas confondre : MAISON VUILLAUME SARL, RCS Belfort 444730378, code NAF chauffage et climatisation (page copeps.fr), sans lien établi avec l'atelier. Effectif : 8 salariés selon l'annuaire, 8 brodeuses selon la page du reportage France 3 ; le nombre exact n'est pas recoupé. Les brodeuses et la responsable d'atelier ne sont citées que par leur prénom. Clients haute couture jamais nommés (confidentialité revendiquée) ; seul Daum est cité. La parure Daum est datée du 27 avril 2025 dans l'URL et du 30 septembre 2025 dans l'article. La page du reportage de 2021 situe l'atelier « depuis 1850 à Lunéville », alors que toutes les autres pages parlent de Diarville. Le même reportage dit qu'Hubert Vuillaume a d'abord suivi d'autres études, son père ne souhaitant pas au départ qu'il reprenne. La page France 3 évoque une œuvre collective pour les salons du château de Courcelles, des essais de fils recyclés et de perles biosourcées : non recoupé. La lampe « Sérendipité » n'a pas de date propre (présentée au Salon Talents 2025). Un article de janvier 2021 « L'Atelier de broderies Vuillaume travaille pour la Fashion Week » est listé mais n'a pas été lu. Pas de fiche Homo Faber trouvée, Instagram non lu, aucune photo sélectionnée. Images des réalisations : toutes viennent du site de la maison et ont passé le test (200, image/jpeg) le 20 octobre 2026. À vérifier : la photo de l'étoffe « Au Fil du Destin » est créditée au château de Lunéville et l'atelier n'a fait qu'y participer ; la datation « années 1960 » des sacs perlés vient de la maison seule ; les échantillons « Lotus noir » et « Feu d'artifice » ne sont pas datés et l'on ne sait pas pour quelle maison ils ont été faits. La photo d'atelier (brodeuse au crochet de Lunéville) vient de la page Savoir-faire ; les droits de réutilisation des photos ne sont pas précisés."
+}

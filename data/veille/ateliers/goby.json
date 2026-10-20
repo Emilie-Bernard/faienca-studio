@@ -1,0 +1,46 @@
+{
+  "name": "Goby",
+  "city": "",
+  "region": "",
+  "country": "France",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [],
+  "people": [],
+  "techniques": [
+    "Broderie haute couture"
+  ],
+  "clients": [],
+  "labels": [
+    "Maison disparue"
+  ],
+  "summary": "Petit atelier de broderie de la haute couture française des années 1950, aujourd'hui disparu. Il n'a laissé presque aucune trace en ligne : on le connaît surtout par les souvenirs du brodeur milanais Pino Grasso, qui le cite parmi les ateliers historiques qu'il fréquentait.",
+  "history": "Goby fait partie de ces petits ateliers qui ont brodé pour la haute couture française dans les années 1950, à l'époque où les grandes maisons faisaient appel à toute une constellation de brodeurs. Il est aujourd'hui fermé, et son nom a presque disparu des archives accessibles en ligne.\n\nLa seule page qui le nomme vient de la maison italienne Pino Grasso Ricami, à Milan. Son fondateur, Pino Grasso, découvre le milieu de la haute couture française dans les années 1950. Après s'être formé à l'atelier de broderie Mesrine, il élargit ses contacts à d'autres ateliers de broderie historiques, et le site de sa maison en cite cinq : Métral, Lanel, Goby, Lisbeth et Vermont, avant son amitié avec François Lesage. Goby figure donc aux côtés d'ateliers bien connus de la broderie parisienne, comme Lanel et Vermont.\n\nOn ne connaît pour l'instant ni ses fondateurs, ni son adresse, ni ses dates d'ouverture et de fermeture, ni une pièce qui lui soit attribuée dans un musée. C'est un bel exemple de ces ateliers de l'ombre dont la mémoire reste à reconstituer.",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1950",
+      "kind": "residence",
+      "label": "Années 1950 : Pino Grasso, futur brodeur milanais, fréquente l'atelier Goby parmi d'autres ateliers historiques de broderie"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pino Grasso Ricami, About us (archive Wayback Machine)",
+      "url": "https://web.archive.org/web/2025/https://www.pinograsso-ricami.com/en/about-us/"
+    },
+    {
+      "label": "Pino Grasso Ricami, About us",
+      "url": "https://www.pinograsso-ricami.com/en/about-us/"
+    },
+    {
+      "label": "Pino Grasso Ricami, Chi siamo",
+      "url": "https://www.pinograsso-ricami.com/chi-siamo/"
+    }
+  ],
+  "researchNotes": "Nom confirmé par l'orthographe donnée par Émilie (« Goby ») et par une seule page en ligne : le site de Pino Grasso Ricami (versions anglaise et italienne), qui cite « Metral, Lanel, Goby, Lisbeth and Vermont » comme ateliers de broderie historiques fréquentés par Pino Grasso après son passage chez Mesrine, dans le contexte de la haute couture française des années 1950. Le site pinograsso-ricami.com ne répondait pas lors de la recherche (lu via la Wayback Machine et un extrait de moteur de recherche). Émilie a aussi un extrait (source à préciser : titre, auteur, URL) disant que Barbier, Bataille, Dufoni, Goby, Lisbeth, Métral et Ginistry, petits ateliers ayant brodé dans les années 1950 pour Dior, Balenciaga, Balmain ou Dessès, ont disparu : à ajouter dans les sources dès qu'on a la référence. Ni la ville (Paris très probable, non confirmée par une page), ni les dates, ni les fondateurs, ni les clients propres à Goby ne sont sourcés. Recherches sans résultat pour un brodeur Goby : Paris Musées (Galliera, seulement une illustratrice Suzanne Goby en 1924 et une actrice), MAD Paris (0 résultat), V&A, Met, Europeana. Pistes : les Bottins du commerce parisiens des années 1950 sur Gallica (rubrique Brodeurs), le livre de Nadia Albertini sur Rébé, les archives Dior Héritage et Balenciaga, la thèse en cours de Nadia Albertini à l'École des chartes. Ne pas confondre avec la maison de couture Goupy (années 1920) ni avec la marque de chaussures Goby.",
+  "works": []
+}

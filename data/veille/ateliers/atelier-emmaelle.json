@@ -1,0 +1,111 @@
+{
+  "name": "Atelier Emmaelle",
+  "city": "Lisieux",
+  "region": "Normandie",
+  "country": "France",
+  "foundedDate": "2006-11",
+  "closedDate": "",
+  "founders": [
+    "Emmanuelle Ytournel"
+  ],
+  "people": [
+    {
+      "name": "Emmanuelle Ytournel",
+      "role": "fondatrice, brodeuse d'art (CAP broderie main option or, brevet des métiers d'art broderie)"
+    }
+  ],
+  "techniques": [
+    "Broderie or (fils d'or et d'argent, cannetille, filé, lame, cordonnet)",
+    "Broderie militaire et de prestige",
+    "Broderie ornementale (broderie traditionnelle, peinture à l'aiguille, broderie blanche)",
+    "Crochet de Lunéville (perles, paillettes)",
+    "Couchures simple, guipure et or nué",
+    "Restauration de broderies anciennes (bannières, drapeaux, objets religieux)",
+    "Couture main et machine",
+    "Broderie machine"
+  ],
+  "clients": [
+    "Ateliers de haute couture parisiens",
+    "Associations et confréries",
+    "Particuliers et professionnels"
+  ],
+  "labels": [],
+  "summary": "Petit atelier de broderie d'art ouvert en 2006 à Lisieux par Emmanuelle Ytournel, spécialisé dans la broderie or, la broderie ornementale et la restauration de bannières et de drapeaux anciens.",
+  "history": "Emmanuelle Ytournel est originaire des Charentes. À seize ans, elle part à Rochefort-sur-Mer pour se former : brevet des métiers de la mode, puis CAP de broderie main option or, puis brevet des métiers d'art en broderie. Elle travaille ensuite trois ans dans un atelier de sous-traitance pour la haute couture.\n\nAprès une formation de trois mois à la création et au développement d'entreprise, elle ouvre l'Atelier Emmaelle en novembre 2006 à Lisieux, dans le Calvados. Elle a choisi la Normandie pour son histoire, terre de tapisserie et de dentelle, avec l'envie de faire revivre des savoir-faire menacés.\n\nL'atelier brode à l'or et à l'argent pour les drapeaux, bannières, blasons, fanions, chaperons, uniformes, képis, cravates, tabliers et vêtements de cérémonie ou ecclésiastiques. Il pratique aussi la broderie ornementale et le crochet de Lunéville, qu'Emmanuelle Ytournel exerce avec des ateliers de haute couture parisiens. Le site montre notamment un costume d'académicien et une robe de mariée.\n\nUne grande partie du travail est la restauration : nettoyage de surface sans produit chimique, reprise des trous, pose de pièces, changement des doublures, franges et galons, et, quand le fond est trop abîmé, transfert des broderies sur un nouveau tissu. Une bannière de saint Martin restaurée est présentée avant et après.\n\nAujourd'hui, l'atelier, installé rue Saint-Dominique à Lisieux, propose aussi de la couture, de la broderie machine et des initiations à la broderie.",
+  "training": "Initiations en atelier à la broderie aux fils d'or, au crochet de Lunéville et à la broderie ornementale, pour débutants comme pour brodeuses confirmées : 25 € de l'heure ou 230 € le forfait de 10 heures, matériel fourni. L'atelier se déplace aussi dans les écoles, les centres périscolaires et les établissements pour personnes âgées pour des démonstrations et initiations sur métier à broder (tarif à la demi-journée sur demande).",
+  "website": "https://www.atelier-emmaelle.fr/",
+  "instagram": "",
+  "photoUrl": "https://www.atelier-emmaelle.fr/data/uploads/accueil/ablon-sur-metier.jpg",
+  "timeline": [
+    {
+      "date": "2006-11",
+      "kind": "vie",
+      "label": "Emmanuelle Ytournel ouvre l'Atelier Emmaelle à Lisieux"
+    }
+  ],
+  "works": [
+    {
+      "title": "Costume d'académicien brodé",
+      "year": "",
+      "technique": "Broderie ornementale de prestige sur habit",
+      "description": "Habit noir brodé de rameaux verts et or, présenté parmi « les plus belles réalisations de l'atelier » dans la partie Création.",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=produits",
+      "imageUrl": "https://www.atelier-emmaelle.fr/data/uploads/produit/costume_academicien_2.jpg"
+    },
+    {
+      "title": "Robe de mariée brodée",
+      "year": "",
+      "technique": "Commande de particulier · broderie et couture",
+      "description": "Robe de mariée à longue traîne de tulle, présentée avec le costume d'académicien parmi les réalisations de l'atelier.",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=produits",
+      "imageUrl": "https://www.atelier-emmaelle.fr/data/uploads/produit/robe_mariee.jpg"
+    },
+    {
+      "title": "Restauration de la bannière de saint Martin",
+      "year": "",
+      "technique": "Restauration · broderie or liturgique",
+      "description": "Bannière rouge à l'effigie de saint Martin en évêque, entourée de rinceaux brodés d'or, montrée avant et après restauration.",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=produits",
+      "imageUrl": "https://www.atelier-emmaelle.fr/data/uploads/galerie/banniere-saint-martin-face-2-restaure.jpg"
+    },
+    {
+      "title": "Restauration d'une bannière de la Vierge",
+      "year": "",
+      "technique": "Restauration · report des broderies or sur un nouveau velours",
+      "description": "Bannière de procession à la Vierge sur nuée, très usée, dont les broderies or ont été reportées sur un velours rouge neuf avec franges neuves ; avant et après sont montrés sans légende.",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=produits",
+      "imageUrl": "https://www.atelier-emmaelle.fr/data/uploads/galerie/lejariel6.jpg"
+    },
+    {
+      "title": "Chaperon de charité à saint André, doublure refaite",
+      "year": "",
+      "technique": "Confrérie de charité · restauration, broderie argent",
+      "description": "Chaperon rouge brodé d'une couronne de laurier en argent autour de saint André, dont l'atelier a changé la doublure.",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=produits",
+      "imageUrl": "https://www.atelier-emmaelle.fr/data/uploads/produit/chaperon-doublure.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Atelier Emmaelle, accueil",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=accueil"
+    },
+    {
+      "label": "Atelier Emmaelle, techniques",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=technique"
+    },
+    {
+      "label": "Atelier Emmaelle, produits (création, restauration)",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=produits"
+    },
+    {
+      "label": "Atelier Emmaelle, formation",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=formation"
+    },
+    {
+      "label": "Atelier Emmaelle, contact",
+      "url": "https://www.atelier-emmaelle.fr/index.php?id=contact"
+    }
+  ],
+  "researchNotes": "Toutes les informations viennent du site de l'atelier : aucune source extérieure (presse, annuaire métiers d'art, Homo Faber, EPV) n'a été trouvée. La page d'accueil affiche un logo nommé « logo-maitre-artisan-art » (texte alternatif « MAA »), ce qui laisse penser à un titre de Maître Artisan d'Art, mais le texte ne le dit pas : à confirmer auprès de la Chambre de métiers du Calvados. Les années de formation et de l'atelier de sous-traitance haute couture ne sont pas données, et les ateliers parisiens partenaires ne sont pas nommés. Les photos « lejariel » de la page restauration ne sont pas légendées. Pas de compte Instagram ou Facebook trouvé. Le site indique un copyright 2007 à 2026, donc l'atelier semble actif. Images des réalisations : aucune photo du site n'a de légende, les titres viennent des noms de fichiers et du texte de la page (la série « lejariel », peut-être un nom de client ou de paroisse, et le lieu des bannières restent à identifier), aucune date n'est donnée, et la photo de l'atelier (nommée « ablon-sur-metier ») montre la brodeuse sur une bannière à saint Pierre sans préciser s'il s'agit d'une commande pour Ablon."
+}

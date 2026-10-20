@@ -1,0 +1,291 @@
+{
+  "name": "Alice Kettle",
+  "country": "Royaume-Uni",
+  "city": "Winchester",
+  "zone": "europe",
+  "birthDate": "1961",
+  "deathDate": "",
+  "techniques": [
+    "broderie machine",
+    "broderie main",
+    "machines à coudre anciennes du début du XXe siècle",
+    "dessin au pastel scanné et imprimé sur tissu, puis brodé",
+    "fils variés sur lin imprimé",
+    "broderie Schiffli",
+    "œuvres collaboratives et participatives"
+  ],
+  "summary": "Artiste textile britannique née en 1961 à Winchester, Alice Kettle brode à la machine et à la main de très grandes œuvres figuratives qui racontent mythes, voyages et exil. Professeure émérite à la Manchester School of Art, elle est connue pour le projet « Thread Bearing Witness » mené avec des personnes réfugiées.",
+  "biography": "Alice Kettle est née en 1961 à Winchester, où elle a grandi et où elle est revenue vivre et travailler. Elle se forme d'abord à la peinture : licence d'arts plastiques à l'Université de Reading (1979-1984), avec notamment Terry Frost parmi ses enseignants, puis diplôme de troisième cycle en art textile à Goldsmiths, à Londres (1985-1986), obtenu avec mention.\n\nSa marque de fabrique, c'est l'échelle. Elle « peint » avec le fil : des milliers de petits points machine forment de larges plages de couleur, souvent rehaussées de fils métalliques. Elle mêle machines anciennes du début du XXe siècle, broderie à la main et outils numériques : ses dessins au pastel sont scannés, imprimés sur toile ou sur lin, puis recouverts de broderie. Comme son fil est souvent trop épais pour l'aiguille, elle travaille fréquemment par l'envers et ne découvre l'endroit qu'en retournant la pièce. Ses sujets viennent des mythes, des contes, de sa propre vie et de l'actualité.\n\nElle a réalisé de nombreuses commandes publiques : devant d'autel pour la cathédrale de Winchester (1994), « In Camera » pour la Haute Cour d'Écosse à Édimbourg (1995-1997), trois pièces d'autel pour la cathédrale de Gloucester (1999-2001), une œuvre pour la Bibliothèque nationale d'Australie (1999) et une pièce de 3 m sur 16,5 m pour le Winchester Discovery Centre. Ses œuvres sont entrées dans plus d'une vingtaine de collections publiques, dont le Crafts Council, la Whitworth de Manchester et l'International Slavery Museum de Liverpool. Elle a aussi écrit ou codirigé plusieurs livres, comme « Machine Stitch Perspectives », « Hand Stitch Perspectives » et « Collaboration through Craft ».\n\nSon projet le plus connu, « Thread Bearing Witness », commence en 2017. Avec des personnes réfugiées et demandeuses d'asile, au Royaume-Uni et dans des camps en Europe, elle crée trois toiles monumentales de 3 m sur 8 m, « Sea », « Ground » et « Sky », montrées ensemble à la Whitworth en 2018-2019, puis à la British Textile Biennial (2019) et au Somerset Rural Life Museum (2021). En 2020, elle est invitée de l'exposition « Untitled, 2020 » à la Punta della Dogana, à Venise, avec « Loukanikos the Dog and the Cat's Cradle » (2015), et prolonge ce travail collaboratif avec des brodeuses du Sindh, au Pakistan, pour la Biennale de Karachi.\n\nCes dernières années sont très riches. Elle reçoit le Brookfield Properties Craft Award en 2023, qui lui vaut l'exposition personnelle « To Boldly Sew » à Londres et l'entrée de trois œuvres dans la collection du Crafts Council. Elle est aussi commissaire, avec d'autres, d'expositions comme « Threads » à l'Arnolfini de Bristol (2023) et « Soft Power » à la Royal West of England Academy (2025), dont elle est académicienne. En 2026, elle présente « Balancing Act » chez Bo Lee Gallery à Bruton, puis sa première exposition personnelle en Suisse, « Circadian Threads », chez Anna Helwing Gallery. Plusieurs de ses œuvres récentes ont été acquises par des musées et collections, dont le Holburne Museum de Bath.",
+  "website": "https://alicekettle.co.uk/",
+  "instagram": "",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Balancing Act: Holding up the Earth to reach the Sky",
+      "year": "2026",
+      "technique": "Fils variés sur lin mélangé imprimé, 283 x 384 cm",
+      "description": "Grande pièce de l'exposition « Balancing Act » chez Bo Lee Gallery, où des figures attrapent, lancent, poussent et tirent, entre catastrophe et espoir. Acquise par la collection Linklaters en 2026.",
+      "url": "https://alicekettle.co.uk/artworks/150-alice-kettle-balancing-act-holding-up-the-earth-to-reach-2026/",
+      "imageUrl": "https://static-assets.artlogic.net/w_2000,h_2000,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite2719/usr/images/pages/slideshow_data/1/boleealicekettlejan26-34307-edit-2-2.jpg"
+    },
+    {
+      "title": "Catching the Weeping Moon",
+      "year": "2026",
+      "technique": "Textile brodé monumental",
+      "description": "Créée pour l'exposition « Balancing Act ». Acquise par le Holburne Museum de Bath en 2026.",
+      "url": "https://alicekettle.co.uk/news/11-catching-the-weeping-moon-acquired-by-holbourn-museum/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Words made of Breath",
+      "year": "2026",
+      "technique": "Fils variés sur lin mélangé imprimé, 142 x 110 cm",
+      "description": "Œuvre phare de « Circadian Threads » chez Anna Helwing Gallery, une exposition sur les rythmes du sommeil et de l'éveil, de l'immobilité et du mouvement.",
+      "url": "https://alicekettle.co.uk/exhibitions/60-circadian-threads-solo-exhibitionanna-helwing-gallery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Knot",
+      "year": "2025",
+      "technique": "Fils variés sur lin imprimé, 262 x 204 cm",
+      "description": "Montrée dans l'exposition collective « In the Wind's Hands » chez BoLee & Workman (2025), puis acquise par le musée FAMM.",
+      "url": "https://alicekettle.co.uk/artworks/23-alice-kettle-knot-2025/",
+      "imageUrl": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/alicemargaretkettle5504/images/view/ff5a1a62f950d08d1c2dff41b262c978j/alicekettle-alice-kettle-knot-2025.jpg"
+    },
+    {
+      "title": "Elizabeth",
+      "year": "2021",
+      "technique": "Fil sur lin mélangé, 170 x 129 cm",
+      "description": "Portrait brodé montré en 2026 dans l'exposition collective « A Stitch in Time » à la Paul Smith Space, à Londres.",
+      "url": "https://alicekettle.co.uk/artworks/82-alice-kettle-elizabeth-2021/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Ground",
+      "year": "2018",
+      "technique": "Broderie, fil et matière de gilet de sauvetage sur toile imprimée, 300 x 800 cm",
+      "description": "L'une des trois toiles monumentales du projet « Thread Bearing Witness », réalisé avec des personnes réfugiées et demandeuses d'asile, et montré à la Whitworth en 2018-2019.",
+      "url": "https://alicekettle.co.uk/artworks/77-alice-kettle-ground-one-of-three-works-ground-sea-2018/",
+      "imageUrl": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/alicemargaretkettle5504/images/view/fe7c93bb216f17a740879cf14082253cj/alicekettle-alice-kettle-ground-one-of-three-works-ground-sea-and-sky-thread-bearing-witness-project-2018.jpg"
+    },
+    {
+      "title": "Sea",
+      "year": "2017",
+      "technique": "Broderie, fil sur toile imprimée, 300 x 800 cm",
+      "description": "Deuxième toile du triptyque « Thread Bearing Witness », sur la traversée et l'exil.",
+      "url": "https://alicekettle.co.uk/artworks/79-alice-kettle-sea-one-of-three-works-ground-sea-2017/",
+      "imageUrl": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/alicemargaretkettle5504/images/view/6c0a2d76cdd703108503eb23fbb10a7bj/alicekettle-alice-kettle-sea-one-of-three-works-ground-sea-and-sky-thread-bearing-witness-project-2017.jpg"
+    },
+    {
+      "title": "Sky",
+      "year": "2018",
+      "technique": "Broderie, fil sur toile imprimée, 300 x 800 cm",
+      "description": "Troisième toile du triptyque « Thread Bearing Witness », montrée à la Whitworth de Manchester.",
+      "url": "https://alicekettle.co.uk/artworks/78-alice-kettle-sky-one-of-three-works-ground-sea-2018/",
+      "imageUrl": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/alicemargaretkettle5504/images/view/a3f55240e43484ad6a12e6b333f78295j/alicekettle-alice-kettle-sky-one-of-three-works-ground-sea-and-sky-thread-bearing-witness-project-2018.jpg"
+    },
+    {
+      "title": "Stitch a Tree",
+      "year": "2018",
+      "technique": "Broderie sur tissu, environ 11 m x 5 m",
+      "description": "Œuvre participative née des ateliers « Stitch a Tree » du projet « Thread Bearing Witness » à la Whitworth.",
+      "url": "https://alicekettle.co.uk/exhibitions/12-thread-bearing-witness-solo-exhibitionwhitworth-gallery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Loukanikos the Dog and the Cat's Cradle",
+      "year": "2015",
+      "technique": "Fils variés sur toile mélangée imprimée et peinte, objets trouvés et corde, gouttes de verre sur fil de cuivre de Kirsteen Aubrey, 207 x 425 cm",
+      "description": "Œuvre présentée dans « Untitled, 2020 » à la Punta della Dogana, à Venise, exposition de la Collection Pinault.",
+      "url": "https://alicekettle.co.uk/exhibitions/43-untitled-2020-group-exhibitionpunta-della-dogana/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pause",
+      "year": "2009",
+      "technique": "Broderie, 185 x 280 cm",
+      "description": "Grande œuvre de la période « A Pause in the Rhythm of Time » (Belger Arts Center, 2009). Une version « Pause II » réinterprète en danseurs les figures de « La Danse de la vie humaine » de Poussin (Wallace Collection).",
+      "url": "https://alicekettle.co.uk/artworks/90-alice-kettle-pause-2009/",
+      "imageUrl": "https://static-assets.artlogic.net/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/alicemargaretkettle5504/images/view/2836c715f909e497fe6f452389a4e09bj/alicekettle-alice-kettle-pause-2009.jpg"
+    },
+    {
+      "title": "Odyssey",
+      "year": "2003",
+      "technique": "Broderie machine grand format",
+      "description": "Grande pièce figurative inspirée de l'épopée d'Homère, où l'artiste s'est placée au centre, pendant son divorce.",
+      "url": "https://alicekettle.co.uk/artworks/92-alice-kettle-odyssey-2003/",
+      "imageUrl": ""
+    },
+    {
+      "title": "In Camera",
+      "year": "1997",
+      "technique": "Broderie, commande publique",
+      "description": "Commande pour la Haute Cour d'Écosse à Édimbourg, réalisée de 1995 à 1997.",
+      "url": "https://en.wikipedia.org/wiki/Alice_Kettle",
+      "imageUrl": ""
+    },
+    {
+      "title": "Three Girls, Little Bird et The Swimmers",
+      "year": "2023",
+      "technique": "Fils variés sur lin mélangé imprimé (Little Bird : 130 x 120 cm)",
+      "description": "Trois œuvres (2022-2023) acquises par la collection du Crafts Council grâce au Brookfield Properties Craft Award 2023, et montrées dans « To Boldly Sew » à Londres.",
+      "url": "https://alicekettle.co.uk/exhibitions/9-to-boldly-sew-solo-exhibitionbrookfield-properties/",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "1961", "kind": "vie", "label": "Naissance à Winchester (Hampshire, Royaume-Uni)" },
+    { "date": "1979", "kind": "formation", "label": "Entrée en licence d'arts plastiques à l'Université de Reading (jusqu'en 1984)" },
+    { "date": "1985", "kind": "formation", "label": "Diplôme de troisième cycle en art textile à Goldsmiths, Londres (1985-1986), avec mention" },
+    { "date": "1994", "kind": "oeuvre", "label": "Devant d'autel pour la chapelle du Saint-Sépulcre, cathédrale de Winchester" },
+    { "date": "1997", "kind": "oeuvre", "label": "« In Camera », commande pour la Haute Cour d'Écosse à Édimbourg (1995-1997)" },
+    { "date": "1999", "kind": "oeuvre", "label": "Commande pour la Bibliothèque nationale d'Australie" },
+    { "date": "2001", "kind": "oeuvre", "label": "Trois pièces d'autel pour la cathédrale de Gloucester (1999-2001)" },
+    { "date": "2003", "kind": "exposition", "label": "« Mythscapes », exposition personnelle itinérante depuis le Bankfield Museum de Halifax (2003-2005)" },
+    { "date": "2009", "kind": "exposition", "label": "« A Pause in the Rhythm of Time », Belger Arts Center, Kansas City" },
+    { "date": "2013", "kind": "exposition", "label": "« The Garden of England », Queen's House, National Maritime Museum" },
+    { "date": "2016", "kind": "exposition", "label": "« The Scalloped Edge », exposition personnelle à Madère, avec des brodeuses de l'île" },
+    { "date": "2017", "kind": "oeuvre", "label": "Lancement du projet « Thread Bearing Witness » avec des personnes réfugiées" },
+    { "date": "2017-10-28", "kind": "exposition", "label": "« Threads », Winchester Discovery Centre (jusqu'au 14 janvier 2018)" },
+    { "date": "2018-09-01", "kind": "exposition", "label": "« Thread Bearing Witness », The Whitworth, Manchester (jusqu'au 24 février 2019)" },
+    { "date": "2019-10-26", "kind": "exposition", "label": "Biennale de Karachi, avec des brodeuses du Sindh (Pakistan)" },
+    { "date": "2020-01", "kind": "exposition", "label": "« Within Each Other, Portraits of Ourselves », London Art Fair, avec Candida Stevens" },
+    { "date": "2020-03-22", "kind": "exposition", "label": "« Untitled, 2020 », Punta della Dogana, Venise (jusqu'au 19 décembre 2020)" },
+    { "date": "2021-10-16", "kind": "exposition", "label": "« Threadbound », Candida Stevens Gallery (jusqu'au 12 novembre 2021)" },
+    { "date": "2022-10-18", "kind": "exposition", "label": "4e Triennale internationale d'art de la fibre de Hangzhou, Zhejiang Art Museum" },
+    { "date": "2023", "kind": "prix", "label": "Brookfield Properties Craft Award" },
+    { "date": "2023-07-05", "kind": "exposition", "label": "« To Boldly Sew », exposition personnelle à Londres (jusqu'au 29 septembre 2023)" },
+    { "date": "2023-07-08", "kind": "exposition", "label": "« Threads: Breathing Stories into Materials », Arnolfini, Bristol, cocommissariat" },
+    { "date": "2024-06-01", "kind": "exposition", "label": "« Dark and Light », Candida Stevens Gallery (jusqu'au 1er septembre 2024)" },
+    { "date": "2025-05-17", "kind": "exposition", "label": "« Soft Power: Lives told through textile art », Royal West of England Academy, Bristol, cocommissariat avec Lesley Millar" },
+    { "date": "2025-08", "kind": "autre", "label": "« Knot » (2025) acquise par le musée FAMM" },
+    { "date": "2025-12", "kind": "autre", "label": "« Vinculum » (2025) entre dans la Firebird Collection" },
+    { "date": "2026-02-07", "kind": "exposition", "label": "« Balancing Act », Bo Lee Gallery, Bruton (jusqu'au 11 avril 2026)" },
+    { "date": "2026-06-06", "kind": "exposition", "label": "« Circadian Threads », Anna Helwing Gallery, Suisse (jusqu'au 19 juillet 2026)" },
+    { "date": "2026-09", "kind": "autre", "label": "« Catching the Weeping Moon » acquise par le Holburne Museum de Bath, « Balancing Act » par la collection Linklaters" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "173e Annual Open Exhibition de la RWA",
+      "summary": "Son œuvre « Don't Look Back » (2026) a été sélectionnée pour la grande exposition ouverte annuelle de la Royal West of England Academy.",
+      "place": "Royal West of England Academy",
+      "city": "Bristol",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-09-12",
+      "endDate": "2027-01-03",
+      "url": "https://alicekettle.co.uk/exhibitions/64-173rd-annual-rwa-open-exhibition-group-exhibitionroyal-west-of-england-academy-bristol-uk/"
+    },
+    {
+      "kind": "actualite",
+      "title": "« Catching the Weeping Moon » entre au Holburne Museum",
+      "summary": "Le Holburne Museum de Bath acquiert cette œuvre textile monumentale créée pour « Balancing Act ».",
+      "place": "Holburne Museum",
+      "city": "Bath",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "url": "https://alicekettle.co.uk/news/11-catching-the-weeping-moon-acquired-by-holbourn-museum/"
+    },
+    {
+      "kind": "actualite",
+      "title": "« Balancing Act » acquise par la collection Linklaters",
+      "summary": "La grande pièce « Balancing Act: Holding up the Earth to reach the Sky » rejoint la collection Linklaters.",
+      "place": "",
+      "city": "",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "url": "https://alicekettle.co.uk/news/10-balancing-act-acquired-by-linklaters-collection/"
+    },
+    {
+      "kind": "exposition",
+      "title": "« Circadian Threads », première exposition personnelle en Suisse",
+      "summary": "Dix œuvres de 2026 sur les rythmes cycliques : sommeil et éveil, immobilité et mouvement, conscience et rêve.",
+      "place": "Anna Helwing Gallery",
+      "city": "",
+      "country": "Suisse",
+      "zone": "europe",
+      "startDate": "2026-06-06",
+      "endDate": "2026-07-19",
+      "url": "https://alicekettle.co.uk/exhibitions/60-circadian-threads-solo-exhibitionanna-helwing-gallery/"
+    },
+    {
+      "kind": "actualite",
+      "title": "Alice Kettle propose du mentorat",
+      "summary": "Elle ouvre quelques places de « creative review » pour accompagner des créatrices et créateurs dans leur travail.",
+      "place": "",
+      "city": "",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-06-03",
+      "endDate": "",
+      "url": "https://alicekettle.co.uk/news/8-alice-kettle-is-offering-mentorship/"
+    },
+    {
+      "kind": "exposition",
+      "title": "« A Stitch in Time » à la Paul Smith Space",
+      "summary": "Exposition collective sur l'art de la fibre, avec « Elizabeth » (2021) et « Green, Gold and Black » (2024).",
+      "place": "Paul Smith Space",
+      "city": "Londres",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-03-19",
+      "endDate": "2026-05-31",
+      "url": "https://alicekettle.co.uk/exhibitions/63-a-stitch-in-time-group-exhibitionpaul-smith-space/"
+    },
+    {
+      "kind": "exposition",
+      "title": "« Balancing Act », exposition personnelle",
+      "summary": "Nouvelles broderies sur l'équilibre entre stabilité et précarité, catastrophe et espoir, accompagnées d'un essai de TF Chan.",
+      "place": "Bo Lee Gallery",
+      "city": "Bruton",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-02-07",
+      "endDate": "2026-04-11",
+      "url": "https://alicekettle.co.uk/exhibitions/55-balancing-act-solo-exhibitionbo-lee-gallery/"
+    },
+    {
+      "kind": "actualite",
+      "title": "« Vinculum » entre dans la Firebird Collection",
+      "summary": "Son œuvre récente « Vinculum » (2025) rejoint la Firebird Collection.",
+      "place": "",
+      "city": "",
+      "country": "",
+      "zone": "europe",
+      "startDate": "2025-12-30",
+      "endDate": "",
+      "url": "https://alicekettle.co.uk/news/5-vinculum-acquired-by-the-firebird-collection/"
+    }
+  ],
+  "sources": [
+    { "label": "Candida Stevens Gallery, communiqué « Within Each Other, Portraits of Ourselves » (2020)", "url": "https://candidastevens.com/exhibitions/46/press_release_text" },
+    { "label": "Candida Stevens Gallery, « The story of Alice Kettle »", "url": "https://candidastevens.com/blog/30/" },
+    { "label": "Candida Stevens Gallery, foires d'art avec Alice Kettle", "url": "https://candidastevens.com/artists/33-alice-kettle/art-fairs/" },
+    { "label": "Wikipedia, Alice Kettle", "url": "https://en.wikipedia.org/wiki/Alice_Kettle" },
+    { "label": "Site d'Alice Kettle, accueil", "url": "https://alicekettle.co.uk/" },
+    { "label": "Site d'Alice Kettle, à propos", "url": "https://alicekettle.co.uk/about/" },
+    { "label": "Site d'Alice Kettle, expositions", "url": "https://alicekettle.co.uk/exhibitions/" },
+    { "label": "Site d'Alice Kettle, actualités", "url": "https://alicekettle.co.uk/news/" },
+    { "label": "Site d'Alice Kettle, œuvres", "url": "https://alicekettle.co.uk/artworks/" },
+    { "label": "Site d'Alice Kettle, « Thread Bearing Witness » à la Whitworth", "url": "https://alicekettle.co.uk/exhibitions/12-thread-bearing-witness-solo-exhibitionwhitworth-gallery/" },
+    { "label": "Site d'Alice Kettle, « Untitled, 2020 » à la Punta della Dogana", "url": "https://alicekettle.co.uk/exhibitions/43-untitled-2020-group-exhibitionpunta-della-dogana/" },
+    { "label": "Site d'Alice Kettle, « To Boldly Sew » et Brookfield Properties Craft Award", "url": "https://alicekettle.co.uk/exhibitions/9-to-boldly-sew-solo-exhibitionbrookfield-properties/" },
+    { "label": "Site d'Alice Kettle, « Balancing Act »", "url": "https://alicekettle.co.uk/exhibitions/55-balancing-act-solo-exhibitionbo-lee-gallery/" },
+    { "label": "Site d'Alice Kettle, « Circadian Threads »", "url": "https://alicekettle.co.uk/exhibitions/60-circadian-threads-solo-exhibitionanna-helwing-gallery/" },
+    { "label": "Site d'Alice Kettle, exposition suisse (actualité)", "url": "https://alicekettle.co.uk/news/7-alice-kettle-opens-solo-exhibition-in-switzerland/" },
+    { "label": "Site d'Alice Kettle, « A Stitch in Time »", "url": "https://alicekettle.co.uk/exhibitions/63-a-stitch-in-time-group-exhibitionpaul-smith-space/" },
+    { "label": "Site d'Alice Kettle, acquisition par le Holburne Museum", "url": "https://alicekettle.co.uk/news/11-catching-the-weeping-moon-acquired-by-holbourn-museum/" },
+    { "label": "Site d'Alice Kettle, RWA Open 2026", "url": "https://alicekettle.co.uk/news/9-alice-kettle-is-included-in-173rd-annual-open/" },
+    { "label": "Site d'Alice Kettle, « Knot »", "url": "https://alicekettle.co.uk/artworks/23-alice-kettle-knot-2025/" },
+    { "label": "Site d'Alice Kettle, « Pause »", "url": "https://alicekettle.co.uk/artworks/90-alice-kettle-pause-2009/" },
+    { "label": "Floating Circle, Best of the West, avril 2026", "url": "https://floatingcircle-rwa.org/2026/03/28/best-of-the-west-april-2026/" },
+    { "label": "Royal West of England Academy, profil d'Alice Kettle", "url": "https://www.rwa.org.uk/blogs/artists/alice-kettle" },
+    { "label": "Take Two, « Alice Kettle: storytelling » (2023)", "url": "https://taketwoart.com/featured_stories/alice-kettle-storytelling" }
+  ],
+  "researchNotes": "Pas de compte Instagram personnel trouvé, ni de photo portrait libre : champs laissés vides. Aucun homonyme gênant repéré. Ville de la galerie Anna Helwing (Suisse) introuvable : aucune page en ligne ne la mentionne en dehors du site de l'artiste. Représentation : la RWA dit qu'elle est représentée au Royaume-Uni par Bo Lee and Workman ; elle a longtemps travaillé avec Candida Stevens Gallery. Son site la dit désormais professeure émérite (Wikipedia et la galerie disent professeure). Les dates de Goldsmiths varient : 1985-1986 (Wikipedia, Candida Stevens) contre 1984 (Design and Art Australia Online, non lu en détail). « SEA » est daté 2017 dans la liste des œuvres mais 2018 dans les légendes de détails. Le titre de l'actualité Holburne écrit « Holbourn » ; le texte dit bien Holburne Museum. Le musée « FAMM » qui a acquis « Knot » n'est pas identifié avec certitude (peut-être le Female Artists of the Mougins Museum, à vérifier). Ville de vie actuelle (Winchester) tirée d'un entretien ancien de la galerie Candida Stevens, à confirmer. Les dates exactes de la 173e RWA Open et la technique de « Don't Look Back » restent à vérifier sur le site de la RWA."
+}

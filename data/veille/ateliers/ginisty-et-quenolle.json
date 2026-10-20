@@ -1,0 +1,99 @@
+{
+  "name": "Ginisty et Quénolle",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1930",
+  "closedDate": "",
+  "founders": [
+    "Yvonne Ginisty",
+    "André Quénolle"
+  ],
+  "people": [
+    {
+      "name": "Yvonne Ginisty",
+      "role": "cofondatrice"
+    },
+    {
+      "name": "André Quénolle",
+      "role": "cofondateur"
+    }
+  ],
+  "techniques": [
+    "Broderie haute couture",
+    "Broderie de paillettes et de perles",
+    "Fils métalliques or et argent",
+    "Cabochons, pierres et cristaux"
+  ],
+  "clients": [
+    "Christian Dior"
+  ],
+  "labels": [
+    "Maison disparue"
+  ],
+  "summary": "Maison de broderie haute couture parisienne, installée rue du Marché-Saint-Honoré, qui a brodé pour Christian Dior dans les années 1950 et a aujourd'hui disparu. Elle est sans doute le « Ginistry » cité parmi les petits ateliers disparus des années 1950.",
+  "history": "Ginisty et Quénolle, aussi appelée Ginisty, Quénolle et Cie, est une maison de broderie de la haute couture parisienne du milieu du XXe siècle. Elle avait son adresse au 11, rue du Marché-Saint-Honoré, dans le 1er arrondissement, tout près des grandes maisons de couture. Ses fondateurs et ses dates d'ouverture et de fermeture ne sont pas encore sourcés.\n\nSa réalisation la plus connue est la robe du soir « Palmyre » de Christian Dior, de la ligne Profilée, automne-hiver 1952. Sur un satin d'acétate Celanese de Robert Perrier, la maison a brodé un décor de fils entourés d'argent, de perles, de paillettes et de cristaux Swarovski, avec 35 matériaux différents. La robe appartient au Royal Ontario Museum de Toronto (970.286.3) et a voyagé dans les expositions Dior, au China National Silk Museum de Hangzhou puis au musée McCord de Montréal.\n\nOn connaît aussi la maison par des échantillons de présentation, ces carrés brodés que les brodeurs montraient aux couturiers. Cinq d'entre eux, datés vers 1950-1970 et portant son nom et son adresse, sont passés en vente à Lyon en 2021 : fonds de coton, de velours, de faille de soie et de mohair, brodés de paillettes, cabochons, pierres, perles de verre et fils d'or et d'argent.\n\nComme beaucoup de petits ateliers qui ont brodé pour Dior, Balenciaga, Balmain ou Dessès dans les années 1950, Ginisty et Quénolle a disparu.",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1930",
+      "kind": "vie",
+      "label": "Vers 1930 : Yvonne Ginisty et André Quénolle fondent leur maison de broderie à Paris (selon le Royal Ontario Museum)."
+    },
+    {
+      "date": "1952",
+      "kind": "oeuvre",
+      "label": "Automne-hiver 1952 : broderie de la robe du soir « Palmyre » de Christian Dior, ligne Profilée (Royal Ontario Museum, 970.286.3)"
+    },
+    {
+      "date": "2019",
+      "kind": "exposition",
+      "label": "La robe « Palmyre » dans l'exposition « Dior by Dior (1947-1957) », China National Silk Museum, Hangzhou"
+    },
+    {
+      "date": "2021-02-16",
+      "kind": "autre",
+      "label": "Vente à Lyon de cinq échantillons de broderie haute couture de la maison (collection Gilles Labrosse)"
+    }
+  ],
+  "works": [
+    {
+      "title": "Robe du soir « Palmyre »",
+      "year": "1952",
+      "technique": "Christian Dior · broderie de fils argent, perles, paillettes et cristaux",
+      "description": "Satin d’acétate brodé de filé d’argent, paillettes, perles d’imitation, cristaux Swarovski et os, d’après des motifs du XVIIIe siècle. Christian Dior a choisi l’échantillon de Ginisty et Quénolle et nommé la robe Palmyre (Royal Ontario Museum, 970.286.3).",
+      "url": "https://collections.rom.on.ca/objects/427081/palmyre-autumnwinter-19521953-profilee-collection",
+      "imageUrl": "https://collections.rom.on.ca/internal/media/dispatcher/395581/preview"
+    },
+    {
+      "title": "Cinq échantillons de broderie haute couture",
+      "year": "",
+      "technique": "Échantillons de présentation · paillettes, cabochons, perles, fils d'or et d'argent",
+      "description": "Cinq échantillons datés vers 1950-1970, au nom de Ginisty, Quénolle et Cie, 11 rue du Marché-Saint-Honoré, sur fonds de coton, velours, faille de soie et mohair. Vendus à Lyon en février 2021.",
+      "url": "https://www.richardmdv.com/en/lot/112314/14315936",
+      "imageUrl": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "China National Silk Museum : Dior by Dior (1947-1957), notice de la robe « Palmyre »",
+      "url": "https://www.chinasilkmuseum.com/yz/info_98.aspx?itemid=27532"
+    },
+    {
+      "label": "Liminul Magazine : Christian Dior, exposition au musée McCord",
+      "url": "https://liminul.xyz/christian-dior-haute-couture-exposition-au-musee-mccord/"
+    },
+    {
+      "label": "Gérald Richard, vente Collection Gilles Labrosse #3, lot 24",
+      "url": "https://www.richardmdv.com/en/lot/112314/14315936"
+    },
+    {
+      "label": "Royal Ontario Museum : Palmyre, Autumn/Winter 1952-1953 (page non lisible, protégée)",
+      "url": "https://collections.rom.on.ca/objects/427081/palmyre-autumnwinter-19521953-profilee-collection"
+    }
+  ],
+  "researchNotes": "Identification : l'extrait d'Émilie écrit « Ginistry », mais aucune page ne connaît ce nom. La seule maison de broderie approchante est Ginisty et Quénolle, petite maison parisienne qui a brodé pour Dior en 1952 : elle correspond au contexte de l'extrait (petits ateliers des années 1950, Dior, aujourd'hui disparus). L'identification est très probable mais à confirmer avec la source de l'extrait. Si on garde l'orthographe de l'extrait, renommer le fichier ginistry.json. Non lu directement (le site du ROM bloque les robots), vu seulement en extraits de moteur de recherche : la notice du Royal Ontario Museum dirait que la maison a été fondée vers 1930 par Yvonne Ginisty et André Quénolle, dont on sait peu de chose. Un extrait de Geneanet (page refusée, erreur 403) mentionne une société « Yvonne Ginisty et André Quénolle, broderies en tous genres », 19 rue des Bons-Enfants, Paris, capital 3 000 francs, datée de 1919 : ce qui contredit la date de 1930, à vérifier sur Gallica (annonces légales, Bottins). Les fiches de musée ne donnent pas d'image testable : l'image de la robe sur le site du China Silk Museum renvoie une erreur 404, et celle de Liminul est une capture d'écran (exclue). Le catalogue de l'exposition du musée McCord (2017) crédite l'atelier flou à Simone, celui du China Silk Museum à Germaine. Rien trouvé au Palais Galliera, au V&A ni au Met. Pistes : notice complète du ROM (à ouvrir dans un navigateur), catalogue « Christian Dior » du ROM (Alexandra Palmer), archives Dior Héritage, Bottins parisiens (rubrique Brodeurs) pour l'adresse et la date de fermeture. Ne pas confondre avec Paul Ginisty, écrivain et inspecteur des Monuments historiques. Fondateurs et date « vers 1930 » confirmés le 20 octobre 2026 sur la notice du Royal Ontario Museum (970.286.3), lue dans un navigateur ; la date de 1919 (Geneanet, 19 rue des Bons-Enfants) reste à recouper. L’orthographe « Ginistry » de l’extrait d’Émilie correspond très probablement à Ginisty."
+}

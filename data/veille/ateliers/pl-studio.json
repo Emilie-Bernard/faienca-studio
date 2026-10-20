@@ -1,0 +1,172 @@
+{
+  "name": "P+L Studio",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "2014-07-04",
+  "closedDate": "",
+  "founders": [],
+  "people": [
+    {
+      "name": "Cyrielle Leclère",
+      "role": "directrice de création, présidente de la SAS P&L Créations, diplômée de l'École nationale supérieure des Arts Décoratifs de Paris"
+    },
+    {
+      "name": "Natacha Gossart (Pons)",
+      "role": "présidente de SAS inscrite au registre des entreprises (rôle dans le studio à confirmer)"
+    }
+  ],
+  "techniques": [
+    "Broderie à l'aiguille",
+    "Broderie au crochet de Lunéville",
+    "Micro-broderie",
+    "Macro-broderie (fournitures de broderie agrandies)",
+    "Sculpture textile et haut relief textile",
+    "Ennoblissement de surfaces",
+    "Broderie sur cuir et paillettes de cuir",
+    "Broderie sur placage de bois, feuille de pierre, peintures et enduits décoratifs",
+    "Plissés de soie",
+    "Tressages (raphia)"
+  ],
+  "clients": [
+    "Le Meurice (installation)",
+    "Hôtel de Crillon",
+    "Boutique Orlov (Monaco)",
+    "RUNE (New York, représentation)"
+  ],
+  "labels": [],
+  "summary": "Studio parisien d'ennoblissement de surfaces créé en 2014 et dirigé par Cyrielle Leclère. Il marie la broderie de Lunéville, la macro-broderie et la sculpture textile pour les architectes, les décorateurs d'intérieur et les maisons de luxe.",
+  "history": "P+L Studio est porté par la société SAS P&L Créations, immatriculée à Paris en juillet 2014. Le studio est dirigé par sa directrice de création, Cyrielle Leclère, diplômée de l'École nationale supérieure des Arts Décoratifs de Paris. Depuis 2015, il développe des collaborations en direction artistique et en création de surfaces pour la décoration d'intérieur et les marques de luxe.\n\nLe studio se présente comme un « laboratoire de prospective ornementale ». Il part du savoir-faire de la broderie à l'aiguille et au crochet de Lunéville (la micro-broderie), puis change d'échelle : avec la macro-broderie, il agrandit les fournitures traditionnelles pour créer des broderies hors normes, jusqu'à la sculpture textile.\n\nSes supports habituels sont les tissus et les cuirs, mais il brode aussi des placages de bois, de la feuille de pierre, des peintures et des enduits décoratifs sur panneaux. Il peut ainsi habiller la plupart des objets et des surfaces d'un intérieur : mobilier, revêtements muraux, panneaux.\n\nSes pièces ont été montrées à l'hôtel de Crillon, à la boutique Orlov de Monaco et à l'hôtel Le Meurice, pour lequel le studio a réalisé une installation en tubes acryliques et rubans de satin. À New York, la galerie RUNE le représente et présente plusieurs dizaines de ses broderies, faites à la main en France, souvent sur mesure. Le studio reste discret sur ses commandes pour des particuliers et pour la marine.\n\nAujourd'hui, le siège de la société est au 142 rue de Rivoli, à Paris, et l'entreprise est toujours active au registre. RUNE a ajouté de nouvelles pièces du studio en 2025.",
+  "training": "Le studio accueille des stagiaires. En septembre 2019, il a publié via l'école Duperré une offre de stage d'assistant ou assistante de studio, aux côtés de la directrice artistique : recherche et échantillons pour une nouvelle collection, aide à la réalisation des pièces. La broderie à l'aiguille était souhaitée, le crochet un plus.",
+  "website": "https://www.plstudio.fr/",
+  "instagram": "https://www.instagram.com/pl_studio_design/",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "2014-07-04",
+      "kind": "vie",
+      "label": "Création de la SAS P&L Créations, qui porte P+L Studio"
+    },
+    {
+      "date": "2015",
+      "kind": "autre",
+      "label": "Premières collaborations en direction artistique et création de surfaces pour la décoration d'intérieur et le luxe"
+    },
+    {
+      "date": "2019-09-18",
+      "kind": "formation",
+      "label": "Offre de stage d'assistant de studio publiée via l'école Duperré"
+    },
+    {
+      "date": "2021-06",
+      "kind": "autre",
+      "label": "Mise en ligne du nouveau site plstudio.fr"
+    },
+    {
+      "date": "2023-09-01",
+      "kind": "vie",
+      "label": "Le siège s'installe au 142 rue de Rivoli, Paris 1er"
+    }
+  ],
+  "works": [
+    {
+      "title": "Installation Le Meurice",
+      "year": "",
+      "technique": "Le Meurice · macro-broderie de tubes",
+      "description": "Une installation pour l'hôtel Le Meurice en macro-broderie : tubes acryliques et rubans de satin sur boiseries.",
+      "url": "https://www.rune.nyc/product/macro-bugle-beads-le-meurice-installation/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2021/05/Macro-Bugle-Beads-Le-Meurice-Installation.jpg"
+    },
+    {
+      "title": "Sea Floor Embroidery",
+      "year": "",
+      "technique": "RUNE · broderie sur tulle de soie",
+      "description": "Organza teint, paillettes de cuir, rocailles, tubes et fil de coton brodés sur un fond de tulle de soie.",
+      "url": "https://www.rune.nyc/product/sea-floor-embroidery/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2021/05/Sea-Floor-Embroidery.jpg"
+    },
+    {
+      "title": "Embroidered Wood",
+      "year": "",
+      "technique": "RUNE · broderie sur placage de bois",
+      "description": "Paillettes et perles brodées directement sur un placage de bois.",
+      "url": "https://www.rune.nyc/product/embroidered-wood/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2024/02/Embroidered-Wood.jpg"
+    },
+    {
+      "title": "Macro Sequins Embroidery",
+      "year": "",
+      "technique": "RUNE · macro-broderie sur cuir",
+      "description": "De grandes paillettes en cuir d'agneau brodées sur un fond de daim de chèvre.",
+      "url": "https://www.rune.nyc/product/macro-sequins-embroidery/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2021/05/Macro-Sequins-Embroidery.jpg"
+    },
+    {
+      "title": "Mermaid Skin Embroidery",
+      "year": "",
+      "technique": "RUNE · broderie de paillettes sur organza",
+      "description": "Paillettes de métal de plusieurs tailles et fil lurex métallisé sur un fond d'organza.",
+      "url": "https://www.rune.nyc/product/mermaid-skin-embroidery/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2021/05/Mermaid-Skin-Embroidery.jpg"
+    },
+    {
+      "title": "Lichen Embroidery",
+      "year": "",
+      "technique": "RUNE · broderie de tubes et paillettes sur moire",
+      "description": "Tubes de métal et paillettes en laiton argenté brodés sur un fond de moire.",
+      "url": "https://www.rune.nyc/product/lichen-embroidery/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2021/05/Lichen-Embroidery.jpg"
+    },
+    {
+      "title": "Point & Line to Plane Embroidery",
+      "year": "",
+      "technique": "RUNE · broderie perlée sur tissu",
+      "description": "Tubes de verre, paillettes plastique et fil lurex métallisé sur un fond tissé.",
+      "url": "https://www.rune.nyc/product/point-and-line-to-plane-embroidery/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2021/05/Point-and-Line-to-Plane-Embroidery.jpg"
+    },
+    {
+      "title": "Sculpted Tiles",
+      "year": "",
+      "technique": "RUNE · sculpture textile",
+      "description": "De la soie plissée sur des carreaux tapissés de velours.",
+      "url": "https://www.rune.nyc/product/sculpted-tiles/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2024/02/Sculpted-Tiles.jpg"
+    },
+    {
+      "title": "Silk Pleats",
+      "year": "",
+      "technique": "RUNE · plissés de soie sur panneau",
+      "description": "Soie teinte à la main, cuir et fil de lin sur un panneau de bois peint en trompe-l'œil de marbre.",
+      "url": "https://www.rune.nyc/product/silk-pleats/",
+      "imageUrl": "https://www.rune.nyc/wp-content/uploads/2024/02/Silk-Pleats.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "label": "P+L Studio, site officiel",
+      "url": "https://www.plstudio.fr/"
+    },
+    {
+      "label": "P+L Studio, mentions légales",
+      "url": "https://plstudio.fr/?page_id=9"
+    },
+    {
+      "label": "RUNE New York, page P+L Studio",
+      "url": "https://www.rune.nyc/artists/p-l-studio/"
+    },
+    {
+      "label": "Annuaire des entreprises, P ET L CREATIONS (SIREN 804 533 339)",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/804533339"
+    },
+    {
+      "label": "LinkedIn, page P+L Studio",
+      "url": "https://fr.linkedin.com/company/p-l-studio"
+    },
+    {
+      "label": "École Duperré, offre de stage assistant studio (2019)",
+      "url": "https://duperre.org/stages/assistant-studio-1"
+    }
+  ],
+  "researchNotes": "Nom exact : le studio s'écrit « P+L Studio » sur son site et chez RUNE ; la société s'appelle SAS P&L Créations (P ET L CREATIONS au registre).\n\nNon confirmé : l'origine du studio dans l'association d'une brodeuse et d'une architecte. Aucune page lue ne le dit. Le registre cite deux présidentes de SAS, Cyrielle Leclère et Natacha Gossart (Pons) ; « P & L » pourrait venir de Pons et Leclère, mais c'est une hypothèse. Le métier de Natacha Gossart (Pons) et son rôle dans le studio restent à trouver. Les fondatrices ne sont donc pas listées dans « founders ».\n\nUne fiche Gust (non lisible, accès refusé) relierait P&L Studio à une marque Beau Voir basée à Ermont, créée en 2014 : à vérifier. Des profils Malt (non lisibles) mentionnent un stage en 2024 à Montreuil sur l'échantillonnage de broderie architecturale pour la décoration intérieure, et une collaboration freelance depuis 2017 : l'atelier pourrait donc se trouver à Montreuil, à confirmer.\n\nLes années des pièces ne sont pas connues (les dates des dossiers d'images RUNE, 2021 à 2025, indiquent seulement leur mise en ligne). LinkedIn indique un ou deux salariés.\n\nphotoUrl laissé vide : la seule photo d'atelier du site est un portrait, interdit par les règles."
+}

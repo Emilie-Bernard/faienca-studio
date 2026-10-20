@@ -1,0 +1,211 @@
+{
+  "name": "Hélène Duclos",
+  "country": "France",
+  "city": "Nantes",
+  "zone": "france",
+  "birthDate": "1974",
+  "deathDate": "",
+  "techniques": [
+    "Fil à broder et stylo sur tissu (dessins brodés)",
+    "Appliqués et fil à broder sur tissus superposés",
+    "Tissus teints à la main",
+    "Tissus brodés cousus sur papier",
+    "Broderie sur vêtement (robe en soie, kimono cousu et brodé main)",
+    "Gouache, crayon de couleur et mine graphite sur papier",
+    "Peinture à l'huile",
+    "Gravure en taille douce (aquatinte rehaussée à la gouache)",
+    "Film d'animation"
+  ],
+  "summary": "Plasticienne française née en 1974 à Boulogne-Billancourt, formée au design textile à Duperré, Hélène Duclos peint, dessine, grave et brode des mondes peuplés d'êtres hybrides, de chamanes et de rituels. Installée à Nantes depuis 2015, elle est représentée à Paris par la Galerie Claire Corcia.",
+  "biography": "Hélène Duclos est née en 1974 à Boulogne-Billancourt et a grandi en Seine-et-Marne. En 1995, elle obtient à l'École supérieure d'arts appliqués Duperré, à Paris, un diplôme des métiers d'art en design textile, option tissage. Elle voyage ensuite en Afrique et en Asie, puis s'installe en 1996 à Montpellier, où elle travaille pour le spectacle vivant (costumes et décors) et suit les ateliers d'écriture du poète Hervé Piekarski.\n\nEn 1999, elle part dans la Drôme et se consacre à la peinture. La rencontre avec la peintre Hélène Laflamme, en 2000, est décisive : elle se forme plusieurs années dans son atelier, puis passe en 2003 trois mois au Vietnam dans l'atelier du maître laqueur Xuan Chieu. Vers 2010, elle revient à l'aiguille et commence des recherches sur la broderie. Elle s'installe à Nantes en 2015, se forme à la gravure en taille douce à l'atelier du Musée de l'imprimerie de Nantes, obtient en 2020 un DNSEP avec les félicitations (par VAE) à l'École d'art de Lorient, et suit en 2023 une formation à l'hypnose ericksonienne.\n\nSes broderies sont de vrais dessins au fil : fil à broder et stylo sur tissu, appliqués sur tissus superposés et teints à la main, parfois cousus sur papier ou brodés sur un vêtement, comme la robe de soie noire « Such a tragedy » (2016). Ses séries s'appellent « Histoire de la rivière », « Impermanences » ou « Résurgences ». En 2021, en résidence au Lieu unique à Nantes, elle coud et brode entièrement à la main un kimono de tissus collectés, inspiré du wabi-sabi. Son travail textile figure dans le livre de Charlotte Vannier « De fil en aiguille, la broderie dans l'art contemporain » (Pyramyd, 2018) et dans un article d'Atelier d'art en 2019.\n\nDans tous ses médiums, elle parle des liens et des barrières entre les êtres vivants et leur environnement, des rituels qui marquent les grands passages de la vie, des cultures autochtones, de l'animisme et des mythes. Ses gouaches sur papier, comme « Démonstration #1 » ou « Rituels #1 » (2020), mêlent créatures hybrides et zones abstraites. Elle se dit engagée pour le statut des artistes et pour des enjeux écologiques et écoféministes, et elle anime de nombreux ateliers textiles et projets partagés ; depuis 2024, elle forme aussi des artistes au tricot et au crochet.\n\nElle expose depuis la fin des années 1990 en galeries, salons et foires, notamment à Paris, Bruxelles, Lyon et Tours. Elle est représentée par la Galerie Claire Corcia à Paris, la Galerie Olivier Rousseau à Tours, la Galerie Mira à Nantes et la Galerie Florence B à Noirmoutier. Le Musée des Beaux-Arts du Mans possède une de ses œuvres depuis 2007, comme plusieurs artothèques (Angers, Nantes, Caen). En 2026, Le Monde diplomatique a reproduit ses œuvres, dont une en Une, et la Galerie Olivier Rousseau lui a consacré l'exposition « Pendant que dorment les ours ».",
+  "website": "https://helene-duclos.fr",
+  "instagram": "https://www.instagram.com/helene_duclos/",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Kimono",
+      "year": "2021",
+      "technique": "Cousu et brodé entièrement à la main, tissus collectés parfois teints à la main, 125 x 120 cm",
+      "description": "Kimono réalisé sans dessin préparatoire pendant les Résidences à la table du Lieu unique, à Nantes, et composé au fil de la fabrication. Un éloge du geste et du temps lent, inspiré du wabi-sabi.",
+      "url": "https://helene-duclos.fr/kimono/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2021/11/Kimono-face-02.jpg"
+    },
+    {
+      "title": "Such a tragedy",
+      "year": "2016",
+      "technique": "Fil à broder sur robe en soie noire, environ 100 x 55 cm",
+      "description": "Une robe de soie noire devenue support de broderie, de la série Impermanences.",
+      "url": "https://helene-duclos.fr/impermanence-des-choses/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2017/02/BR105-2016-100X55.jpg"
+    },
+    {
+      "title": "La vie n'est pas seulement en rose",
+      "year": "2016",
+      "technique": "Appliqués, stylo et fil à broder sur tissus cousus sur papier, environ 45 x 76 cm",
+      "description": "Dessin brodé où tissus appliqués, trait de stylo et fil se rejoignent sur papier, de la série Impermanences.",
+      "url": "https://helene-duclos.fr/impermanence-des-choses/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2017/02/BR106-2016-50x87.jpg"
+    },
+    {
+      "title": "L'impermanence des choses",
+      "year": "2016",
+      "technique": "Appliqués, crayon et fil à broder sur tissus superposés et teints à la main, environ 32 x 40,5 cm",
+      "description": "Pièce textile de la série Résurgences, qui joue sur la superposition des tissus teints.",
+      "url": "https://helene-duclos.fr/resurgences/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2017/02/BR102-2016-32x40v5.jpg"
+    },
+    {
+      "title": "L'histoire de la rivière",
+      "year": "2013",
+      "technique": "Fil à broder et stylo sur tissu, environ 34 x 40 cm",
+      "description": "Dessin brodé qui donne son nom à la série Histoire de la rivière (collection particulière).",
+      "url": "https://helene-duclos.fr/histoire-de-la-riviere/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2021/02/BR042-2013.jpg"
+    },
+    {
+      "title": "Le chemin à parcourir",
+      "year": "2014",
+      "technique": "Appliqués et fil à broder sur tissus superposés, environ 39,5 x 31,5 cm",
+      "description": "Broderie de la série Histoire de la rivière, construite par couches de tissus appliqués.",
+      "url": "https://helene-duclos.fr/histoire-de-la-riviere/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2017/03/BR91-2015-39V5x31V5.jpg"
+    },
+    {
+      "title": "Comme un vide devenu rouge",
+      "year": "2014",
+      "technique": "Fil à broder et stylo sur tissu, environ 34,5 x 24,5 cm",
+      "description": "Dessin au stylo et au fil sur tissu (collection particulière).",
+      "url": "https://helene-duclos.fr/a-part-chien/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2017/03/BR80-2014-34v5x24v5.jpg"
+    },
+    {
+      "title": "Décalages",
+      "year": "2019",
+      "technique": "Stylo et fil à broder sur tissu avec bordure d'origine, environ 83 x 66 cm",
+      "description": "L'une des plus grandes pièces de la série Résurgences, brodée sur un tissu dont la bordure d'origine est conservée.",
+      "url": "https://helene-duclos.fr/resurgences/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2019/01/BR116-2019-83X66.jpg"
+    },
+    {
+      "title": "Le choix",
+      "year": "2020",
+      "technique": "Stylo et fil à broder sur tissu, environ 61 x 50 cm",
+      "description": "Dessin brodé de la série Résurgences.",
+      "url": "https://helene-duclos.fr/resurgences/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2021/02/BR120-2020-61x50-1.jpg"
+    },
+    {
+      "title": "Résurgences",
+      "year": "2020",
+      "technique": "Appliqués et fil à broder sur tissus teints à la main, environ 42 x 32,5 cm",
+      "description": "Pièce qui donne son titre à la série Résurgences.",
+      "url": "https://helene-duclos.fr/resurgences/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2021/02/BR119-2020-42x32v5.jpg"
+    },
+    {
+      "title": "Mesure",
+      "year": "2021",
+      "technique": "Fil à broder sur tissu teint à la main, environ 38 x 29 cm",
+      "description": "Broderie de la série Résurgences.",
+      "url": "https://helene-duclos.fr/resurgences/",
+      "imageUrl": "https://helene-duclos.fr/wp-content/uploads/2021/02/BR121-2021-38x29-1.jpg"
+    },
+    {
+      "title": "Démonstration #1",
+      "year": "2020",
+      "technique": "Gouache, crayon de couleur et graphite sur papier, 66 x 102 cm",
+      "description": "Grand dessin bleu où se mêlent créatures hybrides et zones abstraites, sur les liens et les barrières entre les êtres vivants et leur environnement. Pièce unique proposée par la Claire Corcia Gallery.",
+      "url": "https://www.1stdibs.com/fr/art/dessins-et-aquarelles/dessins-et-aquarelles-figuratif/h%C3%A9l%C3%A8ne-duclos-demonstration-n1-hlne-duclos-21e-si%C3%A8cle-art-figuratif-contemporain-bleu/id-a_7727862",
+      "imageUrl": "https://a.1stdibscdn.com/a_10341/a_77278621615898691347/DESS_106_2020_TMP_66x102_master.jpg"
+    },
+    {
+      "title": "Rituels #1",
+      "year": "2020",
+      "technique": "Gouache, crayon de couleur et mine de plomb sur papier, 56 x 77 cm",
+      "description": "Dessin d'un ensemble de pièces qui peuvent s'assembler de différentes façons, autour des rituels, des mythes et des moments de rupture de la vie. Claire Corcia Gallery.",
+      "url": "https://www.1stdibs.com/fr/art/dessins-et-aquarelles/dessins-et-aquarelles-figuratif/h%C3%A9l%C3%A8ne-duclos-rituels-1-h%C3%A9l%C3%A8ne-duclos-art-figuratif-contemporain-du-21e-si%C3%A8cle-orange-vert/id-a_9567422",
+      "imageUrl": "https://a.1stdibscdn.com/a_10341/a_95674221643213164127/DESS_105_2020_56x76_master.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "1974", "kind": "vie", "label": "Naissance à Boulogne-Billancourt, enfance en Seine-et-Marne" },
+    { "date": "1995", "kind": "formation", "label": "Diplôme des métiers d'art en design textile, option tissage, à l'ESAA Duperré (Paris)" },
+    { "date": "1996", "kind": "vie", "label": "Installation à Montpellier, travail pour le spectacle vivant et ateliers d'écriture avec Hervé Piekarski" },
+    { "date": "1999", "kind": "vie", "label": "Installation dans la Drôme, elle se consacre à la peinture" },
+    { "date": "2000", "kind": "formation", "label": "Rencontre avec la peintre Hélène Laflamme et apprentissage dans son atelier (2000-2002)" },
+    { "date": "2000", "kind": "residence", "label": "Résidence de jeunes artistes européens à Porto (3 semaines)" },
+    { "date": "2003", "kind": "formation", "label": "Trois mois au Vietnam dans l'atelier du maître laqueur Xuan Chieu" },
+    { "date": "2007", "kind": "autre", "label": "Une œuvre entre dans la collection du Musée des Beaux-Arts du Mans" },
+    { "date": "2007", "kind": "prix", "label": "Premier prix du Cadre d'or Oddo et Cie" },
+    { "date": "2010", "kind": "autre", "label": "Début de ses recherches sur la broderie" },
+    { "date": "2012", "kind": "exposition", "label": "Invitée d'honneur des 20 ans du salon Puls'art, au Mans" },
+    { "date": "2013", "kind": "autre", "label": "Début de la collaboration avec la Galerie Claire Corcia, à Paris" },
+    { "date": "2015", "kind": "vie", "label": "Installation à Nantes" },
+    { "date": "2015", "kind": "prix", "label": "Premier prix Claire Combes, Fondation Taylor (Paris)" },
+    { "date": "2015", "kind": "exposition", "label": "Salon international des arts textiles à Paris, avec le collectif Fiber Art Fever!" },
+    { "date": "2016", "kind": "prix", "label": "Grand prix de peinture de la Ville de Saint-Grégoire" },
+    { "date": "2018", "kind": "autre", "label": "Publiée dans « De fil en aiguille, la broderie dans l'art contemporain » de Charlotte Vannier (Pyramyd)" },
+    { "date": "2018", "kind": "exposition", "label": "Salon DDessin à Paris et Lausanne Art Fair, avec la Galerie Corcia" },
+    { "date": "2020", "kind": "formation", "label": "DNSEP avec les félicitations (VAE), École d'art de Lorient" },
+    { "date": "2020", "kind": "oeuvre", "label": "Dessins « Démonstration #1 » et « Rituels #1 »" },
+    { "date": "2021-06", "kind": "residence", "label": "Résidence « à la table » au Lieu unique (Nantes) : kimono cousu et brodé à la main" },
+    { "date": "2022", "kind": "exposition", "label": "« La fantastique histoire de la montagne liquide », Galerie Claire Corcia (Paris)" },
+    { "date": "2025", "kind": "exposition", "label": "« Le collier rouge des reines nues », Galerie Corcia (Paris)" },
+    { "date": "2025", "kind": "exposition", "label": "Art Central Hong Kong, avec la Galerie Corcia" },
+    { "date": "2026-02", "kind": "autre", "label": "Œuvres reproduites dans Le Monde diplomatique n° 863, dont une en Une" },
+    { "date": "2026-04", "kind": "exposition", "label": "« Pendant que dorment les ours », Galerie Olivier Rousseau (Tours)" }
+  ],
+  "news": [
+    {
+      "kind": "actualite",
+      "title": "Ses œuvres dans Le Monde diplomatique",
+      "summary": "Le numéro 863 du Monde diplomatique reproduit des œuvres d'Hélène Duclos, dont une en Une, en regard du dossier « Comprendre le chaos du monde ».",
+      "place": "Le Monde diplomatique",
+      "city": "",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-02",
+      "endDate": "",
+      "url": "https://helene-duclos.fr/"
+    },
+    {
+      "kind": "exposition",
+      "title": "Pendant que dorment les ours",
+      "summary": "Exposition personnelle d'Hélène Duclos à la Galerie Olivier Rousseau.",
+      "place": "Galerie Olivier Rousseau, 48 rue de la Scellerie",
+      "city": "Tours",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-04-02",
+      "endDate": "2026-05-16",
+      "url": "https://helene-duclos.fr/"
+    },
+    {
+      "kind": "exposition",
+      "title": "Mythes",
+      "summary": "Exposition collective à laquelle participe Hélène Duclos.",
+      "place": "Manège de Rochambeau",
+      "city": "Vendôme",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-04-30",
+      "endDate": "2026-06-07",
+      "url": "https://helene-duclos.fr/"
+    }
+  ],
+  "sources": [
+    { "label": "1stDibs : Démonstration #1 (Claire Corcia Gallery), avec biographie", "url": "https://www.1stdibs.com/fr/art/dessins-et-aquarelles/dessins-et-aquarelles-figuratif/h%C3%A9l%C3%A8ne-duclos-demonstration-n1-hlne-duclos-21e-si%C3%A8cle-art-figuratif-contemporain-bleu/id-a_7727862" },
+    { "label": "1stDibs : Rituels #1 (Claire Corcia Gallery)", "url": "https://www.1stdibs.com/fr/art/dessins-et-aquarelles/dessins-et-aquarelles-figuratif/h%C3%A9l%C3%A8ne-duclos-rituels-1-h%C3%A9l%C3%A8ne-duclos-art-figuratif-contemporain-du-21e-si%C3%A8cle-orange-vert/id-a_9567422" },
+    { "label": "Portfolio et CV d'Hélène Duclos (mars 2026), Réseau d'artistes", "url": "https://www.reseaux-artistes.fr/wp-content/uploads/2026/04/2026-02-21-Portfolio-CV-04.pdf" },
+    { "label": "Site d'Hélène Duclos : accueil et actualités", "url": "https://helene-duclos.fr/" },
+    { "label": "Site d'Hélène Duclos : biographie", "url": "https://helene-duclos.fr/biographie/" },
+    { "label": "Site d'Hélène Duclos : expositions", "url": "https://helene-duclos.fr/expositions/" },
+    { "label": "Site d'Hélène Duclos : broderies", "url": "https://helene-duclos.fr/broderies/" },
+    { "label": "Site d'Hélène Duclos : Kimono", "url": "https://helene-duclos.fr/kimono/" },
+    { "label": "Site d'Hélène Duclos : Histoire de la rivière", "url": "https://helene-duclos.fr/histoire-de-la-riviere/" },
+    { "label": "Site d'Hélène Duclos : Résurgences", "url": "https://helene-duclos.fr/resurgences/" },
+    { "label": "Site d'Hélène Duclos : Impermanences", "url": "https://helene-duclos.fr/impermanence-des-choses/" },
+    { "label": "Site d'Hélène Duclos : Comme un vide devenu rouge", "url": "https://helene-duclos.fr/a-part-chien/" }
+  ],
+  "researchNotes": "Les séries « Démonstration » et « Rituels » vendues par la Claire Corcia Gallery sur 1stDibs sont décrites comme gouache, crayon de couleur et graphite sur papier, sans broderie : les vrais « dessins brodés » sont ses pièces au fil à broder et stylo sur tissu (séries Histoire de la rivière, Impermanences, Résurgences, 2013-2021). Son CV de 2026 parle de « détours » occasionnels par la broderie : la peinture et le dessin dominent aujourd'hui. Le site a deux dates pour « Cerveau reptilien » et pour « Le chemin à parcourir » (nom de fichier 2015, légende 2014). La page expositions place « Pendant que dorment les ours » à Paris alors que l'accueil donne l'adresse de Tours : Tours retenu. Dates exactes de « Le collier rouge des reines nues » (2025) inconnues. La biographie du site ajoute les collections de Nantes, Angers, Caen, Saint-Grégoire et de l'Indre-et-Loire, alors que le CV parle d'artothèques et du Loir-et-Cher : à vérifier. Aucun portrait photographique de l'artiste trouvé (la photo « atelier » du site montre un accrochage sans elle), donc photoUrl vide. Pas d'homonyme textile repéré. Le CV contient un téléphone et un e-mail personnels, volontairement non repris."
+}

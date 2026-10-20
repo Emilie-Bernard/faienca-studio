@@ -1,0 +1,100 @@
+{
+  "name": "Aude Remy",
+  "country": "France",
+  "city": "Lunéville",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "Crochet de Lunéville",
+    "Point de Lunéville",
+    "Broderie perlée et pailletée",
+    "Broderie haute couture",
+    "Broderie d'art"
+  ],
+  "summary": "Brodeuse d'art haute couture et formatrice, Aude Remy fait vivre le crochet de Lunéville au Conservatoire des Broderies de Lunéville François-Remy, au château de Lunéville. Elle y enseigne depuis 2005 et a reçu en 2026 la Médaille d'Or du Tourisme.",
+  "biography": "Aude Remy a la broderie de Lunéville dans la famille : ses arrière-grands-mères brodaient déjà au crochet de Lunéville. Passionnée depuis sa jeunesse, elle a d'abord suivi des études de secrétariat (BEP en 1998, bac professionnel en 2000), tout en se formant sur son temps libre auprès de brodeuses lunévilloises qui travaillaient en atelier.\n\nElle a ensuite consolidé son métier pas à pas : une formation à Lierre, en Belgique, en 2003 et 2004, un CAP Arts de la Broderie dominante broderie main en 2005, une formation de niveau BMA broderie au lycée Octave Feuillet à Paris, puis une qualification de broderie d'art de 448 heures en 2008 et 2009.\n\nDepuis 2005, elle transmet. Brodeuse d'art et maître de stage, elle assure les formations du Conservatoire des Broderies de Lunéville François-Remy, installé au château de Lunéville et porté par sa famille, aux côtés de Maryvonne François-Remy, présidente du conservatoire, et de Daniel Remy. Le conservatoire indique qu'elle a formé et accompagné plus de 3300 élèves. Elle enseigne le point de Lunéville et la broderie perlée et pailletée, deux savoir-faire inscrits au patrimoine culturel immatériel en 2020, et prépare ses élèves à la certification RS7131 « Réaliser des broderies au point de Lunéville », passée devant un jury professionnel de la broderie haute couture.\n\nParmi ses réalisations, on retient les flacons du parfum « Rêve de Brodeuse », créé avec la Maison Galimard de Grasse : des flacons soufflés au CERFAV de Vannes-le-Châtel, brodés de perles et de paillettes en relief. Elle a signé le motif « Soleil » et les a présentés lors de la Rencontre des savoir-faire Grasse et Lunéville, le 1er juin 2024 au château.\n\nSon engagement a été salué par la Médaille de Bronze du Tourisme (2013), la Médaille d'Argent (2018), puis la Médaille d'Or du Tourisme, remise le 4 février 2026 par le préfet de Meurthe-et-Moselle à la sous-préfecture de Lunéville. Elle a aussi reçu une Médaille de Bronze Jeunesse, Sport et Engagement Associatif.\n\nCette saison, le musée du conservatoire présente « Les Grandes Époques de la Mode », du 29 mars 2026 au 21 mars 2027 : robes corsetées des années 1890, Années Folles, glamour des années 1950 et disco des années 1980, avec des robes haute couture de Christian Lacroix, Balmain, Guy Laroche ou Karl Lagerfeld. Le conservatoire sera aussi l'invité d'honneur du Salon des Arts du Fil de Moncoutant, dans les Deux-Sèvres, les 7 et 8 novembre 2026.",
+  "website": "https://www.broderie-luneville.com/fr/l-equipe-pedagogique.html",
+  "instagram": "https://www.instagram.com/conservatoire.brod.luneville/",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Flacons brodés du parfum « Rêve de Brodeuse », motif « Soleil »",
+      "year": "2024",
+      "technique": "Broderie de Lunéville perlée et pailletée, en relief (3D), style haute couture",
+      "description": "Flacons fabriqués par le CERFAV de Vannes-le-Châtel pour l'eau de parfum « Rêve de Brodeuse », créée avec la Maison Galimard de Grasse. Aude Remy a brodé le motif « Soleil » et décoré des flacons avec Sophia Delta V Création, les autres étant brodés par les élèves du conservatoire. Présentés le 1er juin 2024 au château de Lunéville.",
+      "url": "https://www.broderie-luneville.com/fr/flacons-de-parfum-brodes-reve-de-brodeuse.html",
+      "imageUrl": "https://www.broderie-luneville.com/globalflexit/images/UserFiles/Image/evenement/parfum-reve-de-brodeuse/500_750_1_img-0550.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "1998", "kind": "formation", "label": "BEP Métiers du Secrétariat" },
+    { "date": "1998", "kind": "autre", "label": "Sa famille relance le point de Lunéville et la broderie perlée pailletée, naissance du Conservatoire des Broderies de Lunéville François-Remy" },
+    { "date": "2000", "kind": "formation", "label": "Bac professionnel Secrétariat, et formation à la broderie auprès de brodeuses d'atelier lunévilloises" },
+    { "date": "2003", "kind": "formation", "label": "Formation à la broderie à Lierre, en Belgique (2003-2004)" },
+    { "date": "2005", "kind": "formation", "label": "CAP Arts de la Broderie, dominante broderie main" },
+    { "date": "2005", "kind": "vie", "label": "Devient formatrice au conservatoire" },
+    { "date": "2008", "kind": "formation", "label": "Qualification broderie d'art de 448 heures (2008-2009)" },
+    { "date": "2013-07-14", "kind": "prix", "label": "Médaille de Bronze du Tourisme" },
+    { "date": "2018", "kind": "prix", "label": "Médaille d'Argent du Tourisme" },
+    { "date": "2020", "kind": "autre", "label": "Le point de Lunéville et la broderie perlée pailletée sont inscrits au patrimoine culturel immatériel" },
+    { "date": "2024-06-01", "kind": "oeuvre", "label": "Présente les flacons brodés « Rêve de Brodeuse » à la Rencontre des savoir-faire Grasse et Lunéville" },
+    { "date": "2025-04-30", "kind": "autre", "label": "Enregistrement de la certification RS7131 « Réaliser des broderies au point de Lunéville », portée par le conservatoire" },
+    { "date": "2026-02-04", "kind": "prix", "label": "Reçoit la Médaille d'Or du Tourisme à la sous-préfecture de Lunéville" },
+    { "date": "2026-03-29", "kind": "exposition", "label": "Ouverture de l'exposition « Les Grandes Époques de la Mode » au conservatoire" },
+    { "date": "2026-11-07", "kind": "exposition", "label": "Le conservatoire est invité d'honneur du Salon des Arts du Fil de Moncoutant" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "Les Grandes Époques de la Mode",
+      "summary": "Exposition de robes brodées au crochet de Lunéville et de robes haute couture (Lacroix, Balmain, Guy Laroche, Lagerfeld, Mugler, Cardin...), des années 1890 au disco des années 1980.",
+      "place": "Conservatoire des Broderies de Lunéville François-Remy, château de Lunéville",
+      "city": "Lunéville",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-03-29",
+      "endDate": "2027-03-21",
+      "url": "https://luneville.fr/wp-content/uploads/2026/02/Dossier-de-Presse-2026-2027-Les-grandes-Epoques-de-la-Mode-.pdf"
+    },
+    {
+      "kind": "actualite",
+      "title": "Médaille d'Or du Tourisme pour Aude Remy",
+      "summary": "Le préfet de Meurthe-et-Moselle lui a remis la médaille devant une cinquantaine d'élèves, bénévoles et soutiens, avec démonstrations de broderie.",
+      "place": "Sous-préfecture de Lunéville",
+      "city": "Lunéville",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-04",
+      "url": "https://www.broderie-luneville.com/fr/medaille-d-or-du-tourisme.html"
+    },
+    {
+      "kind": "salon",
+      "title": "Salon des Arts du Fil de Moncoutant",
+      "summary": "Le Conservatoire des Broderies de Lunéville est l'invité d'honneur du salon.",
+      "place": "Salon des Arts du Fil",
+      "city": "Moncoutant",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "url": "https://www.broderie-luneville.com/fr/"
+    }
+  ],
+  "sources": [
+    { "label": "Dossier de presse 2026-2027 « Les Grandes Époques de la Mode » (Ville de Lunéville)", "url": "https://luneville.fr/wp-content/uploads/2026/02/Dossier-de-Presse-2026-2027-Les-grandes-Epoques-de-la-Mode-.pdf" },
+    { "label": "Conservatoire : l'équipe pédagogique (parcours, diplômes, médailles)", "url": "https://www.broderie-luneville.com/fr/l-equipe-pedagogique.html" },
+    { "label": "Conservatoire : Médaille d'Or du Tourisme", "url": "https://www.broderie-luneville.com/fr/medaille-d-or-du-tourisme.html" },
+    { "label": "Conservatoire : qui sommes-nous", "url": "https://www.broderie-luneville.com/fr/le-conservatoire.html" },
+    { "label": "Conservatoire : Médaille des Arts et des Lettres (Maryvonne François-Remy)", "url": "https://www.broderie-luneville.com/fr/medaille-des-arts-et-des-lettres.html" },
+    { "label": "Conservatoire : flacons de parfum brodés « Rêve de Brodeuse »", "url": "https://www.broderie-luneville.com/fr/flacons-de-parfum-brodes-reve-de-brodeuse.html" },
+    { "label": "Conservatoire : exposition Les Grandes Époques de la Mode", "url": "https://www.broderie-luneville.com/fr/les-grandes-epoques-de-la-mode-1.html" },
+    { "label": "Conservatoire : page d'accueil (Salon de Moncoutant, certification)", "url": "https://www.broderie-luneville.com/fr/" },
+    { "label": "Ville de Lunéville : Conservatoire des broderies", "url": "https://luneville.fr/culture-patrimoine/patrimoine-immateriel/conservatoire-des-broderies/" },
+    { "label": "Radio Fajet : Rencontre des savoir-faire Grasse-Lunéville (17 mai 2024)", "url": "https://radiofajet.net/2024/05/17/rencontre-des-savoir-faire-grasse-luneville/" },
+    { "label": "France Compétences : fiche RS7131", "url": "https://www.francecompetences.fr/recherche/rs/7131" },
+    { "label": "Tourisme Meurthe-et-Moselle : fiche du conservatoire", "url": "https://tourisme-meurtheetmoselle.fr/en/accueil/lessentiel/patrimoine/musees/742000025-conservatoire-des-broderies-de-luneville-francois-remy" }
+  ],
+  "researchNotes": "Homonyme à ne pas confondre : Maryvonne François-Remy est la présidente du conservatoire (nommée Chevalière des Arts et des Lettres, annoncé le 9 octobre 2026) ; Aude Remy en est la brodeuse d'art, formatrice et responsable. Leur lien de parenté exact n'est pas précisé (famille Remy avec Daniel Remy). Le nom s'écrit Remy sur le site du conservatoire et Rémy sur le site de la Ville. Date de création du conservatoire : 1998 selon le site du conservatoire, 1999 selon la Ville. Médaille d'Or du Tourisme : « promotion 2025 » sur la page équipe, « 2026 » et remise le 4 février 2026 sur la page dédiée. La date de la Médaille de Bronze Jeunesse, Sport et Engagement Associatif n'est pas donnée (2019 selon un document de 2021 vu seulement en résumé de recherche, non lu, PDF en 404). Instagram : la page équipe renvoie au compte du conservatoire (conservatoire.brod.luneville) ; un compte personnel @aude.remy.broderie apparaît dans les recherches mais n'a pas pu être lu. Facebook indiqué : broderie.auderemy. Aucune photo de portrait trouvée, aucune date de naissance publique. L'année exacte de sortie du parfum « Rêve de Brodeuse » n'est pas donnée (présenté le 1er juin 2024). Un reportage France 24 (2022) évoquant une transmission par sa grand-mère est cité par la recherche mais n'a pas été lu ; la page du conservatoire parle d'arrière-grands-mères. Aucune œuvre de l'exposition 2026-2027 ne lui est explicitement attribuée."
+}

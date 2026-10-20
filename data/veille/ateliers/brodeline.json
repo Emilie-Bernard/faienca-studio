@@ -1,0 +1,229 @@
+{
+  "name": "Brodeline",
+  "city": "Treffléan",
+  "region": "Bretagne",
+  "country": "France",
+  "foundedDate": "2000",
+  "closedDate": "",
+  "founders": [
+    "Céline Le Belz"
+  ],
+  "people": [
+    {
+      "name": "Céline Le Belz",
+      "role": "fondatrice et brodeuse, Meilleur Ouvrier de France 2007, Brevet des Métiers d'Art broderie main spécialité broderie or"
+    },
+    {
+      "name": "Yannig Guillevic",
+      "role": "collaborateur : ensemble de paramentique et grande bannière jubilaire Sainte Anne"
+    },
+    {
+      "name": "Anne et Patrick Poirier",
+      "role": "artistes, collaborations (Fragilita, L'orchidée de Chaumont, Habit Vert)"
+    },
+    {
+      "name": "Matali Crasset",
+      "role": "designer, collaborations (Le Castor, Renard roux, Effraie domestique)"
+    },
+    {
+      "name": "Jean-Baptiste Sibertin-Blanc",
+      "role": "designer, collaboration (Révélation)"
+    },
+    {
+      "name": "Jeanne Gautier-Jézéquel",
+      "role": "designer, collaboration (Vitrine morbihannaise)"
+    }
+  ],
+  "techniques": [
+    "Broderie entièrement à la main",
+    "Broderie or",
+    "Peinture à l'aiguille",
+    "Passé plat",
+    "Passé empiétant",
+    "Point de tige",
+    "Point de nœud",
+    "Point lancé",
+    "Point de feston",
+    "Broderie Richelieu",
+    "Drap d'or serti de cordonnet",
+    "Restauration de bannières liturgiques",
+    "Costume breton"
+  ],
+  "clients": [
+    "Parlement de Bretagne (Cour d'appel de Rennes)",
+    "Anne Poirier, Académie des Beaux-Arts",
+    "Matali Crasset",
+    "Anne et Patrick Poirier"
+  ],
+  "labels": [
+    "Meilleur Ouvrier de France (2007)",
+    "Ateliers d'Art de France"
+  ],
+  "summary": "Atelier de broderie d'art créé en 2000 par Céline Le Belz, Meilleur Ouvrier de France, qui brode exclusivement à la main. Elle travaille autant pour le patrimoine (bannières liturgiques, Parlement de Bretagne, costume breton) que pour des artistes et des designers.",
+  "history": "Céline Le Belz se forme à la broderie main avec un Brevet des Métiers d'Art, spécialité broderie or. Elle crée l'atelier Brodeline en 2000. Aujourd'hui installé à Treffléan, dans le Morbihan, l'atelier revendique une broderie d'art exclusivement à la main.\n\nEn 2007, elle devient Meilleur Ouvrier de France avec « Pivoines et delphiniums », une peinture à l'aiguille en coton au point de passé empiétant, avec de nombreuses nuances de couleurs, sur une fine toile de lin. La même année, elle réalise une coiffe-sculpture monumentale de 800 heures pendant une résidence au Centre d'Art Contemporain de Mayenne.\n\nSes créations ont été remarquées en concours : une tenture sur le thème du Cosmos a reçu le deuxième prix du concours Mains et Merveilles, et un tableau sur la légende des îles du golfe du Morbihan le premier prix du concours de broderie de Vannes. Elle collabore avec des artistes et des designers comme Anne et Patrick Poirier, Matali Crasset ou Jean-Baptiste Sibertin-Blanc. En 2022, elle brode l'Habit Vert d'Anne Poirier pour sa réception à l'Académie des Beaux-Arts.\n\nLe patrimoine tient une grande place dans son travail. Pour la Grand'Chambre du Parlement de Bretagne, à Rennes, elle brode les tentures de la nouvelle table de justice : 89 hermines brodées à la main en or sur drap d'or, appliquées sur velours de soie, sur 10 mètres linéaires, soit 416 heures de travail. Elle a aussi réalisé la réplique d'un gilet du XVIIIe siècle et brode des costumes bretons, dont celui d'une Majesté d'Arvor 2025.\n\nElle restaure enfin des bannières liturgiques, comme celles de Notre Dame des Vertus, Notre Dame du Rosaire ou du Cœur Sacré. Sa méthode : changer les tissus de fond abîmés (satins, velours), restaurer seulement les broderies qui en ont besoin, puis réappliquer les éléments, le tout cousu à la main, pour que ces ornements puissent continuer à servir.",
+  "training": "",
+  "website": "https://www.brodeline.com",
+  "instagram": "https://www.instagram.com/brodeline_celinelebelz/",
+  "photoUrl": "https://static.wixstatic.com/media/a6b77d_a8a699ea98724477aff5b4264ebce783~mv2.jpg",
+  "timeline": [
+    {
+      "date": "2000",
+      "kind": "vie",
+      "label": "Céline Le Belz crée l'atelier Brodeline"
+    },
+    {
+      "date": "2007",
+      "kind": "prix",
+      "label": "Céline Le Belz devient Meilleur Ouvrier de France avec « Pivoines et delphiniums », en peinture à l'aiguille"
+    },
+    {
+      "date": "2007",
+      "kind": "residence",
+      "label": "Coiffe-sculpture monumentale de 800 heures, en résidence au Centre d'Art Contemporain de Mayenne"
+    },
+    {
+      "date": "2011",
+      "kind": "prix",
+      "label": "Premier prix du concours de broderie de Vannes pour un tableau sur la légende des îles du golfe du Morbihan"
+    },
+    {
+      "date": "2022",
+      "kind": "oeuvre",
+      "label": "Broderie de l'Habit Vert d'Anne Poirier pour sa réception à l'Académie des Beaux-Arts"
+    },
+    {
+      "date": "2025",
+      "kind": "oeuvre",
+      "label": "Costume de Jean-Christophe, Majesté d'Arvor 2025"
+    }
+  ],
+  "works": [
+    {
+      "title": "Tentures de la table de justice du Parlement de Bretagne",
+      "year": "",
+      "technique": "Parlement de Bretagne (Cour d'appel de Rennes) · broderie or sur drap d'or",
+      "description": "Tentures de la nouvelle table de justice de la Grand'Chambre : 89 hermines brodées d'or sur drap d'or, appliquées sur 10 mètres de velours de soie, soit 416 heures de travail.",
+      "url": "https://www.brodeline.com/parlement-de-bretagne",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_b6a526e123334d9e83206ebacc71a3b5~mv2.jpg"
+    },
+    {
+      "title": "Grande bannière jubilaire Sainte Anne",
+      "year": "2025",
+      "technique": "Sanctuaire de Sainte-Anne-d'Auray, avec Yannig Guillevic · broderie main",
+      "description": "Bannière de 160 sur 115 cm créée pour le jubilé des 400 ans des apparitions de sainte Anne, conçue et peinte par Yannig Guillevic ; Céline Le Belz y a passé environ 1150 heures.",
+      "url": "https://www.brodeline.com/copie-de-%C3%A0nne-et-patrick-poirier-fr",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_17fc5e55735d4d189c87d8c703007338~mv2.jpg"
+    },
+    {
+      "title": "Paramentique du jubilé de Sainte-Anne-d'Auray",
+      "year": "2025",
+      "technique": "Sanctuaire de Sainte-Anne-d'Auray, avec Yannig Guillevic et Bénédicte Clavier · broderie liturgique",
+      "description": "Chape, chasubles, étoles et mitre brodées de croix, de grappes et de feuilles de vigne en soie, pour environ 500 heures de broderie.",
+      "url": "https://www.brodeline.com/copie-de-yannig-guillevic-banni%C3%A8re",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_93aaff8d8b944a27b49042b6647bafec~mv2.jpg"
+    },
+    {
+      "title": "Restauration de la bannière Notre Dame des Vertus",
+      "year": "",
+      "technique": "Restauration · broderie or, Vierge à l'Enfant en relief",
+      "description": "Fond très endommagé remplacé par un satin de soie neuf, avec réapplication de la Vierge à l'Enfant en relief et des rinceaux.",
+      "url": "https://www.brodeline.com/restauration-de-banni%C3%A8res",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_dbf17c476476403b8acdb1cd1919f46b~mv2.jpg"
+    },
+    {
+      "title": "Restauration de la bannière Notre Dame du Rosaire",
+      "year": "",
+      "technique": "Restauration · broderie or",
+      "description": "Changement du tissu de fond et réapplication des éléments après restauration, en particulier des personnages.",
+      "url": "https://www.brodeline.com/restauration-de-banni%C3%A8res",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_ee7fd28546ea4ccf8c9ab9c9c09ec708~mv2.jpg"
+    },
+    {
+      "title": "Restauration de la bannière du Cœur Sacré",
+      "year": "",
+      "technique": "Restauration · broderie or sur satin de soie",
+      "description": "Les inscriptions et le cœur d'or ont été restaurés puis réappliqués sur un nouveau satin de soie, le fond n'étant plus uniforme.",
+      "url": "https://www.brodeline.com/restauration-de-banni%C3%A8res",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_b72d576e29d2405dbc796e6a9ad01be4~mv2.jpg"
+    },
+    {
+      "title": "Habit vert d'Ànne Poirier",
+      "year": "2022",
+      "technique": "Académie des Beaux-Arts, Ànne et Patrick Poirier · broderie or et soie",
+      "description": "Broderie or et soie sur drap de laine bleu nuit, d'après un dessin de Patrick Poirier, pour l'installation d'Ànne Poirier sous la Coupole ; 366 heures de broderie.",
+      "url": "https://www.brodeline.com/%C3%A0nne-et-patrick-poirier-artistes",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_e53dcc87b39c45af8b96b22e0028aa6a~mv2.jpg"
+    },
+    {
+      "title": "Tablier de Lucile Garrigue, Reine d'Arvor 2022",
+      "year": "2022",
+      "technique": "Fêtes d'Arvor · cannetille or sur velours",
+      "description": "Costume de Port-Louis des années 1940 dont le tablier est brodé entièrement à la cannetille or sur velours bleu marine, d'après un modèle ancien, en 217 heures.",
+      "url": "https://www.brodeline.com/reines-et-majest%C3%A9s-d-arvor",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_b753531ed70f4922823742a62d05485e~mv2.jpg"
+    },
+    {
+      "title": "« Pivoines et delphiniums », pièce du MOF",
+      "year": "2007",
+      "technique": "Meilleur Ouvrier de France · peinture à l'aiguille",
+      "description": "Interprétation en peinture à l'aiguille, au passé empiétant de coton aux nombreuses nuances sur fine toile de lin, qui a valu à Céline Le Belz le titre de Meilleur Ouvrier de France.",
+      "url": "https://www.brodeline.com/mof",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_0fbfae4bd11e49f6838c743eeab85c0e~mv2.jpg"
+    },
+    {
+      "title": "Copie d'un gilet du XVIIIe siècle",
+      "year": "",
+      "technique": "Broderie main en soie sur satin de soie",
+      "description": "Gilet brodé de fleurs, d'insectes, de papillons et de libellules au passé plat, point de tige, point de nœud et point lancé, en 110 heures.",
+      "url": "https://www.brodeline.com/gilet-historique",
+      "imageUrl": "https://static.wixstatic.com/media/a6b77d_69c955c35aa24a409adb9cb9330401fa~mv2.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Brodeline : accueil",
+      "url": "https://www.brodeline.com"
+    },
+    {
+      "label": "Brodeline : à propos",
+      "url": "https://www.brodeline.com/a-propos"
+    },
+    {
+      "label": "Brodeline : Meilleur Ouvrier de France",
+      "url": "https://www.brodeline.com/mof"
+    },
+    {
+      "label": "Brodeline : restauration de bannières",
+      "url": "https://www.brodeline.com/restauration-de-banni%C3%A8res"
+    },
+    {
+      "label": "Brodeline : Parlement de Bretagne",
+      "url": "https://www.brodeline.com/parlement-de-bretagne"
+    },
+    {
+      "label": "Brodeline : collaborations",
+      "url": "https://www.brodeline.com/collaborations"
+    },
+    {
+      "label": "Brodeline : bannière jubilaire Sainte Anne",
+      "url": "https://www.brodeline.com/copie-de-%C3%A0nne-et-patrick-poirier-fr"
+    },
+    {
+      "label": "Brodeline : paramentique Sainte-Anne-d'Auray",
+      "url": "https://www.brodeline.com/copie-de-yannig-guillevic-banni%C3%A8re"
+    },
+    {
+      "label": "Brodeline : Ànne et Patrick Poirier, Habit Vert",
+      "url": "https://www.brodeline.com/%C3%A0nne-et-patrick-poirier-artistes"
+    },
+    {
+      "label": "Brodeline : Reines et Majestés d'Arvor",
+      "url": "https://www.brodeline.com/reines-et-majest%C3%A9s-d-arvor"
+    },
+    {
+      "label": "Brodeline : gilet historique",
+      "url": "https://www.brodeline.com/gilet-historique"
+    }
+  ],
+  "researchNotes": "Lieu : l'en-tête du site mentionne Plumelec (Morbihan) alors que le pied de page et la page restauration indiquent 56250 Treffléan ; Treffléan retenu, peut-être un ancien lieu ou un déménagement non daté. Concours Mains et Merveilles : la page À propos associe la tenture Cosmos à 2011 mais parle de l'édition 2013 ; date non mise dans la frise. La catégorie MOF (broderie, option couleur ou peinture à l'aiguille) et un livre « Broderies traditionnelles » (2009) ne viennent que d'un résumé de recherche de la notice BnF, que je n'ai pas pu lire en entier. Le prix exact lié à la coiffe-sculpture de 2007 n'est pas précisé. Dates de la commande du Parlement de Bretagne, de la réplique du gilet XVIIIe et des bannières restaurées (lieux, paroisses) non indiquées. Le mot « clients » regroupe ici des commanditaires et collaborateurs cités par le site, sans contrat confirmé. Aucune offre de cours, de stage ou d'accueil de stagiaires trouvée. Le lien Instagram est construit à partir du nom de compte cité sur le site. Images des réalisations : toutes viennent du site de l'atelier avec un texte alternatif qui nomme la pièce ; les dates du Parlement de Bretagne, du gilet et des bannières restaurées (paroisses) ne sont pas données, et aucune photo indépendante (presse, sanctuaire, Cour d'appel) n'a été vérifiée."
+}

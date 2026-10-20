@@ -1,0 +1,109 @@
+{
+  "name": "Marie Berthouloux",
+  "country": "France",
+  "city": "Brest",
+  "zone": "france",
+  "birthDate": "1988",
+  "deathDate": "",
+  "techniques": [
+    "broderie métallique",
+    "broderie or",
+    "cannetille",
+    "perlage",
+    "tissage à la main",
+    "teinture",
+    "tricot",
+    "crochet"
+  ],
+  "summary": "Brodeuse d'or née à Brest en 1988, Marie Berthouloux a fondé le studio Ekceli, où elle pratique ce qu'elle appelle l'« orfèvrerie textile ». Reconnue Master Artisan par Homo Faber, elle marie cannetille, perles et matières brutes comme la pierre de lave, le cuir ou le chanvre.",
+  "biography": "Marie Berthouloux est née à Brest en 1988 et a grandi en Bretagne, où elle s'est habituée très tôt aux tissus brodés. En 2008, elle commence des études de mode pour devenir styliste, avec un BTS en design de mode. Frustrée de ne pas trouver les tissus qu'elle imaginait, elle découvre à Rochefort-sur-Mer un Diplôme des Métiers d'Art textile spécialisé en broderie or, et c'est le coup de foudre pour la broderie métallique. Pendant sa formation en design textile, elle apprend aussi le tissage, le tricot, le crochet et la teinture.\n\nElle commence sa carrière en 2010 et fonde son studio, Ekceli, en 2012. Le nom vient de l'espéranto et veut dire « une pensée transmise par un savoir-faire ». D'abord tournée vers la mode, elle se consacre ensuite à des œuvres d'art et à des pièces pour l'architecture intérieure. Une grande partie de son travail de broderie métallique et de surface est réalisée pour le secteur du luxe, par exemple un panneau brodé commandé comme vitrine pour une marque de luxe, ou des pièces pour la Maison Ruinart.\n\nSon style associe des matières brutes et authentiques à des matières nobles et manufacturées. La cannetille y dessine des branches, des feuilles ou des nuages, ponctués de perles, de cristaux et de petits éléments en métal. Elle glisse volontiers des symboles et des messages dans ses textiles, pour qu'on puisse les lire de loin comme de près. Parmi ses pièces marquantes : « Ekceli Basa Basalt 2 », inspirée des minéraux d'Islande, avec pierre de lave et micro-sculptures métalliques, « Equatorial Forest », en cuir patiné, fourrure et plumes, et « Troposphère », un nuage de feuilles en cannetille sur toile blanche qui peut couvrir tout un mur.\n\nLa transmission compte beaucoup pour elle : elle enseigne depuis 2014 et accueille des stagiaires. Homo Faber, le réseau de la Michelangelo Foundation, la présente comme Master Artisan. Ses coordonnées publiques sont à Brest (sur rendez-vous), mais elle dit aussi travailler à Paris.\n\nAprès une pause qui a suivi ses études, des clients comme la Galerie Chevalier Parsua l'encouragent à reprendre, et elle rejoint en 2021 le Cercle de l'Art, une association qui soutient les artistes femmes francophones émergentes. En juillet 2024, deux pièces de 2024 en chanvre teinté au brou de noix, « Hear the wood grow » et « Nager dans les ombres du bois », passent dans la vente « Ar Seiz Avel » de Rennes Enchères Bretagne. En avril 2025, pour sa troisième participation à L'Art Month, elle présente la série « Fenêtres » à la Galerie Grès à Paris, où elle mêle nature, broderie, peinture et dessin autour de l'empreinte du temps et de la fragilité du vivant.",
+  "website": "https://ekceli.com",
+  "instagram": "https://www.instagram.com/studioekceli",
+  "photoUrl": "https://api.homofaber.com/uploads/3_NEW_EDITED_portrait_Marie_Berthouloux_par_Joseph_Jabbour_2_copy_c1ee31fd39.jpg",
+  "works": [
+    {
+      "title": "Ekceli Basa Basalt 2",
+      "year": "",
+      "technique": "Broderie métallique, pierre de lave, micro-sculptures métalliques, fragments de fer",
+      "description": "Tenture murale inspirée des minéraux et des sols d'Islande, 50 × 100 × 3,5 cm. Photo Eric Valdenaire.",
+      "url": "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux",
+      "imageUrl": ""
+    },
+    {
+      "title": "Equatorial Forest",
+      "year": "",
+      "technique": "Cuir patiné, fourrure, plumes, fil cannetille, perles de cristal",
+      "description": "Panneau mural en relief qui évoque une forêt équatoriale, 50 × 100 × 3,5 cm. Photo Eric Valdenaire.",
+      "url": "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux",
+      "imageUrl": ""
+    },
+    {
+      "title": "Troposphère",
+      "year": "",
+      "technique": "Fil cannetille sur toile blanche, pistils en cuivre, perles",
+      "description": "Feuilles et volutes de nuages brodées en cannetille. Présentée en 80 × 60 cm, la pièce peut être agrandie jusqu'à couvrir tout un mur. Photo Anne-Lou Buzot.",
+      "url": "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mineral",
+      "year": "",
+      "technique": "Alcantara, branches en cannetille, perles, éléments métalliques",
+      "description": "Panneau de 30 × 22 cm commandé comme vitrine pour une marque de luxe. Photo Anne-Lou Buzot.",
+      "url": "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux",
+      "imageUrl": ""
+    },
+    {
+      "title": "Échantillon de la collection Arts Décoratifs 1G",
+      "year": "",
+      "technique": "Chanvre et lin tissés main de l'Ouest de la France, fil d'or, grappes de perles",
+      "description": "Échantillon de 25 × 15 cm inspiré de la toile de Jouy, brodé de fil d'or. Photo Anne-Lou Buzot.",
+      "url": "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux",
+      "imageUrl": ""
+    },
+    {
+      "title": "Hear the wood grow",
+      "year": "2024",
+      "technique": "Chanvre, brou de noix, fils couleur canneberge",
+      "description": "Pièce unique de 65,5 × 66 cm, signée et datée au dos, présentée dans la vente « Ar Seiz Avel » à Rennes en juillet 2024.",
+      "url": "https://gazette-drouot.com/en/lots/25970097",
+      "imageUrl": ""
+    },
+    {
+      "title": "Nager dans les ombres du bois",
+      "year": "2024",
+      "technique": "Chanvre, brou de noix, peinture acrylique, fils couleur canneberge",
+      "description": "Pièce unique de 104 × 84,5 cm, signée et datée au dos, présentée dans la vente « Ar Seiz Avel » à Rennes en juillet 2024.",
+      "url": "https://gazette-drouot.com/en/lots/25970098",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fenêtres (série), détail « Quand l'écorce devient ciel »",
+      "year": "2025",
+      "technique": "Broderie sur chanvre fin",
+      "description": "Série qui mêle nature, broderie, peinture et dessin pour parler de l'empreinte du temps et de la fragilité du vivant, montrée à la Galerie Grès à Paris en avril 2025.",
+      "url": "https://eyesontalents.com/en/articles/414",
+      "imageUrl": "https://eot-production.s3.eu-west-1.amazonaws.com/93f3b0bee4aa1066093ec3fcaedfaf02.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "1988", "kind": "vie", "label": "Naissance à Brest" },
+    { "date": "2008", "kind": "formation", "label": "Débute des études de mode (BTS design de mode), puis un Diplôme des Métiers d'Art textile en broderie or à Rochefort-sur-Mer" },
+    { "date": "2010", "kind": "autre", "label": "Début de sa carrière de brodeuse" },
+    { "date": "2012", "kind": "autre", "label": "Fonde le studio Ekceli" },
+    { "date": "2014", "kind": "autre", "label": "Commence à enseigner" },
+    { "date": "2021", "kind": "exposition", "label": "Première participation au Cercle de l'Art" },
+    { "date": "2024-07", "kind": "exposition", "label": "Deux pièces dans l'exposition-vente « Ar Seiz Avel », Rennes Enchères Bretagne, Rennes" },
+    { "date": "2025-04", "kind": "exposition", "label": "Série « Fenêtres » dans l'exposition collective « Ce qui nous touche », Galerie Grès, Paris (L'Art Month)" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Homo Faber 2022, fiche Marie Berthouloux", "url": "https://2022.homofaber.com/en/discover/artisans-marie-berthouloux" },
+    { "label": "Homo Faber, fiche artisane Marie Berthouloux (Brest)", "url": "https://www.homofaber.com/en/artisans/marie-berthouloux-embroidery-france" },
+    { "label": "Gazette Drouot, lot 146 « Hear the wood grow »", "url": "https://gazette-drouot.com/en/lots/25970097" },
+    { "label": "Gazette Drouot, lot 147 « Nager dans les ombres du bois »", "url": "https://gazette-drouot.com/en/lots/25970098" },
+    { "label": "Gazette Drouot, vente « Ar Seiz Avel » du 11 juillet 2024", "url": "https://gazette-drouot.com/en/lots/25969946" },
+    { "label": "Eyes on Talents, profil Marie Berthouloux (mars 2025)", "url": "https://eyesontalents.com/en/articles/414" }
+  ],
+  "researchNotes": "Le site ekceli.com n'a pas répondu (connexion coupée), ses pages n'ont donc pas pu être lues. Instagram : la fiche 2022 donne @ekcelimb, la fiche Homo Faber actuelle @studioekceli (retenue). Ville : coordonnées à Brest, mais elle dit dans une interview Homo Faber être basée à Paris. Aucun prix ni date pour les œuvres de la fiche Homo Faber. Pistes 2026 vues seulement dans des extraits de recherche (posts LinkedIn non lisibles), à vérifier avant de les mettre dans les nouvelles : exposition collective « Mujō » au 7 ter rue Elzévir, Paris, vers le 8 ou 9 au 12 avril 2026 (Art Month x Cercle de l'Art, commissaire Inès Frachon, avec Charlotte Barrault, Emmanuelle Blanc, Lucille Boitelle, Aurely Cerise) ; une présentation à Brest du 3 au 5 avril 2026 ; une série de cinq lampes « L'or des ombres » (janvier 2026) faite avec Sabine Baron Kerros de l'atelier Lusavel à Brest ; une éventuelle présence à la Homo Faber Fellowship à Milan (21 au 26 avril 2026), non confirmée. La fiche Homo Faber actuelle cite aussi des œuvres « Ruinart », « Screen » et « Le Terrarium » sans détails. Pas d'homonyme repéré dans le domaine textile."
+}

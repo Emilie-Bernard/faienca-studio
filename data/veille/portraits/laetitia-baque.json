@@ -1,0 +1,151 @@
+{
+  "name": "Laetitia Baqué",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "Broderie haute couture",
+    "Perlage",
+    "Broderie de chaînes et de perles",
+    "Broderie associée au tuft (tapis d'Aubusson)",
+    "Design textile et recherche textile"
+  ],
+  "summary": "Brodeuse et designer textile parisienne, diplômée de l'École Duperré, Laetitia Baqué a cofondé avec Victor Molinié l'atelier Baqué Molinié, qui brode pour la haute couture (Dior, Saint Laurent, Chanel, Valentino, Schiaparelli, Fendi) et pour Guerlain. Son travail cherche à sortir la broderie de son seul rôle d'ornement.",
+  "biography": "Laetitia Baqué s'est formée à l'École supérieure des arts appliqués Duperré, à Paris. C'est sur ses bancs qu'elle rencontre Victor Molinié, qui devient son associé et le compagnon de route de tout son parcours. Tous deux designers textiles, ils travaillent d'abord avec des ateliers de broderie en France et en Inde, et se forgent une sensibilité commune en mettant leurs savoir-faire techniques en commun.\n\nLe duo s'associe en 2011 et fonde l'atelier Baqué Molinié, pensé comme un lieu de création, de recherche et d'échange. L'atelier est installé à Paris, dans le 10e arrondissement, au sein de la cité artisanale de la Villa du Lavoir. Il réunit des designers textiles et de mode, des illustratrices et des artisans brodeurs, et revendique un dialogue entre design et métier : « Because making is thinking ».\n\nL'atelier compte parmi les adresses de broderie recherchées par la haute couture : Christian Dior, Yves Saint Laurent, Chanel, Valentino, Schiaparelli ou Fendi lui confient des ornements, des pièces uniques et des créations pour les défilés. Laetitia Baqué et Victor Molinié y développent des projets au rythme des saisons, des événements et des collaborations, avec l'envie de faire sortir la broderie de sa tradition ornementale en la croisant avec d'autres disciplines.\n\nParmi leurs pièces marquantes, il y a Cycle, née en 2023 d'une collaboration avec la manufacture Pinton proposée par Thierry Kauffmann : un tuft de velours aux verts dégradés, façon tapis d'Aubusson, rehaussé de broderie haute couture, dans un cadre de 1,40 m de côté. Pour Guerlain, le duo a dessiné puis brodé à la main la plume de l'écrin Rouge G Majestic Feather, une édition limitée de 615 exemplaires numérotés où des chaînes dorées et des perles aux reflets rouges dessinent le plumage.\n\nL'atelier a été présenté par Homo Faber, et son travail figure dans l'exposition « Tisser, broder, sublimer. Les savoir-faire de la mode » au Palais Galliera (13 décembre 2025 au 18 octobre 2026). Le 7 avril 2026, pendant les Journées européennes des métiers d'art, Laetitia Baqué et Victor Molinié y ont animé un Rendez-vous d'exception, une rencontre affichée complet.",
+  "website": "https://www.baquemolinie.com",
+  "instagram": "https://www.instagram.com/baque_molinie",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Cycle (collaboration Baqué Molinié x Pinton)",
+      "year": "2023",
+      "technique": "Tuft (technique du tapis d'Aubusson) et broderie haute couture",
+      "description": "Composition textile encadrée de 1,40 m sur 1,40 m qui évoque le cycle de la nature : un tuft de velours en dégradé de verts, avec bordures végétales, arabesques de feuilles, tiges entrelacées et fleurs vertes, enrichi de broderie. Projet proposé par Thierry Kauffmann, commencé à l'atelier de la Villa du Lavoir puis poursuivi à la manufacture Pinton.",
+      "url": "https://www.pinton1867.com/en/designer-artiste/baque-molinie/",
+      "imageUrl": "https://www.pinton1867.com/wp-content/uploads/2024/10/CYCLE_IN_SITU_HR4-1024x683.jpg"
+    },
+    {
+      "title": "Écrin Rouge G Majestic Feather (Guerlain)",
+      "year": "2026",
+      "technique": "Broderie main de chaînes dorées et de perles",
+      "description": "Écrin noir mat de rouge à lèvres orné d'une plume dessinée puis brodée à la main par Laetitia Baqué et Victor Molinié, avec des chaînes dorées qui tracent le plumage et des perles aux accents rougeoyants. Édition Prestige limitée à 615 exemplaires numérotés, avec trois teintes de Rouge G.",
+      "url": "https://luxury-place.fr/2026/09/07/rouge-g-majestic-feather-quand-la-haute-broderie-rencontre-lart-du-maquillage/",
+      "imageUrl": "https://luxury-place.fr/wp-content/uploads/2026/09/Screenshot-2026-09-07-134907.png"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2011",
+      "kind": "vie",
+      "label": "S'associe avec Victor Molinié, rencontré à l'École Duperré, et cofonde l'atelier Baqué Molinié à Paris"
+    },
+    {
+      "date": "2023",
+      "kind": "oeuvre",
+      "label": "Cycle, pièce mêlant tuft et broderie haute couture, en collaboration avec la manufacture Pinton"
+    },
+    {
+      "date": "2024",
+      "kind": "exposition",
+      "label": "L'atelier Baqué Molinié est présenté parmi les artisans de Homo Faber 2024"
+    },
+    {
+      "date": "2025-12-13",
+      "kind": "exposition",
+      "label": "Le travail de l'atelier figure dans l'exposition « Tisser, broder, sublimer » au Palais Galliera, jusqu'au 18 octobre 2026"
+    },
+    {
+      "date": "2026-04-07",
+      "kind": "autre",
+      "label": "Rendez-vous d'exception au Palais Galliera avec Victor Molinié, pendant les Journées européennes des métiers d'art"
+    },
+    {
+      "date": "2026-09",
+      "kind": "oeuvre",
+      "label": "Écrin brodé Rouge G Majestic Feather pour Guerlain, édition de 615 exemplaires"
+    }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "Tisser, broder, sublimer. Les savoir-faire de la mode",
+      "summary": "Exposition du Palais Galliera sur les métiers de la mode, où le travail de l'atelier Baqué Molinié illustre une broderie qui s'étend à d'autres champs.",
+      "place": "Palais Galliera",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2025-12-13",
+      "endDate": "2026-10-18",
+      "url": "https://www.offi.fr/tendances/expositions-musees/expo-tisser-broder-sublimer-les-dessous-chics-de-la-haute-couture-971.html"
+    },
+    {
+      "kind": "actualite",
+      "title": "Rendez-vous d'exception avec Laetitia Baqué et Victor Molinié",
+      "summary": "Visite thématique de l'exposition puis rencontre avec les deux brodeurs, dans le cadre des Journées européennes des métiers d'art. Gratuit sur inscription, complet.",
+      "place": "Palais Galliera, atelier pédagogique",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-07",
+      "url": "https://www.palaisgalliera.paris.fr/agenda/rendez-vous-dexception-avec-laetitia-baque-et-victor-molinie-brodeurs"
+    },
+    {
+      "kind": "actualite",
+      "title": "Rouge G Majestic Feather, l'écrin brodé pour Guerlain",
+      "summary": "Édition Prestige de 615 exemplaires numérotés : une plume dessinée et brodée à la main par le duo, en chaînes dorées et perles rougeoyantes, vendue sur Guerlain.com et en boutiques Guerlain.",
+      "place": "Guerlain",
+      "city": "",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-09",
+      "endDate": "",
+      "url": "https://luxury-place.fr/2026/09/07/rouge-g-majestic-feather-quand-la-haute-broderie-rencontre-lart-du-maquillage/"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Homo Faber, fiche Atelier Baqué Molinié",
+      "url": "https://www.homofaber.com/en/artisans/atelier-baqu-molini-iwob9t"
+    },
+    {
+      "label": "Homo Faber 2022, Discover Atelier Baqué Molinié",
+      "url": "https://2022.homofaber.com/en/discover/discover-atelier-baque-molinie"
+    },
+    {
+      "label": "Pinton, page artiste Baqué Molinié",
+      "url": "https://www.pinton1867.com/en/designer-artiste/baque-molinie/"
+    },
+    {
+      "label": "Pinton, collaboration Cycle",
+      "url": "https://www.pinton1867.com/en/?p=13065"
+    },
+    {
+      "label": "Palais Galliera, Rendez-vous d'exception avec Laetitia Baqué et Victor Molinié",
+      "url": "https://www.palaisgalliera.paris.fr/agenda/rendez-vous-dexception-avec-laetitia-baque-et-victor-molinie-brodeurs"
+    },
+    {
+      "label": "Paris Musées, Journées européennes des métiers d'art 2026",
+      "url": "https://www.parismusees.paris.fr/fr/actualite/journees-europeennes-des-metiers-d-art-2026"
+    },
+    {
+      "label": "Luxury Place, Rouge G Majestic Feather (7 septembre 2026)",
+      "url": "https://luxury-place.fr/2026/09/07/rouge-g-majestic-feather-quand-la-haute-broderie-rencontre-lart-du-maquillage/"
+    },
+    {
+      "label": "Carpet Diem Paris, fiche exposant Baqué Molinié",
+      "url": "https://www.carpetdiemparis.com/exhibitors-2025/baque-molinie"
+    },
+    {
+      "label": "Offi, Tisser, broder, sublimer",
+      "url": "https://www.offi.fr/tendances/expositions-musees/expo-tisser-broder-sublimer-les-dessous-chics-de-la-haute-couture-971.html"
+    },
+    {
+      "label": "A Shaded View on Fashion, dates de Tisser, broder, sublimer",
+      "url": "https://ashadedviewonfashion.com/2025/12/11/tisser-broder-sublimer-the-art-of-fashions-savoir-faire-at-palais-galliera-december-13-october-18th/"
+    }
+  ],
+  "researchNotes": "Date de fondation à confirmer : Homo Faber, Pinton et le Palais Galliera disent que le duo s'est associé en 2011, mais Carpet Diem Paris (et, d'après des extraits de recherche, Guerlain) parlent d'un studio fondé en 2018. Hypothèse : association en 2011, structure actuelle en 2018. Adresse : Homo Faber indique 70 rue René Boulanger, 75010 Paris ; Carpet Diem et Pinton parlent de la cité artisanale de la Villa du Lavoir, sans que j'aie pu vérifier que c'est la même adresse. Pages Guerlain (fiche Rouge G Majestic Feather, page du Flacon aux Abeilles Métier d'Art) bloquées (403), donc non lues : d'après les extraits de recherche, le duo aurait aussi brodé pour Guerlain le dôme d'un Flacon aux Abeilles pour le premier Aïd (perles de nacre et cabochons de pierre de lune, inspiration Alhambra) ; laissé hors du portrait. Date exacte de sortie du Rouge G Majestic Feather non trouvée (article du 7 septembre 2026). Le lien Homo Faber 2024 vient de la fiche Homo Faber, sans pièce exposée identifiée. Carpet Diem Paris : fiche exposant (URL 2025, en-tête Paris 2026) sans dates de salon ; images titrées Chemin de Velours, Architecture Végétale, Détail Cabochon Brodé, Broderie Métier, non datées. Le site baquemolinie.com n'a pas répondu (connexion réinitialisée) et Instagram n'a pas été lu. Pinton orthographie aussi « Laeticia » ou « Laëticia » ; l'orthographe retenue est Laetitia (Homo Faber, Galliera). Aucune date de naissance publique trouvée, ni de rôle individuel distinct de celui de Victor Molinié : les sources présentent toujours le travail à deux. Photo retirée le 20 octobre 2026 : la capture de Luxury Place ne montrait pas l’atelier."
+}

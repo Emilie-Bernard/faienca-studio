@@ -1,0 +1,255 @@
+{
+  "name": "Maison Sekimoto",
+  "city": "Plan-de-Cuques",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "country": "France",
+  "foundedDate": "2022",
+  "closedDate": "",
+  "founders": [
+    "Satoshi Sekimoto",
+    "Laurent Sekimoto"
+  ],
+  "people": [
+    {
+      "name": "Satoshi Sekimoto",
+      "role": "cofondateur et brodeur, Meilleur Ouvrier de France broderie haute couture (2015), Maître Artisan d'Art (2023), formé à l'école Lesage"
+    },
+    {
+      "name": "Laurent Sekimoto",
+      "role": "cofondateur, stratégie et développement, issu du secteur du luxe"
+    },
+    {
+      "name": "Thomas Lafont",
+      "role": "directeur artistique de la Maison Lafont, partenaire de la collaboration « Ouvrage » (2023)"
+    }
+  ],
+  "techniques": [
+    "Broderie haute couture",
+    "Crochet de Lunéville",
+    "Broderie à l'aiguille",
+    "Broderie de perles et de paillettes",
+    "Broderie architecturale et d'objets (lunettes, abat-jour, bijoux, masques, tableaux)"
+  ],
+  "clients": [
+    "Lafont (lunettes)",
+    "Maisons de luxe (non nommées)",
+    "Architectes et designers",
+    "Collectionneurs"
+  ],
+  "labels": [
+    "Meilleur Ouvrier de France broderie haute couture (2015)",
+    "Maître Artisan d'Art (2023)",
+    "Silmo d'Or 2023, Prix spécial du jury (avec Lafont)",
+    "Membre d'Ateliers d'Art de France"
+  ],
+  "summary": "Maison de broderie haute couture fondée en 2022 à Plan-de-Cuques par Satoshi Sekimoto, Meilleur Ouvrier de France formé à l'école Lesage, et Laurent Sekimoto, qui mêle savoir-faire français et sensibilité japonaise dans des objets brodés, des tableaux et des collaborations.",
+  "history": "Satoshi Sekimoto est né à Hiroshima, au Japon. Sa mère, couturière de kimonos, lui transmet très tôt le goût du travail de la main. À 22 ans, il s'installe en France et entre à l'école Lesage, la grande école de broderie haute couture. En 2006, il fait partie de l'équipe qui prépare le livre « École Lesage chez vous » (éditions Tana), où son nom figure au générique.\n\nIl travaille ensuite comme brodeur indépendant pour des maisons de haute couture. En 2015, il obtient le titre de Meilleur Ouvrier de France en broderie haute couture : médailles à la Sorbonne en avril, réception à l'Élysée en juillet, diplôme remis en novembre. Il expose ensuite à Tokyo et Hiroshima (2016) et participe à l'exposition des Meilleurs Ouvriers de France au Musée des Arts et Métiers (2017-2018).\n\nEn 2022, il s'installe en Provence et fonde la Maison Sekimoto avec Laurent, qui a grandi à Plan-de-Cuques et vient du luxe. La maison est lancée au salon d'optique Silmo à Paris en septembre 2022. Chaque projet se construit à quatre mains : Satoshi à la broderie, Laurent à la stratégie.\n\nEn 2023, pour les cent ans du lunetier parisien Lafont, la maison brode avec Thomas Lafont la monture « Ouvrage », traitée comme une robe de couture, perles et ornements en haut de la face, en noir et en vert. Elle reçoit le Prix spécial du jury du Silmo d'Or 2023. La même année, Satoshi est reconnu Maître Artisan d'Art.\n\nAujourd'hui, la maison crée des collections inspirées de la nature et du Japon (cigales, scarabées, mantes, papillons de nuit, boucles « Gilda », abat-jour), des tableaux brodés comme le triptyque « Trame de vie », et des pièces sur mesure pour des maisons de luxe, des architectes et des institutions. Elle expose dans les salons d'optique (Silmo, MIDO, OPTI, IOFT, Vision Expo) et dans les rendez-vous des métiers d'art, des Baux-de-Provence au Palais de la Porte Dorée.",
+  "training": "",
+  "website": "https://maisonsekimoto.com/",
+  "instagram": "https://www.instagram.com/maisonsekimoto",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "2006-11",
+      "kind": "oeuvre",
+      "label": "Satoshi Sekimoto participe au livre « École Lesage chez vous » (Tana)"
+    },
+    {
+      "date": "2015-04-16",
+      "kind": "prix",
+      "label": "Remise des médailles Meilleur Ouvrier de France à la Sorbonne"
+    },
+    {
+      "date": "2015-06",
+      "kind": "exposition",
+      "label": "Exposition des chefs-d'œuvre des MOF au Viaduc des Arts, Paris"
+    },
+    {
+      "date": "2015-11-12",
+      "kind": "prix",
+      "label": "Diplôme de Meilleur Ouvrier de France en broderie haute couture, préfecture des Hauts-de-Seine"
+    },
+    {
+      "date": "2016-10",
+      "kind": "exposition",
+      "label": "Expositions Satoshi Sekimoto à Tokyo et à Hiroshima"
+    },
+    {
+      "date": "2017-05",
+      "kind": "exposition",
+      "label": "Exposition « Les Meilleurs Ouvriers de France », Musée des Arts et Métiers, Paris (jusqu'en janvier 2018)"
+    },
+    {
+      "date": "2022",
+      "kind": "vie",
+      "label": "Satoshi et Laurent Sekimoto fondent la Maison Sekimoto à Plan-de-Cuques"
+    },
+    {
+      "date": "2022-09",
+      "kind": "exposition",
+      "label": "Lancement de la maison au salon Silmo Paris"
+    },
+    {
+      "date": "2023-09",
+      "kind": "residence",
+      "label": "Monture brodée « Ouvrage » avec Lafont pour son centenaire"
+    },
+    {
+      "date": "2023-09",
+      "kind": "prix",
+      "label": "Silmo d'Or 2023, Prix spécial du jury, avec Lafont"
+    },
+    {
+      "date": "2023",
+      "kind": "prix",
+      "label": "Satoshi Sekimoto reconnu Maître Artisan d'Art"
+    },
+    {
+      "date": "2024-05",
+      "kind": "exposition",
+      "label": "le19M Marseille, au Mucem et au Palais du Pharo"
+    },
+    {
+      "date": "2025-10",
+      "kind": "exposition",
+      "label": "Salon des artisans d'excellence, Palais de la Porte Dorée, Paris"
+    }
+  ],
+  "works": [
+    {
+      "title": "Gilet brodé du concours Meilleur Ouvrier de France",
+      "year": "2015",
+      "technique": "Satoshi Sekimoto · broderie haute couture",
+      "description": "Gilet brodé pour le concours « Un des Meilleurs Ouvriers de France », exposé au Viaduc des Arts à Paris du 17 au 27 juin 2015 avec les chefs-d'œuvre des lauréats.",
+      "url": "https://maisonsekimoto.com/exhibition-of-the-masterpieces-of-the-meilleurs-ouvriers-de-france/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2015/06/Viaduc_des_arts1.jpg"
+    },
+    {
+      "title": "Abat-jour Gilda noir",
+      "year": "2022",
+      "technique": "Maison Sekimoto · broderie de perles, collection Diva",
+      "description": "Abat-jour brodé par Satoshi Sekimoto, présenté par la maison comme une pièce unique de la collection Diva.",
+      "url": "https://maisonsekimoto.com/fr/product/abat-jour-gilda-noir/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2022/02/1DA22DG1NN4.jpeg"
+    },
+    {
+      "title": "Cigale volante, broche magnétique noir et or",
+      "year": "2022",
+      "technique": "Maison Sekimoto · broderie, collection Microcosmos",
+      "description": "Broche magnétique en forme de cigale créée par Satoshi Sekimoto pour la collection Microcosmos, inspirée des insectes.",
+      "url": "https://maisonsekimoto.com/fr/product/cigale-volante-noir-or-broche-magnetique/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2022/06/1AB22MC4NO1.jpeg"
+    },
+    {
+      "title": "Papillon de nuit blanc, broche magnétique",
+      "year": "2022",
+      "technique": "Maison Sekimoto · broderie de perles et paillettes, collection Microcosmos",
+      "description": "Broche magnétique en forme de papillon de nuit, brodée de perles et de paillettes noires et blanches, de la collection Microcosmos.",
+      "url": "https://maisonsekimoto.com/fr/product/papillon-de-nuit-blanc-broche-magnetique/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2022/06/1AB22MP1BB1.jpeg"
+    },
+    {
+      "title": "Boucles d'oreilles Gilda blanc et or",
+      "year": "2022",
+      "technique": "Maison Sekimoto · broderie de perles, collection Diva",
+      "description": "Boucles d'oreilles brodées créées par Satoshi Sekimoto pour la collection Diva.",
+      "url": "https://maisonsekimoto.com/fr/product/gilda-blanc-or-boucles-doreilles/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2022/09/1BO22DG1BO1.jpeg"
+    },
+    {
+      "title": "Tableau « Papillons de nuit, l'étreinte »",
+      "year": "2022",
+      "technique": "Maison Sekimoto · broderie sur toile peinte, collection Microcosmos",
+      "description": "Tableau brodé de deux papillons de nuit en relief sur un fond peint, présenté sur la page Collections de la maison.",
+      "url": "https://maisonsekimoto.com/collections/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2022/10/1DT22MP3NB1.jpeg"
+    },
+    {
+      "title": "Triptyque « Trame de vie »",
+      "year": "2023",
+      "technique": "Maison Sekimoto · broderie de galons et perles, collection Pur",
+      "description": "Tableau en trois parties de la collection Pur, aux lignes brodées blanc et argent qui se croisent sur la toile.",
+      "url": "https://maisonsekimoto.com/fr/nos-collections/",
+      "imageUrl": "https://maisonsekimoto.com/wp-content/uploads/2023/02/1DT22AT2BA3.jpeg"
+    },
+    {
+      "title": "Monture « Ouvrage »",
+      "year": "2023",
+      "technique": "Lafont · broderie de perles et fleurs sur lunettes",
+      "description": "Pour les cent ans de Lafont, Satoshi Sekimoto brode avec Thomas Lafont la monture Ouvrage, ornée de perles et de fleurs en haut de la face, éditée en noir et en vert. Elle reçoit le Prix spécial du jury du Silmo d'Or 2023.",
+      "url": "https://www.eyestylist.com/2023/09/silmo-preview-lafont-paris-designs-with-sekimoto/",
+      "imageUrl": "https://www.eyestylist.com/wp-content/uploads/2023/09/Lafont_Ouvrage_noir_face-e1695127686869.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Maison Sekimoto, site officiel",
+      "url": "https://maisonsekimoto.com/"
+    },
+    {
+      "label": "Maison Sekimoto, la Maison",
+      "url": "https://maisonsekimoto.com/fr/maison-sekimoto/"
+    },
+    {
+      "label": "Maison Sekimoto, Satoshi Sekimoto",
+      "url": "https://maisonsekimoto.com/satoshi-sekimoto-en/"
+    },
+    {
+      "label": "Maison Sekimoto, événements",
+      "url": "https://maisonsekimoto.com/events/"
+    },
+    {
+      "label": "Maison Sekimoto, revue de presse",
+      "url": "https://maisonsekimoto.com/media/"
+    },
+    {
+      "label": "Maison Sekimoto, École Lesage chez vous",
+      "url": "https://maisonsekimoto.com/ecole-lesage-chez-vous-en/"
+    },
+    {
+      "label": "Maison Sekimoto, Les MOF du Soleil",
+      "url": "https://maisonsekimoto.com/les-mof-du-soleil-en/"
+    },
+    {
+      "label": "Provence-Alpes-Côte d'Azur Tourisme, fiche Maison Sekimoto",
+      "url": "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/maison-sekimoto-plan-de-cuques-fr-4654141/"
+    },
+    {
+      "label": "Meilleurs Ouvriers de France, fiche Satoshi Sekimoto",
+      "url": "https://www.meilleursouvriersdefrance.info/fiche-mof/satoshi-sekimoto-7965"
+    },
+    {
+      "label": "Eyestylist, Silmo preview: Lafont Paris designs with Sekimoto (2023)",
+      "url": "https://www.eyestylist.com/2023/09/silmo-preview-lafont-paris-designs-with-sekimoto/"
+    },
+    {
+      "label": "Maison Sekimoto, nos collections",
+      "url": "https://maisonsekimoto.com/fr/nos-collections/"
+    },
+    {
+      "label": "Maison Sekimoto, collections (version anglaise)",
+      "url": "https://maisonsekimoto.com/collections/"
+    },
+    {
+      "label": "Maison Sekimoto, exposition des chefs-d'œuvre des MOF (2015)",
+      "url": "https://maisonsekimoto.com/exhibition-of-the-masterpieces-of-the-meilleurs-ouvriers-de-france/"
+    },
+    {
+      "label": "Maison Sekimoto, abat-jour Gilda noir",
+      "url": "https://maisonsekimoto.com/fr/product/abat-jour-gilda-noir/"
+    },
+    {
+      "label": "Maison Sekimoto, broche Cigale volante noir or",
+      "url": "https://maisonsekimoto.com/fr/product/cigale-volante-noir-or-broche-magnetique/"
+    },
+    {
+      "label": "Maison Sekimoto, broche Papillon de nuit blanc",
+      "url": "https://maisonsekimoto.com/fr/product/papillon-de-nuit-blanc-broche-magnetique/"
+    },
+    {
+      "label": "Maison Sekimoto, boucles d'oreilles Gilda blanc or",
+      "url": "https://maisonsekimoto.com/fr/product/gilda-blanc-or-boucles-doreilles/"
+    }
+  ],
+  "researchNotes": "Le nom de l'associé : le site de la maison le présente comme « Laurent Sekimoto » (page La Maison, et auteur d'un billet du 5 décembre 2022) ; la fiche tourisme et Eyestylist disent seulement « Laurent ». Son nom de naissance n'est pas confirmé. L'adresse de l'atelier (70 avenue Frédéric Chevillon, Plan-de-Cuques) vient de la fiche tourisme mise à jour par la CMA PACA en juin 2025. L'arrivée en France à 22 ans et l'école Lesage viennent d'Eyestylist : l'année d'arrivée, la durée des études et les maisons de couture pour lesquelles il a travaillé ne sont nommées nulle part ; l'article du Japan Times (mars 2020) qui raconte son parcours n'a pas pu être lu (accès refusé). Selon la fiche tourisme, c'est Laurent qui a fait reconnaître Satoshi Maître Artisan d'Art en 2023 ; la fiche mentionne aussi un partenariat avec un autre MOF au lancement de 2022, non nommé. La page événements donne la cérémonie du Silmo d'Or au 30 septembre 2023 avec une coquille (« 09/30/233 »). Aucune formation, aucun stage ni accueil d'apprentis n'est mentionné : à demander directement à la maison. Galerie (20 octobre 2026) : les années des pièces de collection sont déduites des dossiers de mise en ligne du site (2022 ou 2023) et non d'une date de création publiée, à confirmer avec la maison. Aucune photo de l'atelier de Plan-de-Cuques (intérieur ou broderie en cours) n'a été trouvée : la photo de la page La Maison est un portrait des fondateurs, écartée. Les pièces sur mesure pour des maisons de luxe ou des architectes ne sont ni nommées ni illustrées dans les sources lues."
+}

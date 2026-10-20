@@ -1,0 +1,154 @@
+{
+  "name": "Chloe Giordano",
+  "country": "Royaume-Uni",
+  "city": "York",
+  "zone": "europe",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "peinture à l'aiguille à main levée (needle painting)",
+    "broderie au fil à coudre plutôt qu'au mouliné",
+    "tissus teints à la main",
+    "dessins préparatoires au crayon",
+    "illustration brodée pour couvertures de livres",
+    "petites sculptures en 3D"
+  ],
+  "summary": "Brodeuse et illustratrice anglaise installée à York, Chloe Giordano brode à main levée de minuscules animaux des bois (lièvres, faons, lapins, souris) avec du simple fil à coudre sur des tissus qu'elle teint elle-même. Elle a signé des couvertures pour Penguin, Bloomsbury ou Canongate, deux livres chez Search Press et un cours Domestika de peinture à l'aiguille.",
+  "biography": "Chloe Giordano est originaire du Buckinghamshire. Elle a étudié l'illustration à l'University of the West of England et c'est pendant sa dernière année de licence qu'elle s'est mise à coudre. Diplômée en 2011, elle se dit entièrement autodidacte en broderie : elle a appris en expérimentant et en se trompant. En 2014, quand le magazine Colossal la fait connaître, elle vit à Oxford ; aujourd'hui elle vit et travaille dans le North Yorkshire, à York.\n\nSa marque de fabrique, ce sont des animaux minuscules, parfois à peine plus grands qu'un dé à coudre ou qu'une pièce de monnaie : un faon endormi, une souris, des lièvres et des lapins. Elle les brode à main levée, en peinture à l'aiguille, en mélangeant beaucoup de couleurs de fil pour un seul sujet, ce qui demande du temps. Particularité utile pour l'atelier : elle travaille avec du fil à coudre et non du mouliné, sur des tissus qu'elle teint à la main, et elle prépare beaucoup de détails au crayon avant de broder. Ses animaux flottent souvent dans un champ de fleurs, de feuilles ou de brindilles, et leurs ombres et lumières leur donnent presque du relief.\n\nÀ côté de ses pièces personnelles, elle illustre en broderie, typographie comprise. Elle a réalisé des couvertures pour Penguin (Miss Austen et The Elopement de Gill Hornby, la biographie de Charlotte Brontë par Claire Harman chez Viking), Harvill Secker (The Comet Seekers de Helen Sedgwick), Canongate (The Penelopiad de Margaret Atwood), Bloomsbury (Alias Grace), le BFI (The Wizard of Oz par Salman Rushdie), Quarto pour des livres d'enfants, ainsi qu'un lapin pour une boîte de Zoologist Perfumes. Ses pièces ont aussi été vendues chez Liberty à Londres. Licences et commandes passent par son agent, Jehane Ltd.\n\nEn 2019 paraît chez Search Press « The Embroidered Art of Chloe Giordano », qui suit un projet de bout en bout (dessin, choix des couleurs et des fils, montage sur tambour, encadrement) puis présente ses lièvres, renards, faons et lapins avec l'histoire de chaque pièce. Le livre a aussi une édition japonaise. En juin 2024, Search Press en publie une version de poche augmentée de trois nouvelles œuvres, « Needlepainted Woodland Animals » (192 pages).\n\nPour la stagiaire : son cours Domestika « Peinture à l'aiguille à main levée : brodez toute la beauté de la faune sauvage » (titre anglais « Freehand Needle Painting: Embroider the Beauty of Wildlife ») existe en audio français. Il compte 15 leçons, environ 2 h 05 de vidéo et 9 ressources ; on y apprend à dessiner l'animal d'après photo, choisir couleurs et dégradés, transférer le motif, broder un écureuil de la tête à la queue, puis finir et photographier la pièce. Domestika l'annonce niveau débutant, mais demande une première expérience en broderie.\n\nDernières pièces visibles sur son site : « You Are the Call, I am the Answer » (2021), « Fiat Lux » (2022) et « Starry Messenger » (2023), présentées dans des cadres ronds en bois. Elle s'occupe aussi d'un cimetière de village qu'elle gère pour la nature et dont elle parle sur Substack, « A Wild Churchyard ».",
+  "website": "https://www.chloegiordano.com",
+  "instagram": "https://www.instagram.com/chloegiordano_embroidery/",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Starry Messenger",
+      "year": "2023",
+      "technique": "peinture à l'aiguille au fil à coudre, cadre rond en bois",
+      "description": "Un lièvre bondissant sur un fond bleu nuit étoilé, au-dessus d'une prairie fleurie, accompagné d'un petit oiseau.",
+      "url": "https://www.chloegiordano.com/animal-embroideries",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/b60b9843-68a6-4127-a55b-2898e722b7f2/harefin3.jpg"
+    },
+    {
+      "title": "Fiat Lux",
+      "year": "2022",
+      "technique": "peinture à l'aiguille au fil à coudre, cadre rond en bois",
+      "description": "Un faon couché dans l'herbe verte semée de fleurs rouges et roses, entouré de petits oiseaux.",
+      "url": "https://www.chloegiordano.com/animal-embroideries",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/47ef9c45-817b-42e9-8599-ea21fb3a8e0f/fiatluxflatlay1.jpg"
+    },
+    {
+      "title": "You Are the Call, I am the Answer",
+      "year": "2021",
+      "technique": "peinture à l'aiguille au fil à coudre, cadre rond en bois",
+      "description": "Un faon endormi, roulé en boule dans un sous-bois vert piqué de minuscules fleurs.",
+      "url": "https://www.chloegiordano.com/animal-embroideries",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/5d909f62-ae42-4f94-bc67-dc06eadf5cda/fawnfin2.jpg"
+    },
+    {
+      "title": "The Comet Seekers (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée du roman de Helen Sedgwick pour Harvill Secker (Vintage Books).",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/de8fc1ea-1791-4df9-91ad-dffa9b44bc41/cometseekerspro1.jpg"
+    },
+    {
+      "title": "The Penelopiad (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée du livre de Margaret Atwood pour Canongate, sur une maquette de Rafi Romaya.",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/96937fea-e32a-4b98-ab7e-9890196121cf/penelopiadfin.jpg"
+    },
+    {
+      "title": "Alias Grace (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée du roman de Margaret Atwood pour Bloomsbury.",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/3ae1a175-26d1-41c2-9e74-17b800b9719a/atwoodpro8.jpg"
+    },
+    {
+      "title": "Miss Austen (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée du roman de Gill Hornby pour Penguin Books.",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/4887ee10-2739-4353-9479-186926ea9b7d/missaustenwebsite.jpg"
+    },
+    {
+      "title": "The Elopement (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée du roman de Gill Hornby pour Penguin Books.",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/3f830057-7add-422f-8972-3f59694922e6/elopement.jpeg"
+    },
+    {
+      "title": "Charlotte Brontë (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée de la biographie de Charlotte Brontë par Claire Harman, chez Penguin (Viking).",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/e316822f-bbb2-4a66-bfe5-e1b0d17bae4b/brontew1.jpg"
+    },
+    {
+      "title": "The Wizard of Oz (couverture)",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Couverture brodée de l'essai de Salman Rushdie sur le film, pour le BFI.",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/0740473c-9557-4429-a2ec-9a917b7b4ab7/wizard800.jpg"
+    },
+    {
+      "title": "Boîte de parfum au lapin, Zoologist Perfumes",
+      "year": "",
+      "technique": "illustration brodée",
+      "description": "Lapin brodé pour l'emballage d'un parfum de la marque Zoologist Perfumes.",
+      "url": "https://www.chloegiordano.com/publishing",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/7cb3e131-0bab-4dd7-bb4d-1e405cc9bd3b/zflatlay2.jpg"
+    },
+    {
+      "title": "The Embroidered Art of Chloe Giordano (livre)",
+      "year": "2019",
+      "technique": "livre technique et monographie",
+      "description": "Premier livre chez Search Press : fournitures, inspiration, composition, méthode pas à pas puis ses animaux classés par sujet (lièvres, renards, faons, lapins). Pas de liste de couleurs ni de placement point par point : chacun garde sa propre interprétation.",
+      "url": "https://www.needlenthread.com/2019/08/embroidered-art-Chloe-giordano.html",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/fec5a768-042e-48aa-989d-d176e51311c0/book1.jpg"
+    },
+    {
+      "title": "Needlepainted Woodland Animals (livre)",
+      "year": "2024-06",
+      "technique": "livre technique et monographie",
+      "description": "Réédition de poche augmentée de trois nouvelles œuvres, 192 pages, chez Search Press.",
+      "url": "https://www.searchpress.com/book/9781800922488/chloe-giordano-needlepainted-woodland-animals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/639980fddd2a5d7ead69adb2/db6320b4-323f-4ab6-acd3-ec341aade3d1/newbook3.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "2011", "kind": "formation", "label": "Diplômée en illustration de l'University of the West of England, où elle a commencé à coudre en dernière année" },
+    { "date": "2014-08", "kind": "autre", "label": "Colossal publie ses minuscules animaux brodés ; elle vit alors à Oxford" },
+    { "date": "2015-07", "kind": "autre", "label": "Nouvel article de Colossal sur ses animaux densément brodés" },
+    { "date": "2017-01", "kind": "autre", "label": "Colossal consacre un troisième article à ses broderies" },
+    { "date": "2019", "kind": "oeuvre", "label": "Parution de « The Embroidered Art of Chloe Giordano » chez Search Press" },
+    { "date": "2021", "kind": "oeuvre", "label": "« You Are the Call, I am the Answer »" },
+    { "date": "2021-02", "kind": "autre", "label": "Rejoint Domestika, qui propose son cours de peinture à l'aiguille" },
+    { "date": "2022", "kind": "oeuvre", "label": "« Fiat Lux »" },
+    { "date": "2023", "kind": "oeuvre", "label": "« Starry Messenger »" },
+    { "date": "2024-06-14", "kind": "oeuvre", "label": "Parution de « Needlepainted Woodland Animals », réédition augmentée chez Search Press" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Colossal, Tiny Embroidered Animals by Chloe Giordano (2014)", "url": "https://www.thisiscolossal.com/2014/08/tiny-embroidered-animals-by-chloe-giordano/" },
+    { "label": "Colossal, New Impossibly Intricate Embroideries by Chloe Giordano (2017)", "url": "https://www.thisiscolossal.com/2017/01/new-impossibly-intricate-embroideries-by-chloe-giordano/" },
+    { "label": "Site de Chloe Giordano, accueil", "url": "https://www.chloegiordano.com" },
+    { "label": "Site de Chloe Giordano, About & Contact", "url": "https://www.chloegiordano.com/about" },
+    { "label": "Site de Chloe Giordano, Animal Embroideries", "url": "https://www.chloegiordano.com/animal-embroideries" },
+    { "label": "Site de Chloe Giordano, Publishing & Design", "url": "https://www.chloegiordano.com/publishing" },
+    { "label": "Domestika, profil de Chloe Giordano", "url": "https://www.domestika.org/fr/chloegiordano" },
+    { "label": "Domestika, cours Peinture à l'aiguille à main levée", "url": "https://www.domestika.org/fr/courses/2532-peinture-a-l-aiguille-a-main-levee-brodez-toute-la-beaute-de-la-faune-sauvage" },
+    { "label": "Search Press, Needlepainted Woodland Animals", "url": "https://www.searchpress.com/book/9781800922488/chloe-giordano-needlepainted-woodland-animals" },
+    { "label": "Needle 'n Thread, critique de The Embroidered Art of Chloe Giordano (2019)", "url": "https://www.needlenthread.com/2019/08/embroidered-art-Chloe-giordano.html" },
+    { "label": "Mr X Stitch, The Embroidered Art of Chloe Giordano", "url": "https://www.mrxstitch.com/chloe-giordano-embroidered-art/" }
+  ],
+  "researchNotes": "Date de naissance non publique. Pas de photo d'elle vérifiable (l'image de la page About est une capture d'écran sans texte alternatif, l'avatar Domestika est générique) : photoUrl laissé vide. Aucune actualité (exposition, salon) trouvée pour 2025-2026 : news vide ; vérifier son Instagram et sa newsletter. Le mois exact de parution du livre de 2019 n'est pas confirmé sur une page lue (la critique Needle 'n Thread du 5 août 2019 l'annonce comme imminent) ; l'ISBN 9781782215837 apparaît dans la fiche PDF de l'éditeur, illisible. Le lien entre les deux livres (réédition) est indiqué par la consigne et par des résultats de recherche, la page Search Press dit seulement « expanded paperback edition ». Les années des couvertures ne sont pas données sur son site. Le niveau du cours Domestika est contradictoire (débutant, mais expérience préalable requise) ; la liste des sous-titres n'est pas étiquetée clairement. Les années 2014 (Oxford) et aujourd'hui (York, North Yorkshire) sont sourcées, la date du déménagement ne l'est pas. Le prix et le nombre d'élèves du cours (3 821 au moment de la lecture) changent souvent."
+}

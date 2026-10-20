@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Lesage",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "1924",
+    "people": "Albert et Marie-Louise Lesage (reprise de l'atelier Michonet en 1924), François Lesage (1929-2011) ; Hubert Barrère, directeur artistique",
+    "why": "La maison de référence de la broderie haute couture (aiguille et crochet de Lunéville), rattachée à Chanel (Paraffection) et installée au 19M ; elle a fêté ses 100 ans en 2024.",
+    "website": "https://www.le19m.com/en/houses/lesage",
+    "sources": [
+      "https://www.paris.fr/evenements/lesage-100-ans-de-mode-et-de-decoration-a-admirer-a-la-galerie-du-19m-66862",
+      "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage"
+    ]
+  },
+  {
+    "name": "Atelier Montex",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "1949",
+    "people": "Jacques Lemonier (fondateur) ; Annie Trussart, directrice artistique à partir des années 1980",
+    "why": "Brodeur de haute couture à l'approche très contemporaine, maison Chanel installée au 19M ; il a donné naissance à Studio MTX (broderie pour l'architecture intérieure, 2013). Homo Faber indique 1939 comme date de fondation, le 19M donne 1949.",
+    "website": "",
+    "sources": [
+      "https://www.homofaber.com/en/artisans/atelier_montex-embroidery-paris",
+      "https://www.paris.fr/evenements/le-19m-ouvre-ses-portes-pour-les-journees-europeennes-du-patrimoine-123689"
+    ]
+  },
+  {
+    "name": "Hurel",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "1879",
+    "people": "Famille Hurel, 5e et 6e générations : Martin, et ses neveux Baptiste et Paul de Bermingham",
+    "why": "Présenté comme le plus ancien atelier de broderie de Paris, toujours familial : broderie main au crochet de Lunéville et à l'aiguille pour la haute couture, y compris sur des supports inattendus (plastique, papier).",
+    "website": "http://www.hurel.fr",
+    "sources": [
+      "https://www.homofaber.com/en/artisans/hurel-embroidery-france"
+    ]
+  },
+  {
+    "name": "Les Ateliers Vermont",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "1956",
+    "people": "Jean-Eudes Néton, directeur de la création",
+    "why": "Atelier parisien qui brode pour les grandes maisons de haute couture depuis 1956, et qui collabore aussi avec le luxe (éditions brodées pour Guerlain, Jimmy Choo). Aucune page lue ne le rattache au 19M de Chanel. L'appartenance à Dior, évoquée dans des résultats de recherche, n'a pas été confirmée sur une page lue.",
+    "website": "",
+    "sources": [
+      "https://www.french-luxe.com/actualites-objets-collectors-luxe-france/l-edition-limitee-cherry-blossom-par-les-ateliers-vermont"
+    ]
+  },
+  {
+    "name": "Atelier Baqué Molinié",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "2011",
+    "people": "Laetitia Baqué et Victor Molinié (diplômés de l'ENSAAMA Duperré)",
+    "why": "Le duo de brodeurs indépendants le plus en vue de la nouvelle génération parisienne : commandes pour la mode et le luxe, et projets qui sortent la broderie de l'ornement vers l'art.",
+    "website": "https://www.baquemolinie.com",
+    "sources": [
+      "https://www.homofaber.com/en/artisans/atelier-baqu-molini-iwob9t"
+    ]
+  },
+  {
+    "name": "Atelier Ennji (Maison Ennji)",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "",
+    "people": "Jocelyne Kurc, Meilleur Ouvrier de France",
+    "why": "Atelier-école parisien dirigé par une MOF, qui réalise des broderies sur commande et tient une boutique en plus de ses cours.",
+    "website": "https://www.atelier-ennji.com/en",
+    "sources": [
+      "https://www.atelier-ennji.com/en"
+    ]
+  },
+  {
+    "name": "Atelier Brigitte Duros",
+    "city": "Paris (14e)",
+    "region": "Île-de-France",
+    "active": true,
+    "founded": "",
+    "people": "Brigitte Duros, tapissier-décorateur et brodeuse, formée dix ans aux ateliers Brocard",
+    "why": "Spécialiste de la restauration et de la reproduction de broderies et tapisseries d'ameublement anciennes (chambre du roi à Versailles, tapis « Perroquets » d'Yves Saint Laurent, canevas perlés du XIXe siècle).",
+    "website": "https://atelierbrigitteduros.wordpress.com/",
+    "sources": [
+      "https://atelierbrigitteduros.wordpress.com/"
+    ]
+  },
+  {
+    "name": "L'atelier du Bégonia d'Or",
+    "city": "Rochefort",
+    "region": "Nouvelle-Aquitaine",
+    "active": true,
+    "founded": "1995",
+    "people": "Sylvie Deschamps (Maître d'art brodeuse au fil d'or) ; Marlène Rouhaud (première d'atelier, son ancienne élève de Maître d'art) ; Thierry Tarrade (formations)",
+    "why": "L'atelier de référence de la broderie or en France, héritier de la tradition de l'Arsenal de Rochefort : haute couture, broderie militaire et liturgique, et restauration de bannières et drapeaux anciens.",
+    "website": "https://www.broderieor.com/",
+    "sources": [
+      "https://www.broderieor.com/",
+      "https://rochefort-ocean.com/en/plan-your-stay/made-in-rochefort-ocean/shopping/le-begonia-d-or-atelier-de-broderie-1069226",
+      "https://www.homofaber.com/en/artisans/sylvie-deschamps-gold-thread-embroidery-france"
+    ]
+  },
+  {
+    "name": "Conservatoire des Broderies de Lunéville François-Remy",
+    "city": "Lunéville",
+    "region": "Grand Est",
+    "active": true,
+    "founded": "1998",
+    "people": "",
+    "why": "Association installée au château de Lunéville qui conserve, expose et enseigne le point de Lunéville (inscrit au patrimoine culturel immatériel) et la broderie perlée et pailletée. Les pages lues ne décrivent pas d'activité de production sur commande.",
+    "website": "https://www.broderie-luneville.com",
+    "sources": [
+      "https://tourisme-meurtheetmoselle.fr/en/accueil/lessentiel/patrimoine/musees/742000025-conservatoire-des-broderies-de-luneville-francois-remy"
+    ]
+  },
+  {
+    "name": "Maison Vuillaume (Atelier Vuillaume broderies)",
+    "city": "Diarville",
+    "region": "Grand Est",
+    "active": true,
+    "founded": "1850",
+    "people": "Entreprise familiale, dirigeants non nommés ; 8 salariés",
+    "why": "Plus ancienne entreprise lorraine de broderie encore en activité, labellisée EPV : broderie perlée au crochet de Lunéville et à l'aiguille pour la haute couture, le prêt-à-porter et la maroquinerie. L'annuaire Savoir-Faire indique aussi 1977 comme année de création de la société actuelle.",
+    "website": "https://maison-vuillaume.fr/",
+    "sources": [
+      "https://www.institut-savoirfaire.fr/acteur/atelier-vuillaume-broderies",
+      "https://maison-vuillaume.fr/"
+    ]
+  },
+  {
+    "name": "Maison Le Minor",
+    "city": "Pont-l'Abbé",
+    "region": "Bretagne",
+    "active": true,
+    "founded": "1936",
+    "people": "Marie-Anne Le Minor (fondatrice) ; Gildas Le Minor",
+    "why": "Maison de broderie bigoudène (costumes, coiffes, bannières, grandes broderies monumentales avec Dom Robert, Toulhoat, puis Cudennec et Le Gac) dont les ateliers produisent toujours ; ses 90 ans ont été célébrés en 2026.",
+    "website": "",
+    "sources": [
+      "https://unidivers.fr/musee-bigouden-grande-broderie-le-minor-pont-labbe/"
+    ]
+  },
+  {
+    "name": "Brodeline",
+    "city": "Treffléan",
+    "region": "Bretagne",
+    "active": true,
+    "founded": "",
+    "people": "Céline Le Belz, Meilleur Ouvrier de France",
+    "why": "Atelier de broderie d'art exclusivement à la main, tenu par une MOF, qui fait aussi de la restauration de bannières liturgiques des XIXe et XXe siècles.",
+    "website": "https://www.brodeline.com",
+    "sources": [
+      "https://www.brodeline.com/restauration-de-banni%C3%A8res"
+    ]
+  },
+  {
+    "name": "L'Atelier Emmaelle",
+    "city": "Lisieux",
+    "region": "Normandie",
+    "active": true,
+    "founded": "2006",
+    "people": "Emmanuelle Ytournel",
+    "why": "Atelier de broderie or et de broderie d'art qui travaille les techniques anciennes, la restauration de broderies anciennes et l'ornementation de costumes.",
+    "website": "https://www.atelier-emmaelle.fr",
+    "sources": [
+      "https://www.atelier-emmaelle.fr/index.php?id=accueil"
+    ]
+  },
+  {
+    "name": "Atelier Aurea",
+    "city": "",
+    "region": "Normandie",
+    "active": true,
+    "founded": "2024",
+    "people": "Constance Chartier (formée à l'école Lesage et auprès de Sylvie Deschamps)",
+    "why": "Jeune atelier de broderie or héraldique (armoiries, monogrammes, drapeaux) qui restaure aussi des pièces anciennes pour des collectivités et des offices de tourisme.",
+    "website": "https://www.atelieraureafrance.com",
+    "sources": [
+      "https://www.atelieraureafrance.com/notrehistoire"
+    ]
+  },
+  {
+    "name": "Atelier d'Elisabeth Gasbarre",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "active": true,
+    "founded": "",
+    "people": "Elisabeth Gasbarre (formée à l'école Lesage, passée par l'atelier Cécile Henri)",
+    "why": "Brodeuse d'art lyonnaise avec plus de 25 ans de pratique : pièces pour Dior, Chanel, Azzaro et Hermès, prototypes haute couture, et un atelier de formation (perles, paillettes, crochet de Lunéville).",
+    "website": "",
+    "sources": [
+      "https://www.funbooker.com/fr/category/atelier-broderie/lyon"
+    ]
+  },
+  {
+    "name": "L'Orée - De fils en liens (ex-Maison des Grenadières)",
+    "city": "Cervières",
+    "region": "Auvergne-Rhône-Alpes",
+    "active": true,
+    "founded": "",
+    "people": "",
+    "why": "Atelier-musée de la broderie or du Haut-Forez, où les « grenadières » brodaient les insignes militaires, de police et de pompiers ; une brodeuse y fait des démonstrations, mais les pages lues ne décrivent pas de production sur commande.",
+    "website": "https://www.loree-forez.fr",
+    "sources": [
+      "https://www.loiretourisme.com/en/get-out-and-move/profiter/loree-de-fils-en-liens-cervieres-en-3632074/",
+      "https://www.livetheworld.com/activities/france/maison-des-grenadieres-atelier-musee-de-broderie-au-fil-dor"
+    ]
+  },
+  {
+    "name": "Maison Sekimoto",
+    "city": "Plan-de-Cuques",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "active": true,
+    "founded": "2022",
+    "people": "Satoshi Sekimoto (Meilleur Ouvrier de France broderie haute couture, formé à l'école Lesage) et son associé Laurent",
+    "why": "Maison provençale d'objets et de décors brodés en perles et paillettes, y compris de la broderie architecturale ; son cofondateur est MOF en broderie haute couture.",
+    "website": "https://maisonsekimoto.com",
+    "sources": [
+      "https://provence-alpes-cotedazur.com/sejourner/informations-pratiques/tous-les-services-pratiques/maison-sekimoto-plan-de-cuques-fr-4654141/"
+    ]
+  },
+  {
+    "name": "Rébé",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": false,
+    "founded": "1911",
+    "people": "René Bégué et sa femme Andrée",
+    "why": "Grand brodeur de haute couture de 1911 à 1967, connu pour ses « paillettes nuancées » ; il a brodé pour Balenciaga (1947) et la robe Junon de Dior.",
+    "website": "",
+    "sources": [
+      "https://www.willworksstudios.com/p/every-stitch-has-an-author"
+    ]
+  },
+  {
+    "name": "Michonet",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "active": false,
+    "founded": "1858",
+    "people": "Le brodeur Michonet (prénom non confirmé)",
+    "why": "Brodeur de la cour de Napoléon III et fournisseur de Worth, Paquin et Vionnet ; repris en 1924 par Albert et Marie-Louise Lesage, il est à l'origine de la maison Lesage.",
+    "website": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "name": "Atelier Baqué Molinié",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "2011",
+  "closedDate": "",
+  "founders": [
+    "Laetitia Baqué",
+    "Victor Molinié"
+  ],
+  "people": [
+    {
+      "name": "Laetitia Baqué",
+      "role": "cofondatrice, designer textile et brodeuse, diplômée de l'École Duperré"
+    },
+    {
+      "name": "Victor Molinié",
+      "role": "cofondateur, designer textile et brodeur, diplômé de l'École Duperré"
+    },
+    {
+      "name": "Thierry Kauffmann",
+      "role": "représente l'atelier (Carpet Diem Paris), à l'origine de la collaboration avec Pinton"
+    }
+  ],
+  "techniques": [
+    "Broderie haute couture",
+    "Broderie de perles, de chaînes et de cabochons",
+    "Broderie au fil d'or",
+    "Broderie associée au tuft (tapis d'Aubusson)",
+    "Design textile et placement de broderie sur patron"
+  ],
+  "clients": [
+    "Christian Dior",
+    "Yves Saint Laurent",
+    "Chanel",
+    "Valentino",
+    "Schiaparelli",
+    "Fendi",
+    "Guerlain",
+    "Pinton"
+  ],
+  "labels": [],
+  "summary": "Atelier parisien de broderie haute couture fondé par Laetitia Baqué et Victor Molinié, deux designers textiles sortis de l'École Duperré. Installé dans la cité artisanale de la Villa du Lavoir, il brode pour Dior, Saint Laurent, Chanel ou Guerlain et cherche à faire sortir la broderie de son seul rôle d'ornement.",
+  "history": "Laetitia Baqué et Victor Molinié se rencontrent à l'École supérieure des arts appliqués Duperré, à Paris. Designers textiles tous les deux, ils travaillent d'abord avec des ateliers de broderie en France et en Inde et se forgent un style commun. Ils s'associent en 2011 et créent l'atelier Baqué Molinié, pensé comme un lieu de création, de recherche et d'échange.\n\nL'atelier est installé dans le 10e arrondissement, au 70 rue René Boulanger, dans la cité artisanale de la Villa du Lavoir, ouverte en juin 2019 par la Ville de Paris pour les industries créatives et les métiers d'art. On y croise des designers textiles et de mode, des illustratrices et des artisans brodeurs. Leur devise : « Because making is thinking ». Les visites se font sur rendez-vous.\n\nLa haute couture lui confie des ornements, des pièces uniques et des créations de défilé : Christian Dior, Yves Saint Laurent, Chanel, Valentino, Schiaparelli ou Fendi. Pour Guerlain, l'atelier habille régulièrement des écrins : l'abeille au fil d'or et aux perles du Rouge G des Fêtes 2021, l'étoile filante en perles argent et or du Rouge G de Noël 2022, le dôme brodé de perles de nacre et de pierres de lune du Flacon aux Abeilles Perle Impériale, inspiré de l'Alhambra, puis en 2026 la plume en chaînes dorées et perles rougeoyantes du Rouge G Majestic Feather, une édition de 615 exemplaires numérotés.\n\nL'atelier aime croiser la broderie avec d'autres disciplines. En 2023, Thierry Kauffmann propose une rencontre avec la manufacture de tapis Pinton : elle donne naissance à Cycle, un tuft de velours aux verts dégradés rehaussé de broderie haute couture, dans un cadre de 1,40 m de côté.\n\nAujourd'hui, l'atelier figure dans le guide Homo Faber (édition 2024) et dans l'exposition « Tisser, broder, sublimer. Les savoir-faire de la mode » au Palais Galliera (13 décembre 2025 au 18 octobre 2026), où il illustre une broderie qui s'étend à d'autres champs. Le 7 avril 2026, pendant les Journées européennes des métiers d'art, les deux fondateurs y ont animé un Rendez-vous d'exception, affiché complet.",
+  "training": "",
+  "website": "https://www.baquemolinie.com",
+  "instagram": "https://www.instagram.com/baque_molinie",
+  "photoUrl": "https://2022.homofaber.com/uploads/cache/msmall/1690379618_2-baque-molinie_27-06-22-maxime-huriez_2056_web-jp.jpeg",
+  "timeline": [
+    {
+      "date": "2011",
+      "kind": "vie",
+      "label": "Laetitia Baqué et Victor Molinié, rencontrés à l'École Duperré, s'associent et créent l'atelier Baqué Molinié"
+    },
+    {
+      "date": "2019-06",
+      "kind": "vie",
+      "label": "Ouverture de la cité artisanale de la Villa du Lavoir (Paris 10e), où l'atelier est installé"
+    },
+    {
+      "date": "2021-11",
+      "kind": "oeuvre",
+      "label": "Écrin brodé d'une abeille au fil d'or et aux perles pour le Rouge G Guerlain des Fêtes 2021"
+    },
+    {
+      "date": "2022",
+      "kind": "oeuvre",
+      "label": "Écrin de velours noir brodé d'une étoile filante en perles argent et or pour le Rouge G Guerlain de Noël 2022"
+    },
+    {
+      "date": "2023",
+      "kind": "residence",
+      "label": "Collaboration avec la manufacture Pinton : Cycle, tuft et broderie haute couture"
+    },
+    {
+      "date": "2024",
+      "kind": "exposition",
+      "label": "Présenté parmi les artisans de Homo Faber 2024"
+    },
+    {
+      "date": "2024",
+      "kind": "oeuvre",
+      "label": "Dôme brodé du Flacon aux Abeilles Perle Impériale de Guerlain, perles de nacre et pierres de lune"
+    },
+    {
+      "date": "2025-12-13",
+      "kind": "exposition",
+      "label": "Exposition « Tisser, broder, sublimer » au Palais Galliera, jusqu'au 18 octobre 2026"
+    },
+    {
+      "date": "2026-04-07",
+      "kind": "autre",
+      "label": "Rendez-vous d'exception au Palais Galliera pendant les Journées européennes des métiers d'art"
+    },
+    {
+      "date": "2026-09",
+      "kind": "oeuvre",
+      "label": "Écrin brodé Rouge G Majestic Feather pour Guerlain, édition de 615 exemplaires"
+    }
+  ],
+  "works": [
+    {
+      "title": "Écrin Rouge G des Fêtes 2021 à l'abeille",
+      "year": "2021",
+      "technique": "Guerlain · broderie au fil d'or et perles",
+      "description": "Pour les fêtes 2021, l'atelier a brodé l'écrin du rouge à lèvres Rouge G d'une abeille entièrement ourdie de fils d'or et de perles, en édition limitée.",
+      "url": "https://www.viedeluxe.fr/pour-les-fetes-2021-rouge-g-guerlain-revet-sa-plus-belle-parure/",
+      "imageUrl": "https://www.viedeluxe.fr/wp-content/uploads/2021/11/GB6A3583-V4-copie.jpg"
+    },
+    {
+      "title": "Écrin Rouge G de Noël 2022 à l'étoile filante",
+      "year": "2022",
+      "technique": "Guerlain · broderie de perles argent et or",
+      "description": "Écrin de velours noir brodé d'une étoile filante en perles argent et or pour le Rouge G de Noël 2022 . Dans l'article, l'image suit le paragraphe sur le Rouge G et précède un lien intitulé « le Rouge G par Baqué Molinié ».",
+      "url": "https://www.icon-icon.com/noel-2022-guerlain/",
+      "imageUrl": "https://www.icon-icon.com/wp-content/uploads/2022/11/image-1024x1024.png"
+    },
+    {
+      "title": "Cycle",
+      "year": "2023",
+      "technique": "Pinton · tuft de velours et broderie haute couture",
+      "description": "Tapis-tableau de 1,40 m de côté : un tuft de velours aux verts dégradés réalisé par Pinton, rehaussé de bordures végétales, d'arabesques de feuilles et de fleurs brodées par l'atelier, autour du cycle de la nature.",
+      "url": "https://www.pinton1867.com/en/designer-artiste/baque-molinie/",
+      "imageUrl": "https://www.pinton1867.com/wp-content/uploads/2024/10/CYCLE_PACKSHOT_LR.jpg"
+    },
+    {
+      "title": "Flacon aux Abeilles Perle Impériale",
+      "year": "",
+      "technique": "Guerlain · broderie de perles de nacre et pierres de lune",
+      "description": "Pièce Métier d'Art numérotée : le dôme du Flacon aux Abeilles est brodé de perles de nacre et de pierres de lune, en écho aux coupoles de l'Alhambra.",
+      "url": "https://marionabou.com/2024/04/21/guerlain-x-baque-molinie/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Écrin Rouge G Majestic Feather",
+      "year": "",
+      "technique": "Guerlain · broderie de chaînes dorées et perles",
+      "description": "Écrin noir mat couronné d'une plume brodée de chaînes dorées et de perles rougeoyantes, en édition numérotée (615 exemplaires selon les pages Guerlain en français et en anglais).",
+      "url": "https://www.guerlain.com/fr/fr-fr/p/edition-prestige-rouge-g-majestic-feather-P062210.html",
+      "imageUrl": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Homo Faber, fiche Atelier Baqué Molinié",
+      "url": "https://www.homofaber.com/en/artisans/atelier-baqu-molini-iwob9t"
+    },
+    {
+      "label": "Homo Faber Guide 2022, Discover Atelier Baqué Molinié",
+      "url": "https://2022.homofaber.com/en/discover/discover-atelier-baque-molinie"
+    },
+    {
+      "label": "Pinton, page artiste Baqué Molinié",
+      "url": "https://www.pinton1867.com/en/designer-artiste/baque-molinie/"
+    },
+    {
+      "label": "Pinton, collaboration Cycle",
+      "url": "https://www.pinton1867.com/en/?p=13065"
+    },
+    {
+      "label": "Carpet Diem Paris, fiche exposant Baqué Molinié",
+      "url": "https://www.carpetdiemparis.com/exhibitors-2025/baque-molinie"
+    },
+    {
+      "label": "Mairie du 10e, la Villa du Lavoir, cité artisanale",
+      "url": "https://mairie10.paris.fr/pages/villa-du-lavoir-une-cite-artisanale-pour-les-industries-creatives-et-les-metiers-d-arts-14907"
+    },
+    {
+      "label": "Palais Galliera, Rendez-vous d'exception avec Laetitia Baqué et Victor Molinié",
+      "url": "https://www.palaisgalliera.paris.fr/agenda/rendez-vous-dexception-avec-laetitia-baque-et-victor-molinie-brodeurs"
+    },
+    {
+      "label": "Offi, Tisser, broder, sublimer",
+      "url": "https://www.offi.fr/tendances/expositions-musees/expo-tisser-broder-sublimer-les-dessous-chics-de-la-haute-couture-971.html"
+    },
+    {
+      "label": "A Shaded View on Fashion, dates de Tisser, broder, sublimer",
+      "url": "https://ashadedviewonfashion.com/2025/12/11/tisser-broder-sublimer-the-art-of-fashions-savoir-faire-at-palais-galliera-december-13-october-18th/"
+    },
+    {
+      "label": "VieDeLuxe, Rouge G Guerlain des Fêtes 2021 (30 novembre 2021)",
+      "url": "https://www.viedeluxe.fr/pour-les-fetes-2021-rouge-g-guerlain-revet-sa-plus-belle-parure/"
+    },
+    {
+      "label": "Icon-Icon, Noël 2022 avec Guerlain",
+      "url": "https://www.icon-icon.com/noel-2022-guerlain/"
+    },
+    {
+      "label": "Marion Abou, Guerlain x Baqué Molinié (21 avril 2024)",
+      "url": "https://marionabou.com/2024/04/21/guerlain-x-baque-molinie/"
+    },
+    {
+      "label": "Luxury Place, Rouge G Majestic Feather (7 septembre 2026)",
+      "url": "https://luxury-place.fr/2026/09/07/rouge-g-majestic-feather-quand-la-haute-broderie-rencontre-lart-du-maquillage/"
+    },
+    {
+      "label": "Guerlain : Rouge G Majestic Feather, édition prestige",
+      "url": "https://www.guerlain.com/fr/fr-fr/p/edition-prestige-rouge-g-majestic-feather-P062210.html"
+    },
+    {
+      "label": "Guerlain : Flacon aux Abeilles Perle Impériale (page Métier d'Art)",
+      "url": "https://www.guerlain.com/uk/en-uk/c/pex-p018562.html"
+    }
+  ],
+  "researchNotes": "Date de fondation : Homo Faber, Pinton et le Palais Galliera disent que le duo s'est associé en 2011 ; Carpet Diem Paris écrit qu'ils ont cofondé Baqué Molinié en 2018. Une recherche signale une société BAQUE MOLINIE, SIREN 842 868 218, siège 4 Villa du Lavoir 75010 Paris : un numéro en 842 correspond d'ordinaire à une immatriculation de 2018, ce qui expliquerait l'écart (association en 2011, société actuelle en 2018), mais la page annuaire-entreprises.data.gouv.fr n'a pas pu être lue, donc non confirmé. Date d'installation à la Villa du Lavoir inconnue : seule l'ouverture de la cité (juin 2019) est sourcée. Adresse : Homo Faber donne 70 rue René Boulanger, la mairie du 10e situe la Villa du Lavoir à cette adresse ; des annuaires (Mappy, extrait de recherche) parlent du 4 ou 4A Villa du Lavoir. Clients : Chanel vient de Homo Faber seul ; Valentino, Schiaparelli et Fendi du Palais Galliera seul ; Homo Faber 2022 montre une image nommée « fendi » sans détail. Flacon aux Abeilles Perle Impériale : la page Guerlain (403) n'a pas été lue ; description tirée du blog Marion Abou daté du 21 avril 2024, sans année de sortie précise, d'où la date 2024 approximative ; un extrait de recherche le relie aussi au premier Aïd, non vérifié. Écrin Noël 2022 : l'article Icon-Icon n'est pas daté précisément. Homo Faber 2024 : simple étiquette sur la fiche, sans pièce exposée identifiée. Une vidéo YouTube (« Les opportunités dans la broderie en France aujourd'hui ») parlerait de 10 à 20 brodeurs à l'atelier, d'après un extrait de recherche seulement : chiffre non retenu. Le site baquemolinie.com n'a pas répondu (connexion réinitialisée, plusieurs essais) et Instagram n'a pas été lu. Aucune information trouvée sur des formations, stages ou accueil d'apprentis : la fiche stagiaire Duperré « assistante création broderie » vue en résultat de recherche n'a pas été lue et n'est pas forcément liée à l'atelier. Aucun label EPV ni distinction trouvés. Photo retirée le 20 octobre 2026 : la capture de Luxury Place ne montrait pas l’atelier. Galerie (20 octobre 2026) : la photo d'atelier (brodeuses au travail, photo Maxime Huriez) vient de la page Homo Faber 2022 de l'atelier ; c'est une image en cache réduite (640 px) dont la stabilité est à surveiller. Les pages Guerlain ont répondu 403 : aucune image officielle n'a pu être vérifiée pour le Flacon aux Abeilles Perle Impériale ni pour le Rouge G Majestic Feather, et le blog Marion Abou ne montre que des captures d'écran, écartées. Majestic Feather : la date reste à vérifier (Formes de Luxe, lu seulement en extrait de recherche, parle de la collection automne 2025, la fiche la place en septembre 2026) et Guerlain Italie donne 780 exemplaires au lieu de 615. La pièce Fendi haute couture (image nommée « fendi-hc-baque-molinie_07-01-2022 » sur Homo Faber) n'a pas été retenue faute de légende. Aucune pièce de défilé Dior, Saint Laurent, Chanel, Valentino ou Schiaparelli n'a pu être identifiée avec une source et une image."
+}

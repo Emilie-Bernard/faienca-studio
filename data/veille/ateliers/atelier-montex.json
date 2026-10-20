@@ -1,0 +1,259 @@
+{
+  "name": "Atelier Montex",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1949",
+  "closedDate": "",
+  "founders": [
+    "Jacques Lemonier"
+  ],
+  "people": [
+    {
+      "name": "Jacques Lemonier",
+      "role": "fondateur"
+    },
+    {
+      "name": "Annie Trussart",
+      "role": "directrice artistique à partir du début des années 1980, jusque dans les années 1990"
+    },
+    {
+      "name": "Aska Yamashita",
+      "role": "directrice artistique depuis 2017, entrée à l'atelier à 19 ans"
+    },
+    {
+      "name": "Maria Roques",
+      "role": "directrice générale (citée en 2018)"
+    }
+  ],
+  "techniques": [
+    "Crochet de Lunéville",
+    "Broderie à l'aiguille",
+    "Machine Cornély",
+    "Paillettes, perles, strass, cristaux et pampilles",
+    "Matériaux inattendus : papier journal, rhodoïd, bois, plumes, verre, métal, rubans",
+    "Impression 3D et découpe laser associées à la broderie"
+  ],
+  "clients": [
+    "Chanel",
+    "Chloé",
+    "Perrier-Jouët",
+    "Théâtre Kabukiza (Tokyo)"
+  ],
+  "labels": [
+    "Entreprise du Patrimoine Vivant",
+    "Maison d'art de Chanel (le19M)"
+  ],
+  "summary": "Maison de broderie parisienne fondée par Jacques Lemonier, connue pour son style contemporain et ses matériaux inattendus. Elle fait partie des Métiers d'art de Chanel depuis 2011 et travaille aujourd'hui au 19M, porte d'Aubervilliers.",
+  "history": "Atelier Montex est fondé à Paris par Jacques Lemonier. À ses débuts, la maison fabrique des tissus brodés vendus au mètre aux maisons de couture parisiennes. La date de création varie selon les sources (1939 ou 1949), la plupart retiennent 1949.\n\nLe vrai tournant arrive au début des années 1980 avec Annie Trussart, nommée directrice artistique. Grande connaisseuse de la broderie fine, elle puise son inspiration dans la musique et l'architecture, dessine les motifs de chaque modèle et ose des associations de matières nouvelles. Sous sa direction, l'atelier grandit beaucoup et oriente son style vers quelque chose de plus précieux. Ses archives gardent des pièces étonnantes, comme de la dentelle brodée sur du papier journal ou une spirale de perles baguettes en relief.\n\nAska Yamashita, artiste franco-japonaise, entre à l'atelier à 19 ans. Au début des années 1990, elle transpose un trompe-l'oeil de peintures murales grecques sur une robe Chloé, à l'époque où Karl Lagerfeld dirige la marque. Elle passe de la production au bureau de création, puis succède à Annie Trussart, sa mentore, comme directrice artistique en 2017. Karl Lagerfeld apprécie vite le langage contemporain de la maison, qui mêle techniques nouvelles, textures et matières.\n\nEn 2011, Chanel rachète l'atelier, qui rejoint ses Métiers d'art. En 2013 naît en son sein le Studio MTX, consacré à la décoration et à l'architecture intérieure : il brode des meubles et de grandes installations avec des architectes et des décorateurs, et il est résident du 19M depuis 2021. Montex brode surtout pour la haute couture et les défilés Métiers d'art de Chanel, par exemple des oiseaux et des fleurs au crochet de Lunéville sur des vestes en tweed en 2025, ou un manteau couvert de plus de 20 000 paillettes en 2021-2022.\n\nAujourd'hui, environ 70 brodeuses et brodeurs travaillent au crochet de Lunéville, à l'aiguille et à la machine Cornély, au 19M (2 place Skanderbeg, Paris 19e). L'atelier sort aussi du vêtement : rideaux pour le théâtre Kabukiza à Tokyo (800 heures de travail), rideaux en organza de soie d'après une composition de Xavier Veilhan pour le festival Dankiku en 2023, perruques avec Tomihiro Kono en 2011, ou habillages brodés de bouteilles pour Perrier-Jouët (éditions Libellule puis Volutes, cette dernière avec environ 8 000 perles et paillettes et près de 200 heures de travail).",
+  "training": "L'atelier se visite sur rendez-vous seulement. Pour les Journées européennes du patrimoine, les 19 et 20 septembre 2026, Chanel a ouvert gratuitement au public les ateliers Montex et Studio MTX au 19M (le vendredi 18 septembre était réservé aux groupes scolaires et associatifs). Le 19M propose aussi des ateliers de broderie dans le programme lié à l'exposition Maison Michel, à partir du 26 septembre 2026.",
+  "website": "",
+  "instagram": "https://www.instagram.com/ateliermontex",
+  "photoUrl": "https://thegrandtourist.net/wp-content/uploads/2026/03/2BM3721.jpg",
+  "timeline": [
+    {
+      "date": "1949",
+      "kind": "vie",
+      "label": "Fondation de l'atelier à Paris par Jacques Lemonier (1939 selon Homo Faber)"
+    },
+    {
+      "date": "1980",
+      "kind": "vie",
+      "label": "Début des années 1980 : Annie Trussart devient directrice artistique"
+    },
+    {
+      "date": "1990",
+      "kind": "oeuvre",
+      "label": "Début des années 1990 : robe Chloé brodée d'un trompe-l'oeil de peintures murales grecques, du temps de Karl Lagerfeld"
+    },
+    {
+      "date": "2011",
+      "kind": "vie",
+      "label": "Rachat par Chanel, l'atelier rejoint ses Métiers d'art"
+    },
+    {
+      "date": "2011",
+      "kind": "residence",
+      "label": "Perruques brodées avec le coiffeur et artiste Tomihiro Kono"
+    },
+    {
+      "date": "2013",
+      "kind": "vie",
+      "label": "Création du Studio MTX, dédié à la décoration et à l'architecture intérieure"
+    },
+    {
+      "date": "2017",
+      "kind": "vie",
+      "label": "Aska Yamashita devient directrice artistique"
+    },
+    {
+      "date": "2017",
+      "kind": "oeuvre",
+      "label": "Broderies pour la collection Métiers d'art Chanel 2017/18 présentée à Hambourg"
+    },
+    {
+      "date": "2021",
+      "kind": "vie",
+      "label": "Le Studio MTX devient résident du 19M"
+    },
+    {
+      "date": "2022",
+      "kind": "autre",
+      "label": "Aska Yamashita préside le jury Accessoires du 37e Festival d'Hyères et crée l'installation Broderythme à la villa Noailles"
+    },
+    {
+      "date": "2023",
+      "kind": "oeuvre",
+      "label": "Rideaux en organza de soie d'après Xavier Veilhan pour le festival Dankiku"
+    },
+    {
+      "date": "2023",
+      "kind": "residence",
+      "label": "Édition Libellule avec le champagne Perrier-Jouët, présentée fin 2023"
+    },
+    {
+      "date": "2025",
+      "kind": "oeuvre",
+      "label": "Oiseaux et fleurs au crochet de Lunéville sur vestes en tweed et maille Chanel"
+    },
+    {
+      "date": "2026-01-29",
+      "kind": "exposition",
+      "label": "Exposition Beyond Our Horizons à la Galerie du 19M, co-commissariée par Aska Yamashita (jusqu'au 26 avril)"
+    },
+    {
+      "date": "2026-09-19",
+      "kind": "autre",
+      "label": "Portes ouvertes des ateliers Montex et Studio MTX pour les Journées européennes du patrimoine"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Homo Faber, fiche Atelier Montex",
+      "url": "https://www.homofaber.com/en/artisans/atelier_montex-embroidery-paris"
+    },
+    {
+      "label": "Numéro, article sur Atelier Montex et Aska Yamashita (octobre 2022)",
+      "url": "https://numero.com/?p=121591"
+    },
+    {
+      "label": "The Grand Tourist, Meet the angel of embroidery (mars 2026)",
+      "url": "https://thegrandtourist.net/meet-the-angel-of-embroidery/"
+    },
+    {
+      "label": "France.fr, Quand Chanel prépare le défilé de la collection Métiers d'Art",
+      "url": "https://www.france.fr/fr/article/quand-chanel-prepare-son-defile-metiers-dart/"
+    },
+    {
+      "label": "FashionUnited, Chanel ouvre les portes du 19M (septembre 2026)",
+      "url": "https://fashionunited.fr/actualite/mode/chanel-ouvre-les-portes-du-19m-les-metiers-dart-face-au-public/2026090842920"
+    },
+    {
+      "label": "Journal du Luxe, Le champagne Perrier-Jouët s'habille en Atelier Montex",
+      "url": "https://www.journalduluxe.fr/fr/lifestyle/champagne-perrier-jouet-bouteille-volutes-montex-chanel/amp"
+    },
+    {
+      "label": "V&A, ensemble Chanel haute couture automne-hiver 2020 (T.78:1 to 3-2023)",
+      "url": "https://collections.vam.ac.uk/item/O1719946"
+    },
+    {
+      "label": "Numéro, À Hyères, l'Atelier Montex dévoile ses broderies",
+      "url": "https://numero.com/mode/a-hyeres-latelier-montex-devoile-ses-broderies-avec-une-exposition-immersive/"
+    },
+    {
+      "label": "Waraku, Le Rideau de Maholo au Kabuki-za (mai 2023)",
+      "url": "https://intojapanwaraku.com/art/220433/"
+    },
+    {
+      "label": "The Glass Magazine, Perrier-Jouët et Atelier Montex (février 2024)",
+      "url": "https://theglassmagazine.com/maison-perrier-jouet-collaborates-with-atelier-montex/"
+    },
+    {
+      "label": "Grazia Singapour, la collection Métiers d'art Chanel 2023/24",
+      "url": "https://grazia.sg/fashion/chanel-metiers-d-art-pre-fall-2024-spotlight"
+    }
+  ],
+  "researchNotes": "Date de fondation à départager : Homo Faber donne 1939, alors que Numéro (2022), The Grand Tourist (2026) et FashionUnited (2026) donnent 1949. D'après les extraits de recherche, la page officielle du 19M et une ancienne page Chanel disent aussi 1949, tandis qu'une page Chanel 2024/25 dirait 1939 ; ces pages Chanel et le19m.com ont refusé la lecture (erreur 403), elles ne sont donc pas en sources. J'ai retenu 1949, majoritaire.\n\nLabel EPV : confirmé par le Journal du Luxe, mais l'année 2013 n'apparaît que dans un extrait de la page du 19M, non lue ; à vérifier, et à vérifier aussi que le label est toujours en cours.\n\nAnnie Trussart : Numéro et Homo Faber la disent directrice artistique à partir du début des années 1980, The Grand Tourist la place à ce poste dans les années 1980 et 1990 ; la date exacte de son départ n'est pas connue. Les dates 1980 et 1990 de la frise sont approximatives (\"début des années\").\n\nStudio MTX : FashionUnited le date de 2013, Numéro dit environ trente ans après l'arrivée d'Annie Trussart, ce qui concorde à peu près.\n\nMaria Roques est citée comme directrice générale dans l'article France.fr (2018) ; à vérifier si elle l'est toujours.\n\nSite web : l'atelier n'a pas de site propre selon Homo Faber ; sa page officielle semble être https://www.le19m.com/en/houses/atelier-montex (non lue, erreur 403). Un stage \"assistant(e) studio collection Atelier Montex\" chez Chanel apparaît sur JobTeaser mais la page n'a pas pu être lue : piste pour la stagiaire, à vérifier.\n\nLa date exacte de l'édition Volutes de Perrier-Jouët n'est pas donnée par l'article (postérieure à fin 2023).\n\nGalerie de réalisations : 5 images testées (200, image/...) et vérifiées par leur légende ou par l'étiquette visible (bouteilles « Atelier Montex Edition Libellule » et « Edition Volutes ») ; l'image de Broderythme montre l'atelier participatif et non l'installation finie. photoUrl : photo de The Grand Tourist légendée « Yamashita inspects the atelier's samples » (intérieur de l'atelier, silhouette d'Aska Yamashita). Les images de Homo Faber sont servies en application/octet-stream et celles de Grazia renvoient 403 : non retenues. D'après Waraku, les rideaux du Kabukiza (800 heures) et ceux d'après Xavier Veilhan pour le Dankikusai semblent être une seule et même oeuvre, Le Rideau de Maholo : à confirmer avant de corriger l'histoire. Pas d'image libre trouvée pour la robe Chanel 2020 du V&A ni pour la robe Chloé.",
+  "works": [
+    {
+      "title": "Robe Chloé en trompe-l'oeil de peintures murales grecques",
+      "year": "",
+      "technique": "Chloé (Karl Lagerfeld) · broderie de prototype",
+      "description": "Premier travail d'Aska Yamashita chez Montex, au début des années 1990 : transposer un trompe-l'oeil de peintures murales de la Grèce antique sur une robe Chloé (The Grand Tourist).",
+      "url": "https://thegrandtourist.net/meet-the-angel-of-embroidery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Perruques brodées avec Tomihiro Kono",
+      "year": "2011",
+      "technique": "Tomihiro Kono · broderie sur perruques",
+      "description": "En 2011, Atelier Montex a réalisé des perruques avec le coiffeur et artiste Tomihiro Kono (The Grand Tourist).",
+      "url": "https://thegrandtourist.net/meet-the-angel-of-embroidery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Robe haute couture automne-hiver 2020",
+      "year": "2020",
+      "technique": "Chanel (Virginie Viard) · crochet de Lunéville, paillettes, perles et rubans",
+      "description": "Le corsage, brodé en effet de tweed, a demandé 750 heures et environ 55 000 éléments chez Montex ; la jupe en plumes est de Lemarié (V&A, T.78:1 to 3-2023).",
+      "url": "https://collections.vam.ac.uk/item/O1719946",
+      "imageUrl": ""
+    },
+    {
+      "title": "Manteau aux 20 000 paillettes",
+      "year": "2022",
+      "technique": "Chanel · broderie de paillettes argent",
+      "description": "Entre 2021 et 2022, l'atelier a brodé de motifs abstraits argentés un manteau Chanel couvert de plus de 20 000 paillettes (The Grand Tourist).",
+      "url": "https://thegrandtourist.net/meet-the-angel-of-embroidery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderythme",
+      "year": "2022",
+      "technique": "Villa Noailles, Festival d'Hyères · modules de cuir d'agneau découpés et rebrodés",
+      "description": "Installation d'Aska Yamashita en cinq grands panneaux ajourés, enrichis pendant un atelier participatif où le public cousait des perles sur des chutes de cuir ; l'image montre cet atelier (Numéro, photo Chanel).",
+      "url": "https://numero.com/mode/a-hyeres-latelier-montex-devoile-ses-broderies-avec-une-exposition-immersive/",
+      "imageUrl": "https://numero.com/wp-content/uploads/2024/06/chanel-montex-atelier-festival-hyeres-numero-magazine-scaled.jpg"
+    },
+    {
+      "title": "Le Rideau de Maholo",
+      "year": "2023",
+      "technique": "Xavier Veilhan pour le théâtre Kabuki-za, commande Chanel · organza de soie découpé au laser, point de chaînette",
+      "description": "Rideau de 25,4 m sur 5,3 m fait d'environ 8 900 pièces d'organza, plus de 800 heures de travail à Paris, montré au Kabuki-za pendant le Dankikusai de mai 2023 pour les débuts d'Onoe Maho (Waraku).",
+      "url": "https://intojapanwaraku.com/art/220433/",
+      "imageUrl": "https://intojapanwaraku.com/wp-content/uploads/2023/05/iwaimaku-03_kara.jpg"
+    },
+    {
+      "title": "Ode à la Nature, édition Libellule",
+      "year": "2023",
+      "technique": "Perrier-Jouët · perles de verre irisées sur structure imprimée en 3D",
+      "description": "Habillage brodé d'un jéroboam Belle Époque 2008, deuxième édition des Objets Extraordinaires de Perrier-Jouët, présenté fin 2023 (The Glass Magazine, février 2024).",
+      "url": "https://theglassmagazine.com/maison-perrier-jouet-collaborates-with-atelier-montex/",
+      "imageUrl": "https://theglassmagazine.com/wp-content/uploads/2024/02/Perrier-Jouet-Ode-a-la-Nature_Atelier-Montex-1-800x1000.jpg"
+    },
+    {
+      "title": "Collection Métiers d'art 2023/24",
+      "year": "2023",
+      "technique": "Chanel · paillettes, perles de verre et anneaux d'aluminium émaillés",
+      "description": "Montex a brodé notamment un panneau de paillettes aux tasses de thé sur une petite robe noire (270 heures) et le tissu dentelle du sac classique (195 heures, 11 000 paillettes, 3 500 perles) (Grazia).",
+      "url": "https://grazia.sg/fashion/chanel-metiers-d-art-pre-fall-2024-spotlight",
+      "imageUrl": ""
+    },
+    {
+      "title": "Édition Volutes",
+      "year": "2025",
+      "technique": "Perrier-Jouët · perles et paillettes sur structure en noyer et laiton doré",
+      "description": "Habillage d'une bouteille Belle Époque 1999 éditée à dix exemplaires, avec environ 8 000 perles et paillettes et près de 200 heures de travail (Journal du Luxe, février 2025).",
+      "url": "https://www.journalduluxe.fr/fr/lifestyle/champagne-perrier-jouet-bouteille-volutes-montex-chanel/amp",
+      "imageUrl": "https://origin.journalduluxe.fr/files/perrier-jouet-montex-champagne_ca53698fefc759af92dad993148cebfc.jpg"
+    },
+    {
+      "title": "Broderie pour l'exposition Beyond Our Horizons",
+      "year": "2025",
+      "technique": "Le19M · organza appliqué, cordonnets et fleurs de paillettes",
+      "description": "Broderie réalisée pour l'exposition Beyond Our Horizons présentée à Tokyo en 2025, puis à la Galerie du 19M en 2026 (The Grand Tourist, photo Benjamin Malapris).",
+      "url": "https://thegrandtourist.net/meet-the-angel-of-embroidery/",
+      "imageUrl": "https://thegrandtourist.net/wp-content/uploads/2026/03/2BM4049.jpg"
+    }
+  ]
+}

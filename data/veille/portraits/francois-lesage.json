@@ -1,0 +1,104 @@
+{
+  "name": "François Lesage",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "1929-03-31",
+  "deathDate": "2011-12-01",
+  "techniques": [
+    "broderie haute couture",
+    "broderie de paillettes et de perles",
+    "vermicelle droit fil",
+    "effet ombré",
+    "tweed et tissage (atelier textile de la maison)"
+  ],
+  "summary": "Brodeur de la haute couture parisienne, François Lesage a dirigé pendant plus de soixante ans la maison familiale Lesage, qui a brodé pour Schiaparelli, Balenciaga, Dior, Yves Saint Laurent, Chanel ou Lacroix. Il a fondé l'École Lesage en 1992 et a été nommé Maître d'art quelques jours avant sa mort.",
+  "biography": "François Lesage est né le 31 mars 1929 à Chaville, dans une famille d'origine normande. Ses parents, Albert et Marie-Louise Lesage, reprennent en 1924 l'atelier de broderie Michonet, fondé en 1858, qui travaillait pour les théâtres parisiens, la cour de Napoléon III et les grands couturiers. Marie-Louise y dessinait les broderies après avoir été assistante pour les broderies chez Madeleine Vionnet. L'atelier devient « Albert Lesage et Cie », et le couple y met au point des techniques comme le vermicelle droit fil et l'effet ombré.\n\nFrançois apprend le métier auprès de ses parents. Dans les années 1930, la maison brode pour Elsa Schiaparelli des décors inspirés du cirque, de l'astrologie ou de la mer, comme le boléro « Chevaux savants » de l'été 1938. En 1948, à 19 ans, François ouvre un atelier à Hollywood, sur Sunset Boulevard. Son père meurt l'année suivante : il rentre à Paris et prend la direction de la maison aux côtés de sa mère, à 20 ans.\n\nPendant plus de soixante ans, il brode pour presque toute la haute couture : Balmain, Balenciaga, Dior, Jacques Fath, Givenchy, Grès, Yves Saint Laurent (une collaboration de 44 ans à partir de 1963), Karl Lagerfeld chez Chanel dès 1983, Jean Paul Gaultier, Christian Lacroix, Thierry Mugler et bien d'autres. Ses pièces les plus célèbres sont les vestes « Iris » et « Tournesols » d'après Van Gogh, pour la collection haute couture été 1988 de Saint Laurent : plus de six cents heures de broderie à la main pour chacune. Il brode aussi la chasuble et la mitre du pape Jean-Paul II en 1997, et plusieurs habits verts d'académiciens.\n\nFrançois Lesage tenait à transmettre. En 1992, il fonde l'École Lesage, rue Grange-Batelière à Paris, pour enseigner la broderie de haute couture. La maison réunit aussi une immense mémoire du métier : environ 75 000 échantillons, présentés comme la plus grande collection de broderies de couture au monde. Son travail a été exposé au Palais Galliera, au Fashion Institute of Technology de New York (1987), à la Fashion Foundation de Tokyo (1989) et au LACMA de Los Angeles (1991).\n\nIl reçoit de nombreuses distinctions : chevalier puis officier de la Légion d'honneur, commandeur des Arts et des Lettres en 2003, et le titre de Maître d'art, annoncé le 23 novembre 2011 par Frédéric Mitterrand. Il meurt le 1er décembre 2011 à Versailles. Entrée en 2002 dans les Métiers d'art de Chanel (filiale Paraffection), la maison Lesage a pour directeur artistique Hubert Barrère depuis 2011 et s'est installée au 19M, à Paris, en 2021. Son centenaire a été fêté par l'exposition « Lesage, 100 ans de mode et de décoration » à la Galerie du 19M, de septembre 2024 à janvier 2025.",
+  "website": "https://lesage-paris.com/",
+  "instagram": "",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Boléro « Chevaux savants » pour Elsa Schiaparelli",
+      "year": "1938",
+      "technique": "broderie haute couture (maison Lesage, sous la direction de ses parents)",
+      "description": "Boléro brodé de la collection d'été 1938 de Schiaparelli, sur le thème du cirque. François était alors enfant : la pièce montre l'héritage de la maison qu'il a repris.",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage",
+      "imageUrl": ""
+    },
+    {
+      "title": "Veste « Iris » d'après Van Gogh, pour Yves Saint Laurent",
+      "year": "1988",
+      "technique": "broderie à la main, paillettes, perles et rubans",
+      "description": "Veste de la collection haute couture printemps-été 1988 de Saint Laurent, qui reprend le tableau Les Iris. Plus de six cents heures de broderie chez Lesage. Un exemplaire a été vendu 175 500 euros aux enchères à Paris en janvier 2019.",
+      "url": "https://museeyslparis.com/en/biography/une-collection-en-hommage-aux-artistes",
+      "imageUrl": ""
+    },
+    {
+      "title": "Veste « Tournesols » d'après Van Gogh, pour Yves Saint Laurent",
+      "year": "1988",
+      "technique": "broderie à la main, doublure en soie",
+      "description": "Seconde veste hommage à Van Gogh de la même collection, d'après Les Tournesols, brodée à la main pendant environ six cents heures. Il n'en existe que quatre exemplaires ; celle portée par Naomi Campbell lors du défilé est conservée au musée Yves Saint Laurent Paris.",
+      "url": "https://museeyslparis.com/en/biography/une-collection-en-hommage-aux-artistes",
+      "imageUrl": "https://s3-eu-west-1.amazonaws.com/musee-ysl-paris/images/_max_res/Guy-MARINEAU-HC1988E093-d77.jpg"
+    },
+    {
+      "title": "Chasuble et mitre du pape Jean-Paul II",
+      "year": "1997",
+      "technique": "broderie d'ornement liturgique",
+      "description": "Broderies réalisées pour les vêtements du pape lors des Journées mondiales de la jeunesse à Paris.",
+      "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Lesage",
+      "imageUrl": ""
+    },
+    {
+      "title": "Robe « peau de panthère » pour Jean Paul Gaultier",
+      "year": "1998",
+      "technique": "broderie haute couture en effet de pelage",
+      "description": "Robe de la collection haute couture hiver 1998 de Gaultier, dont la broderie imite une peau de panthère.",
+      "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Lesage",
+      "imageUrl": ""
+    },
+    {
+      "title": "Habits verts d'académiciens",
+      "year": "1999",
+      "technique": "broderie de l'habit vert de l'Académie française",
+      "description": "Broderie de l'habit vert de Roman Polanski et d'Erik Orsenna en 1999, puis de Jean-Loup Dabadie en 2008, et plus tard de Simone Veil et Dominique Bona.",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "1924", "kind": "autre", "label": "Ses parents, Albert et Marie-Louise Lesage, reprennent l'atelier de broderie Michonet (fondé en 1858), rebaptisé Albert Lesage et Cie" },
+    { "date": "1929-03-31", "kind": "vie", "label": "Naissance à Chaville" },
+    { "date": "1948", "kind": "vie", "label": "Ouvre un atelier à Hollywood, sur Sunset Boulevard" },
+    { "date": "1949", "kind": "vie", "label": "Mort de son père ; rentre à Paris et prend la direction de la maison à 20 ans" },
+    { "date": "1963", "kind": "oeuvre", "label": "Début de la collaboration avec Yves Saint Laurent, qui durera 44 ans" },
+    { "date": "1983", "kind": "oeuvre", "label": "Début du travail avec Karl Lagerfeld chez Chanel" },
+    { "date": "1984", "kind": "prix", "label": "Médaille de la Ville de Paris et Grand Prix régional des métiers d'art" },
+    { "date": "1985", "kind": "prix", "label": "Chevalier de l'ordre des Arts et Métiers" },
+    { "date": "1987", "kind": "exposition", "label": "Exposition au Fashion Institute of Technology, New York" },
+    { "date": "1988", "kind": "oeuvre", "label": "Vestes Iris et Tournesols d'après Van Gogh pour Saint Laurent ; monographie de Palmer White sur la maison" },
+    { "date": "1989", "kind": "prix", "label": "Grand Prix de la création de la Ville de Paris ; exposition à la Fashion Foundation de Tokyo" },
+    { "date": "1991", "kind": "exposition", "label": "Exposition au Los Angeles County Museum of Art" },
+    { "date": "1992", "kind": "formation", "label": "Fonde l'École Lesage, rue Grange-Batelière à Paris" },
+    { "date": "1994", "kind": "prix", "label": "Chevalier de la Légion d'honneur" },
+    { "date": "1997", "kind": "oeuvre", "label": "Broderie de la chasuble et de la mitre du pape Jean-Paul II" },
+    { "date": "2002", "kind": "autre", "label": "La maison Lesage rejoint les Métiers d'art de Chanel (Paraffection)" },
+    { "date": "2003", "kind": "prix", "label": "Commandeur de l'ordre des Arts et des Lettres" },
+    { "date": "2007", "kind": "prix", "label": "Officier de la Légion d'honneur" },
+    { "date": "2009", "kind": "prix", "label": "Prix de l'Excellence française" },
+    { "date": "2011-11-23", "kind": "prix", "label": "Nommé Maître d'art, annonce de Frédéric Mitterrand" },
+    { "date": "2011-12-01", "kind": "vie", "label": "Mort à Versailles" },
+    { "date": "2024-09-26", "kind": "exposition", "label": "Ouverture de l'exposition « Lesage, 100 ans de mode et de décoration » à la Galerie du 19M (jusqu'au 26 janvier 2025)" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Wikipédia (fr) : François Lesage", "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Lesage" },
+    { "label": "Wikipedia (en) : François Lesage", "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage" },
+    { "label": "Site officiel de la maison Lesage", "url": "https://lesage-paris.com/" },
+    { "label": "Musée Yves Saint Laurent Paris : une collection en hommage aux artistes", "url": "https://museeyslparis.com/en/biography/une-collection-en-hommage-aux-artistes" },
+    { "label": "FashionUnited : vente aux enchères de la veste Tournesols", "url": "https://fashionunited.es/noticias/moda/a-subasta-chaqueta-de-saint-laurent-inspirada-en-girasoles-de-van-gogh/2019103131483" },
+    { "label": "Sortiraparis : exposition Lesage, 100 ans de mode et de décoration", "url": "https://www.sortiraparis.com/arts-culture/exposition/articles/316315-lesage-100-ans-de-mode-et-de-decoration-l-exposition-couture-gratuite-a-voir-a-la-galerie-du-19m" }
+  ],
+  "researchNotes": "Pas de nouvelle retenue : aucune exposition consacrée à Lesage n'a été trouvée entre octobre 2025 et 2026. La seule piste est un atelier de broderie gratuit animé par l'École Lesage avec le19M lors de l'exposition « Entrez en matières » (Journées européennes des métiers d'art, 9 au 12 avril 2026, Fondation Fiminco, Romainville). Le communiqué du Comité Colbert cite seulement « CHANEL le19M, Broderie », et la mention de Lesage vient de résultats de recherche (le19m.com, inaccessible, et un post LinkedIn) : à confirmer avant de l'ajouter. Date de fin de l'exposition du centenaire : 26 janvier 2025 selon Sortiraparis, d'autres sources donnent le 5 ou le 14 janvier. Le boléro « Chevaux savants » (1938) est une œuvre de la maison du temps de ses parents, pas de François lui-même. Date de création de l'atelier textile : 1996 selon le site Lesage, 1998 selon Wikipédia (1998 étant aussi la date des premiers tweeds pour Chanel). Non vérifié sur une page lue : les 250 000 paillettes de la veste Iris et l'achat d'une veste Tournesols par la National Gallery of Victoria (Melbourne) en novembre 2019. L'image indiquée pour les Tournesols est une photo du défilé (Naomi Campbell et Bess Stonehouse), pas un gros plan de la veste. Aucune photo libre de François Lesage trouvée sur Wikipédia. Jean-François Lesage (fondateur de Lesage Intérieurs en 1993) est son fils selon le site Lesage. Homonyme à ne pas confondre : Augustin Lesage, peintre médiumnique."
+}

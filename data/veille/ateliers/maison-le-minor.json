@@ -1,0 +1,188 @@
+{
+  "name": "Maison Le Minor",
+  "city": "Pont-l'Abbé",
+  "region": "Bretagne",
+  "country": "France",
+  "foundedDate": "1936",
+  "closedDate": "",
+  "founders": [
+    "Marie-Anne Le Minor"
+  ],
+  "people": [
+    {
+      "name": "Marie-Anne Le Minor",
+      "role": "fondatrice de la maison en 1936"
+    },
+    {
+      "name": "Gildas Le Minor",
+      "role": "petit-fils de la fondatrice"
+    },
+    {
+      "name": "Dom Robert",
+      "role": "moine bénédictin et artiste de la tapisserie, a travaillé avec la maison"
+    },
+    {
+      "name": "Pierre Toulhoat",
+      "role": "artiste, a donné à la broderie de la maison une dimension monumentale"
+    },
+    {
+      "name": "Patrice Cudennec",
+      "role": "créateur contemporain, ses cartons sont brodés dans les ateliers"
+    },
+    {
+      "name": "Gwenn Le Gac",
+      "role": "créatrice contemporaine, ses cartons sont brodés dans les ateliers"
+    }
+  ],
+  "techniques": [
+    "Grande broderie bigoudène",
+    "Bannières brodées",
+    "Panneaux brodés",
+    "Tapisseries brodées"
+  ],
+  "clients": [],
+  "labels": [],
+  "summary": "Maison de broderie d'art fondée en 1936 à Pont-l'Abbé par Marie-Anne Le Minor, connue pour sa grande broderie : bannières, panneaux et tapisseries brodés. Elle a fêté ses 90 ans en 2026 et ses ateliers brodent encore aujourd'hui.",
+  "history": "Marie-Anne Le Minor fonde la maison à Pont-l'Abbé, au cœur du pays bigouden, en 1936. Selon le Journal des Entreprises, son projet est dès le départ de sauvegarder le patrimoine textile breton et des savoir-faire régionaux menacés par l'industrialisation.\n\nLa maison se fait connaître par la grande broderie, des pièces de prestige comme les bannières, les panneaux brodés et les tapisseries. Elle produit aussi des costumes, des coiffes, des poupées, du linge de maison, des foulards et du prêt-à-porter haut de gamme.\n\nAu fil des décennies, la maison travaille avec des artistes. Dom Robert, moine bénédictin et grande figure de la tapisserie du XXe siècle, en fait partie, comme Pierre Toulhoat, qui contribue à donner à la broderie Le Minor une dimension plus monumentale.\n\nAujourd'hui, les ateliers sont toujours en activité : les cartons de créateurs contemporains comme Patrice Cudennec et Gwenn Le Gac y sont encore brodés. Gildas Le Minor, petit-fils de la fondatrice, porte la mémoire de la famille.\n\nPour les 90 ans de la maison, le Musée bigouden lui consacre l'exposition « La grande broderie, les 90 ans de la Maison Le Minor », du 4 juillet au 4 août 2026. Elle se tient hors les murs, au Centre culturel Le Triskell de Pont-l'Abbé, car le château qui abrite le musée est fermé pour réhabilitation.",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1936",
+      "kind": "vie",
+      "label": "Marie-Anne Le Minor fonde la maison de broderie à Pont-l'Abbé"
+    },
+    {
+      "date": "2026-07-04",
+      "kind": "exposition",
+      "label": "Ouverture de l'exposition « La grande broderie, les 90 ans de la Maison Le Minor » du Musée bigouden, au Centre culturel Le Triskell (jusqu'au 4 août 2026)"
+    }
+  ],
+  "works": [
+    {
+      "title": "Bannière de saint Corentin, Locronan",
+      "year": "1953",
+      "technique": "Paroisse de Locronan · grande broderie bigoudène, carton de Pierre Toulhoat",
+      "description": "Première bannière d'artiste de la maison, commandée par la paroisse de Locronan sur un carton de Pierre Toulhoat ; elle porte l'inscription « Parrez 1953 Lokorn » et « Sant Korantin pedit evidomp » (recension de Jean-Yves Cordier, d'après la liste fournie par Gildas Le Minor).",
+      "url": "https://www.lavieb-aile.com/2016/11/les-43-bannieres-le-minor-1953-2016.html",
+      "imageUrl": "https://img.over-blog.com/450x600/3/43/88/27/epigraphie-tilde/locronan/bannieres/DSCN0601c.jpg"
+    },
+    {
+      "title": "Bannière de l'église Notre-Dame des Carmes, Pont-l'Abbé",
+      "year": "1960",
+      "technique": "Paroisse de Pont-l'Abbé · grande broderie, carton d'André Bouler",
+      "description": "Bannière de la Vierge à l'Enfant en costume bigouden, quatrième de la liste des bannières Le Minor, réalisée en 1960 sur un dessin de Le Bouler (André Bouler) pour l'église des Carmes de Pont-l'Abbé.",
+      "url": "https://www.lavieb-aile.com/2016/11/les-43-bannieres-le-minor-1953-2016.html",
+      "imageUrl": "https://img.over-blog.com/401x600/3/43/88/27/epigraphie-tilde/pont-labbe-eglise-carmes/pont-labbe-eglise-carmes-2412-x.jpg"
+    },
+    {
+      "title": "Bannière de saint Similien, Nantes",
+      "year": "1965",
+      "technique": "Clergé de Nantes · bannière de procession brodée, carton de Pierre Toulhoat",
+      "description": "Bannière de saint Similien réalisée en 1965 pour Nantes sur un carton de Pierre Toulhoat, selon la liste des bannières Le Minor ; la base Palissy (notice PM44001700) décrit une bannière de procession nantaise de 1965 dessinée par Toulhoat et réalisée par les ateliers Le Minor.",
+      "url": "https://www.lavieb-aile.com/2016/11/les-43-bannieres-le-minor-1953-2016.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bannière de saint Alar, chapelle Notre-Dame du Drennec, Clohars-Fouesnant",
+      "year": "1984",
+      "technique": "Association de sauvegarde de la chapelle · grande broderie, carton de Pierre Toulhoat",
+      "description": "Bannière de pardon commandée par l'association de restauration de la chapelle : saint Alar entouré de chevaux et de cavaliers sur un ciel d'hermines, inscription « Ad savadur ar chapel 1984 » ; le revers, daté 1985, représente saint Isidore.",
+      "url": "https://www.lavieb-aile.com/2015/09/la-banniere-le-minor-de-la-chapelle-du-drennec-en-clohars-fouesnant-29.html",
+      "imageUrl": "https://img.over-blog-kiwi.com/1/40/19/56/20150919/ob_d04676_l1090876cc.JPG"
+    },
+    {
+      "title": "Bannière de saint Fiacre, Le Faouët",
+      "year": "1991",
+      "technique": "Chapelle Saint-Fiacre du Faouët · grande broderie, carton de Pierre Toulhoat",
+      "description": "Bannière représentant saint Fiacre, patron des jardiniers, avec sa bêche et la chapelle à ses pieds, signée « A.D. 1991, Toulhoat Le Minor » ; le verso est consacré à la Vierge et à la paroisse du Faouët.",
+      "url": "https://www.lavieb-aile.com/2016/11/les-43-bannieres-le-minor-1953-2016.html",
+      "imageUrl": "https://img.over-blog.com/468x600/3/43/88/27/epigraphie-tilde/le-faouet/st-fiacre/banniere/banniere-3313c.jpg"
+    },
+    {
+      "title": "Bannière de sainte Anne éducatrice, Guimiliau",
+      "year": "1992",
+      "technique": "Paroisse de Guimiliau · grande broderie, carton de Pierre Toulhoat",
+      "description": "Bannière paroissiale « Santez Anna pedit evidom » brodée par Cécile Le Roy et Jean-Michel Pérennec sur un carton de Pierre Toulhoat, datée « Anno Domini 1992 ».",
+      "url": "https://www.lavieb-aile.com/2016/11/les-43-bannieres-le-minor-1953-2016.html",
+      "imageUrl": "https://img.over-blog-kiwi.com/1/40/19/56/20161128/ob_42788f_l1290014cc.JPG"
+    },
+    {
+      "title": "Bannière de saint Nicolas, chapelle Saint-Trémeur, Le Guilvinec",
+      "year": "2013",
+      "technique": "Paroisse du Guilvinec · grande broderie, carton de Jakez Derouet",
+      "description": "Bannière commandée en 2013 à la maison Le Minor, dessinée par Jakez Derouet et brodée par Jean-Michel Pérennec : saint Nicolas, patron des sauveteurs en mer, au-dessus d'un chalutier en détresse, avec saint Pierre au revers.",
+      "url": "https://www.lavieb-aile.com/article-les-deux-bannieres-de-st-tremeur-au-guilvinec-124631654.html",
+      "imageUrl": "https://img.over-blog.com/399x600/3/43/88/27/epigraphie-tilde/guilvinec/chapelle-st-tremeur/bannieres/bannieres-0648c.jpg"
+    },
+    {
+      "title": "Bannière de Notre-Dame de Penhors, Pouldreuzic",
+      "year": "2017",
+      "technique": "Doyenné Cap-Sizun, Douarnenez et Haute Bigoudénie · grande broderie, carton de Jakez Derouet",
+      "description": "Bannière d'un mètre sur 1,52 m entièrement brodée à la main par Jean-Michel Pérennec aux ateliers Le Minor d'après un dessin de Jakez Derouet, certificat daté de mai 2017 et signé par Gildas Le Minor ; son coût est estimé à 16 000 euros (Ouest-France, 23 décembre 2016).",
+      "url": "https://www.lavieb-aile.com/2022/09/la-banniere-le-minor-de-la-chapelle-notre-dame-de-penhors-en-pouldreuzic.html",
+      "imageUrl": "https://image.over-blog.com/sJ2RkkLpt7hZhMutSBF2C-HGjcM=/filters:no_upscale()/image%2F1401956%2F20220917%2Fob_a8ef7d_l2000215cc.JPG"
+    },
+    {
+      "title": "Tapisserie brodée « Les Oiseaux rares » d'après Dom Robert",
+      "year": "",
+      "technique": "Dom Robert (abbaye d'En Calcat) · tapisserie brodée à l'aiguille",
+      "description": "Panneau brodé d'après un carton de Dom Robert, sans doute le premier dessin que Marie-Anne Le Minor fit broder pour convaincre l'artiste ; montré en 2014 à l'exposition « Ode à la nature. Dom Robert et la maison Le Minor » du Musée bigouden.",
+      "url": "https://www.lavieb-aile.com/article-dom-robert-a-pont-l-abbe-le-minor-confronte-a-aubusson-125206731.html",
+      "imageUrl": "https://img.over-blog.com/409x600/3/43/88/27/epigraphie-tilde/Pont-L-Abbe/expo-Dom-Robert/106c.jpg"
+    },
+    {
+      "title": "Tapisserie brodée « Le Jardin des Sirènes » d'après Dom Robert",
+      "year": "",
+      "technique": "Dom Robert (abbaye d'En Calcat) · tapisserie brodée à l'aiguille",
+      "description": "Un des dix modèles de panneaux brodés d'après Dom Robert proposés par la maison, édités à huit exemplaires au plus avec certificat cousu au dos, présenté à l'exposition du Musée bigouden en décembre 2014.",
+      "url": "https://www.lavieb-aile.com/article-dom-robert-a-pont-l-abbe-le-minor-confronte-a-aubusson-125206731.html",
+      "imageUrl": "https://img.over-blog.com/600x399/3/43/88/27/epigraphie-tilde/Pont-L-Abbe/expo-Dom-Robert/115cc.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Unidivers : Musée bigouden, la grande broderie, les 90 ans de la Maison Le Minor",
+      "url": "https://unidivers.fr/musee-bigouden-grande-broderie-le-minor-pont-labbe/"
+    },
+    {
+      "label": "Le Journal des Entreprises : comment les vêtements marins de Le Minor ont traversé les tempêtes (mars 2026)",
+      "url": "https://www.lejournaldesentreprises.com/article/comment-les-vetements-marins-de-le-minor-ont-traverse-les-tempetes-2139513"
+    },
+    {
+      "label": "Destination Pays Bigouden : Paroles de Bigoudens",
+      "url": "https://www.destination-paysbigouden.com/en/discover/tradition/bigoudens-words"
+    },
+    {
+      "label": "Blog de Jean-Yves Cordier : toutes les bannières Le Minor (1953-2016)",
+      "url": "https://www.lavieb-aile.com/2016/11/les-43-bannieres-le-minor-1953-2016.html"
+    },
+    {
+      "label": "Blog de Jean-Yves Cordier : la bannière Le Minor de Notre-Dame de Penhors (2017)",
+      "url": "https://www.lavieb-aile.com/2022/09/la-banniere-le-minor-de-la-chapelle-notre-dame-de-penhors-en-pouldreuzic.html"
+    },
+    {
+      "label": "Blog de Jean-Yves Cordier : la bannière Le Minor du Drennec",
+      "url": "https://www.lavieb-aile.com/2015/09/la-banniere-le-minor-de-la-chapelle-du-drennec-en-clohars-fouesnant-29.html"
+    },
+    {
+      "label": "Blog de Jean-Yves Cordier : les deux bannières de Saint-Trémeur au Guilvinec",
+      "url": "https://www.lavieb-aile.com/article-les-deux-bannieres-de-st-tremeur-au-guilvinec-124631654.html"
+    },
+    {
+      "label": "Blog de Jean-Yves Cordier : Dom Robert à Pont-l'Abbé, Le Minor confronté à Aubusson",
+      "url": "https://www.lavieb-aile.com/article-dom-robert-a-pont-l-abbe-le-minor-confronte-a-aubusson-125206731.html"
+    },
+    {
+      "label": "Blog de Jean-Yves Cordier : quelques tapisseries de l'atelier Le Minor",
+      "url": "https://www.lavieb-aile.com/2022/09/quelques-tapisseries-de-l-atelier-le-minor.html"
+    },
+    {
+      "label": "Destination Pays Bigouden : dédicace du catalogue « Le Minor, broderie d'art » d'Armel Morgant",
+      "url": "https://www.destination-paysbigouden.com/en/events-calendar/dedicace-de-armel-morgant-pont-labbe-en-6640800/"
+    }
+  ],
+  "researchNotes": "Attention à l'homonymie : la marque de vêtements marins Le Minor (tricots, marinières, kabig, usine à Guidel) vient de la Manufacture Bonneterie Lorientaise, qui a repris la marque Le Minor en 1982 puis a été reprise par la famille Grammatico (1987) et par Sylvain Flet et Jérôme Permingeat (2018), d'après le Journal des Entreprises. On ne sait pas clairement si les ateliers de broderie de Pont-l'Abbé ont suivi ce rachat ou sont restés une maison distincte, tenue par la famille. Le rôle exact de Gildas Le Minor (dirigeant ou non) n'est pas confirmé par une page lue : un résumé de recherche le présente comme dirigeant, sans source lisible. Non vérifié car les pages n'ont pas pu être lues : la fiche de l'inventaire du patrimoine culturel immatériel « Les savoir-faire de la broderie et de la dentelle en Bretagne » (culture.gouv.fr, accès refusé), qui citerait une brodeuse main et une brodeuse sur machine Cornely employées par la maison ; la notice Palissy PM44001700 (accès refusé), qui décrirait une bannière de 1965 dessinée par Pierre Toulhoat et réalisée par les ateliers Le Minor ; la page Unidivers d'une conférence de Gildas Le Minor et Armel Morgant sur la grande broderie, prévue le 22 juillet 2026 à Pont-l'Abbé (page introuvable). Un chiffre d'une cinquantaine de bannières sorties des ateliers circule aussi, sans source lue. Aucun site officiel, compte Instagram, label (EPV), client nommé ni offre de formation ou de visite trouvés. Images des réalisations : 9 sur 10 sont des photos du blog de Jean-Yves Cordier (lavieb-aile.com, hébergées sur over-blog), légendées par l'auteur et testées (200, image/jpeg) le 20 octobre 2026 ; leurs droits de réutilisation ne sont pas précisés. À vérifier : la notice Palissy PM44001700 reste inaccessible (403), son contenu (bannière nantaise de 1965) n'est connu que par un extrait de recherche et par la liste du blog ; la bannière de Guilvinec est datée 2014 dans la liste du blog mais 2013 sur la bannière et dans l'article dédié ; pour les tapisseries d'après Dom Robert, ni l'année ni le numéro d'exemplaire ne sont connus. Aucune photo de costume ou de coiffe brodés par la maison n'a pu être rattachée avec certitude à une pièce précise, ni aucune photo d'atelier."
+}

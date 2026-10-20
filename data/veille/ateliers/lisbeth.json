@@ -1,0 +1,42 @@
+{
+  "name": "Lisbeth",
+  "city": "",
+  "region": "",
+  "country": "France",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [],
+  "people": [],
+  "techniques": [
+    "Broderie haute couture"
+  ],
+  "clients": [],
+  "labels": [
+    "Maison disparue"
+  ],
+  "summary": "Petit atelier de broderie de la haute couture française des années 1950, aujourd'hui disparu. On ne le connaît que par deux mentions : les souvenirs du brodeur milanais Pino Grasso, et l'extrait retrouvé par Émilie sur les ateliers qui brodaient alors pour Dior, Balenciaga, Balmain ou Dessès.",
+  "history": "Lisbeth fait partie de ces petits ateliers qui ont brodé pour la haute couture française dans les années 1950, quand les grandes maisons faisaient appel à toute une constellation de brodeurs. Il a disparu depuis, comme Barbier, Bataille, Dufoni, Goby, Métral ou Ginistry.\n\nLe site de la maison italienne Pino Grasso Ricami, à Milan, le cite parmi les ateliers de broderie historiques que Pino Grasso a fréquentés dans les années 1950, après s'être formé chez Mesrine : Métral, Lanel, Goby, Lisbeth et Vermont. Lisbeth côtoie donc des ateliers bien connus de la broderie parisienne, comme Lanel et Vermont.\n\nOn ne connaît pour l'instant ni ses fondateurs, ni son adresse, ni ses dates, ni une pièce qui lui soit attribuée dans un musée.",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "works": [],
+  "timeline": [
+    {
+      "date": "1950",
+      "kind": "residence",
+      "label": "Années 1950 : Pino Grasso, futur brodeur milanais, fréquente l'atelier Lisbeth parmi d'autres ateliers historiques de broderie"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pino Grasso Ricami, About us (archive Wayback Machine)",
+      "url": "https://web.archive.org/web/2025/https://www.pinograsso-ricami.com/en/about-us/"
+    },
+    {
+      "label": "Pino Grasso Ricami, Chi siamo",
+      "url": "https://www.pinograsso-ricami.com/chi-siamo/"
+    }
+  ],
+  "researchNotes": "Nom donné par l'extrait d'Émilie (« Barbier, Bataille, Dufoni, Goby, Lisbeth, Métral ou Ginistry », petits ateliers ayant brodé dans les années 1950 pour Dior, Balenciaga, Balmain ou Dessès, aujourd'hui disparus ; référence de l'extrait à ajouter aux sources) et par le site de Pino Grasso Ricami, qui cite « Metral, Lanel, Goby, Lisbeth and Vermont ». Ville (Paris très probable), dates, fondateurs et clients non sourcés. Recherches sans résultat : V&A, Met, Europeana, registre des entreprises ; Paris Musées Collections était en panne le 20 octobre 2026. Pistes : Bottins du commerce parisiens des années 1950 sur Gallica (rubrique Brodeurs), catalogue « Les années 50 » du Palais Galliera (2014), travaux de Nadia Albertini. Ne pas confondre avec la marque de fil Lizbeth."
+}

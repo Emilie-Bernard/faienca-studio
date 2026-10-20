@@ -1,0 +1,127 @@
+{
+  "name": "May Morris",
+  "country": "Royaume-Uni",
+  "city": "Londres",
+  "zone": "europe",
+  "birthDate": "1862-03-25",
+  "deathDate": "1938-10-17",
+  "techniques": ["broderie crewel (laine)", "broderie à la soie", "point de reprise (darning stitch)", "passé empiétant (long and short stitch)", "point de tige", "passé plat", "or couché et laid work", "dessin de motifs pour la broderie", "papier peint", "bijouterie"],
+  "summary": "Brodeuse, dessinatrice et autrice du mouvement Arts and Crafts, May Morris a dirigé l'atelier de broderie de Morris & Co. à partir de 1885 et a fait de la broderie d'art un vrai métier de création. Son livre « Decorative Needlework » (1893) place le dessin au cœur de la belle broderie.",
+  "biography": "Mary Morris, dite May, naît le 25 mars 1862 à Red House, à Bexleyheath, près de Londres. Elle est la fille cadette du designer William Morris et de Jane Morris, et grandit au-dessus de la boutique de la firme familiale, au 26 Queen Square. Enfant, elle apprend la broderie crewel, de grandes pièces en laine inspirées de modèles médiévaux, auprès de sa mère et de sa tante Bessie Burden, qui l'encouragent à dessiner ses propres motifs. Elle entre ensuite à la National Art Training School, l'ancêtre du Royal College of Art.\n\nEn 1885, à 23 ans, elle prend la direction de l'atelier de broderie de Morris & Co. Elle y dessine des tentures, des panneaux de paravent, des coussins, des nappes, des broderies d'église et des kits vendus prêts à broder, comme le « Small Rose » vers 1890. Ses ouvrages mêlent le point de reprise, le passé empiétant, le point de tige et le passé plat, sur lin, coton ou damas de soie. Elle signe aussi des papiers peints pour la maison, dont « Honeysuckle » (vers 1883) et « Horn Poppy » (1885).\n\nEn 1893 paraît son livre « Decorative Needlework », un guide technique qui retrace un peu l'histoire de la broderie, présente les points et la mise en place du métier à broder, et défend une idée forte : le dessin est l'âme de la belle broderie. Après la mort de son père en 1896, elle quitte la direction de l'atelier et poursuit une carrière indépendante de dessinatrice, brodeuse, enseignante, conférencière et autrice. Autour de 1900, elle se met aussi à la bijouterie.\n\nParmi ses pièces les plus admirées figurent les deux panneaux « Spring and Summer » et « Autumn and Winter » (vers 1895), en soies colorées sur damas de soie, avec leurs couples de perruches et leurs médaillons des saisons, ainsi que le devant d'autel « Grapes and Vines » (vers 1885). En 1907, elle cofonde avec Mary Elizabeth Turner la Women's Guild of Arts, car l'Art Workers' Guild n'admettait pas les femmes. Vers 1909, elle part donner des conférences aux États-Unis. De 1910 à 1915, elle édite les œuvres complètes de son père en 24 volumes.\n\nElle passe la fin de sa vie à Kelmscott, dans les Cotswolds, avec sa compagne Mary Lobb, et meurt à Kelmscott Manor le 17 octobre 1938. Ses dessins et broderies sont aujourd'hui conservés notamment au V&A, à la William Morris Gallery et à l'Ashmolean Museum d'Oxford, qui garde plus de 300 de ses dessins. Longtemps restée dans l'ombre de son père, elle est à l'honneur en 2026 au Lady Lever Art Gallery de Port Sunlight, avec l'exposition « May Morris: Crafting a Legacy ».",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Spring and Summer (et son pendant Autumn and Winter)",
+      "year": "1895",
+      "technique": "Soies colorées et fils métalliques sur damas de soie ; couché, nœuds français, passé empiétant, point de tige, passé plat",
+      "description": "Paire de grands panneaux dessinés et probablement brodés par May Morris pour Morris & Co. Des roses stylisées entre deux perruches, et des médaillons qui évoquent les fruits des saisons. Commandés, semble-t-il, pour 150 livres, la plus grosse commande du carnet de la firme à cette période.",
+      "url": "https://whichmuseum.com/exhibition/may-morris-art-life-william-morris-gallery-9572",
+      "imageUrl": ""
+    },
+    {
+      "title": "Grapes and Vines, devant d'autel",
+      "year": "1885",
+      "technique": "Broderie",
+      "description": "Devant d'autel dessiné et brodé par May Morris vers 1885, prêté par la William Morris Society à l'exposition de 2026 au Lady Lever Art Gallery.",
+      "url": "https://www.artscityliverpool.com/single-post/may-morris-in-the-spotlight-at-lady-lever-art-gallery",
+      "imageUrl": ""
+    },
+    {
+      "title": "Paire de tentures, fleurs de lotus et acanthes",
+      "year": "1890",
+      "technique": "Soie brodée, surtout au point de reprise, avec points avant et mouchetis",
+      "description": "Deux tentures identiques sur fond de soie abricot, avec un motif répété de fleurs de lotus et de feuilles d'acanthe, bordé de roses grimpantes vertes. Dessinées entre 1890 et 1895 pour Morris & Co. V&A, T.364&A-1976.",
+      "url": "https://collections.vam.ac.uk/item/O353976/",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2016JJ7007/full/735,/0/default.jpg"
+    },
+    {
+      "title": "Small Rose, kit de broderie commencé",
+      "year": "1890",
+      "technique": "Soies colorées et encre sur coton ; point de reprise, point de tige, passé empiétant, passé plat",
+      "description": "Panneau de coton vendu en kit par Morris & Co. vers 1900, sur un dessin de May Morris d'environ 1890, avec une rose. Un joli témoin des ouvrages prêts à broder de la firme. V&A, CIRC.302-1960.",
+      "url": "https://collections.vam.ac.uk/item/O89393/",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2019ME8709/full/735,/0/default.jpg"
+    },
+    {
+      "title": "Vine Leaf, nappe",
+      "year": "1896",
+      "technique": "Fil de soie sur lin ; point de reprise, point de tige, passé plat",
+      "description": "Nappe de lin brodée de soie, avec un cartouche central de feuilles de vigne, des œillets, des roses et des tulipes vers les coins et une bordure de médaillons bleus et crème. Brodée par Morris & Co., peut-être par Mrs Hodson. V&A, T.426-1993.",
+      "url": "https://collections.vam.ac.uk/item/O89466/",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2006AT7313/full/735,/0/default.jpg"
+    },
+    {
+      "title": "Welcome Maids of Honour you do bring in the Spring and wait upon her, dessin de broderie",
+      "year": "1880",
+      "technique": "Encre rouge, crayon et aquarelle ; calque piqué pour le ponçage",
+      "description": "Dessin calqué et piqué pour transférer le motif sur le tissu : des fleurs dans un cercle portant l'inscription, des oiseaux stylisés aux coins. Années 1880, pour Morris & Co. V&A, E.956-1954.",
+      "url": "https://collections.vam.ac.uk/item/O586570/",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2006BF5707/full/735,/0/default.jpg"
+    },
+    {
+      "title": "Dessin de travail pour une bordure brodée",
+      "year": "1880",
+      "technique": "Crayon, encre de Chine et gouache sur calicot",
+      "description": "Dessin de travail pour une bordure brodée de Morris & Co., tracé directement sur calicot, vers les années 1880. V&A, E.957-1954.",
+      "url": "https://collections.vam.ac.uk/item/O586569/embroidery-design-may-morris/",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2016JJ4169/full/735,/0/default.jpg"
+    },
+    {
+      "title": "Horn Poppy, papier peint",
+      "year": "1885-09-21",
+      "technique": "Impression à la planche sur papier",
+      "description": "Papier peint aux pavots et feuillages, dessiné par May Morris, édité par Morris & Co. et imprimé par Jeffrey & Co. V&A, E.707-1915.",
+      "url": "https://collections.vam.ac.uk/item/O248894/",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2006BF6301/full/735,/0/default.jpg"
+    }
+  ],
+  "timeline": [
+    { "date": "1862-03-25", "kind": "vie", "label": "Naissance à Red House, Bexleyheath, près de Londres" },
+    { "date": "1878", "kind": "formation", "label": "Entre à la National Art Training School de Londres" },
+    { "date": "1883", "kind": "oeuvre", "label": "Papier peint Honeysuckle pour Morris & Co." },
+    { "date": "1885", "kind": "autre", "label": "Prend la direction de l'atelier de broderie de Morris & Co., à 23 ans" },
+    { "date": "1885-09-21", "kind": "oeuvre", "label": "Papier peint Horn Poppy" },
+    { "date": "1890-06-14", "kind": "vie", "label": "Épouse Henry Halliday Sparling (divorce en 1898)" },
+    { "date": "1893", "kind": "oeuvre", "label": "Publie Decorative Needlework chez Joseph Hughes & Co." },
+    { "date": "1895", "kind": "oeuvre", "label": "Panneaux Spring and Summer et Autumn and Winter" },
+    { "date": "1896", "kind": "autre", "label": "Mort de son père ; elle quitte la direction de l'atelier et travaille en indépendante" },
+    { "date": "1907", "kind": "autre", "label": "Cofonde la Women's Guild of Arts avec Mary Elizabeth Turner" },
+    { "date": "1909", "kind": "autre", "label": "Tournée de conférences aux États-Unis (date approximative)" },
+    { "date": "1910", "kind": "oeuvre", "label": "Début de l'édition des œuvres complètes de William Morris (24 volumes, jusqu'en 1915)" },
+    { "date": "1938-10-17", "kind": "vie", "label": "Mort à Kelmscott Manor" },
+    { "date": "2017-10-07", "kind": "exposition", "label": "Rétrospective May Morris: Art & Life à la William Morris Gallery, Londres (jusqu'au 28 janvier 2018)" },
+    { "date": "2026-04-25", "kind": "exposition", "label": "Exposition May Morris: Crafting a Legacy au Lady Lever Art Gallery, Port Sunlight (jusqu'au 1er novembre 2026)" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "May Morris: Crafting a Legacy",
+      "summary": "Environ 50 objets prêtés notamment par le V&A, la William Morris Gallery et la William Morris Society : broderies, dont le devant d'autel Grapes and Vines, papiers peints Honeysuckle, Arcadia et Horn Poppy, carnets de croquis, costume et bijoux, à côté de broderies anglaises du XVIIe siècle qui l'ont inspirée. Entrée gratuite. Plus que quelques jours pour la voir.",
+      "place": "Lady Lever Art Gallery",
+      "city": "Port Sunlight",
+      "country": "Royaume-Uni",
+      "zone": "europe",
+      "startDate": "2026-04-25",
+      "endDate": "2026-11-01",
+      "url": "https://www.visitliverpool.com/blog/post/may-morris-crafting-a-legacy-celebrating-a-pioneer-of-the-arts-and-crafts-movement/"
+    }
+  ],
+  "sources": [
+    { "label": "V&A, Embroidery design, May Morris (E.957-1954)", "url": "https://collections.vam.ac.uk/item/O586569/embroidery-design-may-morris/" },
+    { "label": "V&A, Welcome Maids of Honour, dessin de broderie (E.956-1954)", "url": "https://collections.vam.ac.uk/item/O586570/" },
+    { "label": "V&A, Pair of hangings (T.364&A-1976)", "url": "https://collections.vam.ac.uk/item/O353976/" },
+    { "label": "V&A, Small Rose (CIRC.302-1960)", "url": "https://collections.vam.ac.uk/item/O89393/" },
+    { "label": "V&A, Vine Leaf tablecloth (T.426-1993)", "url": "https://collections.vam.ac.uk/item/O89466/" },
+    { "label": "V&A, Horn Poppy wallpaper (E.707-1915)", "url": "https://collections.vam.ac.uk/item/O248894/" },
+    { "label": "V&A, recherche des objets de May Morris (API)", "url": "https://api.vam.ac.uk/v2/objects/search?q_actor=May%20Morris&page_size=40&images_exist=1" },
+    { "label": "Wikipedia, May Morris", "url": "https://en.wikipedia.org/wiki/May_Morris" },
+    { "label": "Ashmolean Museum, The many talents of May Morris", "url": "https://www.ashmolean.org/node/4519711" },
+    { "label": "Whichmuseum, May Morris: Art & Life (William Morris Gallery, 2017-2018)", "url": "https://whichmuseum.com/exhibition/may-morris-art-life-william-morris-gallery-9572" },
+    { "label": "The Spectator, May's day (critique de l'exposition de 2017)", "url": "https://spectator.com/article/may-s-day/" },
+    { "label": "Visit Liverpool, May Morris: Crafting a Legacy", "url": "https://www.visitliverpool.com/blog/post/may-morris-crafting-a-legacy-celebrating-a-pioneer-of-the-arts-and-crafts-movement/" },
+    { "label": "Arts City Liverpool, May Morris in the spotlight at Lady Lever Art Gallery", "url": "https://www.artscityliverpool.com/single-post/may-morris-in-the-spotlight-at-lady-lever-art-gallery" }
+  ],
+  "researchNotes": "Decorative Needlework (1893) est confirmé par Wikipedia (éditeur Joseph Hughes & Co.) et par l'Ashmolean. Date d'entrée à la National Art Training School : 1878 selon Wikipedia, 1881 selon d'autres résumés de recherche non lus en détail ; à vérifier. Durée à la tête de l'atelier : Wikipedia dit jusqu'en 1896, l'Ashmolean parle de 12 ans (soit 1897). La tournée américaine est datée d'après une photo « vers 1909 » citée par l'Ashmolean ; les dates exactes restent à trouver. Panneaux Spring and Summer / Autumn and Winter : dits « probablement brodés » par elle ; l'Ashmolean date Autumn and Winter vers 1894 et le dit en collection privée, la date de 1895 vient de la page de l'exposition 2017. Le devant d'autel pour Bessie Burden (cité par The Spectator) et Grapes and Vines sont peut-être la même pièce, non vérifié. Date d'ouverture de l'exposition de Port Sunlight : 25 avril 2026 dans la plupart des sources, 26 avril dans une annonce de Culture Liverpool ; la page officielle de National Museums Liverpool n'a pas pu être lue. Les pages de Culture Liverpool, du TRC Leiden, de l'Art Institute of Chicago et de la Royal Academy n'ont pas pu être lues (blocage ou erreur 403). Les liens d'images V&A suivent le modèle IIIF vérifié sur la fiche E.957-1954 ; seuls ces liens ont été construits à partir des identifiants d'image de l'API. Pas de photo libre de droits retenue. Homonyme possible : ne pas confondre avec Mary Elizabeth Morris, nom complet parfois cité par la boutique du V&A pour Honeysuckle."
+}

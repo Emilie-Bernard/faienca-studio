@@ -1,0 +1,327 @@
+{
+  "name": "Lesage",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1924",
+  "closedDate": "",
+  "founders": [
+    "Albert Lesage",
+    "Marie-Louise Lesage"
+  ],
+  "people": [
+    {
+      "name": "Albert Lesage",
+      "role": "cofondateur, reprend l'atelier Michonet en 1924 (1888-1949)"
+    },
+    {
+      "name": "Marie-Louise Lesage",
+      "role": "cofondatrice, ancienne assistante chargée de la broderie chez Madeleine Vionnet"
+    },
+    {
+      "name": "François Lesage",
+      "role": "dirigeant de 1949 à 2011, fondateur de l'École Lesage, Maître d'art (1929-2011)"
+    },
+    {
+      "name": "Jean-François Lesage",
+      "role": "fondateur de Lesage Intérieurs en 1993"
+    },
+    {
+      "name": "Hubert Barrère",
+      "role": "directeur artistique depuis 2011, ancien directeur artistique de la maison Hurel"
+    }
+  ],
+  "techniques": [
+    "Broderie à l'aiguille",
+    "Crochet de Lunéville",
+    "Vermicelle droit fil",
+    "Effet ombré",
+    "Broderie d'ameublement et de décoration",
+    "Tissage de tweeds (avec l'atelier Act 3)"
+  ],
+  "clients": [
+    "Chanel",
+    "Madeleine Vionnet",
+    "Elsa Schiaparelli",
+    "Jeanne Lanvin",
+    "Cristóbal Balenciaga",
+    "Pierre Balmain",
+    "Christian Dior",
+    "Hubert de Givenchy",
+    "Grès",
+    "Jean Patou",
+    "Jacques Fath",
+    "Yves Saint Laurent",
+    "Christian Lacroix",
+    "Valentino",
+    "Louis Vuitton",
+    "Bouchra Jarrar",
+    "Alexandre Vauthier",
+    "Maxime Simoëns",
+    "Mary Katrantzou"
+  ],
+  "labels": [
+    "Certification Qualiopi (École Lesage)"
+  ],
+  "summary": "Maison de broderie et de tissage de haute couture née en 1924 de la reprise de l'atelier Michonet par Albert et Marie-Louise Lesage. Elle fait partie des Métiers d'art de Chanel depuis 2002 et travaille aujourd'hui au 19M, à Paris.",
+  "history": "En 1924, Albert et Marie-Louise Lesage reprennent l'atelier du brodeur Michonet, fondé en 1858, qui devient Albert Lesage et Cie. Marie-Louise connaît bien le métier : elle était assistante chargée de la broderie chez Madeleine Vionnet, et le couple s'est rencontré chez Michonet. Les premières années sont marquées par le travail avec Vionnet, pour qui la maison met au point des broderies légères adaptées à ses coupes en biais. La maison garde aussi les archives de Michonet, classées depuis 1858.\n\nDans les années 1930, Elsa Schiaparelli devient une cliente majeure : à partir de 1936, elle confie toutes ses broderies à Lesage, jusqu'à la fermeture de sa maison en 1954. Les matières deviennent plus audacieuses et la maison se lance aussi dans les accessoires brodés et les tissus imprimés.\n\nÀ la mort d'Albert en 1949, son fils François, 20 ans, reprend la maison. Il travaille avec presque toute la haute couture : Balmain, Balenciaga, Dior, Givenchy, Grès, Jean Patou, Jacques Fath, puis Yves Saint Laurent, qui travaille avec Lesage à partir de 1963, une collaboration de 44 ans. Au début des années 1980 commence le travail avec Karl Lagerfeld pour Chanel, qui devient la cliente principale.\n\nSoucieux de transmettre son savoir-faire, François Lesage fonde l'École Lesage en 1992. En 1993, Jean-François Lesage crée Lesage Intérieurs pour la broderie de décoration, en lien avec l'atelier Vastrakala à Chennai, en Inde. En 1996 naît l'atelier de tissage Act 3, et la maison fournit des tweeds à Chanel à partir de 1998. En 2002, François Lesage cède la maison à Chanel, via sa filiale Paraffection, et Lesage rejoint les Métiers d'art de Chanel.\n\nFrançois Lesage meurt le 1er décembre 2011, l'année où il est nommé Maître d'art. Hubert Barrère, qui dirigeait jusque-là la création chez Hurel, devient directeur artistique. Depuis 2021, la maison est installée au 19M, le lieu des métiers d'art de Chanel, place Skanderbeg dans le 19e arrondissement. Pour ses 100 ans, la Galerie du 19M lui a consacré l'exposition Lesage, 100 ans de mode et de décoration (26 septembre 2024 au 5 janvier 2025), et la National Gallery of Victoria, à Melbourne, l'exposition Lesage X Vionnet.",
+  "training": "L'École Lesage, fondée en 1992 par François Lesage, est aujourd'hui au 2 place Skanderbeg, 75019 Paris. Elle propose une initiation aux premiers points d'aiguille et au crochet de Lunéville (6 à 30 heures), un niveau perfectionnement qui couvre toutes les techniques jusqu'au niveau professionnel (30 à 48 heures), des spécialisations professionnelles en broderie haute couture ou en broderie de décoration (150 heures chacune), et des séminaires privés pour les groupes. Les parcours se définissent sur rendez-vous (téléphone : +33 1 44 79 00 88). L'école est certifiée Qualiopi et la spécialisation haute couture est liée à Mon Compte Formation. Pendant l'exposition des 100 ans au 19M, des ateliers participatifs de broderie et de tissage étaient ouverts au public.",
+  "website": "https://www.lesage-paris.com/",
+  "instagram": "https://www.instagram.com/lesage/",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1858",
+      "kind": "vie",
+      "label": "Fondation de l'atelier du brodeur Michonet, dont Lesage est l'héritier"
+    },
+    {
+      "date": "1924",
+      "kind": "vie",
+      "label": "Albert et Marie-Louise Lesage reprennent Michonet, qui devient Albert Lesage et Cie"
+    },
+    {
+      "date": "1936",
+      "kind": "residence",
+      "label": "Elsa Schiaparelli confie toutes ses broderies à Lesage, jusqu'en 1954"
+    },
+    {
+      "date": "1949",
+      "kind": "vie",
+      "label": "Mort d'Albert Lesage, son fils François reprend la maison à 20 ans"
+    },
+    {
+      "date": "1963",
+      "kind": "residence",
+      "label": "Début de la collaboration avec Yves Saint Laurent, qui durera 44 ans"
+    },
+    {
+      "date": "1992",
+      "kind": "formation",
+      "label": "François Lesage fonde l'École Lesage"
+    },
+    {
+      "date": "1993",
+      "kind": "vie",
+      "label": "Jean-François Lesage crée Lesage Intérieurs"
+    },
+    {
+      "date": "1996",
+      "kind": "vie",
+      "label": "Création de l'atelier de tissage Act 3"
+    },
+    {
+      "date": "1998",
+      "kind": "oeuvre",
+      "label": "Premiers tweeds fournis à Chanel"
+    },
+    {
+      "date": "2002",
+      "kind": "vie",
+      "label": "Rachat par Chanel via Paraffection, entrée dans les Métiers d'art de Chanel"
+    },
+    {
+      "date": "2011",
+      "kind": "prix",
+      "label": "François Lesage est nommé Maître d'art"
+    },
+    {
+      "date": "2011-12-01",
+      "kind": "vie",
+      "label": "Mort de François Lesage, Hubert Barrère devient directeur artistique"
+    },
+    {
+      "date": "2021",
+      "kind": "vie",
+      "label": "Installation au 19M, à Paris"
+    },
+    {
+      "date": "2024-06-15",
+      "kind": "exposition",
+      "label": "Exposition Lesage X Vionnet à la National Gallery of Victoria, Melbourne (jusqu'au 21 novembre 2024)"
+    },
+    {
+      "date": "2024-09-26",
+      "kind": "exposition",
+      "label": "Exposition Lesage, 100 ans de mode et de décoration à la Galerie du 19M (jusqu'au 5 janvier 2025)"
+    },
+    {
+      "date": "2013-12",
+      "kind": "vie",
+      "label": "Rachat de l’atelier de broderie Lanel (fondé en 1949), qui rejoint Lesage et les métiers d’art de Chanel."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Maison Lesage, site officiel",
+      "url": "https://www.lesage-paris.com/"
+    },
+    {
+      "label": "École Lesage, site officiel",
+      "url": "https://ecolelesage.com/"
+    },
+    {
+      "label": "Wikipedia, François Lesage",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage"
+    },
+    {
+      "label": "Paris.fr, Lesage, 100 ans de mode et de décoration",
+      "url": "https://www.paris.fr/evenements/lesage-100-ans-de-mode-et-de-decoration-a-admirer-a-la-galerie-du-19m-66862"
+    },
+    {
+      "label": "FashionUnited, Haute Couture et savoir-faire (III) : les broderies de Lesage",
+      "url": "https://fashionunited.fr/actualite/mode/haute-couture-et-savoir-faire-iii-les-broderies-de-lesage/2017013112355"
+    },
+    {
+      "label": "Fédération de la Haute Couture et de la Mode, Hubert Barrère",
+      "url": "https://www.fhcm.paris/en/node/7550"
+    },
+    {
+      "label": "Sister Mag, Maison Lesage",
+      "url": "https://www.sister-mag.com/en/magazine/sistermag-no-67-july-2023/maison-lesage-embroidery-art-from-paris/"
+    },
+    {
+      "label": "National Gallery of Victoria, Lesage X Vionnet",
+      "url": "https://www.ngv.vic.gov.au/exhibition/lesage-x-vionnet/"
+    },
+    {
+      "label": "Journal du Luxe, L'École Lesage propose des cours du soir (2016)",
+      "url": "https://www.journalduluxe.fr/fr/business/l-ecole-lesage-propose-des-cours-du-soir-de-broderie-haute-couture"
+    },
+    {
+      "label": "V&A, manteau du soir Schiaparelli et Cocteau 1937 (T.59-2005)",
+      "url": "https://collections.vam.ac.uk/item/O117953"
+    },
+    {
+      "label": "V&A, veste du soir Schiaparelli 1937 (T.51-1965)",
+      "url": "https://collections.vam.ac.uk/item/O88482"
+    },
+    {
+      "label": "V&A, robe du soir Schiaparelli 1940 (T.48-1965)",
+      "url": "https://collections.vam.ac.uk/item/O74727"
+    },
+    {
+      "label": "V&A, robe du soir Castillo pour Lanvin 1957 (T.284-1974)",
+      "url": "https://collections.vam.ac.uk/item/O138937"
+    },
+    {
+      "label": "V&A, robe du soir Balenciaga 1960 (T.17-2006)",
+      "url": "https://collections.vam.ac.uk/item/O121207"
+    },
+    {
+      "label": "V&A, manteau Balenciaga 1961 (T.24-1974)",
+      "url": "https://collections.vam.ac.uk/item/O109487"
+    },
+    {
+      "label": "V&A, ensemble du soir Balenciaga 1967 (T.38 to C-1974)",
+      "url": "https://collections.vam.ac.uk/item/O110006"
+    },
+    {
+      "label": "Wikimedia Commons, notice Palais Galliera, robe Jenny 1926 (1964.18.1)",
+      "url": "https://commons.wikimedia.org/wiki/File:Robe,_1964.18.1.jpg"
+    },
+    {
+      "label": "Wikimedia Commons, notice Palais Galliera, manteau Eugénie et Juliette vers 1925 (1962.67.3)",
+      "url": "https://commons.wikimedia.org/wiki/File:Manteau_du_soir,_1962.67.3.jpg"
+    },
+    {
+      "label": "Wikimedia Commons, veste Yves Saint Laurent Hommage à Van Gogh, Musée Yves Saint Laurent Paris",
+      "url": "https://commons.wikimedia.org/wiki/File:1988_Yves_Saint_Laurent_Jacket,_%22Homage_to_Vincent_van_Gogh%22_(Mus%C3%A9e_Yves_Saint_Laurent,_Paris).jpg"
+    },
+    {
+      "label": "FashionNetwork (AFP), Le brodeur Lanel rejoint Lesage dans les métiers d'art de Chanel (2 décembre 2013)",
+      "url": "https://fr.fashionnetwork.com/news/Le-brodeur-lanel-rejoint-lesage-dans-les-metiers-d-art-de-chanel,372348.html"
+    },
+    {
+      "label": "FashionUnited, Lesage (Chanel) rachète son fournisseur en broderie Lanel (2013)",
+      "url": "https://fashionunited.fr/v1/mode/lesage-chanel-rachete-son-fournisseur-en-broderie-lanel/201312052828"
+    },
+    {
+      "label": "Wikipedia, Paraffection",
+      "url": "https://en.wikipedia.org/wiki/Paraffection"
+    }
+  ],
+  "researchNotes": "La page du 19M (https://www.le19m.com/en/houses/lesage) a renvoyé une erreur 403 : elle n'a pas pu être lue ni citée. Début avec Lagerfeld pour Chanel : 1982 selon FashionUnited, 1983 selon Wikipedia. Taille des archives : environ 60 000 échantillons selon FashionUnited, environ 80 000 selon Sister Mag. Élèves de l'école : plus de 400 formés au total selon FashionUnited (2017), près de 400 par an selon Journal du Luxe (2016). Les cours du soir mensuels (2016) et l'ancienne adresse rue de la Grange-Batelière ne sont peut-être plus d'actualité. Un CQP Brodeur Atelier d'Art de 300 heures est cité par FashionUnited mais n'apparaît pas sur le site actuel de l'école. Hubert Barrère : nommé en 2011, à la demande de François Lesage selon la FHCM ; d'autres récits citent aussi Karl Lagerfeld, Virginie Viard et Bruno Pavlovsky (non lus). Pas de label EPV trouvé ni vérifié pour Lesage. Une offre de stage repérée en recherche (non lue) mentionne une adresse à Pantin, 20 rue du Cheval Blanc. Instagram de l'école : https://www.instagram.com/ecolelesage/.\n\nGalerie de réalisations : les images V&A (IIIF framemark) et Wikimedia Commons ont été testées (200, image/jpeg) et correspondent aux notices ; pas de photo d'atelier libre et vérifiable trouvée, photoUrl reste vide. Le Met (Schiaparelli 1937-1939, YSL Irises 1988, Chanel 2015-16) associe aussi Lesage à des pièces, mais ses pages ont renvoyé une erreur 429 et son API ne donne pas d'image pour ces costumes : à vérifier. Le Palais Galliera attribue aussi à Lesage une robe Paquin datée 1923-1924 (1960.61.7), antérieure à la reprise de 1924 : à éclaircir.",
+  "works": [
+    {
+      "title": "Manteau du soir, décor de Jean Cocteau",
+      "year": "1937",
+      "technique": "Elsa Schiaparelli · broderie au fil d'or et de soie, applications",
+      "description": "Manteau en jersey de soie dessiné avec Jean Cocteau ; le V&A désigne Lesage comme réalisateur de la broderie au fil d'or et de soie et des applications.",
+      "url": "https://collections.vam.ac.uk/item/O117953",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2025PG1223/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Veste du soir au bouton en forme de cygne",
+      "year": "1937",
+      "technique": "Elsa Schiaparelli · broderie de lames métalliques teintées",
+      "description": "Veste de la collection hiver 1937 en velours de soie violet ; selon le V&A, la broderie florale abondante est de la maison Lesage.",
+      "url": "https://collections.vam.ac.uk/item/O88482",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2026PM9430/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Robe du soir aux lys",
+      "year": "1940",
+      "technique": "Elsa Schiaparelli · perles, paillettes et lame métallique",
+      "description": "Robe de crêpe noir de la collection automne 1940, ornée d'une gerbe de lys brodée par la maison Lesage en perles de plusieurs tailles, paillettes et lame métallique (V&A).",
+      "url": "https://collections.vam.ac.uk/item/O74727",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2025PF9484/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Robe du soir de style gilet XVIIIe",
+      "year": "1957",
+      "technique": "Lanvin (Antonio del Castillo) · chenille et strass",
+      "description": "Le V&A indique que la broderie de chenille et de strass a été dessinée par François Lesage, d'après les gilets brodés du XVIIIe siècle.",
+      "url": "https://collections.vam.ac.uk/item/O138937",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2007BM5995/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Robe du soir de Madame Alec Weisweiller",
+      "year": "1960",
+      "technique": "Balenciaga · rubans, dentelle et perles sur organza",
+      "description": "Commande unique pour la fête des 18 ans de la fille de Madame Weisweiller ; le V&A attribue la broderie de rubans, dentelle et perles à Lesage.",
+      "url": "https://collections.vam.ac.uk/item/O121207",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2010EJ6417/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Manteau brodé de Melanex et de cristal",
+      "year": "1961",
+      "technique": "Balenciaga · Melanex, perles de cristal, chenille et soie",
+      "description": "Manteau en faille d'août 1961 ; le V&A nomme Lesage comme brodeur.",
+      "url": "https://collections.vam.ac.uk/item/O109487",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2017JT3195/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Ensemble du soir à paillettes plastiques",
+      "year": "1967",
+      "technique": "Balenciaga · paillettes d'acétate et perles de nacre",
+      "description": "Ensemble de l'été 1967 ; le V&A rappelle que Balenciaga fut l'un des premiers couturiers à montrer les broderies de paillettes plastiques de Lesage.",
+      "url": "https://collections.vam.ac.uk/item/O110006",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2016JJ3827/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Robe du soir en lamé or aux lotus",
+      "year": "1926",
+      "technique": "Jenny · broderie au crochet de perles et de tubes",
+      "description": "Robe courte en lamé or, brodée au crochet d'un décor de fleurs stylisées et de lotus d'inspiration égyptienne ; la notice du Palais Galliera (1964.18.1) nomme Lesage comme brodeur.",
+      "url": "https://commons.wikimedia.org/wiki/File:Robe,_1964.18.1.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Robe%2C_1964.18.1.jpg/1280px-Robe%2C_1964.18.1.jpg"
+    },
+    {
+      "title": "Manteau du soir japonisant",
+      "year": "1925",
+      "technique": "Eugénie et Juliette · broderie à l'aiguille de paillettes, tubes et fil or",
+      "description": "Manteau en satin de soie ivoire brodé à l'aiguille d'un décor japonisant, vers 1925 ; le Palais Galliera (1962.67.3) l'attribue au brodeur Lesage.",
+      "url": "https://commons.wikimedia.org/wiki/File:Manteau_du_soir,_1962.67.3.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Manteau_du_soir%2C_1962.67.3.jpg/1280px-Manteau_du_soir%2C_1962.67.3.jpg"
+    },
+    {
+      "title": "Veste du soir Hommage à Vincent van Gogh",
+      "year": "1988",
+      "technique": "Yves Saint Laurent · paillettes, tubes, rocailles et rubans",
+      "description": "Veste de la collection printemps-été 1988, conservée au Musée Yves Saint Laurent Paris, dont la broderie de paillettes, tubes et rubans est de la maison Lesage (photo de musée sous licence CC BY 2.0).",
+      "url": "https://commons.wikimedia.org/wiki/File:1988_Yves_Saint_Laurent_Jacket,_%22Homage_to_Vincent_van_Gogh%22_(Mus%C3%A9e_Yves_Saint_Laurent,_Paris).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/1988_Yves_Saint_Laurent_Jacket%2C_%22Homage_to_Vincent_van_Gogh%22_%28Mus%C3%A9e_Yves_Saint_Laurent%2C_Paris%29.jpg/1280px-1988_Yves_Saint_Laurent_Jacket%2C_%22Homage_to_Vincent_van_Gogh%22_%28Mus%C3%A9e_Yves_Saint_Laurent%2C_Paris%29.jpg"
+    }
+  ]
+}

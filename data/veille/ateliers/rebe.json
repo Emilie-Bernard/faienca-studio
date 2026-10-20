@@ -1,0 +1,300 @@
+{
+  "name": "Rébé",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1911",
+  "closedDate": "1967",
+  "founders": [
+    "René Bégué",
+    "Andrée Pichard"
+  ],
+  "people": [
+    {
+      "name": "René Bégué",
+      "role": "fondateur, dessinateur et brodeur, coloriste (1887-1987)"
+    },
+    {
+      "name": "Andrée Pichard",
+      "role": "cofondatrice et collaboratrice, épouse de René Bégué, modiste"
+    },
+    {
+      "name": "Maurice Vitet",
+      "role": "brodeur parisien qui a initié René Bégué au métier, dans ses ateliers fondés en 1894"
+    }
+  ],
+  "techniques": [
+    "Paillettes nuancées, cachées sous des fils et d'autres matières pour un éclat doux",
+    "Paillettes et sequins",
+    "Soutache",
+    "Cabochons",
+    "Perles de verre",
+    "Broderie sur mousseline de soie très fine",
+    "Rubans et dentelle mécanique"
+  ],
+  "clients": [
+    "Christian Dior",
+    "Balenciaga",
+    "Givenchy",
+    "Lanvin",
+    "Yves Saint Laurent",
+    "Jacques Fath",
+    "Paquin",
+    "Worth",
+    "Philippe et Gaston",
+    "Agnès",
+    "Martial et Armand"
+  ],
+  "labels": [],
+  "summary": "Maison de broderie haute couture fondée à Paris par René Bégué et sa femme Andrée Pichard, fermée en 1967. Célèbre pour ses paillettes nuancées, elle a brodé pour Dior, dont la robe Junon, et pour Balenciaga.",
+  "history": "René Bégué naît à Paris le 26 juin 1887. Son nom de maison, Rébé, réunit les deux premières lettres de son prénom et de son nom. En 1903, il devient livreur chez le dentellier Henri Breton, puis placier. Début 1904, il remporte un concours pour devenir dessinateur en broderie de la maison Paquin et part à Londres, avant de revenir à Paris fin 1906.\n\nC'est le brodeur Maurice Vitet qui l'initie au métier. René Bégué commence à travailler au 5 rue Saint-Augustin et devient seul propriétaire de l'atelier en 1911, l'année retenue pour la fondation de Rébé. Sa femme Andrée Pichard, modiste de grand talent, est sa collaboratrice. Ensemble, ils fournissent les plus grandes maisons de couture pendant plus de cinquante ans : Paquin, Worth, Philippe et Gaston, Agnès, Martial et Armand, puis Jacques Fath, Christian Dior, Balenciaga, Givenchy, Lanvin et Yves Saint Laurent.\n\nLa signature de la maison, ce sont les paillettes nuancées : les paillettes sont en partie cachées sous des fils et d'autres matières, pour que l'éclat reste doux. Rébé travaille aussi la soutache, les sequins et les cabochons, le plus souvent sur une mousseline de soie très fine. Les motifs vont des frises géométriques inspirées de l'Égypte et de la Grèce aux paysages japonais, des fleurs Art déco aux motifs d'Afrique du Nord et des Balkans. Les échantillons sont grands, certains panneaux brodés font presque un mètre, et les couturiers construisent parfois la robe autour d'eux. Le V&A décrit Rébé comme le grand rival de Lesage.\n\nParmi les réalisations marquantes : les broderies de la collection Balenciaga printemps-été 1947, et chez Dior la jupe en pétales de la robe Junon (automne-hiver 1949-1950), dont les écailles de tissu brodé se superposent comme les plumes d'une queue de paon. Le Met attribue aussi à Rébé les broderies de la robe Venus, soeur de Junon, et de la robe de bal May (printemps-été 1953). La maison ferme en 1967, après 56 ans d'activité. René Bégué meurt en 1987, à 100 ans.\n\nAujourd'hui, ses broderies se voient dans les musées : le Met à New York conserve Junon, le V&A à Londres des robes Fath, Dior et Yves Saint Laurent et un chapeau du soir brodés par Rébé, la National Gallery of Victoria à Melbourne un échantillon tamponné « RÉBÉ » vers 1960, et le Musée des Arts Décoratifs à Paris des archives de la maison. L'historienne de la mode Nadia Albertini a redécouvert ces archives en 2016 et leur a consacré la monographie Rébé. Broderies Haute Couture (Gourcuff Gradenigo, 2021). En 2026, le Palais Galliera a cité Rébé parmi les maisons célébrées dans l'exposition Tisser, broder, sublimer.",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1887-06-26",
+      "kind": "vie",
+      "label": "Naissance de René Bégué à Paris"
+    },
+    {
+      "date": "1903",
+      "kind": "formation",
+      "label": "René Bégué devient livreur puis placier chez le dentellier Henri Breton"
+    },
+    {
+      "date": "1904",
+      "kind": "formation",
+      "label": "Lauréat d'un concours, il devient dessinateur en broderie chez Paquin, à Londres"
+    },
+    {
+      "date": "1911",
+      "kind": "vie",
+      "label": "René Bégué devient seul propriétaire de l'atelier : fondation de Rébé avec Andrée Pichard"
+    },
+    {
+      "date": "1947",
+      "kind": "oeuvre",
+      "label": "Broderies de la collection Balenciaga printemps-été 1947"
+    },
+    {
+      "date": "1948",
+      "kind": "oeuvre",
+      "label": "Robe du soir Jacques Fath brodée par Rébé (V&A)"
+    },
+    {
+      "date": "1949",
+      "kind": "oeuvre",
+      "label": "Robes Junon et Venus de Christian Dior, collection automne-hiver 1949-1950"
+    },
+    {
+      "date": "1953",
+      "kind": "oeuvre",
+      "label": "Robe de bal May de Christian Dior, printemps-été 1953"
+    },
+    {
+      "date": "1956",
+      "kind": "oeuvre",
+      "label": "Robe du soir Bosphore de Christian Dior (V&A)"
+    },
+    {
+      "date": "1959",
+      "kind": "oeuvre",
+      "label": "Robe du soir Balenciaga en gazar, broderie probablement de Rébé (V&A)"
+    },
+    {
+      "date": "1960",
+      "kind": "oeuvre",
+      "label": "Ensemble pantalon du soir Estoril d'Yves Saint Laurent (V&A)"
+    },
+    {
+      "date": "1964",
+      "kind": "oeuvre",
+      "label": "Manteau du soir Yves Saint Laurent et chapeau du soir, automne-hiver 1964 (V&A)"
+    },
+    {
+      "date": "1967",
+      "kind": "vie",
+      "label": "Fermeture de la maison après 56 ans d'activité"
+    },
+    {
+      "date": "1987",
+      "kind": "vie",
+      "label": "Mort de René Bégué, à 100 ans"
+    },
+    {
+      "date": "1993",
+      "kind": "autre",
+      "label": "Un échantillon Rébé (vers 1960) entre à la National Gallery of Victoria, Melbourne"
+    },
+    {
+      "date": "2016",
+      "kind": "autre",
+      "label": "Nadia Albertini redécouvre les archives de la maison"
+    },
+    {
+      "date": "2021-10-22",
+      "kind": "autre",
+      "label": "Parution de Rébé. Broderies Haute Couture de Nadia Albertini (Gourcuff Gradenigo)"
+    },
+    {
+      "date": "2026",
+      "kind": "exposition",
+      "label": "Rébé cité dans l'exposition Tisser, broder, sublimer au Palais Galliera (jusqu'au 18 octobre 2026)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Will Works Studios, Every stitch has an author",
+      "url": "https://www.willworksstudios.com/p/every-stitch-has-an-author"
+    },
+    {
+      "label": "Selvedge, A Life's Work, extrait de Nadia Albertini (2021)",
+      "url": "https://www.selvedge.org/blogs/selvedge/a-lifes-work"
+    },
+    {
+      "label": "Boutique du MAD, Rébé. Broderies Haute Couture",
+      "url": "https://boutique.madparis.fr/en/bookshop/rebe-broderies-haute-couture/15028.html"
+    },
+    {
+      "label": "V&A, robe du soir Balenciaga 1959 (T.17-1974)",
+      "url": "https://collections.vam.ac.uk/item/O109471/evening-outfit-balenciaga-cristobal"
+    },
+    {
+      "label": "V&A, objets associés à Rébé",
+      "url": "https://collections.vam.ac.uk/context/organisation/A17143/rebe"
+    },
+    {
+      "label": "The Met sur Google Arts & Culture, robes de bal de Dior (Junon, Venus, May)",
+      "url": "https://artsandculture.google.com/story/wQVxH3aCfHZxJQ"
+    },
+    {
+      "label": "Google Arts & Culture, Junon, Christian Dior (Met, C.I.53.40.5a-e)",
+      "url": "https://artsandculture.google.com/asset/junon-christian-dior/PQEq_zKMrudA8A?hl=en"
+    },
+    {
+      "label": "National Gallery of Victoria, échantillon Rébé (CT2-1993)",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/51285"
+    },
+    {
+      "label": "FHCM, exposition Tisser, broder, sublimer au Palais Galliera",
+      "url": "https://www.fhcm.paris/en/node/7553"
+    },
+    {
+      "label": "Fine Arts Museums of San Francisco sur Selvedge, Sister Dresses : Junon et Venus",
+      "url": "https://www.selvedge.org/blogs/journal/sister-dresses-christian-dior-s-junon-and-venus"
+    },
+    {
+      "label": "Google Arts & Culture, Venus, Christian Dior (Met, C.I.53.40.7a-e)",
+      "url": "https://artsandculture.google.com/asset/venus-evening-gown/6AEgCTTHs_82IQ"
+    },
+    {
+      "label": "Google Arts & Culture, May, Christian Dior (Met, C.I.60.21.1a, b)",
+      "url": "https://artsandculture.google.com/asset/may/tQF9SRys11buGg"
+    },
+    {
+      "label": "V&A, robe du soir Jacques Fath 1948 (T.184&A-1974)",
+      "url": "https://collections.vam.ac.uk/item/O120383"
+    },
+    {
+      "label": "V&A, robe du soir Bosphore, Dior 1956 (T.119-1974)",
+      "url": "https://collections.vam.ac.uk/item/O117691"
+    },
+    {
+      "label": "V&A, ensemble Estoril, Yves Saint Laurent pour Dior 1960 (T.129&A-1974)",
+      "url": "https://collections.vam.ac.uk/item/O138828"
+    },
+    {
+      "label": "V&A, manteau du soir Yves Saint Laurent 1964 (T.366-1974)",
+      "url": "https://collections.vam.ac.uk/item/O138967"
+    },
+    {
+      "label": "V&A, chapeau du soir Rébé 1964 (T.111-1970)",
+      "url": "https://collections.vam.ac.uk/item/O224911"
+    }
+  ],
+  "researchNotes": "Date de fondation : 1911 selon Will Works et Selvedge (année où René Bégué devient seul propriétaire de l'atelier), mais 1907 selon le V&A. Un extrait de recherche (non lu en entier) présente aussi la thèse de Nadia Albertini à l'École nationale des chartes sur l'atelier Rébé \"1907-1967\". À trancher, sans doute avec la monographie.\n\nFermeture en 1967 : seule la page Will Works le dit (56 ans d'activité), à confirmer.\n\nAndrée Pichard : la boutique du MAD la présente comme épouse et collaboratrice, Will Works dit que le couple a fondé la maison ensemble ; je l'ai mise en cofondatrice.\n\nJunon : la jupe brodée par Rébé est datée automne-hiver 1949 par Will Works ; le Met date la robe automne-hiver 1949-1950. Le Met (via Google Arts & Culture) attribue clairement la broderie à Rébé ; l'article des musées de San Francisco, qui conservent un second exemplaire de Junon et de Venus donnés par I. Magnin en 1949, ne nomme pas de brodeur.\n\nRobe Vilmorin (Dior, printemps-été 1952, Met C.I.55.76.20a-g) : un extrait de recherche dit que la notice du Met nomme Rébé, mais la page du Met a refusé la lecture (erreur 429) ; à vérifier avant de l'ajouter. Même chose pour le costume Nuit d'Espagne (Dior 1954, RISD Museum, 84.176.2), page non lue (erreur 403).\n\nRobe Balenciaga du V&A (1959) : attribution \"probable\" seulement.\n\nPalais Galliera : je n'ai trouvé aucune notice de collection attribuant une pièce à Rébé. La FHCM cite seulement Rébé parmi les maisons de l'exposition Tisser, broder, sublimer (fermée le 18 octobre 2026), sans préciser les pièces montrées. À chercher directement sur parismuseescollections.paris.fr.\n\nMusée des Arts Décoratifs : Will Works dit que les archives y sont conservées ; un extrait (non lu) parle d'un échantillon original et d'un dessin pour une robe Dior de 1954. Pas de notice de collection lue.\n\nLe catalogue de la NGV indique \"René BEQUE\" comme dessinateur, sans doute une coquille pour Bégué.\n\nGalerie de réalisations : images V&A (IIIF framemark) et Met via Google Arts & Culture testées (200, image/jpeg) et regardées. L'image de la NGV est un visuel « Image coming soon » : non retenue. La recherche de l'API du Met associe aussi Rébé aux robes Dior Vilmorin (1952), Turquie (1950-51), L'Éléphant Blanc (1958), à une robe de bal Dior 1961-62 et à un ensemble Balenciaga 1963-64, mais les pages du Met renvoient 429 et l'API ne fournit pas d'image : à vérifier avant ajout.",
+  "works": [
+    {
+      "title": "Junon",
+      "year": "1949",
+      "technique": "Christian Dior · paillettes en dégradé sur pétales de tulle",
+      "description": "Robe de bal de l'automne-hiver 1949-1950 dont la jupe en pétales brodés évoque les plumes d'une queue de paon ; le Met attribue la broderie à Rébé (C.I.53.40.5a-e).",
+      "url": "https://artsandculture.google.com/asset/junon-christian-dior/PQEq_zKMrudA8A?hl=en",
+      "imageUrl": "https://lh3.googleusercontent.com/ci/AL18g_Rn5DMTYEZbVPh96rW7M64OvOxXsoNEHHaEedGMhTBsrdkg3z5DhBtfQXdu4qh1sB4XvxBc"
+    },
+    {
+      "title": "Venus",
+      "year": "1949",
+      "technique": "Christian Dior · paillettes opalescentes, strass et perles sur tulle gris",
+      "description": "Robe soeur de Junon, en tulle de soie gris brodé de paillettes opalescentes, strass et perles d'imitation (Met, C.I.53.40.7a-e) ; le récit du Met sur Google Arts & Culture nomme Rébé.",
+      "url": "https://artsandculture.google.com/asset/venus-evening-gown/6AEgCTTHs_82IQ",
+      "imageUrl": "https://lh3.googleusercontent.com/ci/AL18g_RU3vgL2ZU8wORnKkZ4rKCSTvQcrbfflvEGMHPsonkm_mOqhrXFVJuf_3CoFnkBlQ1PgapTHriT"
+    },
+    {
+      "title": "May",
+      "year": "1953",
+      "technique": "Christian Dior · broderie de fleurs des champs en dégradé",
+      "description": "Robe de bal du printemps-été 1953 (Met, C.I.60.21.1a, b) ; selon le Met, Rébé y concentre la broderie à la taille et l'allège vers l'ourlet.",
+      "url": "https://artsandculture.google.com/asset/may/tQF9SRys11buGg",
+      "imageUrl": "https://lh3.googleusercontent.com/ci/AL18g_SnwJAKKjn48O6TJ8T6SHLdhMerkkLtywzwB7EaxbfSeUh2rGAUGHWbA1s8NBux3bvJ4DjUUpJv"
+    },
+    {
+      "title": "Robe du soir de Lady Alexandra Howard-Johnston",
+      "year": "1948",
+      "technique": "Jacques Fath · paillettes et perles sur satin de soie",
+      "description": "Robe en satin brodé de paillettes et de perles portée par l'épouse de l'attaché naval à Paris ; le V&A nomme Rébé comme brodeur (T.184&A-1974).",
+      "url": "https://collections.vam.ac.uk/item/O120383",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2007BM6026/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Bosphore",
+      "year": "1956",
+      "technique": "Christian Dior · fil or, paillettes, perles et strass sur velours",
+      "description": "Robe courte de velours bleu nuit de la ligne Aimant, brodée par Rébé de nids d'oiseaux en velours garnis d'oeufs en perles (V&A, T.119-1974).",
+      "url": "https://collections.vam.ac.uk/item/O117691",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2007BM6139/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Robe du soir en gazar",
+      "year": "1959",
+      "technique": "Balenciaga · broderie probablement de Rébé",
+      "description": "Ensemble du soir d'août 1959 que le V&A attribue à Rébé avec réserve (T.17-1974).",
+      "url": "https://collections.vam.ac.uk/item/O109471",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2011FA0186/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Estoril",
+      "year": "1960",
+      "technique": "Christian Dior (Yves Saint Laurent) · fil d'argent et perles sur tulle de nylon",
+      "description": "Ensemble pantalon du soir dessiné par Yves Saint Laurent pour Dior, brodé par Rébé (V&A, T.129&A-1974).",
+      "url": "https://collections.vam.ac.uk/item/O138828",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2017JU4535/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Manteau du soir",
+      "year": "1964",
+      "technique": "Yves Saint Laurent · fil or et paillettes sur chenille de soie",
+      "description": "Manteau de l'automne-hiver 1964 que le V&A attribue aux brodeurs Rébé (T.366-1974).",
+      "url": "https://collections.vam.ac.uk/item/O138967",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2012FV1641/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Chapeau du soir",
+      "year": "1964",
+      "technique": "Rébé · perles de verre, paillettes et strass sur velours",
+      "description": "Chapeau de l'automne-hiver 1964 entièrement brodé par Rébé (V&A, T.111-1970).",
+      "url": "https://collections.vam.ac.uk/item/O224911",
+      "imageUrl": "https://framemark.vam.ac.uk/collections/2007BM6213/full/!1000,1000/0/default.jpg"
+    },
+    {
+      "title": "Échantillon tamponné RÉBÉ",
+      "year": "1960",
+      "technique": "Rébé · échantillon de broderie",
+      "description": "Échantillon daté vers 1960 entré à la National Gallery of Victoria en 1993 (CT2-1993) ; la NGV n'en montre pas encore d'image.",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/51285",
+      "imageUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "name": "Hurel",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1879",
+  "closedDate": "",
+  "founders": [
+    "Edmond Hurel"
+  ],
+  "people": [
+    {
+      "name": "Edmond Hurel",
+      "role": "fondateur, ouvre en 1879 un atelier de broderie main place de la Bourse"
+    },
+    {
+      "name": "Pierre Hurel",
+      "role": "membre de la famille, rachète l'atelier de broderie Kitmir en 1932"
+    },
+    {
+      "name": "Hubert Barrère",
+      "role": "directeur du studio de création (collections et dessins de broderie) de 1997 à 2011"
+    },
+    {
+      "name": "Martin Hurel",
+      "role": "dirigeant, membre de la famille Hurel (5e ou 6e génération)"
+    },
+    {
+      "name": "Baptiste de Bermingham",
+      "role": "dirigeant, neveu de Martin Hurel"
+    },
+    {
+      "name": "Paul de Bermingham",
+      "role": "dirigeant, neveu de Martin Hurel"
+    }
+  ],
+  "techniques": [
+    "Crochet de Lunéville",
+    "Broderie à l'aiguille",
+    "Broderie main sur supports inattendus (plastique, papier)",
+    "Broderie guidée à la machine",
+    "Peinture à la main sur velours ou soie",
+    "Floquage (Atelier Guinet)",
+    "Tissus de soie, tulles, dentelles et velours façonnés"
+  ],
+  "clients": [
+    "Chanel",
+    "Dior",
+    "Armani",
+    "Valentino",
+    "Rochas"
+  ],
+  "labels": [
+    "Entreprise du Patrimoine Vivant (2008)"
+  ],
+  "summary": "Présenté comme le plus ancien atelier de broderie de Paris, Hurel est une maison familiale née en 1879, aujourd'hui menée par les 5e et 6e générations. Elle brode pour la haute couture au crochet de Lunéville et à l'aiguille, et fabrique aussi des tissus de luxe.",
+  "history": "Tout commence en 1879 : Edmond Hurel, aidé de sa nièce, s'associe à Mlle Tetrel pour ouvrir un atelier de broderie main, « Tetrel et Cie », place de la Bourse, dans le 2e arrondissement de Paris. L'atelier compte alors une quarantaine de brodeuses et attire les grands couturiers. En 1885, la maison s'installe au 73 rue de Richelieu, où elle restera environ un siècle.\n\nAu fil du XXe siècle, la famille agrandit la maison par des rachats : l'atelier de broderie Kitmir en 1932 (rachat attribué à Pierre Hurel), la maison lyonnaise Olré, spécialiste des lainages et des soieries, en 1939, puis l'arrivée du dentellier calaisien Pierre Brivet en 1971. Une usine dans le nord de la France, achetée dans les années 1930, lui donne aussi sa propre capacité de production. Les crises économiques l'amènent ensuite à se repositionner, en ajoutant les tissus, la soie, la laine et la dentelle à la broderie.\n\nDe 1997 à 2011, Hubert Barrère dirige le studio de création qui dessine les collections et les motifs de broderie. Parmi les réalisations marquantes citées par Homo Faber, il y a une robe haute couture dessinée par John Galliano pour Dior en 2006, brodée à partir d'un sac poubelle : un bel exemple de broderie sur un support inattendu. En 2008, la maison reçoit le label Entreprise du Patrimoine Vivant.\n\nAujourd'hui, Hurel est installé au 21 rue Olivier Métra, dans le 20e arrondissement, et reste une affaire de famille : Martin Hurel et ses deux neveux, Baptiste et Paul de Bermingham, représentent les 5e et 6e générations. En 2018, la nouvelle génération a racheté l'Atelier Guinet à Lyon, présenté comme le dernier spécialiste du floquage en France. Les brodeuses travaillent au crochet de Lunéville et à l'aiguille, pour Chanel, Dior, Armani ou Valentino, et la maison garde de précieuses archives (30 000 pièces selon Homo Faber, plus de 40 000 dessins selon 13 Atmosphère). Un documentaire, « Hurel, une maison cousue de fil d'or », a été diffusé sur TV5Monde en 2021.",
+  "training": "Aucune formation ni accueil de stagiaires trouvés dans les sources lues. L'atelier se visite uniquement sur rendez-vous, selon Homo Faber.",
+  "website": "https://www.hurel.fr",
+  "instagram": "https://www.instagram.com/hurelparis",
+  "photoUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PXIsWAO-center.jpg",
+  "timeline": [
+    {
+      "date": "1879",
+      "kind": "vie",
+      "label": "Edmond Hurel et Mlle Tetrel ouvrent l'atelier de broderie main « Tetrel et Cie », place de la Bourse (Paris 2e)"
+    },
+    {
+      "date": "1885",
+      "kind": "vie",
+      "label": "Installation au 73 rue de Richelieu, Paris 2e, pour environ un siècle"
+    },
+    {
+      "date": "1932",
+      "kind": "vie",
+      "label": "Rachat de l'atelier de broderie Kitmir, attribué à Pierre Hurel"
+    },
+    {
+      "date": "1939",
+      "kind": "vie",
+      "label": "Rachat d'Olré, maison lyonnaise de lainages et soieries"
+    },
+    {
+      "date": "1971",
+      "kind": "vie",
+      "label": "Le dentellier calaisien Pierre Brivet rejoint la maison"
+    },
+    {
+      "date": "1997",
+      "kind": "vie",
+      "label": "Hubert Barrère prend la direction du studio de création (jusqu'en 2011)"
+    },
+    {
+      "date": "2006",
+      "kind": "oeuvre",
+      "label": "Robe haute couture brodée sur un sac poubelle, dessinée par John Galliano pour Dior"
+    },
+    {
+      "date": "2008",
+      "kind": "prix",
+      "label": "Label Entreprise du Patrimoine Vivant"
+    },
+    {
+      "date": "2018",
+      "kind": "vie",
+      "label": "Rachat de l'Atelier Guinet à Lyon, spécialiste du floquage"
+    },
+    {
+      "date": "2021",
+      "kind": "autre",
+      "label": "Documentaire « Hurel, une maison cousue de fil d'or » diffusé sur TV5Monde"
+    }
+  ],
+  "works": [
+    {
+      "title": "Haut de robe brodé de perles et de tubes",
+      "year": "1923",
+      "technique": "Hurel · broderie au crochet de Lunéville et à l'aiguille",
+      "description": "Haut de robe en crêpe de soie ivoire brodé au crochet de Lunéville de perles rocaille, tubes, olives et cuvettes dorées, avec strass et sequins posés à l'aiguille, en décor géométrique à effet d'écailles. Conservé au Palais Galliera (inv. 1987.74.169), qui attribue la pièce à Hurel.",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500032408",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/atoms/images/GAL/galgal1987.74.169_1.jpg"
+    },
+    {
+      "title": "Corsage de robe en velours brodé de madroños",
+      "year": "1942",
+      "technique": "Balenciaga · broderie au cordonnet de soie",
+      "description": "Corsage en velours marron brodé de madroños, de motifs végétaux et d'arabesques au cordonnet de soie noir, daté entre 1942 et 1943. La notice du Palais Galliera (inv. 1977.33.4A) cite Hurel et Rébé sans préciser le rôle de chacun.",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500007848",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/atoms/images/GAL/lpdp_59821-1.jpg"
+    },
+    {
+      "title": "Robe Modèle 426 « Belgique »",
+      "year": "1955",
+      "technique": "Pierre Balmain · broderie de perles et paillettes",
+      "description": "Robe de la collection automne 1955 de Pierre Balmain, photographiée pour les archives Avice Bowbyes (Hocken Collections, université d'Otago). La notice précise que le tissu a « très probablement » été brodé chez Hurel : attribution prudente.",
+      "url": "https://ourheritage.ac.nz/items/show/9751",
+      "imageUrl": "https://ourheritage.ac.nz/files/original/71d7060df1093ed1aed5a2db6798a92e.jpg"
+    },
+    {
+      "title": "Robe « Balalaïka »",
+      "year": "1967",
+      "technique": "Chloé (Karl Lagerfeld) · broderie",
+      "description": "Robe de la collection automne-hiver 1967-1968 de Chloé dessinée par Karl Lagerfeld, conservée au Metropolitan Museum of Art (inv. 2008.173.4), qui nomme Maison Hurel comme brodeur.",
+      "url": "https://www.metmuseum.org/art/collection/search/141919",
+      "imageUrl": ""
+    },
+    {
+      "title": "Robe du soir brodée",
+      "year": "1967",
+      "technique": "Chloé (Karl Lagerfeld) · broderie sur soie",
+      "description": "Robe du soir en soie et plastique, automne-hiver 1967-1968, vendue par Henri Bendel et conservée au Metropolitan Museum of Art (inv. 1983.270), qui nomme Maison Hurel comme brodeur.",
+      "url": "https://www.metmuseum.org/art/collection/search/96034",
+      "imageUrl": ""
+    },
+    {
+      "title": "Robe de cocktail en faille de soie noire",
+      "year": "1990",
+      "technique": "Yves Saint Laurent · broderie de cordonnets et strass",
+      "description": "Robe de cocktail du printemps-été 1990, aux balconnets en tulle point d'esprit brodé de cordonnets au point de chaînette et parsemé de strass sertis. Le Palais Galliera (inv. 2015.35.4.1) cite Hurel et Clerici Tessuto parmi les auteurs.",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500090360",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/atoms/images/GAL/lpdp_87327-16.jpg"
+    },
+    {
+      "title": "Robe du soir à traîne",
+      "year": "1995",
+      "technique": "Christian Lacroix · broderie de tubes et pierreries",
+      "description": "Robe longue de l'automne-hiver 1995-1996, au plastron brodé de tubes et de pierres avec applications de dentelle Chantilly. Le Palais Galliera (inv. 1997.46.1A) cite Hurel aux côtés de Buche et de Montex, sans détailler la part de chacun.",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500027897",
+      "imageUrl": "https://www.parismuseescollections.paris.fr/sites/default/files/atoms/images/GAL/lpdp_77429-24.jpg"
+    },
+    {
+      "title": "Robe haute couture brodée sur un sac poubelle",
+      "year": "2006",
+      "technique": "Dior (John Galliano) · broderie sur support plastique",
+      "description": "Homo Faber cite une robe haute couture dessinée par John Galliano pour Dior en 2006, brodée par Hurel à partir d'un sac poubelle. Aucune image ni référence de passage n'a été trouvée.",
+      "url": "https://2022.homofaber.com/en/discover/discover-hurel",
+      "imageUrl": ""
+    }
+  ],
+  "sources": [
+    {
+      "label": "Homo Faber : fiche Hurel",
+      "url": "https://www.homofaber.com/en/artisans/hurel-embroidery-france"
+    },
+    {
+      "label": "Homo Faber 2022 : Discover Hurel",
+      "url": "https://2022.homofaber.com/en/discover/discover-hurel"
+    },
+    {
+      "label": "Wikipédia : Hurel (entreprise)",
+      "url": "https://fr.wikipedia.org/wiki/Hurel_(entreprise)"
+    },
+    {
+      "label": "13 Atmosphère : Maison Hurel 1879 (13 juillet 2020)",
+      "url": "https://www.13atmosphere.com/fr/blog/article/maison-hurel-1879/"
+    },
+    {
+      "label": "Europeana, Palais Galliera : haut de robe Hurel, vers 1923",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500032408"
+    },
+    {
+      "label": "Europeana, Palais Galliera : corsage de robe Balenciaga, 1942-1943",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500007848"
+    },
+    {
+      "label": "Europeana, Palais Galliera : robe de cocktail Yves Saint Laurent, 1990",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500090360"
+    },
+    {
+      "label": "Europeana, Palais Galliera : robe du soir Christian Lacroix, 1995-1996",
+      "url": "https://www.europeana.eu/fr/item/966/europeana_fashion_500027897"
+    },
+    {
+      "label": "OUR Heritage, Hocken Collections : Balmain, Modèle 426 « Belgique »",
+      "url": "https://ourheritage.ac.nz/items/show/9751"
+    },
+    {
+      "label": "Metropolitan Museum of Art : Chloé, « Balalaïka » (2008.173.4)",
+      "url": "https://www.metmuseum.org/art/collection/search/141919"
+    },
+    {
+      "label": "Metropolitan Museum of Art : Chloé, robe du soir (1983.270)",
+      "url": "https://www.metmuseum.org/art/collection/search/96034"
+    }
+  ],
+  "researchNotes": "Le site officiel hurel.fr était injoignable pendant la recherche (erreur DNS) : rien n'a pu y être lu, à revérifier. Date de création contradictoire : Wikipédia donne 1870 dans le texte mais 1879 dans l'infobox ; Homo Faber et 13 Atmosphère disent 1879 ; un résumé de recherche évoquait aussi 1873 sans page lue. Kitmir : 13 Atmosphère dit que Pierre Hurel a racheté l'atelier Kitmir en 1932, alors que d'autres sources (non lues en détail, vues en résultat de recherche) indiquent que Kitmir a fermé en 1929 : à vérifier. Le rôle exact de Martin Hurel (président ? 5e ou 6e génération ?) n'est pas précisé dans les pages lues. Des résultats de recherche mentionnent Benjamine Hurel (mère de Baptiste et Paul de Bermingham, partie à la retraite), l'artiste Andrée Brossin de Merée engagée en 1951 par Pierre Hurel, un effectif de 28 personnes et un article WWD sur l'expansion de la maison : non retenus car les pages n'ont pas pu être lues (WWD payant). Le nombre d'archives diffère selon la source (30 000 pièces ou plus de 40 000 dessins). Ne pas confondre avec la Maison Philippe Hurel (mobilier, EPV 2007). Galerie (20 octobre 2026) : les notices du Met (robes Chloé 1967-1968) ont été lues via l'API du musée, sans image publique, et la page web du Met refusait les requêtes (erreur 429) : images à chercher. Pour le corsage Balenciaga, la robe Yves Saint Laurent et la robe Lacroix, le Palais Galliera cite Hurel parmi plusieurs maisons sans préciser son rôle (broderie ou tissu) ; l'attribution de la robe Balmain est jugée « très probable » par la notice. La robe Dior de 2006 n'est connue que par Homo Faber, sans image. Écartés : une robe Chanel 1996 attribuée à Hurel sur 1stdibs (annonce commerciale aux dates incohérentes), un ensemble Chanel 1965 du V&A et une robe Grès 1978 du Palais Galliera où Hurel fournit le tissu et non la broderie."
+}

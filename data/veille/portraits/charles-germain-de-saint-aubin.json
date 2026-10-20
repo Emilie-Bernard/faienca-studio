@@ -1,0 +1,169 @@
+{
+  "name": "Charles-Germain de Saint-Aubin",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "1721-01-17",
+  "deathDate": "1786-03-06",
+  "techniques": [
+    "dessin pour la broderie et la dentelle",
+    "broderie d'or (guipure, couchure, gaufrure, or nué)",
+    "passé et passé nuancé",
+    "broderie en paillettes et en jais",
+    "broderie de rapport",
+    "chaînette au tambour",
+    "broderie en blanc",
+    "gravure à l'eau-forte",
+    "dessin et aquarelle de fleurs"
+  ],
+  "summary": "Dessinateur du Roi pour la broderie et la dentelle sous Louis XV, fils de brodeur, Charles-Germain de Saint-Aubin a écrit L'Art du brodeur (1770), le grand traité qui décrit pas à pas les techniques de broderie du XVIIIe siècle. Il a aussi laissé des eaux-fortes pleines d'humour, comme l'Essai de papillonneries humaines.",
+  "biography": "Charles-Germain de Saint-Aubin naît à Paris le 17 janvier 1721. Il est l'aîné des sept enfants de Gabriel-Germain de Saint-Aubin, brodeur, et d'Anne Boissay ; ses frères Gabriel et Augustin deviendront eux aussi des artistes connus. Formé auprès de Dutrou, il travaille dans l'atelier de son père jusqu'en 1745, puis s'installe à son compte. Il dessine des fleurs d'après nature, à l'aquarelle, et copie des maîtres comme Jacques Callot.\n\nEn 1751, il devient dessinateur du Roi et épouse Françoise Trouvé, qui meurt en couches en 1759 après leur avoir donné trois enfants. À la mort de son père en 1756, il reprend l'atelier de dessins de broderie et de dentelle. Pendant une dizaine d'années, il réserve sa production à la maison Dufourny, fournisseur de dentelles de la Reine, et bénéficie de la protection de Madame de Pompadour, à qui il dédie ses Bouquets champêtres. Il perd sa pension royale en 1779 et son activité ralentit. Il meurt à Paris le 6 mars 1786.\n\nSon grand œuvre pour les brodeuses est L'Art du brodeur, publié en 1770 et approuvé par l'Académie royale des sciences (commissaires Duhamel et Jeaurat, séance du 26 juillet 1769). Il y définit la broderie comme l'art d'ajouter à la surface d'une étoffe déjà finie la représentation d'un objet, à plat ou en relief, en or, en argent ou en nuances, et il affirme que le dessin est l'âme de la broderie. Le livre raconte l'histoire du métier et de la corporation parisienne, puis détaille chaque étape : calquer le dessin sur papier huilé, le piquer, le poncer sur l'étoffe, repasser les traits à la plume ou au pinceau, et tendre l'étoffe sur le métier sans trop la bander. Dix planches gravées, signées Augustin de Saint-Aubin, et un glossaire complètent le texte, aujourd'hui lisible gratuitement sur Project Gutenberg.\n\nLe traité est une mine pour comprendre les techniques du XVIIIe siècle : l'or nué, où la soie recouvre des fils d'or plus ou moins serrés pour faire les ombres et les lumières ; la guipure, où l'or s'enroule sur des coupons de vélin ; la gaufrure, qui imite l'osier ; la couchure, le passé, les paillettes, le jais, la chenille, la broderie de rapport (pièces brodées à part puis appliquées sur le fond), la broderie en blanc sur mousseline, et la chaînette au tambour, faite avec une aiguille à crochet et dont il attribue le procédé à la Chine. Il cite le brodeur Rivet, qui a achevé les broderies du trône du Roi à Versailles d'après Le Brun. On y lit aussi ses avis tranchés, par exemple que la tapisserie sur canevas n'est pas digne d'un brodeur professionnel.\n\nSes dessins et gravures sont aujourd'hui dans de grandes collections. Waddesdon Manor conserve le Livre de caricatures tant bonnes que mauvaises, près de 400 dessins satiriques faits en famille des années 1740 aux années 1770, numérisés en 2012. Le Louvre garde le Livre des Saint-Aubin, l'album de famille qu'il a composé à la fin de sa vie. Le Metropolitan Museum de New York et la National Gallery of Art de Washington possèdent les eaux-fortes de l'Essai de papillonneries humaines, où des papillons jouent les humains, ainsi que ses Bouquets champêtres et ses recueils de chiffres (monogrammes). La BnF conserve L'Art du brodeur et ses planches.\n\nDeux siècles plus tard, son traité sert encore de référence : il a été traduit en anglais en 1983 à la demande du Los Angeles County Museum of Art, et le musée de la Kent State University (Ohio) en a fait le fil de son exposition The Art of the Embroiderer en 2008 et 2009. Aucune exposition récente ou à venir qui lui soit consacrée n'a été trouvée.",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Charles-Germain_de_Saint-Aubin.jpg",
+  "works": [
+    {
+      "title": "L'Art du brodeur",
+      "year": "1770",
+      "technique": "Traité illustré de dix planches gravées sur cuivre",
+      "description": "Traité technique approuvé par l'Académie royale des sciences : histoire du métier, préparation du dessin (calque, piquage, ponçage), montage sur métier et au tambour, puis description de chaque genre de broderie (or nué, guipure, gaufrure, couchure, passé, paillettes, jais, chenille, broderie de rapport, chaînette, broderie en blanc), avec un glossaire. Texte intégral gratuit sur Project Gutenberg.",
+      "url": "https://www.gutenberg.org/ebooks/61639",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier de brodeur (planche de L'Art du brodeur)",
+      "year": "1770",
+      "technique": "Gravure sur cuivre, signée « Aug. de St Aubin inv. »",
+      "description": "Planche du traité montrant un atelier de brodeur, avec à droite le dévidoir qui sert à faire les pelotes. Exemplaire de la BnF, Réserve V-3934 (1).",
+      "url": "https://utpictura18.univ-amu.fr/en/notice/25190-an-embroiderers-workshop-descriptions-of-arts-and-crafts-the-art-of-the-embroiderer",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livre de caricatures tant bonnes que mauvaises",
+      "year": "1740-1770",
+      "technique": "Album de dessins",
+      "description": "Près de 400 dessins satiriques, la plupart de sa main, faits pendant près de quarante ans avec sa famille et ses amis, dont ses frères Augustin et Gabriel. Surnommé dans la famille le « Livre des culs ». Conservé à Waddesdon Manor (Rothschild), numérisé en 2012.",
+      "url": "https://waddesdon.org.uk/art/research-and-publications/saint-aubin/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livre des Saint-Aubin",
+      "year": "",
+      "technique": "Album de dessins de famille",
+      "description": "Album composé vers la fin de sa vie, réunissant des dessins de lui, de ses frères et d'autres membres de la famille, dont sa fille Marie-Françoise. Conservé au musée du Louvre (RF 52178).",
+      "url": "https://waddesdon.org.uk/?p=1889",
+      "imageUrl": ""
+    },
+    {
+      "title": "Essai de papillonneries humaines, page de titre",
+      "year": "1756",
+      "technique": "Eau-forte, premier état sur deux",
+      "description": "Page de titre de la série où des papillons miment la vie mondaine. Le Met la date vers 1756-1760 (inv. 1982.1101.1) ; la National Gallery of Art de Washington conserve aussi une page de titre de la série (collection Rosenwald).",
+      "url": "https://www.metmuseum.org/art/collection/search/391473",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-36598-001.jpg"
+    },
+    {
+      "title": "La Brouette, du Premier essai de papillonneries humaines",
+      "year": "1748",
+      "technique": "Eau-forte",
+      "description": "Une des premières planches de la série des papillonneries, datée vers 1748 par le Met (inv. 1982.1095).",
+      "url": "https://www.metmuseum.org/art/collection/search/354224",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-36624-001.jpg"
+    },
+    {
+      "title": "Ballet champêtre, de l'Essai de papillonneries humaines",
+      "year": "1756",
+      "technique": "Eau-forte, premier état sur deux",
+      "description": "Planche de la série, datée vers 1756-1760 (Met, inv. 1982.1101.3).",
+      "url": "https://www.metmuseum.org/art/collection/search/391514",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-36600-001.jpg"
+    },
+    {
+      "title": "La Toilette, de l'Essai de papillonneries humaines",
+      "year": "1756",
+      "technique": "Eau-forte, premier état sur deux",
+      "description": "Des papillons à leur toilette, planche datée vers 1756-1760 (Met, inv. 1982.1101.6).",
+      "url": "https://www.metmuseum.org/art/collection/search/386048",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-36604-001.jpg"
+    },
+    {
+      "title": "Le Duel, de l'Essai de papillonneries humaines",
+      "year": "1756",
+      "technique": "Eau-forte, premier état sur deux",
+      "description": "Planche de la série, datée vers 1756-1760 (Met, inv. 1982.1101.4).",
+      "url": "https://www.metmuseum.org/art/collection/search/380526",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-36601-001.jpg"
+    },
+    {
+      "title": "Bouquets champêtres",
+      "year": "",
+      "technique": "Gravure coloriée à la main",
+      "description": "Recueil de bouquets de fleurs dédié à Madame de Pompadour, de précieux modèles pour qui dessine des motifs floraux (Met, inv. 32.130.14).",
+      "url": "https://www.metmuseum.org/art/collection/search/356603",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mes petits bouquets",
+      "year": "",
+      "technique": "Eau-forte",
+      "description": "Suite de petits bouquets de fleurs, datée vers 1750-1780 par le Met (inv. 2013.984).",
+      "url": "https://www.metmuseum.org/art/collection/search/632338",
+      "imageUrl": ""
+    },
+    {
+      "title": "Premier et IIe Recueil de chiffres",
+      "year": "",
+      "technique": "Eau-forte",
+      "description": "Recueils de chiffres (monogrammes entrelacés), utiles pour le linge brodé et les ornements (Met, inv. 32.55.3).",
+      "url": "https://www.metmuseum.org/art/collection/search/356604",
+      "imageUrl": ""
+    },
+    {
+      "title": "Recueil de plantes copiées d'après nature",
+      "year": "1736-1785",
+      "technique": "Dessins et aquarelles de botanique",
+      "description": "Planches de plantes faites pendant près de cinquante ans et jamais publiées, aujourd'hui à l'Oak Spring Garden Library (collection de Rachel Lambert Mellon).",
+      "url": "https://fr.wikipedia.org/wiki/Charles-Germain_de_Saint-Aubin",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "1721-01-17", "kind": "vie", "label": "Naissance à Paris, aîné des sept enfants du brodeur Gabriel-Germain de Saint-Aubin et d'Anne Boissay" },
+    { "date": "1745", "kind": "formation", "label": "Formé auprès de Dutrou puis dans l'atelier paternel, il s'installe à son compte" },
+    { "date": "1748", "kind": "oeuvre", "label": "Premières planches de l'Essai de papillonneries humaines (La Brouette, vers 1748)" },
+    { "date": "1751-01-26", "kind": "vie", "label": "Mariage avec Françoise Trouvé" },
+    { "date": "1751", "kind": "autre", "label": "Devient dessinateur du Roi" },
+    { "date": "1756", "kind": "autre", "label": "Reprend l'atelier de dessins de broderie et de dentelle de son père" },
+    { "date": "1759", "kind": "vie", "label": "Mort de son épouse en couches" },
+    { "date": "1769-07-26", "kind": "prix", "label": "L'Académie royale des sciences approuve sa Description de l'Art du Brodeur" },
+    { "date": "1770", "kind": "oeuvre", "label": "Publication de L'Art du brodeur, avec dix planches signées Augustin de Saint-Aubin" },
+    { "date": "1779", "kind": "vie", "label": "Perd sa pension royale ; son activité ralentit" },
+    { "date": "1786-03-06", "kind": "vie", "label": "Mort à Paris" },
+    { "date": "1983", "kind": "autre", "label": "Traduction anglaise de L'Art du brodeur par Nikki Scheuer pour le Los Angeles County Museum of Art" },
+    { "date": "2008-09-25", "kind": "exposition", "label": "The Art of the Embroiderer, au Kent State University Museum (Ohio), bâtie autour de son traité, jusqu'au 31 décembre 2009" },
+    { "date": "2010", "kind": "exposition", "label": "Exposition sur le Livre de caricatures et les Saint-Aubin à Waddesdon Manor" },
+    { "date": "2012", "kind": "autre", "label": "Numérisation du Livre de caricatures et parution de l'étude The Saint-Aubin Livre de caricatures (Voltaire Foundation)" },
+    { "date": "2020-03-19", "kind": "autre", "label": "L'Art du brodeur mis en ligne gratuitement sur Project Gutenberg" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Wikipédia (fr) : Charles-Germain de Saint-Aubin", "url": "https://fr.wikipedia.org/wiki/Charles-Germain_de_Saint-Aubin" },
+    { "label": "Wikipedia (en) : Charles Germain de Saint Aubin", "url": "https://en.wikipedia.org/wiki/Charles_Germain_de_Saint_Aubin" },
+    { "label": "Project Gutenberg : L'Art du brodeur (notice)", "url": "https://www.gutenberg.org/ebooks/61639" },
+    { "label": "Project Gutenberg : L'Art du brodeur (texte intégral)", "url": "https://www.gutenberg.org/cache/epub/61639/pg61639-images.html" },
+    { "label": "Kent State University Museum : The Art of the Embroiderer", "url": "https://www.kent.edu/museum/art-embroiderer" },
+    { "label": "V&A blog : Joubert and Saint-Aubin, translating the textile trades (2016)", "url": "https://www.vam.ac.uk/blog/textiles-and-fashion/joubert-guest-post-joubert-and-saint-aubin-translating-the-textile-trades" },
+    { "label": "Utpictura18 : Atelier de brodeur, planche de L'Art du brodeur (BnF)", "url": "https://utpictura18.univ-amu.fr/en/notice/25190-an-embroiderers-workshop-descriptions-of-arts-and-crafts-the-art-of-the-embroiderer" },
+    { "label": "Waddesdon Manor : Saint-Aubin, recherche et publications", "url": "https://waddesdon.org.uk/art/research-and-publications/saint-aubin/" },
+    { "label": "Waddesdon Manor : le Livre de caricatures", "url": "https://waddesdon.org.uk/?p=1889" },
+    { "label": "Metropolitan Museum API : page de titre de l'Essai de papillonneries humaines", "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391473" },
+    { "label": "Metropolitan Museum : Ballet champêtre", "url": "https://www.metmuseum.org/art/collection/search/391514" },
+    { "label": "Metropolitan Museum : La Toilette", "url": "https://www.metmuseum.org/art/collection/search/386048" },
+    { "label": "Metropolitan Museum : La Brouette", "url": "https://www.metmuseum.org/art/collection/search/354224" },
+    { "label": "Metropolitan Museum : Le Duel", "url": "https://www.metmuseum.org/art/collection/search/380526" },
+    { "label": "Metropolitan Museum : Bouquets champêtres", "url": "https://www.metmuseum.org/art/collection/search/356603" },
+    { "label": "Metropolitan Museum : Mes petits bouquets", "url": "https://www.metmuseum.org/art/collection/search/632338" },
+    { "label": "Metropolitan Museum : Premier et IIe Recueil de chiffres", "url": "https://www.metmuseum.org/art/collection/search/356604" }
+  ],
+  "researchNotes": "Personne historique : pas de site ni d'Instagram. Homonymes dans la même famille : son père Gabriel-Germain (brodeur du Roi), ses frères Gabriel-Jacques (peintre) et Augustin (graveur), sa fille Marie-Françoise ; certaines sources attribuent par erreur le traité à « Gabriel de Saint-Aubin ». Planches de L'Art du brodeur : la notice Utpictura18 lit la signature « Aug. de St Aubin inv. », donc Augustin en est au moins le dessinateur ; le nom du graveur n'est pas lu dans les pages consultées. Les dates d'œuvres sans année exacte sont données par la première année de la fourchette du Met (vers 1756-1760 pour la plupart des papillonneries, vers 1748 pour La Brouette) ; la NGA date sa page de titre vers 1748, publiée en 1754 ou après, ce qui ne colle pas avec le Met (deux séries ou états différents ?). Recueil de plantes : Wikipédia fr le situe à l'Oak Spring Garden Library « Michigan », alors que cette bibliothèque est en Virginie ; un article de la revue RBNU sur OpenEdition (journals.openedition.org/rbnu/6141) en parle mais n'a pas pu être lu (protection anti-robot). Les fiches NGA (Rosenwald 1958.8.123 et 1958.8.130), Waddesdon (collection.waddesdon.org.uk), MFA Boston et Gallica (exemplaire numérisé ark:/12148/bpt6k1065586m) ont refusé l'accès : à vérifier à la main. L'exposition du Met « Paris through the Eyes of Saint-Aubin » (consacrée à son frère Gabriel, 2024-2025 selon un résumé de recherche) montrait sans doute des papillonneries, non vérifié. Aucune exposition récente ou à venir le concernant n'a été trouvée (la vitrine du Petit Palais de 2026 et l'exposition d'Agen 2025-2026 concernent Gabriel), d'où un tableau news vide. Le portrait (photoUrl) est le dessin d'Augustin de Saint-Aubin utilisé sur Wikipédia, conservé à l'Institut néerlandais selon Wikipédia."
+}

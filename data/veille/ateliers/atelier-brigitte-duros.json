@@ -1,0 +1,233 @@
+{
+  "name": "Atelier Brigitte Duros",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Brigitte Duros"
+  ],
+  "people": [
+    {
+      "name": "Brigitte Duros",
+      "role": "fondatrice, tapissier-décorateur, brodeuse et rentrayeuse, formée dix ans aux ateliers Brocard"
+    }
+  ],
+  "techniques": [
+    "Restauration de tapisseries et de broderies d'ameublement anciennes",
+    "Rentraiture de tapis (tapis d'Orient, tapis persans) et de châles en cachemire",
+    "Création et reproduction de tapisseries et broderies d'ameublement",
+    "Broderie d'or (point de couchure)",
+    "Broderie de soie",
+    "Canevas perlé (broderie perlée du XIXe siècle)",
+    "Points anciens : point de croix, point passé plat, point de Beauvais, point de Hongrie, passé remordu, petit point",
+    "Teinture végétale des laines par fermentation naturelle",
+    "Tapisserie-décoration : literie, coussins, garniture de sièges et de meubles"
+  ],
+  "clients": [
+    "Yves Saint Laurent (tapis Perroquets)",
+    "Disneyland Paris (blason de la Tower of Terror)",
+    "Château de Versailles (chambre du roi)",
+    "Château de Vaux-le-Vicomte (costumes)",
+    "Collectionneurs et particuliers"
+  ],
+  "labels": [],
+  "summary": "Petit atelier du 14e arrondissement de Paris où Brigitte Duros, formée dix ans chez Brocard, restaure, reproduit et crée des tapisseries et des broderies d'ameublement, avec des laines qu'elle teint elle-même aux plantes par fermentation.",
+  "history": "Brigitte Duros a appris son métier pendant dix ans dans les célèbres ateliers Brocard, à Paris. Elle a ensuite ouvert son propre atelier dans le 14e arrondissement : en 2012, son site parle de plus de trente ans d'existence. Elle s'y présente à la fois comme tapissier-décorateur, brodeuse et rentrayeuse, c'est-à-dire restauratrice de tapis et de tapisseries, et travaille avec ses brodeuses et des maîtres-tapissiers.\n\nL'atelier restaure des tapisseries et des broderies du XIVe au XVIIIe siècle, mais aussi des œuvres contemporaines. Avant chaque chantier, Brigitte Duros prépare un dossier d'intervention : histoire de l'objet, analyse technique de sa structure et de son tissage, travaux proposés et photos. Elle peut faire une restauration complète ou une simple conservation qui arrête la dégradation. Les zones abîmées des tapis sont retissées à la main et, si le fond est trop usé, il peut être remplacé.\n\nSa grande particularité est la teinture végétale par fermentation naturelle : quinze ans de recherche, selon le site, pour retrouver ce procédé ancien. Le bain dure jusqu'à un an, chaque plante donne sa propre gamme de nuances, et les couleurs vieillissent au même rythme que les ouvrages anciens, ce qui garde l'unité de ton d'une restauration.\n\nParmi les travaux mis en avant : la chambre du roi à Versailles, le lit de César de Vendôme et des costumes pour Vaux-le-Vicomte. En 2011, l'atelier présente le blason brodé d'or sur satin, au point de couchure, de l'attraction Tower of Terror de Disneyland Paris, ouverte en janvier 2008. En 2012, il restaure le tapis Perroquets d'Yves Saint Laurent, environ 5 m² réalisés sur une machine Cornély : les brodeuses ont défait à la pince à épiler les parties abîmées, retrouvé les grosseurs de fil et le réglage de la machine d'origine, et y ont passé plusieurs mois.\n\nEn 2013, l'atelier restaure un canevas entièrement perlé du XIXe siècle représentant le duc de Bordeaux (le futur comte de Chambord) en chef de clan écossais, confié par le collectionneur Michel Loucougain. Le canevas perlé est une technique rare : quand d'anciennes perles ont été repeintes, l'atelier les nettoie ou les remplace par des perles anciennes de la même époque. Aujourd'hui, l'atelier reçoit sur rendez-vous, 27 rue Froidevaux, et travaille beaucoup pour des particuliers.",
+  "training": "",
+  "website": "https://atelierbrigitteduros.wordpress.com/",
+  "instagram": "",
+  "photoUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2012/04/perroquets1.png",
+  "timeline": [
+    {
+      "date": "2011-11",
+      "kind": "oeuvre",
+      "label": "Le site présente le blason brodé d'or de la Tower of Terror, Disneyland Paris"
+    },
+    {
+      "date": "2012-02",
+      "kind": "autre",
+      "label": "Article sur la teinture végétale par fermentation, fruit de quinze ans de recherche"
+    },
+    {
+      "date": "2012-04",
+      "kind": "oeuvre",
+      "label": "Restauration du tapis Perroquets d'Yves Saint Laurent"
+    },
+    {
+      "date": "2013-04",
+      "kind": "oeuvre",
+      "label": "Restauration du canevas perlé du duc de Bordeaux pour le collectionneur Michel Loucougain"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Atelier Brigitte Duros, accueil",
+      "url": "https://atelierbrigitteduros.wordpress.com/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, à propos",
+      "url": "https://atelierbrigitteduros.wordpress.com/a-propos-2/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, restauration",
+      "url": "https://atelierbrigitteduros.wordpress.com/restauration/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, English section",
+      "url": "https://atelierbrigitteduros.wordpress.com/english-section/"
+    },
+    {
+      "label": "L'Atelier Brigitte Duros valorise le patrimoine culturel (15 mai 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/05/15/latelier-brigitte-duros-valorise-le-patrimoine-culturel-des-entreprises-et-des-particuliers/"
+    },
+    {
+      "label": "La dame aux doigts de fée restaure le tapis Perroquets d'Yves Saint Laurent (18 avril 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/04/18/la-dame-aux-doigts-de-fee-restaure-le-tapis-perroquets-dyves-saint-laurent/"
+    },
+    {
+      "label": "Brigitte Duros, restaurateur de tapis persans (17 avril 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/04/17/brigitte-duros-restaurateur-de-tapis-persans-tapis-d-orient/"
+    },
+    {
+      "label": "L'art de la broderie (4 mai 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/05/04/l-art-de-la-broderie/"
+    },
+    {
+      "label": "Atelier Brigitte Duros et la restauration de vos tissus d'ameublement (8 juin 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/06/08/atelier-brigitte-duros-et-la-restauration-de-vos-tissus-dameublement/"
+    },
+    {
+      "label": "Le canevas perlé (3 juillet 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/07/03/le-canevas-perle-ouvrage-dune-grande-rarete-dont-le-savoir-faire-est-maitrise-par-latelier-brigitte-duros/"
+    },
+    {
+      "label": "La teinture végétale par fermentation naturelle (14 février 2012)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/02/14/la-teinture-vegetale-par-fermentation-naturelle-la-particularite-de-l-atelier-brigitte-duros/"
+    },
+    {
+      "label": "Broderie du blason Tower of Terror (20 novembre 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/11/20/broderie-du-blason-tower-of-terror/"
+    },
+    {
+      "label": "L'Atelier Brigitte Duros restaure une broderie perlée du duc de Bordeaux (15 avril 2013)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2013/04/15/latelier-brigitte-duros-restaure-une-broderie-perlee-du-duc-de-bordeaux/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, broderie d'or pour baptême (21 juillet 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/07/21/broderie-dor-pour-bapteme/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, broderie de soie (30 août 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/08/30/broderie-de-soie/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, canevas du XVIIIe siècle en point de Hongrie (18 septembre 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/09/18/canevas-du-xviii-eme-siecle-en-point-de-hongrie/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, tapisserie tissée (14 octobre 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/10/14/tapisserie-tissee/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, broderie de soie et d'or du début du XIXe siècle (30 octobre 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/10/30/broderie-de-soie-et-dor-du-debut-du-xix-eme-siecle/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, détail d'une bannière en broderie d'or (8 novembre 2011)",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/11/08/detail-dune-banniere-en-broderie-dor/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, création",
+      "url": "https://atelierbrigitteduros.wordpress.com/creation/"
+    },
+    {
+      "label": "Atelier Brigitte Duros, reproduction",
+      "url": "https://atelierbrigitteduros.wordpress.com/reproduction/"
+    }
+  ],
+  "researchNotes": "Toutes les informations viennent du blog WordPress de l'atelier, dont le dernier article date d'avril 2013 : aucune source extérieure (presse, annuaire métiers d'art, Homo Faber, EPV, Pages Jaunes) n'a été trouvée, et rien ne prouve que l'atelier soit encore ouvert en 2026. Date de création inconnue : le blog dit « plus de trente ans » en 2012, ce qui placerait l'ouverture vers 1980 ou avant, à confirmer. Les années passées chez Brocard ne sont pas datées. Les travaux pour Versailles (chambre du roi, et chambre de la reine selon la page À propos), le lit de César de Vendôme et les costumes de Vaux-le-Vicomte sont cités sans date, sans commanditaire ni précision sur le rôle exact de l'atelier : à vérifier auprès des institutions. Le titre « Artisan du patrimoine » est revendiqué par le site, mais aucun label officiel (EPV, Maître d'art, MOF) n'est mentionné ; les liens vers Artisans du Patrimoine et Les Grands Ateliers de France ne prouvent pas une adhésion. Le blog cite aussi d'autres ateliers (Chevalier, Damamme, Lusseau Poirier, Persan) seulement en mots-clés. Les articles signés « autourdelimage » sont des textes promotionnels. Un ancien domaine atelier-brigitte-duros.com semble avoir existé. Page Facebook : https://www.facebook.com/pages/Atelier-Brigitte-Duros/248529758507859 (non lue). Pas d'Instagram trouvé. Aucune formation ni accueil de stagiaires mentionnés. Images de la galerie : toutes viennent du blog de l'atelier et ont été testées le 20 octobre 2026 (réponse 200, image) ; la photo du tapis Perroquets et celle du canevas du duc de Bordeaux ont été regardées, les autres sont identifiées par leur titre, leur légende et l'article qui les entoure, sans confirmation que chaque photo montre l'état final et non l'état avant restauration, et sans date de réalisation pour la bannière et le canevas reproduit.",
+  "works": [
+    {
+      "title": "Blason de l'attraction Tower of Terror",
+      "year": "2008",
+      "technique": "Disneyland Paris, broderie d'or au point de couchure, lettres appliquées sur satin",
+      "description": "Brigitte Duros a créé le blason de l'attraction Tower of Terror de Disneyland Paris, lancée en janvier 2008 : une broderie d'or de lettres appliquées sur du satin, sertie au point de couchure. Le blog la présente en novembre 2011.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/11/20/broderie-du-blason-tower-of-terror/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/12/broderie-disney-aprecc80s.jpg"
+    },
+    {
+      "title": "Restauration du tapis Perroquets d'Yves Saint Laurent",
+      "year": "2012",
+      "technique": "Yves Saint Laurent (collection du couturier), restauration d'un tapis d'environ 5 m² réalisé sur machine Cornély",
+      "description": "Les brodeuses ont défait à la pince à épiler les zones abîmées, puis retrouvé les grosseurs de fil et le réglage de la machine d'origine pour refaire le motif, au prix de plusieurs mois de travail. Article du 18 avril 2012.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2012/04/18/la-dame-aux-doigts-de-fee-restaure-le-tapis-perroquets-dyves-saint-laurent/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2012/04/perroquets3.png"
+    },
+    {
+      "title": "Canevas perlé du duc de Bordeaux en chef de clan écossais",
+      "year": "2013",
+      "technique": "Collectionneur Michel Loucougain, restauration d'un canevas entièrement perlé du XIXe siècle",
+      "description": "Le canevas représente le futur comte de Chambord en tartan du clan Scott, un dogue de Bordeaux à ses pieds, devant les Highlands et le Loch Ness. Le blog raconte sa restauration en avril 2013 (photos d'octobre 2012).",
+      "url": "https://atelierbrigitteduros.wordpress.com/2013/04/15/latelier-brigitte-duros-restaure-une-broderie-perlee-du-duc-de-bordeaux/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2013/04/2012-10-23-11-40-05-2.jpg"
+    },
+    {
+      "title": "Broderie d'or pour un baptême",
+      "year": "2011",
+      "technique": "Commande privée, broderie blanche d'or, de perles et de soie avec bourrage de carton",
+      "description": "Broderie blanche pour une cérémonie de baptême, en perles, or et soie, avec un relief obtenu par bourrage de carton. Publiée sur le blog en juillet 2011.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/07/21/broderie-dor-pour-bapteme/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/07/baptheme-auriane-07.jpg"
+    },
+    {
+      "title": "Panneau décoratif en soie du XVIIIe siècle restauré",
+      "year": "2011",
+      "technique": "Restauration, satin et chenille de soie au passé plat et au point de Beauvais",
+      "description": "Panneau de décoration du XVIIIe siècle en satin de soie et chenille de soie, brodé au passé plat et au point de Beauvais, montré avant et après restauration. Article d'août 2011.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/08/30/broderie-de-soie/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/11/broderie-xviii-siecle.jpg"
+    },
+    {
+      "title": "Canevas du XVIIIe siècle au point de Hongrie",
+      "year": "2011",
+      "technique": "Restauration, canevas au point de Hongrie",
+      "description": "Canevas du XVIIIe siècle travaillé de façon originale au point de Hongrie, sur un tissu de base qui ne permettait pas le point régulier des canevas empesés actuels. Article de septembre 2011.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/09/18/canevas-du-xviii-eme-siecle-en-point-de-hongrie/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/11/canevas-xviii-2.jpg"
+    },
+    {
+      "title": "Broderie de siège en soie et or du début du XIXe siècle",
+      "year": "2011",
+      "technique": "Restauration, passé remordu nuancé et broderie d'or au point de couchure",
+      "description": "Broderie de soie et d'or du début du XIXe siècle faite pour un siège : la soie est au passé remordu, l'or au point de couchure. Article d'octobre 2011.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/10/30/broderie-de-soie-et-dor-du-debut-du-xix-eme-siecle/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/12/broderie-xix-siecle.jpg"
+    },
+    {
+      "title": "Bannière en broderie d'or (détail)",
+      "year": "2011",
+      "technique": "Broderie d'or en relief : fils et cannetilles d'or, cabochons, paillettes, sur velours de soie",
+      "description": "Détail d'une bannière brodée de fils d'or, de cannetilles, de cabochons en métal et de paillettes, en relief sur bourrage de carton, le tout sur velours de soie. Le blog ne dit pas s'il s'agit d'une création ou d'une restauration.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/11/08/detail-dune-banniere-en-broderie-dor/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/12/decc81tail-banniecc80re-broderie-dor1.jpg"
+    },
+    {
+      "title": "Création de tapisserie tissée",
+      "year": "2011",
+      "technique": "Création, tapisserie tissée en laine et soie teintes aux plantes par fermentation",
+      "description": "Tapisserie tissée en laine et soie dont les fils ont été teints par fermentation végétale, présentée comme une création de l'atelier. Article d'octobre 2011.",
+      "url": "https://atelierbrigitteduros.wordpress.com/2011/10/14/tapisserie-tissee/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/12/tapisserie.jpg"
+    },
+    {
+      "title": "Reproduction d'un canevas du XVIIIe siècle",
+      "year": "",
+      "technique": "Reproduction d'un modèle ancien sur canevas",
+      "description": "La page Reproduction montre la reproduction d'un modèle de canevas du XVIIIe siècle, exemple de l'activité de copie de modèles anciens de l'atelier.",
+      "url": "https://atelierbrigitteduros.wordpress.com/reproduction/",
+      "imageUrl": "https://atelierbrigitteduros.wordpress.com/wp-content/uploads/2011/07/canevas.jpg"
+    }
+  ]
+}

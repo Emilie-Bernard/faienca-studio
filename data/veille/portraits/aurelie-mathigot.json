@@ -1,0 +1,97 @@
+{
+  "name": "Aurélie Mathigot",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": ["photographie imprimée sur toile puis brodée", "broderie main et machine", "broderie perlée", "broderie au fil d'argent, à la laine et à la soie", "crochet", "installation textile"],
+  "summary": "Artiste parisienne, photographe et brodeuse, Aurélie Mathigot imprime ses photographies sur toile puis les brode de perles, de laine, de soie ou de fil d'argent pour leur donner du relief. Elle crochète aussi des sculptures en corde, laine et coton.",
+  "biography": "Aurélie Mathigot vit et travaille à Paris. Elle s'est formée à la photo et à la vidéo aux Beaux-Arts d'Aix-en-Provence, après des études d'histoire de l'art et de philosophie à la Sorbonne. Elle se présente aujourd'hui comme plasticienne, photographe et brodeuse, et elle est représentée depuis 2011 par maison parisienne, la galerie nomade de Florence Guillier-Bernard dédiée aux métiers d'art et à la création contemporaine.\n\nSa signature, ce sont les photos brodées. Elle imprime une photographie, ancienne ou récente, sur une toile, puis la reprend à l'aiguille par endroits, à la main ou à la machine, avec des perles, de la laine, de la soie, du coton ou du fil d'argent, parfois du crochet. La broderie vient « retoucher » l'image en relief : un chapeau, un col, un casque audio ou un bouquet deviennent matière, tandis que le reste de la photo reste lisse. Elle dit aimer la broderie parce qu'elle donne aux images une autre profondeur et qu'elle autorise les essais et les reprises sans abîmer le support. Dans « White Nothing », elle va jusqu'à broder blanc sur blanc, à la limite du lisible.\n\nDès 2011, l'exposition « Trame » à la galerie Since Upian, à Paris, montre ses photographies urbaines imprimées sur toile et partiellement brodées, à côté de sculptures en corde, laine et coton travaillées au crochet. En 2015, son installation « Merci », un grand pavillon suspendu de 5 mètres sur 5, assemble lins, toiles d'ortie et franges teintes naturellement, avec des textes brodés. En 2018, l'université Bocconi de Milan expose « Regardes Tissés sur Tokyo », des vues de Tokyo imprimées sur toile et brodées, et la boutique Japan Store Isetan Mitsukoshi lui consacre un pop-up à Paris.\n\nEn avril 2019, pendant la Design Week de Milan (Fuorisalone), l'exposition « Frange » se partage entre un salon de coiffure et un barbier, en jouant sur le double sens du mot frange. On y voit ses photos brodées, ses volumes au crochet et ses collaborations avec Astier de Villatte, Macon&Lesquoy ou Merci. En 2021, au Studio Harcourt, rue de Lota, maison parisienne présente « Galerie de Portraits » : cinquante portraits uniques brodés, dont la série « Stolen picture » et « My Beauty ».\n\nElle a reçu le Grand Prix de la Création de la Ville de Paris dans la catégorie métiers d'art. Sa page de présentation indique aussi qu'une de ses œuvres est entrée au musée des Arts décoratifs en 2021 et que la Manufacture des Gobelins a acquis une pièce en 2022 pour un projet de tapisserie. Aucune exposition récente (2025-2026) n'a été trouvée pour l'instant.",
+  "website": "https://www.aureliemathigot.com",
+  "instagram": "https://www.instagram.com/mathigotaurelietextualab/",
+  "photoUrl": "https://apps.iloveplaytime.com/content/4-magazine/3-we-liked/6-pop-up-aurelie-mathigot/we_liked_aurelie_mathigot_pop_up_store_portrait.jpg",
+  "works": [
+    {
+      "title": "Stolen picture n°16",
+      "year": "",
+      "technique": "Photographie imprimée sur toile, brodée de perles et de laine",
+      "description": "Un portrait ancien et flou, dont le chapeau et le col sont entièrement repris en broderie perlée et en laine. Montré dans l'exposition « Galerie de Portraits » au Studio Harcourt en 2021.",
+      "url": "https://parisdiarybylaure.com/?p=33799",
+      "imageUrl": "https://parisdiarybylaure.com/wp-content/uploads/2021/01/Photo-Volee-16-Aurelie-Mathigot.jpg"
+    },
+    {
+      "title": "My Beauty",
+      "year": "",
+      "technique": "Photographie imprimée sur toile, brodée de fils et de perles",
+      "description": "Un portrait en noir et blanc d'une jeune femme au casque audio : le casque, le paysage et des motifs végétaux sont brodés en perles et en fils argentés. Présenté au Studio Harcourt en 2021.",
+      "url": "https://parisdiarybylaure.com/?p=33799",
+      "imageUrl": "https://parisdiarybylaure.com/wp-content/uploads/2021/01/IMG_7085.jpg"
+    },
+    {
+      "title": "Galerie de Portraits",
+      "year": "2021",
+      "technique": "Cinquante photographies imprimées sur toile et brodées (fil d'argent, perles, laine, soie)",
+      "description": "Ensemble de cinquante portraits uniques brodés, exposés par maison parisienne dans l'hôtel particulier du Studio Harcourt, 6 rue de Lota à Paris.",
+      "url": "https://parisdiarybylaure.com/?p=33799",
+      "imageUrl": ""
+    },
+    {
+      "title": "Sans titre",
+      "year": "2018",
+      "technique": "Photographie imprimée sur toile, fils, perles et broderie, 65 x 65 cm",
+      "description": "Une nature morte photographiée, un vase et des fleurs, recouverte de grandes formes brodées et perlées aux couleurs vives. Présentée à Milan dans l'exposition « Frange » en 2019.",
+      "url": "https://archivio.fuorisalone.it/2019/en/events/864/Frange-mostra-di-Aurélie-Mathigot",
+      "imageUrl": "https://archivio.fuorisalone.it/2019/assets/fuorisalone/cache/events/events_m/864/images/gallery/4329/aurelie_mathigot__senza_titolo__2018__foto_stampata_su_tela__fili__perle_e_ricamo__65_x_65_cm_95f241c7a183704e6bfb6cae982b45b0.jpg"
+    },
+    {
+      "title": "Regardes Tissés sur Tokyo",
+      "year": "2018",
+      "technique": "Photographies de Tokyo imprimées sur toile et brodées (corde, laine, coton)",
+      "description": "Série de vues de Tokyo entre réalité et rêve, exposée à l'université Bocconi de Milan avec MIA Photo Fair et Flux Laboratory de Genève.",
+      "url": "https://www.unibocconi.it/en/news/textile-tokyo-exhibition-bocconi-between-dream-and-reality",
+      "imageUrl": ""
+    },
+    {
+      "title": "Merci",
+      "year": "2015",
+      "technique": "Installation suspendue, 500 x 500 cm : lin, toile d'ortie, franges teintes naturellement, textes brodés",
+      "description": "Un grand pavillon textile suspendu qui assemble des tissus de formes, couleurs et épaisseurs variées, avec de longues franges et des phrases brodées au fil rouge.",
+      "url": "https://archivio.fuorisalone.it/2019/en/events/864/Frange-mostra-di-Aurélie-Mathigot",
+      "imageUrl": "https://archivio.fuorisalone.it/2019/assets/fuorisalone/cache/events/events_m/864/images/gallery/4350/aurelie_mathigot_2015__installazione__500_x_500_cm__merci-4_81d66836f2335ef125f1597b8fc8d922.jpg"
+    },
+    {
+      "title": "White Nothing",
+      "year": "",
+      "technique": "Broderie blanche sur textile blanc",
+      "description": "Une broderie blanc sur blanc, à la limite de la lisibilité, dans la série des photos brodées.",
+      "url": "https://znaki.fm/fr/persons/aurelie-mathigot/",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "2011", "kind": "exposition", "label": "« Trame », galerie Since Upian, Paris (jusqu'au 5 mars) : photographies urbaines imprimées sur toile et brodées" },
+    { "date": "2011", "kind": "autre", "label": "Début de sa collaboration avec la galerie maison parisienne" },
+    { "date": "2011", "kind": "prix", "label": "Grand Prix de la Création de la Ville de Paris, métiers d'art (année 2011 selon la fiche officielle du BDMMA ; 2012 dans ses biographies)" },
+    { "date": "2015", "kind": "oeuvre", "label": "Installation suspendue « Merci » (500 x 500 cm)" },
+    { "date": "2018-02-06", "kind": "exposition", "label": "« Regardes Tissés sur Tokyo », université Bocconi, Milan (jusqu'au 12 mars)" },
+    { "date": "2018-02-27", "kind": "exposition", "label": "Pop-up au Japan Store Isetan Mitsukoshi, Maison de la culture du Japon, Paris (jusqu'au 10 mars)" },
+    { "date": "2019-04-09", "kind": "exposition", "label": "« Frange », Fuorisalone, Milano Design Week (jusqu'au 14 avril)" },
+    { "date": "2021", "kind": "exposition", "label": "« Galerie de Portraits », 50 portraits brodés, Studio Harcourt, Paris (jusqu'en juin)" },
+    { "date": "2021", "kind": "autre", "label": "Une œuvre entre au musée des Arts décoratifs de Paris (selon sa page de présentation)" },
+    { "date": "2022", "kind": "autre", "label": "Acquisition d'une pièce par la Manufacture des Gobelins pour un projet de tapisserie (selon sa page de présentation)" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Paris Diary by Laure, « Studio Harcourt is well and alive, and OPEN! » (28 janvier 2021)", "url": "https://parisdiarybylaure.com/?p=33799" },
+    { "label": "Page de présentation de l'artiste (aureliemathigot.com renvoie vers znaki.fm)", "url": "https://znaki.fm/fr/persons/aurelie-mathigot/" },
+    { "label": "Fuorisalone 2019, « Frange » mostra di Aurélie Mathigot", "url": "https://archivio.fuorisalone.it/2019/en/events/864/Frange-mostra-di-Aurélie-Mathigot" },
+    { "label": "Université Bocconi, « Textile Tokyo » (6 février 2018)", "url": "https://www.unibocconi.it/en/news/textile-tokyo-exhibition-bocconi-between-dream-and-reality" },
+    { "label": "Playtime, pop-up Aurélie Mathigot (26 février 2018)", "url": "https://apps.iloveplaytime.com/magazine/we-liked/pop-up-aurelie-mathigot" },
+    { "label": "AQNB (archive Rhizome), « Trame » @ Since Upian (5 février 2011)", "url": "https://webarchives.rhizome.org/Q16289/oe_/https://www.aqnb.com/?p=9239" },
+    { "label": "BDMMA, Grands Prix de la Création de la Ville de Paris, fiche Aurélie Mathigot", "url": "https://www.bdmma.paris/en/les-prix/les-grands-prix-de-la-creation-de-la-ville-de-paris/aurelie-mathigot/" },
+    { "label": "Haydée édition, biographie d'Aurélie Mathigot", "url": "https://www.haydee-edition.com/en/collections/aurelie-mathigot-1" },
+    { "label": "Mon Petit Art, Aurélie Mathigot", "url": "https://www.monpetitart.com/en/blogs/artists/aurelie-mathigot" }
+  ],
+  "researchNotes": "Grand Prix de la Création de la Ville de Paris : confirmé, mais l'année diffère. La fiche officielle du BDMMA (Bureau du design, de la mode et des métiers d'art) indique 2011, alors que sa page de présentation, Haydée édition et Mon Petit Art indiquent 2012. Entrée au MAD en 2021 et acquisition par les Gobelins en 2022 : uniquement sur sa page de présentation znaki.fm (vers laquelle redirige son site) ; aucune notice du MAD ni arrêté d'acquisition trouvé. Dates de « Galerie de Portraits » : l'article de janvier 2021 dit « jusqu'en juin », sans date de début. Années de « Stolen picture n°16 » et « My Beauty » inconnues. La fiche InCollect (née à Lille en 1978, études de design textile à l'ENSAD, Biennale de Venise, bourse Villa Médicis, séries « Réservoir » et « Herbiers ») contredit les autres sources et semble générique : rien n'en a été repris. Date de naissance non trouvée. Instagram @mathigotaurelietextualab donné par sa page de présentation ; le profil répond mais son contenu n'a pas pu être vérifié. Le portrait (photo) vient de l'article Playtime, nommé « portrait » sans légende. Aucune actualité 2025-2026 trouvée. Homonymes : aucun repéré (ne pas confondre avec Aurélie Lanoiselée, autre brodeuse du dossier)."
+}

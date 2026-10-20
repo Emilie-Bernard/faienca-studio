@@ -1,0 +1,588 @@
+{
+  "name": "Aurélie Lanoiselée",
+  "country": "France",
+  "city": "Paris et Zaventem (Belgique)",
+  "zone": "france",
+  "birthDate": "",
+  "deathDate": "",
+  "techniques": [
+    "Broderie à l'aiguille",
+    "Broderie au crochet de Lunéville",
+    "Broderie machine",
+    "Perlage",
+    "Crochet et tricot",
+    "Teintures mixtes et végétales, peint main",
+    "Ennoblissement textile (apprêts, création de matériaux)",
+    "Recyclage et détournement de matériaux (coquillages, ardoise, emballages, bijoux cassés)",
+    "Fil d'or et feuille d'or (ponctuellement)",
+    "Broderie en volume et sur surface plane"
+  ],
+  "summary": "Brodeuse d'art et créatrice textile française, formée à l'École Duperré, qui dirige depuis 2002 un atelier de broderie et d'ennoblissement textile travaillant pour la haute couture (Christian Lacroix, Carven, Givenchy, Dior, Schiaparelli...) et pour l'art. Lauréate du Prix Liliane Bettencourt pour l'Intelligence de la Main en 2009, elle a été résidente de la Villa Kujoyama à Kyoto de mars à l'été 2026, autour des nœuds japonais hanamusubi.",
+  "biography": "Aurélie Lanoiselée est une brodeuse et créatrice textile française. Elle s'est d'abord formée au stylisme de mode à l'École supérieure des arts appliqués Duperré à Paris : BTS stylisme de mode en 2000, puis Diplôme des métiers d'art textile, spécialité broderie, et post-BTS obtenus en 2003 avec les félicitations du jury, selon la Fondation Bettencourt Schueller. Homo Faber la présente comme ayant commencé sa carrière en 2000 et enseigné à partir de 2002.\n\nSon atelier ouvre en 2002. Dès cette période, ses créations attirent les maisons de haute couture parisiennes : Carven et Givenchy d'abord, puis Christian Lacroix à partir de 2004, ainsi que Valentino, Balmain et Christian Dior (haute couture et prêt-à-porter), Christophe Josse, Schiaparelli, Stéphane Rolland, Delvaux, Pascal Millet ou Zahia Couture. L'atelier, aujourd'hui installé aux Zaventem Ateliers en Belgique et présenté comme basé « à Paris et Zaventem », réalise des pièces de haute couture, des objets brodés sur mesure pour architectes d'intérieur et clients privés, des pièces muséales, des installations et des collaborations artistiques.\n\nSa pratique associe les techniques vernaculaires de broderie (aiguille, crochet de Lunéville, machine, perlage, crochet, tricot) et d'ennoblissement textile (teintures mixtes, apprêts, création de matériaux), sur métier à plat ou directement en volume. Elle détourne volontiers des matériaux inattendus : coquillages percés puis renforcés et associés à du fil d'or, ardoise tombée d'un toit, emballages plastiques, jouets, fragments de bijoux. Ses œuvres personnelles, comme L'Or Bleu (2002, pampilles et feuille d'or sur un bleu de travail XXL, aujourd'hui au musée des dentelles et broderies de Caudry), Ceux qu'ils nous restent (2003) ou Le Léviathan (2008), puisent dans l'histoire du vêtement et de la couleur.\n\nSon travail a été distingué par le Prix Talents d'exception de la Fondation Bettencourt Schueller pour l'Intelligence de la Main (2009), le Grand Prix de la Création de la Ville de Paris, catégorie métier d'art confirmé (2010 ou 2011 selon les sources), le prix Artisanat et Innovation de la Fondation EY (2011), puis par son entrée au guide Homo Faber (2021) et aux Grands Ateliers de France (2022). Elle a exposé notamment au musée des dentelles et broderies de Caudry (monographie en 2013), aux Arts Décoratifs, au MAK de Vienne, au Palais de Tokyo (Enfance, 2018) et au Musée de l'Homme (Momies, 2025-2026).\n\nEn 2026, elle est résidente de la Villa Kujoyama à Kyoto (catégorie métiers d'art, au titre du Prix Liliane Bettencourt), pour environ cinq mois à partir de mars. Son projet, annoncé sous le titre « Pérenniser l'éphémère » puis présenté comme « Knotted to Be Unknotted: the Bonds that Unite us », est né de sa rencontre avec Yoshika Yajima, doctorante à Osaka qui étudie les hanamusubi (nœuds fleurs) de l'époque d'Edo sous l'angle du genre. Il interroge ce nœud « fait pour être dénoué et renoué », la transmission par la main, le lien social, et utilise exclusivement des matériaux japonais. Elle avait déjà montré au Japon des œuvres à Futurotextiles 7 (Osaka, 2025).",
+  "website": "https://www.aurelielanoiselee.com/",
+  "instagram": "https://www.instagram.com/aurelielanoiselee/",
+  "photoUrl": "https://villakujoyama.jp/wp-content/uploads/2025/07/Lanoiselee-Aurelie-c-Lydie-Nesvadba.webp",
+  "works": [
+    {
+      "title": "L'Or Bleu",
+      "year": "2002",
+      "technique": "Broderie, pampilles et feuille d'or sur bleu de travail, 140 x 65 cm",
+      "description": "Version XXL du bleu de travail destinée à « sacraliser » l'ouvrier. Prix régional de la SEMA. Collection du musée des dentelles et broderies de Caudry ; présentée aussi au MAD Paris.",
+      "url": "https://www.aurelielanoiselee.com/team-1",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PPPhWAO-headergd.jpg"
+    },
+    {
+      "title": "Ceux qu'ils nous restent",
+      "year": "2003",
+      "technique": "Manteau de tulle translucide, dentelle rebrodée, 170 x 80 cm",
+      "description": "Création personnelle ; des dessins préparatoires (2013) sont conservés dans le Fonds Dess(e)ins des Traces Habiles.",
+      "url": "https://www.aurelielanoiselee.com/team-1",
+      "imageUrl": "https://static.wixstatic.com/media/f20b97_30ea8b3f249046b2b2f242ce720e5f43~mv2.png"
+    },
+    {
+      "title": "Le Léviathan",
+      "year": "2008",
+      "technique": "Composition textile brodée, matières luxuriantes et franges",
+      "description": "« Le vêtement blanc, symbole. Objet sacré ou vêtement fardeau. » Pièce présentée lors du Prix Bettencourt 2009.",
+      "url": "https://leslaureats-intelligencedelamain.com/en/pages/aurelie-lanoiselee",
+      "imageUrl": "https://leslaureats-intelligencedelamain.com/cdn/shop/products/aurelie-lanoiselee-leviathan-1.jpg?v=1686842000&width=533"
+    },
+    {
+      "title": "Nature Humaine",
+      "year": "2011",
+      "technique": "Pièce brodée en volume, 55 x 30 x 25 cm",
+      "description": "Pièce muséale listée sur son site et sur Homo Faber ; technique détaillée non précisée.",
+      "url": "https://www.aurelielanoiselee.com/team-1",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PachWAC-null.jpg"
+    },
+    {
+      "title": "Alliage.. renaître avec la nuit...",
+      "year": "2022",
+      "technique": "Œuvre de lumière en cuivre, cristaux et bronze, 98 x 58 x 44 cm",
+      "description": "Réalisation à six mains avec Roxane Lahidji et Dim Atelier. Titre exact à vérifier (deux mentions sur la page).",
+      "url": "https://www.aurelielanoiselee.com/team-1",
+      "imageUrl": "https://static.wixstatic.com/media/f20b97_7c0392b5ebff40c6bc6da8d66a27e064~mv2.jpg"
+    },
+    {
+      "title": "Lustre 18 feux",
+      "year": "",
+      "technique": "Lustre brodé",
+      "description": "Pièce présentée (vendue) sur la boutique des lauréats de l'Intelligence de la Main. Date non indiquée.",
+      "url": "https://leslaureats-intelligencedelamain.com/en/pages/aurelie-lanoiselee",
+      "imageUrl": "https://leslaureats-intelligencedelamain.com/cdn/shop/products/aurelie-lanoiselee-lustre-18-feux-1.jpg?v=1686841873&width=533"
+    },
+    {
+      "title": "Parure",
+      "year": "",
+      "technique": "Broderie",
+      "description": "Pièce présentée (vendue) sur la boutique des lauréats de l'Intelligence de la Main. Date non indiquée.",
+      "url": "https://leslaureats-intelligencedelamain.com/en/pages/aurelie-lanoiselee",
+      "imageUrl": "https://leslaureats-intelligencedelamain.com/cdn/shop/products/aurelie-lanoiselee-parure-1.jpg?v=1686841793&width=533"
+    },
+    {
+      "title": "Broderie haute couture pour Christian Lacroix",
+      "year": "",
+      "technique": "Broderie haute couture",
+      "description": "Pièce réalisée pour Christian Lacroix Haute Couture, maison pour laquelle elle travaille depuis 2004. Année de la pièce non précisée.",
+      "url": "https://leslaureats-intelligencedelamain.com/en/pages/aurelie-lanoiselee",
+      "imageUrl": "https://leslaureats-intelligencedelamain.com/cdn/shop/products/aurelie-lanoiselee-lacroix-1.jpg?v=1686841925&width=533"
+    },
+    {
+      "title": "Jardin",
+      "year": "",
+      "technique": "Broderie",
+      "description": "Œuvre présentée dans le portfolio Homo Faber, sans date ni description.",
+      "url": "https://www.homofaber.com/fr/artisans/aurlie-lanoisele-embroidery-belgium",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PPPiWAO-headergd.jpg"
+    },
+    {
+      "title": "Caméléon",
+      "year": "",
+      "technique": "Broderie",
+      "description": "Œuvre présentée dans le portfolio Homo Faber, sans date ni description.",
+      "url": "https://www.homofaber.com/fr/artisans/aurlie-lanoisele-embroidery-belgium",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PPPjWAO-headergd.jpg"
+    },
+    {
+      "title": "Shoes",
+      "year": "",
+      "technique": "Broderie",
+      "description": "Œuvre présentée dans le portfolio Homo Faber, sans date ni description.",
+      "url": "https://www.homofaber.com/fr/artisans/aurlie-lanoisele-embroidery-belgium",
+      "imageUrl": "https://hfgnext.s3.eu-west-3.amazonaws.com/img/4YL7Q000000PPPgWAO-headergd.jpg"
+    },
+    {
+      "title": "Recherches et dessins (Fonds Dess(e)ins)",
+      "year": "2013",
+      "technique": "Crayon, encre, collage et perles sur papier",
+      "description": "Six dessins (Ceux qu'ils nous restent, Recherches, Recherches broderies 1 à 3 pour la joaillerie-horlogerie, Coiffe) conservés par Les Traces Habiles.",
+      "url": "https://les-traces-habiles.org/collection/auteurs/aurelie-lanoiselee",
+      "imageUrl": ""
+    },
+    {
+      "title": "BRODERIES, dispositif interactif",
+      "year": "2020",
+      "technique": "Installation brodée interactive",
+      "description": "Dispositif pour les 0-6 ans conçu avec le designer Pierre Emmanuel Vandeputte et Studio Elementaire, installé à mille formes (Clermont-Ferrand) de décembre 2020 à août 2021, ouvert au public du 22 mai au 1er août 2021.",
+      "url": "https://www.milleformes.fr/artiste/aurelie-lanoiselee",
+      "imageUrl": ""
+    },
+    {
+      "title": "L'éveil",
+      "year": "2025",
+      "technique": "Dispositif interactif brodé",
+      "description": "Dispositif pour les 0-24 mois présenté à mille formes du 12 avril au 3 août 2025, dans le cadre de « Broderies ».",
+      "url": "https://www.milleformes.fr/artiste/aurelie-lanoiselee",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pièce inspirée d'« Une charogne » de Baudelaire",
+      "year": "2025",
+      "technique": "Broderie (détail non précisé)",
+      "description": "Pièce évoquée par l'artiste dans le podcast Pop in !, présentée dans l'exposition Momies au Musée de l'Homme (2025-2026). Titre et technique à vérifier.",
+      "url": "https://podcast.ausha.co/pop-in/astre-mobile-aurelie-lanoiselee",
+      "imageUrl": ""
+    },
+    {
+      "title": "Sellerie brodée de l'Astre Mobile (Maison Lacmé)",
+      "year": "",
+      "technique": "Broderie de coquillages, perles, sequins et fil d'or sur tissu technique inspiré du tweed",
+      "description": "Sellerie de Méhari brodée d'après les dessins d'Antoine Tauvel, palette rose poudré et sable, coquillages en partie ramassés en Corse. Année à vérifier (épisode du podcast daté du 7 juillet 2026).",
+      "url": "https://podcast.ausha.co/pop-in/astre-mobile-aurelie-lanoiselee",
+      "imageUrl": ""
+    },
+    {
+      "title": "Lustre pour « La chambre de la mélancolie »",
+      "year": "",
+      "technique": "Lustre brodé",
+      "description": "Lustre réalisé avec le cinéaste Clément Cogitore (nom transcrit « Cogitor » dans le podcast), selon l'artiste. Date et contexte à vérifier.",
+      "url": "https://podcast.ausha.co/pop-in/astre-mobile-aurelie-lanoiselee",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pérenniser l'éphémère / Knotted to Be Unknotted: the Bonds that Unite us",
+      "year": "2026",
+      "technique": "Main, aiguille, couleur ; matériaux exclusivement japonais",
+      "description": "Projet de résidence à la Villa Kujoyama autour des hanamusubi (nœuds fleurs) d'Edo, avec la doctorante Yoshika Yajima. Une image de la Villa crédite aussi une œuvre « Vue de la Villa #30 _Mise en abyme_ ». Œuvres finales non documentées.",
+      "url": "https://villakujoyama.jp/?p=5055",
+      "imageUrl": "https://villakujoyama.jp/wp-content/uploads/2025/07/Lanoiselee-Aurelie-5-2560x1707.webp"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2000",
+      "kind": "formation",
+      "label": "BTS stylisme de mode, École supérieure des arts appliqués Duperré (Paris)"
+    },
+    {
+      "date": "2002",
+      "kind": "vie",
+      "label": "Ouverture de son atelier de broderie et de création textile"
+    },
+    {
+      "date": "2002",
+      "kind": "oeuvre",
+      "label": "L'Or Bleu, prix régional de la SEMA"
+    },
+    {
+      "date": "2003",
+      "kind": "formation",
+      "label": "Diplôme des métiers d'art textile (broderie) et post-BTS, félicitations du jury"
+    },
+    {
+      "date": "2003",
+      "kind": "oeuvre",
+      "label": "Ceux qu'ils nous restent, manteau de tulle et dentelle rebrodée"
+    },
+    {
+      "date": "2004",
+      "kind": "autre",
+      "label": "Début de la collaboration avec Christian Lacroix"
+    },
+    {
+      "date": "2007-09",
+      "kind": "exposition",
+      "label": "Merveilleux d'après nature, Château de Malbrouck, Manderen"
+    },
+    {
+      "date": "2008",
+      "kind": "oeuvre",
+      "label": "Le Léviathan"
+    },
+    {
+      "date": "2008-03",
+      "kind": "exposition",
+      "label": "L'Homme merveilleux, Château de Malbrouck, Manderen"
+    },
+    {
+      "date": "2009",
+      "kind": "prix",
+      "label": "Prix Talents d'exception pour l'Intelligence de la Main, Fondation Bettencourt Schueller"
+    },
+    {
+      "date": "2009-04",
+      "kind": "exposition",
+      "label": "L'Univers de la création, Château du Clos Lucé, Amboise"
+    },
+    {
+      "date": "2009-10",
+      "kind": "exposition",
+      "label": "Entre oui et presque oui, il y a tout un monde, Galerie Vincent Guerre, Paris"
+    },
+    {
+      "date": "2010-06",
+      "kind": "exposition",
+      "label": "Designer-Makers, Viaduc des Arts, Paris"
+    },
+    {
+      "date": "2010-07",
+      "kind": "exposition",
+      "label": "Imaginez maintenant, Théâtre national de Chaillot, Paris"
+    },
+    {
+      "date": "2011",
+      "kind": "prix",
+      "label": "Grand Prix de la Création de la Ville de Paris, métier d'art confirmé (2010 selon la Fondation Bettencourt et Collectif Textile, à vérifier)"
+    },
+    {
+      "date": "2011",
+      "kind": "prix",
+      "label": "Prix Artisanat et Innovation, Fondation EY"
+    },
+    {
+      "date": "2011",
+      "kind": "oeuvre",
+      "label": "Nature Humaine"
+    },
+    {
+      "date": "2011-04-11",
+      "kind": "autre",
+      "label": "Atelier « Ceci n'est pas textile » pour adolescents, Centre Pompidou (11-21 avril)"
+    },
+    {
+      "date": "2011-09",
+      "kind": "exposition",
+      "label": "Objets d'exception, Galerie VIA, Paris"
+    },
+    {
+      "date": "2012-04",
+      "kind": "exposition",
+      "label": "Made in Mode, Galeries Lafayette, et Mémoire vive, place Vendôme, Paris"
+    },
+    {
+      "date": "2013-05",
+      "kind": "exposition",
+      "label": "Broderies haute couture, exposition monographique, musée des dentelles et broderies de Caudry"
+    },
+    {
+      "date": "2013-07",
+      "kind": "exposition",
+      "label": "Par l'entremise, avec Julien Salaud, Galerie Entre, Paris"
+    },
+    {
+      "date": "2013-09",
+      "kind": "exposition",
+      "label": "Dans la ligne de mire, Les Arts Décoratifs, Paris (jusqu'en mars 2014)"
+    },
+    {
+      "date": "2016-12",
+      "kind": "exposition",
+      "label": "Handicraft, Traditional Skills in the Digital Age, MAK, Vienne (jusqu'en avril 2017)"
+    },
+    {
+      "date": "2018-06-22",
+      "kind": "exposition",
+      "label": "Enfance (Encore un jour banane pour le poisson-rêve), Palais de Tokyo, Paris (jusqu'au 9 septembre)"
+    },
+    {
+      "date": "2020-12-12",
+      "kind": "oeuvre",
+      "label": "Installation interactive BRODERIES à mille formes, Clermont-Ferrand (ouverte au public de mai à août 2021)"
+    },
+    {
+      "date": "2021",
+      "kind": "prix",
+      "label": "Entrée au guide Homo Faber, Michelangelo Foundation"
+    },
+    {
+      "date": "2022",
+      "kind": "prix",
+      "label": "Membre des Grands Ateliers de France"
+    },
+    {
+      "date": "2022",
+      "kind": "oeuvre",
+      "label": "Alliage.. renaître avec la nuit, avec Roxane Lahidji et Dim Atelier"
+    },
+    {
+      "date": "2022",
+      "kind": "exposition",
+      "label": "Maison des Grenadières, Cervières"
+    },
+    {
+      "date": "2023-09-27",
+      "kind": "exposition",
+      "label": "Glass Light Transparency, La Mercerie, Bruxelles"
+    },
+    {
+      "date": "2024-08-28",
+      "kind": "exposition",
+      "label": "Bel ouvrage, Orangerie du Sénat, Paris (jusqu'au 8 septembre)"
+    },
+    {
+      "date": "2024-09-20",
+      "kind": "exposition",
+      "label": "Dentelle des mers, musée des dentelles et broderies de Caudry (jusqu'en août 2025)"
+    },
+    {
+      "date": "2025-04-12",
+      "kind": "exposition",
+      "label": "Futurotextiles 7, parc Nagai, Osaka (jusqu'au 31 juillet)"
+    },
+    {
+      "date": "2025-04-12",
+      "kind": "exposition",
+      "label": "Broderies et dispositif L'éveil, mille formes, Clermont-Ferrand (jusqu'au 3 août)"
+    },
+    {
+      "date": "2025-07-07",
+      "kind": "residence",
+      "label": "Sélection par le jury de la Villa Kujoyama pour une résidence de 5 mois en 2026"
+    },
+    {
+      "date": "2025-10-13",
+      "kind": "exposition",
+      "label": "Salon des Nouveaux Ensembliers, Mobilier national, Paris (jusqu'au 2 novembre), selon son site"
+    },
+    {
+      "date": "2025-11-19",
+      "kind": "exposition",
+      "label": "Momies, Musée de l'Homme, Paris (jusqu'au 25 mai 2026)"
+    },
+    {
+      "date": "2026-03",
+      "kind": "residence",
+      "label": "Début de la résidence à la Villa Kujoyama, Kyoto (1er mars au 1er août selon son site)"
+    },
+    {
+      "date": "2026-03-11",
+      "kind": "exposition",
+      "label": "Prototype of Reality, Zaventem Ateliers à la Villa Empain, Bruxelles (jusqu'au 19 mars)"
+    },
+    {
+      "date": "2026-06-04",
+      "kind": "residence",
+      "label": "Atelier ouvert et rencontre « Untying the threads of hanamusubi » avec Yoshika Yajima et Toshiko Tanaka, Villa Kujoyama"
+    },
+    {
+      "date": "2026-07-07",
+      "kind": "autre",
+      "label": "Épisode du podcast Pop in ! (Maison Lacmé) consacré à son travail et à l'Astre Mobile"
+    },
+    {
+      "date": "2026-08",
+      "kind": "residence",
+      "label": "Fin de la résidence à la Villa Kujoyama"
+    }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "Futurotextiles 7",
+      "summary": "Présentation, avec Tony Jouanneau, d'œuvres prolongeant un projet de résidence, dans l'exposition de lille3000 liée à l'Expo universelle d'Osaka.",
+      "place": "Parc Nagai",
+      "city": "Osaka",
+      "country": "Japon",
+      "startDate": "2025-04-12",
+      "endDate": "2025-07-31",
+      "url": "https://villakujoyama.jp/en/event/5514/"
+    },
+    {
+      "kind": "exposition",
+      "title": "Broderies / L'éveil",
+      "summary": "Dispositif interactif brodé pour les tout-petits au centre d'art pour les 0-6 ans.",
+      "place": "Centre d'art mille formes",
+      "city": "Clermont-Ferrand",
+      "country": "France",
+      "startDate": "2025-04-12",
+      "endDate": "2025-08-03",
+      "url": "https://www.milleformes.fr/artiste/aurelie-lanoiselee"
+    },
+    {
+      "kind": "exposition",
+      "title": "Dentelle des mers (Reticulum Maris)",
+      "summary": "Participation à l'exposition du musée de Caudry sur le thème des océans, selon son site.",
+      "place": "Musée des dentelles et broderies de Caudry",
+      "city": "Caudry",
+      "country": "France",
+      "startDate": "2024-09-20",
+      "endDate": "2025-08-24",
+      "url": "https://www.aurelielanoiselee.com/actualités"
+    },
+    {
+      "kind": "salon",
+      "title": "Salon des Nouveaux Ensembliers",
+      "summary": "Participation annoncée sur son site ; sa présence n'apparaît pas dans les sources de presse lues (à vérifier).",
+      "place": "Mobilier national, Manufacture des Gobelins",
+      "city": "Paris",
+      "country": "France",
+      "startDate": "2025-10-13",
+      "endDate": "2025-11-02",
+      "url": "https://www.aurelielanoiselee.com/actualités"
+    },
+    {
+      "kind": "exposition",
+      "title": "Momies",
+      "summary": "Exposition où figure une pièce inspirée du poème « Une charogne » de Baudelaire, selon l'artiste.",
+      "place": "Musée de l'Homme",
+      "city": "Paris",
+      "country": "France",
+      "startDate": "2025-11-19",
+      "endDate": "2026-05-25",
+      "url": "https://www.aurelielanoiselee.com/expositions"
+    },
+    {
+      "kind": "exposition",
+      "title": "Prototype of Reality",
+      "summary": "Exposition des Zaventem Ateliers à la Villa Empain.",
+      "place": "Villa Empain",
+      "city": "Bruxelles",
+      "country": "Belgique",
+      "startDate": "2026-03-11",
+      "endDate": "2026-03-19",
+      "url": "https://www.aurelielanoiselee.com/expositions"
+    },
+    {
+      "kind": "actualite",
+      "title": "Résidence à la Villa Kujoyama",
+      "summary": "Résidence de recherche (métiers d'art, Prix Liliane Bettencourt) autour des nœuds hanamusubi, avec ateliers ouverts les jeudis.",
+      "place": "Villa Kujoyama",
+      "city": "Kyoto",
+      "country": "Japon",
+      "startDate": "2026-03-01",
+      "endDate": "2026-08-01",
+      "url": "https://villakujoyama.jp/?p=5055"
+    },
+    {
+      "kind": "technique",
+      "title": "Untying the threads of hanamusubi",
+      "summary": "Rencontre avec Yoshika Yajima et la maître de hanamusubi Toshiko Tanaka, puis initiation au nœud sakura.",
+      "place": "Villa Kujoyama",
+      "city": "Kyoto",
+      "country": "Japon",
+      "startDate": "2026-06-04",
+      "endDate": "2026-06-04",
+      "url": "https://villakujoyama.jp/?p=9096"
+    },
+    {
+      "kind": "actualite",
+      "title": "Podcast Pop in ! « La joie du geste : Aurélie Lanoiselée, broder autrement »",
+      "summary": "Épisode de 21 minutes sur sa pratique et la sellerie brodée de l'Astre Mobile de Maison Lacmé.",
+      "place": "",
+      "city": "",
+      "country": "France",
+      "startDate": "2026-07-07",
+      "endDate": "",
+      "url": "https://podcast.ausha.co/pop-in/astre-mobile-aurelie-lanoiselee"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site officiel, accueil",
+      "url": "https://www.aurelielanoiselee.com/"
+    },
+    {
+      "label": "Site officiel, expositions",
+      "url": "https://www.aurelielanoiselee.com/expositions"
+    },
+    {
+      "label": "Site officiel, actualités",
+      "url": "https://www.aurelielanoiselee.com/actualités"
+    },
+    {
+      "label": "Site officiel, pièces muséales",
+      "url": "https://www.aurelielanoiselee.com/team-1"
+    },
+    {
+      "label": "Site officiel, haute couture",
+      "url": "https://www.aurelielanoiselee.com/realisations"
+    },
+    {
+      "label": "Site officiel, atelier",
+      "url": "https://www.aurelielanoiselee.com/about-1"
+    },
+    {
+      "label": "Instagram @aurelielanoiselee",
+      "url": "https://www.instagram.com/aurelielanoiselee/"
+    },
+    {
+      "label": "Homo Faber, fiche artisan",
+      "url": "https://www.homofaber.com/fr/artisans/aurlie-lanoisele-embroidery-belgium"
+    },
+    {
+      "label": "Villa Kujoyama, fiche résidente",
+      "url": "https://villakujoyama.jp/?p=5055"
+    },
+    {
+      "label": "Villa Kujoyama, programme du 5 mars 2026",
+      "url": "https://villakujoyama.jp/?p=8018"
+    },
+    {
+      "label": "Villa Kujoyama, programme du 7 mai 2026",
+      "url": "https://villakujoyama.jp/?p=8680"
+    },
+    {
+      "label": "Villa Kujoyama, programme du 4 juin 2026",
+      "url": "https://villakujoyama.jp/?p=9096"
+    },
+    {
+      "label": "Villa Kujoyama, programme du 2 juillet 2026",
+      "url": "https://villakujoyama.jp/?p=9430"
+    },
+    {
+      "label": "Villa Kujoyama, Futurotextiles 7",
+      "url": "https://villakujoyama.jp/en/event/5514/"
+    },
+    {
+      "label": "Institut français, lauréats Villa Kujoyama 2026",
+      "url": "https://www.institutfrancais.com/en/magazine/announcement-villa-kujoyama-laureates-2026"
+    },
+    {
+      "label": "Fondation Bettencourt Schueller, fiche lauréate",
+      "url": "https://www.fondationbs.org/notre-communaute/laureats-et-projets/aurelie-lanoiselee"
+    },
+    {
+      "label": "Les lauréats de l'Intelligence de la Main",
+      "url": "https://leslaureats-intelligencedelamain.com/en/pages/aurelie-lanoiselee"
+    },
+    {
+      "label": "Fondation EY",
+      "url": "https://www.fondation-ey.com/projets/aurelie-lanoiselee/"
+    },
+    {
+      "label": "Centre Pompidou, Ceci n'est pas textile (2011)",
+      "url": "https://www.centrepompidou.fr/fr/programme/agenda/evenement/cEA7jM"
+    },
+    {
+      "label": "Collectif Textile",
+      "url": "https://collectiftextile.com/aurelie-lanoiselee/"
+    },
+    {
+      "label": "mille formes, Clermont-Ferrand",
+      "url": "https://www.milleformes.fr/artiste/aurelie-lanoiselee"
+    },
+    {
+      "label": "Les Traces Habiles, Fonds Dess(e)ins",
+      "url": "https://les-traces-habiles.org/collection/auteurs/aurelie-lanoiselee"
+    },
+    {
+      "label": "Palais de Tokyo, Enfance (2018)",
+      "url": "https://palaisdetokyo.com/exposition/enfance/"
+    },
+    {
+      "label": "Podcast Pop in ! (Maison Lacmé), juillet 2026",
+      "url": "https://podcast.ausha.co/pop-in/astre-mobile-aurelie-lanoiselee"
+    }
+  ],
+  "researchNotes": "Le nom s'écrit Lanoiselée (et non Lanoiselet). Son atelier est aux Zaventem Ateliers, en Belgique, avec un pied à Paris.\nOrthographe : la personne recherchée sous le nom « Aurélie Lanoiselet » est en fait Aurélie Lanoiselée (aucune page trouvée avec l'orthographe « Lanoiselet » ; le podcast transcrit aussi « Lanoisier »). Le profil correspond bien à la description (brodeuse d'art française, résidence récente au Japon). Aucun homonyme gênant identifié.\n\nPays : elle est française, mais son atelier est aux Zaventem Ateliers (Belgique) ; son site dit « Paris et Zaventem ». Le champ country a été mis à « Belgique » (zone europe) d'après Homo Faber et son site ; à ajuster si l'on préfère la nationalité.\n\nÀ vérifier : (1) année du Grand Prix de la Création de la Ville de Paris : 2011 (son site, Instagram, Centre Pompidou, Traces Habiles) contre 2010 (Fondation Bettencourt, Collectif Textile). (2) Dates exactes de la résidence Kujoyama : 1er mars au 1er août 2026 selon son site, « mars à juillet » selon la Villa, « mars à août » dans le podcast. (3) Le titre du projet a changé : « Pérenniser l'éphémère » (annonce 2025, mars et mai 2026) puis « Knotted to Be Unknotted: the Bonds that Unite us » (juin-juillet 2026) ; la fiche résidente Kujoyama (villakujoyama.jp/?p=5055) l'intitule aussi « Ichi-go ichi-e ». (4) La mention « Aurélie Lanoiselée (2024, PIM) » sur la page Futurotextiles 7 laisse penser à un premier séjour à la Villa Kujoyama en 2024 au titre du Prix Intelligence de la Main ; non confirmé. Son site affiche aussi une ligne confuse « 2022 - Artiste en résidence à la Villa Kujoyama, Kyoto 2026 ». (5) Participation au Salon des Nouveaux Ensembliers : annoncée sur son site, absente des listes de presse lues (peut-être comme artisan associé à un ensemblier) ; le dossier de presse PDF du Mobilier national était trop lourd pour être lu. (6) Exposition « Bel ouvrage » à l'Orangerie du Sénat (28 août au 8 septembre 2024) : non retrouvée ailleurs ; les mêmes dates correspondent à « L'Art coûte que coûte » (APF France Handicap), lien non établi. (7) Dentelle des mers et Momies : sa participation vient de son site et du podcast, les articles de presse lus ne la citent pas. (8) Podcast daté du 7 juillet 2026 mais elle y parle de la résidence au futur : enregistrement probablement antérieur. (9) Année de l'Astre Mobile (Maison Lacmé) non trouvée. (10) Fil d'or : seule mention sourcée, l'association de coquillages et de fil d'or dans l'Astre Mobile ; la broderie d'or n'est pas présentée comme une spécialité. (11) Date de naissance introuvable.\n\nPistes non creusées : publications Instagram de 2026 (post de l'Institut franco-japonais de Tokyo du 7 avril 2026, posts d'août à octobre 2026 après le retour, stories « VK résidence ») ; post LinkedIn évoquant une filature de soie japonaise (LinkedIn inaccessible) ; page presse de son site ; documentaire TV5 « Sur mesures » épisode 19 ; interview YouTube (https://www.youtube.com/watch?v=atdxwRxbYGc) ; collaborations avec Sophie Zénon et Fanny Boucher ; expositions de restitution de la résidence Kujoyama prévues en 2026-2027 (rien trouvé à ce jour)."
+}

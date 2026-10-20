@@ -1,0 +1,173 @@
+{
+  "name": "Michonet",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "France",
+  "foundedDate": "1858",
+  "closedDate": "1924",
+  "founders": [
+    "Michonet"
+  ],
+  "people": [
+    {
+      "name": "Marie-Louise Lesage",
+      "role": "dessinatrice chargée des broderies des clients couture, future repreneuse"
+    },
+    {
+      "name": "Albert Lesage",
+      "role": "entré chez Michonet après son retour à Paris en 1922, futur repreneur"
+    }
+  ],
+  "techniques": [
+    "Broderie haute couture",
+    "Broderie pour costumes de théâtre"
+  ],
+  "clients": [
+    "Cour de Napoléon III",
+    "Costumiers de théâtre parisiens",
+    "Charles Frederick Worth",
+    "Paquin",
+    "Madeleine Vionnet"
+  ],
+  "labels": [],
+  "summary": "Atelier de broderie parisien fondé en 1858, fournisseur de la cour de Napoléon III, des costumiers de théâtre et des premiers grands noms de la haute couture. Repris en 1924 par Albert et Marie-Louise Lesage, il est l'ancêtre direct de la maison Lesage.",
+  "history": "L'atelier du brodeur Michonet est fondé à Paris en 1858. Il se fait d'abord connaître pour ses broderies destinées aux costumiers de théâtre parisiens, et réalise aussi des commandes spéciales pour la cour de Napoléon III.\n\nAvec la naissance de la haute couture, Michonet devient le fournisseur des figures les plus connues de la couture parisienne : Charles Frederick Worth, Paquin, puis Madeleine Vionnet. Marie-Louise, future Madame Lesage, y dessine les broderies de ces clients.\n\nAu début des années 1920, la maison cherche un successeur à son fondateur. Albert Lesage, revenu à Paris en 1922 après plusieurs années à Chicago, y entre ; c'est chez Michonet qu'il rencontre Marie-Louise. En 1924, le couple reprend l'atelier, qui devient Albert Lesage et Cie : c'est la fin de la maison Michonet sous ce nom.\n\nL'héritage de Michonet vit toujours : la maison Lesage revendique cette filiation depuis 1858 et conserve ses archives de broderies, classées depuis cette date. La fiche Lesage de la Veille raconte la suite de l'histoire.",
+  "training": "",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1858",
+      "kind": "vie",
+      "label": "Fondation de l'atelier de broderie Michonet à Paris"
+    },
+    {
+      "date": "1922",
+      "kind": "vie",
+      "label": "Albert Lesage entre chez Michonet, qui cherche un successeur à son fondateur"
+    },
+    {
+      "date": "1924",
+      "kind": "vie",
+      "label": "Reprise par Albert et Marie-Louise Lesage, l'atelier devient Albert Lesage et Cie"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, François Lesage",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lesage"
+    },
+    {
+      "label": "Maison Lesage, site officiel",
+      "url": "https://www.lesage-paris.com/"
+    },
+    {
+      "label": "FashionUnited, Haute Couture et savoir-faire (III) : les broderies de Lesage",
+      "url": "https://fashionunited.fr/actualite/mode/haute-couture-et-savoir-faire-iii-les-broderies-de-lesage/2017013112355"
+    },
+    {
+      "label": "Sister Mag, Maison Lesage",
+      "url": "https://www.sister-mag.com/en/magazine/sistermag-no-67-july-2023/maison-lesage-embroidery-art-from-paris/"
+    },
+    {
+      "label": "Fédération de la Haute Couture et de la Mode, Hubert Barrère",
+      "url": "https://www.fhcm.paris/en/node/7550"
+    },
+    {
+      "label": "National Gallery of Victoria, Lesage X Vionnet",
+      "url": "https://www.ngv.vic.gov.au/exhibition/lesage-x-vionnet/"
+    },
+    {
+      "label": "LACMA, échantillons de broderie Michonet (AC1992.155.1 à 6)",
+      "url": "https://collections.lacma.org/object/62798"
+    },
+    {
+      "label": "Europeana Fashion, échantillons Michonet du Musée des Arts Décoratifs (2001.144)",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_3"
+    }
+  ],
+  "researchNotes": "Prénom du fondateur non confirmé : Sister Mag l'appelle Albert Michonet, et un résultat de recherche Geneawiki (page non lue) aussi, mais ni Wikipedia, ni le site Lesage, ni FashionUnited, ni la FHCM ne donnent de prénom. Attention à la confusion possible avec Albert Lesage. Geneawiki (non lu) daterait la reprise de 1920 au lieu de 1924. Rôle de Marie-Louise : le site Lesage dit qu'elle dessinait les broderies des clients de Michonet, Wikipedia et FashionUnited disent qu'elle était assistante chargée de la broderie chez Madeleine Vionnet ; les deux ne s'excluent pas mais l'ordre des faits reste à préciser. Sister Mag dit que Worth était partenaire de Michonet sans préciser les dates ; Worth est mort en 1895. Aucune adresse de l'atelier, aucun nom de brodeuse ni technique précise trouvés : à chercher dans les archives de Paris, les Bottin ou la monographie de Palmer White (1988).\n\nGalerie de réalisations : les 7 images du Musée des Arts Décoratifs passent par le service de vignettes Europeana (400 px, testées 200 image/jpeg et regardées) ; le fichier source repos.europeanafashion.eu est servi en application/octet-stream et n'a pas été retenu. Les notices Europeana ne donnent que la date, les matières et les couleurs : les titres descriptifs sont les miens, d'après l'image. Le LACMA n'a pas d'image en ligne pour ses échantillons ; il en conserve aussi un daté hiver 1925-1926 (AC1992.155.6), postérieur à la reprise de 1924, non retenu. Aucune robe complète attribuée à Michonet n'a été trouvée dans les collections consultées (Met, V&A, Paris Musées) ; le FIDM Museum dit que Vionnet confiait ses broderies à Michonet mais date sa robe de 1936-1938, donc de l'époque Lesage.",
+  "works": [
+    {
+      "title": "Échantillon de broderie à rubans",
+      "year": "1870",
+      "technique": "Michonet · broderie de rubans sur soie",
+      "description": "Échantillon daté 1870-1880, don de François Lesage au LACMA (AC1992.155.1) ; aucune image en ligne.",
+      "url": "https://collections.lacma.org/object/62798",
+      "imageUrl": ""
+    },
+    {
+      "title": "Échantillon au fil métallique et aux strass",
+      "year": "1880",
+      "technique": "Michonet · fil métallique et pierres de strass sur soie",
+      "description": "Échantillon daté 1880-1890, don de François Lesage au LACMA (AC1992.155.2) ; aucune image en ligne.",
+      "url": "https://collections.lacma.org/object/62844",
+      "imageUrl": ""
+    },
+    {
+      "title": "Échantillon au fil métallique et à la chenille",
+      "year": "1890",
+      "technique": "Michonet · fil métallique et chenille sur soie",
+      "description": "Échantillon daté 1890-1900, don de François Lesage au LACMA (AC1992.155.3) ; aucune image en ligne.",
+      "url": "https://collections.lacma.org/object/62810",
+      "imageUrl": ""
+    },
+    {
+      "title": "Échantillon aux fleurs bleues sur mousseline",
+      "year": "1902",
+      "technique": "Michonet · broderie sur mousseline de soie",
+      "description": "Branche fleurie brodée en bleu et vert sur mousseline, vers 1902, conservée au Musée des Arts Décoratifs (2001.144.1), photo Jean Tholance.",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_1",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/a287555fbcb65437ffe6cbb3fdd62882"
+    },
+    {
+      "title": "Échantillon de devant de robe, associé à Paul Poiret",
+      "year": "1907",
+      "technique": "Paul Poiret · broderie de fleurs sur taffetas et tulle",
+      "description": "Échantillon de vers 1907 en taffetas et tulle de soie, dont la notice du Musée des Arts Décoratifs (2001.144.3) associe Michonet et Paul Poiret.",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_3",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/e0e62b1d5709c8d9d8b53ae79bd623ed"
+    },
+    {
+      "title": "Échantillon sur velours bleu",
+      "year": "1910",
+      "technique": "Michonet · broderie sur velours de soie",
+      "description": "Échantillon de vers 1910 sur velours de soie bleu, Musée des Arts Décoratifs (2001.144.6).",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_6",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/518d69a0b0e43a2cf3e86e3308e95d37"
+    },
+    {
+      "title": "Échantillon rose et or",
+      "year": "1910",
+      "technique": "Michonet · broderie de soie et fil or",
+      "description": "Échantillon brodé de vers 1910 aux couleurs rose et or, Musée des Arts Décoratifs (2001.144.9).",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_9",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/077b2fe955f50437ab4ba287972b6ca3"
+    },
+    {
+      "title": "Échantillon sur satin au décor de rubans et de roses",
+      "year": "1912",
+      "technique": "Michonet · paillettes et fil or sur satin de soie",
+      "description": "Panneau de satin beige brodé dans un angle de rubans, de roses et d'un médaillon, 1912, Musée des Arts Décoratifs (2001.144.4).",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_4",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/dbe53cac6e50a4920ac400a2d23e176c"
+    },
+    {
+      "title": "Échantillon géométrique noir et or",
+      "year": "1918",
+      "technique": "Michonet · paillettes et perles sur mousseline de soie",
+      "description": "Échantillon de 1918 sur mousseline blanche, aux colonnes et volutes noires et or annonçant l'Art déco, Musée des Arts Décoratifs (2001.144.11).",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_11",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/a4e16d8d325ae0990ffdbc831dfeb498"
+    },
+    {
+      "title": "Échantillon au fil d'argent",
+      "year": "1920",
+      "technique": "Michonet · fil métallique argent",
+      "description": "Échantillon de vers 1920 brodé au fil métallique argent, Musée des Arts Décoratifs (2001.144.13).",
+      "url": "https://www.europeana.eu/fr/item/2048218/europeana_fashion_2001_144_13",
+      "imageUrl": "https://api.europeana.eu/thumbnail/v3/400/decae0773222769995eb50d8157b07b8"
+    }
+  ]
+}

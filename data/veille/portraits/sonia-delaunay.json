@@ -1,0 +1,145 @@
+{
+  "name": "Sonia Delaunay",
+  "country": "France",
+  "city": "Paris",
+  "zone": "france",
+  "birthDate": "1885-11-14",
+  "deathDate": "1979-12-05",
+  "techniques": [
+    "broderie de laine sur canevas",
+    "patchwork de tissus cousus sur toile",
+    "broderie de laine sur toile de coton (« point du jour », point de Hongrie)",
+    "dessin de tissus imprimés « simultanés »",
+    "mode et accessoires",
+    "peinture"
+  ],
+  "summary": "Peintre née dans l'Empire russe et installée à Paris, Sonia Delaunay a fait de la broderie et du tissu un terrain d'avant-garde, de sa « Broderie de feuillages » de 1909 aux manteaux brodés et aux tissus simultanés des années 1920.",
+  "biography": "Sonia Delaunay naît le 14 novembre 1885 à Gradizhsk, dans l'Empire russe (aujourd'hui en Ukraine), sous le nom de Sara (Sophie) Stern. Vers cinq ans, elle est adoptée par son oncle maternel Henri Terk, avocat à Saint-Pétersbourg, dont elle prend le nom. Elle étudie le dessin à Karlsruhe à partir de 1903, puis arrive à Paris en 1905 et fréquente l'Académie de la Palette à Montparnasse. Elle épouse le marchand Wilhelm Uhde en 1908, puis le peintre Robert Delaunay le 15 novembre 1910. Leur fils Charles naît le 8 janvier 1911.\n\nLe fil arrive très tôt dans son travail. En 1909, elle brode en laine sur canevas une grande « Broderie de feuillages » (83,5 x 60,5 cm), aujourd'hui au Centre Pompidou. En 1911, pour le berceau de Charles, elle coud ensemble des morceaux de tissu en s'inspirant des couvertures des paysans russes. Elle remarque que cet assemblage ressemble à une composition cubiste : cette couverture, plus tard montée et encadrée, est souvent vue comme sa première œuvre abstraite.\n\nAvec Robert, elle développe le « simultanisme », fondé sur les contrastes simultanés des couleurs ; Apollinaire baptise le mouvement « orphisme ». Elle applique ces idées partout : robes simultanées portées au bal Bullier, reliures, objets. Pendant la guerre, la famille vit en Espagne et elle ouvre en 1918 à Madrid la Casa Sonia, qui vend accessoires de mode et décoration.\n\nDe retour à Paris, un soyeux lyonnais lui commande en 1923 des dessins de tissus simultanés. Elle se met alors à imprimer elle-même ses tissus et ouvre une boutique. Entre 1924 et 1929, une centaine de ses motifs sont imprimés à la planche par l'atelier Ferret Frères à Saint-Denis. Elle aime particulièrement la broderie, liée à ses origines russes, et la pratique comme une peinture à l'aiguille : le Palais Galliera conserve un manteau de 1924 entièrement brodé de laine en camaïeu de beige et de brun, au « point du jour ». Elle brode aussi un manteau de laine pour l'actrice Gloria Swanson. En 1925, elle tient une boutique simultanée sur le pont Alexandre-III à l'Exposition internationale des arts décoratifs, et elle dessinera pendant des décennies des tissus pour le grand magasin Metz & Co d'Amsterdam.\n\nPlus tard, elle cofonde le Salon des réalités nouvelles (1946), dessine des cartons de tapisserie pour l'atelier Tabard (1948-1956) et décore une Matra 530 (1967). En 1964, elle offre avec son fils un ensemble d'œuvres au Musée national d'art moderne et devient la première femme exposée de son vivant au Louvre. Elle meurt à Paris le 5 décembre 1979. En 2026, on la retrouve au musée Bourdelle dans l'exposition « L'étoffe de l'artiste. De Rosa Bonheur à Sonia Delaunay ».",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sonia_Delaunay_portrait_photograph.jpg",
+  "works": [
+    {
+      "title": "Broderie de feuillages",
+      "year": "1909",
+      "technique": "Broderie de laine sur canevas ; 83,5 x 60,5 cm ; Centre Pompidou, inv. AM 1142 OA (don de Sonia et Charles Delaunay, 1964)",
+      "description": "Tenture brodée à motif végétal, l'une de ses deux grandes œuvres d'arts appliqués d'avant 1912 conservées au Musée national d'art moderne, qui annoncent ses tissus simultanés.",
+      "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cbjk6r",
+      "imageUrl": ""
+    },
+    {
+      "title": "Couverture de berceau",
+      "year": "1911",
+      "technique": "Tissus cousus sur toile ; 111 x 82 cm ; Centre Pompidou, inv. AM 1143 OA (don de Sonia et Charles Delaunay, 1964)",
+      "description": "Couverture faite pour le berceau de son fils Charles, inspirée des couvertures des paysans russes. L'assemblage de morceaux de tissu lui évoque une composition cubiste. Montée et encadrée, elle est exposée pour la première fois en 1948 sous le titre « Tissus cousus ».",
+      "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/coX4Gb7",
+      "imageUrl": ""
+    },
+    {
+      "title": "Robe simultanée",
+      "year": "1913",
+      "technique": "Patchwork de tissus ; collection particulière",
+      "description": "Robe faite d'assemblages de tissus de couleurs contrastées, dans l'esprit des robes simultanées portées au bal Bullier. Présentée en 2017 au musée Thyssen-Bornemisza de Madrid.",
+      "url": "https://www.museothyssen.org/en/exposiciones/sonia-delaunay-art-design-and-fashion",
+      "imageUrl": ""
+    },
+    {
+      "title": "Manteau Gloria Swanson",
+      "year": "1923",
+      "technique": "Laine brodée",
+      "description": "Manteau de laine brodé de formes géométriques dans des rouges profonds, des bruns et des crèmes, fait pour l'actrice Gloria Swanson. Daté 1923-1924 ou 1925 selon les sources.",
+      "url": "https://www.dailyartmagazine.com/sonia-delaunay-clothing/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Manteau",
+      "year": "1924",
+      "technique": "Broderie de fils de laine sur toile de coton, dite « point du jour » (point de Hongrie) ; Palais Galliera, inv. 1971.24.2",
+      "description": "Manteau croisé entièrement brodé de laine en camaïeu de beige, brun et brique, à motif géométrique, col rabattu et deux brides boutonnées. Le musée y voit une peinture à l'aiguille aux dégradés subtils. Don d'Annette Jean Coutrot et Marie Toulouse, 1971.",
+      "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/manteau-125",
+      "imageUrl": "https://www.palaisgalliera.paris.fr/sites/default/files/images/2025-01/Galliera-1957.jpg"
+    },
+    {
+      "title": "Tissus simultanés",
+      "year": "1924",
+      "technique": "Tissus imprimés à la planche de bois (atelier Ferret Frères, Saint-Denis)",
+      "description": "Une centaine de motifs simultanés imprimés pour elle entre 1924 et 1929 : formes géométriques, couleurs contrastées et sens du mouvement. Gouaches préparatoires, cartes de coloris et échantillons sont conservés notamment au musée des Tissus de Lyon.",
+      "url": "https://www.museedestissus.fr/pret/227:pret-musee-des-tissus-exposition-les-tissus-simultanes-sonia-delaunay",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "1885-11-14", "kind": "vie", "label": "Naissance à Gradizhsk, Empire russe, sous le nom de Sara (Sophie) Stern" },
+    { "date": "1903", "kind": "formation", "label": "Cours de dessin à Karlsruhe" },
+    { "date": "1905", "kind": "formation", "label": "Arrivée à Paris, Académie de la Palette" },
+    { "date": "1908-12-05", "kind": "vie", "label": "Mariage avec Wilhelm Uhde à Londres" },
+    { "date": "1909", "kind": "oeuvre", "label": "Broderie de feuillages, laine sur canevas" },
+    { "date": "1910-11-15", "kind": "vie", "label": "Mariage avec Robert Delaunay à Paris" },
+    { "date": "1911", "kind": "oeuvre", "label": "Couverture de berceau pour son fils Charles, né le 8 janvier" },
+    { "date": "1913", "kind": "oeuvre", "label": "Robe simultanée en patchwork" },
+    { "date": "1918", "kind": "autre", "label": "Ouverture de la Casa Sonia à Madrid" },
+    { "date": "1923", "kind": "oeuvre", "label": "Commande de dessins de tissus simultanés par un soyeux lyonnais" },
+    { "date": "1924", "kind": "oeuvre", "label": "Manteau brodé de laine (Palais Galliera) ; début de l'impression de ses tissus chez Ferret Frères" },
+    { "date": "1925", "kind": "exposition", "label": "Boutique simultanée à l'Exposition internationale des arts décoratifs, Paris" },
+    { "date": "1955", "kind": "exposition", "label": "Rétrospective au Guggenheim" },
+    { "date": "1964", "kind": "exposition", "label": "Rétrospective au Louvre (pavillon de Marsan) et don d'œuvres au Musée national d'art moderne" },
+    { "date": "1975", "kind": "prix", "label": "Officier de la Légion d'honneur" },
+    { "date": "1979-12-05", "kind": "vie", "label": "Décès à Paris" },
+    { "date": "2025-04-18", "kind": "exposition", "label": "« Les tissus simultanés de Sonia Delaunay », musée Paul Éluard, Saint-Denis (jusqu'au 20 juillet)" },
+    { "date": "2026-04-05", "kind": "exposition", "label": "« Ode to Sonia », musée d'art moderne d'Odessa (jusqu'au 31 août)" },
+    { "date": "2026-09-23", "kind": "exposition", "label": "« L'étoffe de l'artiste. De Rosa Bonheur à Sonia Delaunay », musée Bourdelle, Paris" }
+  ],
+  "news": [
+    {
+      "kind": "exposition",
+      "title": "L'étoffe de l'artiste. De Rosa Bonheur à Sonia Delaunay",
+      "summary": "Plus de 50 pièces textiles, accessoires et objets portés par des artistes, dont Sonia Delaunay, mis en regard de photographies, peintures, dessins et sculptures, pour montrer comment les artistes se mettaient en scène par leurs vêtements. Sur réservation.",
+      "place": "Musée Bourdelle, 18 rue Antoine Bourdelle",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-09-23",
+      "endDate": "2027-01-24",
+      "url": "https://www.paris.fr/evenements/l-etoffe-de-l-artiste-de-rosa-bonheur-a-sonia-delaunay-117951"
+    },
+    {
+      "kind": "actualite",
+      "title": "Conférence Sonia Delaunay",
+      "summary": "Conférence gratuite d'ARTORA sur sa vie et son œuvre : peinture, design textile, arts décoratifs et costumes. Dès 15 ans, sur réservation à partir du 27 octobre.",
+      "place": "Bibliothèque Amélie, 164 rue de Grenelle",
+      "city": "Paris",
+      "country": "France",
+      "zone": "france",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "url": "https://www.paris.fr/evenements/conference-artora-sonia-delaunay-108261"
+    },
+    {
+      "kind": "exposition",
+      "title": "Ode to Sonia",
+      "summary": "Première grande exposition consacrée à Sonia Delaunay à Odessa, avec des œuvres d'artistes contemporains qui lui rendent hommage.",
+      "place": "Musée d'art moderne d'Odessa (MOMA)",
+      "city": "Odessa",
+      "country": "Ukraine",
+      "zone": "europe",
+      "startDate": "2026-04-05",
+      "endDate": "2026-08-31",
+      "url": "https://revafoundation.com/r/news"
+    }
+  ],
+  "sources": [
+    { "label": "Centre Pompidou, Broderie de feuillages (AM 1142 OA)", "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cbjk6r" },
+    { "label": "Centre Pompidou, Couverture de berceau (AM 1143 OA)", "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/coX4Gb7" },
+    { "label": "Wikipédia (fr), Sonia Delaunay", "url": "https://fr.wikipedia.org/wiki/Sonia_Delaunay" },
+    { "label": "Palais Galliera, Manteau de Sonia Delaunay, 1924", "url": "https://www.palaisgalliera.paris.fr/collections/les-collections-du-musee/premiere-moitie-xxe-siecle-avant-1947/manteau" },
+    { "label": "Paris Musées Collections, Manteau 1971.24.2", "url": "https://www.parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/manteau-125" },
+    { "label": "DailyArt Magazine, Sonia Delaunay and her wearable art", "url": "https://www.dailyartmagazine.com/sonia-delaunay-clothing/" },
+    { "label": "Musée Thyssen-Bornemisza, Sonia Delaunay. Art, design and fashion (2017)", "url": "https://www.museothyssen.org/en/exposiciones/sonia-delaunay-art-design-and-fashion" },
+    { "label": "Musée des Tissus de Lyon, prêt à l'exposition Les tissus simultanés de Sonia Delaunay", "url": "https://www.museedestissus.fr/pret/227:pret-musee-des-tissus-exposition-les-tissus-simultanes-sonia-delaunay" },
+    { "label": "Paris.fr, L'étoffe de l'artiste au musée Bourdelle", "url": "https://www.paris.fr/evenements/l-etoffe-de-l-artiste-de-rosa-bonheur-a-sonia-delaunay-117951" },
+    { "label": "Paris.fr, Conférence Sonia Delaunay", "url": "https://www.paris.fr/evenements/conference-artora-sonia-delaunay-108261" },
+    { "label": "REVA Foundation, Ode to Sonia à Odessa", "url": "https://revafoundation.com/r/news" },
+    { "label": "Wikimedia Commons, portrait photographique de Sonia Delaunay (vers 1912)", "url": "https://commons.wikimedia.org/wiki/File:Sonia_Delaunay_portrait_photograph.jpg" }
+  ],
+  "researchNotes": "Lieu de naissance : Wikipédia fr donne Gradizhsk (Hradyzk, région de Poltava) ; certaines sources, notamment autour de l'exposition d'Odessa, la font naître à Odessa. Le Centre Pompidou dit seulement « Empire russe ». Manteau Gloria Swanson : daté 1923-1924 (légende DailyArt, Cooper Hewitt d'après un résumé de recherche) ou 1925 (texte DailyArt, Artforum) ; collection particulière selon un résumé de recherche, non vérifié sur une page lue ; image non retenue (seule disponible sur Pinterest). Le Centre Pompidou indique « pas de reproduction » pour la Broderie de feuillages, et la notice de la couverture de berceau n'expose pas d'URL d'image testable (droits Pracusa) : images laissées vides. La présence de Delaunay dans « This is the Modern World » (Hamburger Kunsthalle, 4 sept. 2026 - 30 mai 2027) et dans une exposition du Mead Art Museum (Amherst, 2026-2027) n'apparaît que dans un listing MutualArt non lu : non retenue. Une exposition « Sonia Delaunay, le monde simultané » à Lviv, issue de « Ode to Sonia », est signalée par Odessa Journal (page inaccessible, 403) : dates à vérifier. L'exposition de Saint-Denis (avril-juillet 2025) a plus d'un an, elle n'est que dans la chronologie. Les pièces précises de Delaunay montrées au musée Bourdelle ne sont pas détaillées sur la page lue ; le dossier de presse PDF (bourdelle.paris.fr) n'a pas été lu."
+}

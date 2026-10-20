@@ -1,0 +1,60 @@
+{
+  "name": "Marguerite Sirvins",
+  "country": "France",
+  "city": "Saint-Alban-sur-Limagnole",
+  "zone": "france",
+  "birthDate": "1890-12-29",
+  "deathDate": "1957",
+  "techniques": [
+    "broderie sur canevas",
+    "broderie sur fond de chiffons",
+    "fils de soie et de laine récupérés en effilochant des tissus jetés",
+    "dentelle à l'aiguille et crochet avec des fils tirés de draps usés",
+    "aquarelle et gouache"
+  ],
+  "summary": "Couturière lozérienne internée à l'hôpital psychiatrique de Saint-Alban à partir de 1931, Marguerite Sirvins y a brodé, sans modèle ni esquisse, avec des chiffons et des fils récupérés. Sa robe de mariée en dentelle à l'aiguille, faite avec les fils de vieux draps d'hôpital, est l'un des trésors de la Collection de l'Art Brut de Lausanne.",
+  "biography": "Marguerite Sirvins naît le 29 décembre 1890 à La Canourgue, en Lozère, dans une famille de cultivateurs. Enfant, elle apprend la couture avec sa mère. Vers 25 ans, elle travaille un temps à Paris comme employée du grand magasin La Belle Jardinière, puis tente à deux reprises d'ouvrir une boutique de mode à Mende. Un oncle tenait lui aussi un magasin de mode.\n\nÀ 41 ans, elle présente des troubles schizophréniques. En 1931, elle est internée à l'hôpital psychiatrique de Saint-Alban-sur-Limagnole, en Lozère, où elle vivra jusqu'à la fin de sa vie. C'est là, à partir de 1944, qu'elle se met à créer : des aquarelles et des gouaches, mais surtout des broderies.\n\nSa façon de broder est entièrement de récupération. Elle prend des bouts de chiffons comme support et y brode avec des fils de soie et de laine qu'elle obtient en effilochant des tissus et des tapis trouvés au rebut. Elle travaille sans modèle et sans dessin préparatoire. On lui doit de petits tableaux brodés, mais aussi des poupées et des bonnets.\n\nSon œuvre la plus connue est sa dernière : une robe de mariée pour un mariage imaginaire, réalisée vers 1954-1955. Elle a tiré un à un les fils de draps usés de l'hôpital, en choisissant ceux qui avaient été au contact de la peau, pour les travailler en dentelle à l'aiguille (les sources parlent aussi de crochet). La robe n'a jamais été portée et est restée longtemps cachée dans un grenier de l'hôpital. Selon Wikipédia, son médecin, le docteur Roger Gentis, a aidé à préserver ses œuvres.\n\nJean Dubuffet remarque son travail à la fin des années 1940 et l'expose en 1947-1948 sous le nom de « Marguerite Sir », au Foyer de l'Art Brut installé au sous-sol de la galerie René Drouin à Paris. La robe fait partie de la donation initiale de Dubuffet à la Collection de l'Art Brut de Lausanne, qui ouvre en 1976. Marguerite Sirvins cesse toute création en 1955, quand ses troubles s'aggravent, et meurt deux ans plus tard, en 1957.\n\nSon histoire continue d'inspirer : en 2015, deux romans s'emparent d'elle, « Un lieu sans raison » d'Anne-Claire Decorvet et « La Robe de mariée » de Katherine L. Battaiellie. La robe est présentée dans l'exposition permanente de la Collection de l'Art Brut, aux côtés d'Aloïse Corbaz, d'Augustin Lesage et d'Auguste Walla.",
+  "website": "",
+  "instagram": "",
+  "photoUrl": "",
+  "works": [
+    {
+      "title": "Robe de mariée",
+      "year": "1954",
+      "technique": "Dentelle à l'aiguille (ou crochet) avec des fils tirés de draps d'hôpital usés, coton ; 98 x 34 x 27 cm ; Collection de l'Art Brut, Lausanne, inv. cab-564",
+      "description": "Sa dernière œuvre, faite pour un mariage imaginaire, entre 1954 et 1955. Les fils ont été retirés un à un de vieux draps de l'hôpital de Saint-Alban. Jamais portée, la robe est restée longtemps cachée dans un grenier de l'hôpital. Elle fait partie de la donation initiale de Jean Dubuffet à la Collection de l'Art Brut.",
+      "url": "https://devisu.inha.fr/modespratiques/725",
+      "imageUrl": "https://live.staticflickr.com/65535/54793183311_b3628ca3a1.jpg"
+    },
+    {
+      "title": "Sans titre (broderie)",
+      "year": "1944",
+      "technique": "Broderie sur canevas ; 34 x 36 cm ; Collection de l'Art Brut, Lausanne, inv. cab-A446",
+      "description": "Tableau brodé réalisé à l'hôpital de Saint-Alban, daté entre 1944 et 1957. Comme ses autres broderies, il est fait sans modèle, avec des fils récupérés.",
+      "url": "https://devisu.inha.fr/modespratiques/725",
+      "imageUrl": ""
+    }
+  ],
+  "timeline": [
+    { "date": "1890-12-29", "kind": "vie", "label": "Naissance à La Canourgue (Lozère)" },
+    { "date": "1931", "kind": "vie", "label": "Internement à l'hôpital psychiatrique de Saint-Alban-sur-Limagnole" },
+    { "date": "1944", "kind": "oeuvre", "label": "Premières créations à Saint-Alban : aquarelles et broderies" },
+    { "date": "1947", "kind": "exposition", "label": "Exposée par Jean Dubuffet au Foyer de l'Art Brut, galerie René Drouin, Paris (1947-1948)" },
+    { "date": "1954", "kind": "oeuvre", "label": "Commence sa robe de mariée en fils de draps d'hôpital (achevée en 1955)" },
+    { "date": "1955", "kind": "vie", "label": "Cesse toute création" },
+    { "date": "1957", "kind": "vie", "label": "Décès" },
+    { "date": "1976", "kind": "exposition", "label": "Ouverture de la Collection de l'Art Brut à Lausanne, qui conserve sa robe de mariée" },
+    { "date": "2014-07-01", "kind": "exposition", "label": "Œuvres prêtées à « L'invention du lieu », hôpital de Saint-Alban (jusqu'au 30 août)" },
+    { "date": "2015", "kind": "autre", "label": "Deux romans lui sont consacrés, par Anne-Claire Decorvet et Katherine L. Battaiellie" }
+  ],
+  "news": [],
+  "sources": [
+    { "label": "Wikipédia (en), Marguerite Sirvins", "url": "https://en.wikipedia.org/wiki/Marguerite_Sirvins" },
+    { "label": "Wikipédia (fr), Marguerite Sirvins", "url": "https://fr.wikipedia.org/wiki/Marguerite_Sirvins" },
+    { "label": "Katherine L. Battaiellie, « Broder la robe de ses rêves », Modes pratiques n° 4", "url": "https://devisu.inha.fr/modespratiques/725" },
+    { "label": "Flickr (dalbera), robe de mariée de Marguerite Sirvins, Collection de l'Art Brut", "url": "https://www.flickr.com/photos/dalbera/54793183311" },
+    { "label": "Notes d'Art Brut, la robe de mariée dans un colloque sur le corps", "url": "https://www.notesartbrut.ch/la-robe-de-mariee-dans-un-colloque-international-sur-le-corps/" },
+    { "label": "Collection de l'Art Brut, œuvres prêtées à l'hôpital de Saint-Alban (2014)", "url": "https://artbrut.ch/en_GB/blog/works-of-the-collection-de-l-art-brut-at-the-hopital-de-sain" }
+  ],
+  "researchNotes": "Date de décès tranchée à 1957 : c'est ce que donnent la Collection de l'Art Brut (1890-1957, d'après les résultats de recherche et Wikipédia fr), Wikipédia fr, la légende Flickr et l'article de Katherine Battaiellie (deux ans après la robe). Wikipédia en anglais donne 1955 dans l'infobox mais la range dans les décès de 1957 : 1955 est l'année où elle cesse de créer. La fiche auteur de la Collection de l'Art Brut (artbrut.ch/en_GB/author/sir-marguerite) redirige vers l'accueil du site, je n'ai pas pu la lire. Le rôle du docteur Roger Gentis n'est confirmé que par Wikipédia en anglais ; aucune autre source lue ne le mentionne. Technique de la robe : Wikipédia parle de crochet, Battaiellie et la légende Flickr de dentelle à l'aiguille. Dates de la robe : le texte de Battaiellie dit 1954-1955, sa légende dit 1944-1955. Le séjour à La Belle Jardinière est situé « vers 25 ans », sans date précise. Wikipédia fr cite aussi le LaM (Villeneuve-d'Ascq) comme lieu de conservation, non vérifié. Pas de photo d'elle trouvée. Les images de l'article Modes pratiques (devisu.inha.fr) n'ont pas répondu au test curl, d'où l'image vide pour la broderie cab-A446. Une visite « coup de cœur » sur sa robe lors de la Nuit des Musées de Lausanne (26 septembre 2026) est apparue dans un résumé de recherche, mais la page lue ne la mentionnait pas : non retenue. Aucune exposition récente ou à venir vérifiée."
+}
