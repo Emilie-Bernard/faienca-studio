@@ -26,6 +26,10 @@ import type * as studio from "../studio.js";
 import type * as testEmail from "../testEmail.js";
 import type * as todos from "../todos.js";
 import type * as users from "../users.js";
+import type * as veille from "../veille.js";
+import type * as veilleAgent from "../veilleAgent.js";
+import type * as veilleAteliers from "../veilleAteliers.js";
+import type * as veilleVideos from "../veilleVideos.js";
 
 import type {
   ApiFromModules,
@@ -52,6 +56,10 @@ declare const fullApi: ApiFromModules<{
   testEmail: typeof testEmail;
   todos: typeof todos;
   users: typeof users;
+  veille: typeof veille;
+  veilleAgent: typeof veilleAgent;
+  veilleAteliers: typeof veilleAteliers;
+  veilleVideos: typeof veilleVideos;
 }>;
 
 /**

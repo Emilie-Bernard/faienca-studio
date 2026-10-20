@@ -39,6 +39,42 @@ export const entryFields = {
     url: v.string(), caveat: v.string(), original: v.string(),
     reach: v.union(v.number(), v.null()), saves: v.union(v.number(), v.null()), shares: v.union(v.number(), v.null()), clicks: v.union(v.number(), v.null()), orders: v.union(v.number(), v.null()),
 };
+const zone = v.union(v.literal('france'), v.literal('europe'), v.literal('monde'));
+export const portraitFields = {
+    name: v.string(), country: v.string(), city: v.string(), zone,
+    birthDate: v.string(), deathDate: v.string(),
+    techniques: v.array(v.string()), summary: v.string(), biography: v.string(),
+    website: v.string(), instagram: v.string(), photoUrl: v.string(),
+    works: v.array(v.object({ id: v.string(), title: v.string(), year: v.string(), technique: v.string(), description: v.string(), url: v.string(), imageUrl: v.string() })),
+    timeline: v.array(v.object({ id: v.string(), date: v.string(), label: v.string(),
+        kind: v.union(v.literal('vie'), v.literal('formation'), v.literal('oeuvre'), v.literal('exposition'), v.literal('residence'), v.literal('prix'), v.literal('autre')) })),
+    sources: v.array(v.object({ label: v.string(), url: v.string() })),
+    researchNotes: v.string(),
+};
+export const newsFields = {
+    kind: v.union(v.literal('exposition'), v.literal('actualite'), v.literal('technique'), v.literal('salon')),
+    title: v.string(), summary: v.string(), place: v.string(), city: v.string(), country: v.string(), zone,
+    startDate: v.string(), endDate: v.string(), url: v.string(),
+};
+const workItem = v.object({ id: v.string(), title: v.string(), year: v.string(), technique: v.string(), description: v.string(), url: v.string(), imageUrl: v.string() });
+const timelineItem = v.object({ id: v.string(), date: v.string(), label: v.string(),
+    kind: v.union(v.literal('vie'), v.literal('formation'), v.literal('oeuvre'), v.literal('exposition'), v.literal('residence'), v.literal('prix'), v.literal('autre')) });
+export const workshopFields = {
+    name: v.string(), city: v.string(), region: v.string(), country: v.string(), foundedDate: v.string(), closedDate: v.string(),
+    founders: v.array(v.string()), people: v.array(v.object({ name: v.string(), role: v.string() })),
+    techniques: v.array(v.string()), clients: v.array(v.string()), labels: v.array(v.string()),
+    summary: v.string(), history: v.string(), training: v.string(), website: v.string(), instagram: v.string(), photoUrl: v.string(),
+    works: v.array(workItem),
+    timeline: v.array(timelineItem), sources: v.array(v.object({ label: v.string(), url: v.string() })), researchNotes: v.string(),
+};
+export const videoFields = {
+    title: v.string(), url: v.string(),
+    platform: v.union(v.literal('youtube'), v.literal('arte'), v.literal('francetv'), v.literal('ina'), v.literal('vimeo'), v.literal('autre')),
+    language: v.union(v.literal('fr'), v.literal('en')),
+    kind: v.union(v.literal('documentaire'), v.literal('reportage'), v.literal('demonstration'), v.literal('cours'), v.literal('conference')),
+    channel: v.string(), year: v.string(), duration: v.string(), summary: v.string(),
+    techniques: v.array(v.string()), people: v.array(v.string()), forCap: v.boolean(), availableUntil: v.string(),
+};
 export default defineSchema({
     ...authTables,
     users: defineTable({ name: v.optional(v.string()), email: v.optional(v.string()), image: v.optional(v.string()), emailVerificationTime: v.optional(v.number()), phone: v.optional(v.string()), phoneVerificationTime: v.optional(v.number()), isAnonymous: v.optional(v.boolean()), githubId: v.optional(v.string()), role: v.optional(v.union(v.literal('admin'), v.literal('cliente'), v.literal('stagiaire'))), createdAt: v.optional(v.number()),
@@ -127,4 +163,32 @@ export default defineSchema({
         date: v.string(), supplier: v.string(), label: v.string(), category: v.string(), amount: v.number(), notes: v.string(),
         receipt: v.optional(missionFile), createdAt: v.number(), updatedAt: v.number(),
     }).index('by_date', ['date']),
+    // Veille textile, partagée entre l'atelier et les stagiaires : portraits de brodeuses d'art…
+    artists: defineTable({
+        ...portraitFields, nameKey: v.string(),
+        // Recherche en cours ou terminée par l'agent ; le portrait reste modifiable à la main.
+        research: v.union(v.literal('idle'), v.literal('running'), v.literal('error')),
+        researchError: v.optional(v.string()), researchHint: v.optional(v.string()),
+        researchedAt: v.optional(v.number()),
+        createdAt: v.number(), updatedAt: v.number(), authorName: v.string(),
+    }).index('by_nameKey', ['nameKey']),
+    // … et nouvelles du monde textile : expositions, salons, techniques, actualités.
+    textileNews: defineTable({
+        ...newsFields, artistIds: v.array(v.id('artists')),
+        source: v.union(v.literal('manual'), v.literal('agent')),
+        createdAt: v.number(), updatedAt: v.number(), authorName: v.string(),
+    }).index('by_url', ['url']),
+    // Ateliers et maisons de broderie d'art en France : fondateurs, équipe, histoire.
+    workshops: defineTable({ ...workshopFields, works: v.optional(v.array(workItem)), nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
+    // Documentaires et vidéos sur la broderie d'art, notamment pour préparer le CAP.
+    videos: defineTable({ ...videoFields, createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_url', ['url']),
+    // Journal de l'agent de veille : chaque recherche, son déroulé, ce qu'elle a coûté (en dollars, facturé par OpenRouter).
+    agentRuns: defineTable({
+        kind: v.union(v.literal('portrait'), v.literal('news')), subject: v.string(), artistId: v.optional(v.id('artists')),
+        startedBy: v.string(), model: v.string(),
+        status: v.union(v.literal('running'), v.literal('done'), v.literal('error')),
+        startedAt: v.number(), finishedAt: v.optional(v.number()), error: v.optional(v.string()),
+        cost: v.number(), inputTokens: v.number(), outputTokens: v.number(), searches: v.number(), fetches: v.number(),
+        log: v.array(v.object({ at: v.number(), level: v.union(v.literal('info'), v.literal('error')), text: v.string() })),
+    }).index('by_kind', ['kind', 'startedAt']).index('by_artist', ['artistId', 'startedAt']),
 });
