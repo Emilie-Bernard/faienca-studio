@@ -5,18 +5,50 @@
   "region": "Hauts-de-France",
   "foundedDate": "2022-04-01",
   "closedDate": "",
-  "founders": ["Caroline Waryn"],
+  "founders": [
+    "Caroline Waryn"
+  ],
   "legalName": "EURL Caro Tricote",
   "legalForm": "EURL (SARL à associée unique)",
   "registrationId": "912036613",
-  "offers": ["Kits de broderie", "Patrons PDF", "Patrons papier", "Livres", "Ateliers", "Mercerie"],
-  "styles": ["Illustré", "Féminin", "Floral", "Nature et animaux", "Maternité et famille", "Tatouage vintage"],
-  "techniques": ["Broderie traditionnelle", "Point de croix", "Tricot", "Crochet"],
-  "threads": ["DMC Mouliné spécial 25", "J. Toulemonde (coffret Tatouages à broder)"],
-  "fabrics": ["Toile de coton pré-imprimée"],
-  "salesChannels": ["Site en propre (WordPress et WooCommerce, dansmacachette.com)", "Librairies (livres et coffrets chez Eyrolles et CréaPassions)", "Ateliers en concept stores et merceries de la métropole lilloise"],
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Patrons papier",
+    "Livres",
+    "Ateliers",
+    "Mercerie"
+  ],
+  "styles": [
+    "Illustré",
+    "Féminin",
+    "Floral",
+    "Nature et animaux",
+    "Maternité et famille",
+    "Tatouage vintage"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Point de croix",
+    "Tricot",
+    "Crochet"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25",
+    "J. Toulemonde (coffret Tatouages à broder)"
+  ],
+  "fabrics": [
+    "Toile de coton pré-imprimée"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress et WooCommerce, dansmacachette.com)",
+    "Librairies (livres et coffrets chez Eyrolles et CréaPassions)",
+    "Ateliers en concept stores et merceries de la métropole lilloise"
+  ],
   "priceRange": "Kits de 14 à 19 €, patrons papier de 5 à 7 €, PDF de 0 à 10 €, coffret livre à 19,90 €",
-  "languages": ["Français"],
+  "languages": [
+    "Français"
+  ],
   "audience": [],
   "financials": [],
   "products": [
@@ -108,27 +140,84 @@
   "website": "https://dansmacachette.com",
   "instagram": "https://www.instagram.com/caro_tricote/",
   "etsy": "",
-  "photoUrl": "",
+  "photoUrl": "https://dansmacachette.com/wp-content/uploads/2022/08/Accueil-1-1024x576.jpeg",
   "timeline": [
-    { "date": "1982", "kind": "vie", "label": "Naissance de Caroline Waryn dans le Nord" },
-    { "date": "2018-11", "kind": "oeuvre", "label": "Parution de « Broderie, les techniques pour s'initier, 40 modèles à broder » chez Eyrolles" },
-    { "date": "2022-04-01", "kind": "vie", "label": "Immatriculation de l'EURL Caro Tricote à Sailly-lez-Lannoy" },
-    { "date": "2023-03", "kind": "oeuvre", "label": "Lancement de « Broderie, le magazine », quatre numéros PDF en 2023" },
-    { "date": "2025-01", "kind": "oeuvre", "label": "Série de patrons de broderie mensuels en PDF (janvier à mai 2025)" },
-    { "date": "2025-11-13", "kind": "oeuvre", "label": "Parution du coffret « Tatouages à broder » chez CréaPassions" }
+    {
+      "date": "1982",
+      "kind": "vie",
+      "label": "Naissance de Caroline Waryn dans le Nord"
+    },
+    {
+      "date": "2018-11",
+      "kind": "oeuvre",
+      "label": "Parution de « Broderie, les techniques pour s'initier, 40 modèles à broder » chez Eyrolles"
+    },
+    {
+      "date": "2022-04-01",
+      "kind": "vie",
+      "label": "Immatriculation de l'EURL Caro Tricote à Sailly-lez-Lannoy"
+    },
+    {
+      "date": "2023-03",
+      "kind": "oeuvre",
+      "label": "Lancement de « Broderie, le magazine », quatre numéros PDF en 2023"
+    },
+    {
+      "date": "2025-01",
+      "kind": "oeuvre",
+      "label": "Série de patrons de broderie mensuels en PDF (janvier à mai 2025)"
+    },
+    {
+      "date": "2025-11-13",
+      "kind": "oeuvre",
+      "label": "Parution du coffret « Tatouages à broder » chez CréaPassions"
+    }
   ],
   "sources": [
-    { "label": "Dans ma cachette, accueil", "url": "https://dansmacachette.com" },
-    { "label": "Dans ma cachette, à propos", "url": "https://dansmacachette.com/a-propos/" },
-    { "label": "Dans ma cachette, mentions légales", "url": "https://dansmacachette.com/?page_id=22370" },
-    { "label": "Dans ma cachette, kits complets", "url": "https://dansmacachette.com/categorie-produit/les-kits-complets/" },
-    { "label": "Dans ma cachette, kit La sieste", "url": "https://dansmacachette.com/boutique/les-kits-complets/la-sieste-kit-complet-de-broderie/" },
-    { "label": "Dans ma cachette, patrons numériques", "url": "https://dansmacachette.com/categorie-produit/les-patrons-numeriques/" },
-    { "label": "Dans ma cachette, patron Mai 2025", "url": "https://dansmacachette.com/boutique/les-patrons-numeriques/mai-2025-patron-de-broderie/" },
-    { "label": "Dans ma cachette, planches patrons", "url": "https://dansmacachette.com/categorie-produit/les-planches-broderie/" },
-    { "label": "Societe.com, EURL Caro Tricote", "url": "https://www.societe.com/societe/caro-tricote-912036613.html" },
-    { "label": "Librairie Eyrolles, Broderie, les techniques pour s'initier", "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/broderie-9782212677133/" },
-    { "label": "SIDE, Tatouages à broder", "url": "https://export.side.fr/en/9782814107120-tatouages-%C3%A0-broder" }
+    {
+      "label": "Dans ma cachette, accueil",
+      "url": "https://dansmacachette.com"
+    },
+    {
+      "label": "Dans ma cachette, à propos",
+      "url": "https://dansmacachette.com/a-propos/"
+    },
+    {
+      "label": "Dans ma cachette, mentions légales",
+      "url": "https://dansmacachette.com/?page_id=22370"
+    },
+    {
+      "label": "Dans ma cachette, kits complets",
+      "url": "https://dansmacachette.com/categorie-produit/les-kits-complets/"
+    },
+    {
+      "label": "Dans ma cachette, kit La sieste",
+      "url": "https://dansmacachette.com/boutique/les-kits-complets/la-sieste-kit-complet-de-broderie/"
+    },
+    {
+      "label": "Dans ma cachette, patrons numériques",
+      "url": "https://dansmacachette.com/categorie-produit/les-patrons-numeriques/"
+    },
+    {
+      "label": "Dans ma cachette, patron Mai 2025",
+      "url": "https://dansmacachette.com/boutique/les-patrons-numeriques/mai-2025-patron-de-broderie/"
+    },
+    {
+      "label": "Dans ma cachette, planches patrons",
+      "url": "https://dansmacachette.com/categorie-produit/les-planches-broderie/"
+    },
+    {
+      "label": "Societe.com, EURL Caro Tricote",
+      "url": "https://www.societe.com/societe/caro-tricote-912036613.html"
+    },
+    {
+      "label": "Librairie Eyrolles, Broderie, les techniques pour s'initier",
+      "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/broderie-9782212677133/"
+    },
+    {
+      "label": "SIDE, Tatouages à broder",
+      "url": "https://export.side.fr/en/9782814107120-tatouages-%C3%A0-broder"
+    }
   ],
   "researchNotes": "Les comptes sont déposés sous clause de confidentialité (Societe.com) : chiffre d'affaires et résultat non publiés, effectif non indiqué. Pappers a refusé l'accès (403) et l'annuaire data.gouv n'a rien renvoyé. Les mentions légales annoncent le site dansmacachette.fr mais le lien pointe vers sezamebazar.fr, une incohérence à signaler. Le site ne donne pas la date d'ouverture du blog. La page « à propos » la situe pendant sa première grossesse (son premier fils est né en 2011), sans date ferme. L'indice de kits vendus chez Les Artisanes n'est pas confirmé : Les Artisanes Lille figure seulement dans la liste de ses partenaires, et aucune fiche produit n'a été trouvée. Aucune boutique Etsy trouvée. Les abonnés Instagram, YouTube, Pinterest et Facebook n'ont pas été lus (Instagram n'affiche pas le compteur sans connexion). Le site ne donne ni meilleures ventes ni avis, donc aucun produit n'est marqué bestseller. Le 2026-10-21, les 24 kits et les 26 planches patrons papier sont en rupture de stock et seuls les PDF sont achetables : la boutique est peut-être en pause. D'autres livres sont cités par des comparateurs (Broderies modernes, Doudous au crochet, Ma garde-robe au crochet, Hortense ma poupée au crochet, Le guide de la broderie chez CréaPassions) mais n'ont pas été vérifiés sur une page d'éditeur. Les références DMC précises des kits ne sont pas indiquées."
 }

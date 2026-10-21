@@ -1,0 +1,273 @@
+{
+  "name": "Au Ver à Soie",
+  "country": "France",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "foundedDate": "1820",
+  "closedDate": "",
+  "founders": [],
+  "legalName": "Etablissements L. Boucher Au Ver à Soie",
+  "legalForm": "SA à conseil d'administration (catégorie INSEE 5599)",
+  "registrationId": "572044857",
+  "offers": [
+    "Fils de soie",
+    "Fils métallisés",
+    "Kits de broderie",
+    "Packs de fils",
+    "Mercerie",
+    "Livres"
+  ],
+  "styles": [
+    "Patrimoine",
+    "Floral",
+    "Haute couture",
+    "Paris",
+    "Art et musées"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie or et métallisés",
+    "Broderie sur tulle",
+    "Tapisserie",
+    "Point de croix"
+  ],
+  "threads": [
+    "Au Ver à Soie Soie d'Alger",
+    "Au Ver à Soie Soie de Paris",
+    "Au Ver à Soie Soie Perlée",
+    "Au Ver à Soie Soie Gobelins",
+    "Au Ver à Soie Soie Ovale",
+    "Au Ver à Soie Soie Surfine 1302",
+    "Au Ver à Soie Soie 1003",
+    "Au Ver à Soie fils métallisés (dont Tressé 4)",
+    "Au Ver à Soie tresses et cordons de soie",
+    "Au Ver à Soie chenilles de soie",
+    "Au Ver à Soie rubans de soie",
+    "Au Ver à Soie Laine Fine d'Aubusson",
+    "Au Ver à Soie Trébizond",
+    "Au Ver à Soie Organsin"
+  ],
+  "fabrics": [
+    "Lin italien (Graziano)",
+    "Coton",
+    "Tulle",
+    "Papier épais à rebroder"
+  ],
+  "salesChannels": [
+    "Boutique professionnelle en ligne (auverasoie.com, sur compte avec SIRET)",
+    "Showroom rue Réaumur, Paris",
+    "Merceries et boutiques revendeuses en France et à l'étranger",
+    "Atelier 196 / Once Upon Une Fois (vente des kits aux particuliers)"
+  ],
+  "priceRange": "Kits vendus aux particuliers par Atelier 196 de 12 à 38 €, tarifs professionnels des kits et des fils sur demande",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "2025",
+      "revenue": 1428785,
+      "netIncome": 135371,
+      "employees": "3 à 5 (tranche INSEE 2024)",
+      "source": "API Recherche d'entreprises (data.gouv.fr), comptes 2025"
+    }
+  ],
+  "products": [
+    {
+      "title": "Pack broderie OHLALA !",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Échevette exclusive de 5 m avec 3 couleurs de soie d'Alger, bobine de 10 m de fil métallisé tricolore Tressé 4 exclusif, tresse de soie tricolore, lin italien Graziano, aiguille Bohin, tambour bambou 10 cm, cartonnette de rangement et QR code vers des motifs (mode parisienne, art urbain, gastronomie) préparés par Once Upon Une Fois.",
+      "url": "https://www.atelier196.com/01-pack-broderie-ohlala-c2x41110799",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kits Trios pour tambour 10 cm (Pissenlit, Pissenlit argent, Tattoo, Fleurs tatouées, Coquelicot)",
+      "format": "kit",
+      "price": "Sur demande (tarif professionnel HT)",
+      "bestseller": false,
+      "description": "Trois modèles à broder pour tambour de 10 cm : livret français/anglais, les 3 dessins à reporter et un exemplaire de chacun imprimé sur support hydrosoluble, bande de lin italien ou de coton, fils de soie et/ou métallisés Au Ver à Soie, aiguille Bohin. Avec ou sans tambour bambou 10 cm. Sachet transparent recyclable d'environ 16 x 20 cm.",
+      "url": "https://cdn-assets.inwink.com/6dd59b35-9963-469e-b9c8-33798a85fc31/b6cfcba9-1faf-4595-ba99-6d57fd35494e",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kits pour tambour 8 cm (Mimosa, Lavande, Fuchsia, Pavot d'Orient, Métro, Tour Eiffel, Kokeshi, Maneki Neko, Sakura, Coquelicot)",
+      "format": "kit",
+      "price": "Sur demande (tarif professionnel HT)",
+      "bestseller": false,
+      "description": "Un modèle par kit : livret français/anglais, dessin à reporter et exemplaire imprimé sur hydrosoluble, lin italien ou coton, fils de soie et/ou métallisés Au Ver à Soie, aiguille Bohin. Avec ou sans tambour bambou 8 cm. Boîte kraft recyclée d'environ 12 x 12 cm.",
+      "url": "https://cdn-assets.inwink.com/6dd59b35-9963-469e-b9c8-33798a85fc31/b6cfcba9-1faf-4595-ba99-6d57fd35494e",
+      "imageUrl": ""
+    },
+    {
+      "title": "Collaboration Heritage Claude Monet, kits de broderie en soie",
+      "format": "kit",
+      "price": "17 à 34 €",
+      "bestseller": false,
+      "description": "Trois kits sous licence Heritage Claude Monet : Nymphéas sur papier épais à rebroder en soie et perles (17 €), Pont sur tambour bambou 10 cm (24 €), La Maison en édition limitée pour le centenaire de la mort de Monet, en boîte métal (34 €). Lin ou carte, fils de soie et métallisés Au Ver à Soie, aiguilles, tambour si nécessaire.",
+      "url": "https://www.atelier196.com/0-collaboration-heritage-claude-monet-les-kits-de-broderie-en-soie-c2x42843744",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broder le 18e, kits en soie pour le Musée des Arts décoratifs (avec Arteum)",
+      "format": "kit",
+      "price": "17,95 à 37,95 €",
+      "bestseller": false,
+      "description": "Cinq kits liés à l'exposition Une journée au 18e (février à juillet 2026) : Bleuet, Treillis aux roses et Marque-page fleurs bleues (23,95 €), Carte à rebroder (17,95 €), Pochette à secret (37,95 €). Soies et ruban de soie Au Ver à Soie, lin, aiguille, tambour 8 ou 10 cm, dessin papier et dessin imprimé sur hydrosoluble.",
+      "url": "https://www.atelier196.com/02-broder-le-18eme-les-kits-en-soie-collaboration-avec-arteum-pour-le-musee-des-arts-decoratifs-c2x42680477",
+      "imageUrl": ""
+    },
+    {
+      "title": "Matisse, kits en soie pour le Musée Matisse de Nice (avec Arteum)",
+      "format": "kit",
+      "price": "19,95 à 24,95 €",
+      "bestseller": false,
+      "description": "Nu bleu, tambour 10 cm inclus, en soie Gobelins (22,50 €), Jazz Icare, tambour 8 cm inclus, en 3 couleurs de soie d'Alger (19,95 €), Fleurs et fruits (24,95 €). Lin Graziano, aiguille Bohin, dessin papier, motif imprimé sur Solufix, explications bilingues.",
+      "url": "https://www.atelier196.com/03-matisse-les-kits-en-soiecollaboration-avec-arteum-pour-le-musee-matisse-nice-c2x42228417",
+      "imageUrl": ""
+    },
+    {
+      "title": "Dolce Vita, édition limitée été 2026",
+      "format": "kit",
+      "price": "12 € sans tambour, 16 € avec tambour 10 cm",
+      "bestseller": false,
+      "description": "Coton rayé bleu, 5 couleurs de soie d'Alger Au Ver à Soie, aiguille Bohin, dessin papier et dessin sur Solufix, explications bilingues. Taille finale d'environ 9 cm.",
+      "url": "https://www.atelier196.com/1-dolce-vita-edition-limitee-ete-2026-c2x42833990",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit fleur sur tulle (bleu, rose ou or) pour tambour 13 cm",
+      "format": "kit",
+      "price": "Sur demande (tarif professionnel HT)",
+      "bestseller": false,
+      "description": "Livret français/anglais, dessin, tulle, fils de soie Au Ver à Soie, aiguille Bohin et perles. Avec ou sans tambour bambou 13 cm.",
+      "url": "https://cdn-assets.inwink.com/6dd59b35-9963-469e-b9c8-33798a85fc31/b6cfcba9-1faf-4595-ba99-6d57fd35494e",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Fabricant parisien de fils de soie et de fils métallisés fondé en 1820, connu pour sa soie d'Alger, qui fournit la haute couture, la restauration du patrimoine et les merceries du monde entier. Ses kits de broderie en soie sont conçus et vendus aux particuliers avec Once Upon Une Fois (Atelier 196).",
+  "history": "Au Ver à Soie naît en 1820 au 235 rue Saint-Denis à Paris, près du passage du Grand Cerf. La maison vend de la soie grège et teinte en flottes, des soies à broder et de mercerie. Dans les années 1860 et 1870 elle dépose ses marques, dont l'emblème du ver à soie en 1875, et propose déjà la soie d'Alger en 2688 nuances. Charles Frédéric Worth compte parmi ses clients.\n\nEn 1878 Louis Boucher prend la direction, et la famille Boucher dirige l'entreprise depuis. La maison remporte une médaille de bronze à l'Exposition universelle de 1878 et fabrique aussi des lignes de pêche. Après la Première Guerre mondiale, elle s'installe au 102 rue Réaumur, où elle se trouve toujours. Son usine de Boulogne-Billancourt est détruite en 1942 lors d'un bombardement des usines Renault.\n\nAprès la guerre, la maison se diversifie : soie tressée pour la chirurgie, fil métallisé de la marque Au Sextant en 1977, cravates jacquard en soie à partir de 1984. Elle travaille pour les grandes maisons de couture (Chanel, Dior, Lacroix, Saint Laurent, Givenchy) et pour la restauration de Versailles, Fontainebleau, Compiègne et du Louvre.\n\nLa cinquième génération, Marc Boucher et Nathalie Boucher-Bothorel, codirige aujourd'hui l'entreprise. En février 2015 un incendie détruit l'usine de Bracieux (Loir-et-Cher). En 2020 la maison fête ses 200 ans avec un livre et de nouvelles gammes, dont la Chenille Satin. Elle développe aussi Pêche à Soie, une ligne de fils de pêche 100 % soie.\n\nAujourd'hui la société vend surtout aux professionnels, via une boutique en ligne réservée aux comptes avec SIRET et un réseau de revendeurs en Europe, en Amérique du Nord, au Japon et en Océanie. Les kits de broderie à ses fils sont créés et vendus avec Once Upon Une Fois (Atelier 196), dont des séries pour des musées. Les comptes 2025 publiés indiquent un chiffre d'affaires de 1,43 million d'euros.",
+  "positioning": "Une maison de fil patrimoniale plus qu'une marque de kits. Ses forces : plus de 200 ans d'histoire familiale, une fabrication française, une gamme de soies très large (soie d'Alger, Gobelins, Perlée, Ovale, tresses, métallisés) et la caution de la haute couture et des musées. Les kits mettent en avant la soie et l'or sur de petits formats (tambours de 8, 10 ou 13 cm), en lin italien ou coton, avec explications bilingues et aiguille Bohin, en partie pensés pour les boutiques de musées. Points faibles visibles : site ancien et réservé aux professionnels, aucun prix public des kits sur le site de la marque, aucun réseau social lié depuis le site, vente directe aux particuliers confiée à un partenaire.",
+  "website": "https://www.auverasoie.com/",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://www.auverasoie.com/favicon.ico",
+  "timeline": [
+    {
+      "date": "1820",
+      "kind": "vie",
+      "label": "Création d'Au Ver à Soie au 235 rue Saint-Denis à Paris"
+    },
+    {
+      "date": "1875-06-12",
+      "kind": "vie",
+      "label": "Dépôt de l'emblème du ver à soie comme marque exclusive"
+    },
+    {
+      "date": "1878",
+      "kind": "prix",
+      "label": "Médaille de bronze à l'Exposition universelle de Paris, Louis Boucher prend la direction"
+    },
+    {
+      "date": "1942-03",
+      "kind": "vie",
+      "label": "Destruction de l'usine de Boulogne-Billancourt lors d'un bombardement"
+    },
+    {
+      "date": "1977",
+      "kind": "oeuvre",
+      "label": "Lancement d'un fil métallisé pour la broderie et le tricot, marque Au Sextant"
+    },
+    {
+      "date": "1993",
+      "kind": "exposition",
+      "label": "Participation à l'exposition Fil de Foi, Chemin de Soie au château de Chambord"
+    },
+    {
+      "date": "2015-02-19",
+      "kind": "vie",
+      "label": "Incendie de l'usine de Bracieux"
+    },
+    {
+      "date": "2020",
+      "kind": "oeuvre",
+      "label": "Bicentenaire : livre anniversaire et nouvelles gammes dont la Chenille Satin"
+    },
+    {
+      "date": "2023-08",
+      "kind": "prix",
+      "label": "Interview dans le journal de Selvedge"
+    },
+    {
+      "date": "2026",
+      "kind": "residence",
+      "label": "Kits en soie avec Arteum et Once Upon Une Fois pour le Musée des Arts décoratifs et le Musée Matisse, et sous licence Heritage Claude Monet"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Au Ver à Soie, site officiel (boutique professionnelle)",
+      "url": "https://www.auverasoie.com/"
+    },
+    {
+      "label": "Au Ver à Soie, Notre histoire",
+      "url": "https://www.boutiqueproavas.com/PBCPPlayer.asp?ID=2380465"
+    },
+    {
+      "label": "Au Ver à Soie, Où nous trouver",
+      "url": "https://www.boutiqueproavas.com/PBCPPlayer.asp?ID=2380433"
+    },
+    {
+      "label": "Au Ver à Soie, Packs et kits",
+      "url": "https://www.boutiqueproavas.com/PBCPPlayer.asp?ID=2385541"
+    },
+    {
+      "label": "Catalogue Kits de broderie en soie 2026 (Once Upon Une Fois)",
+      "url": "https://cdn-assets.inwink.com/6dd59b35-9963-469e-b9c8-33798a85fc31/b6cfcba9-1faf-4595-ba99-6d57fd35494e"
+    },
+    {
+      "label": "Atelier 196, rayon Au Ver à Soie",
+      "url": "https://www.atelier196.com/1-au-ver-a-soie-c102x193279"
+    },
+    {
+      "label": "Atelier 196, Kits Au Ver à Soie",
+      "url": "https://www.atelier196.com/kits-au-ver-a-soie-c102x3871760"
+    },
+    {
+      "label": "Atelier 196, Pack broderie OHLALA",
+      "url": "https://www.atelier196.com/01-pack-broderie-ohlala-c2x41110799"
+    },
+    {
+      "label": "Atelier 196, kits Heritage Claude Monet",
+      "url": "https://www.atelier196.com/0-collaboration-heritage-claude-monet-les-kits-de-broderie-en-soie-c2x42843744"
+    },
+    {
+      "label": "Atelier 196, kits Musée des Arts décoratifs",
+      "url": "https://www.atelier196.com/02-broder-le-18eme-les-kits-en-soie-collaboration-avec-arteum-pour-le-musee-des-arts-decoratifs-c2x42680477"
+    },
+    {
+      "label": "Atelier 196, kits Musée Matisse",
+      "url": "https://www.atelier196.com/03-matisse-les-kits-en-soiecollaboration-avec-arteum-pour-le-musee-matisse-nice-c2x42228417"
+    },
+    {
+      "label": "Atelier 196, kit Dolce Vita",
+      "url": "https://www.atelier196.com/1-dolce-vita-edition-limitee-ete-2026-c2x42833990"
+    },
+    {
+      "label": "API Recherche d'entreprises, SIREN 572044857",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=572044857"
+    },
+    {
+      "label": "INSEE, avis de situation SIRENE",
+      "url": "https://api-avis-situation-sirene.insee.fr/identification/pdf/57204485700017"
+    },
+    {
+      "label": "Selvedge, Five minutes with a friend: Au Ver à Soie (2023)",
+      "url": "https://selvedge.org/blogs/journal/five-minutes-with-a-friend-au-ver-a-soie"
+    }
+  ],
+  "researchNotes": "Site officiel : auverasoie.com affiche la boutique professionnelle boutiqueproavas.com (commande sur compte avec SIRET, devis, paiement à l'expédition). Pas de vente directe aux particuliers ni de prix publics des kits sur ce site. Les kits (Trios 10 cm, tambour 8 cm, Couture, Aquarelle, tulle, OHLALA) figurent dans un catalogue 2026 édité par Once Upon Une Fois SAS (Courbevoie, SIREN 809477169), qui gère aussi l'e-shop Atelier 196. Ces kits semblent conçus par Once Upon Une Fois (Luisa est citée pour le pack OHLALA) avec les fils Au Ver à Soie : l'éditeur exact reste à confirmer. Les prix de la fiche sont les prix publics d'Atelier 196. Aucune meilleure vente n'est identifiée publiquement. Le rayon Kits Au Ver à Soie d'Atelier 196 regroupe aussi des kits de créatrices utilisant ces fils (La Bastidane, Nathalie Dentzer, Les Petites by Jenny, Trish Burr), non repris ici. Entité juridique : le registre donne une création au 1957-01-01 (la marque date de 1820) et la catégorie INSEE 5599, SA à conseil d'administration, alors que les deux dirigeants inscrits ont la qualité de gérant. La forme juridique exacte est à vérifier sur le Kbis ou Pappers (page inaccessible, erreur 403). Trois établissements actifs, dont le siège 102 rue Réaumur et un établissement 38 boulevard Garibaldi (Paris 15e). Le troisième n'a pas été identifié (peut-être l'usine de Bracieux). Seuls les comptes 2025 ont été lus via l'API data.gouv.fr, les années précédentes ne sont pas relevées. Instagram, Facebook, Pinterest : aucun compte officiel trouvé ni lié depuis le site, audiences non relevées. Pas de boutique Etsy trouvée. Le prix RMC (PME artisanale du bassin parisien) et la liste des pays d'export viennent de la page histoire de la marque, non datée. Liens de la fiche lus le 2026-10-21."
+}

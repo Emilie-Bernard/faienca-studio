@@ -1,0 +1,39 @@
+{
+  "name": "L'Oiseau Lune",
+  "country": "France", "city": "", "region": "",
+  "foundedDate": "", "closedDate": "",
+  "founders": ["Cécile Tagnard"],
+  "legalName": "", "legalForm": "", "registrationId": "",
+  "offers": ["Kits de broderie", "Ateliers"],
+  "styles": ["Moderne", "Coloré", "Ex-voto", "Floral"],
+  "techniques": ["Broderie sur feutrine", "Broderie au fil métallisé", "Broches brodées"],
+  "threads": ["Au Ver à Soie (soie)", "Au Ver à Soie (métallisé)"],
+  "fabrics": ["Feutrine"],
+  "salesChannels": ["Boutiques revendeuses (Atelier 196)", "Instagram"],
+  "priceRange": "Kits de broches brodées à 12 €",
+  "languages": ["Français"],
+  "audience": [],
+  "financials": [],
+  "products": [
+    { "title": "Broche Ex-voto, ambiance Inca", "format": "kit", "price": "12 €", "bestseller": false, "description": "Kit de broche brodée en forme d'ex-voto, ambiance avec une touche dorée. Contient des coupons de feutrine, une aiguille à broder et une carte de fils de soie et/ou métallisés Au Ver à Soie. Taille non indiquée. Exclusivité Atelier 196.", "url": "https://www.atelier196.com/2-les-broches-ex-voto-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786768", "imageUrl": "" },
+    { "title": "Broche Ex-voto, ambiance Frida", "format": "kit", "price": "12 €", "bestseller": false, "description": "Même kit ex-voto dans une version colorée. Coupons de feutrine, aiguille et carte de fils Au Ver à Soie (soie et/ou métallisé). Taille non indiquée.", "url": "https://www.atelier196.com/2-les-broches-ex-voto-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786768", "imageUrl": "" },
+    { "title": "Broche Fleurs, ambiance Aube givrée", "format": "kit", "price": "12 €", "bestseller": false, "description": "Kit de broche fleur brodée dans des tons dégradés bleu acier. Coupons de feutrine, aiguille et carte exclusive de fils de soie et/ou métallisés Au Ver à Soie. Taille non indiquée.", "url": "https://www.atelier196.com/3-les-broches-fleurs-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786766", "imageUrl": "" },
+    { "title": "Broche Fleurs, ambiance Feuille d'automne", "format": "kit", "price": "12 €", "bestseller": false, "description": "Kit de broche fleur aux couleurs façon camouflage. Coupons de feutrine, aiguille et carte de fils Au Ver à Soie. Taille non indiquée.", "url": "https://www.atelier196.com/3-les-broches-fleurs-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786766", "imageUrl": "" },
+    { "title": "Broche Fleurs, ambiance Queen E", "format": "kit", "price": "12 €", "bestseller": false, "description": "Kit de broche fleur aux couleurs de jardin victorien. Coupons de feutrine, aiguille et carte de fils Au Ver à Soie. Taille non indiquée.", "url": "https://www.atelier196.com/3-les-broches-fleurs-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786766", "imageUrl": "" }
+  ],
+  "summary": "L'Oiseau Lune est le nom sous lequel Cécile Tagnard crée des kits de broches brodées sur feutrine, avec fils de soie et métallisés Au Ver à Soie, vendus en exclusivité par la mercerie en ligne Atelier 196.",
+  "history": "L'Oiseau Lune est le nom de création de Cécile Tagnard, qui signe aussi Cécile Baude-Tagnard sur Instagram, où son compte s'appelle @oiseau.lune. Aucun site propre ni boutique Etsy n'a été trouvé à son nom.\n\nSa collection la plus visible est une collaboration avec Atelier 196, qui la présente comme une collection exclusive de kits en feutrine, soie et métallisé, aux modèles modernes et colorés, à collectionner.\n\nLa collection compte deux modèles de broches, l'ex-voto en deux ambiances (Inca et Frida) et la fleur en trois ambiances (Aube givrée, Feuille d'automne, Queen E), chacun à 12 €. Chaque kit contient des coupons de feutrine, une aiguille et une carte de fils Au Ver à Soie.\n\nLa date de création de l'activité et sa structure juridique n'ont pas été trouvées.",
+  "positioning": "Petits kits de broches brodées, accessibles (12 €) et rapides, pensés comme des accessoires de mode à collectionner. Le style est moderne et coloré, avec des motifs d'ex-voto et de fleurs et une touche de fil métallisé. Le choix des fils Au Ver à Soie la place sur un créneau mercerie française de qualité. Point faible visible : une présence en ligne très discrète, sans site ni boutique en propre, et une distribution qui dépend d'un seul revendeur.",
+  "website": "", "instagram": "https://www.instagram.com/oiseau.lune/", "etsy": "", "photoUrl": "",
+  "timeline": [
+    { "date": "", "kind": "residence", "label": "Collaboration avec Atelier 196 : collection exclusive de kits de broches en feutrine, soie et métallisé" }
+  ],
+  "sources": [
+    { "label": "Atelier 196, page Les collaborations", "url": "https://www.atelier196.com/les-collaborations-c102x4304520" },
+    { "label": "Atelier 196, collection Oiseau Lune", "url": "https://www.atelier196.com/oiseau-lune-collection-feutrine-soie-et-metallise-c102x4278162" },
+    { "label": "Atelier 196, kit Broches Ex-voto", "url": "https://www.atelier196.com/2-les-broches-ex-voto-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786768" },
+    { "label": "Atelier 196, kit Broches Fleurs", "url": "https://www.atelier196.com/3-les-broches-fleurs-feutrine-soie-et-metallise-par-l-oiseau-lune-c2x38786766" },
+    { "label": "Instagram @oiseau.lune", "url": "https://www.instagram.com/oiseau.lune/" }
+  ],
+  "researchNotes": "Recherches du 2026-10-21. Aucun site propre, aucune boutique Etsy, aucune mention légale trouvés : raison sociale, forme juridique, SIREN, ville et date de création inconnus. Il s'agit probablement d'une activité individuelle (micro-entreprise ou artiste-auteur), qui ne publie pas de comptes, mais ce n'est pas confirmé. Le compte Instagram @oiseau.lune porte le nom Cécile Baude-Tagnard ; la bio, le nombre d'abonnés et le lien externe n'ont pas pu être lus (page Instagram non accessible sans connexion). Des sites tiers de consultation Instagram, non vérifiables, la décrivent comme créatrice de contenus DIY et animatrice d'ateliers, avec un projet annoncé sur un salon créatif d'Île-de-France : d'où « Ateliers » dans les offres, à confirmer. Les noms d'ambiances sont écrits « Feuille automne » et « Queene E » dans les options de la fiche Atelier 196 et « Feuille d'automne » et « Queen E » dans la description. La taille des broches et la date de lancement de la collaboration ne sont pas indiquées. Aucune meilleure vente identifiable. Pas d'image, à ajouter ensuite."
+}

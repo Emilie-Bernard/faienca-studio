@@ -1,0 +1,155 @@
+{
+  "name": "Martine Biessy",
+  "country": "France",
+  "city": "Aix-en-Provence",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "foundedDate": "2005-07",
+  "closedDate": "",
+  "founders": ["Martine Biessy"],
+  "legalName": "Martine Biessy",
+  "legalForm": "Entreprise individuelle",
+  "registrationId": "",
+  "offers": ["Cours en ligne", "Kits de broderie", "Livres"],
+  "styles": ["Traditionnel", "Broderie blanche", "Bijoux brodés", "Botanique", "Contemporain"],
+  "techniques": ["Broderie traditionnelle", "Broderie or", "Broderie au fil métallisé", "Broderie blanche", "Jours à fils tirés", "Broderie Renaissance", "Broderie au ruban", "Boutis", "Broderie au raphia", "Broderie perles et paillettes", "Point de croix"],
+  "threads": ["DMC Mouliné spécial 25", "DMC Broder spécial", "Soie d'Alger (Au Ver à Soie)", "Au Ver à Soie fil tressé métallisé", "Cannetille et jaseron (Neelam)", "DMC fil Quilt"],
+  "fabrics": ["Lin", "Coton", "Sergé de coton", "Organza de soie", "Feutrine", "Jersey et mailles", "Rabane"],
+  "salesChannels": ["Artesane (cours vidéo et coffrets)", "Librairies (Eyrolles, Carpentier, Dessain et Tolra)"],
+  "priceRange": "Cours vidéo de 4,20 à 77 €, parcours de 194 à 256 €, coffrets de 36 €, livres de 12,90 à 42 €",
+  "languages": ["Français", "Anglais"],
+  "audience": [
+    { "platform": "Pinterest", "followers": 3464, "date": "2026-10", "url": "https://fr.pinterest.com/martinebiessy/" }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Coffret Œil de Cléopâtre : ma broche brodée au fil métallisé",
+      "format": "box",
+      "price": "36 €",
+      "bestseller": false,
+      "description": "Coffret de matériel associé à un cours vidéo de 1h14, niveau débutant. Matériel du cours : bobines de fil à broder tressé métallisé, aiguille à broder, Solufix, feutrine, jaseron, fil à gant. Points : passé plat, passé empiétant, point de tige, pose de perle et de jaseron, montage en broche.",
+      "url": "https://www.artesane.com/arts-du-fil/produit/coffret-oeil-de-cleopatre-ma-broche-brodee-au-fil-metallise",
+      "imageUrl": ""
+    },
+    {
+      "title": "Coffret Louxor : ma broche brodée au fil métallisé",
+      "format": "box",
+      "price": "36 €",
+      "bestseller": false,
+      "description": "Même formule que le coffret Œil de Cléopâtre (cours vidéo de 1h14 et matériel pour une broche au fil tressé métallisé, feutrine, jaseron). Affiché en rupture de stock en octobre 2026.",
+      "url": "https://www.artesane.com/arts-du-fil/produit/coffret-louxor-ma-broche-brodee-au-fil-metallise",
+      "imageUrl": ""
+    },
+    {
+      "title": "Découverte et initiation à la broderie or",
+      "format": "cours",
+      "price": "29 €",
+      "bestseller": false,
+      "description": "Cours vidéo de 2h17, niveau débutant, note moyenne 5/5. Trois broches (lune, paon, abeille). PDF d'explications et 6 motifs inclus. Matériel à acheter : fil DMC Quilt écru, feutrine, Vliesofix, organza de soie, tambour de 12 cm, cannetille et jaseron de chez Neelam. Aussi vendu en pack avec le cours de perfectionnement (53,94 € au lieu de 58 €).",
+      "url": "https://www.artesane.com/arts-du-fil/produit/decouverte-et-initiation-a-la-broderie-or",
+      "imageUrl": ""
+    },
+    {
+      "title": "Progressez en broderie avec Martine !",
+      "format": "cours",
+      "price": "49 €",
+      "bestseller": false,
+      "description": "Cours vidéo de 4h42, niveau intermédiaire, note moyenne 4,9/5. Cinq modèles : collier plastron, pochette tigre Art déco, trio de broches. Fils : Soie d'Alger, fil tressé AVAS, Mouliné DMC, perles Miyuki.",
+      "url": "https://www.artesane.com/arts-du-fil/produit/progressez-en-broderie-avec-martine",
+      "imageUrl": ""
+    },
+    {
+      "title": "Découvrir la broderie au ruban",
+      "format": "cours",
+      "price": "29 €",
+      "bestseller": false,
+      "description": "Cours vidéo de 2h09 avec PDF, niveau débutant, note moyenne 5/5. Cinq paires de boucles d'oreilles florales brodées au ruban.",
+      "url": "https://www.artesane.com/arts-du-fil/produit/decouverte-et-initiation-a-la-broderie-au-ruban",
+      "imageUrl": ""
+    },
+    {
+      "title": "Je brode les fleurs avec Martine, tous les niveaux",
+      "format": "cours",
+      "price": "77 €",
+      "bestseller": false,
+      "description": "Pack de 3 cours vidéo (6h05) pour broder des motifs floraux sur vêtements et accessoires, avec documents PDF. Chaque niveau est aussi vendu seul (24 à 29 €).",
+      "url": "https://www.artesane.com/arts-du-fil/produit/je-brode-les-fleurs-avec-martine-tous-les-niveaux",
+      "imageUrl": ""
+    },
+    {
+      "title": "Parcours broderie : je me forme en broderie traditionnelle",
+      "format": "cours",
+      "price": "193,44 € (au lieu de 208 €)",
+      "bestseller": false,
+      "description": "Parcours de 5 cours vidéo (22 h), du grand débutant à l'expert, avec livrets PDF : plus de 30 points et plus de 70 motifs. La professeure, ambidextre, montre chaque point main gauche et main droite.",
+      "url": "https://www.artesane.com/arts-du-fil/produit/parcours-broderie-je-me-forme-en-broderie-traditionnelle",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack broderie blanche",
+      "format": "cours",
+      "price": "94,86 € (au lieu de 102 €)",
+      "bestseller": false,
+      "description": "Pack de cours vidéo (6h55) mis en ligne en janvier 2026 : broderie Renaissance, broderie blanche (plumetis, broderie anglaise, Richelieu, point d'ombre) et jours à fils tirés. Fil DMC Broder spécial blanc ou écru n°16 à 35, lin ou coton, sergé de coton, tambour de 10 ou 12 cm.",
+      "url": "https://www.artesane.com/arts-du-fil/produit/pack-broderie-blanche",
+      "imageUrl": ""
+    },
+    {
+      "title": "Encyclopédie de la broderie à l'aiguille",
+      "format": "livre",
+      "price": "42 €",
+      "bestseller": false,
+      "description": "Livre paru chez Eyrolles en 2022. Traduit en anglais chez Schiffer (Embroidery Encyclopedia, 416 pages, 290 points et techniques en 15 familles, 90 projets).",
+      "url": "https://lessaisons.fr/personne/martine-biessy/1979632/",
+      "imageUrl": ""
+    },
+    {
+      "title": "10 leçons pour apprendre à broder : 20 créations pour se lancer",
+      "format": "livre",
+      "price": "19,90 €",
+      "bestseller": false,
+      "description": "Livre d'initiation paru chez Eyrolles en 2024. Une version broderie or existe dans la même collection (22 €, 2024).",
+      "url": "https://lessaisons.fr/personne/martine-biessy/1979632/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Brodeuse et professeure installée à Aix-en-Provence, formée chez Lesage et Malbranche, Martine Biessy vend surtout des cours vidéo de broderie sur Artesane, quelques coffrets de matériel et des livres techniques chez Eyrolles. Ce n'est pas une marque de kits au sens strict mais une autrice-enseignante très présente sur la broderie traditionnelle, or et blanche.",
+  "history": "Martine Biessy apprend la broderie enfant auprès de sa grand-mère maternelle, et la couture et le tricot auprès de sa mère. Après un IUT de génie mécanique et une licence de commerce international, elle travaille environ douze ans dans l'industrie, dans le dessin industriel.\n\nEn Afrique du Sud, elle se forme à la broderie au ruban dans une école de Johannesburg (2000 à 2004) et enseigne la broderie traditionnelle à des femmes d'un township, puis le boutis. Elle se perfectionne au boutis à la Maison du boutis de Calvisson, puis suit les cours de l'école Lesage à Paris (2004 à 2014 : broderie or, haute couture, peinture à l'aiguille) et de la Maison Malbranche (depuis 2012 : broderie blanche, jours à fils tirés).\n\nDe 2004 à 2015, elle donne des cours de broderie à Aix-en-Provence (ruban, traditionnelle, or, jours, créative). L'annuaire des entreprises recense une entreprise individuelle à son nom à Aix-en-Provence, créée en juillet 2005, dans les autres enseignements. Elle publie dans Marie-Claire Idées (2005 à 2009) puis signe ses premiers livres chez Carpentier : Broderie en fleurs de ruban (2012), Un été brodé (2014), Tambours brodés (2016).\n\nÀ partir de novembre 2016, elle tourne des cours vidéo pour Artesane, qui en propose aujourd'hui une quarantaine sous son nom, du point de croix à la broderie Renaissance, avec deux coffrets de matériel pour broches au fil métallisé (2023 et 2024) et un pack broderie blanche (2026). En parallèle, elle écrit Broderie au raphia (Dessain et Tolra, 2018) puis, chez Eyrolles, l'Encyclopédie de la broderie à l'aiguille (2022), traduite en anglais, deux livres « 10 leçons » (2024) et L'essentiel des points de broderie (2025).",
+  "positioning": "Martine Biessy se place sur la transmission du savoir-faire : techniques patrimoniales (or, blanche, jours, Renaissance, boutis) rendues accessibles par la vidéo, avec la caution d'écoles prestigieuses (Lesage, Malbranche). Ses projets sont souvent des accessoires et bijoux brodés (broches, plastrons, boucles d'oreilles, blouses), plus mode que décor de tambour. Elle vise des brodeuses qui veulent apprendre et progresser, débutantes comme confirmées, et touche aussi les gauchères grâce à ses démonstrations des deux mains. Ses fils sont haut de gamme et variés (Soie d'Alger, Mouliné et Broder spécial DMC, fils métallisés). Points faibles visibles : pas de boutique ni de site en propre trouvés, une offre de kits très réduite (deux coffrets, dont un en rupture), une dépendance à Artesane, et beaucoup de cours anciens (2017 et 2018).",
+  "website": "",
+  "instagram": "https://www.instagram.com/atelierbymartine/",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    { "date": "2000", "kind": "formation", "label": "Formation à la broderie au ruban à Johannesburg (jusqu'en 2004)" },
+    { "date": "2004", "kind": "formation", "label": "Entrée à l'école Lesage à Paris (jusqu'en 2014)" },
+    { "date": "2004", "kind": "vie", "label": "Début des cours de broderie à Aix-en-Provence (jusqu'en 2015)" },
+    { "date": "2005-07", "kind": "vie", "label": "Création d'une entreprise individuelle d'enseignement à Aix-en-Provence" },
+    { "date": "2012", "kind": "oeuvre", "label": "Premier livre : Broderie en fleurs de ruban (Carpentier)" },
+    { "date": "2016-11", "kind": "residence", "label": "Premier cours vidéo sur Artesane : Progressez en broderie avec Martine" },
+    { "date": "2017-11", "kind": "oeuvre", "label": "Cours Découverte et initiation à la broderie or sur Artesane" },
+    { "date": "2018", "kind": "oeuvre", "label": "Livre Broderie au raphia avec Marie-Gabrielle Berland (Dessain et Tolra)" },
+    { "date": "2022", "kind": "oeuvre", "label": "Encyclopédie de la broderie à l'aiguille (Eyrolles)" },
+    { "date": "2023-11", "kind": "oeuvre", "label": "Premier coffret Artesane : broche Louxor au fil métallisé" },
+    { "date": "2024", "kind": "oeuvre", "label": "Deux livres « 10 leçons » chez Eyrolles (broderie et broderie or)" },
+    { "date": "2026-01", "kind": "oeuvre", "label": "Pack broderie blanche sur Artesane" }
+  ],
+  "sources": [
+    { "label": "Artesane, Le Journal : rencontre avec Martine Biessy (2017)", "url": "https://www.artesane.com/le-journal/arts-du-fil/rencontre-avec-martine-biessy-professeur-de-broderie/" },
+    { "label": "Artesane, Le Journal : progressez en broderie avec Martine Biessy", "url": "https://www.artesane.com/le-journal/arts-du-fil/cours-broderie-progressez-martine-biessy/" },
+    { "label": "Artesane, catalogue des cours de Martine Biessy (API publique)", "url": "https://www.artesane.com/api/v2/shop/products-catalogue?author.code=martine-biessy&enabled=true&itemsPerPage=100" },
+    { "label": "Artesane, fiche cours broderie or et biographie (API publique)", "url": "https://www.artesane.com/api/v2/shop/products/00000090" },
+    { "label": "Artesane, coffret Œil de Cléopâtre (API publique)", "url": "https://www.artesane.com/api/v2/shop/products/00001774" },
+    { "label": "Artesane, pack broderie blanche (API publique)", "url": "https://www.artesane.com/api/v2/shop/products/00001938" },
+    { "label": "Artesane, Progressez en broderie avec Martine (API publique)", "url": "https://www.artesane.com/api/v2/shop/products/00000027" },
+    { "label": "Artesane, pack broderie or", "url": "https://www.artesane.com/arts-du-fil/produit/pack-broderie-or-decouverte-et-perfectionnement" },
+    { "label": "BnF, notice Broderie au raphia", "url": "https://catalogue.bnf.fr/ark:/12148/cb455437951" },
+    { "label": "BnF, recherche SRU des livres de Martine Biessy", "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.author%20all%20%22Biessy%20Martine%22&recordSchema=dublincore&maximumRecords=50" },
+    { "label": "Librairie Les Saisons, livres et biographie", "url": "https://lessaisons.fr/personne/martine-biessy/1979632/" },
+    { "label": "Quilt in a Day, Embroidery Encyclopedia (Schiffer)", "url": "https://quiltinaday.com/products/embroidery-encyclopedia-by-martine-biessy" },
+    { "label": "API Recherche d'entreprises, Martine Biessy", "url": "https://recherche-entreprises.api.gouv.fr/search?q=martine%20biessy" },
+    { "label": "Pinterest, martinebiessy", "url": "https://fr.pinterest.com/martinebiessy/" },
+    { "label": "Instagram, atelierbymartine", "url": "https://www.instagram.com/atelierbymartine/" }
+  ],
+  "researchNotes": "Orthographe confirmée : Martine Biessy (et non « Martiene »). Ce n'est pas une marque de kits classique : son offre passe par Artesane (cours vidéo et 2 coffrets de matériel) et par ses livres. Aucun site ni boutique en propre trouvés : le domaine atelierbymartine.com, cité par un blog tiers, ne répond plus, et la fiche professeure Artesane n'indique aucun site. Aucune boutique Etsy ni revendeur de kits trouvés. Le contenu exact des coffrets n'est pas publié : seule la liste du matériel requis pour le cours est donnée (fil tressé métallisé, feutrine, jaseron…), sans marque de fil. Les fils de la fiche viennent des listes de matériel des cours, pas de kits vendus. Entreprise : l'annuaire des entreprises recense une entreprise individuelle à son nom à Aix-en-Provence, créée le 2005-07-01, code APE 85.59B (autres enseignements), active ; le numéro n'est pas reporté car il s'agit d'une personne physique. Pas de comptes publiés (entreprise individuelle), chiffre d'affaires inconnu, revenus Artesane et droits d'auteur inconnus. La date de création de la fiche (2005-07) est celle de cette entreprise ; ses cours à Aix commencent en 2004 selon Artesane. Pas de meilleures ventes identifiables : Artesane n'affiche pas de classement pour ses cours (liste « best » vide dans l'API) ; les notes moyennes viennent de l'API, sans nombre d'avis. Les produits sont classés coffrets d'abord, puis cours notés, puis livres. Prix Artesane et Pinterest lus le 2026-10-21. Instagram @atelierbymartine confirmé par la fiche professeure Artesane, mais nombre d'abonnés non lisible (page bloquée). Le livre « Broderie, le parcours grands débutants » (La Plage) cité par la librairie Les Saisons n'a pas été confirmé ailleurs. Artesane nomme l'école de Johannesburg « Di van Niekers » (orthographe courante : Di van Niekerk, à vérifier). Artesane la dit aussi blogueuse, blog non retrouvé. Pas d'image : à ajouter ensuite."
+}

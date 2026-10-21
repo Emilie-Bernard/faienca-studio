@@ -1,0 +1,310 @@
+{
+  "name": "Charline Segala",
+  "country": "France",
+  "city": "Grasse",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "foundedDate": "1998-02",
+  "closedDate": "",
+  "founders": [
+    "Charline Segala"
+  ],
+  "legalName": "Charline Segala",
+  "legalForm": "Entreprise individuelle",
+  "registrationId": "417799582",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Fiches techniques papier",
+    "Mercerie",
+    "Livres"
+  ],
+  "styles": [
+    "Fleuri",
+    "Vintage",
+    "Noël",
+    "Enfance",
+    "Rétro années 1950"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Prêt à broder (tracé imprimé à rebroder)",
+    "Point de croix",
+    "Broderie au fil chenille",
+    "Appliqué",
+    "Couture d'objets brodés"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25",
+    "DMC Étoile (fil brillant)",
+    "Au Ver à Soie Soie d'Alger",
+    "Fil chenille",
+    "Laine blanche scintillante"
+  ],
+  "fabrics": [
+    "Popeline de coton imprimée",
+    "Métis ancien",
+    "Lin (toile Graziano, chez Atelier 196)",
+    "Coton Stof Sevilla"
+  ],
+  "salesChannels": [
+    "Site en propre (Sitodi)",
+    "Boutiques revendeuses (Atelier 196)",
+    "Salons de loisirs créatifs",
+    "Livres en librairie (Mango, Éditions de Saxe, SAEP)"
+  ],
+  "priceRange": "Fiches techniques de 10 à 18 €, kits de 20 à 55 €, packs de soies d'Alger de 4 à 50 € chez Atelier 196",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Abécédaire en fleurs",
+      "format": "autre",
+      "price": "12 € (grille seule), 15 € (avec toile de lin Graziano et aiguille n° 26)",
+      "bestseller": false,
+      "description": "Fiche technique vendue par Atelier 196 : alphabet brodé, dessins à taille réelle, explications de broderie, couleurs en DMC et en soies d'Alger. Brodé avec la palette florale de Charline. Environ 25 x 33 cm.",
+      "url": "https://www.atelier196.com/abecedaire-en-fleurs-par-charline-segala-c2x35274742",
+      "imageUrl": ""
+    },
+    {
+      "title": "Forêt en fête",
+      "format": "kit",
+      "price": "18 € (fiche et popeline), 4 € (pack de soies)",
+      "bestseller": false,
+      "description": "Popeline de coton imprimée de 21 x 29,7 cm à rebroder, avec explications des points et de la répartition des couleurs. Pack de 5 x 1 m de soie d'Alger Au Ver à Soie sur cartonnette exclusive, vendu à part chez Atelier 196. Sur son propre site, le kit à 22 € comprenait des fils DMC Étoile et mouliné et l'aiguille (broderie de 14 x 20 cm).",
+      "url": "https://www.atelier196.com/foret-en-fete-par-charline-segala-c2x36466172",
+      "imageUrl": ""
+    },
+    {
+      "title": "Couleurs bien rangées",
+      "format": "autre",
+      "price": "14 €",
+      "bestseller": false,
+      "description": "Fiche technique pour broder six étuis à fils (rouge, bleu, vert, jaune, blanc, beige) et habiller des boîtes alimentaires du commerce, tutoriel photo pas à pas. Étui de 14,5 x 7,5 cm, boîte de 2,8 cm de haut. Fils non fournis, à broder avec la palette en soies d'Alger.",
+      "url": "https://www.atelier196.com/-couleurs-bien-rangees-par-charline-segala-c6x35230303",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack soies « Palette florale »",
+      "format": "autre",
+      "price": "45 € (14 échevettes), 20 € (cartonnettes de 2 m par couleur)",
+      "bestseller": false,
+      "description": "Palette de 14 couleurs de soie d'Alger composée avec Charline Segala pour ses modèles floraux, vendue par Atelier 196, en échevettes complètes avec cartonnette de rangement ou en coupes (28 m). Existe aussi en édition limitée avec un ciseau dans une boîte métallique, à 50 €.",
+      "url": "https://www.atelier196.com/pack-soies-palette-florale-par-charline-segala-c2x35230312",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mon Jardin en Fleurs",
+      "format": "autre",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Fiche technique de broderie et de montage couture, avec schémas, pour une housse qui range les six étuis de « Couleurs bien rangées ». 26 x 16 x 7 cm.",
+      "url": "https://www.atelier196.com/mon-jardin-en-fleurs-par-charline-segala-c6x35230141",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fournitures en ordre",
+      "format": "autre",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Fiche pour broder quatre étuis de rangement (aiguilles, petit matériel, ciseaux) en habillant des boîtes. Étui de 14,5 x 7,5 cm.",
+      "url": "https://www.atelier196.com/-fournitures-en-ordre-par-charline-segala-c2x35230267",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bientôt",
+      "format": "kit",
+      "price": "11 € (fiche), 24 € (kit sur son site), 12 € (grille) et 8 € (pack matière) chez Atelier 196",
+      "bestseller": false,
+      "description": "Deux broderies de Noël au fil brillant, photos couleur et dessins imprimés sur calque, image centrale à coller, présentation en tambour. Broderies de 13,5 x 12,5 cm et 12 x 12 cm. Le kit de son site contenait toile imprimée, fils et aiguille ; le pack d'Atelier 196 contient soie d'Alger, bobine de tressé et coupon de lin.",
+      "url": "https://www.atelier196.com/bientot-par-charline-segala-c2x36466167",
+      "imageUrl": ""
+    },
+    {
+      "title": "Esprit de Noël",
+      "format": "kit",
+      "price": "14 € (fiche), 55 € (kit)",
+      "bestseller": false,
+      "description": "Trois sacs brodés avec explications de montage couture et schémas, dessins sur calque. Sacs de 27 x 21 x 7 cm, 21 x 21 x 7 cm et 17 x 17 x 6 cm. Le kit comprend toile imprimée, fils, aiguille et tissus, sans la doublure. Relevé sur son site en 2021.",
+      "url": "https://web.archive.org/web/20210224223343/https://www.charlinesegala.fr/index.php?page=10",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit sac feuillage",
+      "format": "kit",
+      "price": "39 €",
+      "bestseller": false,
+      "description": "Kit de sac brodé mis en avant en page d'accueil de son site à l'été 2022, avec un kit pochette 3 poches à 33 € et un ensemble « Vacances » à 29 €. Contenu non détaillé sur la page lue.",
+      "url": "https://web.archive.org/web/20221006131154/https://www.charlinesegala.fr/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Douces roses d'hiver",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit de cœur brodé : métis bordeaux imprimé, fils, ruban, paillettes, aiguilles, explications de broderie et de montage avec schémas. Cœur de 17 x 17 cm, Jeffytex non fourni.",
+      "url": "https://web.archive.org/web/20211128110334/https://www.charlinesegala.fr/index.php?page=21",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le temps des cerises",
+      "format": "kit",
+      "price": "22 € (kit), 12,50 € (fiche)",
+      "bestseller": false,
+      "description": "Kit de broderie avec application : métis ancien imprimé, fils, aiguille, tissu et viseline, dessin à taille réelle. Toile de 27 x 21 cm, broderie de 17,5 x 11,5 cm.",
+      "url": "https://web.archive.org/web/20211017161902/https://www.charlinesegala.fr/index.php?page=18",
+      "imageUrl": ""
+    },
+    {
+      "title": "Soleil, fiche technique PDF",
+      "format": "pdf",
+      "price": "11 € (PDF), 12 € (papier)",
+      "bestseller": false,
+      "description": "Six soleils et le mot « été » à broder, répartition des points, dessin à taille réelle, photo couleur. Grand soleil de 14,5 x 14,5 cm, idée de tote bag et de pochette.",
+      "url": "https://web.archive.org/web/20211017162744/https://www.charlinesegala.fr/index.php?page=20",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Brodeuse installée à Grasse, Charline Segala crée depuis la fin des années 1990 des fiches techniques et des kits de broderie traditionnelle au style fleuri et rétro, surtout en prêt à broder sur popeline imprimée. Elle a signé plusieurs livres (SAEP, Mango, Éditions de Saxe) et Atelier 196 revend ses grilles avec des packs de soies d'Alger.",
+  "history": "Charline Segala exerce en entreprise individuelle, immatriculée en février 1998 selon l'annuaire des entreprises (activité de création artistique), avec un établissement à Grasse, dans les Alpes-Maritimes. Sur son site, elle écrit broder « depuis plus de 22 ans » et présente la broderie comme son unique activité professionnelle. Elle réalise elle-même ses créations de A à Z, broderies, fiches techniques et kits, sur des toiles de métis ancien.\n\nSes premiers livres paraissent aux Éditions SAEP (Ingersheim), dans la collection Delta 2000 pratique : « Rideaux, stores » (1998), « La broderie » (1999), « Broderies au point de croix » (2000) et « L'appliqué » (2001), puis « Broderies au point de croix » chez SAEP création (2004). Elle signe aussi des dessins pour d'autres titres de la collection. Viennent ensuite chez Mango pratique « Porte-bonheur, motifs de broderie traditionnelle » (2010) et « La vie parisienne » (2013), puis « Point de tige & autres jolis points de broderie » aux Éditions de Saxe (2014).\n\nPendant longtemps, elle vend surtout sur des stands de salons. En 2020, privée de salons, elle décide d'ouvrir une boutique en ligne, charlinesegala.fr, visible dans les archives dès février 2021. Le catalogue est rangé par thèmes (Les Fillettes, Madame, Noël, Images, 1950, Herbier, Enfance, Au fil des saisons) et propose surtout des « prêts à broder » : une popeline de coton imprimée au format A4 dont on rebrode les tracés, avec une feuille de points et la répartition des couleurs en DMC.\n\nAtelier 196, qui la présente comme une collègue croisée depuis des années dans les salons et les magazines, revend ses grilles (« Abécédaire en fleurs », « Forêt en fête », les étuis « Couleurs bien rangées » et « Fournitures en ordre ») avec une palette exclusive de 14 soies d'Alger. En octobre 2026, son domaine charlinesegala.fr ne répond plus ; la dernière capture archivée date de mars 2025.",
+  "positioning": "Une brodeuse d'expérience, autrice de livres, au style fleuri, enfantin et nostalgique (fillettes, Noël d'autrefois, années 1950, herbier). Sa signature est le prêt à broder sur popeline imprimée, qui évite le report du dessin et vise des brodeuses débutantes à confirmées qui aiment les objets utiles : sacs, pochettes, étuis, housses de carnet. Les prix sont bas (fiches de 10 à 18 €) et les kits restent simples. Points faibles visibles : un site artisanal sur une plateforme générique, aujourd'hui hors ligne, peu de présence numérique et une vente qui passe surtout par les salons et par Atelier 196. Pour Faïença, c'est une concurrente proche sur la broderie traditionnelle aux fils DMC et soie d'Alger, mais pas sur le design ni sur la vente en ligne.",
+  "website": "https://www.charlinesegala.fr",
+  "instagram": "https://www.instagram.com/charlinesegala/",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "1998-02",
+      "kind": "vie",
+      "label": "Immatriculation de son entreprise individuelle (création artistique)."
+    },
+    {
+      "date": "1998",
+      "kind": "oeuvre",
+      "label": "Premier livre, « Rideaux, stores », aux Éditions SAEP."
+    },
+    {
+      "date": "1999",
+      "kind": "oeuvre",
+      "label": "« La broderie », Éditions SAEP, collection Delta 2000 pratique."
+    },
+    {
+      "date": "2000",
+      "kind": "oeuvre",
+      "label": "« Broderies au point de croix », Éditions SAEP."
+    },
+    {
+      "date": "2001",
+      "kind": "oeuvre",
+      "label": "« L'appliqué », Éditions SAEP."
+    },
+    {
+      "date": "2002-04",
+      "kind": "vie",
+      "label": "Ouverture de l'établissement de Grasse inscrit au répertoire."
+    },
+    {
+      "date": "2010",
+      "kind": "oeuvre",
+      "label": "« Porte-bonheur, motifs de broderie traditionnelle », Mango pratique."
+    },
+    {
+      "date": "2013",
+      "kind": "oeuvre",
+      "label": "« La vie parisienne, motifs de broderie traditionnelle », Mango pratique."
+    },
+    {
+      "date": "2014",
+      "kind": "oeuvre",
+      "label": "« Point de tige & autres jolis points de broderie », Éditions de Saxe."
+    },
+    {
+      "date": "2021-02",
+      "kind": "vie",
+      "label": "Boutique en ligne charlinesegala.fr visible, ouverte après une année 2020 sans salons."
+    },
+    {
+      "date": "2022-06",
+      "kind": "exposition",
+      "label": "Présente au salon de Noisay (Touraine), du 17 au 19 juin."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Atelier 196, rayon Charline Segala, grilles et pack soies",
+      "url": "https://www.atelier196.com/charline-segala-grilles-et-pack-soies-c102x4109834"
+    },
+    {
+      "label": "Atelier 196, Abécédaire en fleurs",
+      "url": "https://www.atelier196.com/abecedaire-en-fleurs-par-charline-segala-c2x35274742"
+    },
+    {
+      "label": "Atelier 196, Forêt en fête",
+      "url": "https://www.atelier196.com/foret-en-fete-par-charline-segala-c2x36466172"
+    },
+    {
+      "label": "Atelier 196, Couleurs bien rangées",
+      "url": "https://www.atelier196.com/-couleurs-bien-rangees-par-charline-segala-c6x35230303"
+    },
+    {
+      "label": "Atelier 196, Mon Jardin en Fleurs",
+      "url": "https://www.atelier196.com/mon-jardin-en-fleurs-par-charline-segala-c6x35230141"
+    },
+    {
+      "label": "Atelier 196, Pack soies Palette florale",
+      "url": "https://www.atelier196.com/pack-soies-palette-florale-par-charline-segala-c2x35230312"
+    },
+    {
+      "label": "Site charlinesegala.fr, accueil archivé (octobre 2022)",
+      "url": "https://web.archive.org/web/20221006131154/https://www.charlinesegala.fr/"
+    },
+    {
+      "label": "Site charlinesegala.fr, « Bienvenue dans mon univers » archivé (février 2021)",
+      "url": "https://web.archive.org/web/20210224224720/https://www.charlinesegala.fr/index.php?page=1"
+    },
+    {
+      "label": "Site charlinesegala.fr, mentions légales archivées",
+      "url": "https://web.archive.org/web/20210224232236/https://www.charlinesegala.fr/index.php?page=mention_legale&lg=1"
+    },
+    {
+      "label": "Site charlinesegala.fr, Prêt à broder Les Fillettes archivé",
+      "url": "https://web.archive.org/web/20210225000507/https://www.charlinesegala.fr/index.php?page=2"
+    },
+    {
+      "label": "Site charlinesegala.fr, Noël Brillant archivé",
+      "url": "https://web.archive.org/web/20210224223343/https://www.charlinesegala.fr/index.php?page=10"
+    },
+    {
+      "label": "Site charlinesegala.fr, Nouveautés archivées (novembre 2021)",
+      "url": "https://web.archive.org/web/20211128110334/https://www.charlinesegala.fr/index.php?page=21"
+    },
+    {
+      "label": "Site charlinesegala.fr, Enfance archivée",
+      "url": "https://web.archive.org/web/20211017161902/https://www.charlinesegala.fr/index.php?page=18"
+    },
+    {
+      "label": "Site charlinesegala.fr, Au fil des saisons archivé",
+      "url": "https://web.archive.org/web/20211017162744/https://www.charlinesegala.fr/index.php?page=20"
+    },
+    {
+      "label": "Annuaire des entreprises, Charline Segala",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/417799582"
+    },
+    {
+      "label": "BnF, notice d'autorité Charline Segala",
+      "url": "https://data.bnf.fr/fr/ark:/12148/cb135011348"
+    },
+    {
+      "label": "Catalogue général de la BnF, ouvrages de Charline Segala",
+      "url": "https://catalogue.bnf.fr/rechercher.do?motRecherche=Charline+Segala"
+    },
+    {
+      "label": "Instagram @charlinesegala",
+      "url": "https://www.instagram.com/charlinesegala/"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. 1) Site : charlinesegala.fr ne résout plus (domaine introuvable le 2026-10-21). Les informations du site viennent des captures de la Wayback Machine (2021 à 2023, dernière capture en mars 2025). Les prix relevés datent de ces captures et peuvent avoir changé. Le site est peut-être seulement suspendu : à revérifier. 2) Identité légale : le nom et la ville des mentions légales (Charline Segala, Grasse) correspondent à l'entreprise individuelle SIREN 417799582 de l'annuaire des entreprises : créée le 1998-02-12, code NAF 90.03B, non employeuse, établissement de Grasse créé en 2002-04, début d'activité de cet établissement indiqué en 2015-02. Une autre entreprise individuelle au nom proche (« Les chemins de Charline ») existe, sans lien établi avec la brodeuse. 3) Finances : entreprise individuelle, pas de comptes publiés ; aucun chiffre d'affaires trouvé dans la presse. 4) Audience : le compte Instagram @charlinesegala et une page Facebook (charline.segalarosso) sont liés depuis son site, mais le nombre d'abonnés n'a pas pu être lu (Instagram non lisible sans connexion). Pas de boutique Etsy trouvée. 5) Meilleures ventes : aucune donnée publique (ni avis ni classement sur son site ou chez Atelier 196), donc aucun produit n'est marqué best-seller. L'ordre des produits suit leur mise en avant chez Atelier 196. 6) Date du partenariat avec Atelier 196 non trouvée ; la palette florale renvoie à la collection de soies Au Ver à Soie 2020, ce qui suggère 2020 ou après, sans confirmation. 7) Presse : Atelier 196 parle de parutions en magazine, mais aucun article précis n'a été trouvé. Les salons, hors Noisay 2022, ne sont pas connus. 8) Pas d'image : à ajouter ensuite."
+}

@@ -1,0 +1,273 @@
+{
+  "name": "Atelier 196 (Once upon une fois)",
+  "country": "France",
+  "city": "Courbevoie",
+  "region": "Île-de-France",
+  "foundedDate": "2015-02-09",
+  "closedDate": "",
+  "founders": [
+    "Maria Bry"
+  ],
+  "legalName": "Once upon une fois",
+  "legalForm": "SAS",
+  "registrationId": "809477169",
+  "offers": [
+    "Kits de broderie",
+    "Grilles seules",
+    "Mercerie",
+    "Calendrier de l'Avent",
+    "Abonnement de fils",
+    "Kits sous licence pour musées",
+    "Vente aux professionnels",
+    "Ateliers"
+  ],
+  "styles": [
+    "Botanique",
+    "Herbier",
+    "Haute couture",
+    "Patrimoine et musées",
+    "Parisien",
+    "Japonisant"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie en soie",
+    "Broderie sur tulle",
+    "Broderie au fil métallisé et perles",
+    "Broderie sur cyanotype",
+    "Aquarelle et broderie",
+    "Point de croix"
+  ],
+  "threads": [
+    "Au Ver à Soie Soie d'Alger",
+    "Au Ver à Soie Soie surfine",
+    "Au Ver à Soie métallisé (tressé 4)",
+    "Au Ver à Soie laine Fine d'Aubusson",
+    "Au Ver à Soie tresse de soie"
+  ],
+  "fabrics": [
+    "Lin italien Graziano",
+    "Coton",
+    "Chambray denim",
+    "Toile noire",
+    "Tulle",
+    "Lin Graziano cyanotypé"
+  ],
+  "salesChannels": [
+    "Site en propre (atelier196.com)",
+    "Vente aux professionnels sur devis",
+    "Boutiques de musées (kits sous licence)",
+    "Événements et ateliers"
+  ],
+  "priceRange": "Mini kits de 12 à 14 €, trios et kits tulle à 17 €, kits musées de 18 à 29 €, calendrier de l'Avent soie à 45 €, grilles seules à 3 €, coupons cyanotype à 12 €",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Mini herbier : le mimosa",
+      "format": "kit",
+      "price": "12 € sans tambour, 14 € avec tambour",
+      "bestseller": false,
+      "description": "Pack de fils Au Ver à Soie, coupon de lin Graziano, aiguille à broder, mini livret d'instructions, tambour bambou de 8 cm en option. Broderie finie d'environ 7,8 cm, boîte kraft d'environ 12 x 12 cm. La gamme mini herbier compte aussi lavande, pavot, fuchsia, gui et double chance.",
+      "url": "https://atelier196.com/mini-herbier-le-mimosa-c2x34434866",
+      "imageUrl": ""
+    },
+    {
+      "title": "Trio de pissenlits dorés",
+      "format": "kit",
+      "price": "17 €",
+      "bestseller": false,
+      "description": "Kit de trois modèles pour tambour de 10 cm, en soie d'Alger et métallisé Au Ver à Soie sur toile noire. Selon le catalogue 2026, les trios comprennent un livret français et anglais, les dessins imprimés sur support hydrosoluble, le tissu, les fils et une aiguille Bohin, avec ou sans tambour bambou.",
+      "url": "https://atelier196.com/04-trio-de-pissenlits-dores-c2x28607692",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fleur sur tulle version bleue nuit",
+      "format": "kit",
+      "price": "17 €",
+      "bestseller": false,
+      "description": "Fleur dessinée par Atelier Lua, brodée en soie d'Alger Au Ver à Soie et perles sur tulle. Tambour indispensable, vendu à part (bambou 13 ou 15 cm). Existe aussi en or et en lilas.",
+      "url": "https://atelier196.com/04-fleur-sur-tulle-version-bleue-nuit-c2x30658029",
+      "imageUrl": ""
+    },
+    {
+      "title": "Plume de paon",
+      "format": "kit",
+      "price": "17 €",
+      "bestseller": false,
+      "description": "Modèle d'Atelier Lua en soie d'Alger, laine d'Aubusson et fil métallisé Au Ver à Soie, pour tambour de 15 cm ou montage sur cadre.",
+      "url": "https://atelier196.com/07-plume-de-paon-c2x30657945",
+      "imageUrl": ""
+    },
+    {
+      "title": "Grand herbier : brin de mimosa",
+      "format": "kit",
+      "price": "3 € la grille, 10,80 € les fils, 13,80 € les deux",
+      "bestseller": false,
+      "description": "Grand modèle en soie d'Alger au point de nœud, environ 19,5 x 9,6 cm. La gamme compte aussi l'épi de blé et l'olivier (soie d'Alger et métallisé tressé 4).",
+      "url": "https://atelier196.com/03-brin-de-mimosa-c2x31481475",
+      "imageUrl": ""
+    },
+    {
+      "title": "Avent soie Alger et métallisé Au Ver à Soie 2026, 7e édition",
+      "format": "box",
+      "price": "45 €",
+      "bestseller": false,
+      "description": "Calendrier de l'Avent en édition limitée et en précommande : 20 jours de soie d'Alger, 4 dimanches en métallisé et un cadeau exclusif le 25e jour. Thèmes et couleurs non dévoilés. Doit être commandé seul.",
+      "url": "https://atelier196.com/avent-soie-alger-et-metallise-au-ver-a-soie-2026-7eme-edition-c2x42901827",
+      "imageUrl": ""
+    },
+    {
+      "title": "Van Gogh 2025, collaboration avec le Van Gogh Museum",
+      "format": "kit",
+      "price": "22,95 €",
+      "bestseller": false,
+      "description": "Trois modèles exclusifs créés en collaboration avec le Van Gogh Museum d'Amsterdam.",
+      "url": "https://atelier196.com/van-gogh-2025-collaboration-avec-le-van-gogh-museum-c2x42345003",
+      "imageUrl": ""
+    },
+    {
+      "title": "Toile de Jouy, collaboration avec le Musée de la Toile de Jouy",
+      "format": "kit",
+      "price": "29 €",
+      "bestseller": false,
+      "description": "Modèles exclusifs en édition limitée créés pour le Musée de la Toile de Jouy.",
+      "url": "https://atelier196.com/toile-de-jouy-collaboration-avec-le-musee-de-la-toile-de-jouy-c2x42345020",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Bougainvillier, collaboration MHAB et illustration Lapin",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Kit en soie créé avec le Musée d'Histoire et d'Art de Bormes-les-Mimosas, d'après une illustration de Lapin.",
+      "url": "https://atelier196.com/5-le-bougainvillier-kit-en-soie-collaboration-avec-mhab-illustration-lapin-c2x42228523",
+      "imageUrl": ""
+    },
+    {
+      "title": "Coupons cyanotype à broder 09 à 12",
+      "format": "autre",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Coupon unique de lin Graziano 24 fils teint et cyanotypé à la main, environ 18 à 20 cm de côté. Fils non mentionnés comme inclus.",
+      "url": "https://atelier196.com/coupons-cyanotype-a-broder-09-a-12-c2x38621776",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Atelier196.com est la boutique en ligne de la SAS Once upon une fois, à Courbevoie, qui revend les fils de soie Au Ver à Soie et édite ses propres kits de broderie en soie d'Alger et métallisé. Elle conçoit aussi des kits sous licence pour des musées en France et aux Pays-Bas.",
+  "history": "La société Once upon une fois est une SAS immatriculée le 9 février 2015 à Nanterre, au capital de 5 000 €, avec son siège au 32 rue Franklin à Courbevoie. Maria Bry en est la présidente depuis février 2015. Son code d'activité déclaré est le conseil pour les affaires (7022Z), et non le commerce de mercerie.\n\nLa boutique atelier196.com vend sous la marque Once upon une fois, que l'on retrouve sur Instagram (@onceuponunefois), Facebook et Pinterest (atelier196). Le site se présente comme un lieu pour « alimenter votre créativité ..un fil à la fois ». Il revend une large gamme Au Ver à Soie (soies, métallisés, laine Fine d'Aubusson, abonnement de fils) et des créations de partenaires comme Atelier Lua, Atelier By Martine, Julie Jolis Songes, GINA&Cie, Motifs et Couleurs ou Oiseau Lune.\n\nLes kits maison sont rangés en gammes numérotées : trios, mini herbiers (nés selon le site d'un mur herbier réalisé en mars 2019), grands herbiers, broderie sur tulle et plume de paon, mini kits voyage, défis créatifs, motifs sur Solufix. S'y ajoutent une collection aquarelle avec La Nouvelle Vague Couleurs, une collection couture et des coupons de lin cyanotypé.\n\nLa marque travaille avec des musées, souvent via la société ARTEUM : Musée des Arts décoratifs (Poiret, la mode royale, le 18e siècle), Petit Palais (exposition Worth), Musée Matisse de Nice, musée du quai Branly (Mexica, Amazonia), Musée de la Toile de Jouy, Van Gogh Museum et Amsterdam Tulip Museum. Elle a aussi une licence Heritage Claude Monet.\n\nEn 2026, elle publie un catalogue professionnel bilingue de kits en soie, vendus sans minimum de commande, avec création de kits personnalisés sur devis. Elle anime des rendez-vous comme les Lundis de Soie et a organisé en 2023 l'événement La Pause dans le showroom parisien d'Au Ver à Soie. Son calendrier de l'Avent en soie en est à sa 7e édition en 2026.",
+  "positioning": "Une spécialiste de la soie Au Ver à Soie, à la fois revendeuse et éditrice de kits. Ses kits sont petits, à prix bas (12 à 17 € pour la plupart) et soignés : soie d'Alger, lin italien Graziano, aiguille Bohin, notice bilingue et dessin sur support hydrosoluble. Le style est botanique, couture et patrimonial, avec des touches parisiennes et japonisantes. Sa force principale est le réseau de licences avec les musées, qui la place dans les boutiques d'exposition et lui donne une image premium. Points faibles visibles : un site ancien sur une plateforme peu moderne, des prix souvent cachés derrière les déclinaisons, pas de best-sellers ni d'avis clients affichés, pas de boutique Etsy repérée, et une histoire de la marque peu racontée.",
+  "website": "https://www.atelier196.com",
+  "instagram": "https://www.instagram.com/onceuponunefois/",
+  "etsy": "",
+  "photoUrl": "https://www.atelier196.com/favicon.ico",
+  "timeline": [
+    {
+      "date": "2015-02-09",
+      "kind": "vie",
+      "label": "Immatriculation de la SAS Once upon une fois à Courbevoie"
+    },
+    {
+      "date": "2019-03",
+      "kind": "oeuvre",
+      "label": "Mur herbier à l'origine des kits mini herbiers"
+    },
+    {
+      "date": "2023-11-29",
+      "kind": "exposition",
+      "label": "La Pause, rendez-vous broderie au showroom Au Ver à Soie à Paris, jusqu'au 4 décembre"
+    },
+    {
+      "date": "2024",
+      "kind": "residence",
+      "label": "Kits souvenirs de l'exposition Mexica au musée du quai Branly et mini tulipes 2024 pour l'Amsterdam Tulip Museum"
+    },
+    {
+      "date": "2025",
+      "kind": "residence",
+      "label": "Kits Van Gogh 2025 avec le Van Gogh Museum"
+    },
+    {
+      "date": "2026",
+      "kind": "oeuvre",
+      "label": "Catalogue professionnel bilingue des kits en soie 2026"
+    },
+    {
+      "date": "2026",
+      "kind": "residence",
+      "label": "Kits Matisse ambiance couture avec ARTEUM pour l'exposition du Musée Matisse de Nice et licence Heritage Claude Monet"
+    },
+    {
+      "date": "2026",
+      "kind": "oeuvre",
+      "label": "7e édition du calendrier de l'Avent soie Au Ver à Soie"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Atelier196.com, page d'accueil",
+      "url": "https://www.atelier196.com"
+    },
+    {
+      "label": "Atelier196.com, kits Once upon une fois",
+      "url": "https://atelier196.com/a-kits-once-upon-une-fois-c102x3871759"
+    },
+    {
+      "label": "Atelier196.com, mini herbiers",
+      "url": "https://atelier196.com/02-les-mini-herbiers-c102x4304497"
+    },
+    {
+      "label": "Atelier196.com, mini herbier le mimosa",
+      "url": "https://atelier196.com/mini-herbier-le-mimosa-c2x34434866"
+    },
+    {
+      "label": "Atelier196.com, les trios",
+      "url": "https://atelier196.com/01-les-trios-c102x4304488"
+    },
+    {
+      "label": "Atelier196.com, grands herbiers",
+      "url": "https://atelier196.com/03-les-grands-herbiers-c102x4304496"
+    },
+    {
+      "label": "Atelier196.com, broderie sur tulle et plume de paon",
+      "url": "https://atelier196.com/04-broderie-sur-tulle-et-plume-de-paon-c102x4304493"
+    },
+    {
+      "label": "Atelier196.com, les musées",
+      "url": "https://atelier196.com/les-musees-c102x4357092"
+    },
+    {
+      "label": "Atelier196.com, boutique de Noël",
+      "url": "https://atelier196.com/boutique-de-noel-c102x4370836"
+    },
+    {
+      "label": "Atelier196.com, cyanotypes à broder",
+      "url": "https://atelier196.com/cyanotypes-a-broder-c102x4275285"
+    },
+    {
+      "label": "Atelier196.com, fournitures et accessoires",
+      "url": "https://atelier196.com/3-fournitures-customisation-et-accessoires-c102x193280"
+    },
+    {
+      "label": "Catalogue Kits de broderie en soie 2026 (PDF)",
+      "url": "https://cdn-assets.inwink.com/6dd59b35-9963-469e-b9c8-33798a85fc31/b6cfcba9-1faf-4595-ba99-6d57fd35494e"
+    },
+    {
+      "label": "Recherche d'entreprises, API data.gouv",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=once%20upon%20une%20fois"
+    },
+    {
+      "label": "Societe.com, Once upon une fois",
+      "url": "https://www.societe.com/societe/once-upon-une-fois-809477169.html"
+    },
+    {
+      "label": "Paris.fr, La Pause, rendez-vous autour de la broderie",
+      "url": "https://www.paris.fr/evenements/la-pause-rdv-autour-de-la-broderie-expo-cours-animations-ventes-rencontres-49968"
+    }
+  ],
+  "researchNotes": "Comptes déposés sous clause de confidentialité selon societe.com : chiffre d'affaires et résultat non publiés. Effectif non renseigné (tranche NN à l'INSEE). Pappers a refusé l'accès (erreur 403). Le registre nomme la présidente Maria Bry, avec aussi le nom Maria Magalhaes dans l'historique de societe.com ; rien ne confirme qu'elle soit la créatrice des kits, seulement qu'elle dirige la société depuis 2015. Le code NAF 7022Z (conseil) ne correspond pas à l'activité de vente actuelle. Le site parle de « plus de 20 ans », ce qui ne colle pas avec une société créée en 2015 : peut-être l'ancienneté de la fondatrice ou du site, à vérifier. Le nom Atelier 196 n'est pas expliqué. Aucune page « à propos » détaillée ni mentions légales lisibles (CGV en popup). La page « En savoir sur Atelier196.com » ne donne pas d'histoire. Pas de boutique Etsy trouvée. Aucun best-seller ni avis affichés sur le site : les produits ne sont pas classés par ventes, bestseller vaut false partout. Prix souvent masqués derrière les déclinaisons (Monet, Matisse, Arts décoratifs, Petit Palais non relevés). Nombre d'abonnés Instagram, Facebook et Pinterest non lisible le 2026-10-21. Le catalogue 2026 est hébergé sur inwink, plateforme de salons : le salon concerné n'est pas identifié. Pas de presse ni d'interview trouvée. Image non ajoutée, à faire ensuite (logo repéré sur le site : Files/20987/Img/10/logo-mai-2020.png)."
+}

@@ -1,0 +1,228 @@
+{
+  "name": "Hémiole",
+  "country": "France",
+  "city": "Cheylade",
+  "region": "Auvergne-Rhône-Alpes",
+  "foundedDate": "2011-02-28",
+  "closedDate": "",
+  "founders": [
+    "Bénédicte Meffre"
+  ],
+  "legalName": "Hémiole et le chas (Madame Bénédicte Meffre)",
+  "legalForm": "EI",
+  "registrationId": "530656362",
+  "offers": [
+    "Kits de broderie",
+    "Mercerie",
+    "Blog",
+    "Tutoriels vidéo"
+  ],
+  "styles": [
+    "Médiéval",
+    "Renaissance",
+    "Historique",
+    "Bestiaire",
+    "Cartes marines anciennes"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Point de Bayeux",
+    "Point de chaînette",
+    "Broderie à fils comptés",
+    "Broderie noire (blackwork)",
+    "Appliqué"
+  ],
+  "threads": [
+    "Au Ver à Soie, laine 32 m",
+    "Au Ver à Soie, soie ovale AVAS 30 m",
+    "Soie d'Alger (Au Ver à Soie)",
+    "DMC coton"
+  ],
+  "fabrics": [
+    "Lin tissé artisanalement, motif imprimé",
+    "Feutrine (appliqué)"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress, WooCommerce)"
+  ],
+  "priceRange": "Kits débutants de 10 à 18 €, kits de 25 à 70 € (octobre 2026)",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit de broderie médiévale : Le Jardin aux oiseaux",
+      "format": "kit",
+      "price": "70 €",
+      "bestseller": false,
+      "description": "Kit niveau avancé, le plus difficile de la collection Le Jardin Merveilleux, inspiré des broderies blanches allemandes de la fin du Moyen Âge et du Roman de la Rose. Toile de lin imprimée 30 x 30 cm, 6 bobines de soie ovale AVAS de 30 m, 2 aiguilles Bohin, livret de 28 pages, guide débutant de 20 pages. Broderie de 16 x 18 cm, dix points.",
+      "url": "https://www.hemiole.eu/produit/le-jardin-aux-oiseaux-kit-de-broderie-medievale/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie médiévale : Le Festin du dragon",
+      "format": "kit",
+      "price": "55 €",
+      "bestseller": false,
+      "description": "Niveau intermédiaire, librement inspiré des dragons du Moyen Âge. Toile de lin imprimée et feutrine jaune, 6 écheveaux de laine Au Ver à Soie de 32 m, 2 aiguilles Bohin, livret de 24 pages, guide débutant de 20 pages. Broderie de 18 x 18 cm, tambour de 25 cm non fourni.",
+      "url": "https://www.hemiole.eu/produit/kit-de-broderie-medievale-le-festin-du-dragon/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kikonès, kit de broderie de carte marine",
+      "format": "kit",
+      "price": "55 €",
+      "bestseller": false,
+      "description": "Mis en avant sur la page d'accueil. Inspiré des broderies du 17e siècle. Lin imprimé 30 x 30 cm, 5 écheveaux de laine Au Ver à Soie de 32 m, 3 aiguilles à broder et 1 aiguille à tapisserie Bohin, livret de 32 pages. Broderie de 21 x 21 cm, neuf points dont la couchure byzantine.",
+      "url": "https://www.hemiole.eu/produit/kikones-kit-de-broderie-de-carte-marine-2/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie médiévale : Le Gardien",
+      "format": "kit",
+      "price": "50 €",
+      "bestseller": false,
+      "description": "Mis en avant sur la page d'accueil. Motif d'après une enluminure de dragon.",
+      "url": "https://www.hemiole.eu/produit/kit-de-broderie-medievale-le-gardien/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie débutant : L'Or du dragon",
+      "format": "kit",
+      "price": "40 €",
+      "bestseller": false,
+      "description": "Mis en avant sur la page d'accueil. Dragon imprimé à l'encre dorée, fils vert, rouge et jaune.",
+      "url": "https://www.hemiole.eu/produit/kit-de-broderie-debutant-lor-du-dragon/",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Rose, kit de broderie médiévale",
+      "format": "kit",
+      "price": "45 €",
+      "bestseller": false,
+      "description": "Modèle de découverte de la broderie à fils comptés de la fin du Moyen Âge, d'après le Roman de la Rose. Lin imprimé 30 x 30 cm, 3 bobines de soie AVAS de 30 m, 2 aiguilles Bohin, livret de 16 pages, guide débutant de 20 pages. Broderie de 10 x 10 cm.",
+      "url": "https://www.hemiole.eu/produit/la-rose-kit-de-broderie-medievale/",
+      "imageUrl": ""
+    },
+    {
+      "title": "La veille du dragon, kit de broderie de Bayeux",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Dragon dans le style de la tapisserie de Bayeux (11e siècle), au point de tige et au point de Bayeux. Lin imprimé, 3 écheveaux de laine Au Ver à Soie de 32 m, 2 aiguilles Bohin, livret de 12 pages. Broderie de 12 x 11 cm.",
+      "url": "https://www.hemiole.eu/produit/la-veille-du-dragon-kit-de-broderie-de-bayeux/",
+      "imageUrl": ""
+    },
+    {
+      "title": "L'arbre de vie, kit de broderie noire de la Renaissance",
+      "format": "kit",
+      "price": "35 à 40 €",
+      "bestseller": false,
+      "description": "Figuier et arbre de vie inspirés des gravures de la Renaissance. Lin blanc 30 x 30 cm, 2 écheveaux au choix en coton DMC ou en soie d'Alger, aiguille Bohin, livret de 20 pages. Broderie de 20 x 20 cm.",
+      "url": "https://www.hemiole.eu/produit/larbre-de-vie-kit-de-broderie-noire-de-la-renaissance/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie débutant : Le Dragon",
+      "format": "kit",
+      "price": "10 à 18 €",
+      "bestseller": false,
+      "description": "Collection Le Bestiaire (dix animaux médiévaux). Petit dragon au point de chaînette. Lin imprimé, fiche d'explications et tirage couleur ; en option 2 écheveaux de laine Au Ver à Soie, aiguille Bohin et guide débutant de 20 pages.",
+      "url": "https://www.hemiole.eu/produit/kit-de-broderie-debutant-le-dragon/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Atelier du Cantal tenu par une costumière historique, qui vend des kits de broderie inspirés du Moyen Âge, de la Renaissance et du 17e siècle, sur lin imprimé avec laine ou soie Au Ver à Soie.",
+  "history": "Hémiole et le chas est l'entreprise individuelle de Bénédicte Meffre, immatriculée le 28 février 2011 à Cheylade, un petit village d'une vallée du Cantal. Elle a découvert la broderie pendant ses études, puis la reconstitution historique, et a brodé plusieurs années en loisir avant de s'installer.\n\nDe 2011, elle travaille d'abord comme costumière historique : vêtements du Moyen Âge au début du 20e siècle pour des particuliers, des châteaux, des expositions et des troupes de théâtre. L'activité déclarée au registre reste la fabrication de vêtements sur mesure (NAF 1413Z). Elle donne aussi des conférences et des ateliers sur la broderie et le textile historique, contribue à des livres et des magazines et tient un blog de recherche.\n\nLes kits de broderie sont venus ensuite, pour partager ses modèles. Ils sont rangés en collections, chacune liée à une époque et une technique : Le Bestiaire (point de chaînette), Le Jardin Merveilleux (fils comptés de la fin du Moyen Âge, d'après le Roman de la Rose), la broderie de Bayeux, la broderie noire de la Renaissance et des cartes marines inspirées du 17e siècle.\n\nEn octobre 2026, la boutique compte environ 27 références, de 10 à 70 €. Le blog est actif (article sur les points bouclés de la Renaissance le 14 octobre 2026) et la marque publie sur Instagram, YouTube, Twitch, Bluesky, Mastodon, Facebook et Pinterest.",
+  "positioning": "Une niche claire : la broderie historique documentée, médiévale et Renaissance, par une spécialiste du costume. Matériaux haut de gamme et français (laine et soie Au Ver à Soie, aiguilles Bohin, lin tissé artisanalement avec motif imprimé), livrets très détaillés de 12 à 32 pages et guide débutant, avec la promesse que l'on peut broder sans connaître les points. Le tambour et les ciseaux sont vendus à part pour garder des prix plus bas. Clientèle visée : brodeuses curieuses d'histoire, reconstitutrices, amatrices de bestiaires et d'enluminures. Points faibles visibles : site en français seulement, aucun avis client sur les fiches produits, pas de boutique Etsy ni de revendeurs repérés, structure individuelle dans un village isolé (délais Mondial Relay signalés dans la FAQ).",
+  "website": "https://www.hemiole.eu/",
+  "instagram": "https://www.instagram.com/hemiole_/",
+  "etsy": "",
+  "photoUrl": "https://www.hemiole.eu/broderie/wp-content/uploads/2026/04/cropped-logo-com-180x180.png",
+  "timeline": [
+    {
+      "date": "2011-02-28",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle Hémiole et le chas à Cheylade (Cantal), d'abord comme costumière historique"
+    },
+    {
+      "date": "2026-04",
+      "kind": "oeuvre",
+      "label": "Mise en ligne de la boutique actuelle avec les collections Le Bestiaire, Le Jardin Merveilleux et les cartes marines (date tirée des images du site)"
+    },
+    {
+      "date": "2026-10-14",
+      "kind": "autre",
+      "label": "Article de blog sur les points bouclés dans la broderie de la Renaissance"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Hémiole, accueil",
+      "url": "https://www.hemiole.eu/"
+    },
+    {
+      "label": "Hémiole, Qui est Hémiole ?",
+      "url": "https://www.hemiole.eu/page-a-propos/"
+    },
+    {
+      "label": "Hémiole, Ma démarche (kits de broderie historique)",
+      "url": "https://www.hemiole.eu/des-kits-de-broderie-historique/"
+    },
+    {
+      "label": "Hémiole, boutique",
+      "url": "https://www.hemiole.eu/boutique/"
+    },
+    {
+      "label": "Hémiole, FAQ",
+      "url": "https://www.hemiole.eu/faq/"
+    },
+    {
+      "label": "Hémiole, mentions légales",
+      "url": "https://www.hemiole.eu/mentions-legales/"
+    },
+    {
+      "label": "Hémiole, conditions générales de vente",
+      "url": "https://www.hemiole.eu/conditions-generales-de-vente/"
+    },
+    {
+      "label": "Kit Le Festin du dragon",
+      "url": "https://www.hemiole.eu/produit/kit-de-broderie-medievale-le-festin-du-dragon/"
+    },
+    {
+      "label": "Kit La veille du dragon",
+      "url": "https://www.hemiole.eu/produit/la-veille-du-dragon-kit-de-broderie-de-bayeux/"
+    },
+    {
+      "label": "Kit Le Jardin aux oiseaux",
+      "url": "https://www.hemiole.eu/produit/le-jardin-aux-oiseaux-kit-de-broderie-medievale/"
+    },
+    {
+      "label": "Kit La Rose",
+      "url": "https://www.hemiole.eu/produit/la-rose-kit-de-broderie-medievale/"
+    },
+    {
+      "label": "Kit débutant Le Dragon",
+      "url": "https://www.hemiole.eu/produit/kit-de-broderie-debutant-le-dragon/"
+    },
+    {
+      "label": "Kit Kikonès",
+      "url": "https://www.hemiole.eu/produit/kikones-kit-de-broderie-de-carte-marine-2/"
+    },
+    {
+      "label": "Kit L'arbre de vie",
+      "url": "https://www.hemiole.eu/produit/larbre-de-vie-kit-de-broderie-noire-de-la-renaissance/"
+    },
+    {
+      "label": "Societe.com, Hémiole et le chas",
+      "url": "https://www.societe.com/societe/meffre-benedicte-530656362.html"
+    },
+    {
+      "label": "Instagram @hemiole_",
+      "url": "https://www.instagram.com/hemiole_/"
+    }
+  ],
+  "researchNotes": "Nom : la demande parlait de « Heliole ». Aucune marque de ce nom n'a été trouvée (heliole.fr n'existe pas, heliole.com est vide). La marque qui correspond à l'indice (kits de broderie médiévale, fils de soie) est Hémiole, nom commercial « Hémiole et le chas ». À confirmer avec Émilie, et renommer le fichier en hemiole.json si besoin.\n\nEntreprise : entreprise individuelle, nom commercial Hémiole et le chas, SIREN 530656362 (SIRET 53065636200015 dans les mentions légales), créée le 28 février 2011 selon Societe.com, active, code NAF 1413Z. Pas de comptes publiés : le chiffre d'affaires n'est pas disponible. Pappers a refusé l'accès (403) et la page de l'annuaire des entreprises n'a rien renvoyé. Régime micro ou réel non confirmé (les CGV parlent de prix TTC).\n\nMeilleures ventes : la boutique propose un tri par popularité mais aucun produit n'est marqué best-seller et aucune fiche lue n'a d'avis client. Les trois produits mis en avant sur l'accueil sont Kikonès, L'Or du dragon et Le Gardien. Le compteur de la boutique annonce 27 résultats, 20 lus. Fiches Le Gardien et L'Or du dragon non ouvertes en détail. Kit Tempus Fugit (25 à 28 €) non détaillé.\n\nAudiences non relevées sur une page lue : un résultat de recherche donnait environ 9386 abonnés Instagram et 680 publications, un autre environ 1400 abonnés Facebook et 425 sur Pinterest. Instagram, Facebook, Pinterest et YouTube n'ont pas pu être lus directement, donc ces chiffres sont à vérifier. Autres réseaux listés sur le site : YouTube https://www.youtube.com/@hemioleetlechas4803, Twitch https://www.twitch.tv/hemiolelc, Bluesky https://bsky.app/profile/hemiole.bsky.social, Mastodon https://piaille.fr/@hemiole, Facebook https://www.facebook.com/Hemiole.et.le.Chas/, Pinterest https://www.pinterest.com/hemiole/.\n\nNon trouvé : boutique Etsy, revendeurs, presse ou interview, chiffres annoncés (kits vendus, clientes), date exacte de lancement des kits (les images du site datent d'avril et mai 2026, ce qui peut venir d'une refonte). Le domaine hemiole.com existe aussi (certificat invalide). Ne pas confondre avec l'Ensemble Vocal Hémiole (hemiole.fr), une chorale de Mérignac."
+}

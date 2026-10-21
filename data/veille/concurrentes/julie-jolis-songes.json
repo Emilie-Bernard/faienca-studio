@@ -1,0 +1,292 @@
+{
+  "name": "Julie Jolis Songes",
+  "country": "France",
+  "city": "",
+  "region": "",
+  "foundedDate": "2020",
+  "closedDate": "",
+  "founders": [
+    "Julie"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Patrons PDF",
+    "Livrets",
+    "Packs de fils",
+    "Livres",
+    "Ateliers",
+    "Défis broderie gratuits"
+  ],
+  "styles": [
+    "Botanique",
+    "Végétal",
+    "Nature",
+    "Noël",
+    "Folk",
+    "Lettrage calligraphié"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie libre",
+    "Couture"
+  ],
+  "threads": [
+    "Au Ver à Soie Soie d'Alger",
+    "Au Ver à Soie Laine d'Aubusson (laine fine)",
+    "Au Ver à Soie Tressé métallisé n° 4"
+  ],
+  "fabrics": [
+    "Lin crème",
+    "Lin grège (greggio)"
+  ],
+  "salesChannels": [
+    "Atelier 196 (boutique revendeuse, collaboration exclusive)",
+    "Librairies (éditions CréaPassions)",
+    "Blog Canalblog (motifs gratuits)",
+    "Instagram (défis et tutoriels vidéo)",
+    "Salons",
+    "Ateliers en boutique"
+  ],
+  "priceRange": "Modèles seuls 5 €, livrets La Petite Aiguillée 8 € (numérique) ou 10 € (papier), packs de fils Défi Broderie de 11 à 37 €, livres de 15 à 21 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Livret La Petite Aiguillée, volume 1",
+      "format": "livre",
+      "price": "10 €",
+      "bestseller": false,
+      "description": "Livret A5 de 24 pages mêlant couture et broderie : 2 tutoriels de pochons à coulisse, 14 motifs dont 8 sur le thème hiver et Noël (imprimés sur feuilles A4 au recto), 8 grands mots calligraphiés et un alphabet, un mémo des points et une recette. Fils conseillés : pack soie d'Alger du Défi 6 (20 € en coupes, 35 € en échevettes), coupon de lin 25 x 35 cm à 3 €.",
+      "url": "https://www.atelier196.com/01-livret-la-petite-aiguillee-volume-1-de-julie-jolis-songes-c2x39463384",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livret La Petite Aiguillée, volume 2",
+      "format": "livre",
+      "price": "10 €",
+      "bestseller": false,
+      "description": "Livret A5 consacré à Noël, 23 modèles d'inspiration folk, moderne ou traditionnelle : 1 tutoriel pour broder 3 motifs sur papier, 4 petits motifs expliqués, 2 grands motifs avec indications de points, 14 mini-motifs libres, 12 mots calligraphiés, un mémo des points et une recette. Fils conseillés : pack soie d'Alger du Défi 6.",
+      "url": "https://www.atelier196.com/01-livret-la-petite-aiguillee-volume-2-de-julie-jolis-songes-c2x41463861",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livret La Petite Aiguillée, volume 1, version digitale",
+      "format": "pdf",
+      "price": "8 €",
+      "bestseller": false,
+      "description": "Version numérique du volume 1 (couture et broderie, débutantes et confirmées).",
+      "url": "https://www.atelier196.com/01-livret-la-petite-aiguillee-version-digitale-volume-1-de-julie-jolis-songes-c2x41455298",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livret La Petite Aiguillée, volume 2, version digitale",
+      "format": "pdf",
+      "price": "8 €",
+      "bestseller": false,
+      "description": "Version numérique du volume 2 (23 modèles de Noël, mots calligraphiés, mémo des points, recette).",
+      "url": "https://www.atelier196.com/01-livret-la-petite-aiguillee-version-digitale-volume-2-de-julie-jolis-songes-c2x41455301",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack Défi Broderie 12 Le Bel Automne",
+      "format": "autre",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Pack de fils pour le 12e défi (un arbre et des motifs d'automne), en deux versions de feuillage (rouge, ou vert et jaune) : 1 cartonnette de 5 couleurs de soie d'Alger pour l'arbre et les petits motifs, 1 cartonnette de 5 couleurs de soie d'Alger pour le feuillage, 1 bobine de tressé 4 métallisé. Lin crème en option à 4 €. Le motif est partagé par Julie sur son blog et Instagram, il n'est pas listé dans le pack.",
+      "url": "https://www.atelier196.com/02-defi-broderie-12-le-bel-automne-pack-julie-jolis-songes-c2x41302857",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack Défi Broderie 11 A Cup of Nature",
+      "format": "autre",
+      "price": "11 à 37 €",
+      "bestseller": false,
+      "description": "Trois versions sur cartonnette exclusive, avec tressé TR4 Au Ver à Soie : 9 couleurs de laine fine d'Aubusson (19 €), 9 couleurs de soie d'Alger en coupes (11 €) ou en échevettes (37 €). Lin crème (3 €) et tambour de 20 cm (6 €) en option.",
+      "url": "https://www.atelier196.com/pack-julie-jolis-songes-defi-broderie-11-a-cup-of-nature-c2x40939073",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack Défi Broderie 10 Les Beaux Jours",
+      "format": "autre",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "9 couleurs de soie d'Alger sur cartonnette et du fil tressé 4.",
+      "url": "https://www.atelier196.com/pack-julie-jolis-songes-defi-broderie-10-les-beaux-jours-c2x39820432",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack Défi Broderie 8 Little Bird",
+      "format": "autre",
+      "price": "12 à 31 €",
+      "bestseller": false,
+      "description": "8 couleurs, avec bobine de métallisé et cartonnette de rangement : laines d'Aubusson Au Ver à Soie en échevettes de 8 m (15 €), soie d'Alger en échevettes de 5 m à 7 brins (31 €) ou en coupes de 1 m (12 €).",
+      "url": "https://www.atelier196.com/pack-julie-jolis-songes-defi-broderie-8-little-bird-c2x37273656",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Chat Zen",
+      "format": "pdf",
+      "price": "5 €",
+      "bestseller": false,
+      "description": "Dessin exclusif avec indications de points, environ 21 x 16 cm brodé. Pack soie d'Alger (9 € selon la description) ou pack laine d'Aubusson (11 €), chacun avec cartonnette exclusive et bobine de métallisé tressé n° 4. Lin crème ou greggio à 3 €. Support du modèle (papier ou fichier) non précisé.",
+      "url": "https://www.atelier196.com/02-le-chat-zen-de-julie-jolis-songes-c2x40556774",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Papillon Végétal",
+      "format": "pdf",
+      "price": "5 €",
+      "bestseller": false,
+      "description": "Dessin exclusif avec indications de points, environ 21 x 16 cm brodé. Pack soie d'Alger (16 €) ou pack de 8 échevettes de laine d'Aubusson (16 €), avec cartonnette exclusive et bobine de métallisé tressé 4. Lin crème ou greggio à 3 €. Support du modèle non précisé.",
+      "url": "https://www.atelier196.com/03-le-papillon-vegetal-de-julie-jolis-songes-c2x39463415",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broder à la main (CréaPassions)",
+      "format": "livre",
+      "price": "à partir de 16,45 € (Amazon)",
+      "bestseller": false,
+      "description": "Livre relié de 187 pages paru le 4 mars 2021 chez CréaPassions. Noté 4,8 sur 5 sur Amazon (65 avis).",
+      "url": "https://www.amazon.fr/Broder-main-Julie-Jolis-songes/dp/2814106171",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie (Les essentiels CréaPassions)",
+      "format": "livre",
+      "price": "15 €",
+      "bestseller": false,
+      "description": "Guide d'initiation broché de 127 pages, paru le 3 octobre 2024 : matériel, techniques de base, points essentiels, neuf dessins expliqués pas à pas, plus de 200 photos.",
+      "url": "https://www.mollat.com/livres/3224729/julie-jolis-songes-broderie",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Brodeuse et dessinatrice française connue pour ses défis broderie gratuits sur Instagram et son blog. Elle vit de son style végétal grâce à ses livres chez CréaPassions et à une collaboration exclusive avec Atelier 196, qui vend ses livrets La Petite Aiguillée, ses modèles et les packs de fils de ses défis en soie d'Alger et laine d'Aubusson.",
+  "history": "Julie, qui signe Jolis Songes (et Berilune sur son blog Canalblog), a commencé par la couture, la création de bijoux et l'art du papier. Selon la présentation de son premier livre, elle s'est mise à la broderie avec une première couronne végétale qu'elle avait dessinée, puis a poursuivi, encouragée par les abonnées de son compte Instagram.\n\nElle lance rapidement des défis broderie : un motif offert, brodé par étapes et partagé avec un mot-dièse. Le cinquième défi (#defibroderiejs5) est lancé fin février 2020, juste avant le confinement, et une blogueuse souligne qu'elle met ses dessins à disposition gratuitement. Le douzième défi, Le Bel Automne, date d'octobre 2024.\n\nEn mars 2021 paraît son premier livre, Broder à la main, chez CréaPassions. Suivent le coffret Merveilleuse nature à broder (20 projets, 12 points) et, en octobre 2024, le guide Broderie dans la collection Les essentiels CréaPassions.\n\nSon travail commercial passe surtout par Atelier 196, boutique en ligne qui la range dans ses collaborations exclusives : livrets La Petite Aiguillée (couture et broderie, deux volumes), modèles seuls à 5 € et packs de fils Au Ver à Soie pour chaque défi. Elle anime aussi des ateliers, par exemple une initiation aux points de base à Paris en juillet 2023, et participe à des salons.\n\nAujourd'hui, son blog continue de proposer des motifs gratuits à télécharger (Coeur végétal, Délicat papillon, Dahlia) et des projets collectifs comme Les mots doux à l'été 2025, avec des tutoriels vidéo sur Instagram.",
+  "positioning": "Style végétal et poétique, trait fin, motifs de nature, de saisons et de Noël, avec des mots calligraphiés. Elle vise les brodeuses débutantes et confirmées qui aiment la broderie traditionnelle en fils nobles (soie d'Alger, laine d'Aubusson, métallisé) plutôt que le coton mouliné. Force : une communauté fidèle construite par des défis gratuits, et un modèle économique léger où le revendeur porte le stock de fils. Points faibles visibles : pas de boutique en propre ni de kit complet (le tissu et le tambour sont des options, le motif des défis est séparé du pack), une présence commerciale qui dépend d'Atelier 196 et de son éditeur, et une accusation de plagiat rapportée par une blogueuse en 2022 sur un modèle de renard.",
+  "website": "https://jolissonges.canalblog.com",
+  "instagram": "https://www.instagram.com/julie_jolis_songes/",
+  "etsy": "",
+  "photoUrl": "https://profilepics.canalblog.com/profilepics/1/3/132129.jpg",
+  "timeline": [
+    {
+      "date": "2020-02",
+      "kind": "oeuvre",
+      "label": "Lancement du 5e défi broderie (#defibroderiejs5) sur Instagram et le blog"
+    },
+    {
+      "date": "2021-03-04",
+      "kind": "oeuvre",
+      "label": "Parution du livre Broder à la main chez CréaPassions"
+    },
+    {
+      "date": "2022-12",
+      "kind": "oeuvre",
+      "label": "Défi Instagram du renard (#creetonrenardjs)"
+    },
+    {
+      "date": "2023-07-11",
+      "kind": "autre",
+      "label": "Atelier d'initiation aux points de base chez Il était une fois Dix Doigts, Paris 15e"
+    },
+    {
+      "date": "2024-04",
+      "kind": "oeuvre",
+      "label": "Défi broderie 11 A Cup of Nature, pack de fils chez Atelier 196"
+    },
+    {
+      "date": "2024-10",
+      "kind": "oeuvre",
+      "label": "Défi broderie 12 Le Bel Automne"
+    },
+    {
+      "date": "2024-10-03",
+      "kind": "oeuvre",
+      "label": "Parution du guide Broderie (Les essentiels CréaPassions)"
+    },
+    {
+      "date": "2025-07",
+      "kind": "oeuvre",
+      "label": "Projet collectif Les mots doux et motif gratuit Coeur végétal"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Blog Jolis Songes (Canalblog)",
+      "url": "https://jolissonges.canalblog.com"
+    },
+    {
+      "label": "Atelier 196, Univers Julie Jolis Songes",
+      "url": "https://www.atelier196.com/univers-julie-jolis-songes-c102x4068000"
+    },
+    {
+      "label": "Atelier 196, page d'accueil (collaborations exclusives)",
+      "url": "https://www.atelier196.com"
+    },
+    {
+      "label": "Atelier 196, La Petite Aiguillée volume 1",
+      "url": "https://www.atelier196.com/01-livret-la-petite-aiguillee-volume-1-de-julie-jolis-songes-c2x39463384"
+    },
+    {
+      "label": "Atelier 196, La Petite Aiguillée volume 2",
+      "url": "https://www.atelier196.com/01-livret-la-petite-aiguillee-volume-2-de-julie-jolis-songes-c2x41463861"
+    },
+    {
+      "label": "Atelier 196, Défi Broderie 12 Le Bel Automne",
+      "url": "https://www.atelier196.com/02-defi-broderie-12-le-bel-automne-pack-julie-jolis-songes-c2x41302857"
+    },
+    {
+      "label": "Atelier 196, Défi Broderie 11 A Cup of Nature",
+      "url": "https://www.atelier196.com/pack-julie-jolis-songes-defi-broderie-11-a-cup-of-nature-c2x40939073"
+    },
+    {
+      "label": "Atelier 196, Défi Broderie 8 Little Bird",
+      "url": "https://www.atelier196.com/pack-julie-jolis-songes-defi-broderie-8-little-bird-c2x37273656"
+    },
+    {
+      "label": "Atelier 196, Le Chat Zen",
+      "url": "https://www.atelier196.com/02-le-chat-zen-de-julie-jolis-songes-c2x40556774"
+    },
+    {
+      "label": "Atelier 196, Le Papillon Végétal",
+      "url": "https://www.atelier196.com/03-le-papillon-vegetal-de-julie-jolis-songes-c2x39463415"
+    },
+    {
+      "label": "Amazon, Broder à la main",
+      "url": "https://www.amazon.fr/Broder-main-Julie-Jolis-songes/dp/2814106171"
+    },
+    {
+      "label": "Librairie Mollat, Broderie",
+      "url": "https://www.mollat.com/livres/3224729/julie-jolis-songes-broderie"
+    },
+    {
+      "label": "Calameo, extrait de Merveilleuse nature à broder",
+      "url": "https://www.calameo.com/books/00488485218632d175de6"
+    },
+    {
+      "label": "Billetweb, atelier broderie débutant du 11 juillet 2023",
+      "url": "https://www.billetweb.fr/broderie-debutant-julie-jolis-songes-0711"
+    },
+    {
+      "label": "Drine.B, défi broderie de Julie Jolis Songes (2020)",
+      "url": "https://drineb.canalblog.com/archives/2020/04/01/38153587.html"
+    },
+    {
+      "label": "Violine au fil des croix, Un si joli renard (2022)",
+      "url": "https://violine-aufildescroix.over-blog.com/2022/10/defi-creatif-un-joli-renard.html"
+    },
+    {
+      "label": "123 Flo bricole, Les mots doux (2025)",
+      "url": "https://123flobricole.fr/2025/07/20/les-mots-doux-broderie-jolis-songes/"
+    },
+    {
+      "label": "Annuaire des entreprises (API Recherche d'entreprises)",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=jolis%20songes"
+    }
+  ],
+  "researchNotes": "Recherche du 2026-10-21. Date de création : « 2020 » est une borne approximative (5e défi lancé en février 2020, premier livre en mars 2021). Le début réel de l'activité, sans doute vers 2019 vu le numéro du défi, et la date d'ouverture du blog n'ont pas été trouvés. Nom de famille non confirmé : un titre de fiche Cultura vu dans les résultats de recherche associe « Julie Barlé-Smitt » à Broder à la main, mais la page n'a pas pu être lue (403), donc rien n'est retenu. L'article de Drine.B (2020) la nomme aussi « Songes de Papier ». Statut juridique inconnu : aucune structure au nom de Julie n'a été trouvée. L'annuaire des entreprises ne renvoie qu'une entreprise individuelle au nom commercial Jolis Songes créée le 2020-04-01 en Ille-et-Vilaine, tenue par une autre personne, donc a priori sans lien. Pas de chiffre d'affaires publié. Ville et région inconnues (ateliers à Paris, ce qui ne prouve pas qu'elle y habite). Aucun chiffre d'abonnées lu : la page Instagram ne s'affiche pas sans connexion, à relever à la main. Pas de boutique Etsy trouvée. Atelier 196 n'indique pas de meilleures ventes, donc aucun produit n'est marqué bestseller. Prix des packs Défi 6, 7 et 9 non affichés sur la page catégorie. Merveilleuse nature à broder : coffret CréaPassions de 48 pages à 21 €, date de parution non trouvée. Le guide Broderie (2024) annonce neuf dessins chez Mollat, six sur d'autres fiches. Une seule source, un blog, rapporte l'accusation de plagiat de 2022 sur le renard, à prendre avec prudence. Images volontairement laissées vides, à ajouter ensuite."
+}

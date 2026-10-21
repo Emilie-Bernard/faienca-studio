@@ -1,0 +1,247 @@
+{
+  "name": "Gina&Cie",
+  "country": "France",
+  "city": "",
+  "region": "",
+  "foundedDate": "2013",
+  "closedDate": "",
+  "founders": [
+    "Mélanie Barbé-Arroyo"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Patrons PDF",
+    "Livres",
+    "Ateliers",
+    "Modèles gratuits",
+    "Packs de fils (via Atelier 196)"
+  ],
+  "styles": [
+    "Mots et lettrages",
+    "Sorcellerie et talismans",
+    "Ex-voto",
+    "Saisons",
+    "Gravures anciennes",
+    "Poétique"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur cartes"
+  ],
+  "threads": [
+    "Au Ver à Soie Soie d'Alger",
+    "Au Ver à Soie Laine fine d'Aubusson",
+    "Au Ver à Soie Tressé 4 et Tressé 8 (métallisé)"
+  ],
+  "fabrics": [],
+  "salesChannels": [
+    "Etsy (By Gina et Cie)",
+    "Atelier 196 (packs de fils exclusifs)",
+    "Éditeurs (Eyrolles, Rocky Nook)",
+    "Bundles numériques (Maison Bundle)",
+    "Blog et Instagram (modèles gratuits)"
+  ],
+  "priceRange": "Packs de fils Atelier 196 de 13 à 54 €, livres papier de 21 à 22 €, livre numérique à 16 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 54000,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/ginacie/"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Le Coeur Ex Voto de Gina&Cie",
+      "format": "autre",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Pack de fils Au Ver à Soie vendu par Atelier 196 pour le modèle gratuit Coeur Ex Voto : 4 fils de Soie d'Alger, 2 Tressé 4 métallisés et 4 échevettes de Laine fine d'Aubusson.",
+      "url": "https://www.atelier196.com/le-coeur-ex-voto-de-ginacie-c2x34416547",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le pack Sorcière ordinaire de Gina&Cie",
+      "format": "autre",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Pack Atelier 196 lié au livre Grimoire brodé d'une sorcière ordinaire : 6 Laines d'Aubusson, 6 fils de Soie d'Alger, 1 Tressé 4 métallisé et une cartonnette de rangement exclusive.",
+      "url": "https://www.atelier196.com/02-le-pack-sorciere-ordinaire-de-ginacie-c2x40345337",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie Tatouée, le pack",
+      "format": "autre",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Pack Atelier 196 pour le projet Broderie Tatouée de décembre 2023 : 3 fils de Soie d'Alger et une bobine de fil métallisé.",
+      "url": "https://www.atelier196.com/broderie-tatouee-le-pack-c2x40524735",
+      "imageUrl": ""
+    },
+    {
+      "title": "Les Fleurs Sauvages de Gina&Cie",
+      "format": "autre",
+      "price": "33 €",
+      "bestseller": false,
+      "description": "10 fils de Soie d'Alger Au Ver à Soie et une cartonnette de rangement, pour le projet #fleurssauvagesbyginacie.",
+      "url": "https://www.atelier196.com/01-les-fleurs-sauvages-de-ginacie-c2x39104989",
+      "imageUrl": ""
+    },
+    {
+      "title": "L'Automne de Gina&Cie",
+      "format": "autre",
+      "price": "13 à 28 €",
+      "bestseller": false,
+      "description": "Premier pack de la collaboration (septembre 2020). Pack de 7 échevettes de Soie d'Alger et un Tressé 4 (28 €) ou cartonnette de 2 m de chaque couleur et une bobine de Tressé 4 (13 €).",
+      "url": "https://www.atelier196.com/l-automne-de-ginacie-c2x33274918",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Printemps soyeux de Gina&Cie",
+      "format": "autre",
+      "price": "34 €",
+      "bestseller": false,
+      "description": "8 échevettes de 5 m de Soie d'Alger et 2 bobines de Tressé 4.",
+      "url": "https://www.atelier196.com/le-printemps-soyeux-de-ginacie-c2x34743804",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livre Cartes à broder, les packs fils",
+      "format": "autre",
+      "price": "32 à 54 €",
+      "bestseller": false,
+      "description": "Packs de fils pour les cartes du livre de Mélanie : Soie d'Alger, Laines d'Aubusson et Tressé 4. Pack échevettes 54 €, pack coupes 32 €. Le livre est indiqué épuisé depuis janvier 2025.",
+      "url": "https://www.atelier196.com/livre-cartes-a-broder-les-packs-fils-c2x41014240",
+      "imageUrl": ""
+    },
+    {
+      "title": "Grimoire brodé d'une sorcière ordinaire",
+      "format": "livre",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Livre Eyrolles paru le 2 mars 2023, 176 pages : une trentaine de broderies (talismans, porte-bonheur) dessinées par sept artistes. Indiqué indisponible chez Eyrolles. Numérique à 14,99 €.",
+      "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/grimoire-brode-d-une-sorciere-ordinaire-9782416006395/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mots brodés, 45 modèles à broder",
+      "format": "livre",
+      "price": "21 €",
+      "bestseller": false,
+      "description": "Livre Eyrolles paru le 8 avril 2021, 176 pages : 45 modèles autour des mots (phrases, messages, lettrages), avec 15 illustrateurs. Numérique à 14,99 €.",
+      "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/mots-brodes-9782416000355/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Au creux des mots",
+      "format": "livre",
+      "price": "16 €",
+      "bestseller": false,
+      "description": "Livre numérique sorti en septembre 2026 : 12 mots intraduisibles à broder et 12 motifs. Vendu d'abord dans le bundle Au coeur de l'Automne (22 € pour 27 livres), puis seul à 16 € sur sa boutique Etsy.",
+      "url": "https://ginacie.blogspot.com/2026/09/au-creux-des-mots-et-un-surprise-pour.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Gina&Cie est l'univers de broderie de Mélanie Barbé-Arroyo : blog depuis 2013, compte Instagram de 54 000 abonnées, trois livres papier et des modèles souvent gratuits, avec des packs de soies Au Ver à Soie vendus par Atelier 196.",
+  "history": "Gina&Cie est le nom sous lequel Mélanie Barbé-Arroyo partage ses broderies. Initiée enfant aux travaux d'aiguille (broderie, canevas, point de croix) par les femmes de sa famille, elle revient à la broderie après la naissance de son deuxième fils, selon sa biographie d'éditeur. Son blog ginacie.blogspot.com a des archives qui remontent à juin 2013.\n\nEn septembre 2020 commence sa collaboration avec Atelier 196 (Once upon une fois), revendeur des fils Au Ver à Soie, lors d'un atelier de broderie qu'elle anime au profit d'une association. Atelier 196 compose depuis des packs de fils exclusifs pour ses modèles : Automne, Noël, Coeur ex-voto, Printemps soyeux, École des sorciers, Été, Fleurs sauvages, Sorcière ordinaire, Broderie tatouée.\n\nElle publie chez Eyrolles Mots brodés en avril 2021, puis Grimoire brodé d'une sorcière ordinaire en mars 2023, deux recueils écrits avec des illustratrices et illustrateurs invités. Un livre de cartes à broder suit, épuisé en janvier 2025, et sa version anglaise, Embroidery Notecards, paraît chez Rocky Nook en septembre 2025. Fin 2023, elle participe à la semaine broderie du showroom Au Ver à Soie à Paris.\n\nAujourd'hui, elle continue de publier des modèles gratuits sur son blog (Eclore, Dans nos valises en 2026), signe une couronne à broder gratuite pour Bohin et vend ses livres numériques sur sa boutique Etsy By Gina et Cie, dont Au creux des mots en septembre 2026.",
+  "positioning": "Une créatrice d'influence plus qu'une marque de kits : elle vit de l'audience (54 000 abonnées Instagram), des livres et des collaborations avec des marques de fournitures (Au Ver à Soie via Atelier 196, Bohin). Univers poétique et un peu ésotérique (mots, ex-voto, sorcières, talismans, gravures anciennes), broderie libre aux fils de soie et de laine haut de gamme. Force : notoriété, contenu gratuit abondant, crédibilité éditoriale. Points faibles visibles : pas de site marchand en propre, pas de kit complet avec tissu sous son nom, offre dispersée entre plusieurs revendeurs.",
+  "website": "https://ginacie.blogspot.com/",
+  "instagram": "https://www.instagram.com/ginacie/",
+  "etsy": "https://byginaetcie.etsy.com",
+  "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWN6KjwgAhqYYFTOSbzjKcQyiBguyGjdaN8Ez942xQv-ls0HVWds9qf9GgjBb2dYIWHXbKmdOmcX9NmuS0IoAwaNcDKtjs7SwSRSXfxnLGg1yiHGSaL4AA9wAHO6BaW-OHf1EjZrEp5pufxXoH8tJ4v9NMyUIVYnD6ZFnfmY1turvYyY4bXc32ypK46FDG/w1200-h630-p-k-no-nu/Au%20creux%20des%20mots%20Ginacie.png",
+  "timeline": [
+    {
+      "date": "2013-06",
+      "kind": "vie",
+      "label": "Premier article du blog Gina & Cie"
+    },
+    {
+      "date": "2020-09",
+      "kind": "residence",
+      "label": "Début de la collaboration avec Atelier 196 et le pack L'Automne en fils Au Ver à Soie"
+    },
+    {
+      "date": "2021-04-08",
+      "kind": "oeuvre",
+      "label": "Parution de Mots brodés chez Eyrolles"
+    },
+    {
+      "date": "2023-03-02",
+      "kind": "oeuvre",
+      "label": "Parution de Grimoire brodé d'une sorcière ordinaire chez Eyrolles"
+    },
+    {
+      "date": "2023-11-29",
+      "kind": "exposition",
+      "label": "Semaine broderie au showroom Au Ver à Soie, Paris 2e"
+    },
+    {
+      "date": "2023-12",
+      "kind": "oeuvre",
+      "label": "Projet Broderie tatouée et son pack de fils"
+    },
+    {
+      "date": "2025-09-01",
+      "kind": "oeuvre",
+      "label": "Embroidery Notecards chez Rocky Nook, version anglaise de son livre de cartes"
+    },
+    {
+      "date": "2026-09",
+      "kind": "oeuvre",
+      "label": "Livre numérique Au creux des mots"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Atelier 196, Univers Gina&Cie",
+      "url": "https://www.atelier196.com/univers-ginacie-c102x4082760"
+    },
+    {
+      "label": "Atelier 196, L'Automne de Gina&Cie",
+      "url": "https://www.atelier196.com/l-automne-de-ginacie-c2x33274918"
+    },
+    {
+      "label": "Atelier 196, Livre Cartes à broder, les packs fils",
+      "url": "https://www.atelier196.com/livre-cartes-a-broder-les-packs-fils-c2x41014240"
+    },
+    {
+      "label": "Blog Gina & Cie",
+      "url": "https://ginacie.blogspot.com/"
+    },
+    {
+      "label": "Blog Gina & Cie, Au creux des mots",
+      "url": "https://ginacie.blogspot.com/2026/09/au-creux-des-mots-et-un-surprise-pour.html"
+    },
+    {
+      "label": "Instagram @ginacie",
+      "url": "https://www.instagram.com/ginacie/"
+    },
+    {
+      "label": "Eyrolles, Mots brodés",
+      "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/mots-brodes-9782416000355/"
+    },
+    {
+      "label": "Eyrolles, Grimoire brodé d'une sorcière ordinaire",
+      "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/grimoire-brode-d-une-sorciere-ordinaire-9782416006395/"
+    },
+    {
+      "label": "NewSouth Books, Embroidery Notecards",
+      "url": "https://newsouthbooks.com.au/books/embroidery-notecards/"
+    },
+    {
+      "label": "Bohin, couronne à broder Bohin x Gina & Cie",
+      "url": "https://www.bohin.com/en/blogs/blog-bohin/une-couronne-a-broder-pour-celebrer-l-hiver-collaboration-bohin-x-gina-cie"
+    },
+    {
+      "label": "Paris.fr, La pause, rendez-vous autour de la broderie",
+      "url": "https://www.paris.fr/evenements/la-pause-rdv-autour-de-la-broderie-expo-cours-animations-ventes-rencontres-49968"
+    }
+  ],
+  "researchNotes": "Structure juridique non trouvée : aucune entreprise au nom de Gina et Cie ni de Barbé-Arroyo dans l'API recherche-entreprises (octobre 2026). Activité probablement exercée en nom propre ou micro-entreprise, sans comptes publiés ; aucun chiffre d'affaires connu. Ville et région non trouvées. La date de création 2013 correspond à la plus ancienne archive du blog, pas à une immatriculation. La boutique Etsy byginaetcie.etsy.com (citée sur le blog) n'a pas pu être lue (accès bloqué) : nombre de ventes, note, date d'ouverture et liste des PDF restent à relever. Aucun best-seller identifiable : les produits sont listés par ordre de pertinence avec l'indice fourni, pas par ventes. Le titre français exact, l'éditeur et la date du livre de cartes à broder (épuisé en janvier 2025 selon Atelier 196) ne sont pas confirmés ; Embroidery Notecards (Rocky Nook, 2025) semble en être la traduction. Prix d'Atelier 196 relevés en octobre 2026 ; les packs Noël (25 €), Été (28 €) et École des sorciers (34 €) existent aussi. Date de l'article Bohin non indiquée. Pas de YouTube, Pinterest ni TikTok trouvés."
+}

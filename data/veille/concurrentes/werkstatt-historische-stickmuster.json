@@ -1,0 +1,285 @@
+{
+  "name": "Werkstatt für Historische Stickmuster",
+  "country": "Allemagne",
+  "city": "Hamm",
+  "region": "Rhénanie-du-Nord-Westphalie",
+  "foundedDate": "2003",
+  "closedDate": "",
+  "founders": [
+    "Dorothee Kandzi",
+    "Ute Scheer"
+  ],
+  "legalName": "Werkstatt für historische Stickmuster",
+  "legalForm": "",
+  "registrationId": "USt-IdNr. DE273016852",
+  "offers": [
+    "Patrons papier",
+    "Patrons PDF",
+    "Kits de broderie",
+    "Mercerie",
+    "Application mobile",
+    "Ateliers",
+    "Vente en gros"
+  ],
+  "styles": [
+    "Historique",
+    "Samplers anciens",
+    "Quaker",
+    "Américain",
+    "Floral",
+    "Géométrique",
+    "Noël"
+  ],
+  "techniques": [
+    "Point de croix"
+  ],
+  "threads": [
+    "Au Ver à Soie Soie d'Alger",
+    "Au Ver à Soie Soie Gobelins",
+    "Au Ver à Soie Soie Perlée",
+    "Au Ver à Soie Soie de Paris",
+    "Au Ver à Soie Soie Surfine",
+    "Au Ver à Soie Soie Ovale",
+    "Au Ver à Soie Soie Chenille",
+    "Au Ver à Soie Soie 1003",
+    "Laine fine d'Aubusson"
+  ],
+  "fabrics": [
+    "Lin blanc 13 à 16 fils/cm (34 à 40 ct)",
+    "Lin Edinburgh vintage",
+    "Lin Newcastle vintage",
+    "Lin gris Graziano",
+    "Lin antique",
+    "Gaze de soie",
+    "Coton"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify)",
+    "Boutiques revendeuses (Atelier 196 en France, Fadenkreuz en Allemagne)",
+    "Application iOS Silk",
+    "Showroom",
+    "Salons et ateliers"
+  ],
+  "priceRange": "Patrons papier ou PDF de 10 à 17 €, kits avec lin et soie d'environ 50 à 150 € (selon le lin et la soie choisis)",
+  "languages": [
+    "Allemand",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Die Farben des Wassers (Les couleurs de l'eau)",
+      "format": "kit",
+      "price": "Patron ou PDF 11 €, kit avec lin et Soie d'Alger 62 à 70 €",
+      "bestseller": true,
+      "description": "Sampler floral en bleus et verts évoquant un monde sous-marin, 175 x 175 points de croix, par Dorothee Kandzi. Kit avec lin blanc (13 à 16 fils), Soie d'Alger et aiguille. Pack de soie seul à 45,10 €. Disponible aussi dans l'application Silk.",
+      "url": "https://www.historischestickmuster.de/en/products/die-farben-des-wassers-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Die Farben Venedigs (Les couleurs de Venise)",
+      "format": "kit",
+      "price": "Patron 11 €, kit jusqu'à 70,50 €",
+      "bestseller": true,
+      "description": "Sampler entièrement brodé aux motifs baroques et couleurs douces, 198 x 195 points de croix. Patron seul ou kit avec lin blanc, Soie d'Alger et aiguille.",
+      "url": "https://www.historischestickmuster.de/en/products/die-farben-venedigs-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Die Farben des Frühlings (Les couleurs du printemps)",
+      "format": "kit",
+      "price": "Patron 11 €, kit jusqu'à 65,50 €",
+      "bestseller": true,
+      "description": "Sampler floral avec motif de dentelle crème sur fond multicolore, 175 x 175 points de croix. Kit avec lin blanc, 12 échevettes de Soie d'Alger et aiguille.",
+      "url": "https://www.historischestickmuster.de/en/products/die-farben-des-fruehlings-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Winterwunderland",
+      "format": "kit",
+      "price": "Patron 13 €, kit jusqu'à 49 €",
+      "bestseller": true,
+      "description": "Sampler de Noël, motifs de fête sur dentelle crème, 186 x 195 points de croix. Kit avec lin écru, Soie d'Alger et aiguille. Revendu aussi par Atelier 196.",
+      "url": "https://www.historischestickmuster.de/en/products/winterwunderland-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Die Farben des Winters (Les couleurs de l'hiver)",
+      "format": "kit",
+      "price": "Patron ou PDF 11 €, kit jusqu'à 69,50 €",
+      "bestseller": true,
+      "description": "Sampler de la série des saisons, motifs de Noël et bleus froids, 173 x 173 points de croix. Kit avec lin blanc, Soie d'Alger et aiguille.",
+      "url": "https://www.historischestickmuster.de/en/products/farben-des-winters-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Meine kleine Stadt (My little town)",
+      "format": "kit",
+      "price": "Patron 12 €, kit jusqu'à 59,50 €",
+      "bestseller": true,
+      "description": "Sampler horizontal de 390 x 119 points, ouvert par l'alphabet quaker, issu de l'édition anniversaire des 20 ans de l'atelier (un nouveau modèle tous les deux mois). Kit avec lin antique 14 fils et Soie d'Alger.",
+      "url": "https://www.historischestickmuster.de/en/products/meine-kleine-stadt-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Quaker's Hometown",
+      "format": "kit",
+      "price": "Patron 14 €, kit jusqu'à 89,90 €",
+      "bestseller": true,
+      "description": "Sampler quaker avec l'alphabet quaker au centre, maisons de style colonial et octogones. Brodé sur lin gris 15 fils de la tisserie italienne Graziano, en Soie d'Alger.",
+      "url": "https://www.historischestickmuster.de/en/products/quaker-s-hometown-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "American Gardens",
+      "format": "kit",
+      "price": "Patron ou PDF 14 €, kit 115 €, fournitures sans patron 101 €",
+      "bestseller": true,
+      "description": "Maisons entourées de jardins, motif central des samplers américains, 241 x 241 points de croix, par Dorothee Kandzi. Kit avec lin blanc ou vintage (13,5 à 16 fils), 22 échevettes de Soie d'Alger et aiguille. Revendu par Atelier 196 (14 € le patron).",
+      "url": "https://www.historischestickmuster.de/en/products/american-gardens-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "American Homes",
+      "format": "kit",
+      "price": "Patron 14 €",
+      "bestseller": false,
+      "description": "Sampler de maisons américaines, 241 x 240 points de croix, lancé en 2020 et brodé en direct sur les réseaux sociaux. Patron seul ou avec lin et Soie d'Alger.",
+      "url": "https://www.historischestickmuster.de/en/products/american-homes-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Quaker's Pride",
+      "format": "kit",
+      "price": "Patron ou PDF 14 €, kit 66,50 € (Soie Gobelins) ou 78,50 € (Soie d'Alger)",
+      "bestseller": false,
+      "description": "Grand sampler quaker de 342 x 332 points, sur lin gris 14 à 16 fils, à broder en Soie d'Alger ou en Soie Gobelins. Revendu par Atelier 196.",
+      "url": "https://www.historischestickmuster.de/en/products/quakers-pride-stickvorlage-stickpackung",
+      "imageUrl": ""
+    },
+    {
+      "title": "Rhombus",
+      "format": "kit",
+      "price": "Patron 16 €, kit complet jusqu'à 149 €",
+      "bestseller": false,
+      "description": "Très grand sampler de 477 x 591 points, véritable répertoire de motifs. Kit avec patron et grande planche de motifs, lin blanc, 4 échevettes de 45 m de Soie d'Alger, aiguille et passe-partout de 14,5 x 20 cm.",
+      "url": "https://www.historischestickmuster.de/en/products/rhombus-stickvorlage-stickpackung",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Atelier allemand fondé en 2003 à Hamm par Dorothee Kandzi et Ute Scheer, qui édite des samplers au point de croix d'inspiration ancienne (quaker, américains, baroques) à broder en soie sur lin. C'est aussi le grossiste officiel des soies Au Ver à Soie pour l'Allemagne et le Benelux.",
+  "history": "La Werkstatt für Historische Stickmuster (atelier des modèles de broderie historiques) a été fondée en 2003 par Dorothee Kandzi et Ute Scheer, selon la page « À propos » du site. Elle est installée à Hamm, en Rhénanie-du-Nord-Westphalie, d'après les mentions légales.\n\nDorothee Kandzi est historienne et a longtemps travaillé dans un musée, où elle s'est prise de passion pour les samplers anciens. Son premier sampler brodé au coton manquait de finesse : jusqu'en 1825, les samplers étaient presque tous brodés en soie. Elle découvre la Soie d'Alger d'Au Ver à Soie dans une mercerie du nord de l'Allemagne, puis se rend au showroom parisien de la maison pour acheter toute la gamme de couleurs.\n\nSes ateliers et démonstrations dans les expositions amènent beaucoup de brodeuses à lui demander où trouver ces soies. La boutique naît de là, en 2004. L'atelier est aujourd'hui le grossiste officiel de tous les produits Au Ver à Soie pour l'Allemagne, les Pays-Bas, la Belgique et le Luxembourg.\n\nLe catalogue mêle des reproductions de samplers anciens et des créations qui adaptent les motifs anciens à des compositions et couleurs actuelles : séries « Die Farben » (les couleurs des saisons, de Venise, de l'eau), samplers quaker et américains, Noël. En 2020, l'atelier lance Silk, une application iOS qui affiche ses patrons et calcule la taille du lin. Pour ses 20 ans, il publie une édition anniversaire avec un nouveau modèle tous les deux mois.\n\nAujourd'hui, l'atelier vend en ligne (patrons papier, PDF, kits, soies, lins et accessoires), reçoit dans un showroom, participe à des salons et ateliers, et ses patrons sont revendus par des merceries comme Atelier 196 en France.",
+  "positioning": "Spécialiste très pointue du sampler historique brodé en soie pure sur lin fin, avec une caution d'historienne de musée. Clientèle de brodeuses expérimentées et passionnées de broderie ancienne, prêtes à payer des kits chers (souvent 60 à 150 €) à cause de la soie. Sa force est double : un catalogue de modèles reconnaissables et le contrôle de la distribution des soies Au Ver à Soie en Allemagne et au Benelux, ce qui la place aussi en fournisseuse des merceries. Points faibles visibles : peu de communication hors des réseaux, blog peu actif depuis 2022, application réservée à iOS, pas d'expédition vers les États-Unis pour le moment, site en allemand et anglais seulement.",
+  "website": "https://www.historischestickmuster.de",
+  "instagram": "https://www.instagram.com/historische_stickmuster/",
+  "etsy": "",
+  "photoUrl": "https://www.historischestickmuster.de/cdn/shop/files/HistorischeStickmuster-Historic-StitchingPatterns-Shop-removebg-preview_f55d7250-0213-4842-9fef-9dfd32353e54.png?height=628&pad_color=fff&v=1688398084&width=1200",
+  "timeline": [
+    {
+      "date": "2003",
+      "kind": "vie",
+      "label": "Création de l'atelier par Dorothee Kandzi et Ute Scheer"
+    },
+    {
+      "date": "2004",
+      "kind": "vie",
+      "label": "Ouverture de la boutique de soies, née des demandes reçues lors des ateliers et expositions"
+    },
+    {
+      "date": "2018-10",
+      "kind": "oeuvre",
+      "label": "Lancement du sampler Die Farben Venedigs"
+    },
+    {
+      "date": "2019-03",
+      "kind": "oeuvre",
+      "label": "Lancement du sampler Die Farben des Wassers"
+    },
+    {
+      "date": "2019-11",
+      "kind": "exposition",
+      "label": "Rencontre « Patchwork trifft Stickerei » au musée de la broderie d'Ennigerloh"
+    },
+    {
+      "date": "2020-05",
+      "kind": "oeuvre",
+      "label": "Lancement de l'application iOS Silk"
+    },
+    {
+      "date": "2020-06",
+      "kind": "oeuvre",
+      "label": "Lancement du sampler American Homes"
+    },
+    {
+      "date": "2021-03",
+      "kind": "oeuvre",
+      "label": "Lancement du sampler Quaker's Pride"
+    },
+    {
+      "date": "2022-11",
+      "kind": "oeuvre",
+      "label": "Spécial Noël 2022 et brode-ensemble (SAL) en quatre parties"
+    },
+    {
+      "date": "2024-01",
+      "kind": "oeuvre",
+      "label": "Meine kleine Stadt, dans l'édition anniversaire des 20 ans"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site officiel, accueil",
+      "url": "https://www.historischestickmuster.de/en"
+    },
+    {
+      "label": "Site officiel, à propos",
+      "url": "https://www.historischestickmuster.de/en/pages/ecmbt-about-us"
+    },
+    {
+      "label": "Site officiel, mentions légales (Impressum)",
+      "url": "https://www.historischestickmuster.de/pages/impressum"
+    },
+    {
+      "label": "Site officiel, page revendeurs et grossiste Au Ver à Soie",
+      "url": "https://www.historischestickmuster.de/en/pages/haendler-grosshandel-seidengarne"
+    },
+    {
+      "label": "Site officiel, tous les modèles triés par meilleures ventes",
+      "url": "https://www.historischestickmuster.de/en/collections/alle-stickmuster?sort_by=best-selling"
+    },
+    {
+      "label": "Blog, notre lien avec Au Ver à Soie (2022)",
+      "url": "https://www.historischestickmuster.de/en/blogs/news/erfahrt-mehr-uber-unsere-verbindung-mit-au-ver-a-soie"
+    },
+    {
+      "label": "Blog, lancement de l'application Silk (2020)",
+      "url": "https://www.historischestickmuster.de/en/blogs/news/welcome-to-silk-our-new-app"
+    },
+    {
+      "label": "Blog, liste des articles",
+      "url": "https://www.historischestickmuster.de/en/blogs/news"
+    },
+    {
+      "label": "Fiche American Gardens",
+      "url": "https://www.historischestickmuster.de/en/products/american-gardens-stickvorlage-stickpackung"
+    },
+    {
+      "label": "Fiche Die Farben des Wassers",
+      "url": "https://www.historischestickmuster.de/en/products/die-farben-des-wassers-stickvorlage-stickpackung"
+    },
+    {
+      "label": "Atelier 196, samplers Werkstatt für historische Stickmuster",
+      "url": "https://www.atelier196.com/samplers-point-de-croix-werkstatt-fur-historische-stickmuster-c102x3954260"
+    },
+    {
+      "label": "Fadenkreuz, page de la marque",
+      "url": "https://fadenkreuz-shop.de/de/134-werkstatt-fur-historische-stickmuster"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/historische_stickmuster/"
+    }
+  ],
+  "researchNotes": "Pays confirmé : Allemagne (Impressum, adresse à Hamm). Date de création : la page À propos dit 2003 et l'édition anniversaire des 20 ans paraît en 2023-2024 ; l'article de blog de 2022 date la boutique de 2004. Forme juridique non indiquée dans l'Impressum et aucun numéro de Handelsregister : probablement une entreprise individuelle ou une GbR, non inscrite au registre du commerce, donc sans comptes publiés. Aucun chiffre d'affaires, effectif ni chiffre de ventes trouvé. Dorothee Kandzi est la responsable éditoriale nommée dans l'Impressum. Nombre d'abonnés Instagram non lisible (page fermée aux robots) ; une page Facebook existe (https://www.facebook.com/stickmuster/), audience non relevée. Pas de boutique Etsy trouvée. Prix des kits lus dans les variantes de la boutique Shopify le 2026-10-21, ils varient selon le lin et la soie. L'ordre des produits suit le tri « meilleures ventes » du site (le premier, un patron gratuit, a été écarté) ; American Homes, Quaker's Pride et Rhombus viennent ensuite dans ce tri. Images non ajoutées, à compléter."
+}
