@@ -2,12 +2,11 @@ import { query, mutation, internalMutation } from './_generated/server';
 import { v, ConvexError } from 'convex/values';
 import type { Doc } from './_generated/dataModel';
 import { competitorFields } from './schema';
-import { requireTrainee } from './access';
+import { requireAdmin } from './access';
 import { competitorError, mergeCompetitor, nameKey, normalizeCompetitor, type CompetitorInput } from '../lib/veille';
 
-// Concurrentes de Faïença (kits de broderie, patrons PDF) en France et en Espagne, dans la Veille textile.
+// Concurrentes de Faïença (kits de broderie, patrons PDF) en France et en Espagne : réservé à l'atelier.
 
-const authorOf = (me: Awaited<ReturnType<typeof requireTrainee>>) => me.role === 'admin' ? 'L’atelier' : (me.user.name || me.user.email || 'Stagiaire');
 const newId = () => crypto.randomUUID();
 const fieldsOf = (c: Doc<'competitors'>): CompetitorInput => {
     const { _id, _creationTime, nameKey: _k, createdAt, updatedAt, authorName, ...rest } = c;
@@ -17,7 +16,7 @@ const fieldsOf = (c: Doc<'competitors'>): CompetitorInput => {
 
 export const list = query({
     args: {}, handler: async (ctx) => {
-        await requireTrainee(ctx);
+        await requireAdmin(ctx);
         const rows = await ctx.db.query('competitors').collect();
         return rows.sort((a, b) => a.name.localeCompare(b.name, 'fr')).map(c => {
             const latest = c.financials.find(f => f.revenue !== null) ?? null;
@@ -34,25 +33,25 @@ export const list = query({
 
 export const get = query({
     args: { id: v.id('competitors') }, handler: async (ctx, { id }) => {
-        await requireTrainee(ctx);
+        await requireAdmin(ctx);
         return await ctx.db.get(id);
     }
 });
 
 export const save = mutation({
     args: { id: v.optional(v.id('competitors')), data: v.object(competitorFields) }, handler: async (ctx, { id, data }) => {
-        const me = await requireTrainee(ctx);
+        await requireAdmin(ctx);
         const error = competitorError(data); if (error) throw new ConvexError(error);
         const key = nameKey(data.name), now = Date.now();
         const twin = await ctx.db.query('competitors').withIndex('by_nameKey', q => q.eq('nameKey', key)).first();
         if (twin && twin._id !== id) throw new ConvexError(`${twin.name} est déjà dans la liste.`);
         if (id) { await ctx.db.patch(id, { ...data, name: data.name.trim(), nameKey: key, updatedAt: now }); return id; }
-        return await ctx.db.insert('competitors', { ...data, name: data.name.trim(), nameKey: key, createdAt: now, updatedAt: now, authorName: authorOf(me) });
+        return await ctx.db.insert('competitors', { ...data, name: data.name.trim(), nameKey: key, createdAt: now, updatedAt: now, authorName: 'L’atelier' });
     }
 });
 
 export const remove = mutation({
-    args: { id: v.id('competitors') }, handler: async (ctx, { id }) => { await requireTrainee(ctx); await ctx.db.delete(id); }
+    args: { id: v.id('competitors') }, handler: async (ctx, { id }) => { await requireAdmin(ctx); await ctx.db.delete(id); }
 });
 
 /**

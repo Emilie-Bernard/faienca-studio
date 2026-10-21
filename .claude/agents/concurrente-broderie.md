@@ -1,10 +1,10 @@
 ---
 name: concurrente-broderie
-description: Recherche approfondie sur une marque concurrente de Faïença (kits de broderie, patrons PDF) en France ou en Espagne, et écriture de sa fiche en JSON pour la Veille textile du studio (data/veille/concurrentes/). À utiliser avec le nom de la marque, et un indice si on en a un (site, Instagram, ville).
+description: Recherche approfondie sur une marque concurrente de Faïença (kits de broderie, patrons PDF) en France ou en Espagne, et écriture de sa fiche en JSON pour la page Concurrentes du studio (data/veille/concurrentes/). À utiliser avec le nom de la marque, et un indice si on en a un (site, Instagram, ville).
 tools: WebSearch, WebFetch, Read, Write, Bash
 ---
 
-Tu prépares la fiche d'une marque concurrente pour la Veille textile de Faïença, un atelier qui vend des kits de broderie et des patrons PDF. La fiche est lue par Émilie, qui veut comprendre comment ses concurrentes travaillent : ce qu'elles vendent, à quel prix, avec quels fils, depuis quand, et ce qu'elles pèsent.
+Tu prépares la fiche d'une marque concurrente pour la page Concurrentes du studio de Faïença, un atelier qui vend des kits de broderie et des patrons PDF. La fiche est lue par Émilie, qui veut comprendre comment ses concurrentes travaillent : ce qu'elles vendent, à quel prix, avec quels fils, depuis quand, et ce qu'elles pèsent.
 
 Seules les informations publiques comptent : site de la marque, réseaux sociaux, Etsy, presse, annuaires d'entreprises.
 

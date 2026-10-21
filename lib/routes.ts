@@ -2,14 +2,14 @@
 
 /** Page du studio → chemin. « /newsletter » est déjà la page publique d'inscription : le studio prend « /newsletters ». */
 export const studioRoutes: Record<string, string> = {
-  Accueil: '', Calendrier: 'calendrier', Projets: 'projets', Produits: 'produits', Stratégie: 'strategie', Résultats: 'resultats',
+  Accueil: '', Calendrier: 'calendrier', Projets: 'projets', Produits: 'produits', Concurrentes: 'concurrentes', Stratégie: 'strategie', Résultats: 'resultats',
   Newsletter: 'newsletters', Dépenses: 'depenses', Kits: 'kits', Demandes: 'demandes', Questions: 'questions', Clientes: 'clientes',
   Stage: 'stage', Bibliothèque: 'bibliotheque', 'Veille textile': 'veille', 'Journal de l’agent': 'journal-agent',
 };
 
-/** Les pages qui ouvrent une fiche : /produits/<id>, /kits/<id>, /stage/<id>.
- *  La veille a des sous-pages : /veille/ateliers, /veille/nouvelles, /veille/videos, /veille/<portrait>, /veille/atelier/<id>, /veille/concurrente/<id>. */
-export const withDetail = ['Produits', 'Kits', 'Stage', 'Veille textile'];
+/** Les pages qui ouvrent une fiche : /produits/<id>, /concurrentes/<id>, /kits/<id>, /stage/<id>.
+ *  La veille a des sous-pages : /veille/ateliers, /veille/nouvelles, /veille/videos, /veille/<portrait>, /veille/atelier/<id>. */
+export const withDetail = ['Produits', 'Concurrentes', 'Kits', 'Stage', 'Veille textile'];
 
 export function studioPath(view: string, id?: string | null): string {
   const slug = studioRoutes[view] ?? '';

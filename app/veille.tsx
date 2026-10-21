@@ -2,7 +2,7 @@
 import { useState, type FormEvent } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
-import { ArrowLeft, ArrowUpRight, CalendarDays, Clapperboard, ShoppingBag, Store, Globe, Instagram, LoaderCircle, MapPin, Newspaper, Pencil, Plus, RefreshCw, Search, Sparkles, Trash2, UserRound, X } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, CalendarDays, Clapperboard, Store, Globe, Instagram, LoaderCircle, MapPin, Newspaper, Pencil, Plus, RefreshCw, Search, Sparkles, Trash2, UserRound, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -14,7 +14,6 @@ import { cardTags, dateFr, dollars, emptyNews, emptyPortrait, lifeDates, newsErr
 import { isoToday } from '../lib/model';
 import { errorText } from './client';
 import { Videos, WorkshopPage, Workshops } from './veille-more';
-import { CompetitorPage, Competitors } from './veille-concurrentes';
 
 type Research = 'idle' | 'running' | 'error';
 type ArtistRow = { _id: string; name: string; country: string; city: string; zone: Zone; birthDate: string; deathDate: string; techniques: string[]; summary: string; photoUrl: string; works: number; dates: number; research: Research; updatedAt: number };
@@ -29,18 +28,17 @@ const place = (x: { city: string; country: string }) => [x.city, x.country].filt
 const span = (n: { startDate: string; endDate: string }) => n.startDate && n.endDate && n.endDate !== n.startDate ? `${dateFr(n.startDate)} → ${dateFr(n.endDate)}` : dateFr(n.startDate);
 const initials = (name: string) => name.split(/\s+/).map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
 
-/** Onglets de la veille ; dans le studio, l'onglet et la fiche ouverte font partie de l'adresse (/veille/ateliers, /veille/atelier/<id>, /veille/concurrente/<id>…). */
-const tabs = [['', 'Brodeuses et artistes', UserRound], ['ateliers', 'Ateliers', Store], ['concurrentes', 'Concurrentes', ShoppingBag], ['nouvelles', 'Nouvelles du monde textile', Newspaper], ['videos', 'Documentaires et vidéos', Clapperboard]] as const;
+/** Onglets de la veille ; dans le studio, l'onglet et la fiche ouverte font partie de l'adresse (/veille/ateliers, /veille/atelier/<id>…). */
+const tabs = [['', 'Brodeuses et artistes', UserRound], ['ateliers', 'Ateliers', Store], ['nouvelles', 'Nouvelles du monde textile', Newspaper], ['videos', 'Documentaires et vidéos', Clapperboard]] as const;
 
 /** Veille textile, identique dans le studio et dans l'espace stagiaire. */
 export function Veille({ onToast, path, onNavigate }: { onToast: (s: string) => void, path?: string, onNavigate?: (path: string) => void }) {
     const [localPath, setLocalPath] = useState('');
     const current = onNavigate ? path ?? '' : localPath, go = onNavigate ?? setLocalPath;
     const status = useQuery(anyApi.veille.agentStatus) as AgentStatus | undefined;
-    const tab = tabs.some(([id]) => id === current) ? current : current.startsWith('atelier/') ? 'ateliers' : current.startsWith('concurrente/') ? 'concurrentes' : '';
+    const tab = tabs.some(([id]) => id === current) ? current : current.startsWith('atelier/') ? 'ateliers' : '';
     const detail = tabs.some(([id]) => id === current) ? null : current;
     if (detail?.startsWith('atelier/')) return <WorkshopPage id={detail.slice('atelier/'.length)} onBack={() => go('ateliers')} onOpenArtist={id => go(id)} onToast={onToast} />;
-    if (detail?.startsWith('concurrente/')) return <CompetitorPage id={detail.slice('concurrente/'.length)} onBack={() => go('concurrentes')} onToast={onToast} />;
     if (detail) return <Portrait id={detail} agent={!!status?.available} onBack={() => go('')} onToast={onToast} />;
     return <div className="veille">
         <div className="veille-tabs" role="tablist" aria-label="Veille textile">
@@ -49,7 +47,6 @@ export function Veille({ onToast, path, onNavigate }: { onToast: (s: string) => 
         {status && !status.available && (tab === '' || tab === 'nouvelles') && <div className="review-note"><Sparkles size={20} /><p>L’agent de recherche n’est pas encore branché (clé Exa ou OpenRouter manquante dans Convex). Tu peux déjà tout saisir à la main.</p></div>}
         {tab === '' ? <Artists agent={!!status?.available} onOpen={go} onToast={onToast} />
             : tab === 'ateliers' ? <Workshops onOpen={id => go('atelier/' + id)} onToast={onToast} />
-            : tab === 'concurrentes' ? <Competitors onOpen={id => go('concurrente/' + id)} onToast={onToast} />
             : tab === 'videos' ? <Videos onToast={onToast} />
             : <News status={status} onOpen={go} onToast={onToast} />}
     </div>;

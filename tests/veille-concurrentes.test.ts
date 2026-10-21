@@ -12,7 +12,7 @@ const id = () => 'id' + n++;
 async function setup() {
     const t = convexTest(schema, modules);
     const as = async (u: Record<string, unknown>) => { const uid = await t.run(ctx => ctx.db.insert('users', u)); return t.withIdentity({ subject: uid + '|session' }); };
-    return { t, lola: await as({ name: 'Lola', role: 'stagiaire' }), marie: await as({ name: 'Marie', role: 'cliente' }) };
+    return { t, atelier: await as({ githubId: '123' }), lola: await as({ name: 'Lola', role: 'stagiaire' }) };
 }
 
 describe('Concurrentes', () => {
@@ -43,16 +43,16 @@ describe('Concurrentes', () => {
         expect(merged.products[0]).toMatchObject({ title: 'Kit Lune', imageUrl: 'https://x.fr/lune.jpg', bestseller: true });
     });
 
-    it('s’importe sans doublon et se partage avec la stagiaire', async () => {
-        const { t, lola, marie } = await setup();
+    it('s’importe sans doublon et reste réservée à l’atelier', async () => {
+        const { t, atelier, lola } = await setup();
         const json = JSON.stringify({ name: 'Un Chat dans l’Aiguille', country: 'France', foundedDate: '2015', offers: ['Kits de broderie'], threads: ['DMC Mouliné spécial 25'], financials: [{ year: '2023', revenue: 300000 }], audience: [{ platform: 'Instagram', followers: 90000 }], products: [{ title: 'Kit Botanique', imageUrl: 'https://x.fr/b.jpg', bestseller: true }] });
         const first = await t.mutation(anyApi.veilleConcurrentes.importCompetitor, { json });
         const again = await t.mutation(anyApi.veilleConcurrentes.importCompetitor, { json: JSON.stringify({ name: 'un chat dans l aiguille', threads: ['Anchor'] }) });
         expect(first.created).toBe(true);
         expect(again).toEqual({ id: first.id, created: false });
-        const [row] = await lola.query(anyApi.veilleConcurrentes.list);
+        const [row] = await atelier.query(anyApi.veilleConcurrentes.list);
         expect(row).toMatchObject({ name: 'Un Chat dans l’Aiguille', threads: ['DMC Mouliné spécial 25', 'Anchor'], revenue: { year: '2023', amount: 300000 }, instagram: 90000, products: 1, cover: 'https://x.fr/b.jpg' });
-        await expect(lola.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('Un chat dans l’aiguille') })).rejects.toThrow('déjà');
-        await expect(marie.query(anyApi.veilleConcurrentes.list)).rejects.toThrow('stagiaire');
+        await expect(atelier.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('Un chat dans l’aiguille') })).rejects.toThrow('déjà');
+        await expect(lola.query(anyApi.veilleConcurrentes.list)).rejects.toThrow('propriétaire');
     });
 });
