@@ -1,0 +1,285 @@
+{
+  "name": "Ms. Bordados",
+  "country": "Espagne",
+  "city": "Barcelone",
+  "region": "Catalogne",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Magdalena",
+    "Lucía"
+  ],
+  "legalName": "Magdalena Czarnievicz",
+  "legalForm": "Personne physique (forme non précisée)",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Cours en ligne",
+    "Ateliers",
+    "Mercerie",
+    "Club en ligne"
+  ],
+  "styles": [
+    "Géométrique",
+    "Graphique",
+    "Coloré",
+    "Textiles sud-américains",
+    "Vintage"
+  ],
+  "techniques": [
+    "Broderie sur canevas",
+    "Bargello",
+    "Petit point",
+    "Multipoint"
+  ],
+  "threads": [
+    "Laine 100 % espagnole (pelotes de 50 g, boutique Europe)",
+    "Laine mérinos uruguayenne teinte à la main (boutique Uruguay)"
+  ],
+  "fabrics": [
+    "Canevas (cañamazo) 9 ct, vierge ou dessiné"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify) bordadosmis.es pour l'Europe",
+    "Site en propre (Shopify) bordadosmis.com pour l'Uruguay",
+    "Club en ligne sur Skool",
+    "Instagram",
+    "YouTube"
+  ],
+  "priceRange": "Kits de 16 à 56 €, cours en ligne de 37 à 86 €, classe en direct à 4,50 €, pelote de laine à 5 €",
+  "languages": [
+    "Espagnol",
+    "Anglais"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 124000,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/bordadosmis/"
+    },
+    {
+      "platform": "YouTube",
+      "followers": 4970,
+      "date": "2026-10",
+      "url": "https://www.youtube.com/@bordadosmis"
+    },
+    {
+      "platform": "Skool (Club del Cañamazo)",
+      "followers": 161,
+      "date": "2026-10",
+      "url": "https://www.skool.com/club-de-canamazo-9416/about"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Curso Online \"Bargello desde Cero\"",
+      "format": "cours",
+      "price": "37 € sans kit, 62 € avec kit",
+      "bestseller": true,
+      "description": "Cours de niveau 1 : 19 vidéos, accès d'un an, une pièce complète de 30 x 25 cm. Le kit contient un canevas de 25 x 30 cm, environ 40 g de laine 100 % espagnole et une aiguille. Le site annonce plus de 700 élèves.",
+      "url": "https://bordadosmis.es/products/curso-online-con-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "Cañamazo liso para bordar",
+      "format": "autre",
+      "price": "à partir de 16 €",
+      "bestseller": true,
+      "description": "Canevas vierge vendu seul, pour broder ses propres motifs.",
+      "url": "https://bordadosmis.es/products/canamazo-liso",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado en cañamazo - Portalentes Miramar",
+      "format": "kit",
+      "price": "37 €",
+      "bestseller": true,
+      "description": "Étui à lunettes pré-monté avec canevas en façade (zone brodée d'environ 18 x 10 cm), bouton aimanté, laines 100 % espagnoles, aiguille, guide pas à pas et deux vidéos. Deux coloris : Natural et Gris grafito.",
+      "url": "https://bordadosmis.es/products/portalentes-miramar",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado en cañamazo - Llavero Pirámides Flor",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": true,
+      "description": "Porte-clés : canevas de 5 x 30 cm, laines 100 % espagnoles, aiguille, attache métallique, vidéo d'introduction et guide. Taille finie d'environ 3 x 15 cm. Niveau débutant.",
+      "url": "https://bordadosmis.es/products/llavero-piramides-flor",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curso Online \"Explora el Arte de Cañamazo\"",
+      "format": "cours",
+      "price": "44 € sans kit, 86 € avec kit",
+      "bestseller": true,
+      "description": "Cours de niveau 2 pour réaliser un premier coussin. Le kit contient un canevas de 45 x 45 cm, 200 g de laine en 4 couleurs et des aiguilles. Accès de 10 mois aux vidéos.",
+      "url": "https://bordadosmis.es/products/curso-online-explora-bordado-sobre-canamazo-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado en cañamazo - Sobre Cozia",
+      "format": "kit",
+      "price": "28 €",
+      "bestseller": true,
+      "description": "Petite pochette enveloppe : canevas de 15 x 30 cm, laines 100 % espagnoles, aiguille, bouton aimanté, manuel et deux vidéos. Niveau intermédiaire.",
+      "url": "https://bordadosmis.es/products/sobre-cozia",
+      "imageUrl": ""
+    },
+    {
+      "title": "Tarjetas de Puntadas",
+      "format": "autre",
+      "price": "24 € (15 points), 34 € (25 points)",
+      "bestseller": true,
+      "description": "Jeu de cartes illustrées de points de broderie classés en quatre niveaux, du débutant à l'avancé.",
+      "url": "https://bordadosmis.es/products/tarjetas-de-puntadas",
+      "imageUrl": ""
+    },
+    {
+      "title": "Ovillo de Lana 100% Española",
+      "format": "autre",
+      "price": "5 €",
+      "bestseller": true,
+      "description": "Pelote de 50 g de laine 100 % espagnole, en une trentaine de coloris numérotés (Natural #21, Cobre #60, Berenjena #52...).",
+      "url": "https://bordadosmis.es/products/lana-negro",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado sobre cañamazo - Sierra Patio",
+      "format": "kit",
+      "price": "22 € (canevas seul), 46 € (avec laine), 56 € (avec doublure de pochette)",
+      "bestseller": false,
+      "description": "Motif inspiré des textiles sud-américains, imprimé sur canevas 9 ct d'environ 35 x 27 cm. Le kit complet ajoute toutes les laines, l'aiguille, des fiches de points, une doublure à fermeture éclair et deux vidéos.",
+      "url": "https://bordadosmis.es/products/kit-de-bordado-sobre-canamazo-sierra-patio",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado en cañamazo - Bolsito Reed",
+      "format": "kit",
+      "price": "56 €",
+      "bestseller": false,
+      "description": "Pochette à losanges brodée sur canevas vierge 9 ct d'environ 35 x 27 cm, avec grille imprimée, laines, aiguille, doublure à fermeture éclair et vidéos de montage. Taille finie d'environ 22 x 15 cm. Niveau débutant.",
+      "url": "https://bordadosmis.es/products/kit-de-bordado-en-canamazo-bolsito-reed",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado sobre cañamazo - Franja Pulso Náutico",
+      "format": "kit",
+      "price": "17 € (bordure courte), 18 € (porte-clés), 30 € (bordure longue)",
+      "bestseller": false,
+      "description": "Bande brodée à coudre ou à monter en porte-clés : canevas de 30 x 5 cm ou 75 x 5 cm, laines 100 % espagnoles en tresses pré-mesurées, aiguille, manuel imprimé et vidéo. Collection lancée en septembre 2026.",
+      "url": "https://bordadosmis.es/products/kit-franja-pulso-nautico",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado sobre cañamazo - Cuadrito Cruce",
+      "format": "kit",
+      "price": "16 € (canevas seul), 27 € (kit complet)",
+      "bestseller": false,
+      "description": "Petit tableau d'environ 21 x 15 cm, canevas dessiné, laines 100 % espagnoles, aiguille, 3 cartes de points, notice et vidéo. Niveau débutant, technique multipoint.",
+      "url": "https://bordadosmis.es/products/kit-cuadrito-cruce",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque hispano-uruguayenne de broderie à la laine sur canevas (cañamazo) tenue par Magdalena et Lucía. Elle vend des kits à monter en petits objets, des cours en ligne et un club payant, avec une boutique pour l'Europe depuis Barcelone et une autre pour l'Uruguay.",
+  "history": "Ms. Bordados est née en Uruguay, dans un cadre familial. Sur le site uruguayen, Magdalena et Lucía se présentent comme mère et fille : Magdalena enseigne la broderie depuis plus de 30 ans, Lucía dessine les motifs, trace les canevas et porte la marque sur le numérique. Elles disent avoir appris à broder à des enfants de 6 ans comme à des personnes de 93 ans.\n\nLa chaîne YouTube @bordadosmis existe depuis mai 2016 et est rattachée à l'Uruguay. Lucía y présente la broderie sur canevas comme un moment de détente, aux côtés de sa mère.\n\nLa marque a ensuite été « amenée d'Uruguay en Europe », selon la page « Sobre Nosotras » du site espagnol, qui présente l'équipe comme des sœurs initiées par leur mère. La boutique bordadosmis.es, sur Shopify, liste ses premiers produits en avril 2025. Les mentions légales désignent une titulaire personne physique, Magdalena Czarnievicz, domiciliée à Barcelone.\n\nLe catalogue s'est étoffé vite : cours « Bargello desde Cero » en avril 2025, « Explora el Arte de Cañamazo » en mai, « El Poder de Repetir » et les étuis à lunettes en juillet, les pochettes enveloppes et porte-clés en septembre 2025, les pochettes Bolsito et le kit Sierra Patio en juin 2026, puis la collection de bordures Franja en septembre 2026. En octobre 2026, la boutique européenne compte 228 fiches produits, laines comprises.\n\nAujourd'hui, la marque revendique des élèves dans plus de 20 pays et plus de 700 élèves pour son cours d'initiation. Elle anime le Club del Cañamazo sur Skool (161 membres, 17 dollars par mois) avec des cours hebdomadaires en direct.",
+  "positioning": "Spécialiste d'une seule technique, la broderie à la laine sur canevas (bargello, petit point, multipoint), qu'elle présente comme accessible à toutes, sans talent ni temps libre particuliers. Ses motifs sont géométriques et très colorés, souvent inspirés des textiles sud-américains. Les kits débouchent sur des objets utiles (porte-clés, étui à lunettes, pochettes, bordures à coudre) à petits prix, de 16 à 56 €. Chaque produit s'accompagne d'une vidéo, et le modèle repose sur la formation : cours enregistrés, classes en direct sur Zoom à 4,50 € et club par abonnement. L'Instagram est très fort (124 000 abonnés), le YouTube beaucoup plus modeste. Points faibles visibles : beaucoup de références en rupture de stock, une seule matière (la laine) et une équipe présentée différemment selon le site (mère et fille en Uruguay, sœurs en Espagne). Pas de boutique Etsy repérée.",
+  "website": "https://bordadosmis.es",
+  "instagram": "https://www.instagram.com/bordadosmis/",
+  "etsy": "",
+  "photoUrl": "https://bordadosmis.es/cdn/shop/files/IMG_0788.jpg?v=1769632067",
+  "timeline": [
+    {
+      "date": "2016-05",
+      "kind": "vie",
+      "label": "Création de la chaîne YouTube Ms. Bordados, rattachée à l'Uruguay"
+    },
+    {
+      "date": "2025-04",
+      "kind": "vie",
+      "label": "Premiers produits sur la boutique européenne bordadosmis.es"
+    },
+    {
+      "date": "2025-04",
+      "kind": "oeuvre",
+      "label": "Lancement du cours en ligne « Bargello desde Cero »"
+    },
+    {
+      "date": "2025-05",
+      "kind": "oeuvre",
+      "label": "Lancement du cours « Explora el Arte de Cañamazo »"
+    },
+    {
+      "date": "2025-07",
+      "kind": "oeuvre",
+      "label": "Cours « El Poder de Repetir » et kits d'étui à lunettes Portalentes"
+    },
+    {
+      "date": "2025-09",
+      "kind": "oeuvre",
+      "label": "Kits de pochettes Sobre et de porte-clés"
+    },
+    {
+      "date": "2026-06",
+      "kind": "oeuvre",
+      "label": "Kits de pochettes Bolsito et Sierra Patio, cartes de points"
+    },
+    {
+      "date": "2026-09",
+      "kind": "oeuvre",
+      "label": "Collection de bordures Franja Pulso"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ms. Bordados, boutique Europe",
+      "url": "https://bordadosmis.es"
+    },
+    {
+      "label": "Ms. Bordados, Sobre Nosotras (Espagne)",
+      "url": "https://bordadosmis.es/pages/sobre-nosotras"
+    },
+    {
+      "label": "Ms. Bordados, aviso legal",
+      "url": "https://bordadosmis.es/policies/legal-notice"
+    },
+    {
+      "label": "Ms. Bordados, información de contacto",
+      "url": "https://bordadosmis.es/policies/contact-information"
+    },
+    {
+      "label": "Ms. Bordados, catalogue trié par meilleures ventes",
+      "url": "https://bordadosmis.es/collections/all?sort_by=best-selling"
+    },
+    {
+      "label": "Ms. Bordados, catalogue Shopify (JSON)",
+      "url": "https://bordadosmis.es/products.json"
+    },
+    {
+      "label": "Ms. Bordados, Tarjetas de Puntadas",
+      "url": "https://bordadosmis.es/products/tarjetas-de-puntadas"
+    },
+    {
+      "label": "Ms. Bordados, boutique Uruguay",
+      "url": "https://www.bordadosmis.com/"
+    },
+    {
+      "label": "Ms. Bordados, Sobre Nosotras (Uruguay)",
+      "url": "https://www.bordadosmis.com/pages/sobre-nosotras"
+    },
+    {
+      "label": "Instagram @bordadosmis",
+      "url": "https://www.instagram.com/bordadosmis/"
+    },
+    {
+      "label": "YouTube @bordadosmis",
+      "url": "https://www.youtube.com/@bordadosmis/about"
+    },
+    {
+      "label": "Club del Cañamazo sur Skool",
+      "url": "https://www.skool.com/club-de-canamazo-9416/about"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Date de création non trouvée : la chaîne YouTube date de mai 2016 (pays : Uruguay) et la boutique européenne liste ses premiers produits en avril 2025 (date de création des fiches Shopify), mais aucune date de fondation n'est publiée. Équipe contradictoire : le site uruguayen dit « Magdalena et Lucía, mère et fille », le site espagnol dit « somos hermanas » et parle de « notre mère ». La titulaire espagnole, Magdalena Czarnievicz, peut donc être la mère ou une sœur du même prénom, à confirmer. Nom de famille de Lucía non trouvé. Forme juridique : les mentions légales nomment une personne physique avec un NIE (numéro d'identité d'étranger) comme identifiant fiscal, sans forme ni registre. C'est sans doute une autónoma, non confirmé. Le numéro n'est pas recopié ici car c'est un identifiant personnel. Une personne physique ne publie pas de comptes : aucun chiffre d'affaires ni effectif. Les annuaires espagnols (infoempresa, einforma, librebor) ne recensent pas les personnes physiques, rien n'y a été trouvé. Structure uruguayenne (RUT) non trouvée ; une page Facebook la situe à Barra de Carrasco (non lue, accès refusé). Les meilleures ventes viennent du tri « best-selling » de Shopify, pas d'un chiffre publié. Plusieurs kits sont épuisés (Bolsito Vine et Stripe, Llavero Black & White, canevas Aveiro, Bahía, Alexandría, cours Bargello avec kit). Fils : laine 100 % espagnole sans marque citée pour l'Europe, laine mérinos uruguayenne teinte à la main pour l'Uruguay. Prix uruguayens vus en pesos (kit Bolsito Reed à 2 130, pelote à 235). Pas de boutique Etsy, de Pinterest ni de TikTok repérés. Aucune presse ni interview trouvée. Les 700 élèves viennent de la fiche du cours Bargello ; les 20 pays et les « plus de 100 » membres du club viennent du site uruguayen, alors que Skool affiche 161 membres."
+}

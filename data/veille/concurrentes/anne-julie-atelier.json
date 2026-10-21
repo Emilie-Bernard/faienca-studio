@@ -1,0 +1,193 @@
+{
+  "name": "Anne-Julie Atelier",
+  "country": "France",
+  "city": "Rennes",
+  "region": "Bretagne",
+  "foundedDate": "2022-05-16",
+  "closedDate": "",
+  "founders": [
+    "Anne-Julie Jajolet"
+  ],
+  "legalName": "Anne-Julie Jajolet (Anne-Julie Atelier)",
+  "legalForm": "EI",
+  "registrationId": "913475851",
+  "offers": [
+    "Kits de broderie",
+    "Ateliers",
+    "Photos brodées",
+    "Personnalisation sur mesure"
+  ],
+  "styles": [
+    "Botanique",
+    "Poétique",
+    "Souvenir"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur photo",
+    "Broderie machine"
+  ],
+  "threads": [
+    "DMC"
+  ],
+  "fabrics": [
+    "Coton 100 % double épaisseur",
+    "Papier (photo brodée)",
+    "Support soluble autocollant (mini-broderies)"
+  ],
+  "salesChannels": [
+    "Site en propre",
+    "Ateliers à Rennes (café créatif, à domicile)",
+    "Dépôt et retrait des commandes de personnalisation à la boutique Les Herbes Sauvages (Rennes)"
+  ],
+  "priceRange": "Kits à 30 €, mini-broderies à 18 €, ateliers de 48 à 110 €, photos brodées à partir de 68 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit de broderie : Le Printemps",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit floral présenté comme idéal pour découvrir la broderie (patience 2/4). Dessin original, coupon de coton 100 % double épaisseur, fils DMC, aiguille Bohin n° 7, tambour en bois de 12,5 cm à fermoir laiton, stylo FriXion, livret pas à pas et tutoriels vidéo.",
+      "url": "https://annejulieatelier.com/boutique/kit-de-broderie-le-printemps",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie : Les plantes d'intérieur",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit coloré sur le thème des plantes, pour débutantes, qui apprend les points essentiels (patience 2/4). Même contenu : coton double épaisseur, fils DMC, aiguille Bohin, tambour bois 12,5 cm, stylo FriXion, livret et vidéos.",
+      "url": "https://annejulieatelier.com/boutique/kit-de-broderie-les-plantes-d-interieur",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie : Scarabée Sacré",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Motif délicat et détaillé pour brodeuses patientes (patience 4/4). Coton double épaisseur, fils DMC, aiguille Bohin, tambour bois 12,5 cm, stylo FriXion, livret et vidéos.",
+      "url": "https://annejulieatelier.com/boutique/kit-de-broderie-scarabee-sacre",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mini-Broderies : Motifs prêts à broder",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Quatre motifs autocollants hydrosolubles de 4 à 7 cm à poser sur un vêtement ou un accessoire, aiguille Bohin n° 7, 6 m de fils DMC (1 m par couleur), livret avec liens vers des vidéos.",
+      "url": "https://annejulieatelier.com/boutique/mini-broderies-motifs-prets-a-broder",
+      "imageUrl": ""
+    },
+    {
+      "title": "Photo Brodée",
+      "format": "autre",
+      "price": "À partir de 68 €",
+      "bestseller": false,
+      "description": "Photo de la cliente imprimée en haute définition (9x13 cm, passe-partout 13x18 cm) puis brodée à la main. Taille supérieure +40 €, encadrement sous verre +15 €. Réalisée en 2 à 4 semaines après validation de la maquette.",
+      "url": "https://annejulieatelier.com/boutique/photo-brodee",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier - Photo brodée - Sam 7 nov. 2026",
+      "format": "cours",
+      "price": "55 €",
+      "bestseller": false,
+      "description": "Atelier de 2 heures au Café Créatif Les Trois Marguerites (Rennes) : photo imprimée, papier texturé, aiguille Bohin et fil DMC pour finir chez soi, boisson offerte.",
+      "url": "https://annejulieatelier.com/boutique/atelier-photo-brodee-sam-7-nov-2026",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier - Initiation à la broderie - Sam 10 oct. 2026",
+      "format": "cours",
+      "price": "48 €",
+      "bestseller": false,
+      "description": "Atelier d'initiation aux points de broderie à Rennes, affiché épuisé lors de la lecture.",
+      "url": "https://annejulieatelier.com/boutique/atelier-initiation-a-la-broderie-sam-10-oct-2026",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Atelier de broderie rennais tenu par Anne-Julie Jajolet, qui vend trois kits complets à 30 €, des mini-broderies, des photos brodées sur commande, de la personnalisation textile et des ateliers en petit groupe.",
+  "history": "Anne-Julie Atelier est l'entreprise individuelle d'Anne-Julie Jajolet, immatriculée le 16 mai 2022 à Rennes sous le SIREN 913 475 851, avec une activité classée en fabrication d'autres textiles (NAF 13.99Z).\n\nSelon sa page « À propos », Anne-Julie a appris la broderie en autodidacte il y a une dizaine d'années et a perfectionné sa pratique au fil du temps. Elle a d'abord proposé des ateliers, puis des kits pour broder chez soi, conçus dans son atelier rennais avec schémas, photos et vidéos explicatives.\n\nAujourd'hui, son offre s'organise autour de quatre pôles : les kits de broderie, la photo brodée (un tirage de la cliente rebrodé à la main), la personnalisation à la main ou à la machine (vêtements, tabliers, broderies de naissance, broches pour petites entreprises) et les ateliers à Rennes, au Café Créatif Les Trois Marguerites, à domicile ou en individuel.\n\nSa démarche récente met l'accent sur les objets chargés de souvenirs : amulettes brodées et photographies brodées. Son Instagram se présente avec la formule « Broderie précieuse et poétique ».",
+  "positioning": "Une artisane locale plus qu'une marque de kits : l'offre mêle produits (trois kits à 30 €, mini-broderies à 18 €) et services (photo brodée, personnalisation, ateliers). Ses forces visibles sont un kit complet et soigné (coton double épaisseur, DMC, aiguille Bohin, tambour bois à fermoir laiton, stylo effaçable, vidéos par QR code), une échelle de « patience » qui guide le choix, et un ancrage rennais fort avec des ateliers en café. Points faibles visibles : catalogue de kits très court, site uniquement en français, pas de boutique Etsy ni de revendeurs annoncés, aucun avis ni best-seller affiché, et une audience en ligne qui semble modeste.",
+  "website": "https://annejulieatelier.com",
+  "instagram": "https://instagram.com/annejulie_atelier",
+  "etsy": "",
+  "photoUrl": "https://annejulieatelier.com/data/files/broderierennes.png",
+  "timeline": [
+    {
+      "date": "2022-05-16",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle Anne-Julie Atelier à Rennes"
+    },
+    {
+      "date": "2026-10",
+      "kind": "oeuvre",
+      "label": "Atelier d'initiation à la broderie du 10 octobre 2026 au Café Créatif Les Trois Marguerites, complet"
+    },
+    {
+      "date": "2026-11",
+      "kind": "oeuvre",
+      "label": "Atelier photo brodée prévu le 7 novembre 2026 à Rennes"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Anne-Julie Atelier, accueil",
+      "url": "https://annejulieatelier.com"
+    },
+    {
+      "label": "Site Anne-Julie Atelier, à propos",
+      "url": "https://annejulieatelier.com/a-propos"
+    },
+    {
+      "label": "Site Anne-Julie Atelier, mentions légales",
+      "url": "https://annejulieatelier.com/mentions-legales"
+    },
+    {
+      "label": "Site Anne-Julie Atelier, boutique",
+      "url": "https://annejulieatelier.com/boutique"
+    },
+    {
+      "label": "Site Anne-Julie Atelier, kits de broderie",
+      "url": "https://annejulieatelier.com/kits-de-broderie"
+    },
+    {
+      "label": "Site Anne-Julie Atelier, personnalisation",
+      "url": "https://annejulieatelier.com/personnalisation"
+    },
+    {
+      "label": "Site Anne-Julie Atelier, ateliers",
+      "url": "https://annejulieatelier.com/atelier"
+    },
+    {
+      "label": "Fiche produit Kit Scarabée Sacré",
+      "url": "https://annejulieatelier.com/boutique/kit-de-broderie-scarabee-sacre"
+    },
+    {
+      "label": "Fiche produit Mini-Broderies",
+      "url": "https://annejulieatelier.com/boutique/mini-broderies-motifs-prets-a-broder"
+    },
+    {
+      "label": "Fiche produit Photo Brodée",
+      "url": "https://annejulieatelier.com/boutique/photo-brodee"
+    },
+    {
+      "label": "Fiche produit Atelier photo brodée 7 nov. 2026",
+      "url": "https://annejulieatelier.com/boutique/atelier-photo-brodee-sam-7-nov-2026"
+    },
+    {
+      "label": "API Recherche d'entreprises (data.gouv), SIREN 913475851",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=913475851"
+    },
+    {
+      "label": "Instagram @annejulie_atelier",
+      "url": "https://instagram.com/annejulie_atelier"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Entreprise individuelle (nature juridique 1000) : aucun compte publié, chiffre d'affaires et effectif inconnus (tranche d'effectif NN au répertoire). Pappers a renvoyé une erreur 403. Adresse du siège au répertoire : 14 B rue de Plaisance, 35000 Rennes (14 rue de Plaisance sur les mentions légales). Revendeurs : l'indice parle de revendeurs, mais le site n'en cite aucun ; seule la boutique Les Herbes Sauvages (Rennes) apparaît, comme point de dépôt et de retrait des commandes de personnalisation, sans preuve qu'elle vende les kits. Aucune boutique Etsy trouvée. Abonnés Instagram et Facebook (facebook.com/annejulieatelier) non lisibles sans connexion. Aucun best-seller ni avis affiché, l'ordre des produits suit la page kits. Prix des ateliers contradictoires : 60 € par personne en groupe et 110 € en individuel sur la page Ateliers, contre 48 € et 55 € sur les fiches boutique. L'adresse du café varie entre le 30 et le 31 rue Saint-Melaine. Aucune presse ni interview trouvée. La date de début de la broderie (« il y a une dizaine d'années ») n'est pas précisée."
+}

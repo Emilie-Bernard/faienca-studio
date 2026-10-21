@@ -1,0 +1,181 @@
+{
+  "name": "MisLabores",
+  "country": "Espagne",
+  "city": "Atarfe",
+  "region": "Andalousie",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Antonia Pérez"
+  ],
+  "legalName": "Antonia Pérez (MIS LABORES)",
+  "legalForm": "autónoma",
+  "registrationId": "",
+  "offers": [
+    "Patrons PDF",
+    "Patrons gratuits",
+    "Tutoriels"
+  ],
+  "styles": [
+    "Reproductions de peintures",
+    "Paysages et monuments",
+    "Religieux",
+    "Anges et fantaisie",
+    "Animaux",
+    "Fleurs",
+    "Mariage et fêtes",
+    "Enfants"
+  ],
+  "techniques": [
+    "Point de croix",
+    "Point compté"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Aïda 14",
+    "Aïda 18"
+  ],
+  "salesChannels": [
+    "Site en propre (WooCommerce)"
+  ],
+  "priceRange": "Grilles PDF de 4 à 12 €, lot de 3 grilles à 15 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Lote 3 bordados (Davinci-1, Ladyspain-3 y Bano-1)",
+      "format": "pdf",
+      "price": "15 € (au lieu de 27 €)",
+      "bestseller": false,
+      "description": "Lot en promotion de trois grilles PDF mis en avant en page d'accueil : La Cène de Léonard de Vinci (380 x 147 points, 59 couleurs, 67,9 x 26,3 cm sur Aïda 14), une Espagnole de dos en mantille (180 x 320 points, 28 couleurs DMC, Aïda 18) et un motif de salle de bain (149 x 185 points, 36 couleurs, Aïda 14).",
+      "url": "https://mislabores.com/producto/lote-3-bordados-davinci-ladyspainy-bano/",
+      "imageUrl": ""
+    },
+    {
+      "title": "BARCELONA-1 (Catedral Sagrada Familia)",
+      "format": "pdf",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Vue panoramique de Barcelone depuis la Sagrada Familia. Grille PDF à télécharger et imprimer, 200 x 355 points, 28 x 50 cm sur Aïda 18, 50 couleurs DMC.",
+      "url": "https://mislabores.com/producto/barcelona-1-catedral-sagrada-familia/",
+      "imageUrl": ""
+    },
+    {
+      "title": "RELICRISTO-1 (Cristo crucificado, Velázquez)",
+      "format": "pdf",
+      "price": "7 €",
+      "bestseller": false,
+      "description": "Grille d'après le Christ crucifié de Velázquez. PDF, 205 x 281 points, 28,45 x 39 cm sur Aïda 18, 25 couleurs DMC.",
+      "url": "https://mislabores.com/producto/relicristo-1-cuadro-velazquez-cristo-crucificado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "ALHAMBRA-1 (Granada)",
+      "format": "pdf",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Grille PDF de l'Alhambra de Grenade, la plus chère de la première page de la boutique. Existe en série avec ALHAMBRA-2 (Albaicín, 5 €) et ALHAMBRA-3 (7 €).",
+      "url": "https://mislabores.com/producto/alhambra-1-granada/",
+      "imageUrl": ""
+    },
+    {
+      "title": "ABUELOS (Abuelos paseando, amor eterno)",
+      "format": "pdf",
+      "price": "10 €",
+      "bestseller": false,
+      "description": "Grille PDF d'un couple de grands-parents en promenade, parmi les derniers modèles mis en avant en page d'accueil.",
+      "url": "https://mislabores.com/producto/abuelos-paseando-amor-eterno/",
+      "imageUrl": ""
+    },
+    {
+      "title": "WEDDING-10 (Recuerdo de boda con rosas y alianzas)",
+      "format": "pdf",
+      "price": "8 €",
+      "bestseller": false,
+      "description": "Grille PDF souvenir de mariage avec roses et alliances, mise en avant en page d'accueil.",
+      "url": "https://mislabores.com/producto/wedding-10-recuerdo-de-boda-con-rosas-y-alianzas/",
+      "imageUrl": ""
+    },
+    {
+      "title": "BEARS-5 (Osos en el bosque)",
+      "format": "pdf",
+      "price": "7 €",
+      "bestseller": false,
+      "description": "Grille PDF d'ours dans la forêt, mise en avant en page d'accueil.",
+      "url": "https://mislabores.com/producto/bears-5-osos-en-el-bosque/",
+      "imageUrl": ""
+    },
+    {
+      "title": "ANGELSING (Ángeles cantando villancicos)",
+      "format": "pdf",
+      "price": "4 €",
+      "bestseller": false,
+      "description": "Petite grille PDF d'anges chantant des chants de Noël, le prix le plus bas relevé dans la boutique.",
+      "url": "https://mislabores.com/producto/angelsing-angeles-cantando-villancicos/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Boutique en ligne espagnole de grilles de point de croix en PDF, tenue par Antonia Pérez depuis Atarfe, près de Grenade. Elle propose un très grand catalogue de modèles à petits prix (4 à 12 €), souvent d'après des peintures célèbres et des monuments, conçus pour les fils DMC.",
+  "history": "MisLabores est édité par Antonia Pérez, qui signe le site sous le nom MIS LABORES. L'avis légal indique une boîte postale à Atarfe, dans la province de Grenade, et un NIF personnel, ce qui correspond à une activité en nom propre (autónoma). La date de début d'activité n'a pas été trouvée.\n\nLe site vend des grilles de point de croix « a punto contado » à télécharger en PDF, à imprimer puis broder. Les grilles sont en symboles par défaut. Une version en couleurs est proposée sur demande pour 5 € de plus par grille. Une rubrique de patrons gratuits permet de tester la qualité avant d'acheter, avec un tutoriel pour débutantes et un guide de lecture des grilles.\n\nLe catalogue est classé en douze familles : animaux, art (Botero, Botticelli, Léonard de Vinci, Dalí, Klimt, Mucha, Van Gogh, Romero de Torres), bébés, fantaisie, fêtes, fleurs, maison, enfants, paysages et monuments, personnages, religion et divers. On y trouve par exemple Barcelone vue de la Sagrada Familia, l'Alhambra de Grenade ou le Christ crucifié de Velázquez.\n\nLe site a été refait récemment par l'agence PuntoCom Estudio : les images des produits sont datées d'août et septembre 2026. Il affiche les prix en euros, en dollars et en pesos mexicains, signe d'une clientèle hispanophone des deux côtés de l'Atlantique. La marque est aussi présente sur Facebook (page puntodecruz.gratis), Pinterest (puntocruzgratis) et Instagram (tiendapuntodecruz).",
+  "positioning": "MisLabores joue sur le volume et le prix : des centaines de grilles PDF entre 4 et 12 €, des lots en promotion et des modèles gratuits pour attirer. Le style est figuratif et classique, loin du minimalisme : reproductions de tableaux de maîtres, scènes religieuses, anges, monuments espagnols, souvenirs de mariage. Les grilles sont grandes et détaillées (souvent 25 à 60 couleurs DMC), pour des brodeuses expérimentées. La clientèle visée est hispanophone (Espagne et Amérique latine). Points faibles visibles : site uniquement en espagnol, aucun avis client sur les fiches consultées, pas de kit ni de fourniture identifiés, peu d'informations sur la créatrice et l'histoire de la boutique.",
+  "website": "https://mislabores.com/",
+  "instagram": "https://www.instagram.com/tiendapuntodecruz/",
+  "etsy": "",
+  "photoUrl": "https://mislabores.com/wp-content/uploads/2026/08/arte.jpg",
+  "timeline": [
+    {
+      "date": "2026-08",
+      "kind": "vie",
+      "label": "Nouveau site mislabores.com réalisé par PuntoCom Estudio (images produits mises en ligne en août 2026)"
+    },
+    {
+      "date": "2026-09",
+      "kind": "oeuvre",
+      "label": "Nouveaux modèles mis en avant, dont ABUELOS et le lot de 3 grilles en promotion"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MisLabores, page d'accueil",
+      "url": "https://mislabores.com/"
+    },
+    {
+      "label": "MisLabores, aviso legal",
+      "url": "https://mislabores.com/aviso-legal/"
+    },
+    {
+      "label": "MisLabores, sobre nuestros gráficos",
+      "url": "https://mislabores.com/sobre-nuestros-graficos/"
+    },
+    {
+      "label": "MisLabores, boutique",
+      "url": "https://mislabores.com/tienda/"
+    },
+    {
+      "label": "MisLabores, BARCELONA-1",
+      "url": "https://mislabores.com/producto/barcelona-1-catedral-sagrada-familia/"
+    },
+    {
+      "label": "MisLabores, RELICRISTO-1 (Velázquez)",
+      "url": "https://mislabores.com/producto/relicristo-1-cuadro-velazquez-cristo-crucificado/"
+    },
+    {
+      "label": "MisLabores, lot de 3 grilles",
+      "url": "https://mislabores.com/producto/lote-3-bordados-davinci-ladyspainy-bano/"
+    },
+    {
+      "label": "Instagram @tiendapuntodecruz",
+      "url": "https://www.instagram.com/tiendapuntodecruz/"
+    },
+    {
+      "label": "Facebook MisLabores.com",
+      "url": "https://www.facebook.com/puntodecruz.gratis/"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. L'indice de départ parlait de grilles papier, de kits et de fils Panda : rien de cela n'apparaît sur le site actuel. Les fiches consultées sont toutes des PDF à télécharger, avec des couleurs DMC uniquement, sans tissu ni fils vendus. Ces offres ont peut-être existé sur une ancienne version du site (la Wayback Machine n'a pas pu être consultée) ou sur un autre canal, à vérifier. Statut juridique : l'avis légal donne comme titulaire Antonia Pérez, avec un NIF au format DNI ([numéro personnel retiré]) et une boîte postale à Atarfe (Grenade). Cela indique une activité en nom propre (autónoma), mais la forme n'est pas écrite sur le site. Une autónoma ne publie pas de comptes : aucun chiffre d'affaires disponible, aucune recherche sur infoempresa ou einforma n'a donné de résultat. Date de création inconnue. Le site actuel date d'août 2026, mais les noms des comptes Facebook (puntodecruz.gratis) et Pinterest (puntocruzgratis) laissent penser à une activité plus ancienne, non datée. Meilleures ventes non identifiables : le site n'affiche ni classement ni avis (aucune valoration sur les fiches lues), aucun produit n'est donc marqué best-seller. Les produits listés sont ceux mis en avant en page d'accueil et ceux cités dans l'indice. Le type de tissu (Aïda 14 ou 18) sert seulement à donner les dimensions, il n'est pas vendu. Abonnés Instagram, Facebook et Pinterest non lisibles sans connexion. Pas de boutique Etsy trouvée. Aucune presse ni interview trouvée. Images non renseignées à la demande, elles seront ajoutées ensuite (le logo est à https://mislabores.com/wp-content/uploads/2026/08/Logo_MisLabores_Color.png)."
+}

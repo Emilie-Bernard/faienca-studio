@@ -1,0 +1,276 @@
+{
+  "name": "Yolanda Andrés",
+  "country": "Espagne",
+  "city": "Madrid",
+  "region": "Communauté de Madrid",
+  "foundedDate": "2008",
+  "closedDate": "",
+  "founders": [
+    "Yolanda Andrés"
+  ],
+  "legalName": "Yolanda Andrés",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Ateliers",
+    "Cours en ligne",
+    "Livres",
+    "Pièces brodées",
+    "Accessoires et déco brodés"
+  ],
+  "styles": [
+    "Figuratif",
+    "Coloré",
+    "Nature et animaux",
+    "Messages brodés",
+    "Art textile"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie libre",
+    "Broderie machine avec finitions main"
+  ],
+  "threads": [
+    "Mouliné 100 % coton (marque non précisée)",
+    "Perlé",
+    "Rayonne",
+    "Fils de soie",
+    "Laine"
+  ],
+  "fabrics": [
+    "Lin et coton",
+    "Lin",
+    "Toile panama",
+    "Feutrine 100 % laine",
+    "Lin ancien de famille"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress WooCommerce)",
+    "Atelier à Madrid (Lavapiés)",
+    "Domestika",
+    "Homo Faber (ateliers)",
+    "Boutique du Musée Thyssen (kit exclusif)"
+  ],
+  "priceRange": "Kits de 25 à 35 €, atelier mensuel à 75 € par mois (plus 25 € d'inscription), atelier découverte de 2 h à 60 €, coussins de 39,90 à 79,90 €, sacs de 50 à 90 €, pièces brodées main de 150 à 600 €",
+  "languages": [
+    "Espagnol",
+    "Français"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 39000,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/yolandaandresandres/"
+    },
+    {
+      "platform": "Domestika (élèves du cours)",
+      "followers": 11114,
+      "date": "2026-10",
+      "url": "https://www.domestika.org/en/courses/189-embroidery-techniques-illustrating-with-needle-and-thread"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Techniques de broderie : illustrer avec fil et aiguille (cours Domestika)",
+      "format": "cours",
+      "price": "",
+      "bestseller": true,
+      "description": "Cours en ligne de 13 leçons (2 h 14) niveau intermédiaire, 11 114 élèves et 98 % d'avis positifs sur 732 avis. Projet final : un coq inspiré d'une boîte d'allumettes. Audio en espagnol, anglais, français, italien, portugais et turc. Prix non affiché sur la page.",
+      "url": "https://www.domestika.org/en/courses/189-embroidery-techniques-illustrating-with-needle-and-thread",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Bordado, Conejito entre pinares",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Motif exclusif de Yolanda Andrés (lapin entre les pins). Tambour, toile panama, fils mouliné 100 % coton, cartes à fils, aiguilles de plusieurs pointes, petites pierres de verre, ciseaux cigogne, dessin et manuel de points. Marque des fils non précisée.",
+      "url": "https://yolandaandres.com/producto/kit-de-bordado-conejito-entre-pinares/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Bordado, Librería con cascada",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Bibliothèque en cascade, un motif phare de la créatrice. Tambour, tissu lin et coton, fils mouliné 100 % coton, cartes à fils, aiguilles, ciseaux cigogne, dessin, papier calque et petit manuel de points. Boîte en carton de 25 x 35 x 3 cm.",
+      "url": "https://yolandaandres.com/producto/kit-de-bordado-libreria-con-cascada/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Bordado, Arbolitos con estrellitas",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Petits arbres étoilés brodés sur feutrine 100 % laine. Tambour, fils mouliné coton, perlé et rayonne, cartes à fils, aiguilles, ciseaux cigogne, dessin, papier calque et manuel. Boîte de 25 x 35 x 3 cm.",
+      "url": "https://yolandaandres.com/producto/kit-de-bordado-arbolitos-con-estrellitas/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Bordado, Nada por arriba nado por debajo",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Motif de poisson. Tambour, tissu lin et coton, fils mouliné 100 % coton, cartes à fils, aiguilles, ciseaux cigogne, dessin, papier calque et manuel de points. Boîte de 25 x 35 x 3 cm.",
+      "url": "https://yolandaandres.com/producto/kit-de-bordado-pez/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Bordado, De flor en flor",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Motif floral. Tambour, tissu lin et coton, fils mouliné 100 % coton, cartes à fils, aiguilles, ciseaux cigogne, dessin des fleurs, papier calque et manuel de points. Boîte de 25 x 35 x 3 cm.",
+      "url": "https://yolandaandres.com/producto/kit-de-bordado-flores/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier mensuel de broderie à l'atelier de Madrid",
+      "format": "cours",
+      "price": "75 € par mois (inscription 25 €)",
+      "bestseller": false,
+      "description": "8 heures par mois en petit groupe, plusieurs créneaux du lundi au vendredi, matériel inclus. Chaque élève développe ses propres projets, motifs et palettes. Liste d'attente annoncée sur la page.",
+      "url": "https://yolandaandres.com/talleres/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Embroidery workshop in Madrid (Homo Faber)",
+      "format": "cours",
+      "price": "60 €",
+      "bestseller": false,
+      "description": "Atelier d'initiation de 2 heures à l'atelier de la Calle de la Encomienda, de 1 à 12 personnes. Après les points de base, chaque participante commence un projet personnel.",
+      "url": "https://www.homofaber.com/en/experiences/embroidery-workshop-in-madrid-t0rp3s",
+      "imageUrl": ""
+    },
+    {
+      "title": "The art of Embroidery",
+      "format": "livre",
+      "price": "22,90 €",
+      "bestseller": false,
+      "description": "Livre cartonné de 144 pages au format 17 x 23 cm pour s'initier à la broderie et combiner textures et couleurs. Vendu dans la rubrique kits du site. Auteur non indiqué sur la fiche.",
+      "url": "https://yolandaandres.com/producto/the-art-of-embroidery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Cojín Gallina Little",
+      "format": "autre",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "Coussin de 20 x 20 cm brodé à la machine, fils de coton sur lin, rembourrage inclus. Il existe aussi des coussins de 40 x 40 cm à 79,90 €.",
+      "url": "https://yolandaandres.com/producto/cojin-gallina-little/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Brodeuse et artiste textile installée à Madrid, Master Artisan de Homo Faber, qui vend des pièces brodées, quelques kits à 25 et 35 €, des ateliers dans son atelier de Lavapiés et un cours Domestika suivi par plus de 11 000 élèves.",
+  "history": "Yolanda Andrés est née en 1973 dans la province de Zamora. Elle a grandi dans la mercerie que tenait sa mère dans un petit village et a appris à broder à six ans à l'école. Homo Faber précise que les femmes de sa famille lui ont transmis le savoir-faire et que sa famille fabriquait du lin dans le nord de l'Espagne.\n\nElle a étudié les beaux-arts à Salamanque (peinture puis design graphique), la peinture à l'Académie royale des beaux-arts de Bruxelles, et a suivi un master en packaging à l'IED de Madrid ainsi qu'un cours chez Lesage à Paris. Elle a ensuite travaillé plus de dix ans dans la publicité, notamment comme directrice artistique.\n\nEn 2008, à la naissance de sa première fille, née grande prématurée, elle reprend l'aiguille faute de pouvoir peindre. Elle commence par des cadeaux pour ses amis, qui l'encouragent avec son mari à continuer. À partir de 2012 la presse espagnole la remarque (El País, El Asombrario, Telva, Vogue España) et elle commence à enseigner.\n\nElle collabore avec des marques et institutions : sacs Matryoshka en édition limitée avec CH Carolina Herrera en 2013, AD, ZUBI et la boutique du Musée Thyssen, pour laquelle elle a conçu un kit de broderie exclusif. Elle enseigne aussi à l'ESD et à l'IED de Madrid.\n\nAujourd'hui elle travaille dans son atelier de la Calle de la Encomienda, à Lavapiés près de Tirso de Molina, un lieu qui accueille aussi pop-up, expositions et événements. Elle y donne des ateliers mensuels, vend en ligne ses pièces, ses kits, des coussins et des sacs, et propose un cours sur Domestika. Homo Faber la présente comme Master Artisan.",
+  "positioning": "Une artiste brodeuse plus qu'une marque de kits. Son univers est figuratif, coloré et souvent tendre : cerfs, coqs, poules, artichauts, bibliothèques en cascade, appareils photo, messages brodés, souvent sur du lin ancien de famille. Elle vise une clientèle urbaine et design, sensible aux collaborations de mode et de musée. Ses forces : une forte notoriété presse en Espagne, un cours Domestika très suivi, un atelier physique au centre de Madrid et une communauté Instagram de 39 000 abonnés. Points faibles visibles : un catalogue de kits réduit (5 modèles), aucune marque de fil indiquée, pas de patrons PDF, un site vieillissant avec des pages de modèle et des mentions légales incohérentes, et pas de boutique Etsy repérée.",
+  "website": "https://yolandaandres.com/",
+  "instagram": "https://www.instagram.com/yolandaandresandres/",
+  "etsy": "",
+  "photoUrl": "https://yolandaandres.com/wp-content/uploads/2016/05/Yolanda-Andres-Logo.jpg",
+  "timeline": [
+    {
+      "date": "1973",
+      "kind": "vie",
+      "label": "Naissance dans la province de Zamora"
+    },
+    {
+      "date": "2008",
+      "kind": "vie",
+      "label": "Reprend la broderie après la naissance de sa première fille et quitte peu à peu la publicité"
+    },
+    {
+      "date": "2012",
+      "kind": "vie",
+      "label": "Commence à enseigner la broderie"
+    },
+    {
+      "date": "2012-05",
+      "kind": "prix",
+      "label": "Article dans El País, « Ellas ponen el punto… y aparte »"
+    },
+    {
+      "date": "2012-12",
+      "kind": "exposition",
+      "label": "Pop-up store The Apartment à Madrid, relayé par Telva"
+    },
+    {
+      "date": "2013-06",
+      "kind": "residence",
+      "label": "Sacs Matryoshka brodés en édition limitée avec CH Carolina Herrera"
+    },
+    {
+      "date": "2016",
+      "kind": "vie",
+      "label": "Mise en ligne de la boutique sur yolandaandres.com"
+    },
+    {
+      "date": "2020-05",
+      "kind": "oeuvre",
+      "label": "Lancement de la page Kits de broderie sur son site"
+    },
+    {
+      "date": "2022",
+      "kind": "prix",
+      "label": "Présentée comme Master Artisan sur Homo Faber"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Homo Faber, fiche Yolanda Andrés",
+      "url": "https://www.homofaber.com/en/discover/yolanda-andrs-embroidery-spain"
+    },
+    {
+      "label": "Homo Faber, Embroidery workshop in Madrid",
+      "url": "https://www.homofaber.com/en/experiences/embroidery-workshop-in-madrid-t0rp3s"
+    },
+    {
+      "label": "Site Yolanda Andrés, accueil",
+      "url": "https://yolandaandres.com/"
+    },
+    {
+      "label": "Site Yolanda Andrés, biographie",
+      "url": "https://yolandaandres.com/yolanda-andres/"
+    },
+    {
+      "label": "Site Yolanda Andrés, ateliers",
+      "url": "https://yolandaandres.com/talleres/"
+    },
+    {
+      "label": "Site Yolanda Andrés, presse",
+      "url": "https://yolandaandres.com/prensa/"
+    },
+    {
+      "label": "Site Yolanda Andrés, mon espace",
+      "url": "https://yolandaandres.com/mi-espacio/"
+    },
+    {
+      "label": "Site Yolanda Andrés, conditions générales",
+      "url": "https://yolandaandres.com/condiciones-generales/"
+    },
+    {
+      "label": "Site Yolanda Andrés, politique de confidentialité et avis légal",
+      "url": "https://yolandaandres.com/politica-privacidad/"
+    },
+    {
+      "label": "Site Yolanda Andrés, catalogue produits (API WooCommerce)",
+      "url": "https://yolandaandres.com/wp-json/wc/store/v1/products?per_page=100"
+    },
+    {
+      "label": "Domestika, cours de Yolanda Andrés",
+      "url": "https://www.domestika.org/en/courses/189-embroidery-techniques-illustrating-with-needle-and-thread"
+    },
+    {
+      "label": "Instagram @yolandaandresandres",
+      "url": "https://www.instagram.com/yolandaandresandres/"
+    },
+    {
+      "label": "Time Out Madrid, Taller de bordado Yolanda Andrés",
+      "url": "https://www.timeout.es/madrid/es/que-hacer/taller-de-bordado-yolanda-andres"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Forme juridique non confirmée : l'avis légal de la politique de confidentialité désigne Yolanda Andrés comme titulaire avec un NIF de personne physique (ce qui laisse penser à une activité d'autónoma), mais le même texte cite le domaine promoencasa.es, et les conditions générales nomment une autre société, Taiwan Trade Investment, S.L. (CIF B-87186805, Calle Mesón de Paredes 33, Madrid) avec une adresse e-mail de modèle (contacto@NOMBRE-TIENDA.com). Ces textes semblent copiés de modèles ; je n'ai pas renseigné registrationId ni legalForm. Aucune recherche concluante sur infoempresa, einforma ou librebor. Si elle exerce en autónoma, elle ne publie pas de comptes : aucun chiffre d'affaires connu. Date de création incertaine : Homo Faber dit qu'elle a commencé sa carrière en 1996 et ouvert son atelier il y a environ dix ans, alors que sa biographie situe la reprise de la broderie en 2008 ; j'ai retenu 2008. Le kit exclusif du Musée Thyssen (sac à broder d'après Sándor Bortnyik, Composición II, rosa y azul : sac en coton imprimé, petit manuel, tambour, fils mouliné coton, cartes à fils, aiguilles, ciseaux cigogne) apparaît dans les résultats de recherche mais la page produit redirige aujourd'hui vers le catalogue : prix et disponibilité non vérifiés. Aucune meilleure vente affichée sur son site ; le cours Domestika est marqué best-seller sur la base de son nombre d'élèves. Prix du cours Domestika non affiché. Pas de boutique Etsy trouvée, ni de chaîne YouTube, Pinterest ou TikTok vérifiée. Les fils sont décrits comme mouliné 100 % coton sans marque ; une interview de 2014 sur le blog DMC Espagne (elblogdedmc.blogspot.com) laisse penser à un lien avec DMC, non vérifié. Le catalogue WooCommerce contient encore des produits de démonstration (Product 1 à 8) et des pages de test, signe d'un site peu entretenu. Facebook : facebook.com/yolanda.andresandres (non consulté)."
+}

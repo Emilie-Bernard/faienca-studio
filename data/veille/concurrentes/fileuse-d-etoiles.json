@@ -1,0 +1,213 @@
+{
+  "name": "Fileuse d'Étoiles",
+  "country": "France",
+  "city": "Mauzé-sur-le-Mignon",
+  "region": "Nouvelle-Aquitaine",
+  "foundedDate": "2015-08-01",
+  "closedDate": "",
+  "founders": [
+    "Estelle Hivernet"
+  ],
+  "legalName": "Estelle Hivernet (enseigne Fileuse d'Étoiles)",
+  "legalForm": "Entrepreneur individuel (EI)",
+  "registrationId": "813059532",
+  "offers": [
+    "Kits de broderie",
+    "Objets brodés main (scapulaires, médaillons, ex-voto)"
+  ],
+  "styles": [
+    "Floral",
+    "Religieux catholique",
+    "Bord de mer atlantique",
+    "Animaux",
+    "Noël"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie d'art"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Coton bio",
+    "Laine tissée (scapulaires)"
+  ],
+  "salesChannels": [
+    "Site en propre (Wix)"
+  ],
+  "priceRange": "Kits de 24 à 27 €, set de 3 kits à 31 €, médaillons et insignes de 14 à 18 €, scapulaires de 23 à 42 €, ex-voto pièce unique à 95 €",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit de broderie traditionnelle Île de Ré 2",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Motif de 15 x 15 cm sur toile 100 % coton bio, motif transféré à la main, photo couleur, guide des points et des couleurs, glossaire des points, fils de coton mouliné DMC et aiguille. Tambour en bois de 15 cm en option, instructions en français ou en anglais. Niveau 2 sur 3.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-%C3%AEle-de-r%C3%A9-2",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie traditionnelle Île d'Oléron",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Même composition que le kit Île de Ré : motif de 15 x 15 cm sur toile coton bio, fils mouliné DMC, aiguille, fiches de points. Tambour de 15 cm en option. Niveau 2 sur 3.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-%C3%AEle-d-ol%C3%A9ron",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie traditionnelle Cerf",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Motif de 15 x 15 cm sur toile coton bio transférée, fils mouliné DMC, aiguille, guide des points. Tambour en option. Niveau 1 sur 3, pensé pour débuter.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-cerf",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie traditionnelle Bouquet rouge",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit floral de la gamme à 24 €, sur toile coton bio avec fils DMC, tambour en option.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-bouquet-rouge",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie traditionnelle Libellule et myosotis",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Kit floral sur toile coton bio avec fils DMC, tambour en option.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-libellule-et-myosotis",
+      "imageUrl": ""
+    },
+    {
+      "title": "Set de 3 kits de broderie traditionnelle Flocon de neige",
+      "format": "kit",
+      "price": "31 €",
+      "bestseller": false,
+      "description": "Lot de trois petits kits de Noël sur le thème du flocon.",
+      "url": "https://www.fileusedetoiles.com/product-page/set-de-3-kits-de-broderie-traditionnelle-flocon-de-neige",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit à prier Vierge Marie Rosa Mystica",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit de la gamme « kits à prier », inspiré des Litanies de Lorette. Motif de 12 x 12 cm sur toile coton bio transférée, fils DMC, guide des points. Niveau 2 sur 3.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-vierge-marie-rosa-mystica",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit à prier La Divine Miséricorde, Sainte Faustine",
+      "format": "kit",
+      "price": "27 €",
+      "bestseller": false,
+      "description": "Kit religieux de la gamme « kits à prier », l'un des deux plus chers de la boutique avec la grande crèche de Noël.",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-la-divine-mis%C3%A9ricorde-sainte-faustine",
+      "imageUrl": ""
+    },
+    {
+      "title": "Scapulaire brun du Mont Carmel brodé main",
+      "format": "autre",
+      "price": "33 €",
+      "bestseller": false,
+      "description": "Scapulaire brodé entièrement à la main, images sur toile 100 % coton cousues sur deux rectangles de laine tissée de 3,3 x 4 cm, cordelettes réglables (45 cm en standard), fait sur commande.",
+      "url": "https://www.fileusedetoiles.com/product-page/scapulaire-brun-du-mont-carmel-brod%C3%A9-main",
+      "imageUrl": ""
+    },
+    {
+      "title": "Ex-voto Sacré-Cœur de Jésus brodé main, pièce unique",
+      "format": "autre",
+      "price": "95 €",
+      "bestseller": false,
+      "description": "Pièce unique brodée main, l'article le plus cher de la boutique.",
+      "url": "https://www.fileusedetoiles.com/product-page/ex-voto-sacr%C3%A9-c%C5%93ur-de-j%C3%A9sus-brod%C3%A9-main-pi%C3%A8ce-unique-d-exception-de-broderie",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Atelier familial du Marais poitevin tenu par Estelle Hivernet, brodeuse d'art formée à Lunéville, qui vend des kits de broderie traditionnelle faits main (24 à 27 €) et des objets religieux brodés main. Deux univers cohabitent : kits floraux, animaliers et de la côte atlantique d'un côté, kits à prier et scapulaires catholiques de l'autre.",
+  "history": "Fileuse d'Étoiles est l'enseigne d'Estelle Hivernet, immatriculée comme entrepreneur individuel le 1er août 2015 (activité de fabrication d'autres textiles). Depuis juillet 2019, le siège est à Mauzé-sur-le-Mignon, dans les Deux-Sèvres, au cœur du Marais poitevin.\n\nEstelle Hivernet a obtenu son diplôme de broderie d'art à Lunéville. Elle a passé deux ans dans un Carmel près de Paris avec le désir de devenir carmélite, puis y a renoncé pour des raisons de santé. Elle présente depuis la broderie comme un lieu de prière et de transmission, avec la devise « Des petits points vers le Ciel ».\n\nSon mari, Denis Morin, ébéniste de métier, a rejoint l'atelier environ cinq ans avant la rédaction de la page « Qui sommes-nous ? ». Il a d'abord préparé les fils et assemblé les kits, puis a appris la broderie traditionnelle auprès d'Estelle. Le site parle d'une petite entreprise familiale et de plus de douze ans de broderie.\n\nAujourd'hui, la boutique en ligne compte quatre rayons : environ 24 kits à broder (fleurs, animaux, Noël, Île de Ré, Île d'Oléron), une trentaine de kits à prier (Vierge Marie, saints, crèches), une vingtaine de scapulaires et une trentaine de médaillons, insignes et ex-voto, dont plusieurs Sacré-Cœur vendéens.",
+  "positioning": "Kits de broderie traditionnelle simples et abordables (24 à 27 €), au format unique de 12 ou 15 cm, sur toile coton bio avec le motif déjà transféré à la main et des fils DMC. Le tambour est en option, ce qui garde un prix d'appel bas. Les kits sont présentés comme accessibles aux débutantes, avec un niveau et un temps de réalisation notés sur trois ou quatre cœurs, et des instructions au choix en français ou en anglais. La vraie singularité est religieuse : une large gamme catholique (kits à prier, scapulaires, ex-voto) vise une clientèle croyante et traditionaliste, absente chez la plupart des concurrentes. Les motifs régionaux de la côte atlantique (Île de Ré, Île d'Oléron) parlent à une clientèle touristique ou attachée à la région. Points faibles visibles : site Wix au catalogue peu hiérarchisé (pas de best-sellers mis en avant, titres en doublon, produits nommés « copie de »), pas de mentions légales dédiées, peu de présence repérable hors du site.",
+  "website": "https://www.fileusedetoiles.com",
+  "instagram": "https://www.instagram.com/fileusedetoiles/",
+  "etsy": "",
+  "photoUrl": "https://static.wixstatic.com/media/8ac351_49632dc83c0a469e9fa38f9822429ec2~mv2.jpg/v1/fill/w_480,h_310,al_c/8ac351_49632dc83c0a469e9fa38f9822429ec2~mv2.jpg",
+  "timeline": [
+    {
+      "date": "2015-08-01",
+      "kind": "vie",
+      "label": "Immatriculation d'Estelle Hivernet en entrepreneur individuel, enseigne Fileuse d'Étoiles"
+    },
+    {
+      "date": "2019-07-12",
+      "kind": "vie",
+      "label": "Transfert du siège à Mauzé-sur-le-Mignon, dans le Marais poitevin"
+    },
+    {
+      "date": "2026",
+      "kind": "oeuvre",
+      "label": "Catalogue en ligne : environ 24 kits à broder, une trentaine de kits à prier, scapulaires et ex-voto brodés main"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fileuse d'Étoiles, page d'accueil",
+      "url": "https://www.fileusedetoiles.com"
+    },
+    {
+      "label": "Fileuse d'Étoiles, Qui sommes-nous ?",
+      "url": "https://www.fileusedetoiles.com/qui-sommes-nous"
+    },
+    {
+      "label": "Fileuse d'Étoiles, conditions générales de vente",
+      "url": "https://www.fileusedetoiles.com/c-g-v"
+    },
+    {
+      "label": "Fileuse d'Étoiles, rayon kits à broder",
+      "url": "https://www.fileusedetoiles.com/boutique-kits-a-broder"
+    },
+    {
+      "label": "Fileuse d'Étoiles, rayon kits à prier",
+      "url": "https://www.fileusedetoiles.com/boutique-kit-a-prier"
+    },
+    {
+      "label": "Fileuse d'Étoiles, rayon scapulaires",
+      "url": "https://www.fileusedetoiles.com/boutique-scapulaires"
+    },
+    {
+      "label": "Fileuse d'Étoiles, rayon médailles et ex-voto",
+      "url": "https://www.fileusedetoiles.com/boutique-exvoto"
+    },
+    {
+      "label": "Fileuse d'Étoiles, kit Île de Ré 2",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-%C3%AEle-de-r%C3%A9-2"
+    },
+    {
+      "label": "Fileuse d'Étoiles, kit Île d'Oléron",
+      "url": "https://www.fileusedetoiles.com/product-page/kit-de-broderie-traditionnelle-%C3%AEle-d-ol%C3%A9ron"
+    },
+    {
+      "label": "Fileuse d'Étoiles, scapulaire brun du Mont Carmel",
+      "url": "https://www.fileusedetoiles.com/product-page/scapulaire-brun-du-mont-carmel-brod%C3%A9-main"
+    },
+    {
+      "label": "Annuaire des entreprises, SIREN 813059532",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/813059532"
+    },
+    {
+      "label": "API Recherche d'entreprises (data.gouv), SIREN 813059532",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=813059532"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Statut : entrepreneur individuel (SIREN 813059532, NAF 13.99Z, non employeur), donc aucun compte publié et aucun chiffre d'affaires connu. L'annuaire liste deux établissements dont un seul ouvert : l'ancienne adresse d'avant 2019 n'a pas été vérifiée. Le rattachement de la marque à ce SIREN repose sur l'enseigne « FILEUSE D'ETOILES » inscrite au répertoire et sur le nom d'Estelle Hivernet affiché sur le site ; le site n'a pas de page de mentions légales. Une autre entreprise, Estelle Darve à Planzolles (Ardèche, SIREN 502892888, créée en 2008), porte aussi l'enseigne Fileuse d'Étoiles : à ne pas confondre. La date d'arrivée de Denis Morin (« il y a cinq ans ») n'est pas datée sur la page, d'où son absence de la frise. Aucun produit n'affiche de badge best-seller ni d'avis sur le site : les produits sont classés par pertinence pour Faïença (côte atlantique d'abord), pas par ventes. Prix du tambour en option non relevé. Audiences non relevées : Instagram (@fileusedetoiles), Facebook, Pinterest (ehivernet) et YouTube (chaîne UCKeR1kasiqh4Ulp3XLa2rCg) sont liés depuis le site mais leurs pages n'ont pas pu être lues. Boutique Etsy probable (descriptions au style Etsy, certaines adresses produits en anglais comme « hand-embroidered-brown-scapular ») mais non trouvée, Etsy bloquant la lecture. Aucune interview ni article de presse trouvés. Images à ajouter ensuite (logo repéré sur static.wixstatic.com)."
+}

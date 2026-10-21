@@ -1,0 +1,283 @@
+{
+  "name": "Rue de Pleine Lune",
+  "country": "France",
+  "city": "Méteren",
+  "region": "Hauts-de-France",
+  "foundedDate": "2019-09-02",
+  "closedDate": "",
+  "founders": [
+    "Mélissa Descamps"
+  ],
+  "legalName": "Mélissa Descamps (Rue de Pleine Lune)",
+  "legalForm": "Micro-entreprise",
+  "registrationId": "877765768",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Cours en ligne",
+    "Ateliers"
+  ],
+  "styles": [
+    "Nature",
+    "Botanique",
+    "Animaux de la forêt",
+    "Saisons",
+    "Vintage",
+    "Poétique",
+    "Tarot"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur papier",
+    "Broderie en relief",
+    "Broderie sur vêtement",
+    "Boro",
+    "Peinture à l'aiguille"
+  ],
+  "threads": [
+    "Coton mouliné DMC",
+    "Coton mouliné Cartier-Bresson vintage",
+    "Coton retors DMC de seconde main",
+    "Fil doré",
+    "Laine fine",
+    "Fil perlé n°5"
+  ],
+  "fabrics": [
+    "Lin et métis de lin chinés",
+    "Coton blanc de draps anciens",
+    "Coton lin",
+    "Tissus teints naturellement",
+    "Papier kraft recyclé 200 g",
+    "Papier premium mat 310 g"
+  ],
+  "salesChannels": [
+    "Site en propre (WooCommerce)",
+    "Faire (grossiste)",
+    "Boutiques revendeuses",
+    "Salons et marchés"
+  ],
+  "priceRange": "Kits complets de 20 à 49 €, cartes à broder de 4 à 20 €, motifs et e-books PDF de 3 à 18 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 2325,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/_ruedepleinelune_/"
+    },
+    {
+      "platform": "Instagram (Murmura lunae)",
+      "followers": 1930,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/murmuralunae/"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "« En vacances », cartes à broder (le van, l'appareil-photo ou lot de 3)",
+      "format": "kit",
+      "price": "4 à 20 €",
+      "bestseller": true,
+      "description": "Une à trois cartes illustrées par la créatrice, imprimées sur papier kraft recyclé 200 g, fils et aiguille adaptée, tuto imprimé avec schémas des points, e-book à télécharger. Existe aussi en e-book seul. Premier produit du tri par popularité du site.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/en-vacances-cartes-a-broder-le-van-lappareil-photo-ou-lot-de-3/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Motif de broderie hivernale « Le rouge thé »",
+      "format": "pdf",
+      "price": "4 €",
+      "bestseller": true,
+      "description": "Motif de broderie sur tissu à télécharger, avec conseils de report du motif et carte illustrée à imprimer en bonus. Offert en 2021 aux inscrites de la newsletter.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/motif-de-broderie-hivernale-le-rouge-the/",
+      "imageUrl": ""
+    },
+    {
+      "title": "« Folies », cartes à broder oiseaux",
+      "format": "kit",
+      "price": "4 à 12 €",
+      "bestseller": true,
+      "description": "Dessin exclusif imprimé sur papier premium mat 310 g, fils, aiguille, tuto imprimé et e-book à télécharger.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/folies-cartes-a-broder-oiseaux-herbes-folles-folie-douce/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Les flacons, modèles de broderie",
+      "format": "pdf",
+      "price": "3 €",
+      "bestseller": true,
+      "description": "Motifs de fleurs en flacon à broder sur tissu, en téléchargement.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/motif-de-broderie-flacons/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie pour débutants « Les insectes fleuris »",
+      "format": "kit",
+      "price": "9 à 35 €",
+      "bestseller": true,
+      "description": "Kit complet : coton blanc de ressourcerie d'environ 20 x 20 cm, fils variés (coton mouliné, laine fine), motif sur autocollant hydrosoluble, deux aiguilles, explications imprimées et e-book pas à pas. Tambour en bois de 10 cm en option. Aussi en e-book ou motif seul.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/broderie-pour-debutants-les-insectes-fleuris-plusieurs-versions/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Il était une fois un renard, broderie d'automne",
+      "format": "kit",
+      "price": "9 à 39 €",
+      "bestseller": true,
+      "description": "Fils de coton mouliné aux couleurs d'automne, coton lin vert ou toile de coton blanche (30 x 30 cm minimum), aiguille de marque française, motif de moins de 18 cm sur autocollant hydrosoluble, aide-mémoire et e-book. Tambour en hêtre de 17,5 cm en option.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/il-etait-une-fois-un-renard-broderie-dautomne/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curiosités 1, kit de broderie pour apprendre les bases",
+      "format": "kit",
+      "price": "12 à 49 €",
+      "bestseller": true,
+      "description": "Kit-cours : mouliné Cartier-Bresson vintage ou DMC neuf, fil doré et coton retors DMC de seconde main, perles de rocaille chinées, deux aiguilles, lin ou métis écru chiné (30 x 37 cm minimum), motif 13 x 18 cm sur autocollant hydrosoluble, aide-mémoire et e-book avec vidéos. Tambour en hêtre de 17,5 cm en option.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/curiosites-1-kit-de-broderie-pour-apprendre-les-bases/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curiosités 2, kit pour apprendre à broder en relief",
+      "format": "kit",
+      "price": "12 à 49 €",
+      "bestseller": false,
+      "description": "Suite de Curiosités 1 consacrée aux points en relief : mouliné chiné ou DMC, coton retors DMC de seconde main, lin ou coton écru chiné, e-book avec vidéos.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/curiosites-2-kit-pour-apprendre-a-broder-en-relief/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le soleil, carte de tarot brodée",
+      "format": "kit",
+      "price": "7 à 35 €",
+      "bestseller": false,
+      "description": "Nouveauté 2026. Kit complet : coton mouliné noir ou blanc, coton ou métis blanc d'environ 30 x 30 cm, aiguille, motif 13 x 18 cm sur autocollant hydrosoluble, aide-mémoire et e-book. Aussi en e-book, motif seul ou duo avec La lune.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/le-soleil-carte-de-tarot-brodee/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Calendrier de l'avent 2025, Préparatifs",
+      "format": "pdf",
+      "price": "9 à 47 €",
+      "bestseller": false,
+      "description": "Calendrier de l'avent à broder sur tissu, proposé en e-book et en motifs seuls.",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/calendrier-de-lavent-2025-preparatifs/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Micro-entreprise de Méteren (Nord) créée en 2019 par Mélissa Descamps, ancienne professeure des écoles, qui vend des kits, e-books et motifs de broderie au thème nature, sur tissu et sur cartes en papier, avec des tissus et fils chinés ou teints naturellement. La marque est en train de devenir Murmura lunae.",
+  "history": "Rue de Pleine Lune est née à Méteren, dans le Nord, près du Mont des Cats. Une association du même nom existe à la même adresse depuis août 2018, puis Mélissa Descamps immatricule son entreprise individuelle le 2 septembre 2019, au répertoire des métiers des Hauts-de-France, en activité de fabrication d'articles textiles.\n\nSur sa page « à propos », Mélissa raconte avoir quitté en 2019 son poste de professeure des écoles, après près de vingt ans d'enseignement. Elle commence par de petites créations cousues, des bijoux, des pièces en tissus recyclés teints, brodés ou imprimés, des meubles et objets réinventés, et des ateliers.\n\nL'idée des kits de broderie vient après ses premiers ateliers créatifs. La boutique compte aujourd'hui 69 produits : kits complets sur tissu, cartes à broder sur papier recyclé, e-books qui servent de cours (la série Curiosités, avec vidéos), motifs seuls, carnets de motifs et calendriers de l'avent annuels. Les kits sont fabriqués en petites séries dans l'atelier.\n\nEn 2026, la créatrice annonce un changement de nom, Murmura lunae, « sans changer d'univers ». Un nouveau site doit réunir les kits et motifs de Rue de Pleine Lune et ses illustrations vendues sous le nom Murmures de grenier. Le site actuel reste ouvert en attendant.",
+  "positioning": "Univers nature et un peu étrange (animaux de la forêt, herbiers, champignons, tarot, chats), dessiné par la créatrice elle-même. Forte démarche écoresponsable : tissus de draps anciens et de ressourcerie, lin chiné, teintures naturelles, fils vintage, papier recyclé, emballages pensés. Clientèle visée : débutantes, avec des kits déclinés en plusieurs versions (kit complet, motif autocollant hydrosoluble, e-book, dessin seul) et des e-books pédagogiques. Prix bas, de 3 à 49 €. Points faibles visibles : petite audience (environ 2 300 abonnés Instagram), aucun avis client sur le site, site uniquement en français, et une marque en cours de changement de nom qui peut brouiller sa notoriété.",
+  "website": "https://ruedepleinelune.com/",
+  "instagram": "https://www.instagram.com/_ruedepleinelune_/",
+  "etsy": "",
+  "photoUrl": "https://ruedepleinelune.com/wp-content/uploads/2026/08/banniere-transfo-RdPL.png",
+  "timeline": [
+    {
+      "date": "2018-08-17",
+      "kind": "vie",
+      "label": "Création de l'association Rue de Pleine Lune à Méteren"
+    },
+    {
+      "date": "2019",
+      "kind": "vie",
+      "label": "Mélissa quitte l'enseignement pour se consacrer à la création"
+    },
+    {
+      "date": "2019-09-02",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle Rue de Pleine Lune"
+    },
+    {
+      "date": "2021-01",
+      "kind": "oeuvre",
+      "label": "Motif « Le rouge thé » offert aux abonnées de la newsletter, avec concours Instagram"
+    },
+    {
+      "date": "2024-10",
+      "kind": "oeuvre",
+      "label": "Lancement du kit-cours Curiosités 1, les bases de la broderie"
+    },
+    {
+      "date": "2024-11",
+      "kind": "oeuvre",
+      "label": "Calendrier de l'avent à broder Noël en forêt"
+    },
+    {
+      "date": "2025-11",
+      "kind": "oeuvre",
+      "label": "Calendrier de l'avent 2025, Préparatifs"
+    },
+    {
+      "date": "2026-03",
+      "kind": "oeuvre",
+      "label": "Cartes de tarot brodées Le soleil et cartes à broder Chroniques d'un chat"
+    },
+    {
+      "date": "2026",
+      "kind": "vie",
+      "label": "Annonce du changement de nom en Murmura lunae"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Rue de Pleine Lune, accueil",
+      "url": "https://ruedepleinelune.com/"
+    },
+    {
+      "label": "Site, à propos",
+      "url": "https://ruedepleinelune.com/apropos/"
+    },
+    {
+      "label": "Site, conditions générales de vente (SIRET, adresse, gérante)",
+      "url": "https://ruedepleinelune.com/conditions-generales-de-vente/"
+    },
+    {
+      "label": "Site, boutique complète",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/"
+    },
+    {
+      "label": "Site, API boutique triée par popularité",
+      "url": "https://ruedepleinelune.com/wp-json/wc/store/v1/products?orderby=popularity&per_page=100"
+    },
+    {
+      "label": "Blog, tout savoir sur les kits de broderie",
+      "url": "https://ruedepleinelune.com/2024/08/27/tout-savoir-sur-les-kits-de-broderie/"
+    },
+    {
+      "label": "Fiche produit Curiosités 1",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/curiosites-1-kit-de-broderie-pour-apprendre-les-bases/"
+    },
+    {
+      "label": "Fiche produit Le soleil",
+      "url": "https://ruedepleinelune.com/boutiquegenerale/product-category/sample-product/le-soleil-carte-de-tarot-brodee/"
+    },
+    {
+      "label": "Recherche d'entreprises, SIREN 877765768",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=877765768"
+    },
+    {
+      "label": "Recherche d'entreprises, association SIREN 841938806",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=841938806"
+    },
+    {
+      "label": "Faire, page grossiste",
+      "url": "https://www.faire.com/fr/brand/b_dcc6tmbtu7"
+    },
+    {
+      "label": "Instagram @_ruedepleinelune_",
+      "url": "https://www.instagram.com/_ruedepleinelune_/"
+    },
+    {
+      "label": "Instagram @murmuralunae",
+      "url": "https://www.instagram.com/murmuralunae/"
+    },
+    {
+      "label": "Revendeuse Il Etait Une Fois Dix Doigts",
+      "url": "https://www.iletaitunefoisdixdoigts.com/produit/kit-de-carte-a-broder-par-rue-de-pleine-lune-au-choix/"
+    }
+  ],
+  "researchNotes": "Entreprise individuelle (nature juridique 1000) au régime micro-entreprise selon les CGV : pas de comptes publiés, aucun chiffre d'affaires connu. Les annuaires la classent en catégorie PME, ce qui est automatique et ne dit rien de sa taille. Une association « Rue de Pleine Lune » (SIREN 841938806, créée le 2018-08-17, NAF 94.99Z) existe à la même adresse ; son rôle n'est pas expliqué. Le nom de famille vient des CGV et du registre, le site ne l'affiche pas ailleurs. Les meilleures ventes sont déduites du tri « popularité » de WooCommerce (nombre de ventes), sans chiffres ni badges ; aucun avis client sur le site. Les prix sont des fourchettes par variante (e-book, motif, kit complet, avec ou sans tambour) ; le prix exact de chaque variante n'a pas été relevé. Faire et verif.com ont bloqué la lecture (403) : descriptif Faire connu seulement par l'extrait du moteur de recherche, prix de gros non relevés. La liste des boutiques revendeuses et des salons (page « Où me trouver ») n'a pas pu être lue. Le compte Instagram @ruedepleinelune n'est pas le sien (compte japonais) ; le site renvoie vers @_ruedepleinelune_. Audiences YouTube (@melissadefilsetdencre), Facebook et Pinterest (pinterest.fr/lereinventoire) non relevées. Pas de boutique Etsy trouvée. Aucune presse ni interview trouvée. Date exacte du changement de nom en Murmura lunae non trouvée, site futur pas encore ouvert. Abonnés Instagram lus le 2026-10-21. Les dates de lancement de la frise (2024-10, 2024-11, 2025-11, 2026-03) sont déduites du mois de mise en ligne des photos produits sur le site, pas d'une annonce datée."
+}

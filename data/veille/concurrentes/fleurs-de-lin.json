@@ -1,0 +1,205 @@
+{
+  "name": "Fleurs de Lin",
+  "country": "France",
+  "city": "Lagny-le-Sec",
+  "region": "Hauts-de-France",
+  "foundedDate": "2012-05-01",
+  "closedDate": "",
+  "founders": [
+    "Roselyne Pittet"
+  ],
+  "legalName": "Roselyne Pittet (Vuadens)",
+  "legalForm": "Entreprise individuelle",
+  "registrationId": "751557026",
+  "offers": [
+    "Patrons PDF",
+    "Grilles imprimées",
+    "Semi-kits"
+  ],
+  "styles": [
+    "Saisons",
+    "Noël",
+    "Maisonnettes",
+    "Campagne",
+    "Bord de mer",
+    "Nostalgique"
+  ],
+  "techniques": [
+    "Point de croix",
+    "Point compté"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Lin Zweigart Edinburgh 14 fils",
+    "Toile Zweigart 11 fils"
+  ],
+  "salesChannels": [
+    "Site en propre (Kingeshop)",
+    "Boutiques revendeuses"
+  ],
+  "priceRange": "Grilles et PDF de 4 à 6 € sur son site, semi-kits à 12 €, de 6 à 24 € chez les revendeurs",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "12 mois pour une année",
+      "format": "pdf",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Grille de point de croix, réf. FLin.279 : 12 motifs mensuels de 50 x 70 points (environ 7 x 10 cm sur toile 14 fils). Modèle brodé sur lin Edinburgh Zweigart 14 fils, coloris 309, en 2 brins de mouliné DMC, 15 couleurs. Grille vendue par le revendeur Broderie au fil du temps.",
+      "url": "https://www.broderieaufildutemps.com/12-mois-pour-une-annee-5101.html",
+      "imageUrl": "https://www.broderieaufildutemps.com/8541-large_default/12-mois-pour-une-annee.jpg"
+    },
+    {
+      "title": "Bienvenue en automne",
+      "format": "pdf",
+      "price": "10 €",
+      "bestseller": false,
+      "description": "Grille de point de croix, réf. FLin.283 : 70 x 154 points, soit 10 x 22 cm sur toile 14 fils. Modèle brodé sur Edinburgh Zweigart 14 fils coloris 7011, 26 couleurs DMC en 2 brins. Fait partie d'une série saisonnière avec Bienvenue au printemps et Bienvenue en été.",
+      "url": "https://www.broderieaufildutemps.com/bienvenue-en-automne-5106.html",
+      "imageUrl": "https://www.broderieaufildutemps.com/8547-large_default/bienvenue-en-automne.jpg"
+    },
+    {
+      "title": "Cap à l'ouest",
+      "format": "pdf",
+      "price": "18,90 CHF",
+      "bestseller": false,
+      "description": "Fiche réf. FDL-161 : grille de 152 x 152 points avec patron et explications pour monter un pochon. Toile Zweigart 14 fils coloris naturel 52, fils DMC (dont 815, 930 à 932, 3750 à 3753, B5200). Vendue par Broderie Passion (Suisse).",
+      "url": "https://www.broderiepassion.com/fiches/fleurs-de-lin-roselyne-pittet/11412-fleurs-de-lin-fiche-cap-a-l-ouest.html",
+      "imageUrl": "https://www.broderiepassion.com/18465-thickbox_default/fleurs-de-lin-fiche-cap-a-l-ouest.jpg"
+    },
+    {
+      "title": "Boule à neige Joy to the world",
+      "format": "kit",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Semi-kit réf. 171 : la grille de la broderie et le support boule à neige de The Bee Company. Ni toile ni fils fournis d'après la page. Existe aussi en PDF seul à 6 €.",
+      "url": "https://www.fleursdelin.kingeshop.com/Boule-a-neige-Joy-to-the-world-cbaaaadGa.asp",
+      "imageUrl": "https://www.fleursdelin.kingeshop.com/img_pro/1015278/-188-Z-1-udlqmrawoz.webp"
+    },
+    {
+      "title": "Joy to the world PDF",
+      "format": "pdf",
+      "price": "6 €",
+      "bestseller": false,
+      "description": "Version PDF de la grille de la boule à neige Joy to the world, sans le support.",
+      "url": "https://www.fleursdelin.kingeshop.com/Joy-to-the-world-PDF-cbaaaafga.asp",
+      "imageUrl": ""
+    },
+    {
+      "title": "Christmas Time",
+      "format": "pdf",
+      "price": "5 €",
+      "bestseller": false,
+      "description": "Grille de point de croix de Noël, réf. 0010, vendue sur la boutique de la créatrice. Note 5/5 sur 1 avis.",
+      "url": "https://www.fleursdelin.kingeshop.com/Christmas-Time-cbaaaaata.asp",
+      "imageUrl": "https://www.fleursdelin.kingeshop.com/img_pro/1015278/-19-Z-1-xxofnjdspf.webp"
+    },
+    {
+      "title": "Douce maison",
+      "format": "pdf",
+      "price": "5,50 €",
+      "bestseller": false,
+      "description": "Grille de la série Maisonnettes, une des 24 maisonnettes proposées sur la boutique de la créatrice, toutes à 5,50 €.",
+      "url": "https://www.fleursdelin.kingeshop.com/Douce-maison-cbaaaabja.asp",
+      "imageUrl": ""
+    },
+    {
+      "title": "Campagne enneigée",
+      "format": "pdf",
+      "price": "16 €",
+      "bestseller": false,
+      "description": "Grille de point de croix d'hiver de 130 x 130 points, vendue par les revendeurs Broderie au fil du temps et La Boutique de Brode41.",
+      "url": "https://www.broderieaufildutemps.com/campagne-enneigee-4504.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Fleurs de Lin est la marque de Roselyne Pittet, créatrice française de grilles de point de croix compté installée à Lagny-le-Sec (Oise). Elle dessine des séries sur les saisons, les mois, Noël et les maisonnettes, vendues sur sa petite boutique en ligne et chez de nombreux merciers revendeurs.",
+  "history": "Fleurs de Lin est le nom commercial de Roselyne Pittet, qui exerce en entreprise individuelle enregistrée sous le SIREN 751557026. L'entreprise a débuté son activité le 1er mai 2012 à Lagny-le-Sec, dans l'Oise, avec un code d'activité de commerce de détail de papeterie (47.62Z).\n\nSa production se compose de grilles de point de croix compté, numérotées : les références vont au moins jusqu'à 283 chez les revendeurs, ce qui montre un catalogue construit sur une dizaine d'années. Les revendeurs la présentent comme une créatrice française qui propose « de ravissants modèles sur les saisons, Noël, les maisons ».\n\nSa boutique en ligne, hébergée sur Kingeshop et traduite en anglais, range les modèles par thèmes et formats : maisonnettes et mini-maisonnettes, Noël nostalgique, calendriers de l'Avent, nichoirs, biscornus, coussinets à ciseaux, quakerballs, petits pots Mason Jar, séries Mon petit village et Collection sous la neige. Une gamme de semi-kits associe ses grilles aux supports de la marque The Bee Company (boules à neige, fanions, arbres).\n\nAujourd'hui, ses grilles sont diffusées par des merciers spécialisés en France et en Suisse, dont Broderie au fil du temps, La Boutique de Brode41 et Broderie Passion, qui en liste 42 références.",
+  "positioning": "Fleurs de Lin vise les brodeuses de point de croix compté traditionnel, qui brodent sur lin fin (Edinburgh 14 fils) avec du mouliné DMC. Son style est doux et nostalgique : maisonnettes, villages, saisons, Noël, bord de mer, petits objets montés (porte-clefs, coussinets à ciseaux, pochons, boîtes à mouchoirs). Sa force est un très gros catalogue en séries, des prix bas sur son site (4 à 6 € la grille) et un vrai réseau de merciers revendeurs. Ses points faibles visibles : une boutique en ligne datée sans descriptions détaillées ni mentions légales, aucun kit complet avec toile et fils sous sa marque, et presque aucune présence sur les réseaux sociaux.",
+  "website": "https://www.fleursdelin.kingeshop.com/",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://www.fleursdelin.kingeshop.com/favicon.ico",
+  "timeline": [
+    {
+      "date": "2012-05-01",
+      "kind": "vie",
+      "label": "Début d'activité de l'entreprise individuelle de Roselyne Pittet à Lagny-le-Sec (Oise)"
+    },
+    {
+      "date": "2022-03",
+      "kind": "prix",
+      "label": "Ses grilles sont présentées sur le blog Pic et Peint, via le mercier Broderie Passion"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Broderie au fil du temps, page Fleurs de Lin",
+      "url": "https://www.broderieaufildutemps.com/fleurs-de-lin-106"
+    },
+    {
+      "label": "Broderie au fil du temps, 12 mois pour une année",
+      "url": "https://www.broderieaufildutemps.com/12-mois-pour-une-annee-5101.html"
+    },
+    {
+      "label": "Broderie au fil du temps, Bienvenue en automne",
+      "url": "https://www.broderieaufildutemps.com/bienvenue-en-automne-5106.html"
+    },
+    {
+      "label": "Broderie Passion, Fleurs de Lin Roselyne Pittet",
+      "url": "https://www.broderiepassion.com/299-fleurs-de-lin-roselyne-pittet"
+    },
+    {
+      "label": "Broderie Passion, Cap à l'ouest",
+      "url": "https://www.broderiepassion.com/fiches/fleurs-de-lin-roselyne-pittet/11412-fleurs-de-lin-fiche-cap-a-l-ouest.html"
+    },
+    {
+      "label": "La Boutique de Brode41, Fleurs de Lin",
+      "url": "https://www.laboutiquedebrode41.com/boutique/fiches-et-kits-de-points-comptes/fleurs-de-lin/"
+    },
+    {
+      "label": "Boutique Fleurs de Lin (Kingeshop)",
+      "url": "https://www.fleursdelin.kingeshop.com/"
+    },
+    {
+      "label": "Boutique Fleurs de Lin, contact",
+      "url": "https://www.fleursdelin.kingeshop.com/Contact-cceaaaaaa.asp"
+    },
+    {
+      "label": "Boutique Fleurs de Lin, semi-kits boules à neige",
+      "url": "https://www.fleursdelin.kingeshop.com/semi-kits-Boules-a-neige-cbmaaaaaa.asp"
+    },
+    {
+      "label": "Boutique Fleurs de Lin, Noël",
+      "url": "https://www.fleursdelin.kingeshop.com/Noel-cbcaaaaaa.asp"
+    },
+    {
+      "label": "Boutique Fleurs de Lin, Maisonnettes",
+      "url": "https://www.fleursdelin.kingeshop.com/Maisonnettes-cbbaaaaaa.asp"
+    },
+    {
+      "label": "Boutique Fleurs de Lin, Christmas Time",
+      "url": "https://www.fleursdelin.kingeshop.com/Christmas-Time-cbaaaaata.asp"
+    },
+    {
+      "label": "Annuaire des entreprises, SIREN 751557026",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/751557026"
+    },
+    {
+      "label": "Blog Pic et Peint, Fleur de Lin",
+      "url": "https://picetpeint08.canalblog.com/archives/2022/03/10/39381912.html"
+    },
+    {
+      "label": "Page Facebook Fleurs de Lin",
+      "url": "https://www.facebook.com/people/Fleurs-de-Lin/100068460427705/"
+    }
+  ],
+  "researchNotes": "Identification : le SIREN 751557026 (Roselyne Pittet, nom d'usage Vuadens, entreprise individuelle, nature juridique 1000, NAF 47.62Z, début d'activité 2012-05-01, non employeuse) a été lu via l'API recherche-entreprises.api.gouv.fr ; son adresse (192 rue du Puits d'Othis, 60330 Lagny-le-Sec) correspond à celle de la page contact de la boutique. Le régime micro-entreprise n'est pas confirmé. Une entreprise individuelle ne publie pas de comptes : aucun chiffre d'affaires connu. La date de 2012 est celle de l'immatriculation actuelle ; la marque a pu exister avant sous une autre forme, non vérifié.\n\nProduits : aucune donnée de meilleures ventes publique (pas d'Etsy, avis quasi absents sur la boutique), donc aucun produit marqué best-seller. Les prix des revendeurs (10 à 24 €) sont nettement plus hauts que sur son site (4 à 6 €) : il s'agit peut-être de grilles imprimées en pochette contre des PDF, ou de tarifs anciens sur Kingeshop, non vérifié. La Boutique de Brode41 propose certaines grilles en « Fiche ou Kit » : ces kits semblent assemblés par le revendeur, contenu non détaillé. Les semi-kits de son site contiennent la grille et un support The Bee Company, sans toile ni fils indiqués. Les fils DMC et les toiles Zweigart viennent des fiches revendeurs.\n\nAudience : la page Facebook existe mais son nombre d'abonnés n'a pas pu être lu. Aucun compte Instagram, Etsy, Pinterest ou YouTube trouvé. La boutique affiche un compteur de 200450 consultations (lu le 2026-10-21). Aucune interview ni article de presse trouvé. Le nom Pittet évoque la Suisse romande et elle est très diffusée en Suisse (Broderie Passion, prix en CHF), mais l'entreprise est bien française."
+}

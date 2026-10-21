@@ -1,0 +1,242 @@
+{
+  "name": "Red Aracne",
+  "country": "Espagne",
+  "city": "Valence",
+  "region": "Communauté valencienne",
+  "foundedDate": "2023-12",
+  "closedDate": "",
+  "founders": [
+    "Eugenia Hernández"
+  ],
+  "legalName": "Eugenia Hernández (titulaire du site, personne physique)",
+  "legalForm": "autónoma",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Mercerie",
+    "Livres"
+  ],
+  "styles": [
+    "Japonais",
+    "Illustré",
+    "Kawaii",
+    "Saisonnier (Halloween, Noël)"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Sashiko",
+    "Point de croix",
+    "Punch needle",
+    "Feutre",
+    "Broderie perlée",
+    "Kogin",
+    "Canevas"
+  ],
+  "threads": [
+    "Cosmo No. 25",
+    "Olympus (fil sashiko)",
+    "Hidamari Lecien (fil sashiko)",
+    "Naska (fil sashiko)",
+    "Daruma (fil sashiko)",
+    "DMC (dans les kits Hawthorn Handmade)"
+  ],
+  "fabrics": [
+    "Coton imprimé",
+    "Coton lin Cosmo",
+    "Tissus japonais",
+    "Aida Zweigart",
+    "Papier perforé 14 ct (Mill Hill)",
+    "Coton bio et toile de coton (sacs et trousses à broder)"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify)"
+  ],
+  "priceRange": "Kits de 9,95 à 74,95 €, fils sashiko de 2,50 à 9,95 €, tissus autour de 25 à 40 €",
+  "languages": [
+    "Espagnol",
+    "Anglais"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 2640,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/redaracne/"
+    },
+    {
+      "platform": "TikTok",
+      "followers": 251,
+      "date": "2026-10",
+      "url": "https://www.tiktok.com/@redaracne"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Olympus, hilo para Sashiko 100m en madejas",
+      "format": "autre",
+      "price": "5,95 à 9,95 €",
+      "bestseller": true,
+      "description": "Fil sashiko 100 % coton Olympus en écheveaux de 100 m, teintes unies, chinées et multicolores, nouvelle gamme Japan Colors 2025. Premier produit de la collection Superventas.",
+      "url": "https://redaracne.es/products/olympus-madejas-de-hilo-para-sashiko-100m",
+      "imageUrl": ""
+    },
+    {
+      "title": "Hidamari Lecien, hilo para Sashiko en madejas",
+      "format": "autre",
+      "price": "4,95 €",
+      "bestseller": true,
+      "description": "Fil sashiko quatre brins 100 % coton fabriqué au Japon, 60 couleurs en cinq gammes.",
+      "url": "https://redaracne.es/products/hidamari-lecien-madejas-de-hilo-para-sashiko",
+      "imageUrl": ""
+    },
+    {
+      "title": "Naska, hilo para bordar Sashiko 80m en madejas",
+      "format": "autre",
+      "price": "4,95 €",
+      "bestseller": true,
+      "description": "Fil sashiko 100 % coton japonais, 80 m, quatre brins légèrement torsadés, 17 teintes inspirées des quatre saisons.",
+      "url": "https://redaracne.es/products/naska-madejas-de-hilo-para-sashiko-80m",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado \"Mujeres\" de Cosmo",
+      "format": "kit",
+      "price": "12,95 €",
+      "bestseller": true,
+      "description": "Toile 100 % coton blanche imprimée de 8 femmes dessinées par Kazue Nakajima (Quilts 1989) pour Cosmo, fils Cosmo No. 25 en 8 couleurs, aiguille. Broderie d'environ 6 x 16 cm. Premier kit de la collection des kits à motif imprimé triée par meilleures ventes.",
+      "url": "https://redaracne.es/products/kit-de-bordado-mujeres-cosmo",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado \"Planisferio Zodiacal\" de Kiriki Press",
+      "format": "kit",
+      "price": "59,95 €",
+      "bestseller": true,
+      "description": "Kit de la marque canadienne Kiriki Press : motif sérigraphié à la main sur toile de coton, douze signes du zodiaque et constellations de l'hémisphère nord, deux niveaux de difficulté.",
+      "url": "https://redaracne.es/products/kit-bordado-planisferio-zodiacal-kiriki-press",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Bordado \"Unwind Booklover\" - Hawthorn Handmade",
+      "format": "kit",
+      "price": "39,95 €",
+      "bestseller": true,
+      "description": "Kit débutant de la marque anglaise Hawthorn Handmade (collection Wonderful Women) : toile coton blanche à motif imprimé, fils DMC, tambour en bois de 17,8 cm, aiguille, livret de points en anglais, fiche couleurs.",
+      "url": "https://redaracne.es/products/kit-de-bordado-unwind-booklover-de-hawthorn-handmade-wonderful-women-collection",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado \"Mi vida con gatos: bolso de mano\" de Cosmo",
+      "format": "kit",
+      "price": "35,95 €",
+      "bestseller": true,
+      "description": "Kit broderie et couture de Hiroko Ishii pour Cosmo Lecien : fils Cosmo No. 25, toile coton imprimée, tissus unis et imprimés, perles, boutons pression, notice illustrée en japonais. Pochette finie d'environ 12,5 x 20 cm.",
+      "url": "https://redaracne.es/products/kit-de-bordado-mi-vida-con-gatos-bolso-de-mano-de-cosmo",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de punto de cruz Wanda's Wand de Mill Hill",
+      "format": "kit",
+      "price": "24,95 €",
+      "bestseller": true,
+      "description": "Kit point de croix de la série Autumn de Mill Hill : fils, aiguilles, papier perforé 14 ct, bouton, perles de verre, grille et notice en anglais. Environ 13,3 x 13,3 cm. Premier kit de la collection point de croix triée par meilleures ventes.",
+      "url": "https://redaracne.es/products/kit-de-punto-de-cruz-wandas-wand-de-mill-hill",
+      "imageUrl": ""
+    },
+    {
+      "title": "Olympus, kit de Sashiko Nagomi con patrón impreso",
+      "format": "kit",
+      "price": "25,95 €",
+      "bestseller": false,
+      "description": "Kit sashiko Olympus de la série Nagomi : toile à motif traditionnel préimprimé pour broder un torchon, avec le nécessaire de broderie.",
+      "url": "https://redaracne.es/products/olympus-kit-de-sashiko-nagomi-con-patron-impreso-varios-disenos",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bolsa Tote ancha de algodón para bordar",
+      "format": "autre",
+      "price": "10,95 €",
+      "bestseller": false,
+      "description": "Tote bag en toile de coton vendu sous la marque Red Aracne, à personnaliser en broderie, sashiko ou visible mending. Ajouté en juin 2026.",
+      "url": "https://redaracne.es/products/bolsa-tote-ancha-de-algodon-para-bordar",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Boutique en ligne valencienne ouverte fin 2023 qui revend des kits de broderie à motif imprimé, de point de croix et de sashiko, surtout de marques japonaises, anglaises et nord-américaines, avec fils, tissus et mercerie.",
+  "history": "Red Aracne est une boutique en ligne espagnole sur Shopify. Les premières fiches produits datent du 15 décembre 2023 et la page « Conócenos » a été publiée le 26 décembre 2023. La marque s'y présente comme « une petite entreprise familiale qui veut révolutionner le beau monde de la broderie ».\n\nLes mentions légales désignent comme titulaire du site Eugenia Hernández, à Valence, avec un NIF de personne physique. La page d'accueil présente la marque comme le projet d'une femme autiste, fait à la maison et avec beaucoup de soin, et met en avant l'envoi rapide, l'accompagnement personnel et des pratiques écologiques (recyclage, réemploi).\n\nLe catalogue compte environ 380 références en octobre 2026. Ce sont presque toutes des produits revendus : Cosmo et Hidamari (Lecien), Olympus, Naska, Hawthorn Handmade, Mill Hill, Kiriki Press, Suzir'ya Edynoroga (kits ukrainiens), TheComptoir, Kneckes & Compagnie, Zweigart, Clover ou Nurge. On y trouve environ 90 kits à motif imprimé, 75 kits de point de croix, une douzaine de kits de sashiko, des kits de feutre, de canevas et de punch needle.\n\nEn 2026, la boutique ajoute quelques articles sous son propre nom : cire d'abeille pour fils, grelots japonais Sakura, trousse en coton bio et tote bag à broder. Le site existe en espagnol et en anglais, avec livraison gratuite en Espagne péninsulaire dès 50 €.",
+  "positioning": "Red Aracne est une revendeuse spécialisée plus qu'une créatrice : elle ne dessine pas ses propres motifs et sélectionne des kits et des fils importés, surtout japonais (Cosmo, Olympus, Hidamari), rares en Espagne. Sa force est la profondeur de gamme sur le sashiko (fils, tissus, gabarits, aiguilles, dés) et sur les kits à motif imprimé prêts à broder, avec des fiches produits détaillées en espagnol. Le ton est chaleureux, familial et personnel. Ses limites visibles : peu d'identité de design propre, une audience encore modeste (environ 2 600 abonnés Instagram) et aucune présence relevée sur Etsy ni dans la presse. Pour Faïença, c'est moins une concurrente de création qu'un canal de distribution possible pour des kits à motif imprimé en Espagne.",
+  "website": "https://redaracne.es",
+  "instagram": "https://www.instagram.com/redaracne/",
+  "etsy": "",
+  "photoUrl": "https://redaracne.es/cdn/shop/files/tela_100_mujeres_bordando_d1637e03-3098-4b5a-aaff-10241ff1e59b.png?v=1758016389",
+  "timeline": [
+    {
+      "date": "2023-12",
+      "kind": "vie",
+      "label": "Ouverture de la boutique Shopify, premiers produits en ligne (kit de point de croix « Welcome » de Cosmo)"
+    },
+    {
+      "date": "2025",
+      "kind": "oeuvre",
+      "label": "Arrivée de la gamme de fils sashiko Olympus Japan Colors"
+    },
+    {
+      "date": "2026-03",
+      "kind": "oeuvre",
+      "label": "Premiers articles sous la marque Red Aracne : grelots japonais Sakura"
+    },
+    {
+      "date": "2026-06",
+      "kind": "oeuvre",
+      "label": "Lancement d'une trousse en coton bio, d'un tote bag à broder et d'une cire d'abeille pour fils sous la marque Red Aracne"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Red Aracne, page d'accueil",
+      "url": "https://redaracne.es"
+    },
+    {
+      "label": "Red Aracne, aviso legal",
+      "url": "https://redaracne.es/policies/legal-notice"
+    },
+    {
+      "label": "Red Aracne, información de contacto",
+      "url": "https://redaracne.es/policies/contact-information"
+    },
+    {
+      "label": "Red Aracne, Conócenos",
+      "url": "https://redaracne.es/pages/conocenos"
+    },
+    {
+      "label": "Red Aracne, Superventas",
+      "url": "https://redaracne.es/collections/superventas?sort_by=best-selling"
+    },
+    {
+      "label": "Red Aracne, kits de bordado con patrón impreso",
+      "url": "https://redaracne.es/collections/kits-de-bordado-con-patron-impreso?sort_by=best-selling"
+    },
+    {
+      "label": "Red Aracne, kits de punto de cruz",
+      "url": "https://redaracne.es/collections/kits-de-punto-de-cruz?sort_by=best-selling"
+    },
+    {
+      "label": "Red Aracne, kits de sashiko",
+      "url": "https://redaracne.es/collections/kits-de-sashiko"
+    },
+    {
+      "label": "Red Aracne, catalogue produits (products.json)",
+      "url": "https://redaracne.es/products.json"
+    },
+    {
+      "label": "Instagram @redaracne",
+      "url": "https://www.instagram.com/redaracne/"
+    },
+    {
+      "label": "TikTok @redaracne",
+      "url": "https://www.tiktok.com/@redaracne"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Les mentions légales écrivent « Eugenia Hernándex », probablement une coquille pour Hernández. Elle est titulaire du site ; son rôle de fondatrice n'est pas confirmé par une autre source. Le NIF [numéro personnel retiré] a le format d'un DNI, donc d'une personne physique : la forme autónoma est déduite, pas confirmée par un registre. Aucune S.L. au nom de Red Aracne trouvée, aucun compte publié, chiffre d'affaires inconnu. Pas de code postal dans les mentions légales (adresse : Calle Reina Violante 11, Valence). La date 2023-12 est celle de l'ouverture de la boutique Shopify (premières fiches produits et page Conócenos), pas une date d'immatriculation. Le classement des meilleures ventes vient du tri « best-selling » de Shopify sur les collections ; la carte cadeau apparaît toujours en tête (probablement un lien hors grille) et a été écartée. Les fourchettes de prix viennent du catalogue products.json (prix de la première variante). Aucune boutique Etsy, chaîne YouTube, compte Pinterest, interview ni article de presse trouvés. Une page Facebook existe (https://www.facebook.com/redaracne), audience non relevée. TikTok : 251 abonnés et 105 vidéos. L'indice « tissus originaux » correspond aux toiles imprimées des kits revendus (Cosmo, Kiriki Press, Hawthorn Handmade), pas à des créations maison. Images non renseignées, à ajouter ensuite."
+}

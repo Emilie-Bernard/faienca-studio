@@ -1,0 +1,252 @@
+{
+  "name": "Madame la Fée",
+  "country": "France",
+  "city": "Celon",
+  "region": "Centre-Val de Loire",
+  "foundedDate": "2005-12-07",
+  "closedDate": "",
+  "founders": [
+    "Catherine Bonacorsi"
+  ],
+  "legalName": "MADAME LA FEE",
+  "legalForm": "SARL unipersonnelle (EURL), capital 7000 €",
+  "registrationId": "485380927",
+  "offers": [
+    "Kits de broderie",
+    "Fiches papier",
+    "Patrons PDF",
+    "Toiles à broder",
+    "Grilles gratuites",
+    "Cartes cadeaux",
+    "Vente aux revendeurs"
+  ],
+  "styles": [
+    "Saisonnier",
+    "Noël",
+    "Montagne et chalet",
+    "Gourmandises et cuisine",
+    "Jardin",
+    "Bord de mer",
+    "Halloween"
+  ],
+  "techniques": [
+    "Point de croix compté"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Lin 12 fils",
+    "Lin 14 fils",
+    "Lin 16 fils",
+    "Étamine 10 et 12 fils",
+    "Aïda 5,5, 7 et 8 points",
+    "Floba",
+    "Belfast",
+    "Murano",
+    "Lugana"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify)",
+    "Boutiques revendeuses (Broderie Passion, Univers Broderie, La Boutique de Brode 41)",
+    "Salons de broderie"
+  ],
+  "priceRange": "Kits de 72 à 99 €, lots de 2 mini kits de 45 à 71 €, fiches papier 21 €, PDF 19 €, mini PDF 17 €, toiles de 9 à 14 €",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "2015",
+      "revenue": 58582,
+      "netIncome": -9957,
+      "employees": "non renseigné",
+      "source": "API Recherche d'entreprises (annuaire-entreprises.data.gouv.fr), seul exercice publié"
+    }
+  ],
+  "products": [
+    {
+      "title": "Un Noël en Or",
+      "format": "kit",
+      "price": "84 € (Aïda) ou 85 € (lin)",
+      "bestseller": true,
+      "description": "Kit complet 191 x 191 points : instructions, grille en couleur, fils DMC triés sur carte, aiguille et coupon de toile, au choix lin 12 fils « Petit Bout de Craie » ou Aïda 5,5 points.",
+      "url": "https://www.madame-la-fee.com/products/un-noel-en-or-1",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Douceur du Jardin",
+      "format": "kit",
+      "price": "77 € (Aïda) ou 78 € (lin)",
+      "bestseller": true,
+      "description": "Kit complet 194 x 186 points : grille en couleur, fils DMC triés sur carte, aiguille, toile au choix lin 12 fils « New GrisBleu » ou Aïda 5,5 points « BabyBlue ».",
+      "url": "https://www.madame-la-fee.com/products/la-douceur-du-jardin-1",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Montagne en Hiver",
+      "format": "kit",
+      "price": "78 € (Aïda) ou 79 € (lin)",
+      "bestseller": true,
+      "description": "Kit complet 180 x 177 points : grille en couleur, fils DMC triés sur carte, aiguille, toile au choix lin 12 fils « Nature de Fil » ou Aïda 5,5 points.",
+      "url": "https://www.madame-la-fee.com/products/la-montagne-en-hiver-2",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Plage à 200m",
+      "format": "kit",
+      "price": "74 € (Aïda) ou 75 € (lin)",
+      "bestseller": true,
+      "description": "Kit complet 188 x 182 points : grille en couleur, fils DMC triés sur carte, aiguille, toile au choix lin 12 fils « Petit Bout de Craie » ou Aïda 5,5 points.",
+      "url": "https://www.madame-la-fee.com/products/la-plage-a-200m-1",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Nuit de Noël",
+      "format": "kit",
+      "price": "81 € (Aïda) ou 82 € (lin)",
+      "bestseller": true,
+      "description": "Kit complet 200 x 197 points : grille en couleur, fils DMC triés sur carte, aiguille, toile au choix lin 12 fils « Le Nuage Elégant » ou Aïda 5,5 points.",
+      "url": "https://www.madame-la-fee.com/products/la-nuit-de-noel-1",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Lac Gelé",
+      "format": "kit",
+      "price": "78 € (Aïda) ou 79 € (lin)",
+      "bestseller": true,
+      "description": "Kit complet 188 x 185 points : grille en couleur, fils DMC triés sur carte, aiguille, toile au choix lin 12 fils « Petit Bout de Craie » ou Aïda 5,5 points.",
+      "url": "https://www.madame-la-fee.com/products/le-lac-gele-1",
+      "imageUrl": ""
+    },
+    {
+      "title": "Jack O' Lantern",
+      "format": "kit",
+      "price": "86 € (Aïda) ou 87 € (Floba)",
+      "bestseller": false,
+      "description": "Nouveauté d'octobre 2026, thème Halloween. Kit complet 199 x 184 points : grille en couleur, fils DMC triés sur carte, aiguille, toile au choix Floba 12 fils « Graine de Pissenlit » ou Aïda 5,5 points « Paille de Riz ». Aussi vendu en fiche papier à 21 €.",
+      "url": "https://www.madame-la-fee.com/products/jack-o-lantern",
+      "imageUrl": ""
+    },
+    {
+      "title": "Confitures d'Automne (PDF)",
+      "format": "pdf",
+      "price": "19 €",
+      "bestseller": false,
+      "description": "Fiche couleur en téléchargement, 188 x 178 points, 10 à 15 pages, nominative et envoyée à l'adresse mail du compte.",
+      "url": "https://www.madame-la-fee.com/products/confitures-dautomne-pdf",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Maison française de grilles et de kits de point de croix compté, créée en 2005 par Catherine Bonacorsi, connue pour ses grands tableaux saisonniers (Noël, montagne, jardin, bord de mer) vendus en kits complets avec fils DMC.",
+  "history": "Madame la Fée est une SARL à associée unique immatriculée en décembre 2005, avec un capital de 7000 €. Sa gérante depuis la création est Catherine Bonacorsi, qui dessine tous les modèles. Les créations sont déposées à l'INPI et le site insiste longuement sur le droit d'auteur.\n\nLa société a d'abord eu son siège à Suresnes (Hauts-de-Seine). Au 1er juillet 2024, l'associée unique l'a transféré à Celon, dans l'Indre.\n\nLe catalogue compte environ 147 modèles numérotés, chacun décliné en kit complet, en fiche papier et en PDF, plus une trentaine de « mini » modèles. Ce sont de grands ouvrages d'environ 180 à 210 points de côté, sur des thèmes saisonniers et domestiques : Noël, chalets et montagne, jardins, pâtisseries, bord de mer, Halloween. Des nouveautés sortent encore régulièrement, la dernière en octobre 2026.\n\nLa marque vend en direct sur son site et passe aussi par un réseau de merceries. Celles-ci profitent d'un tarif PRO (deux articles identiques pour le prix d'un), et la marque s'engage à ne jamais faire de soldes sur son site pour ne pas leur nuire. Catherine Bonacorsi expose aussi dans les salons de broderie, en France et en Belgique.",
+  "positioning": "Une marque de point de croix classique et haut de gamme, faite pour des brodeuses expérimentées : de grands tableaux très détaillés, une grille en couleur avec de gros symboles, des fils DMC triés sur carte et des toiles de lin choisies pour chaque modèle. Les kits sont chers (72 à 99 €) et les prix sont tenus, sans aucune promotion. Le style est figuratif et chaleureux, avec des scènes de saison. Le gros point fort est le réseau de revendeurs. Côté faiblesses visibles : pas de réseaux sociaux repérés, un site au ton daté avec beaucoup de majuscules, et aucune ouverture aux techniques modernes comme la broderie libre ou le punch needle.",
+  "website": "https://www.madame-la-fee.com",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://madame-la-fee.com/cdn/shop/files/logo_1200x1200.png?v=1613503862",
+  "timeline": [
+    {
+      "date": "2005-12",
+      "kind": "vie",
+      "label": "Immatriculation de la SARL Madame la Fée, gérée par Catherine Bonacorsi"
+    },
+    {
+      "date": "2019-02",
+      "kind": "vie",
+      "label": "Mise en ligne du catalogue sur la boutique Shopify actuelle"
+    },
+    {
+      "date": "2019-08",
+      "kind": "vie",
+      "label": "Ouverture d'un espace et d'un catalogue réservés aux revendeurs (PRO)"
+    },
+    {
+      "date": "2021-11",
+      "kind": "oeuvre",
+      "label": "Sortie du kit « Un Noël en Or », aujourd'hui en tête des ventes du site"
+    },
+    {
+      "date": "2024-07-01",
+      "kind": "vie",
+      "label": "Transfert du siège de Suresnes à Celon (Indre)"
+    },
+    {
+      "date": "2024-09",
+      "kind": "exposition",
+      "label": "Exposante au salon « Créations autour du Fil » à Moncoutant (79)"
+    },
+    {
+      "date": "2026-10",
+      "kind": "oeuvre",
+      "label": "Sortie du kit d'Halloween « Jack O' Lantern » (modèle n° 198)"
+    },
+    {
+      "date": "2026-10-23",
+      "kind": "exposition",
+      "label": "Salon « Point de croix & Broderie » à Kutzenhausen (67), du 23 au 25 octobre"
+    },
+    {
+      "date": "2026-11-28",
+      "kind": "exposition",
+      "label": "Salon Broderie à Gistel (Belgique), les 28 et 29 novembre"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Madame la Fée",
+      "url": "https://www.madame-la-fee.com"
+    },
+    {
+      "label": "Madame la Fée, kits triés par meilleures ventes",
+      "url": "https://www.madame-la-fee.com/collections/les-kits?sort_by=best-selling"
+    },
+    {
+      "label": "Madame la Fée, catalogue produits (Shopify products.json)",
+      "url": "https://www.madame-la-fee.com/products.json"
+    },
+    {
+      "label": "Madame la Fée, page Identification (mentions légales)",
+      "url": "https://www.madame-la-fee.com/pages/copie-de-conditions-generales-de-vente"
+    },
+    {
+      "label": "Madame la Fée, CGV pour les PRO",
+      "url": "https://www.madame-la-fee.com/pages/conditions-generales-de-vente-pour-les-pro"
+    },
+    {
+      "label": "Madame la Fée, Charte de qualité",
+      "url": "https://www.madame-la-fee.com/pages/charte-de-qualite"
+    },
+    {
+      "label": "Madame la Fée, Copyright",
+      "url": "https://www.madame-la-fee.com/pages/copyright"
+    },
+    {
+      "label": "Madame la Fée, Expo-Salons",
+      "url": "https://www.madame-la-fee.com/pages/expo-salons"
+    },
+    {
+      "label": "API Recherche d'entreprises, SIREN 485380927",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=485380927"
+    },
+    {
+      "label": "Societe.com, Madame la Fée",
+      "url": "https://www.societe.com/societe/madame-la-fee-485380927.html"
+    },
+    {
+      "label": "Broderie Passion, page revendeur Madame la Fée",
+      "url": "https://www.broderiepassion.com/91-madame-la-fee"
+    },
+    {
+      "label": "Créations autour du Fil, Madame la Fée avec Catherine Bonacorsi (2024)",
+      "url": "https://creationsautourdufil.fr/2024/09/madame-la-fee-avec-catherine-bonacorsi-point-de-croix.html"
+    },
+    {
+      "label": "La Boutique de Brode 41, rayon Madame la Fée",
+      "url": "https://www.laboutiquedebrode41.com/boutique/tout-pour-la-broderie/fiches-et-kits-de-points-comptes/madame-la-fee/"
+    }
+  ],
+  "researchNotes": "Ne pas confondre avec madamelafee.fr, un atelier de prêt-à-porter et de maroquinerie à Montbrison (Loire) qui n'a aucun lien avec la broderie.\n\nFinances : un seul exercice est public, celui de l'API data.gouv, daté 2015 (CA 58582 €, résultat -9957 €). Ce résultat donne une rentabilité de -17 %, ce qui correspond au ratio que Societe.com attribue à 2016 et non à 2015 (-4,31 %). L'année est donc à vérifier. Les comptes déposés après 2016 ne sont pas consultables : les dépôts apparaissent au BODACC jusqu'en 2025, mais sans montants, ce qui laisse penser à une option de confidentialité. Effectif non renseigné, probablement sans salarié.\n\nForme juridique : le site parle d'une EURL, l'INSEE la classe en SARL (code 5499) et les annonces légales parlent d'une associée unique. Pappers était inaccessible (erreur 403).\n\nAudience : aucun compte Instagram, Facebook, Pinterest ou YouTube trouvé, aucun lien vers des réseaux sur le site, pas de boutique Etsy. Aucun chiffre public de ventes ni de clientes.\n\nProduits : les meilleures ventes viennent du tri « best-selling » de la collection Kits du site, lu le 2026-10-21. Les dates de création Shopify (2019-02) correspondent à une migration du catalogue et pas à la sortie réelle des modèles. Le numéro de copyright INPI « 06 3 424 189 » fait penser à un dépôt de marque en 2006, à confirmer sur la base INPI. Broderie Passion (Suisse) propose 96 références Madame la Fée, entre 15,80 et 23,80 CHF. Une boutique Rakuten au Japon vend aussi ses kits. Le site affiche aussi des pages de téléchargement nominatives au prénom de clientes : je ne les ai pas reprises.\n\nImages : laissées vides à la demande, elles seront ajoutées ensuite."
+}

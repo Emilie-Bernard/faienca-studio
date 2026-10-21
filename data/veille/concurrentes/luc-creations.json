@@ -1,0 +1,190 @@
+{
+  "name": "Luc Créations",
+  "country": "France",
+  "city": "Mehun-sur-Yèvre",
+  "region": "Centre-Val de Loire",
+  "foundedDate": "1980-11-14",
+  "closedDate": "",
+  "founders": [],
+  "legalName": "ICB-LUC",
+  "legalForm": "SAS",
+  "registrationId": "520990136",
+  "offers": [
+    "Kits de broderie",
+    "Kits point de croix",
+    "Canevas",
+    "Linge de table à broder",
+    "Supports à broder",
+    "Mercerie (distribution Regia et Milward)"
+  ],
+  "styles": [
+    "Régions de France",
+    "Paysages et monuments",
+    "Traditionnel",
+    "Animaux",
+    "Floral",
+    "Saisons et Noël"
+  ],
+  "techniques": [
+    "Point de croix compté",
+    "Canevas (demi-point)",
+    "Broderie traditionnelle",
+    "Point de croix imprimé"
+  ],
+  "threads": [
+    "DMC Mouliné (coton)",
+    "Laine acrylique (kits canevas enfants)"
+  ],
+  "fabrics": [
+    "Toile Aïda 5,5 pts/cm",
+    "Toile Aïda 7,1 pts/cm",
+    "Lin 12 fils",
+    "Canevas Zweigart",
+    "Canevas Soudan Zweigart (gros trous)",
+    "Toile coton écru et blanc (linge de table)"
+  ],
+  "salesChannels": [
+    "Magasins spécialisés et merceries (pas de vente directe aux particuliers)",
+    "Boutiques en ligne revendeuses (Univers Broderie, Creamagic, Canevas.com)"
+  ],
+  "priceRange": "Prix publics chez les revendeurs : mini-kits point de croix vers 14 €, frises 70 x 15 cm vers 37 €, kits régions et paysages de 62 à 95 €, napperons vers 38 €, très grands kits de 174 à 745 € (avant remises de 20 à 50 %)",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "2016",
+      "revenue": 343404,
+      "netIncome": 8874,
+      "employees": "1 à 2 salariés (tranche 2024)",
+      "source": "Annuaire des entreprises (recherche-entreprises.api.gouv.fr), dernier exercice publié pour ICB-LUC"
+    }
+  ],
+  "products": [
+    {
+      "title": "Douce France - Kit point de croix",
+      "format": "kit",
+      "price": "462,50 € (370 € remisé chez Univers Broderie)",
+      "bestseller": true,
+      "description": "Très grande carte de France à broder (140 x 140 cm selon Univers Broderie, 160 x 160 cm selon Creamagic). Toile Aïda blanche 7,1 pts/cm, fils mouliné DMC, aiguille, diagramme et explications. Produit Luc le plus commenté relevé (9 avis, 4,8/5).",
+      "url": "https://www.universbroderie.com/douce-france-kit-point-de-croix-luc-creations-c2x1386644",
+      "imageUrl": ""
+    },
+    {
+      "title": "Région La Savoie (Maison de Savoie) - Kit point de croix PC6-17",
+      "format": "kit",
+      "price": "62,57 € (50,06 € remisé)",
+      "bestseller": false,
+      "description": "Kit de la série Régions. Toile Aïda blanche 7,1 pts/cm de 43 x 53 cm, motif de 33 x 43 cm, fils mouliné DMC, aiguille, grille et notice. Note 5/5 sur 3 avis chez Univers Broderie.",
+      "url": "https://www.universbroderie.com/region-la-savoie-kit-point-de-croix-luc-creations-c2x1385342",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Mont Saint-Michel - Kit point de croix PC7-8",
+      "format": "kit",
+      "price": "82,07 € (65,66 € remisé)",
+      "bestseller": false,
+      "description": "Toile Aïda bleue 5,5 pts/cm, 47 x 53 cm, fils mouliné, aiguille et diagramme.",
+      "url": "https://www.universbroderie.com/le-mont-saint-michel-kit-point-de-croix-luc-creations-c2x1384384",
+      "imageUrl": ""
+    },
+    {
+      "title": "Beau Temps sur la Bretagne - Kit point de croix PC6-8",
+      "format": "kit",
+      "price": "62,57 € (50,06 € remisé)",
+      "bestseller": false,
+      "description": "Kit de la série Régions, en pendant de « Tempête sur la Bretagne ». Toile Aïda et fils DMC (détail non affiché sur la fiche).",
+      "url": "https://www.universbroderie.com/beau-temps-sur-la-bretagne-kit-point-de-croix-luc-creations-c2x1385377",
+      "imageUrl": ""
+    },
+    {
+      "title": "Région L'Alsace - Kit point de croix PC6-14",
+      "format": "kit",
+      "price": "62,57 € (50,06 € remisé)",
+      "bestseller": false,
+      "description": "Kit de la série Régions (maison alsacienne). Contenu standard Luc : toile Aïda, fils DMC triés, aiguille, diagramme.",
+      "url": "https://www.universbroderie.com/region-l-alsace-kit-point-de-croix-luc-creations-c2x14026750",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le Chemin qui mène à la Mer - Kit point de croix PC7-33",
+      "format": "kit",
+      "price": "82,07 € (65,66 € remisé)",
+      "bestseller": false,
+      "description": "Paysage maritime, existe aussi en canevas (6580-936).",
+      "url": "https://www.universbroderie.com/le-chemin-qui-mene-a-la-mer-kit-point-de-croix-luc-creations-c2x1383099",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Plage - Kit point de croix (frise)",
+      "format": "kit",
+      "price": "36,86 € (29,49 € remisé)",
+      "bestseller": false,
+      "description": "Frise sur Aïda de 70 x 15 cm, d'une série de près de 20 thèmes (London, Vespa, Kokeshi, Cactus, Paris...).",
+      "url": "https://www.universbroderie.com/la-plage-kit-point-de-croix-luc-creations-c2x26651620",
+      "imageUrl": ""
+    },
+    {
+      "title": "Sam Le Chien - Kit point de croix débutant",
+      "format": "kit",
+      "price": "13,93 € (11,14 € remisé)",
+      "bestseller": false,
+      "description": "Mini-kit pour débuter, de la série « mini » (Chat, Café, Confiture, Coquelicots).",
+      "url": "https://www.universbroderie.com/sam-le-chien-kit-point-de-croix-debutant-luc-creations-c2x42697981",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Napperon à broder Panier de roses",
+      "format": "kit",
+      "price": "38,50 € (30,80 € remisé)",
+      "bestseller": false,
+      "description": "Napperon imprimé en broderie traditionnelle, de la gamme de linge de table que le fabricant dit bordée de dentelle du Puy-en-Velay.",
+      "url": "https://www.universbroderie.com/kit-napperon-a-broder-panier-de-roses-luc-creations-c2x13017932",
+      "imageUrl": ""
+    },
+    {
+      "title": "Printemps - Kit de broderie",
+      "format": "kit",
+      "price": "34,50 € (27,60 € remisé)",
+      "bestseller": false,
+      "description": "Collection de broderie traditionnelle en cinq motifs saisonniers (Printemps, Été, Automne, Hiver, Noël).",
+      "url": "https://www.universbroderie.com/printemps-kit-de-broderie-luc-creations-c2x38260847",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Luc Créations est la marque du fabricant ICB-LUC, à Mehun-sur-Yèvre (Cher), qui crée et fabrique en France des canevas, des kits au point de croix compté et du linge de table à broder. Elle vend uniquement aux merceries et boutiques spécialisées, avec une gamme très large de motifs régionaux et traditionnels.",
+  "history": "La société LUC est immatriculée le 14 novembre 1980 à Mehun-sur-Yèvre, dans le Cher, avec une activité de fabrication textile. Le fabricant se présente comme spécialiste depuis plus de 30 ans de la fabrication française de nappes, napperons, surnappes et poches serviettes bordées de dentelle du Puy-en-Velay.\n\nEn mars 2010 est créée une SAS, présidée par Bernard Aussiette, liée à l'impression de canevas et broderies (ICB). En 2011 elle absorbe la société LUC par fusion simplifiée, s'installe à Mehun-sur-Yèvre et prend le nom ICB-LUC. La société LUC est radiée en juillet 2011.\n\nDepuis septembre 2013, ICB-LUC est une SAS à associé unique présidée par Marie-Laure Renaud. Elle a déposé en 2022 la marque « ICB-LUC Made in France ». Son siège social a été transféré à Méreau (Cher) le 1er avril 2025, alors que le site de la marque affiche toujours l'adresse de Mehun-sur-Yèvre.\n\nAujourd'hui, ICB-LUC propose des canevas imprimés sur toile Zweigart, des kits canevas enfants, des kits au point compté sur Aïda et lin avec coton DMC trié, du linge de table à broder et des supports (cache-torchons, sacs à pain, range-papier toilette). Elle distribue aussi en France la laine à chaussettes Regia et la mercerie Milward. La collection Printemps 2026 ajoute des canevas et des petits kits animaliers et floraux.",
+  "positioning": "Fabricant traditionnel qui vend en gros, fabriqué en France, sans vente aux particuliers : on trouve ses produits en mercerie et chez de grands revendeurs en ligne, souvent remisés. Le style est classique et figuratif : régions de France (Savoie, Alsace, Bretagne, Provence, Normandie), monuments, paysages marins, animaux, fleurs, avec quelques frises plus graphiques (Vespa, Kokeshi, Cactus). La clientèle visée est celle des brodeuses de point de croix et de canevas traditionnels, plutôt confirmées, avec des formats grands à très grands. Forces visibles : catalogue immense (plus de 1 500 références chez un seul revendeur), fils DMC et toiles Zweigart, fabrication française, présence chez de nombreux revendeurs. Faiblesses visibles : aucune présence sur les réseaux sociaux trouvée, site ancien sans boutique ni fiches détaillées, image de marque datée, très petite équipe.",
+  "website": "https://www.luc.tm.fr/",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    { "date": "1980-11-14", "kind": "vie", "label": "Immatriculation de la société LUC à Mehun-sur-Yèvre (Cher)" },
+    { "date": "2010-03", "kind": "vie", "label": "Création de la SAS qui deviendra ICB-LUC, présidée par Bernard Aussiette" },
+    { "date": "2011", "kind": "vie", "label": "Fusion simplifiée avec la société LUC, siège à Mehun-sur-Yèvre, nouvelle dénomination ICB-LUC" },
+    { "date": "2013-09", "kind": "vie", "label": "Marie-Laure Renaud devient présidente, la SAS passe à associé unique" },
+    { "date": "2022-05-03", "kind": "autre", "label": "Dépôt de la marque « ICB-LUC Made in France »" },
+    { "date": "2025-04-01", "kind": "vie", "label": "Transfert du siège social à Méreau (Cher)" },
+    { "date": "2026", "kind": "oeuvre", "label": "Collection de nouveautés Printemps 2026 (canevas MV et petits kits KMV)" }
+  ],
+  "sources": [
+    { "label": "Site ICB-LUC, accueil", "url": "https://www.luc.tm.fr/" },
+    { "label": "Site ICB-LUC, qui sommes-nous", "url": "https://www.luc.tm.fr/qui-sommes-nous" },
+    { "label": "Site ICB-LUC, marques revendeurs", "url": "https://www.luc.tm.fr/marques-revendeurs" },
+    { "label": "Site ICB-LUC, kits points comptés", "url": "https://www.luc.tm.fr/catalogue/kits-points-comptes" },
+    { "label": "Site ICB-LUC, nouveautés", "url": "https://www.luc.tm.fr/catalogue/nouveautes" },
+    { "label": "Univers Broderie, catégorie Luc Créations", "url": "https://www.universbroderie.com/luc-creations-kit-broderie-c102x151703" },
+    { "label": "Univers Broderie, Région La Savoie", "url": "https://www.universbroderie.com/region-la-savoie-kit-point-de-croix-luc-creations-c2x1385342" },
+    { "label": "Univers Broderie, Douce France", "url": "https://www.universbroderie.com/douce-france-kit-point-de-croix-luc-creations-c2x1386644" },
+    { "label": "Creamagic, catalogue Luc Création", "url": "https://www.creamagic.com/m/luc-creation-m394/broderie-c10702.html" },
+    { "label": "Creamagic, Maison de Savoie PC6-17", "url": "https://www.creamagic.com/broderie-region-de-france/maison-de-savoie-kit-au-point-croix-compte-luc-creation-pc6-17-505053ud.html" },
+    { "label": "Creamagic, Le Mont Saint-Michel PC7-8", "url": "https://www.creamagic.com/broderie-region-de-france/luc-creation-broderie-point-croix-le-mont-saint-michel-pc7-8-6680862o.html" },
+    { "label": "Creamagic, Douce France", "url": "https://www.creamagic.com/broderie-region-de-france/luc-creation-kit-a-broder-douce-france-douce-france-237200g6.html" },
+    { "label": "Annuaire des entreprises, ICB-LUC", "url": "https://recherche-entreprises.api.gouv.fr/search?q=ICB%20LUC" },
+    { "label": "Annuaire des entreprises, société LUC (320328313)", "url": "https://recherche-entreprises.api.gouv.fr/search?q=320328313" },
+    { "label": "Societe.com, ICB-LUC", "url": "https://www.societe.com/societe/icb-luc-520990136.html" }
+  ],
+  "researchNotes": "Le site officiel www.luc.tm.fr ne répond qu'en http (erreur TLS en https) : l'adresse est notée en https par convention. La marque s'écrit « Luc Créations » chez Univers Broderie et « Luc Création » chez Creamagic. Date de création : 1980 correspond à la société LUC (SIREN 320328313, radiée en 2011), absorbée par ICB-LUC (SIREN 520990136, créée en mars 2010) ; le site dit « plus de 30 ans ». Le fondateur de 1980 n'a pas été trouvé. Bernard Aussiette (président 2010-2013) et Marie-Laure Renaud (présidente depuis 2013) sont des dirigeants, pas forcément des fondateurs, d'où une liste de fondateurs vide. Finances : seul l'exercice 2016 est publié (CA 343404, résultat 8874, unité non précisée par la source, supposée en euros) ; les comptes suivants sont non communiqués sur Societe.com. Effectif : tranche 1 à 2 salariés (2024). Les meilleures ventes ne sont publiées nulle part : Douce France est seulement le produit le plus commenté relevé (9 avis, 4,8/5 chez Univers Broderie, lu en 2026-10). Dimensions de Douce France contradictoires (140 x 140 cm chez Univers Broderie, 160 x 160 cm chez Creamagic, peut-être motif contre toile). Les prix publics varient beaucoup d'un revendeur à l'autre (Savoie : 62,57 € chez Univers Broderie, 95,28 € chez Creamagic). Aucun compte Instagram, Facebook, YouTube, Pinterest ni boutique Etsy trouvé, d'où une audience vide. Une page broderie-ici-ailleurs.com sortie en recherche est piratée (casino) et a été ignorée. Images non ajoutées, à la demande."
+}

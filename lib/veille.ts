@@ -429,6 +429,15 @@ const amount = (v: unknown): number | null => {
   return Math.round(Number(m[1]) * (m[2] ? (m[2].toLowerCase() === 'k' ? 1e3 : 1e6) : 1));
 };
 
+/**
+ * Un DNI ou un NIE espagnol (8 chiffres et une lettre, ou X, Y, Z puis 7 chiffres et une lettre) identifie une personne, pas une société :
+ * une autónoma l'affiche dans ses mentions légales, mais la fiche ne le garde pas. Un CIF de société (B12345678) reste.
+ */
+const personalId = /\b(?:ES)?(?:\d{8}|[XYZ]\d{7})[A-Z]\b/g;
+export const isPersonalId = (s: string) => new RegExp(`^${personalId.source}$`).test(s.replace(/[\s.-]/g, '').toUpperCase());
+export const withoutPersonalIds = (s: string) => s.replace(personalId, '[numéro personnel retiré]');
+const companyId = (s: string) => isPersonalId(s) ? '' : s;
+
 export function normalizeCompetitor(raw: unknown, newId: () => string): CompetitorInput {
   const r = (raw && typeof raw === 'object' ? raw : {}) as Record<string, unknown>;
   const seenSources = new Set<string>(), seenProducts = new Set<string>(), seenYears = new Set<string>();
@@ -437,7 +446,7 @@ export function normalizeCompetitor(raw: unknown, newId: () => string): Competit
     // Pas de pays par défaut : un import en plusieurs envois ne doit pas remettre « France » sur une marque espagnole.
     name: str(r.name, 160), country: str(r.country, 80), city: str(r.city, 80), region: str(r.region, 80),
     foundedDate: date(r.foundedDate), closedDate: date(r.closedDate), founders: strings(r.founders, 120, 40),
-    legalName: str(r.legalName, 200), legalForm: str(r.legalForm, 80), registrationId: str(r.registrationId, 40),
+    legalName: str(r.legalName, 200), legalForm: str(r.legalForm, 80), registrationId: companyId(str(r.registrationId, 40)),
     offers: strings(r.offers, 80, 40), styles: strings(r.styles, 80, 40), techniques: strings(r.techniques, 80, 40), threads: strings(r.threads, 120, 40),
     fabrics: strings(r.fabrics, 80, 40), salesChannels: strings(r.salesChannels, 120, 40), priceRange: str(r.priceRange, 300), languages: strings(r.languages, 40, 40),
     audience: arr(r.audience).map(a => ({ id: newId(), platform: str(a.platform, 60), followers: amount(a.followers), date: date(a.date), url: link(a.url) })).filter(a => a.platform).slice(0, 20),
@@ -445,11 +454,11 @@ export function normalizeCompetitor(raw: unknown, newId: () => string): Competit
       .filter(f => f.year && !seenYears.has(f.year) && seenYears.add(f.year)).sort((a, b) => b.year.localeCompare(a.year)).slice(0, 30),
     products: arr(r.products).map(p => ({ id: newId(), title: str(p.title, 200), format: format(p.format), price: str(typeof p.price === 'number' ? `${p.price} €` : p.price, 60), bestseller: p.bestseller === true, description: str(p.description, 2000), url: link(p.url), imageUrl: link(p.imageUrl) }))
       .filter(p => p.title && !seenProducts.has(nameKey(p.title)) && seenProducts.add(nameKey(p.title))).slice(0, 100),
-    summary: str(r.summary, 600), history: str(r.history, 20000), positioning: str(r.positioning, 6000),
+    summary: withoutPersonalIds(str(r.summary, 600)), history: withoutPersonalIds(str(r.history, 20000)), positioning: withoutPersonalIds(str(r.positioning, 6000)),
     website: link(r.website), instagram: link(r.instagram), etsy: link(r.etsy), photoUrl: link(r.photoUrl),
     timeline: sortTimeline(arr(r.timeline).map(t => ({ id: newId(), date: date(t.date), kind: (timelineKinds.includes(t.kind as TimelineKind) ? t.kind : 'autre') as TimelineKind, label: str(t.label, 300) })).filter(t => t.date && t.label)).slice(0, 300),
     sources: arr(r.sources).map(s => ({ label: str(s.label, 200), url: link(s.url) })).filter(s => s.url && !seenSources.has(s.url) && seenSources.add(s.url)).slice(0, 100),
-    researchNotes: str(r.researchNotes, 4000),
+    researchNotes: withoutPersonalIds(str(r.researchNotes, 4000)),
   };
 }
 
@@ -463,17 +472,18 @@ export function mergeCompetitor(current: CompetitorInput, found: CompetitorInput
   return {
     name: current.name || found.name, country: pick(current.country, found.country), city: pick(current.city, found.city), region: pick(current.region, found.region),
     foundedDate: pick(current.foundedDate, found.foundedDate), closedDate: pick(current.closedDate, found.closedDate), founders: union(current.founders, found.founders),
-    legalName: pick(current.legalName, found.legalName), legalForm: pick(current.legalForm, found.legalForm), registrationId: pick(current.registrationId, found.registrationId),
+    legalName: pick(current.legalName, found.legalName), legalForm: pick(current.legalForm, found.legalForm), registrationId: companyId(pick(current.registrationId, found.registrationId)),
     offers: union(current.offers, found.offers), styles: union(current.styles, found.styles), techniques: union(current.techniques, found.techniques), threads: union(current.threads, found.threads),
     fabrics: union(current.fabrics, found.fabrics), salesChannels: union(current.salesChannels, found.salesChannels), priceRange: pick(current.priceRange, found.priceRange), languages: union(current.languages, found.languages),
     // Une audience plus récente remplace l'ancienne sur la même plateforme.
     audience: byKey(current.audience, found.audience, a => nameKey(a.platform), (x, f) => f.followers !== null && (f.date >= x.date || x.followers === null) ? { ...x, followers: f.followers, date: f.date, url: x.url || f.url } : x, 20),
     financials: byKey(current.financials, found.financials, f => f.year, (x, f) => ({ ...x, revenue: x.revenue ?? f.revenue, netIncome: x.netIncome ?? f.netIncome, employees: x.employees || f.employees, source: x.source || f.source }), 30).sort((a, b) => b.year.localeCompare(a.year)),
     products: byKey(current.products, found.products, p => nameKey(p.title), (x, f) => ({ ...x, price: x.price || f.price, bestseller: x.bestseller || f.bestseller, description: x.description || f.description, url: x.url || f.url, imageUrl: x.imageUrl || f.imageUrl }), 100),
-    summary: pick(current.summary, found.summary), history: pick(current.history, found.history), positioning: pick(current.positioning, found.positioning),
+    // Une fiche importée avant le filtre des numéros personnels en est nettoyée au prochain import.
+    summary: withoutPersonalIds(pick(current.summary, found.summary)), history: withoutPersonalIds(pick(current.history, found.history)), positioning: withoutPersonalIds(pick(current.positioning, found.positioning)),
     website: pick(current.website, found.website), instagram: pick(current.instagram, found.instagram), etsy: pick(current.etsy, found.etsy), photoUrl: pick(current.photoUrl, found.photoUrl),
     timeline: timeline.timeline, sources: timeline.sources,
-    researchNotes: pick(current.researchNotes, found.researchNotes),
+    researchNotes: withoutPersonalIds(pick(current.researchNotes, found.researchNotes)),
   };
 }
 

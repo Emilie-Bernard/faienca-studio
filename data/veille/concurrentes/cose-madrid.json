@@ -1,0 +1,217 @@
+{
+  "name": "Cose Madrid",
+  "country": "Espagne",
+  "city": "Madrid",
+  "region": "Communauté de Madrid",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Arantxa Pérez Hernando"
+  ],
+  "legalName": "Arantxa Pérez Hernando",
+  "legalForm": "autónoma",
+  "registrationId": "",
+  "offers": [
+    "Patrons PDF",
+    "Kits de couture",
+    "Cours",
+    "Ateliers",
+    "Mercerie",
+    "Livres",
+    "Revues de patrons",
+    "Couture sur mesure"
+  ],
+  "styles": [
+    "Japonisant",
+    "Hiver",
+    "Lettres",
+    "Botanique",
+    "Imprimés pour enfants"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Sashiko",
+    "Broderie botanique",
+    "Couture",
+    "Patronage"
+  ],
+  "threads": [
+    "Anchor Mouliné",
+    "DMC Mouliné doré",
+    "Fils sashiko en coton"
+  ],
+  "fabrics": [
+    "Coton",
+    "Tissus imprimés pour sashiko",
+    "Tissu quadrillé à points pour sashiko"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress, WooCommerce)",
+    "Atelier boutique à Madrid"
+  ],
+  "priceRange": "Patrons PDF de broderie à 6 € (au lieu de 10 €), kit de couture de 12 à 26 €, fournitures de broderie de 1,70 à 9,95 €, stages de broderie à 120 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Patrones de bordado en PDF – Copitos",
+      "format": "pdf",
+      "price": "6 €",
+      "bestseller": false,
+      "description": "Patron PDF à télécharger de flocons de neige, à imprimer puis à reporter sur le tissu. En promotion à 6 € au lieu de 10 €. Nombre de motifs, taille et fils conseillés non indiqués. Aucun avis client.",
+      "url": "https://cosemadrid.com/producto/patrones-de-bordado-en-pdf-copitos/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2022/10/patrones-en-pdf-copos-de-nieve-para-bordado-a-mano-la-cuesta-studio-tienda-online.png"
+    },
+    {
+      "title": "Patrones de bordado en PDF – Letras",
+      "format": "pdf",
+      "price": "6 €",
+      "bestseller": false,
+      "description": "Patron PDF d'alphabet en espagnol : on imprime les lettres, on les reporte sur le tissu et on choisit son point. En promotion à 6 € au lieu de 10 €. Taille et fils conseillés non indiqués. Aucun avis client.",
+      "url": "https://cosemadrid.com/producto/patrones-bordado-pdf-letras/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2022/10/pdf-bordado-letras-la-cuesta-estudio-3.jpg"
+    },
+    {
+      "title": "Kit de costura: estuche con cremallera (prévente)",
+      "format": "kit",
+      "price": "12 à 26 €",
+      "bestseller": false,
+      "description": "Kit de couture d'une trousse zippée, mis en avant en page d'accueil. Coton extérieur aux motifs exclusifs (13 choix : chats, Snoopy, Toy Story, origami...), coton de doublure, fermeture éclair, patron imprimé et guide pas à pas avec dessins et vidéos d'Arantxa. Guide et patron en option. Expédition à partir du 26 octobre.",
+      "url": "https://cosemadrid.com/producto/kit-de-costura-estuche-con-cremallera/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2026/10/kit-de-costura-cose-tu-estuche-con-Arantxa-de-Cose-Madrid-portada.jpg"
+    },
+    {
+      "title": "Bordado botánico otoñal | Intensivo",
+      "format": "cours",
+      "price": "120 €",
+      "bestseller": false,
+      "description": "Stage d'une journée à l'atelier (samedi 7 novembre 2026, de 10 h à 17 h 30) animé par Cecilia Rossi, illustratrice formée à la broderie traditionnelle et au Lunéville. Matériel non compris : tambour, aiguilles, ciseaux et feutre effaçable à apporter, 10 % de remise en boutique le jour du stage.",
+      "url": "https://cosemadrid.com/producto/bordado-botanico-otonal-intensivo/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bordado botánico primavera | Intensivo",
+      "format": "cours",
+      "price": "120 €",
+      "bestseller": false,
+      "description": "Version printanière du stage intensif de broderie botanique, à l'atelier de Madrid.",
+      "url": "https://cosemadrid.com/producto/curso-de-bordado-botanico-intensivo/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Madejas de hilo de bordado Sashiko",
+      "format": "autre",
+      "price": "2,40 €",
+      "bestseller": false,
+      "description": "Échevettes de fil à sashiko, dans la gamme de mercerie japonaise (trois fiches : fil japonais, fil coton, fil classique).",
+      "url": "https://cosemadrid.com/producto/hilo-bordado-sashiko/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2021/06/bordado-sashiko-hilos-y-agujas-cose-madrid-en-japon-merceria-online-3.jpg"
+    },
+    {
+      "title": "Tela estampada copo de nieve para Sashiko",
+      "format": "autre",
+      "price": "8,95 €",
+      "bestseller": false,
+      "description": "Tissu imprimé d'un motif de flocon de neige à broder en sashiko. Existe aussi en kimonos, sakuras et quadrillage à points (9,95 €).",
+      "url": "https://cosemadrid.com/producto/tela-estampada-copo-de-nieve-sashiko/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2021/06/telas-estampadas-para-bordado-sashiko-cose-madrid-en-japon-merceria-online-3.jpg"
+    },
+    {
+      "title": "Madeja de hilo mouliné para bordado Anchor",
+      "format": "autre",
+      "price": "1,70 €",
+      "bestseller": false,
+      "description": "Échevette de mouliné Anchor de 8 m, aussi proposée en multicolore au même prix.",
+      "url": "https://cosemadrid.com/producto/hilos-mouline-bordado-anchor/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2021/09/hilos-de-bordar-mouline-Anchor-8m-la-cuesta-estudio-merceria-online2.jpg"
+    },
+    {
+      "title": "Madeja de hilo mouliné dorado DMC",
+      "format": "autre",
+      "price": "4,05 €",
+      "bestseller": false,
+      "description": "Échevette de mouliné doré DMC pour la broderie.",
+      "url": "https://cosemadrid.com/producto/madeja-de-hilo-multicolor-mouline-dorado-dmc/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2022/08/hilo-madeja-bordado-mouline-dorado-DMC-merceria-online-La-Cuesta-Studio-4.jpg"
+    },
+    {
+      "title": "Fibre Mood nº40",
+      "format": "livre",
+      "price": "19 €",
+      "bestseller": false,
+      "description": "Revue de patrons de couture (automne 2026), mise en avant en tête de boutique avec les numéros précédents et l'édition spéciale 5 (21 €).",
+      "url": "https://cosemadrid.com/producto/fibre-mood-no40/",
+      "imageUrl": "https://i0.wp.com/cosemadrid.com/wp-content/uploads/2026/10/revista-de-patrones-fibre-mood-n-40-otono-2026-2.jpg"
+    }
+  ],
+  "summary": "Studio créatif et mercerie du Barrio de las Letras à Madrid, tenu par Arantxa Pérez, centré sur la couture et le patronage. La broderie y reste un rayon secondaire : deux patrons PDF (flocons, lettres), du matériel de sashiko et des stages de broderie botanique.",
+  "history": "Cose Madrid est un studio créatif installé au 32 calle Echegaray, dans le Barrio de las Letras à Madrid. Le site porte aussi le nom de La Cuesta Estudio : les mentions légales renvoient au domaine lacuestaestudio.com et plusieurs images de produits portent encore ce nom.\n\nSa directrice créative, Arantxa Pérez Hernando, a travaillé plusieurs années dans le secteur de la santé avant de se former à la confection et à la mode. Elle a enseigné à l'académie de la mercerie Pontejos à Madrid, puis l'a quittée pour monter Cose Madrid. Elle a aussi sa propre marque, La Costurera Pirata, qui a commencé en visitant les hôpitaux madrilènes avec un petit catalogue de tissus et expédie aujourd'hui à l'international. Son atelier est désormais installé dans les locaux de Cose Madrid.\n\nL'équipe compte aussi Miguel Ángel Medina Centellas, formé à la mode et au patronage, passé par Jorge Vázquez et El Corte Inglés. Il donne les cours de couture et de patronage et dirige l'atelier de couture sur mesure (vêtements, corsets).\n\nAujourd'hui, l'activité repose surtout sur les cours de couture hebdomadaires, les stages intensifs, la vente de revues de patrons Fibre Mood et une mercerie en ligne d'environ 120 références, dont une gamme de mercerie japonaise. Le rayon broderie compte 17 références : fils, tissus et aiguilles pour le sashiko, mouliné Anchor et DMC, un tambour, deux patrons PDF, auxquels s'ajoutent des stages de broderie botanique animés par Cecilia Rossi.",
+  "positioning": "Lieu de transmission plus que marque de kits : Cose Madrid vend surtout des cours de couture et de patronage, du sur-mesure et de la mercerie, à une clientèle locale madrilène. Sa touche propre est la mercerie japonaise (sashiko). Le ton est chaleureux et pédagogique, centré sur la personne d'Arantxa. En broderie, l'offre est mince : deux patrons PDF simples, sans taille ni fils conseillés, soldés et sans avis, et aucun kit de broderie complet. Le site n'existe qu'en espagnol et aucune boutique Etsy n'a été repérée. C'est une concurrente faible pour Faïença sur les kits, mais un exemple d'atelier physique qui associe cours, mercerie et petits kits de couture.",
+  "website": "https://cosemadrid.com",
+  "instagram": "https://www.instagram.com/cose.madrid/",
+  "etsy": "",
+  "photoUrl": "https://cosemadrid.com/wp-content/uploads/2023/05/logo-cabecera-provisional-cose-madrid-la-cuesta-estudio-x2-1.jpg",
+  "timeline": [
+    {
+      "date": "2022-10",
+      "kind": "oeuvre",
+      "label": "Mise en ligne des patrons PDF de broderie Copitos et Letras (date des images)"
+    },
+    {
+      "date": "2026-10",
+      "kind": "oeuvre",
+      "label": "Prévente du kit de couture trousse zippée avec guide vidéo"
+    },
+    {
+      "date": "2026-11-07",
+      "kind": "autre",
+      "label": "Stage intensif de broderie botanique d'automne avec Cecilia Rossi"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Cose Madrid, page d'accueil",
+      "url": "https://cosemadrid.com"
+    },
+    {
+      "label": "Cose Madrid, Nosotros",
+      "url": "https://cosemadrid.com/nosotros/"
+    },
+    {
+      "label": "Cose Madrid, Aviso legal",
+      "url": "https://cosemadrid.com/aviso-legal/"
+    },
+    {
+      "label": "Cose Madrid, boutique",
+      "url": "https://cosemadrid.com/tienda/"
+    },
+    {
+      "label": "Cose Madrid, catégorie Bordado",
+      "url": "https://cosemadrid.com/categoria-producto/merceria/bordado/"
+    },
+    {
+      "label": "Patron PDF Copitos",
+      "url": "https://cosemadrid.com/producto/patrones-de-bordado-en-pdf-copitos/"
+    },
+    {
+      "label": "Patron PDF Letras",
+      "url": "https://cosemadrid.com/producto/patrones-bordado-pdf-letras/"
+    },
+    {
+      "label": "Stage Bordado botánico otoñal",
+      "url": "https://cosemadrid.com/producto/bordado-botanico-otonal-intensivo/"
+    },
+    {
+      "label": "Kit de couture trousse zippée",
+      "url": "https://cosemadrid.com/producto/kit-de-costura-estuche-con-cremallera/"
+    },
+    {
+      "label": "Instagram @cose.madrid",
+      "url": "https://www.instagram.com/cose.madrid/"
+    }
+  ],
+  "researchNotes": "Date de création non trouvée : le pied de page indique « Copyright 2020- » et les plus anciennes images datent de 2021, mais rien ne confirme une création en 2020. Forme juridique déduite des mentions légales : la titulaire est une personne physique (Arantxa Pérez Hernando, NIF [numéro personnel retiré]), donc a priori une autónoma, qui ne publie pas de comptes. Aucun chiffre d'affaires public, aucune fiche trouvée dans les annuaires espagnols. Le lien entre Cose Madrid et La Cuesta Estudio (ancien nom probable) n'est pas confirmé, et lacuestaestudio.com a un certificat expiré. Aucune presse ni interview trouvée. Audiences non relevées : Instagram n'affiche pas le nombre d'abonnés sans connexion ; Pinterest (https://www.pinterest.es/cosemadrid/), YouTube et Facebook (cosemadridestudiocreativo) existent mais n'ont pas été comptés. Pas de boutique Etsy trouvée. Aucun best-seller identifiable (aucun avis sur les produits) : l'ordre des produits suit leur intérêt pour la broderie. Les « kits » flocons et lettres sont en fait des patrons PDF, et aucun kit de broderie complet n'est vendu. Fils vendus en mercerie, sans gamme précise annoncée (mouliné Anchor 8 m, mouliné doré DMC). photoUrl laissé vide à la demande."
+}

@@ -1,0 +1,247 @@
+{
+  "name": "Nimuë",
+  "country": "France",
+  "city": "Paimpont",
+  "region": "Bretagne",
+  "foundedDate": "2002-05-07",
+  "closedDate": "",
+  "founders": [
+    "Annaïck Chauvel"
+  ],
+  "legalName": "NIMUE",
+  "legalForm": "SARL unipersonnelle",
+  "registrationId": "441918372",
+  "offers": [
+    "Kits de broderie",
+    "Grilles de point compté",
+    "Mercerie",
+    "Livres"
+  ],
+  "styles": [
+    "Fées",
+    "Légendes arthuriennes",
+    "Celtique",
+    "Bretagne",
+    "Chats",
+    "Lutins et elfes",
+    "Noël",
+    "Illustrateurs de l'imaginaire"
+  ],
+  "techniques": [
+    "Point de croix",
+    "Point compté",
+    "Petit point"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Lin Zweigart Belfast 12 fils",
+    "Lin Zweigart 14 fils",
+    "Étamine Murano",
+    "Aïda",
+    "Aïda de lin",
+    "Canevas unifil 9 points/cm"
+  ],
+  "salesChannels": [
+    "Site en propre (WooCommerce)",
+    "Boutiques revendeuses",
+    "Salons professionnels"
+  ],
+  "priceRange": "Kits de 17 à 171 €, grilles de 12 à 35 €",
+  "languages": [
+    "Français",
+    "Anglais",
+    "Russe"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Polly (Kit)",
+      "format": "kit",
+      "price": "85 €",
+      "bestseller": false,
+      "description": "Kit complet de la série de la Faune de Brocéliande, mise en avant en page d'accueil. Lin naturel Zweigart Belfast 12 fils, 51 coloris DMC triés sur deux cartes, deux aiguilles, grille en symboles noir et blanc sur deux feuilles A2, boutons en bronze (nœud celtique, boutons 4 trous, boutons Doll). 111 x 197 points, environ 15,5 x 28,5 cm. Grille seule vendue à part.",
+      "url": "https://nimue-broderie.fr/produit/polly-kit/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Seamus (grille)",
+      "format": "autre",
+      "price": "21 €",
+      "bestseller": false,
+      "description": "Grille de point de croix, nouveauté 2026 de la série de la Faune de Brocéliande avec Polly, Prosper et Griselda. Prix relevé chez le revendeur Broderie au fil du temps.",
+      "url": "https://www.broderieaufildutemps.com/seamus-5037.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Viviane, la Dame du Lac (grille)",
+      "format": "autre",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Grille de point compté signée Nimuë Fée main. 206 x 260 points, soit 32 x 41 cm sur lin 12 fils brodé sur 2 fils. Prix relevé chez Broderie au fil du temps.",
+      "url": "https://www.broderieaufildutemps.com/viviane-la-dame-du-lac-4036.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Parade des 20 ans Luxe (Mini-Kit)",
+      "format": "kit",
+      "price": "171 €",
+      "bestseller": false,
+      "description": "Modèle créé pour les 20 ans de la marque. Existe aussi en version Soft (mini-kit à 149 €), en grille seule (35 € Luxe, 32 € Soft) et avec des sets de mercerie spéciale vendus à part.",
+      "url": "https://nimue-broderie.fr/produit/parade-des-20-ans-luxe-mini-kit/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Arbre de Merlin (Kit)",
+      "format": "kit",
+      "price": "72 €",
+      "bestseller": false,
+      "description": "D'après le peintre Carmelo de la Pinta. Petit point (demi-point de croix sur un fil) sur canevas unifil 9 points/cm, fils DMC mouliné triés brodés à 4 brins, une aiguille, grille bilingue. 126 x 146 points, 14 x 16,5 cm.",
+      "url": "https://nimue-broderie.fr/produit/arbre-de-merlin-kit/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Arthur (Mini-Kit)",
+      "format": "kit",
+      "price": "89 €",
+      "bestseller": false,
+      "description": "Mini-kit autour du roi Arthur. La grille seule (Roi Arthur) est vendue 30 € chez Broderie au fil du temps.",
+      "url": "https://nimue-broderie.fr/produit/arthur-mini-kit/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bigoudenn Rouz (Kit)",
+      "format": "kit",
+      "price": "97 €",
+      "bestseller": false,
+      "description": "Kit sur le thème breton de la bigoudène. La grille seule est vendue 20 € chez Broderie au fil du temps.",
+      "url": "https://nimue-broderie.fr/produit/bigoudenn-rouz-kit/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fée aux Coquelicots (grille)",
+      "format": "autre",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Grille de point compté de la gamme des fées. Prix relevé chez Broderie au fil du temps.",
+      "url": "https://www.broderieaufildutemps.com/fee-aux-coquelicots-2584.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livret Mic & Mac (Grille/Chart)",
+      "format": "livre",
+      "price": "",
+      "bestseller": false,
+      "description": "Livret de 8 ou 9 grilles, en deux tomes. Les grilles Mic & Mac sont aussi vendues à l'unité (19 €).",
+      "url": "https://nimue-broderie.fr/produit/livret-mic-mac-grille-chart-t2/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Maison d'édition bretonne de grilles et de kits au point compté, fondée en 2002 à Paimpont, en forêt de Brocéliande, par Annaïck Chauvel. Elle s'est fait un nom sur les fées, les légendes arthuriennes et les illustrateurs de l'imaginaire, avec une diffusion internationale.",
+  "history": "Avant Nimuë, Annaïck Chauvel a dirigé pendant neuf ans le Centre de l'Imaginaire Arthurien au château de Comper, en forêt de Brocéliande. Elle s'y est plongée dans la mythologie celtique et la littérature arthurienne, et y a rencontré la plupart des illustrateurs et peintres avec qui elle travaille encore.\n\nElle crée la société NIMUE en mai 2002 (immatriculation le 7 mai 2002), une SARL au capital de 7 500 €. Le nom vient de Nimuë, l'un des noms de la Dame du Lac. Elle choisit d'emblée une niche, le fantastique, à une époque où la broderie était en plein essor. Le Seigneur des anneaux et Harry Potter élargissent ensuite l'audience de ce thème.\n\nLa marque vise tôt l'international : salon professionnel de Columbus aux États-Unis en 2005, notices bilingues français et anglais depuis 2005, salon de Cologne, exposition à Moscou. Depuis 2014, les grilles sont aussi traduites en russe. Ses premiers travaux lui valent un prix professionnel de l'entreprise la plus dynamique et originale.\n\nDans une interview de 2017, elle décrit un marché qui s'est resserré, d'abord aux États-Unis puis en France à partir de 2012, avec une clientèle de brodeuses passionnées, surtout des femmes actives urbaines, souvent cinéphiles. Le siège, installé à Paimpont depuis 2010, a déménagé au 40 rue des Forges en mars 2023.\n\nAujourd'hui, la boutique en ligne nimue-broderie.fr propose plusieurs centaines de références : kits, mini-kits, grilles, mercerie spéciale, toiles Zweigart et papeterie. Une collection des 20 ans (la Parade) et une série de la Faune de Brocéliande (Polly, Prosper, Griselda, Seamus, 2025 et 2026) font partie des derniers lancements. Les grilles sont aussi vendues par des merceries comme Broderie au fil du temps.",
+  "positioning": "Nimuë se distingue par un univers très marqué : fées, Brocéliande, légendes celtiques et arthuriennes, Bretagne, chats et lutins, souvent d'après des illustrateurs connus de l'imaginaire (Jean-Baptiste Monge, Séverine Pineaux, Sandrine Gestin, Hélène Larbaigt, Carmelo de la Pinta, Brucéro). Les modèles sont grands et détaillés, avec des accessoires en bronze et une mercerie spéciale vendue à part, pour des brodeuses confirmées. Les prix sont élevés (kits souvent entre 40 et 100 €, jusqu'à 171 €). La marque a une vraie présence internationale (notices en anglais et en russe). Points faibles visibles : un site WordPress daté et touffu, des fiches parfois incomplètes, peu de présence sociale visible et pas de patrons PDF identifiés.",
+  "website": "https://nimue-broderie.fr/",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://nimue-broderie.fr/wp-content/uploads/2019/12/70-Pomme-Nimue.jpg",
+  "timeline": [
+    {
+      "date": "2002-05",
+      "kind": "vie",
+      "label": "Création de la SARL NIMUE par Annaïck Chauvel"
+    },
+    {
+      "date": "2005",
+      "kind": "exposition",
+      "label": "Salon professionnel de Columbus (États-Unis), notices bilingues français et anglais"
+    },
+    {
+      "date": "2010",
+      "kind": "vie",
+      "label": "Siège installé à Paimpont, Annaïck Chauvel gérante depuis le 22 mai 2010"
+    },
+    {
+      "date": "2014",
+      "kind": "vie",
+      "label": "Les nouvelles grilles sont aussi traduites en russe"
+    },
+    {
+      "date": "2017-12",
+      "kind": "prix",
+      "label": "Interview dans Breizh-Info : « La Bretagne est une référence mondiale pour la broderie »"
+    },
+    {
+      "date": "2023-03",
+      "kind": "vie",
+      "label": "Transfert du siège au 40 rue des Forges, Paimpont"
+    },
+    {
+      "date": "2023-07",
+      "kind": "oeuvre",
+      "label": "Lancement de la Parade des 20 ans (versions Luxe et Soft)"
+    },
+    {
+      "date": "2025-03",
+      "kind": "oeuvre",
+      "label": "Polly, premier modèle de la série de la Faune de Brocéliande"
+    },
+    {
+      "date": "2026-03",
+      "kind": "oeuvre",
+      "label": "Seamus, nouveau modèle de la Faune de Brocéliande"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Broderie au fil du temps, liste des créatrices",
+      "url": "https://www.broderieaufildutemps.com/par-creatricecreateur-5"
+    },
+    {
+      "label": "Broderie au fil du temps, page Nimuë",
+      "url": "https://www.broderieaufildutemps.com/nimue-76"
+    },
+    {
+      "label": "Broderie au fil du temps, Viviane la Dame du Lac",
+      "url": "https://www.broderieaufildutemps.com/viviane-la-dame-du-lac-4036.html"
+    },
+    {
+      "label": "Site Nimuë Broderie, accueil",
+      "url": "https://nimue-broderie.fr/"
+    },
+    {
+      "label": "Nimuë, catégorie Kit broderie",
+      "url": "https://nimue-broderie.fr/categorie-produit/kit-broderie/"
+    },
+    {
+      "label": "Nimuë, catégorie 20 ans",
+      "url": "https://nimue-broderie.fr/categorie-produit/20-ans-nimue-broderie/"
+    },
+    {
+      "label": "Nimuë, Polly (Kit)",
+      "url": "https://nimue-broderie.fr/produit/polly-kit/"
+    },
+    {
+      "label": "Nimuë, Arbre de Merlin (Kit)",
+      "url": "https://nimue-broderie.fr/produit/arbre-de-merlin-kit/"
+    },
+    {
+      "label": "Nimuë, blog",
+      "url": "https://nimue-broderie.fr/blog-2/"
+    },
+    {
+      "label": "Breizh-Info, interview d'Annaïck Chauvel (2017)",
+      "url": "https://www.breizh-info.com/2017/12/10/83860/nimue-broderie/"
+    },
+    {
+      "label": "Annuaire des entreprises (API Recherche d'entreprises), NIMUE",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=nimue&code_postal=35380"
+    },
+    {
+      "label": "Societe.com, NIMUE",
+      "url": "https://www.societe.com/societe/nimue-441918372.html"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Chiffre d'affaires et résultat non publiés pour les années récentes : Societe.com indique « NC », et les comptes complets ne sont téléchargeables que pour 2008 à 2013 (non consultés, Pappers a renvoyé une erreur 403). Societe.com cite une rentabilité nette de 9,98 % en 2013, sans montant. Effectif salarié non renseigné (tranche NN). Societe.com dit le siège transféré à Paimpont en 2010 : la commune du siège d'origine en 2002 n'a pas été vérifiée, l'interview de 2017 donnait le 25 rue du Général de Gaulle à Paimpont (établissement fermé le 2023-03-15). Les meilleures ventes ne sont pas identifiables : le site n'affiche ni classement ni nombre d'avis, aucun produit n'est donc marqué best-seller. Les produits listés sont ceux mis en avant en page d'accueil et en nouveautés. Le format des grilles (papier ou PDF) n'est pas précisé, elles semblent vendues en papier. Le prix du livret Mic & Mac n'a pas été relevé. Pas de boutique Etsy trouvée. Le site mentionne Instagram sans lien, une page Facebook (https://www.facebook.com/nimuefeemain/) et une chaîne YouTube : nombre d'abonnés non lisible. La marque signe aussi « Nimuë Fée main ». L'adresse mail du site renvoie à nimue-conseil.fr, sans lien établi avec une autre activité. L'interview de 2017 cite un salon de Cologne et une exposition à Moscou sans date précise. Les dates de lancement de la Parade des 20 ans (2023-07), de Polly (2025-03) et de Seamus (2026-03) sont déduites des dossiers des images sur le site, pas d'une annonce."
+}

@@ -1,0 +1,281 @@
+{
+  "name": "Annick Abrial",
+  "country": "France",
+  "city": "Granges-les-Beaumont",
+  "region": "Auvergne-Rhône-Alpes",
+  "foundedDate": "2004-01-02",
+  "closedDate": "",
+  "founders": [
+    "Annick Abrial"
+  ],
+  "legalName": "Annick Abrial (Ermel)",
+  "legalForm": "Entrepreneur individuel",
+  "registrationId": "451183818",
+  "offers": [
+    "Patrons PDF",
+    "Grilles papier",
+    "Grilles gratuites",
+    "Mercerie",
+    "Livres",
+    "Accessoires illustrés",
+    "Commandes sur mesure"
+  ],
+  "styles": [
+    "Saisons",
+    "Nature",
+    "Animaux",
+    "Noël",
+    "Contes",
+    "Alsace",
+    "Médiéval",
+    "Floral",
+    "Marquoirs et abécédaires"
+  ],
+  "techniques": [
+    "Point de croix"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25 (art. 117)"
+  ],
+  "fabrics": [
+    "Aïda",
+    "Lin",
+    "Étamine",
+    "Zweigart"
+  ],
+  "salesChannels": [
+    "Site en propre",
+    "Boutiques revendeuses (fiches papier)",
+    "Salons"
+  ],
+  "priceRange": "Grilles papier ou PDF de 11 à 13 €, aimants porte-aiguilles 7 €, tri-fils 11 €, mugs 12 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Le refuge d'or",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Grille en fiche papier ou PDF (couleur et noir et blanc), troisième volet de la collection « La ronde des saisons ». Pinsons dans une couronne végétale ocre et terre cuite, 160 x 160 points (22,8 cm sur toile 14), 42 références DMC mouliné art. 117, toile conseillée Zweigart 101.",
+      "url": "https://www.annickabrial.net/point-de-croix-le-refuge-d-or-automne-ronde-des-saisons-f1795867.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Il était une fois Versailles",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Grille papier ou PDF de la collection « Il était une fois... ». Couronne de roses, citrons et oranges autour du château côté jardin, 160 x 160 points, 36 références DMC mouliné, toile crème Zweigart 99.",
+      "url": "https://www.annickabrial.net/point-de-croix-il-etait-une-fois-versailles-f1769448.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "L'abri doré",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Grille papier ou PDF de la série des saisons (été), mise en avant parmi les nouveautés.",
+      "url": "https://www.annickabrial.net/modele-point-de-croix-abri-dore-ete-f1770838.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Chats en folie",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Couronne de feuilles, pelotes et chats espiègles, 160 x 160 points, 30 références DMC mouliné art. 117, toile blanc cassé Zweigart 101.",
+      "url": "https://www.annickabrial.net/modele-point-de-croix-chats-en-folie-f1748757.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Douce framboise",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Couronne végétale aux tons poudrés avec un hérisson, des gâteaux et un macaron, 160 x 160 points, 29 références DMC mouliné, toile crème Zweigart 99.",
+      "url": "https://www.annickabrial.net/grille-point-de-croix-douce-framboise-f1757059.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "C'est Noël",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Père Noël et renne sous les flocons, palette dorée, rouge et verte, 160 x 157 points, 27 couleurs DMC, toile Zweigart Nougat (3021).",
+      "url": "https://www.annickabrial.net/modele-point-de-croix-noel-pere-noel-renne-festif-f1662521.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Jardin zen",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Jardin japonais avec cerisiers en fleurs et grue, 158 x 156 points, 30 références DMC mouliné art. 117, toile blanc cassé Zweigart 101. Décliné en tri-fils, aimant et mug.",
+      "url": "https://www.annickabrial.net/point-de-croix-jardin-zen-annick-abrial-f1602519.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Tri-fils illustrés",
+      "format": "autre",
+      "price": "11 €",
+      "bestseller": false,
+      "description": "Tri-fils ronds ou carrés reprenant les illustrations des grilles, en séries limitées. 48 modèles en ligne, dont 22 indiqués vendus.",
+      "url": "https://www.annickabrial.net/tri-fils-annick-abrial-b58387.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Aimants porte-aiguilles",
+      "format": "autre",
+      "price": "7 €",
+      "bestseller": false,
+      "description": "Aimants porte-aiguilles illustrés en séries limitées ou pièces uniques, 78 modèles en ligne.",
+      "url": "https://www.annickabrial.net/aimants-porte-aiguilles-series-limitees-pieces-uniques-annick-abrial-b100804.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mugs illustrés",
+      "format": "autre",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Mugs en céramique reprenant les dessins des grilles, 26 modèles en ligne.",
+      "url": "https://www.annickabrial.net/mugs-en-ceramique-illustres-dessins-uniques-annick-abrial-b181217.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Créatrice installée dans la Drôme qui dessine depuis 2004 des grilles de point de croix vendues en fiche papier ou en PDF autour de 13 €, avec des accessoires illustrés assortis. Son style mêle couronnes végétales, saisons, animaux, contes et Alsace.",
+  "history": "Annick Abrial est née en Alsace, une région dont les légendes nourrissent son imaginaire. Elle se présente comme artiste peintre et artiste textile. Ses premiers points remontent à l'école maternelle, mais c'est en 2003 qu'elle commence à broder seule, avec passion.\n\nEn janvier 2004, elle crée son entreprise individuelle (immatriculée le 2 janvier 2004, code NAF 90.03A, création artistique relevant des arts plastiques). Elle est aujourd'hui installée à Granges-les-Beaumont, dans la Drôme.\n\nElle a publié plusieurs livres de motifs aux Éditions Fleurus et Mango, dont des volumes par couleur (bleu, vert, violet, rose, rouge, naturel), « Tableaux pour mes enfants » et « L'Alsace en rouge et blanc ». Elle a contribué à l'Agenda de 2005 à 2016. Comme peintre, elle figure dans « Le chat dans l'Art Animalier ».\n\nElle expose chaque année sur les salons de broderie, avec une présence fidèle au Festival point de croix et broderie de Kutzenhausen (Bas-Rhin), et jusqu'en 2019 sur de nombreux salons en France et en Italie.\n\nAujourd'hui, elle vend sur son site ses grilles en fiche papier ou PDF compatibles Pattern Keeper, organisées en collections (« Il était une fois... », « La ronde des saisons », « Le langage des fleurs »), avec des grilles gratuites et des accessoires illustrés. Ses fiches papier sont aussi diffusées par des merceries revendeuses.",
+  "positioning": "Créatrice indépendante et autrice reconnue du point de croix français, avec plus de 20 ans de métier. Ses grilles carrées d'environ 160 x 160 points, très colorées (27 à 42 teintes DMC), visent des brodeuses confirmées plus que des débutantes. Prix bas et uniformes (13 €), forte cohérence graphique entre grilles, tri-fils, aimants et mugs. Points faibles visibles : pas de kits complets, pas de boutique Etsy repérée, site en français seulement, pas de mise en avant des meilleures ventes ni d'avis clients sur les fiches.",
+  "website": "https://www.annickabrial.net",
+  "instagram": "https://www.instagram.com/annick_abrial/",
+  "etsy": "",
+  "photoUrl": "https://www.annickabrial.net/uploaded/106284/jardin-zen-r6-annick-abrial.jpg",
+  "timeline": [
+    {
+      "date": "2003",
+      "kind": "formation",
+      "label": "Commence à broder seule, de manière passionnée"
+    },
+    {
+      "date": "2004-01-02",
+      "kind": "vie",
+      "label": "Création de l'entreprise individuelle Annick Abrial"
+    },
+    {
+      "date": "2005",
+      "kind": "oeuvre",
+      "label": "Première participation à l'Agenda point de croix, poursuivie jusqu'en 2016"
+    },
+    {
+      "date": "2011",
+      "kind": "oeuvre",
+      "label": "Livres « Rouge » et « Vert » chez Mango Pratique, avec M.-A. Réthoret-Mélin et P. Samouïloff"
+    },
+    {
+      "date": "2018-10",
+      "kind": "exposition",
+      "label": "Festival point de croix et broderie de Kutzenhausen, présente chaque année depuis"
+    },
+    {
+      "date": "2019-03",
+      "kind": "exposition",
+      "label": "Fili Senza Tempo à Novi di Modena (Italie)"
+    },
+    {
+      "date": "2023-05",
+      "kind": "exposition",
+      "label": "Puget fête le fil à Puget-sur-Argens"
+    },
+    {
+      "date": "2026-10",
+      "kind": "exposition",
+      "label": "Festival point de croix et broderie de Kutzenhausen, du 23 au 25 octobre"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Annick Abrial, accueil",
+      "url": "https://www.annickabrial.net"
+    },
+    {
+      "label": "Qui suis-je ?",
+      "url": "https://www.annickabrial.net/qui-suis-je--p224207.html"
+    },
+    {
+      "label": "Mentions légales",
+      "url": "https://www.annickabrial.net/mentions_legales.html"
+    },
+    {
+      "label": "Catalogue des modèles",
+      "url": "https://www.annickabrial.net/modeles-point-de-croix-annick-abrial-p237833.html"
+    },
+    {
+      "label": "Salons et expositions",
+      "url": "https://www.annickabrial.net/mes-salons-mes-expositions-p232465.html"
+    },
+    {
+      "label": "Espace revendeurs professionnels",
+      "url": "https://www.annickabrial.net/espace-revendeurs-professionnels-p232406.html"
+    },
+    {
+      "label": "Grilles gratuites",
+      "url": "https://www.annickabrial.net/modele-point-de-croix-gratuits-annick-abrial-p233233.html"
+    },
+    {
+      "label": "Tri-fils",
+      "url": "https://www.annickabrial.net/tri-fils-annick-abrial-b58387.html"
+    },
+    {
+      "label": "Aimants porte-aiguilles",
+      "url": "https://www.annickabrial.net/aimants-porte-aiguilles-series-limitees-pieces-uniques-annick-abrial-b100804.html"
+    },
+    {
+      "label": "Mugs",
+      "url": "https://www.annickabrial.net/mugs-en-ceramique-illustres-dessins-uniques-annick-abrial-b181217.html"
+    },
+    {
+      "label": "Fiche produit Le refuge d'or",
+      "url": "https://www.annickabrial.net/point-de-croix-le-refuge-d-or-automne-ronde-des-saisons-f1795867.html"
+    },
+    {
+      "label": "Fiche produit Il était une fois Versailles",
+      "url": "https://www.annickabrial.net/point-de-croix-il-etait-une-fois-versailles-f1769448.html"
+    },
+    {
+      "label": "Fiche produit Chats en folie",
+      "url": "https://www.annickabrial.net/modele-point-de-croix-chats-en-folie-f1748757.html"
+    },
+    {
+      "label": "Fiche produit Douce framboise",
+      "url": "https://www.annickabrial.net/grille-point-de-croix-douce-framboise-f1757059.html"
+    },
+    {
+      "label": "Fiche produit C'est Noël",
+      "url": "https://www.annickabrial.net/modele-point-de-croix-noel-pere-noel-renne-festif-f1662521.html"
+    },
+    {
+      "label": "Fiche produit Jardin zen",
+      "url": "https://www.annickabrial.net/point-de-croix-jardin-zen-annick-abrial-f1602519.html"
+    },
+    {
+      "label": "Annuaire des entreprises, SIREN 451183818",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/451183818"
+    },
+    {
+      "label": "BnF, notice « Rouge » (Mango Pratique, 2011)",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb42414601m"
+    },
+    {
+      "label": "BnF, notice « Vert » (Mango Pratique, 2011)",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb425457357"
+    },
+    {
+      "label": "Profil Artmajeur",
+      "url": "https://www.artmajeur.com/annickabrial/en"
+    }
+  ],
+  "researchNotes": "Entreprise individuelle (SIREN 451183818, dénomination « Annick Abrial (Ermel) », Ermel étant probablement le nom de naissance) : aucun compte publié, chiffre d'affaires inconnu. Audiences non relevées : Instagram (@annick_abrial) et Facebook (annickabrialpointdecroix) n'affichent pas leurs compteurs sans connexion. Aucune boutique Etsy trouvée. Aucun best-seller ni avis clients affiché sur le site : les produits listés sont les nouveautés et modèles mis en avant en page d'accueil, pas des meilleures ventes avérées. Prix : les fiches affichent 13 € mais mentionnent « dès 11 € », sans préciser quel format (papier ou PDF) est à 11 €. Le slogan « L'Atelier des histoires » apparaît sur l'accueil. Les titres de livres Fleurus (« Tableaux pour mes enfants », « L'Alsace en rouge et blanc », « Coffret Couleurs ») viennent de sa page Qui suis-je, sans dates vérifiées. Pas d'interview ni d'article de presse trouvés. Nombre de revendeurs non publié. Profil Artmajeur : elle se consacre aussi à la peinture abstraite à l'acrylique. Relevé fait le 2026-10-21."
+}

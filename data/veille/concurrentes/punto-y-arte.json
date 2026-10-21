@@ -1,0 +1,270 @@
+{
+  "name": "Punto y Arte",
+  "country": "Espagne",
+  "city": "Oviedo",
+  "region": "Asturies",
+  "foundedDate": "2021-12-31",
+  "closedDate": "",
+  "founders": [
+    "Alexandra Luca Rusu"
+  ],
+  "legalName": "A Luca Rusu S.L.",
+  "legalForm": "S.L.",
+  "registrationId": "B67970863",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Mercerie"
+  ],
+  "styles": [
+    "Scènes d'intérieur",
+    "Villes et paysages méditerranéens",
+    "Chats et animaux",
+    "Fantastique",
+    "Saisonnier (automne, Halloween, Noël)",
+    "Floral",
+    "Illustratif réaliste"
+  ],
+  "techniques": [
+    "Point de croix compté",
+    "Demi-point",
+    "Point arrière",
+    "Point de nœud"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25",
+    "Luca-S Mouliné"
+  ],
+  "fabrics": [
+    "Aïda Zweigart 16 ct",
+    "Aïda 14 ct (recommandée pour les PDF)"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify) puntodecruzyarte.com",
+    "Site de la marque AVA Stitch (avastitchshop.com)",
+    "Boutiques revendeuses",
+    "Vente aux professionnels",
+    "Retrait en boutique à Oviedo"
+  ],
+  "priceRange": "Kits AVA Stitch de 16 à 69 €, PDF de 9 à 10 €",
+  "languages": [
+    "Espagnol",
+    "Français",
+    "Anglais",
+    "Italien",
+    "Allemand"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "P140 Alpine Serenity (Serenidad Alpina), patron numérique",
+      "format": "pdf",
+      "price": "9 €",
+      "bestseller": true,
+      "description": "Premier de la collection AVA Stitch triée par meilleures ventes. Patron à télécharger en PDF, SAGA et Dize, 120 x 117 points, environ 21,8 x 21,2 cm, à broder sur Aïda 14 ct blanche en fils DMC, point de croix en 3 brins. Sans tissu, fils ni aiguille.",
+      "url": "https://puntodecruzyarte.com/products/patron-digital-de-punto-de-cruz-ava-stitch-p140-alpine-serenity-serenidad-alpina-21-77x21-23-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "P101 Bigotes de Otoño, patron numérique",
+      "format": "pdf",
+      "price": "9 €",
+      "bestseller": true,
+      "description": "Deuxième de la collection AVA Stitch triée par meilleures ventes. Patron numérique d'automne avec un chat, en PDF, SAGA et Dize.",
+      "url": "https://puntodecruzyarte.com/products/p101-bigotes-de-otono-esquema-digital-de-punto-de-cruz-pdf-saga-y-dize",
+      "imageUrl": ""
+    },
+    {
+      "title": "P133 Sueño Mediterráneo",
+      "format": "kit",
+      "price": "52,88 €",
+      "bestseller": true,
+      "description": "Kit AVA Stitch, scène méditerranéenne d'environ 28 cm de côté. Aïda Zweigart 16 ct coloris 100/101, fils DMC et Luca-S (60 couleurs dont 18 mélanges), grille couleur au format A3. Design original déposé par A Luca Rusu SL.",
+      "url": "https://puntodecruzyarte.com/products/kit-de-punto-de-cruz-sueno-mediterraneo-ava-p133",
+      "imageUrl": ""
+    },
+    {
+      "title": "P100 La Antigua Panadería",
+      "format": "kit",
+      "price": "54,78 €",
+      "bestseller": true,
+      "description": "Kit AVA Stitch Premium de niveau avancé, 180 x 180 points, 28,6 x 28,6 cm. Aïda Zweigart 16 ct, mouliné Luca-S et DMC 100 % coton (70 couleurs dont 22 mélanges), aiguilles John James n° 26, grille couleur et instructions. Point de croix 2 brins, point arrière 1 et 2 brins, points de nœud.",
+      "url": "https://puntodecruzyarte.com/products/kit-punto-de-cruz-la-antigua-panaderia-p100",
+      "imageUrl": ""
+    },
+    {
+      "title": "P159 La Primavera",
+      "format": "kit",
+      "price": "48,60 €",
+      "bestseller": true,
+      "description": "Kit AVA Stitch printanier, 180 x 180 points, 28,57 x 28,57 cm. Aïda Zweigart 16 ct 100/101, fils Luca-S et DMC (60 couleurs et 18 mélanges), grille couleur A3.",
+      "url": "https://puntodecruzyarte.com/products/la-primavera-kit-de-punto-de-cruz-ava-p159",
+      "imageUrl": ""
+    },
+    {
+      "title": "P022 Cuarto de Costura",
+      "format": "kit",
+      "price": "57,80 €",
+      "bestseller": true,
+      "description": "Kit AVA Stitch représentant une pièce de couture avec fils, boutons et bobines. Aïda 16 ct, fils Luca-S et DMC, aiguilles John James n° 26, grille couleur A3. Point de croix 2 brins, point arrière et points de nœud, pour brodeuses expérimentées.",
+      "url": "https://puntodecruzyarte.com/products/kit-de-punto-de-cruz-cuarto-de-costura-p022-de-punto-y-arte",
+      "imageUrl": ""
+    },
+    {
+      "title": "P110 El Aroma de las Flores",
+      "format": "kit",
+      "price": "52,42 €",
+      "bestseller": true,
+      "description": "Kit AVA Stitch floral, 180 x 180 points, 28,6 x 28,6 cm. Aïda Zweigart 16 ct, fils Luca-S et DMC (62 couleurs et 25 mélanges), grille couleur A3 et instructions détaillées.",
+      "url": "https://puntodecruzyarte.com/products/kit-de-punto-de-cruz-el-aroma-de-las-flores-ava-p110",
+      "imageUrl": ""
+    },
+    {
+      "title": "P073 Ratoncito con Gorro de Invierno",
+      "format": "kit",
+      "price": "15,75 €",
+      "bestseller": true,
+      "description": "Petit kit AVA Stitch d'hiver (souris au bonnet), environ 13 cm. Aïda 16 ct, fils Luca-S et DMC, une aiguille John James n° 26, grille couleur A3.",
+      "url": "https://puntodecruzyarte.com/products/kit-de-punto-de-cruz-punto-y-arte-p073-ratoncito-con-gorro-de-invierno",
+      "imageUrl": ""
+    },
+    {
+      "title": "P051 Café en Otoño",
+      "format": "kit",
+      "price": "49,82 €",
+      "bestseller": true,
+      "description": "Kit AVA Stitch d'automne, 181 x 181 points, 29 x 29 cm. Aïda 16 ct 100/101, fils DMC et Luca-S, une aiguille John James n° 26, grille couleur A3.",
+      "url": "https://puntodecruzyarte.com/products/p051-cafe-en-otono-kit-de-punto-de-cruz-de-punto-y-arte",
+      "imageUrl": ""
+    },
+    {
+      "title": "P131 Pequeña bruja de otoño",
+      "format": "kit",
+      "price": "29,90 €",
+      "bestseller": false,
+      "description": "Nouveauté de septembre 2026 pour Halloween : petite sorcière et chat noir, 112 x 111 points, 17,78 x 17,62 cm. Aïda Zweigart 16 ct 100/101, fils DMC et Luca-S (54 couleurs et 4 mélanges), une aiguille John James n° 26, grille A3, notice en espagnol, anglais et français.",
+      "url": "https://puntodecruzyarte.com/products/p084-light-and-shadow-cross-stitch-kit-copia",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Boutique en ligne espagnole de point de croix basée à Oviedo (Asturies). Elle revend un très large catalogue de mercerie (DMC, Anchor, Zweigart, Luca-S, Riolis, Letistitch...) et développe sa marque propre AVA Stitch : plus de 120 kits de point de croix compté conçus en Espagne, sur Aïda Zweigart 16 ct avec fils DMC et Luca-S.",
+  "history": "Punto y Arte est le nom commercial de A Luca Rusu S.L., une société à responsabilité limitée constituée le 31 décembre 2021 et inscrite au Registre du commerce des Asturies (constitution publiée au BORME le 4 février 2022). Alexandra Luca Rusu, qui signe les articles du blog de la boutique, figure parmi les administratrices nommées en janvier 2022. Le site de la marque AVA dit que celle-ci est née dans les Asturies en 2019, avant la société actuelle.\n\nLa boutique Shopify puntodecruzyarte.com met en ligne ses premiers produits en mai 2023. Elle revend surtout des marques du secteur : fils DMC, Anchor, Kreinik et Luca-S, tissus Zweigart et Gütermann, kits Luca-S, Riolis, Letistitch, Panna, RTO ou Dimensions, et même des laines Katia et Cardiff. Le catalogue public compte plusieurs milliers de références.\n\nEn octobre 2023, la boutique annonce ses premières grilles exclusives (trois modèles imprimés), avec l'idée d'y ajouter les fils pour en faire des kits complets. En janvier 2024, la société augmente son capital (4 500 € selon einforma) et modifie son objet social. La même année, les kits deviennent une marque propre, AVA Stitch. En novembre 2024, le blog annonce plus de 60 kits complets et une distribution en France, en Allemagne, en Ukraine, en Russie, en Moldavie, en Chine et en République tchèque, ainsi que dans des boutiques en Espagne.\n\nEn juillet 2025, AVA lance des patrons numériques sur son propre site, avastitchshop.com, en anglais, français et allemand. En 2026, la gamme dépasse 120 kits référencés sous la marque AVA Stitch sur puntodecruzyarte.com, avec de nombreuses nouveautés publiées entre janvier et septembre, et la boutique lance un programme de points de fidélité. Une troisième administratrice est nommée en janvier 2026.",
+  "positioning": "Punto y Arte joue sur deux tableaux : une grande mercerie en ligne espagnole, très complète en fils et tissus de marque, et une marque propre de kits, AVA Stitch, présentée comme premium et fabriquée en Espagne. Les kits AVA sont de grandes scènes illustrées et très colorées (intérieurs, cuisines, librairies, ruelles méditerranéennes, chats, sorcières), souvent 180 x 180 points avec 60 à 70 couleurs et de nombreux mélanges de fils, pour des brodeuses confirmées. Tous suivent la même recette : Aïda Zweigart 16 ct, fils DMC et Luca-S, aiguille John James, grille couleur A3, notice en trois langues. Forces visibles : prix contenus pour des kits de cette taille (environ 50 € pour 29 cm de côté), rythme soutenu de nouveautés, vente aux professionnels et distribution à l'étranger. Points faibles visibles : les designs partent d'images générées par intelligence artificielle, que la boutique dit retravaillées par des dessinatrices ; il n'y a pas de page « qui sommes-nous » ; les mentions légales sont incomplètes, avec deux adresses différentes ; les titres mélangent espagnol et anglais ; les kits se ressemblent beaucoup visuellement.",
+  "website": "https://www.puntodecruzyarte.com",
+  "instagram": "https://www.instagram.com/puntoyarteoficial/",
+  "etsy": "",
+  "photoUrl": "https://puntodecruzyarte.com/cdn/shop/files/WhatsApp_Image_2025-11-15_at_11.45.27_560046d7_6464828d-7803-4663-bcba-f9fbd2bdc6d8.jpg?crop=center&height=1200&v=1765619914&width=1200",
+  "timeline": [
+    {
+      "date": "2019",
+      "kind": "vie",
+      "label": "Naissance de la marque AVA dans les Asturies, selon son site"
+    },
+    {
+      "date": "2021-12-31",
+      "kind": "vie",
+      "label": "Constitution de A Luca Rusu S.L."
+    },
+    {
+      "date": "2022-02-04",
+      "kind": "vie",
+      "label": "Constitution et nomination des administrateurs publiées au BORME"
+    },
+    {
+      "date": "2023-05",
+      "kind": "vie",
+      "label": "Premiers produits en ligne sur la boutique Shopify puntodecruzyarte.com"
+    },
+    {
+      "date": "2023-10-14",
+      "kind": "oeuvre",
+      "label": "Lancement des trois premières grilles exclusives Punto y Arte"
+    },
+    {
+      "date": "2024-01-25",
+      "kind": "vie",
+      "label": "Augmentation de capital et changement d'objet social publiés au BORME"
+    },
+    {
+      "date": "2024",
+      "kind": "oeuvre",
+      "label": "Lancement d'AVA Stitch comme marque propre de kits"
+    },
+    {
+      "date": "2024-11-11",
+      "kind": "oeuvre",
+      "label": "Nouveaux kits AVA : plus de 60 kits complets, vendus dans sept pays hors d'Espagne"
+    },
+    {
+      "date": "2025-07-29",
+      "kind": "oeuvre",
+      "label": "Lancement des patrons numériques AVA sur avastitchshop.com"
+    },
+    {
+      "date": "2026-01-15",
+      "kind": "vie",
+      "label": "Nomination d'une nouvelle administratrice publiée au BORME"
+    },
+    {
+      "date": "2026-02-23",
+      "kind": "vie",
+      "label": "Lancement du programme de points de fidélité"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Punto y Arte, page d'accueil",
+      "url": "https://www.puntodecruzyarte.com"
+    },
+    {
+      "label": "Punto y Arte, collection AVA Stitch triée par meilleures ventes",
+      "url": "https://puntodecruzyarte.com/collections/ava-stitch-cross-stitch-kits?sort_by=best-selling"
+    },
+    {
+      "label": "Punto y Arte, catalogue Shopify (products.json)",
+      "url": "https://puntodecruzyarte.com/products.json"
+    },
+    {
+      "label": "Punto y Arte, aviso legal",
+      "url": "https://puntodecruzyarte.com/pages/aviso-legal"
+    },
+    {
+      "label": "Punto y Arte, conditions générales",
+      "url": "https://puntodecruzyarte.com/policies/terms-of-service"
+    },
+    {
+      "label": "Punto y Arte, FAQ",
+      "url": "https://puntodecruzyarte.com/pages/faq"
+    },
+    {
+      "label": "Punto y Arte, page grossistes",
+      "url": "https://puntodecruzyarte.com/pages/mayoristas"
+    },
+    {
+      "label": "Punto y Arte, blog",
+      "url": "https://puntodecruzyarte.com/blogs/noticias"
+    },
+    {
+      "label": "Blog, Conoce los diseños exclusivos de Punto y Arte (2023-10-14)",
+      "url": "https://puntodecruzyarte.com/blogs/noticias/conoce-los-disenos-exclusivos-de-punto-y-arte"
+    },
+    {
+      "label": "Blog, Descubre los nuevos kits de punto de cruz AVA (2024-11-11)",
+      "url": "https://puntodecruzyarte.com/blogs/noticias/descubre-los-nuevos-kits-de-punto-de-cruz-ava-en-punto-y-arte"
+    },
+    {
+      "label": "AVA Shop, site de la marque AVA Stitch",
+      "url": "https://www.avastitchshop.com"
+    },
+    {
+      "label": "einforma, A Luca Rusu Sociedad Limitada",
+      "url": "https://www.einforma.com/informacion-empresa/luca-rusu"
+    },
+    {
+      "label": "Infoempresa, A Luca Rusu SL",
+      "url": "https://www.infoempresa.com/fr-fr/es/entreprise/a-luca-rusu-sl"
+    }
+  ],
+  "researchNotes": "Comptes : A Luca Rusu S.L. dépose ses comptes, mais les montants ne sont pas lisibles gratuitement. einforma la classe en microentreprise et indique une hausse des ventes de 23,19 % en 2025 par rapport à 2024. Elle donne aussi 5 salariés en 2025, mais « moins de 5 » dans son résumé, ce qui se contredit, et un capital de 4 500 €. Infoempresa donne un chiffre d'affaires inférieur à 2 millions d'euros et 1 à 9 salariés. Aucun chiffre d'affaires n'est donc inscrit dans financials ; le rapport payant d'einforma ou d'Infoempresa permettrait de le connaître.\n\nDirigeants : einforma liste trois administrateurs solidaires aux noms tronqués : Alexandra L. (nommée le 2022-01-27), Anatoly M. (2022-01-27) et Violina M. (2026-01-08). Le nom complet Alexandra Luca Rusu vient des signatures du blog et correspond à la raison sociale, mais aucun registre ne confirme son rôle de fondatrice. librebor.me a refusé l'accès (403).\n\nDates : le site AVA dit que la marque est née en 2019 dans les Asturies et qu'elle est devenue une marque propre en 2024. La société actuelle date de fin 2021 ; l'activité de 2019 à 2021 n'est pas documentée. La date de mai 2023 vient de la date de création du plus ancien produit du catalogue Shopify, pas d'une annonce.\n\nAdresses : le pied de page et le site AVA donnent Nava 4, 33006 Oviedo ; l'aviso legal et les registres donnent comme siège social C. Monsacro / Avenida Mont-Sacro 26, Santa Eulalia, 33162 Morcín. L'aviso legal contient encore un texte à compléter pour les données du Registre du commerce. Code CNAE : 4751 (commerce de détail de textiles) chez einforma, 4799 dans l'objet social.\n\nMeilleures ventes : l'ordre des produits vient du tri « best-selling » de la collection AVA Stitch du site, lu le 2026-10-21. Les deux premiers sont des PDF, peut-être parce qu'ils se vendent en plus grand nombre d'unités. Le site n'affiche ni avis ni badge « más vendido ». Le catalogue compte environ 130 produits de marque AVA Stitch, dont 2 PDF. Une référence à 4,44 € n'a pas été vérifiée et sort de la fourchette de prix.\n\nDesign : le blog de novembre 2024 dit que les designs partent d'idées générées par intelligence artificielle, sélectionnées puis transformées en grilles par des dessinatrices.\n\nPays de distribution (France, Allemagne, Ukraine, Russie, Moldavie, Chine, République tchèque) : annoncés par la marque, non vérifiés. D'après les résultats de recherche, lanasllamas.com semble revendre des kits AVA (P067, P104) ; page non lue.\n\nEtsy : une annonce Etsy « Kit de Punto de Cruz Perfume de Provenza - P031 » apparaît dans les résultats de recherche, mais Etsy a refusé l'accès (403). Le nom de la boutique, les ventes et la note ne sont pas vérifiés.\n\nAudiences : le compte Instagram @puntoyarteoficial et la page Facebook puntodecruzyarte existent, mais leurs nombres d'abonnés ne sont pas lisibles sans connexion. Aucun compte YouTube, Pinterest ou TikTok n'est lié depuis les deux sites.\n\nPas d'image ajoutée, comme demandé (photoUrl et imageUrl vides). Logo repéré : https://puntodecruzyarte.com/cdn/shop/files/Logo_Punto_y_Arte.png"
+}

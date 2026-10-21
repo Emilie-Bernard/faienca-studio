@@ -1,0 +1,199 @@
+{
+  "name": "Les kits de Kali",
+  "country": "France",
+  "city": "Soisy-Bouy",
+  "region": "Île-de-France",
+  "foundedDate": "2013-06",
+  "closedDate": "",
+  "founders": [
+    "Aurélie Bertazzon"
+  ],
+  "legalName": "Aurélie Bertazzon (nom commercial : Les kits de Kali)",
+  "legalForm": "Entreprise individuelle",
+  "registrationId": "793421454",
+  "offers": [
+    "Kits de scrapbooking (mini-albums)",
+    "Tutoriels PDF",
+    "Abonnements aux kits",
+    "Ateliers",
+    "Mercerie créative (papiers, tampons, dies, embellissements)"
+  ],
+  "styles": [
+    "Vintage",
+    "Famille et souvenirs",
+    "Voyage",
+    "Floral",
+    "Noël"
+  ],
+  "techniques": [
+    "Scrapbooking",
+    "Mini-album",
+    "Embossage",
+    "Tampons"
+  ],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": [
+    "Site en propre (PrestaShop)",
+    "YouTube (tutoriels vidéo)",
+    "Ateliers et crops"
+  ],
+  "priceRange": "Kits mini-album de 30 à 40 €, tutoriels PDF à 10 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/leskitsdekali/"
+    },
+    {
+      "platform": "YouTube",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.youtube.com/channel/UCru3xLz48Kcrt9O1azAuVZw"
+    },
+    {
+      "platform": "Facebook",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.facebook.com/leskitsdekali"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit Mini Album : Family Portraits",
+      "format": "kit",
+      "price": "40 €",
+      "bestseller": false,
+      "description": "Mini-album format portrait 16 x 24 cm pour 25 à 30 photos noir et blanc. Papiers des collections P13, Ha.pi Little Fox et Les Ateliers de Karine, embellissements, palette beige, kraft, noir, blanc et corail. Tutoriel PDF envoyé avec la commande, vidéo YouTube associée.",
+      "url": "https://leskitsdekali.fr/accueil/8550-kit-mini-album-family-portraits.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Mini Album : Entre terre et mer",
+      "format": "kit",
+      "price": "37 €",
+      "bestseller": false,
+      "description": "Kit de papiers et d'embellissements pour un mini-album, avec guide pas à pas en couleur en PDF. Contenu détaillé non lu.",
+      "url": "https://leskitsdekali.fr/kits-mini-album/8507-kit-mini-album-entre-terre-et-mer-.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Mini Album : Ici ou ailleurs",
+      "format": "kit",
+      "price": "40 €",
+      "bestseller": false,
+      "description": "Kit de papiers et d'embellissements pour un mini-album sur le thème du voyage, avec guide PDF. Contenu détaillé non lu.",
+      "url": "https://leskitsdekali.fr/accueil/8488-kit-mini-album-ici-ou-ailleurs-.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Mini Album : Carte Postale",
+      "format": "kit",
+      "price": "37 €",
+      "bestseller": false,
+      "description": "Kit de papiers et d'embellissements pour un mini-album, avec guide PDF. Contenu détaillé non lu.",
+      "url": "https://leskitsdekali.fr/accueil/8486-kit-mini-album-carte-postale-.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Mini Album : Venise",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Kit de papiers et d'embellissements pour un mini-album, avec guide PDF. Contenu détaillé non lu.",
+      "url": "https://leskitsdekali.fr/kits-mini-album/8485-kit-mini-album-venise.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Mini Album : Souvenirs vintage",
+      "format": "kit",
+      "price": "29,76 € (au lieu de 32 €)",
+      "bestseller": false,
+      "description": "Kit de papiers et d'embellissements pour un mini-album au style vintage, avec guide PDF. Contenu détaillé non lu.",
+      "url": "https://leskitsdekali.fr/accueil/8466-kit-mini-album-souvenirs-vintage.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Crop : Cozy Moment",
+      "format": "kit",
+      "price": "32 € (au lieu de 40 €)",
+      "bestseller": false,
+      "description": "Kit lié aux crops (journées de scrapbooking en groupe). Contenu détaillé non lu.",
+      "url": "https://leskitsdekali.fr/accueil/8404-kit-crop-cozy-moment-.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Tutoriel _ Destination nature",
+      "format": "pdf",
+      "price": "10 € HT",
+      "bestseller": false,
+      "description": "Tutoriel PDF de 26 pages, sans matériel, envoyé par e-mail sous 24 h, avec une vidéo YouTube associée.",
+      "url": "https://leskitsdekali.fr/atelier-en-ligne-tutos/8562-tutoriel-destination-nature.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Boutique en ligne française de scrapbooking tenue par Aurélie Bertazzon (Kali) à Soisy-Bouy, en Seine-et-Marne. Elle vend des kits de mini-albums avec tutoriel PDF, des tutoriels seuls et toute la petite fourniture de scrap, mais pas de broderie.",
+  "history": "Les kits de Kali est l'entreprise individuelle d'Aurélie Bertazzon, immatriculée en juin 2013 à Soisy-Bouy (Seine-et-Marne), avec un début d'activité déclaré en septembre 2014. Le code d'activité enregistré est celui de la création artistique (90.03A).\n\nKali se présente comme animatrice d'ateliers et créatrice de kits créatifs mini-album. En 2017, un blog de scrapbooking montre déjà des kits numérotés (kit 27, kit 28) et une équipe de créatrices (design team) qu'elle renouvelle régulièrement.\n\nAujourd'hui, la boutique PrestaShop propose des kits mini-album composés de papiers imprimés et unis et d'embellissements, livrés avec un guide pas à pas en PDF, ainsi que des tutoriels seuls, des abonnements aux kits, des crops et des ateliers. Elle revend aussi tampons, dies, papiers, encres et quincaillerie de grandes marques du scrap.",
+  "positioning": "Spécialiste du mini-album de scrapbooking, avec des thèmes famille, voyage, vintage et saisonniers. Son point fort est l'accompagnement : chaque kit a son tutoriel PDF et souvent une vidéo YouTube, et elle anime une communauté (design team, crops, programme de fidélité de 5 %, livraison gratuite dès 49 €). Ce n'est pas une concurrente directe de Faïença : elle ne vend ni broderie ni fils, et ne la croise que sur le terrain plus large des kits créatifs avec tutoriel. Site uniquement en français, visibilité modeste.",
+  "website": "https://leskitsdekali.fr/",
+  "instagram": "https://www.instagram.com/leskitsdekali/",
+  "etsy": "",
+  "photoUrl": "https://leskitsdekali.fr/img/favicon.ico?1748099791",
+  "timeline": [
+    {
+      "date": "2013-06",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle d'Aurélie Bertazzon à Soisy-Bouy"
+    },
+    {
+      "date": "2014-09",
+      "kind": "vie",
+      "label": "Début d'activité déclaré"
+    },
+    {
+      "date": "2017-04",
+      "kind": "residence",
+      "label": "Renouvellement de la design team, kits numérotés autour du 28e"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Les kits de Kali, accueil",
+      "url": "https://leskitsdekali.fr/"
+    },
+    {
+      "label": "Les kits de Kali, catégorie Kits mini album",
+      "url": "https://leskitsdekali.fr/31-kits-mini-album"
+    },
+    {
+      "label": "Les kits de Kali, fiche Kit Mini Album Family Portraits",
+      "url": "https://leskitsdekali.fr/accueil/8550-kit-mini-album-family-portraits.html"
+    },
+    {
+      "label": "Les kits de Kali, Tutoriel Destination nature",
+      "url": "https://leskitsdekali.fr/atelier-en-ligne-tutos/8562-tutoriel-destination-nature.html"
+    },
+    {
+      "label": "Les kits de Kali, mentions légales",
+      "url": "https://leskitsdekali.fr/content/2-mentions-legales"
+    },
+    {
+      "label": "API Recherche d'entreprises (data.gouv.fr), SIREN 793421454",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=793421454"
+    },
+    {
+      "label": "Le Scrap de Sophie (Canalblog), articles sur Les kits de Kali, 2017",
+      "url": "https://monscrapsophie.canalblog.com/tag/les%20kits%20de%20kali/"
+    },
+    {
+      "label": "Instagram @leskitsdekali",
+      "url": "https://www.instagram.com/leskitsdekali/"
+    }
+  ],
+  "researchNotes": "Attention : malgré l'indice de départ, Les kits de Kali ne vend pas de broderie. C'est une boutique de scrapbooking (kits mini-album, papiers, tampons, dies), d'où threads et fabrics vides. A garder ou retirer de la page Concurrentes selon l'intérêt. Entreprise individuelle (nature juridique 1000), non employeuse, sans comptes publiés : aucun chiffre d'affaires disponible. Les mentions légales parlent de « la société » et d'une « gérante » sans raison sociale, mais le registre indique une entreprise individuelle au nom d'Aurélie Bertazzon. Date de création 2013-06-01 au registre, début d'activité 2014-09-22. Abonnés Instagram non lus directement (page bloquée) ; un résumé de moteur de recherche donnait environ 1 674 abonnés, non confirmé. Abonnés YouTube et Facebook non lus. Aucune boutique Etsy trouvée. Meilleures ventes non identifiables sur le site, donc aucun produit marqué bestseller. La page Abonnements aux kits renvoie une erreur 404 et la page Ateliers / Salons est vide en octobre 2026. Un ancien nom « Le scrap de Kali » (adresse lescrapdekali@gmail.com) est possible mais non vérifié."
+}

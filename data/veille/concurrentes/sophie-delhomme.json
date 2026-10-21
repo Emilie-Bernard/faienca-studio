@@ -1,0 +1,201 @@
+{
+  "name": "Sophie Delhomme",
+  "country": "France",
+  "city": "Villeneuve-sur-Vère",
+  "region": "Occitanie",
+  "foundedDate": "2018-01-08",
+  "closedDate": "",
+  "founders": [
+    "Sophie Delhomme"
+  ],
+  "legalName": "Sophie Delhomme (enseigne Alvéocréa)",
+  "legalForm": "EI",
+  "registrationId": "331742916",
+  "offers": [
+    "Kits de broderie",
+    "Kits de boutis",
+    "Tissus pré-imprimés",
+    "Mercerie"
+  ],
+  "styles": [
+    "Nature",
+    "Floral",
+    "Animaux",
+    "Oiseaux",
+    "Arbres",
+    "Féminin",
+    "Couleurs vives"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Boutis",
+    "Broderie sur support hydrosoluble"
+  ],
+  "threads": [
+    "DMC"
+  ],
+  "fabrics": [
+    "Coton",
+    "Métis (coton et lin)",
+    "Batiste de coton"
+  ],
+  "salesChannels": [
+    "Site Alvéocréa (CMonSite)",
+    "Salons spécialisés"
+  ],
+  "priceRange": "Kits de broderie de 24 à 65 €, kits de boutis de 35 à 44 €, pré-imprimés boutis de 19 à 79 €, supports CUSTOMOD à 12,50 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Brassée de fleurs sauvages",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit de broderie traditionnelle, dessin d'environ 15 cm sur tissu blanc coton ou métis de 22 x 35 cm pré-imprimé à l'encre effaçable. Fils DMC, carte des couleurs, aiguille Bohin, fiche technique des points et visuel. Niveau débutant à expérimenté.",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-brassee-de-fleurs-sauvages-f827746.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mésange bleue",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit de broderie traditionnelle, dessin de 15 cm de diamètre sur tissu blanc coton ou métis de 22 x 35 cm pré-imprimé à l'encre effaçable. Fils montés sur un tri-fils (marque non précisée), aiguille Bohin, ouate, fiche technique et visuel. Niveau débutant ++.",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-mesange-bleue-f1663928.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "L'arbre aux papillons",
+      "format": "kit",
+      "price": "55 €",
+      "bestseller": false,
+      "description": "Kit de broderie traditionnelle créé avec Tatiana et Marie, dessin d'environ 32 x 32 cm sur tissu blanc coton ou métis de 40 x 40 cm pré-imprimé. Fils sur tri-fils, aiguille Bohin, fiche technique et visuel. Tambour non fourni. Existe aussi en version coussin à 65 €.",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-l-arbre-aux-papillons-f1617103.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Minou grand chat",
+      "format": "kit",
+      "price": "38 €",
+      "bestseller": false,
+      "description": "Kit de broderie traditionnelle, dessin de 21 x 20 cm sur coton 140 g crème aux tons bruns de 40 x 40 cm pré-imprimé à l'encre effaçable. Tous les fils, aiguille Bohin, fiche technique et photo. Niveau débutant +. Le tissu pré-imprimé seul est vendu 28 €.",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-minou-grand-chat-f1320736.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Rêve de chat",
+      "format": "kit",
+      "price": "à partir de 35 €",
+      "bestseller": false,
+      "description": "Kit de boutis : deux batistes de coton (une pré-imprimée, une vierge), fil en canettes, écheveau de laine à mécher, aiguilles n°10 et n°20, pique olive, tambour époxy blanc de 17 cm, notice et fiche technique. Quatre versions (tout couleur, tout blanc, mixte ou kit simple).",
+      "url": "https://www.alveocrea.com/kit-de-boutis-reve-de-chat-f774151.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Marie Antoinette",
+      "format": "autre",
+      "price": "79 €",
+      "bestseller": false,
+      "description": "Pré-imprimé de boutis de 56 x 56 cm : deux batistes de coton blanc, une imprimée à l'encre effaçable et une vierge, avec notice et vidéos. Molleton à commander à part pour les versions piqué de Marseille ou piqué cordé.",
+      "url": "https://www.alveocrea.com/boutis-marie-antoinette-56-x-56-cm-f774174.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Lady en voiture",
+      "format": "kit",
+      "price": "38 €",
+      "bestseller": false,
+      "description": "Kit complet de broderie traditionnelle de la série des Milady, niveau débutant +. Contenu détaillé non relevé.",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-lady-en-voiture-f1742866.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Amel Héron des ajoncs",
+      "format": "kit",
+      "price": "à partir de 36 €",
+      "bestseller": false,
+      "description": "Kit complet de broderie traditionnelle, au choix sur métis blanc ou métis naturel. Niveau débutant ++. Contenu détaillé non relevé.",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-amel-heron-des-ajoncs-f1742863.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Créatrice tarnaise de kits de broderie traditionnelle et de boutis made in France, inspirés de la nature, qu'elle imprime elle-même et vend sur Alvéocréa, la boutique qu'elle anime et qui édite aussi d'autres créateurs.",
+  "history": "Sophie Delhomme est venue tardivement à la broderie et au boutis, « sans doute sous l'influence de sa grand-mère, tradition familiale oblige », selon sa présentation sur Alvéocréa. Ses modèles sont féminins, tournés vers la nature, avec des couleurs vives.\n\nElle exerce en entreprise individuelle à Villeneuve-sur-Vère, dans le Tarn. L'établissement qui porte l'enseigne Alvéocréa a été créé le 8 janvier 2018, avec une activité de vente à distance (code NAF 47.91B).\n\nAlvéocréa, ou Alvéo, se présente comme une « ruche de créateurs » et comme l'éditeur de leurs modèles, vendus en kits complets ou en tissus pré-imprimés à l'encre effaçable. L'impression se fait sur place sur un traceur Rolland. La boutique publie les créations de Sophie Delhomme et d'autres créateurs : Hubert Valeri, Michèle Charvet, Nicolas Jover, Dimitri Vontzos, Florence Pacaud, Marie Suarez, le duo Marine Mazoue et Emilien Macquigneau, et le fonds Boutis Provence de Francine Born.\n\nEn 2022, elle a exposé avec Alvéocréa et Boutis Passion au salon Créations autour du Fil à Moncoutant (Deux-Sèvres). Son catalogue compte aujourd'hui plus de cinquante kits de broderie, dont plusieurs séries (arbres des saisons, Milady, chats), une vingtaine de kits et pré-imprimés de boutis et des supports hydrosolubles CUSTOMOD.",
+  "positioning": "Broderie traditionnelle et boutis à la française, très loin du style minimaliste d'Instagram : motifs figuratifs (oiseaux, chats, arbres, fleurs, dames élégantes), couleurs vives, points variés détaillés sur une fiche technique. Fabrication maison dans le Tarn, livraison en 48 h, kits à prix moyens (24 à 38 € pour la plupart). Forces : un catalogue très large et une vraie compétence en boutis provençal. Points faibles visibles : site CMonSite daté, aucune mise en avant des meilleures ventes, pas d'avis clients affichés, tambour non inclus dans les kits de broderie, présence en ligne discrète et uniquement en français.",
+  "website": "https://www.alveocrea.com/sophie-delhomme-m10889.html",
+  "instagram": "https://www.instagram.com/s_delh/",
+  "etsy": "",
+  "photoUrl": "https://www.alveocrea.com/upload/favicon/134665.jpg?1792593445",
+  "timeline": [
+    {
+      "date": "2018-01-08",
+      "kind": "vie",
+      "label": "Création de l'établissement à l'enseigne Alvéocréa à Villeneuve-sur-Vère (Tarn)"
+    },
+    {
+      "date": "2021-11-22",
+      "kind": "vie",
+      "label": "Début d'activité enregistré pour l'établissement Alvéocréa"
+    },
+    {
+      "date": "2022-09",
+      "kind": "exposition",
+      "label": "Salon Créations autour du Fil à Moncoutant avec Alvéocréa et Boutis Passion"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Alvéocréa, page créatrice Sophie Delhomme",
+      "url": "https://www.alveocrea.com/sophie-delhomme-m10889.html"
+    },
+    {
+      "label": "Alvéocréa, page Broderie",
+      "url": "https://www.alveocrea.com/broderie-b117029.html"
+    },
+    {
+      "label": "Alvéocréa, accueil et présentation",
+      "url": "https://www.alveocrea.com/"
+    },
+    {
+      "label": "Alvéocréa, mentions légales",
+      "url": "https://www.alveocrea.com/mentions_legales.html"
+    },
+    {
+      "label": "Kit Brassée de fleurs sauvages",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-brassee-de-fleurs-sauvages-f827746.html"
+    },
+    {
+      "label": "Kit Mésange bleue",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-mesange-bleue-f1663928.html"
+    },
+    {
+      "label": "Kit L'arbre aux papillons",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-l-arbre-aux-papillons-f1617103.html"
+    },
+    {
+      "label": "Kit Minou grand chat",
+      "url": "https://www.alveocrea.com/kit-de-broderie-traditionnelle-minou-grand-chat-f1320736.html"
+    },
+    {
+      "label": "Kit de boutis Rêve de chat",
+      "url": "https://www.alveocrea.com/kit-de-boutis-reve-de-chat-f774151.html"
+    },
+    {
+      "label": "Boutis Marie Antoinette",
+      "url": "https://www.alveocrea.com/boutis-marie-antoinette-56-x-56-cm-f774174.html"
+    },
+    {
+      "label": "API Recherche d'entreprises (SIREN 331742916)",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=331742916"
+    },
+    {
+      "label": "Créations autour du Fil, Boutis Passion, Alvéocréa, Sophie Delhomme (2022)",
+      "url": "https://creationsautourdufil.fr/2022/08/boutis-passion-alveocrea-sophie-delhomme.html"
+    }
+  ],
+  "researchNotes": "Pas de site personnel distinct : la marque vit sur alveocrea.com, dont Sophie Delhomme semble être l'éditrice (adresse « Sophie Delhomme ALVEOCREA, 28 route de Noailles, Villeneuve-sur-Vère » dans les mentions légales, enseigne ALVEOCREA rattachée à son SIREN). La page dite revendeur est donc sa propre boutique. Statut : entreprise individuelle (nature juridique 1000), dirigeante née en 1965, non employeuse, TVA FR30331742916. L'unité légale porte une date de création au 5 février 1985, sans doute une activité antérieure sans lien établi avec la broderie ; l'établissement Alvéocréa date du 8 janvier 2018 et son début d'activité du 22 novembre 2021. La vraie date de lancement des kits reste à confirmer. Entreprise individuelle : aucun compte publié, chiffre d'affaires inconnu. Pappers a renvoyé une erreur 403. Fils : DMC n'est cité que sur la fiche Brassée de fleurs sauvages, les autres fiches ne nomment pas la marque. La collaboration avec Tatiana et Marie (L'arbre aux papillons) n'est pas détaillée. Le lien avec Boutis Passion et Boutis Provence n'est pas éclairci. Aucune boutique Etsy trouvée. Instagram @s_delh relié depuis le site, nombre d'abonnés non lisible le 2026-10-21 ; deux pages Facebook liées (ALVEO et un profil), abonnés non relevés. Le site n'affiche ni meilleures ventes ni avis : les produits suivent l'ordre de la boutique, avec en tête le kit cité dans l'indice, et aucun n'est marqué best-seller. Aucune presse ni interview trouvée."
+}

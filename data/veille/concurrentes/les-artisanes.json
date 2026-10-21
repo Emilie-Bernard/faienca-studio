@@ -1,0 +1,266 @@
+{
+  "name": "Les Artisanes",
+  "country": "France",
+  "city": "Lille",
+  "region": "Hauts-de-France",
+  "foundedDate": "2018-05-02",
+  "closedDate": "",
+  "founders": [
+    "Maï-Linh Le Xuan"
+  ],
+  "legalName": "Les Artisanes",
+  "legalForm": "SARL",
+  "registrationId": "839354198",
+  "offers": [
+    "Box",
+    "Kits de broderie",
+    "Ateliers",
+    "Cours",
+    "Stages enfants",
+    "Mercerie",
+    "Privatisation et événements",
+    "Carte cadeau"
+  ],
+  "styles": [
+    "Botanique",
+    "Illustré",
+    "Déco DIY",
+    "Débutant"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Punch needle",
+    "Tissage",
+    "Canevas",
+    "Broderie perlée",
+    "Macramé",
+    "Crochet",
+    "Céramique",
+    "Feutrage à l'aiguille"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Toile de coton",
+    "Coton épais",
+    "Papier de coton"
+  ],
+  "salesChannels": [
+    "Site en propre (PrestaShop)",
+    "Atelier-boutique à Lille",
+    "Abonnement mensuel (Box Créative)"
+  ],
+  "priceRange": "Kits de broderie de 14,90 à 24,90 €, Box Créative 39,90 € à l'unité ou de 38,50 à 41,90 € par mois en abonnement, ateliers de 35 à 70 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "",
+      "revenue": null,
+      "netIncome": null,
+      "employees": "1 à 2",
+      "source": "Societe.com, comptes déposés avec clause de confidentialité"
+    }
+  ],
+  "products": [
+    {
+      "title": "La Box Créative (abonnement mensuel)",
+      "format": "box",
+      "price": "41,90 € par mois",
+      "bestseller": true,
+      "description": "Une box DIY par mois, livrée en France métropolitaine, port inclus. Elle contient le matériel pour un objet déco, un tutoriel papier pas à pas et un QR code vers une vidéo. Formules avec engagement 3 mois (39,90 €), 6 mois (38,50 €) ou forfaits de 119 € et 229 €. Techniques variées : broderie, macramé, jesmonite, tissage, crochet, bijoux.",
+      "url": "https://lesartisanes.fr/content/23-l-offre",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Box Créative n°7 : la broderie",
+      "format": "box",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "2 motifs exclusifs dessinés par Caro Tricote, 2 toiles de coton, fils DMC, tambour DMC, aiguille à broder, marqueur de report, tutoriel papier et vidéo.",
+      "url": "https://lesartisanes.fr/1350-la-box-creative-n7-la-broderie.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Box n°25 : broderies, le mimosa",
+      "format": "box",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "Toile de coton et papiers de coton texturé, fils mouliné spécial DMC, motifs mimosa à reporter, tambour DMC 15,5 cm, aiguille DMC, stylo Frixion Pilot, tutoriel papier et vidéo.",
+      "url": "https://lesartisanes.fr/1583-la-box-n25-broderies-le-mimosa.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Box n°29 : les pochettes brodées et perlées",
+      "format": "box",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "3 pochettes en coton épais de 12 x 8,5 cm, fils à broder DMC en plusieurs coloris, perles tubes, aiguille, motifs, stylo Frixion, tutoriel papier et vidéo.",
+      "url": "https://lesartisanes.fr/1626-la-box-n29-les-pochettes-brodees-et-perlees.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Box Créative n°1 : tableau textile",
+      "format": "box",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "Toile montée sur châssis en bois, fils de textures et couleurs variées, punch needle fine, aiguille à laine, stylo marqueur, tutoriel papier et vidéo. Initiation à la broderie, au punch needle et au tissage.",
+      "url": "https://lesartisanes.fr/1313-la-box-creative-n1-tableau-textile.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie « A Paris »",
+      "format": "kit",
+      "price": "24,90 €",
+      "bestseller": false,
+      "description": "Illustration de Paris détaillée, motif au format A4 à reporter par transparence sur toile de coton unie. Fils inclus (marque non précisée), aiguille à broder, tutoriel papier et vidéo. Tambour non fourni. Niveau débutant.",
+      "url": "https://lesartisanes.fr/1426-kit-broderie-paris.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie « Fleurs » x Caro Tricote",
+      "format": "kit",
+      "price": "14,90 €",
+      "bestseller": false,
+      "description": "Illustration florale dessinée par Caro Tricote, motif à taille réelle sur toile de coton unie légèrement transparente. Fils inclus (marque non précisée), aiguille à broder, tutoriel papier et vidéo. Tambour non fourni. Niveau débutant.",
+      "url": "https://lesartisanes.fr/1421-kit-broderie-fleurs-x-caro-tricote.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie « Coeur et Fleurs » x Caro Tricote",
+      "format": "kit",
+      "price": "14,90 €",
+      "bestseller": false,
+      "description": "Motif dessiné par Caro Tricote, de la même série que le kit Fleurs : toile de coton, fils, aiguille, tutoriel et vidéo. Tambour non fourni.",
+      "url": "https://lesartisanes.fr/1420-kit-broderie-coeur-et-fleurs-x-caro-tricote.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie « Le Chapeau » x Caro Tricote",
+      "format": "kit",
+      "price": "14,90 €",
+      "bestseller": false,
+      "description": "Motif dessiné par Caro Tricote, de la même série que le kit Fleurs : toile de coton, fils, aiguille, tutoriel et vidéo. Tambour non fourni.",
+      "url": "https://lesartisanes.fr/1422-kit-broderie-le-chapeau-x-caro-tricote.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Tambour à broder DMC 15,5 cm",
+      "format": "autre",
+      "price": "8,90 €",
+      "bestseller": false,
+      "description": "Tambour DMC vendu à part, utile car les kits de broderie ne le fournissent pas. Existe aussi en 7,5 cm (3,90 €).",
+      "url": "https://lesartisanes.fr/104-materiel-de-broderie",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Atelier-boutique DIY lillois créé en 2018, qui vend une Box Créative mensuelle multi-techniques et quelques kits de broderie, dont une série dessinée par Caro Tricote. La broderie n'est qu'une technique parmi beaucoup d'autres.",
+  "history": "Les Artisanes est une société lilloise immatriculée le 2 mai 2018 au RCS de Lille, avec un capital de 7 000 €. Elle est dirigée par Maï-Linh Le Xuan, inscrite au registre sous le prénom Emilie. Margot Lamarche a été directrice générale de mai 2018 à octobre 2019.\n\nL'entreprise s'est d'abord fait connaître par son atelier-boutique du 72 boulevard Jean-Baptiste Lebas : ateliers DIY pour adultes, ateliers en duo parent-enfant, cours au trimestre, stages enfants, privatisations (EVJF, anniversaires, événements d'entreprise) et interventions hors les murs dans des écoles, résidences seniors et centres culturels. Un coin boutique vend du matériel et des marques choisies.\n\nDébut 2024, l'atelier lance la Box Créative, un abonnement mensuel envoyé en France métropolitaine. La box n°1 (tableau textile) ouvre la série, la n°2 date de février 2024. En novembre 2026, la série en est à la box n°35 (création de bijoux). Plusieurs box portent sur la broderie, dont la n°7 dessinée par Caro Tricote, la n°25 (mimosa) et la n°29 (pochettes brodées et perlées).\n\nÀ côté des box, la boutique en ligne propose quatre kits de broderie, dont trois en collaboration avec Caro Tricote, et du petit matériel Bohin et DMC. En décembre 2025, la dirigeante passe de présidente à gérante, ce qui correspond au statut de SARL affiché dans les mentions légales.",
+  "positioning": "Les Artisanes vend avant tout une expérience créative variée plutôt qu'une spécialité broderie : chaque mois une technique différente, pensée pour des débutantes, avec tutoriel papier et vidéo. Les kits de broderie sont bon marché (14,90 €) mais simples : pas de tambour, marque des fils non indiquée. Les box brodées utilisent du DMC mouliné et des tambours DMC. Sa force tient à l'ancrage local à Lille (ateliers, privatisations) et à l'abonnement qui fidélise. Points faibles visibles : petite gamme de broderie, peu de présence en ligne hors du site, livraison limitée à la France métropolitaine, aucune presse trouvée.",
+  "website": "https://lesartisanes.fr",
+  "instagram": "https://www.instagram.com/lesartisaneslille/",
+  "etsy": "",
+  "photoUrl": "https://lesartisanes.fr/img/favicon.ico?1700217474",
+  "timeline": [
+    {
+      "date": "2018-05-02",
+      "kind": "vie",
+      "label": "Immatriculation de la société Les Artisanes au RCS de Lille"
+    },
+    {
+      "date": "2019-10-15",
+      "kind": "vie",
+      "label": "Départ de Margot Lamarche, directrice générale depuis 2018"
+    },
+    {
+      "date": "2024-01",
+      "kind": "oeuvre",
+      "label": "Lancement de la Box Créative avec la box n°1, tableau textile"
+    },
+    {
+      "date": "2024-07",
+      "kind": "residence",
+      "label": "Box n°7 consacrée à la broderie, motifs dessinés par Caro Tricote"
+    },
+    {
+      "date": "2025-12-05",
+      "kind": "vie",
+      "label": "La dirigeante devient gérante, la société affiche le statut de SARL"
+    },
+    {
+      "date": "2026-11",
+      "kind": "oeuvre",
+      "label": "Box n°35, création de bijoux"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Les Artisanes, accueil",
+      "url": "https://lesartisanes.fr"
+    },
+    {
+      "label": "Les Artisanes, qui sommes-nous",
+      "url": "https://lesartisanes.fr/content/6-qui-sommes-nous"
+    },
+    {
+      "label": "Les Artisanes, mentions légales",
+      "url": "https://lesartisanes.fr/content/13-mentions-legales"
+    },
+    {
+      "label": "Les Artisanes, l'offre Box Créative",
+      "url": "https://lesartisanes.fr/content/23-l-offre"
+    },
+    {
+      "label": "Les Artisanes, toutes les Box Créatives",
+      "url": "https://lesartisanes.fr/content/40-toutes-les-box-creatives"
+    },
+    {
+      "label": "Les Artisanes, box de novembre 2026",
+      "url": "https://lesartisanes.fr/content/107-la-box-creative-novembre-2026"
+    },
+    {
+      "label": "Les Artisanes, kits de broderie",
+      "url": "https://lesartisanes.fr/103-kits-de-broderie"
+    },
+    {
+      "label": "Les Artisanes, matériel de broderie",
+      "url": "https://lesartisanes.fr/104-materiel-de-broderie"
+    },
+    {
+      "label": "Kit broderie Fleurs x Caro Tricote",
+      "url": "https://lesartisanes.fr/1421-kit-broderie-fleurs-x-caro-tricote.html"
+    },
+    {
+      "label": "Kit broderie A Paris",
+      "url": "https://lesartisanes.fr/1426-kit-broderie-paris.html"
+    },
+    {
+      "label": "Box n°7 la broderie",
+      "url": "https://lesartisanes.fr/1350-la-box-creative-n7-la-broderie.html"
+    },
+    {
+      "label": "Box n°25 broderies le mimosa",
+      "url": "https://lesartisanes.fr/1583-la-box-n25-broderies-le-mimosa.html"
+    },
+    {
+      "label": "Box n°29 pochettes brodées et perlées",
+      "url": "https://lesartisanes.fr/1626-la-box-n29-les-pochettes-brodees-et-perlees.html"
+    },
+    {
+      "label": "Box n°1 tableau textile",
+      "url": "https://lesartisanes.fr/1313-la-box-creative-n1-tableau-textile.html"
+    },
+    {
+      "label": "Societe.com, Les Artisanes",
+      "url": "https://www.societe.com/societe/les-artisanes-839354198.html"
+    },
+    {
+      "label": "Citizen Kid, Les Artisanes Lille",
+      "url": "https://www.citizenkid.com/sortie/les-artisanes-lille-a1060191"
+    }
+  ],
+  "researchNotes": "Chiffre d'affaires non publié : selon Societe.com, les comptes sont déposés avec une clause de confidentialité. Effectif indiqué 1 à 2 salariés (Societe.com), sans année. Pappers a renvoyé une erreur 403 et l'annuaire des entreprises n'a pas affiché de données, donc forme juridique et dirigeants à recouper. Les mentions légales disent SARL et nomment Maï-Linh LE XUAN directrice de publication. Societe.com nomme Emilie LE XUAN présidente de 2018 à décembre 2025 puis gérante, ce qui laisse penser à une SAS transformée en SARL en décembre 2025 et à une même personne sous deux prénoms : non confirmé. Margot Lamarche, directrice générale 2018-2019, était peut-être cofondatrice : non confirmé. Le lancement de la box en janvier 2024 est déduit de la box n°2 datée de février 2024. La page de l'offre dit que l'atelier propose des ateliers « depuis 6 ans ». Aucun best-seller signalé sur le site : la box est seulement mise en avant comme produit phare. Prix d'une box du mois à l'unité non affiché, 39,90 € relevé sur les box passées. Marque des fils des kits à 14,90 et 24,90 € non indiquée. Pas de boutique Etsy trouvée. Abonnés Instagram (@lesartisaneslille) et Facebook non lisibles sans connexion, aucune presse trouvée. Page de la box n°14 introuvable (erreur 404). Quelques box passées sont encore en vente sur le site."
+}

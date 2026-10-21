@@ -1,0 +1,240 @@
+{
+  "name": "Vintage Odyssey",
+  "country": "Espagne",
+  "city": "Barcelone",
+  "region": "Catalogne",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Alberto Juárez"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Patrons PDF",
+    "Cours en ligne",
+    "Ateliers",
+    "Mercerie"
+  ],
+  "styles": [
+    "Vintage",
+    "Scrapbooking",
+    "Saisonnier"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur papier et albums",
+    "Scrapbooking",
+    "Reliure",
+    "Cartonnage",
+    "Mixed media"
+  ],
+  "threads": [
+    "DMC"
+  ],
+  "fabrics": [],
+  "salesChannels": [
+    "Site en propre",
+    "Cours en ligne sur le site",
+    "Ateliers en présentiel",
+    "Boutiques revendeuses (collections de papiers)"
+  ],
+  "priceRange": "Patrons PDF de broderie de 1,49 à 4 €, tutoriel vidéo avec patron à 9,90 €, ateliers d'une journée à 90 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/vintage.odyssey/"
+    },
+    {
+      "platform": "YouTube",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.youtube.com/albertojuarezvintageodyssey"
+    },
+    {
+      "platform": "Facebook",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.facebook.com/VintageOdyssey"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Album bordado",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF à télécharger et imprimer pour broder un album, avec la liste des couleurs de fils DMC utilisées. Usage personnel uniquement.",
+      "url": "https://www.vintageodyssey.net/product-page/album-bordado",
+      "imageUrl": ""
+    },
+    {
+      "title": "Traveler's Notebook",
+      "format": "cours",
+      "price": "9,90 €",
+      "bestseller": false,
+      "description": "Tutoriel vidéo qui explique la broderie et le patron d'un carnet de voyage, avec le patron PDF imprimable. Les accès sont envoyés par e-mail.",
+      "url": "https://www.vintageodyssey.net/product-page/traveler-s-notebook",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón tazas bordadas",
+      "format": "pdf",
+      "price": "1,49 € (au lieu de 1,99 €)",
+      "bestseller": false,
+      "description": "Patron PDF de broderie de tasses, en promotion. Pas de description détaillée sur la page.",
+      "url": "https://www.vintageodyssey.net/product-page/patron-tazas-bordadas",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón Happy Easter",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie sur le thème de Pâques.",
+      "url": "https://www.vintageodyssey.net/product-page/patrón-happy-easter",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón calendario Enero",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie pour le mois de janvier d'un calendrier.",
+      "url": "https://www.vintageodyssey.net/product-page/patrón-calendario-enero",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón calendario Febrero",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie pour le mois de février d'un calendrier.",
+      "url": "https://www.vintageodyssey.net/product-page/patrón-calendario-febrero",
+      "imageUrl": ""
+    },
+    {
+      "title": "Diario de Navidad",
+      "format": "pdf",
+      "price": "4 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie pour un journal de Noël.",
+      "url": "https://www.vintageodyssey.net/product-page/diario-de-navidad",
+      "imageUrl": ""
+    },
+    {
+      "title": "Summer Album",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie pour un album d'été.",
+      "url": "https://www.vintageodyssey.net/product-page/summer-album",
+      "imageUrl": ""
+    },
+    {
+      "title": "Lomo Fairy Tales",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie pour le dos d'un album sur le thème des contes.",
+      "url": "https://www.vintageodyssey.net/product-page/lomo-fairy-tales",
+      "imageUrl": ""
+    },
+    {
+      "title": "Abeja reina",
+      "format": "pdf",
+      "price": "2,99 €",
+      "bestseller": false,
+      "description": "Patron PDF de broderie d'une reine des abeilles.",
+      "url": "https://www.vintageodyssey.net/product-page/abeja-reina",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Vintage Odyssey est la marque d'Alberto Juárez, créateur espagnol de scrapbooking, reliure et cartonnage au style vintage. La broderie y est une activité secondaire : une dizaine de patrons PDF à petit prix, pensés pour décorer albums et carnets.",
+  "history": "Vintage Odyssey est la marque d'Alberto Juárez, un créateur espagnol connu dans le monde du scrapbooking. Sa page « ¿Quién soy? » indique environ 15 ans d'activité et plus de 10 ans de cours en ligne. Les conditions d'utilisation du site placent le domicile du titulaire à Barcelone.\n\nEn 2012, il rejoint l'équipe de création de la marque américaine Graphic 45. Il devient ensuite formateur pour Prima Marketing et donne des ateliers à l'international, notamment au salon ArtVenture (CHA). Il a publié le numéro monographique Papel Creativo 4 chez De la Vega ediciones.\n\nIl a lancé ses propres lignes de produits : les collections de papiers Paper Adventure, les tampons Printing House, et des produits de reliure et cartonnage sous le nom Cartonart (colles, toiles de reliure, papiers). Ces produits passent par des revendeurs comme Craftelier, qui liste des collections comme Magical, Speakeasy, My Pretty Little House ou Traveler. En 2023, Milbby a sorti une collection commune avec Elena Roche et Quim Díaz.\n\nAujourd'hui, l'activité repose surtout sur les cours en ligne (monographies et académies annuelles Cartonart, ScrapHouse, ArtVenture 2026), une tournée d'ateliers d'une journée en Espagne (Granollers, Málaga, Gran Canaria, Novelda, Madrid en 2026, à 90 € avec kit de matériel) et une communauté réservée aux élèves, VO Friends. La broderie a une rubrique dédiée sur le site, avec une dizaine de patrons PDF qui s'appliquent aux albums et carnets.",
+  "positioning": "Vintage Odyssey n'est pas une marque de broderie au sens strict : la broderie sert d'ornement à des albums, carnets et calendriers de scrapbooking. Le style est vintage, avec un travail des couleurs souvent cité. La clientèle est hispanophone, déjà adepte du scrapbooking et du cartonnage, fidélisée par les cours en ligne et les ateliers. Points forts : notoriété personnelle du créateur, communauté d'élèves, prix très bas des patrons (moins de 3 € pour la plupart). Points faibles visibles : pas de kit de broderie, fiches produit presque vides (pas de taille, de tissu ni de contenu détaillé), site uniquement en espagnol.",
+  "website": "https://www.vintageodyssey.net/bordados",
+  "instagram": "https://www.instagram.com/vintage.odyssey/",
+  "etsy": "",
+  "photoUrl": "https://static.wixstatic.com/media/641401_04425f9a073e4d3c9eaf5bb8899b5562%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/641401_04425f9a073e4d3c9eaf5bb8899b5562%7Emv2.jpg",
+  "timeline": [
+    {
+      "date": "2012",
+      "kind": "residence",
+      "label": "Entrée dans l'équipe de création de Graphic 45"
+    },
+    {
+      "date": "2023",
+      "kind": "residence",
+      "label": "Collection commune chez Milbby avec Elena Roche et Quim Díaz"
+    },
+    {
+      "date": "2026",
+      "kind": "exposition",
+      "label": "Tournée d'ateliers d'une journée : Granollers, Málaga, Gran Canaria, Novelda, Madrid"
+    },
+    {
+      "date": "2026",
+      "kind": "oeuvre",
+      "label": "Académie en ligne ArtVenture 2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Vintage Odyssey, page Bordados (patrons de broderie)",
+      "url": "https://www.vintageodyssey.net/bordados"
+    },
+    {
+      "label": "Vintage Odyssey, fiche Album bordado",
+      "url": "https://www.vintageodyssey.net/product-page/album-bordado"
+    },
+    {
+      "label": "Vintage Odyssey, fiche Traveler's Notebook",
+      "url": "https://www.vintageodyssey.net/product-page/traveler-s-notebook"
+    },
+    {
+      "label": "Vintage Odyssey, fiche Patrón tazas bordadas",
+      "url": "https://www.vintageodyssey.net/product-page/patron-tazas-bordadas"
+    },
+    {
+      "label": "Vintage Odyssey, accueil",
+      "url": "https://www.vintageodyssey.net/"
+    },
+    {
+      "label": "Vintage Odyssey, ¿Quién soy?",
+      "url": "https://www.vintageodyssey.net/conoceme"
+    },
+    {
+      "label": "Vintage Odyssey, conditions d'utilisation",
+      "url": "https://www.vintageodyssey.net/condiciones"
+    },
+    {
+      "label": "Vintage Odyssey, Mis Productos",
+      "url": "https://www.vintageodyssey.net/productos"
+    },
+    {
+      "label": "Vintage Odyssey, Talleres 2026",
+      "url": "https://www.vintageodyssey.net/talleres2026"
+    },
+    {
+      "label": "Vintage Odyssey, Cursos online",
+      "url": "https://www.vintageodyssey.net/online-class"
+    },
+    {
+      "label": "Milbby, Colección Alberto Juárez, Elena Roche y Quim Díaz",
+      "url": "https://www.milbby.com/collections/coleccion-alberto-juarez-2023"
+    },
+    {
+      "label": "Craftelier, marque Alberto Juárez",
+      "url": "https://craftelier.com/en-gb/brands/alberto-juarez.html"
+    }
+  ],
+  "researchNotes": "Date de création non confirmée : la page « ¿Quién soy? » (non datée, en cours de mise à jour) parle d'environ 15 ans d'activité ; un entretien de 2015 sur le blog de Paula Pascual (https://www.blog.paulapascual.com/2015/08/craft-conversations-alberto-juarez.html, non lisible pendant la recherche) dirait qu'il a commencé en 2011 ; Milbby parlait en 2023 de près de 10 ans. Structure juridique introuvable : les conditions du site ne donnent ni raison sociale ni NIF, seulement le domicile à Barcelone ; aucune société trouvée dans les annuaires espagnols, probablement un autónomo, donc pas de comptes publiés. Les produits Paper Adventure et Cartonart sont vendus en gros via ventas@basiccrea.eu, ce qui suggère un partenariat avec Basic Crea, à vérifier. La page « ¿Quién soy? » cite un rôle de designer pour Sizzix, non confirmé par une source externe. Audiences Instagram et YouTube non lisibles (pages bloquées) ; le site parle seulement de milliers d'abonnés et de centaines de vidéos. Aucune boutique Etsy trouvée. Aucun produit marqué best-seller, donc l'ordre des produits ne reflète pas les ventes. Le site semble tourner sur Wix (URL /product-page/), non confirmé. L'atelier dit de Barcelone a lieu en réalité à Granollers (K makü)."
+}

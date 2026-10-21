@@ -1,0 +1,139 @@
+{
+  "name": "Au Fil de l'Ange",
+  "country": "France",
+  "city": "La Châtre",
+  "region": "Centre-Val de Loire",
+  "foundedDate": "1990",
+  "closedDate": "",
+  "founders": ["Martine Léonard"],
+  "legalName": "Martine Leonard (Atelier Au Fil de l'Ange)",
+  "legalForm": "EI",
+  "registrationId": "330498999",
+  "offers": ["Kits de broderie", "Grilles papier", "Livres", "Linge de maison", "Ateliers"],
+  "styles": ["Romantique", "Bucolique", "Rétro", "Années 50", "Floral", "Monogrammes", "Animaux de la ferme"],
+  "techniques": ["Point de croix", "Broderie traditionnelle", "Broderie sur toile imprimée", "Tricot"],
+  "threads": ["DMC Mouliné"],
+  "fabrics": ["Lin 12 fils bis", "Lin 12 fils crème", "Toile de coton blanc"],
+  "salesChannels": ["Merceries et boutiques revendeuses", "Sites marchands revendeurs (CreaMagic)", "Salons de loisirs créatifs", "Vente directe à l'atelier"],
+  "priceRange": "Kits de 34 à 58 € en prix public chez les revendeurs (soldés dès 20 €), livre à 19,50 €",
+  "languages": ["Français"],
+  "audience": [
+    { "platform": "Instagram", "followers": null, "date": "2026-10", "url": "https://www.instagram.com/martine.leonard0647/" }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Au jardin, les roses (ML2-05)",
+      "format": "kit",
+      "price": "37,79 €",
+      "bestseller": false,
+      "description": "Kit point de croix compté : lin 12 fils bis 28 x 28 cm, fils mouliné, grille et notice, aiguille. Motif 17 x 17 cm. Encore disponible chez CreaMagic, soldé à 26,45 €.",
+      "url": "https://www.creamagic.com/broderie-fleurs-et-plantes/kit-point-croix-au-fil-de-l-ange-au-jardin-les-roses-ml2-05-442856gd.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Coeur pour cérémonie (ML2-17)",
+      "format": "kit",
+      "price": "34,28 €",
+      "bestseller": false,
+      "description": "Kit de broderie sur lin 12 fils imprimé 35 x 35 cm, fils mouliné, notice, aiguille. Motif 23,5 x 22 cm, pour mariage ou baptême. Encore disponible chez CreaMagic, soldé à 24 €.",
+      "url": "https://www.creamagic.com/broderie-traditionnelle/kit-de-broderie-imprimee-au-fil-de-l-ange-coeur-pour-ceremonie-ml2-17-375724cy.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Portrait d'ânes (ML4-04)",
+      "format": "kit",
+      "price": "58,07 €",
+      "bestseller": false,
+      "description": "Grand kit point de croix : lin 12 fils bis 46 x 30 cm, fils mouliné, notice, aiguille. Motif 34,5 x 20 cm. Plus disponible chez le revendeur.",
+      "url": "https://www.creamagic.com/broderie-animaux-de-ferme/kit-point-croix-portrait-d-anes-au-fil-de-l-ange-ml4-04-358764pg.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Les ânes cousins Martin (ML2-03)",
+      "format": "kit",
+      "price": "37,79 €",
+      "bestseller": false,
+      "description": "Kit point de croix : lin 12 fils bis 35 x 21 cm, fils DMC, grille, aiguille. Motif 24 x 11 cm. Plus disponible chez le revendeur.",
+      "url": "https://www.creamagic.com/broderie-animaux-de-ferme/kit-broderie-d-au-fil-de-l-ange-au-point-de-croix-les-anes-cousins-martin-ml2-03-053084dp.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Roses Valentine (ML2-19)",
+      "format": "kit",
+      "price": "36,31 €",
+      "bestseller": false,
+      "description": "Kit point de croix compté : lin 12 fils 28 x 30 cm, grille et notice, aiguille, fils mouliné coton. Motif 17,5 x 19,5 cm. Plus disponible chez le revendeur.",
+      "url": "https://www.creamagic.com/broderie-fleurs-et-plantes/broderie-au-point-de-croix-point-compte-roses-valentine-au-fil-de-l-ange-ml2-19-6027177m.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "L'âne Cadichon (ML2-25)",
+      "format": "kit",
+      "price": "34,57 €",
+      "bestseller": false,
+      "description": "Kit point de croix : lin 12 fils bis 28 x 25 cm, fils mouliné, notice, aiguille. Motif 17 x 15 cm. Plus disponible chez le revendeur.",
+      "url": "https://www.creamagic.com/broderie-abecedaire/kit-a-broder-point-de-croix-l-ane-cadichon-au-fil-de-l-ange-ml2-25-2733577y.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Duo d'hirondelles, lettre (ML2-28)",
+      "format": "kit",
+      "price": "37,79 €",
+      "bestseller": false,
+      "description": "Kit de broderie sur lin 12 fils crème imprimé 30 x 23 cm, fils mouliné, aiguille, notice. Motif 19,5 x 12 cm. Plus disponible chez le revendeur.",
+      "url": "https://www.creamagic.com/broderie-traditionnelle/broderie-imprimee-en-kit-duo-d-hirondelles-lettre-d-au-fil-de-l-ange-ml2-28-2708052z.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Coeur mimosa (ML-B3)",
+      "format": "kit",
+      "price": "40,80 €",
+      "bestseller": false,
+      "description": "Kit de broderie traditionnelle : toile de coton blanc 30 x 25 cm, coupon de lin et abécédaire en plus, fils, aiguille, fiche technique. Motif 14 x 12,5 cm. Plus disponible chez le revendeur.",
+      "url": "https://www.creamagic.com/broderie-traditionnelle/broderie-traditionnelle-au-fil-de-l-ange-coeur-mimosa-ml-b3-015513cj.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Le point de croix au fil de l'ange",
+      "format": "livre",
+      "price": "19,50 €",
+      "bestseller": false,
+      "description": "Livre de Martine Léonard, Éditions de Saxe, 2013, 80 pages, 21 x 26 cm. 17 modèles au point de croix (fleurs, fruits, monogrammes, oiseaux) avec leurs grilles. Indiqué indisponible chez Eyrolles.",
+      "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/le-point-de-croix-au-fil-de-l-ange-9782756510316/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Petite maison berrichonne de Martine Léonard, qui crée depuis 1990 des grilles et des kits de point de croix et de broderie traditionnelle sur lin, au style romantique et rétro. Elle vend surtout par les merceries, les sites revendeurs et les salons.",
+  "history": "Martine Léonard brode depuis l'âge de 6 ans. Ses grands-parents tenaient un magasin de tissus et de linge, et la famille lui a transmis le goût du beau linge. Le nom de la marque vient d'une broche en ivoire de Dieppe en forme de tête d'ange, que son père lui a offerte pour ses 10 ans et qui avait appartenu à son arrière-grand-mère Noémie.\n\nSelon l'association ABCD'Air, elle diffuse ses créations sous la marque Atelier Au Fil de l'Ange depuis 1990. Elle a d'abord consacré plusieurs années au point de croix, autour de l'univers de l'enfance des années 50, puis est revenue à la broderie traditionnelle naïve inspirée du patrimoine du Berry. L'entreprise individuelle à son nom, immatriculée à La Châtre (Indre), date de 1984 au répertoire SIRENE.\n\nEn 2006, elle travaille à plein temps sur la marque. Elle propose des sacs en lin, des coussins, du linge de maison et des tableaux, surtout au point de croix, et lance des toiles peintes à broder. Ses kits sont vendus par des merceries et des boutiques, sur des salons du fil et par des sites partenaires. En 2008, elle présente des toiles de lin imprimées de fleurs et une série d'ânes autour du « grand noir du Berry ».\n\nEn 2013, les Éditions de Saxe publient « Le point de croix au fil de l'ange », qui réunit 17 modèles pour ses 20 ans de broderie. Elle continue d'exposer sur les salons : la Fête du Fil de Bouliac en 2018, avec des grilles, des transferts et des patrons de tricot pour poupées, puis le salon ABCD'Air de Noizay en 2022 et 2024, avec des modèles autour des baigneurs et des poupées.\n\nAujourd'hui, l'atelier est actif au répertoire des entreprises. Plusieurs kits restent en vente chez CreaMagic, mais la plupart des références y sont épuisées. Son ancien blog canalblog n'existe plus, et elle n'a pas de boutique en ligne propre repérée.",
+  "positioning": "Univers romantique, bucolique et rétro : fleurs, roses, monogrammes, hirondelles, ânes du Berry, enfance des années 50, poupées et baigneurs. Les kits sont faits pour une clientèle de brodeuses confirmées au point compté sur lin 12 fils, avec des fils DMC. Ses forces sont une identité de créatrice ancienne et reconnue dans les salons, un livre publié et un vrai ancrage régional. Ses faiblesses visibles sont l'absence de site marchand en propre et de patrons PDF, une présence en ligne très discrète et un catalogue revendeur en grande partie épuisé.",
+  "website": "",
+  "instagram": "https://www.instagram.com/martine.leonard0647/",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    { "date": "1984-08-30", "kind": "vie", "label": "Immatriculation de l'entreprise individuelle de Martine Léonard à La Châtre" },
+    { "date": "1990", "kind": "vie", "label": "Début de la marque Atelier Au Fil de l'Ange" },
+    { "date": "2006-09", "kind": "prix", "label": "Entretien publié par le salon Créations autour du Fil de Moncoutant" },
+    { "date": "2008", "kind": "oeuvre", "label": "Toiles de lin imprimées de fleurs et série d'ânes du « grand noir du Berry »" },
+    { "date": "2013-01", "kind": "oeuvre", "label": "Livre « Le point de croix au fil de l'ange » aux Éditions de Saxe" },
+    { "date": "2018-01", "kind": "exposition", "label": "Fête du Fil de Bouliac, près de Bordeaux" },
+    { "date": "2022-04", "kind": "exposition", "label": "Salon ABCD'Air de Noizay, en Touraine" },
+    { "date": "2024-04", "kind": "exposition", "label": "Salon ABCD'Air de Noizay, en Touraine" }
+  ],
+  "sources": [
+    { "label": "Annuaire des entreprises (API recherche-entreprises), Martine Leonard (Atelier Au Fil de l'Ange)", "url": "https://recherche-entreprises.api.gouv.fr/search?q=au%20fil%20de%20l%27ange&per_page=25" },
+    { "label": "Créations autour du Fil, entretien avec Martine Léonard (2006)", "url": "https://creationsautourdufil.fr/article-3972631.html" },
+    { "label": "ABCD'Air, salon des créateurs 2008", "url": "http://abcdair.canalblog.com/archives/2008/08/22/10552053.html" },
+    { "label": "ABCD'Air, salon 2022", "url": "http://abcdair.canalblog.com/archives/2022/04/04/39419081.html" },
+    { "label": "ABCD'Air, exposants 2024", "url": "http://abcdair.canalblog.com/2024/04/nos-exposants-serie-1.html" },
+    { "label": "Les Ateliers du Fil, exposant 2/16 (2017)", "url": "https://ateliersdufil33.canalblog.com/archives/2017/10/17/35776682.html" },
+    { "label": "CreaMagic, marque Au Fil de l'Ange", "url": "https://www.creamagic.com/m/au-fil-de-l-ange-m463/broderie-point-de-croix-c10941.html" },
+    { "label": "CreaMagic, Au jardin les roses", "url": "https://www.creamagic.com/broderie-fleurs-et-plantes/kit-point-croix-au-fil-de-l-ange-au-jardin-les-roses-ml2-05-442856gd.html" },
+    { "label": "CreaMagic, Les ânes cousins Martin", "url": "https://www.creamagic.com/broderie-animaux-de-ferme/kit-broderie-d-au-fil-de-l-ange-au-point-de-croix-les-anes-cousins-martin-ml2-03-053084dp.html" },
+    { "label": "Eyrolles, Le point de croix au fil de l'ange", "url": "https://www.eyrolles.com/Arts-Loisirs/Livre/le-point-de-croix-au-fil-de-l-ange-9782756510316/" },
+    { "label": "Broderie Passion, livre de Martine Léonard", "url": "https://www.broderiepassion.com/livres-et-brochures/livre-divers/livres-point-de-croix/5966-livre-le-point-de-croix-au-fil-de-l-ange.html" },
+    { "label": "Instagram @martine.leonard0647", "url": "https://www.instagram.com/martine.leonard0647/" }
+  ],
+  "researchNotes": "Lu le 2026-10-21. La page revendeur fournie (broderie-ici-ailleurs.com, kit Planche botanique de violettes) affiche aujourd'hui une publicité de casino : le domaine semble détourné, le kit des violettes n'a donc pas pu être lu ni retrouvé ailleurs. Date de création : ABCD'Air écrit « depuis 1990 », l'indice donné et le Petit Futé (page bloquée en 403, lue seulement via un extrait de recherche) parlent de 1991, l'entretien de 2006 dit « plus de 12 ans » et le livre de 2013 fête « 20 ans de broderie ». Le répertoire SIRENE date l'entreprise individuelle (SIREN 330498999, APE 47.99B, active) du 1984-08-30, sans doute une activité antérieure à la marque. Une entreprise individuelle ne publie pas de comptes : aucun chiffre d'affaires ni effectif. Pas de site marchand en propre trouvé ; l'ancien blog lefildelange.canalblog.com renvoie une erreur 410. Un compte Facebook « atelieraufildelange » est cité par ABCD'Air mais n'a pas été lu. Le nombre d'abonnés Instagram n'est pas lisible sans connexion. Pas de boutique Etsy trouvée. Aucune information de meilleures ventes : les produits sont listés sans ordre de popularité. Seul le kit Les ânes cousins Martin précise des fils DMC ; les autres disent seulement « mouliné ». Les prix sont ceux des revendeurs, pas des prix fixés par la créatrice. Ne pas confondre avec d'autres entreprises homonymes (Au Fil de l'Ange à Plouzané, Fil d'Ange, De Fil et d'Ange)."
+}

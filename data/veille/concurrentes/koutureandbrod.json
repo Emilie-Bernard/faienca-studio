@@ -1,0 +1,31 @@
+{
+  "name": "Koutureandbrod",
+  "country": "France", "city": "Mâcon", "region": "Bourgogne-Franche-Comté",
+  "foundedDate": "", "closedDate": "",
+  "founders": [],
+  "legalName": "", "legalForm": "", "registrationId": "",
+  "offers": ["Kits de broderie", "Accessoires et cadeaux de naissance brodés"],
+  "styles": ["Personnalisé", "Naissance et enfance"],
+  "techniques": ["Broderie traditionnelle"],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": ["Etsy"],
+  "priceRange": "",
+  "languages": ["Français"],
+  "audience": [{ "platform": "Etsy", "followers": null, "date": "2026-10", "url": "https://www.etsy.com/fr/shop/Koutureandbrod" }],
+  "financials": [],
+  "products": [],
+  "summary": "Petite boutique Etsy de Mâcon qui crée des accessoires et cadeaux de naissance brodés et des kits de broderie personnalisés. En octobre 2026, la boutique affiche 57 ventes, une note de 5 sur 5 sur 11 avis, et elle est en pause.",
+  "history": "Koutureandbrod est une boutique Etsy installée à Mâcon, en Bourgogne-Franche-Comté. Elle se présente comme une boutique de création d'accessoires et de cadeaux de naissance.\n\nLes avis des clientes parlent de kits de broderie personnalisés un par un après de nombreux échanges avec la créatrice, et de bavoirs personnalisés. Elles saluent la personnalisation, l'emballage et la réactivité.\n\nEn octobre 2026, la boutique compte 57 ventes et 11 avis, tous à 5 sur 5. Un message de la créatrice indique qu'elle fait une courte pause. Aucun site, réseau social ni entreprise immatriculée n'a été trouvé à ce nom.",
+  "positioning": "Très petite activité artisanale centrée sur le cadeau de naissance personnalisé (prénom, bavoir, kit adapté à chaque commande). Sa force visible est le sur-mesure et le soin du contact client. Ses limites visibles : volume très faible, une seule vitrine (Etsy), pas de présence trouvée sur les réseaux sociaux, et une boutique en pause au moment de la lecture.",
+  "website": "", "instagram": "", "etsy": "https://www.etsy.com/fr/shop/Koutureandbrod", "photoUrl": "",
+  "timeline": [
+    { "date": "2026-10", "kind": "vie", "label": "Boutique Etsy en pause, 57 ventes et 11 avis à 5 sur 5" }
+  ],
+  "sources": [
+    { "label": "Boutique Etsy Koutureandbrod (France)", "url": "https://www.etsy.com/fr/shop/Koutureandbrod" },
+    { "label": "Boutique Etsy Koutureandbrod (Australie)", "url": "https://www.etsy.com/au/shop/Koutureandbrod" },
+    { "label": "Recherche entreprises (annuaire-entreprises.data.gouv.fr), recherche « kouture »", "url": "https://recherche-entreprises.api.gouv.fr/search?q=kouture" }
+  ],
+  "researchNotes": "Etsy renvoie une erreur 403 aux lectures automatiques : la boutique n'a pas pu être lue directement. Les informations (Mâcon, accessoires et cadeaux de naissance, 57 ventes, note 5,0 sur 11 avis, boutique en courte pause, avis sur des kits personnalisés et 3 bavoirs personnalisés) viennent des extraits de la page Etsy indexés par le moteur de recherche, lus le 2026-10-21. A vérifier à la main dans un navigateur : date d'ouverture sur Etsy, prénom de la créatrice, liste des annonces, prix, contenu des kits (marque des fils, tissu, tambour), meilleures ventes. Aucun produit n'est listé faute d'avoir pu lire une annonce. Le nombre d'abonnés de la boutique Etsy n'est pas connu (null). Aucun site, Instagram, Pinterest ni Facebook trouvé. Aucune entreprise nommée Koutureandbrod ou Kouture and Brod dans l'annuaire des entreprises, et aucune entreprise « Kouture » en Saône-et-Loire : probablement une micro-entreprise sous le nom de la créatrice, donc sans comptes publiés. Aucun article de presse trouvé."
+}

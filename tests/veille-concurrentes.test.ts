@@ -56,6 +56,18 @@ describe('Concurrentes', () => {
         await expect(lola.query(anyApi.veilleConcurrentes.list)).rejects.toThrow('propriétaire');
     });
 
+    it('ne garde pas le numéro d’identité d’une personne, mais garde celui d’une société', () => {
+        const autonoma = normalizeCompetitor({ name: 'Autónoma', registrationId: '24269752Z', researchNotes: 'NIF ES02282105E sur l’aviso legal ; NIE X1234567L.' }, id);
+        expect(autonoma.registrationId).toBe('');
+        expect(autonoma.researchNotes).not.toMatch(/24269752Z|02282105E|X1234567L/);
+        expect(normalizeCompetitor({ name: 'Société', registrationId: 'B21755749' }, id).registrationId).toBe('B21755749');
+        expect(normalizeCompetitor({ name: 'SAS', registrationId: '890386915' }, id).registrationId).toBe('890386915');
+        // Une fiche importée avant le filtre est nettoyée au prochain import.
+        const old = { ...emptyCompetitor('Ancienne'), registrationId: '71646297D', researchNotes: 'NIF 71646297D.' };
+        const merged = mergeCompetitor(old, normalizeCompetitor({ name: 'Ancienne' }, id));
+        expect([merged.registrationId, merged.researchNotes]).toEqual(['', 'NIF [numéro personnel retiré].']);
+    });
+
     it('classe une concurrente, garde le classement après une modification ou un import, et le retire', async () => {
         const { t, atelier, lola } = await setup();
         const id = await atelier.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('Marque Proche') });

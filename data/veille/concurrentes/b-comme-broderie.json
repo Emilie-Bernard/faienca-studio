@@ -1,0 +1,41 @@
+{
+  "name": "B comme Broderie",
+  "country": "France", "city": "Frontenay-Rohan-Rohan", "region": "Nouvelle-Aquitaine",
+  "foundedDate": "2023-07-20", "closedDate": "2025-12-31",
+  "founders": ["Marie Dapp"],
+  "legalName": "Marie Dapp (B comme Broderie)", "legalForm": "Entreprise individuelle", "registrationId": "977937028",
+  "offers": ["Kits de broderie", "Accessoires"],
+  "styles": ["Moderne", "Botanique", "Noël"],
+  "techniques": ["Broderie traditionnelle"],
+  "threads": ["DMC (échevettes)"],
+  "fabrics": ["Coton"],
+  "salesChannels": ["Site en propre (Wix)"],
+  "priceRange": "Kits de 35 à 40 €, porte-aiguilles magnétiques à 12 €",
+  "languages": ["Français"],
+  "audience": [],
+  "financials": [],
+  "products": [
+    { "title": "Kit d'initiation à la broderie", "format": "kit", "price": "40 €", "bestseller": false, "description": "Kit tout-en-un pour débuter. Le visuel du site montre un cercle à broder, une aiguille, des échevettes DMC, un tissu en coton et un feutre à encre hydrosoluble.", "url": "https://www.bcommebroderiekit.fr/product-page/kit-d-initiation", "imageUrl": "" },
+    { "title": "Kit Bouquet simple", "format": "kit", "price": "35 €", "bestseller": false, "description": "Kit tout-en-un, bouquet de fleurs coloré présenté comme simple à broder.", "url": "https://www.bcommebroderiekit.fr/product-page/kit-bouquet-simple", "imageUrl": "" },
+    { "title": "Kit Fleurs simples", "format": "kit", "price": "35 €", "bestseller": false, "description": "Kit tout-en-un à motif floral.", "url": "https://www.bcommebroderiekit.fr/product-page/kit-fleurs-simples", "imageUrl": "" },
+    { "title": "Kit Sweet home", "format": "kit", "price": "35 €", "bestseller": false, "description": "Kit tout-en-un sur le thème de la maison.", "url": "https://www.bcommebroderiekit.fr/product-page/kit-sweet-home", "imageUrl": "" },
+    { "title": "Kit Joyeux Noël", "format": "kit", "price": "35 €", "bestseller": false, "description": "Kit tout-en-un de la collection Noël.", "url": "https://www.bcommebroderiekit.fr/product-page/kit-joyeux-noël", "imageUrl": "" },
+    { "title": "Porte-aiguille magnétique Renard", "format": "autre", "price": "12 €", "bestseller": false, "description": "Needle minder magnétique à motif renard.", "url": "https://www.bcommebroderiekit.fr/product-page/porte-aiguille-magnétique-renard", "imageUrl": "" },
+    { "title": "Porte-aiguille magnétique Fleur bleue", "format": "autre", "price": "12 €", "bestseller": false, "description": "Needle minder magnétique à motif fleur bleue.", "url": "https://www.bcommebroderiekit.fr/product-page/porte-aiguille-magnétique-fleur-bleue", "imageUrl": "" }
+  ],
+  "summary": "Petite marque française de kits de broderie moderne tout-en-un et d'accessoires, tenue par Marie Dapp en entreprise individuelle dans les Deux-Sèvres de 2023 à fin 2025.",
+  "history": "B comme Broderie est le nom commercial de l'entreprise individuelle de Marie Dapp, immatriculée le 20 juillet 2023 à Frontenay-Rohan-Rohan, dans les Deux-Sèvres. L'activité déclarée est la vente à distance.\n\nLa marque vendait sur son propre site, bcommebroderiekit.fr, construit sur Wix. Le site se présentait comme « la boutique en ligne qui propose des kits de broderie moderne tout-en-un », avec l'idée qu'il n'y a plus de matériel à rassembler : tout est prêt pour commencer.\n\nEn janvier 2024, la boutique proposait cinq kits (dont une collection Noël) et deux porte-aiguilles magnétiques. Le compte Instagram @bcommebroderiekit accompagnait la boutique avec des tutoriels pour apprendre à broder.\n\nL'entreprise est fermée au répertoire Sirene depuis le 31 décembre 2025, et le nom de domaine du site ne répond plus en octobre 2026.",
+  "positioning": "Kits pour débutantes, au ton simple et rassurant (« la broderie facile », « à offrir ou à s'offrir »), avec des motifs floraux et de maison dans un style moderne. Le prix de 35 à 40 € la place au niveau des marques établies, sans leur notoriété. Points faibles visibles : un catalogue très court, aucune vente sur Etsy ou en boutique repérée, une audience Instagram très faible, et une activité aujourd'hui arrêtée.",
+  "website": "https://www.bcommebroderiekit.fr", "instagram": "https://www.instagram.com/bcommebroderiekit/", "etsy": "", "photoUrl": "",
+  "timeline": [
+    { "date": "2023-07-20", "kind": "vie", "label": "Immatriculation de l'entreprise individuelle de Marie Dapp, nom commercial B comme Broderie" },
+    { "date": "2024-01", "kind": "oeuvre", "label": "Le site propose cinq kits, dont le kit Joyeux Noël, et deux porte-aiguilles magnétiques" },
+    { "date": "2025-12-31", "kind": "vie", "label": "Fermeture de l'entreprise au répertoire Sirene" }
+  ],
+  "sources": [
+    { "label": "Site bcommebroderiekit.fr, archive Wayback Machine du 19 janvier 2024", "url": "https://web.archive.org/web/20240119130348/https://www.bcommebroderiekit.fr/" },
+    { "label": "Annuaire des entreprises, SIREN 977937028", "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/977937028" },
+    { "label": "Instagram @bcommebroderiekit", "url": "https://www.instagram.com/bcommebroderiekit/" }
+  ],
+  "researchNotes": "Le site bcommebroderiekit.fr ne répond plus (domaine introuvable le 2026-10-21). Les produits et les prix viennent de la seule archive de la page d'accueil dans la Wayback Machine (19 janvier 2024). Les fiches produits ne sont pas archivées : la composition des kits (taille du tambour, nombre d'échevettes, référence exacte des fils DMC) n'est pas confirmée. La liste « cercle, aiguille, échevettes DMC, tissu coton, feutre hydrosoluble » vient du texte alternatif d'une image du site. Aucune meilleure vente n'est signalée sur le site. Un extrait de moteur de recherche donne les porte-aiguilles à 9,99 € (contre 12 € dans l'archive) : le prix a peut-être changé. Instagram n'a pas pu être lu (page fermée sans connexion) : un moteur de recherche indiquait environ 54 abonnés, à une date inconnue, donc ce chiffre n'est pas dans audience. Aucune boutique Etsy, aucune revendeuse, aucune presse ni interview trouvée. Entreprise individuelle (catégorie juridique 1000, NAF 47.91B) : aucun compte publié, donc aucun chiffre d'affaires. Le répertoire Sirene indique une date de début d'activité égale à la date de fermeture (31 décembre 2025), ce qui reflète sans doute une mise à jour de fermeture. Les images n'ont pas été renseignées, à la demande : des visuels des kits et le logo existaient sur static.wixstatic.com dans l'archive."
+}

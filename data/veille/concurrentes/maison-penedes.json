@@ -1,0 +1,280 @@
+{
+  "name": "Maison Penedès",
+  "country": "Espagne",
+  "city": "",
+  "region": "",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Ariadna Ferret"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de punch needle",
+    "Kits de rug hooking",
+    "Mercerie",
+    "Cours en ligne",
+    "Ateliers",
+    "Patrons PDF",
+    "Livres",
+    "Abonnement (Patreon)",
+    "Pièces textiles faites main"
+  ],
+  "styles": [
+    "Déco maison",
+    "Coloré",
+    "Saisonnier (Noël, Halloween, été)",
+    "Bien-être (mindwoolness)"
+  ],
+  "techniques": [
+    "Punch needle",
+    "Rug hooking",
+    "Tufting"
+  ],
+  "threads": [
+    "Laine mérinos espagnole 100 % (rug yarn, Castilla y León)",
+    "Cônes de laine 100 % mérinos"
+  ],
+  "fabrics": [
+    "Monk's cloth 100 % coton (fabriqué en Allemagne)",
+    "Toile de lin colorée (Floba)",
+    "Toile de rug hooking"
+  ],
+  "salesChannels": [
+    "Site en propre (WooCommerce)",
+    "Patreon"
+  ],
+  "priceRange": "Kits de 20 à 85 €, kits d'initiation à 35 €, Pack Deluxe de 125 à 245 €, ateliers vidéo à 10 €, patrons PDF de 3 à 5 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Pack ahorro aguja ajustable + tela Monks Cloth",
+      "format": "autre",
+      "price": "28 €",
+      "bestseller": true,
+      "description": "Aiguille punch needle réglable à 7 positions, au choix Fine (4 mm) ou Regular (5,5 mm), avec un carré de monk's cloth de 35 x 35 cm. La marque indique sur Instagram que l'aiguille Regular à manche basique est sa meilleure vente.",
+      "url": "https://maisonpenedes.es/product/pack-aguja-ajustable-monks-cloth/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack Deluxe: el más completo kit de Punch Needle",
+      "format": "kit",
+      "price": "125 à 245 €",
+      "bestseller": false,
+      "description": "Trois aiguilles (deux réglables à manche ergonomique, Regular et Fine, plus une aiguille à 3 têtes interchangeables), 0,5 m de monk's cloth 100 % coton (140 x 50 cm), 10 pelotes de 20 m de laine mérinos espagnole, accès au cours et à l'ebook « Aprende Punch Needle ». Gripper frame en option (25 x 25 cm ou 45 x 45 cm). Livraison offerte.",
+      "url": "https://maisonpenedes.es/product/pack-deluxe-completo-kit-de-punch-needle/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Punch Needle: mandalas para pintar con lanas",
+      "format": "kit",
+      "price": "30 à 45 €",
+      "bestseller": false,
+      "description": "Monk's cloth déjà tendu sur un cadre de 20 x 20 cm, 5 coloris de laine mérinos espagnole au choix parmi 29, PDF de 48 pages avec plus de 25 mandalas et deux tutoriels vidéo. Avec ou sans aiguille réglable. Mis en avant sur la page d'accueil.",
+      "url": "https://maisonpenedes.es/product/kit-de-punch-needle-mandalas-para-colorear/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Crea tu Kit de Iniciación al Punch Needle",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Kit d'initiation en six motifs (yin yang, champignon, eau, fraise, monstera...) : aiguille réglable Regular, coupon de monk's cloth, mini pelotes de laine 100 % mérinos espagnole, patron et explications pas à pas. Pas de cadre.",
+      "url": "https://maisonpenedes.es/product/kit-de-punch-needle-iniciacion-principiante/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Punch Needle: espejo donut",
+      "format": "kit",
+      "price": "30 à 45 €",
+      "bestseller": false,
+      "description": "Kit pour broder un miroir en forme de donut à l'aiguille magique, avec ou sans aiguille. Mis en avant sur la page d'accueil, avec son atelier vidéo vendu 10 €.",
+      "url": "https://maisonpenedes.es/product/kit-de-punch-needle-espejo-donut/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Iniciación al Punch Needle con aguja fina",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Kit d'initiation pour laine fine avec l'aiguille à 3 têtes interchangeables. Mis en avant sur la page d'accueil.",
+      "url": "https://maisonpenedes.es/product/kit-de-iniciacion-al-punch-needle-aguja-magica-fina-3-cabezales/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de iniciación al bordado punch needle en tote bag",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Kit pour broder un tote bag au punch needle, en plusieurs variantes. Mis en avant sur la page d'accueil.",
+      "url": "https://maisonpenedes.es/product/crea-tu-kit-de-iniciacion-tote-bag-bordado-punch-needle/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Punch Needle: bolso bandolera",
+      "format": "kit",
+      "price": "70 à 85 €",
+      "bestseller": false,
+      "description": "Kit pour réaliser un sac bandoulière en laine au punch needle, le plus cher des kits avec le tote bag en laine.",
+      "url": "https://maisonpenedes.es/product/kit-bolso-de-punch-needle-bandolera/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curso de Punch Needle",
+      "format": "cours",
+      "price": "9,98 € (au lieu de 20 €)",
+      "bestseller": false,
+      "description": "Cours en ligne en 10 chapitres avec ebook et 10 vidéos. Le site annonce plus de 1000 élèves.",
+      "url": "https://maisonpenedes.es/product/curso-de-punch-needle-maison-penedes/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Libro « Aprende Rug Hooking » de la Maison Penedès",
+      "format": "livre",
+      "price": "18,50 €",
+      "bestseller": false,
+      "description": "Livre papier en espagnol pour apprendre le rug hooking au crochet, pour débutantes comme pour brodeuses à l'aiguille magique. Livraison offerte.",
+      "url": "https://maisonpenedes.es/product/libro-aprende-rug-hooking-de-la-maison-penedes/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Boutique espagnole spécialisée dans le punch needle et le rug hooking, qui se présente comme « la casa del punch needle » : aiguilles, monk's cloth, laine mérinos espagnole, une trentaine de kits, des ateliers vidéo à 10 € et un club sur Patreon.",
+  "history": "Maison Penedès est le projet d'Ari, Ariadna Ferret selon la politique de confidentialité du site. Dans son blog, elle raconte avoir appris la couture, la broderie, le tricot et le crochet avec sa grand-mère, puis découvert le punch needle sur internet pendant sa grossesse, après s'être installée à Madrid. Le site ne donne pas d'année de création ; il parle seulement d'un projet né « hace ya algunos años ».\n\nLes plus anciennes traces publiques datent de 2019 et 2020 : images de produits mises en ligne dès février 2019, premiers articles de blog en janvier et février 2020. En 2020, une petite collaboration avec Zubi, la marque des sœurs Zubizarreta, donne des sacs brodés écoulés en 24 heures, repris par S Moda en octobre et par Vogue.es en décembre. S Moda la cite de nouveau dans son numéro de décembre 2020.\n\nLa marque passe ensuite à la télévision, dans l'émission Flash Moda de RTVE (juillet 2021), puis dans le magazine de La Vanguardia (novembre 2022). Elle élargit son offre au rug hooking, au tufting, aux ateliers vidéo, à un club Patreon avec un atelier par mois et à un livre papier « Aprende Rug Hooking ».\n\nAujourd'hui, la boutique vend des aiguilles fabriquées dans la péninsule Ibérique, du monk's cloth allemand, une laine mérinos espagnole de Castilla y León, une trentaine de kits saisonniers et des tableaux en laine faits main entre 205 et 290 €. Elle a aussi proposé des ateliers en présentiel, notamment à Gérone et Madrid, et annonce plus de 1000 élèves pour son cours en ligne.",
+  "positioning": "Spécialiste du punch needle et du rug hooking plutôt que de la broderie au fil mouliné : elle vend autant le matériel (aiguilles, toile, laine, cadres) que des kits déco (coussins, miroirs, sacs, tapis) et des contenus pédagogiques à petit prix. Son argument fort est l'origine des matières, avec une laine mérinos espagnole sans mulesing teinte en Espagne et des aiguilles ibériques en matériaux recyclés, et une image de référence en Espagne appuyée par la presse mode (Vogue, S Moda, RTVE). Ton personnel et chaleureux, très tourné vers le bien-être (« mindwoolness »). Points faibles visibles : site en espagnol seulement, pas de mentions légales complètes (ni raison sociale ni NIF), aucun avis client affiché et un blog peu actif depuis fin 2024.",
+  "website": "https://maisonpenedes.es",
+  "instagram": "https://www.instagram.com/maisonpenedes/",
+  "etsy": "",
+  "photoUrl": "https://maisonpenedes.es/wp-content/uploads/2025/10/cropped-Untitled-design-180x180.jpg",
+  "timeline": [
+    {
+      "date": "2019-02",
+      "kind": "vie",
+      "label": "Premières images de produits mises en ligne sur le site"
+    },
+    {
+      "date": "2020-01",
+      "kind": "vie",
+      "label": "Premiers articles du blog"
+    },
+    {
+      "date": "2020-07",
+      "kind": "oeuvre",
+      "label": "Pack Deluxe et kit mandalas (images datées de juillet 2020)"
+    },
+    {
+      "date": "2020-10",
+      "kind": "residence",
+      "label": "Collaboration avec la marque Zubi : sacs brodés épuisés en 24 heures, relayée par S Moda"
+    },
+    {
+      "date": "2020-12",
+      "kind": "prix",
+      "label": "Citée dans Vogue.es et dans le numéro de décembre de S Moda"
+    },
+    {
+      "date": "2021-07",
+      "kind": "prix",
+      "label": "Passage dans l'émission Flash Moda de RTVE"
+    },
+    {
+      "date": "2022-11",
+      "kind": "prix",
+      "label": "Citée dans le magazine de La Vanguardia"
+    },
+    {
+      "date": "2023-11",
+      "kind": "exposition",
+      "label": "Ateliers en présentiel annoncés à Gérone et Madrid"
+    },
+    {
+      "date": "2024-08",
+      "kind": "oeuvre",
+      "label": "Livre papier « Aprende Rug Hooking » et tableaux en laine faits main"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Maison Penedès, page d'accueil",
+      "url": "https://maisonpenedes.es"
+    },
+    {
+      "label": "Maison Penedès, boutique",
+      "url": "https://maisonpenedes.es/shop/"
+    },
+    {
+      "label": "Maison Penedès, à propos",
+      "url": "https://maisonpenedes.es/about/"
+    },
+    {
+      "label": "Maison Penedès, politique de confidentialité",
+      "url": "https://maisonpenedes.es/politica-privacidad/"
+    },
+    {
+      "label": "Catégorie kits de punch needle",
+      "url": "https://maisonpenedes.es/product-category/kit-punch-needle-rug-club-europe/packs-de-iniciacion-punch-needle/"
+    },
+    {
+      "label": "Catégorie aiguilles punch needle",
+      "url": "https://maisonpenedes.es/product-category/material-punch-needle-rug-hooking-europe/material-punch-needle/aguja-magica-punch-needle/"
+    },
+    {
+      "label": "Catégorie laine mérinos",
+      "url": "https://maisonpenedes.es/product-category/material-punch-needle-rug-hooking-europe/lana-punch-needle-tufting-merino/"
+    },
+    {
+      "label": "Pack Deluxe",
+      "url": "https://maisonpenedes.es/product/pack-deluxe-completo-kit-de-punch-needle/"
+    },
+    {
+      "label": "Kit mandalas",
+      "url": "https://maisonpenedes.es/product/kit-de-punch-needle-mandalas-para-colorear/"
+    },
+    {
+      "label": "Kit d'initiation",
+      "url": "https://maisonpenedes.es/product/kit-de-punch-needle-iniciacion-principiante/"
+    },
+    {
+      "label": "Pack aiguille + monk's cloth",
+      "url": "https://maisonpenedes.es/product/pack-aguja-ajustable-monks-cloth/"
+    },
+    {
+      "label": "Livre Aprende Rug Hooking",
+      "url": "https://maisonpenedes.es/product/libro-aprende-rug-hooking-de-la-maison-penedes/"
+    },
+    {
+      "label": "Ateliers de punch needle",
+      "url": "https://maisonpenedes.es/talleres-de-punch-needle/"
+    },
+    {
+      "label": "Blog, catégorie personnelle",
+      "url": "https://maisonpenedes.es/blog/category/blog/personal/"
+    },
+    {
+      "label": "Blog, comment j'ai commencé",
+      "url": "https://maisonpenedes.es/blog/2024/04/15/como-empece-a-bordar-con-la-aguja-magica/"
+    },
+    {
+      "label": "Collaboration Zubi dans Vogue.es",
+      "url": "https://maisonpenedes.es/el-bolso-de-maison-penedes-para-zubi-en-vogue-es/"
+    },
+    {
+      "label": "S Moda, décembre 2020",
+      "url": "https://maisonpenedes.es/maison-penedes-en-el-numero-de-diciembre-de-la-revista-s-moda/"
+    },
+    {
+      "label": "Flash Moda, RTVE",
+      "url": "https://maisonpenedes.es/el-punch-needle-de-la-maison-penedes-en-el-programa-flash-moda-de-rtve/"
+    },
+    {
+      "label": "Magazine de La Vanguardia",
+      "url": "https://maisonpenedes.es/el-magazine-de-la-vanguardia-se-hace-eco-de-los-beneficios-del-punch-needle/"
+    }
+  ],
+  "researchNotes": "Lu le 2026-10-21. Date de création non publiée : le site dit seulement « hace ya algunos años » ; les plus anciennes traces sont des images de février 2019 (dates des dossiers d'images) et la collaboration Zubi, commencée « environ un an » avant décembre 2020. Le nom complet Ariadna Ferret vient seulement de la clause de propriété intellectuelle de la politique de confidentialité (la page à propos signe « Ari ») ; aucune autre source ne le confirme. Aucune raison sociale, forme juridique ni NIF sur le site (pages aviso legal et condiciones de venta en 404) ; recherche web sans résultat, annuaires espagnols (infoempresa, einforma, librebor) à consulter directement. Il s'agit probablement d'une activité d'autónoma qui ne publie pas de comptes, à confirmer. Ville non confirmée : la fondatrice dit s'être installée à Madrid et a proposé des ateliers à Gérone et Madrid. Aucun chiffre d'affaires publié. Audiences non lues : Instagram, YouTube, TikTok, Pinterest et Patreon n'affichent pas leurs compteurs sans connexion. Pas de boutique Etsy trouvée (etsy.com/shop/MaisonPenedes renvoie 403) ; des noms de fichiers d'images « il_1140xN » laissent penser à une ancienne boutique Etsy, non vérifié. Meilleure vente : seule l'aiguille Regular à manche basique est citée comme la plus vendue (légende Instagram reprise sur le site) ; les kits suivants sont classés selon leur mise en avant sur la page d'accueil. Aucune marque de laine n'est nommée, seulement une laine 100 % mérinos espagnole de Castilla y León teinte en Espagne. Le kit d'initiation a deux descriptions un peu différentes sur sa page. Prix par variante non détaillés."
+}

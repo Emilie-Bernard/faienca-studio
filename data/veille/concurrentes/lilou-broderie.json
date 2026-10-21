@@ -1,0 +1,223 @@
+{
+  "name": "Lilou Broderie",
+  "country": "France",
+  "city": "Bascous",
+  "region": "Occitanie",
+  "foundedDate": "2020",
+  "closedDate": "",
+  "founders": [
+    "Nathalie Dejonghe"
+  ],
+  "legalName": "Nathalie Dejonghe",
+  "legalForm": "Entreprise individuelle",
+  "registrationId": "509937090",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Livres",
+    "Cours en ligne"
+  ],
+  "styles": [
+    "Moderne",
+    "Relief",
+    "Architecture",
+    "Floral",
+    "Monochrome"
+  ],
+  "techniques": [
+    "Broderie moderne",
+    "Broderie en relief (stumpwork)",
+    "Broderie traditionnelle",
+    "Point de croix",
+    "Broderie sur vêtement"
+  ],
+  "threads": [
+    "DMC"
+  ],
+  "fabrics": [
+    "Lin Zweigart Kingston",
+    "Toile Aida",
+    "Hydrosoluble autocollant"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress WooCommerce)"
+  ],
+  "priceRange": "Mini kits de 8,90 à 9,90 €, grilles PDF de point de croix à 5,95 €, livres de 15,90 à 19,90 €, plusieurs modèles et SAL gratuits",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit Broderie SAL fleur",
+      "format": "kit",
+      "price": "9,90 €",
+      "bestseller": true,
+      "description": "Seul produit mis en avant avec des avis (5/5 sur 2 avis). Toile Zweigart (lin Kingston), aiguilles, dessin à transférer au papier carbone et tous les fils. Marque des fils non précisée. Tutoriel dans le groupe Facebook SAL Lilou Broderie.",
+      "url": "https://lilou-broderie.fr/produit/kit-broderie-sal-fleur/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie sur vêtement",
+      "format": "kit",
+      "price": "8,90 €",
+      "bestseller": false,
+      "description": "Mini kit : motif imprimé sur hydrosoluble autocollant à poser sur le vêtement de son choix, à broder puis à dissoudre sous l'eau, avec une fiche technique des points. La page ne mentionne ni fils ni vêtement dans le kit.",
+      "url": "https://lilou-broderie.fr/produit/kit-broderie-sur-vetement/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livre Broder l'Architecture, Guide créatif",
+      "format": "livre",
+      "price": "15,90 €",
+      "bestseller": false,
+      "description": "Produit phare de la page d'accueil. Guide de 88 pages sur la broderie de façades : points simples, points d'accent, articles sur les tambours, les marques de fils, l'encadrement. Patrons en taille réelle détachables. Version papier 21 x 21 cm ou PDF.",
+      "url": "https://lilou-broderie.fr/produit/livre-broder-larchitecture-guide-creatif/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Livre de broderie relief PDF (Mes premiers pas en broderie relief)",
+      "format": "livre",
+      "price": "19,90 €",
+      "bestseller": false,
+      "description": "Livre numérique de broderie en relief pour débutantes : 15 points expliqués en photos, 5 techniques de base du stumpwork, 17 modèles en taille réelle (fleurs, papillons, tableaux modernes), un alphabet. Version papier de 136 pages également proposée.",
+      "url": "https://lilou-broderie.fr/produit/livre-de-broderie-relief-pdf/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Point de croix tour Eiffel",
+      "format": "pdf",
+      "price": "5,95 €",
+      "bestseller": false,
+      "description": "Grille monochrome en deux PDF (imprimable et compatible Pattern Keeper), un coloris DMC 310. Motif de 343 x 372 points, environ 48 x 52 cm sur Aida 7 points/cm.",
+      "url": "https://lilou-broderie.fr/produit/point-de-croix-tour-eiffel/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Point de croix léopard monochrome",
+      "format": "pdf",
+      "price": "5,95 €",
+      "bestseller": false,
+      "description": "Grille monochrome en deux PDF compatibles Pattern Keeper, coloris DMC 310 avec métrage. Motif de 343 x 254 points, environ 48 x 35 cm sur Aida 7 points/cm.",
+      "url": "https://lilou-broderie.fr/produit/point-de-croix-leopard-monochrome/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Sal Mystère Broderie (partie 2)",
+      "format": "pdf",
+      "price": "Gratuit",
+      "bestseller": false,
+      "description": "Broderie mystère en 4 étapes diffusée en PDF gratuits, avec calendrier de téléchargement et liste du matériel. Dimensions finales 36,5 x 46 cm. Avis datés de septembre 2024.",
+      "url": "https://lilou-broderie.fr/produit/sal-mystere-broderie-partie2/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Tutoriel broderie architecturale",
+      "format": "cours",
+      "price": "Gratuit",
+      "bestseller": false,
+      "description": "Tutoriel gratuit de broderie architecturale, noté 5/5 dans la boutique.",
+      "url": "https://lilou-broderie.fr/produit/tutoriel-broderie-architecturale/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Petite marque indépendante du Gers tenue par Nathalie Dejonghe, dite Lilou, qui vend des mini kits, des grilles PDF de point de croix et ses propres livres de broderie relief et architecturale, avec beaucoup de contenus gratuits.",
+  "history": "Lilou Broderie est la marque de Nathalie Dejonghe, installée à Bascous, dans le Gers. Enfant, elle admirait les ouvrages de sa grand-mère, qui tricotait, cousait, crochetait et brodait, et qui lui a transmis le goût des travaux d'aiguille.\n\nElle a d'abord beaucoup cousu et vendu ses créations couture pendant quelques années. La broderie était alors une activité annexe, jusqu'à ce qu'elle décide de proposer ses propres modèles de point de croix, puis de broderie moderne et en relief (stumpwork).\n\nLe site affiche un copyright à partir de 2020. Les premiers avis sur le kit SAL fleur datent de novembre 2021 et les images du kit sur vêtement de février 2022. Elle anime des SAL (broderies collectives à étapes) dans un groupe Facebook.\n\nAujourd'hui, la boutique compte une dizaine de pages de produits : grilles PDF de point de croix à petit prix, mini kits, deux livres maison (Broder l'Architecture et Mes premiers pas en broderie relief) et de nombreux modèles et tutoriels gratuits.",
+  "positioning": "Positionnement de créatrice pédagogue plutôt que de marque de kits : beaucoup de contenus gratuits (SAL, tutoriels, modèles), un blog et des livres maison sur des niches peu couvertes, la broderie relief et la broderie architecturale. Prix très bas (grilles à 5,95 €, mini kits sous 10 €). Le kit sur vêtement à motif hydrosoluble autocollant est une offre originale. Points faibles visibles : peu d'avis clients, contenu des kits peu détaillé (marque des fils non indiquée), site WordPress à l'allure artisanale, audience et ventes non affichées.",
+  "website": "https://lilou-broderie.fr",
+  "instagram": "https://www.instagram.com/lilou.broderie.fr/",
+  "etsy": "",
+  "photoUrl": "https://lilou-broderie.fr/wp-content/uploads/2022/03/remerciements-broderie_lwsoptimized.webp",
+  "timeline": [
+    {
+      "date": "2009-01-09",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle de Nathalie Dejonghe (SIREN 509937090), activité déclarée d'enseignement"
+    },
+    {
+      "date": "2020",
+      "kind": "vie",
+      "label": "Début du site lilou-broderie.fr (copyright 2020)"
+    },
+    {
+      "date": "2021-11",
+      "kind": "oeuvre",
+      "label": "Premiers avis sur le kit SAL fleur"
+    },
+    {
+      "date": "2022-02",
+      "kind": "oeuvre",
+      "label": "Kit broderie sur vêtement avec motif hydrosoluble autocollant"
+    },
+    {
+      "date": "2024-09",
+      "kind": "oeuvre",
+      "label": "SAL mystère gratuit en 4 étapes"
+    },
+    {
+      "date": "2026-05",
+      "kind": "oeuvre",
+      "label": "Série de grilles de point de croix monochromes (tour Eiffel, léopard, portraits)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Lilou Broderie, accueil",
+      "url": "https://lilou-broderie.fr"
+    },
+    {
+      "label": "Lilou Broderie, qui suis-je",
+      "url": "https://lilou-broderie.fr/qui-suis-je/"
+    },
+    {
+      "label": "Lilou Broderie, boutique",
+      "url": "https://lilou-broderie.fr/boutique/"
+    },
+    {
+      "label": "Lilou Broderie, conditions générales de vente",
+      "url": "https://lilou-broderie.fr/conditions-generales/"
+    },
+    {
+      "label": "Lilou Broderie, aide et FAQ",
+      "url": "https://lilou-broderie.fr/aide-faq/"
+    },
+    {
+      "label": "Kit broderie sur vêtement",
+      "url": "https://lilou-broderie.fr/produit/kit-broderie-sur-vetement/"
+    },
+    {
+      "label": "Kit Broderie SAL fleur",
+      "url": "https://lilou-broderie.fr/produit/kit-broderie-sal-fleur/"
+    },
+    {
+      "label": "Livre Broder l'Architecture",
+      "url": "https://lilou-broderie.fr/produit/livre-broder-larchitecture-guide-creatif/"
+    },
+    {
+      "label": "Livre de broderie relief PDF",
+      "url": "https://lilou-broderie.fr/produit/livre-de-broderie-relief-pdf/"
+    },
+    {
+      "label": "Point de croix léopard monochrome",
+      "url": "https://lilou-broderie.fr/produit/point-de-croix-leopard-monochrome/"
+    },
+    {
+      "label": "Point de croix tour Eiffel",
+      "url": "https://lilou-broderie.fr/produit/point-de-croix-tour-eiffel/"
+    },
+    {
+      "label": "Sal Mystère Broderie partie 2",
+      "url": "https://lilou-broderie.fr/produit/sal-mystere-broderie-partie2/"
+    },
+    {
+      "label": "Recherche d'entreprises (API gouv), Nathalie Dejonghe, Bascous",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=dejonghe&code_postal=32190"
+    },
+    {
+      "label": "Instagram @lilou.broderie.fr",
+      "url": "https://www.instagram.com/lilou.broderie.fr/"
+    }
+  ],
+  "researchNotes": "Entreprise : les CGV disent que le site est exploité par Nathalie Dejonghe, Quartier Mounicat, 32190 Bascous, sans SIREN ni forme juridique. Le registre donne une seule entreprise individuelle à ce nom dans cette commune : SIREN 509937090, créée le 2009-01-09, active, NAF 85.59B (autres enseignements), siège 8 Quai Mounicat. Le rapprochement est très probable, mais le code NAF ne correspond pas à de la vente de kits : à confirmer. Entreprise individuelle sans comptes publiés, donc aucun chiffre d'affaires. La date de création de la marque (2020) vient du copyright du site, pas d'une date officielle. Le nom Nathalie Dejonghe apparaît aussi dans le titre du profil Instagram. Best-sellers : le site n'en désigne aucun. Le kit SAL fleur est marqué best-seller seulement parce que c'est le seul produit mis en avant qui a des avis (2). Fils : DMC cité pour les grilles PDF (DMC 310). La marque des fils des kits n'est pas indiquée. Aucune boutique Etsy trouvée. Audiences non relevées : Instagram n'affiche pas les chiffres sans connexion, YouTube (https://www.youtube.com/user/nanoudeyonghe) est bloqué par la page de consentement. Pinterest (https://www.pinterest.fr/talydejong/_created/), TikTok (@liloubroderie) et le groupe Facebook Les Brodeuses n'ont pas été consultés. Livres : pas d'ISBN ni d'éditeur trouvés, probablement autoédités. Aucune presse ni interview trouvée. Pages lues le 2026-10-21."
+}

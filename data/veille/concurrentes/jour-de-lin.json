@@ -1,0 +1,206 @@
+{
+  "name": "Jour de Lin",
+  "country": "France",
+  "city": "Morestel",
+  "region": "Auvergne-Rhône-Alpes",
+  "foundedDate": "2006-09",
+  "closedDate": "",
+  "founders": [
+    "Sabine Cottin"
+  ],
+  "legalName": "Jour de Lin (JDL)",
+  "legalForm": "SARL (radiée en 2014)",
+  "registrationId": "491552626",
+  "offers": [
+    "Kits de broderie",
+    "Fiches de broderie papier"
+  ],
+  "styles": [
+    "Traditionnel",
+    "Linge ancien",
+    "Blanc sur blanc",
+    "Prénoms et monogrammes"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Jours anciens (fils tirés)",
+    "Broderie de Schwalm",
+    "Point compté"
+  ],
+  "threads": [
+    "DMC"
+  ],
+  "fabrics": [
+    "Lin blanc",
+    "Lin bis",
+    "Lin ficelle",
+    "Lin imprimé (montage)"
+  ],
+  "salesChannels": [
+    "Boutiques revendeuses (Mercerie Nanou, Broderie Passion)"
+  ],
+  "priceRange": "Kits de 21,90 à 49,50 €, fiches de broderie de 11,50 à 18,90 € (prix Mercerie Nanou, octobre 2026)",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "2013",
+      "revenue": 12201,
+      "netIncome": -9913,
+      "employees": "",
+      "source": "Societe.com, SARL Jour de Lin, dernier exercice affiché"
+    },
+    {
+      "year": "2011",
+      "revenue": 41400,
+      "netIncome": 3886,
+      "employees": "",
+      "source": "Societe.com, SARL Jour de Lin"
+    }
+  ],
+  "products": [
+    {
+      "title": "Kit \"Façon pèle mêle\"",
+      "format": "kit",
+      "price": "49,50 €",
+      "bestseller": false,
+      "description": "Toiles de lin, fils DMC, aiguille à broder, explications des points de broderie et des jours anciens, fiche de montage. Kit le plus cher de la gamme.",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/12011-4910-kit-de-broderie-jour-de-lin-facon-pele-mele.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit \"Mes petits trésors Thomas\"",
+      "format": "kit",
+      "price": "36,90 €",
+      "bestseller": false,
+      "description": "Petit sac à dos brodé à personnaliser avec un prénom (alphabet complet fourni). Fiche avec les points de broderie, les jours anciens et le montage du sac.",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/12023-5288-kit-de-broderie-jour-de-lin-mes-petits-tresors-thomas.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit \"Porte ciseaux sewing\"",
+      "format": "kit",
+      "price": "32,50 €",
+      "bestseller": false,
+      "description": "Toile de lin avec le motif déjà reporté, fils DMC, aiguille, lin imprimé, galon à pois, explications des points et des jours anciens, fiche de montage du porte-ciseaux.",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/12015-5038-kit-de-broderie-jour-de-lin-porte-ciseaux-sewing.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit \"Points en coeur\"",
+      "format": "kit",
+      "price": "31,90 €",
+      "bestseller": false,
+      "description": "Toile de lin, fils DMC, aiguille à broder, explications des points de broderie et des jours anciens, fiche de montage. Aussi vendu en déstockage chez Broderie Passion.",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/12021-5224-kit-de-broderie-jour-de-lin-points-en-coeur.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit \"Lettre ajourée\"",
+      "format": "kit",
+      "price": "28,10 €",
+      "bestseller": false,
+      "description": "Toile de lin blanche 30 x 30 cm (format 22 x 22 cm aussi proposé), fils DMC, aiguilles, diagramme et explications pas à pas. Jour en V, jour simple, jour échelle, au point compté. Coloris blanc ou ficelle, une lettre au choix.",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/132-3271-kit-de-broderie-jour-de-lin-lettre-ajouree-.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit \"Comme autrefois\"",
+      "format": "kit",
+      "price": "27,90 €",
+      "bestseller": false,
+      "description": "Toiles de lin, fils DMC, aiguille, explications des points et des jours anciens, fiche de montage. Motif à appliquer sur un sac, un coussin ou une boîte (boîte non fournie).",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/11924-kit-de-broderie-jour-de-lin-comme-autrefois-avec-boite.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit \"Coeur de Schwalm N°5\"",
+      "format": "kit",
+      "price": "21,90 €",
+      "bestseller": false,
+      "description": "Toile de lin, fils DMC, aiguille à broder, cordelette, explications des points de broderie et des points de Schwalm. En blanc ou en bis. Série de cinq coeurs (N°1 à N°5).",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/11999-4538-kit-de-broderie-jour-de-lin-coeur-de-schwalm-n-5.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fiche \"Petite lingerie du soir\"",
+      "format": "autre",
+      "price": "18,90 €",
+      "bestseller": false,
+      "description": "Fiche de broderie papier seule, sans fournitures.",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/12020-5191-fiche-de-broderie-jour-de-lin-petite-lingerie-du-soir.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Petite marque iséroise de kits de broderie traditionnelle sur lin, signée Sabine Cottin, qui fait entrer les jours anciens et la broderie de Schwalm dans de petits objets à monter. Elle se vend aujourd'hui surtout par des merceries revendeuses.",
+  "history": "Jour de Lin est fondée par Sabine Cottin à Morestel, en Isère. La SARL Jour de Lin (sigle JDL), immatriculée sous le SIREN 491552626, est créée en septembre 2006 avec une activité de commerce de détail de textiles, au 138 rue Claude Rochas.\n\nLa marque propose des modèles de broderie traditionnelle sur toile de lin qui intègrent la technique des jours anciens (fils tirés).\n\nLes comptes publiés montrent une petite structure : 41400 € de chiffre d'affaires en 2011 pour un bénéfice de 3886 €, puis 12201 € en 2013 pour une perte de 9913 €. La société est fermée et radiée le 18 juillet 2014, et Sabine Cottin en devient liquidatrice.\n\nLes kits restent pourtant en vente. En octobre 2026, Mercerie Nanou référence 28 kits et 11 fiches de broderie Jour de Lin, dont des nouveautés comme la série des coeurs de Schwalm, les accessoires de couture \"Sewing\" ou les objets prénoms pour enfants. Le site jourdelin.com ne répond plus.",
+  "positioning": "Jour de Lin se place sur la broderie patrimoniale : lin blanc ou bis, fils DMC, jours anciens, Schwalm, lettres ajourées et prénoms brodés pour le linge et les cadeaux de naissance. Chaque kit est un petit objet utile à monter (porte-ciseaux, porte-aiguilles, mètre ruban, accroche-coeur, sac à dos) avec fiche de montage, ce qui vise une brodeuse déjà à l'aise ou curieuse des techniques anciennes. Ses prix sont modérés (autour de 22 à 37 €). Points faibles visibles : aucune présence en ligne en propre retrouvée (site hors ligne, pas de réseaux sociaux identifiés), des fiches produit très succinctes (pas de dimensions ni de références de couleurs) et une dépendance aux revendeurs.",
+  "website": "",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "2006-09",
+      "kind": "vie",
+      "label": "Création de la SARL Jour de Lin à Morestel (Isère) par Sabine Cottin"
+    },
+    {
+      "date": "2011",
+      "kind": "vie",
+      "label": "Chiffre d'affaires de 41400 € et bénéfice de 3886 €"
+    },
+    {
+      "date": "2013",
+      "kind": "vie",
+      "label": "Chiffre d'affaires de 12201 €, perte de 9913 €"
+    },
+    {
+      "date": "2014-07-18",
+      "kind": "vie",
+      "label": "Fermeture et radiation de la SARL, Sabine Cottin liquidatrice"
+    },
+    {
+      "date": "2026-10",
+      "kind": "autre",
+      "label": "28 kits et 11 fiches Jour de Lin en vente chez Mercerie Nanou"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Mercerie Nanou, kits Jour de Lin",
+      "url": "https://www.mercerienanou.fr/197-jour-de-lin"
+    },
+    {
+      "label": "Mercerie Nanou, fiches de broderie Jour de Lin",
+      "url": "https://www.mercerienanou.fr/86-jour-de-lin"
+    },
+    {
+      "label": "Mercerie Nanou, kit Lettre ajourée",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/132-3271-kit-de-broderie-jour-de-lin-lettre-ajouree-.html"
+    },
+    {
+      "label": "Mercerie Nanou, kit Coeur de Schwalm N°5",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/11999-4538-kit-de-broderie-jour-de-lin-coeur-de-schwalm-n-5.html"
+    },
+    {
+      "label": "Mercerie Nanou, kit Porte ciseaux sewing",
+      "url": "https://www.mercerienanou.fr/jour-de-lin/12015-5038-kit-de-broderie-jour-de-lin-porte-ciseaux-sewing.html"
+    },
+    {
+      "label": "Broderie Passion, déstockage",
+      "url": "https://www.broderiepassion.com/27-destockage-kits-broderie-et-point-de-croix"
+    },
+    {
+      "label": "API Recherche d'entreprises, Jour de Lin",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=jour%20de%20lin"
+    },
+    {
+      "label": "Societe.com, Jour de Lin",
+      "url": "https://www.societe.com/societe/jour-de-lin-491552626.html"
+    }
+  ],
+  "researchNotes": "Site jourdelin.com introuvable (domaine qui ne répond plus, archive non consultable). Aucun compte Instagram, Facebook, Etsy ni article de presse trouvé. La SARL (SIREN 491552626) est radiée depuis le 18 juillet 2014, mais les kits sont toujours vendus en 2026 : on ne sait pas qui édite la gamme aujourd'hui (nouvelle structure, micro-entreprise de Sabine Cottin, ou stock du revendeur). Aucune nouvelle entreprise au nom de Sabine Cottin n'a été trouvée dans l'annuaire. Date de création : septembre 2006 (le 1er selon l'annuaire, le 6 selon Societe.com). Mercerie Nanou écrit \"Sabine Cotin\" ; le registre dit Cottin. Le lien avec Morestel, jourdelin.com et la vente de galons et tissus vient d'un extrait de recherche d'une ancienne liste d'exposants (page non lue directement, hors ligne). Le titre de catégorie de Mercerie Nanou parle de point de croix, mais les fiches lues montrent surtout broderie traditionnelle, jours anciens, Schwalm et point compté. Pas de meilleures ventes identifiables (le revendeur n'affiche ni avis ni classement), les produits sont classés du plus cher au moins cher parmi les kits lus. Fils : seule la marque DMC est citée, sans gamme précise. Prix Mercerie Nanou lus le 2026-10-21 (un extrait de recherche affichait 30,75 € pour Mes petits trésors Thomas, peut-être un prix promotionnel)."
+}

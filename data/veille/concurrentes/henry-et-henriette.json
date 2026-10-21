@@ -1,0 +1,310 @@
+{
+  "name": "Henry & Henriette",
+  "country": "France",
+  "city": "Nantes",
+  "region": "Pays de la Loire",
+  "foundedDate": "2011",
+  "closedDate": "",
+  "founders": [
+    "Aurélia Henry"
+  ],
+  "legalName": "Henry et Henriette",
+  "legalForm": "SARL (EURL selon les mentions légales)",
+  "registrationId": "532002565",
+  "offers": [
+    "Kits de broderie",
+    "Kits de punch needle",
+    "Kits couture",
+    "Kits crochet",
+    "Box",
+    "Ateliers",
+    "Mercerie",
+    "Tissus",
+    "Patrons de couture",
+    "Livres",
+    "Bons cadeaux"
+  ],
+  "styles": [
+    "Coloré",
+    "Ludique",
+    "Fleuri",
+    "Illustré"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur motif hydrosoluble",
+    "Point de croix",
+    "Punch needle",
+    "Couture",
+    "Crochet",
+    "Tricot"
+  ],
+  "threads": [
+    "DMC coton mouliné",
+    "DMC Diamant",
+    "Fils polyester (kits maxi et mini point de croix)",
+    "Sets de fils 100 % coton sans marque indiquée"
+  ],
+  "fabrics": [
+    "Coton",
+    "Toile Aida coton",
+    "Toile à punch needle",
+    "Coton imprimé (kits maxi)"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress / WooCommerce)",
+    "Boutique physique à Nantes",
+    "Ateliers sur place"
+  ],
+  "priceRange": "Kits de broderie de 11,50 à 32 €, kits punch needle de 39 à 48 €, kits couture de 12 à 49 €, sets de fils de 9 à 19 €, ateliers de 15 à 55 € (forfaits couture jusqu'à 140 €)",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "2024",
+      "revenue": null,
+      "netIncome": null,
+      "employees": "3 à 5",
+      "source": "Societe.com et API Recherche d'entreprises, comptes 2022 à 2024 non communiqués"
+    }
+  ],
+  "products": [
+    {
+      "title": "Kit débuter la broderie",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": true,
+      "description": "Kit d'initiation : tambour de 15 cm, coupon de tissu écru, aiguille, assortiment de fils à broder (marque non indiquée) et livret qui explique 3 points de base. Premier kit broderie au tri par popularité du site.",
+      "url": "https://henryethenriette.com/produit/set-de-broderie/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Set fil à broder crème glacée, 10 couleurs",
+      "format": "autre",
+      "price": "9 €",
+      "bestseller": true,
+      "description": "10 échevettes de fil à broder 100 % coton en 10 couleurs pastel, marque non indiquée. Deuxième de la catégorie broderie au tri par popularité.",
+      "url": "https://henryethenriette.com/produit/set-fil-a-broder-creme-glacee-10-couleurs/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie maxi fleurs",
+      "format": "kit",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Coton beige d'environ 29 x 28 cm avec motif floral préimprimé, tambour d'environ 21 cm, six fils polyester, une aiguille et deux fiches d'instructions en quatre langues. Niveau débutant.",
+      "url": "https://henryethenriette.com/produit/kit-broderie-maxi-fleurs/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie mini plante",
+      "format": "kit",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Coupon de toile Aida 100 % coton, fil mouliné, tambour de 10 cm, aiguille et notice.",
+      "url": "https://henryethenriette.com/produit/kit-broderie-mini-plante/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit point de croix mini oiseau bleu",
+      "format": "kit",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Tissu blanc d'environ 15 x 15 cm, tambour d'environ 9 cm, aiguille, quatre fils polyester et diagramme. Pour s'initier au point de croix.",
+      "url": "https://henryethenriette.com/produit/kit-point-de-croix-mini-oiseau-bleu/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit easy broderie matrioshka",
+      "format": "kit",
+      "price": "32 €",
+      "bestseller": false,
+      "description": "Motif autocollant hydrosoluble de 11 x 11 cm à coller sur le tissu de son choix, tambour artisanal, fil coton mouliné DMC et aiguille. Environ 9 heures, niveau débutant. Étiqueté Britney Pompadour.",
+      "url": "https://henryethenriette.com/produit/kit-easy-broderie-matrioshka/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit easy broderie les maisons",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Un ou plusieurs motifs autocollants hydrosolubles, aiguille Bohin, tambour en bois de 10 cm Elbesee, fil coton mouliné ou fil DMC Diamant. Tissu non fourni : on brode sur un vêtement ou un objet.",
+      "url": "https://henryethenriette.com/produit/kit-easy-broderie-les-maisons/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie Oui Mais Non",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit easy broderie : motifs autocollants hydrosolubles à poser sur t-shirt, sweat ou tote bag, aiguilles Bohin, tambour en bois de 10 cm Elbesee, fil coton mouliné ou DMC Diamant. Tissu non fourni.",
+      "url": "https://henryethenriette.com/produit/kit-broderie-oui-mais-non/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie let's dance",
+      "format": "kit",
+      "price": "21 €",
+      "bestseller": false,
+      "description": "Kit easy broderie : motifs autocollants hydrosolubles, deux aiguilles Bohin, tambour en bois de 10 cm Elbesee, fil coton mouliné ou DMC Diamant. En rupture de stock au moment de la lecture.",
+      "url": "https://henryethenriette.com/produit/kit-broderie-let-s-dance/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit punch needle S",
+      "format": "kit",
+      "price": "39 €",
+      "bestseller": false,
+      "description": "Une pelote Ricorumi et un écheveau de laine en couleur aléatoire, une toile, un tambour de 15 cm, trois aiguilles punch needle, une fiche d'instructions pour débuter et une planche d'illustrations. Version L à 48 €.",
+      "url": "https://henryethenriette.com/produit/kit-punch-needle-s/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Mercerie créative du centre de Nantes ouverte en 2011 par Aurélia Henry, qui vend tissus, kits couture et DIY (broderie, punch needle, crochet) en boutique et en ligne, et donne des ateliers. Sa gamme « easy broderie » repose sur des motifs autocollants hydrosolubles à broder sur ses propres vêtements.",
+  "history": "Henry & Henriette est fondée par Aurélia Henry, dite Henriette, après dix ans comme styliste en vêtements pour enfants. Un voyage au Mexique et ses toiles cirées à motifs l'amènent d'abord à lancer sa propre marque d'accessoires et de décoration.\n\nLa boutique ouvre à Nantes le 8 juin 2011, rue Léon Jamin, avec l'idée de vendre du tissu directement aux couturières dans un lieu convivial et gourmand. L'objet social déclaré comprend un salon de thé avec petite restauration, et la presse locale de 2019 cite ses cupcakes. La boutique en ligne arrive en 2014, puis un bar à coudre en 2015, où l'on loue une machine à l'heure.\n\nEn 2018, la boutique déménage au 8 rue des Trois Croissants, en plein centre (le changement de siège est enregistré en janvier 2019). Elle fête ses dix ans en 2021. Aurélia Henry a aussi signé deux livres aux éditions Marie Claire : « L'atelier d'Henry & Henriette » et « L'atelier déco d'Henry & Henriette », ce dernier avec la designer japonaise Erika Kitamura.\n\nDepuis 2023, la marque édite ses propres tissus sous le nom Edition Henriette : Paloma (avec Fanny Menoret et Flore Larrazet), Aika (avec Izumi Idoia et Jaune Forêt), puis Nora en 2024 avec la boutique Arü, et d'autres collections comme Jardin sauvage, Lucky Ravi, Daydream ou L'heure bleue.\n\nAujourd'hui, l'entreprise compte 3 à 5 salariés selon les registres. Elle vend tissus, patrons, mercerie, environ 158 kits et des box patron plus tissu, et propose un programme d'ateliers à Nantes (couture, broderie, punch needle, tricot, crochet, anniversaires, EVJF). Elle expédie dans le monde entier.",
+  "positioning": "Henry & Henriette n'est pas d'abord une marque de broderie : c'est une mercerie de centre-ville, avec ateliers et esprit salon de thé, où la broderie n'est qu'une catégorie parmi d'autres (22 références, dont des sets de fils). Ses forces sont un lieu physique bien installé depuis 2011, une offre d'ateliers, ses propres tissus Edition Henriette et le concept « easy broderie », qui permet de broder un motif autocollant hydrosoluble directement sur un t-shirt ou un tote bag, sans tissu fourni, avec aiguilles Bohin, tambour Elbesee et fil DMC. Les kits broderie sont surtout d'entrée de gamme (11,50 à 32 €) et pour débutantes, avec un style coloré et ludique. Points faibles visibles : plusieurs kits easy broderie sont en rupture, une partie des kits maxi et mini point de croix semble venir d'un fournisseur extérieur (fils polyester, notice en quatre langues), le site est uniquement en français et rien n'indique de vente sur Etsy ni de patrons PDF de broderie.",
+  "website": "https://henryethenriette.com",
+  "instagram": "https://www.instagram.com/henryethenriette/",
+  "etsy": "",
+  "photoUrl": "https://henryethenriette.com/wp-content/uploads/2020/06/logo_rond_cupcake.png",
+  "timeline": [
+    {
+      "date": "2011-06-08",
+      "kind": "vie",
+      "label": "Ouverture de la boutique rue Léon Jamin à Nantes"
+    },
+    {
+      "date": "2014",
+      "kind": "vie",
+      "label": "Lancement de la boutique en ligne"
+    },
+    {
+      "date": "2015",
+      "kind": "oeuvre",
+      "label": "Ouverture du bar à coudre (location de machines à l'heure)"
+    },
+    {
+      "date": "2018",
+      "kind": "vie",
+      "label": "Déménagement au 8 rue des Trois Croissants, centre de Nantes"
+    },
+    {
+      "date": "2019-03",
+      "kind": "prix",
+      "label": "Citée par Le Bonbon Nantes parmi les bonnes adresses loisirs créatifs"
+    },
+    {
+      "date": "2021",
+      "kind": "vie",
+      "label": "Dix ans de la boutique"
+    },
+    {
+      "date": "2022-03",
+      "kind": "vie",
+      "label": "Aurélia Henry enregistrée comme associée en plus de gérante"
+    },
+    {
+      "date": "2023",
+      "kind": "residence",
+      "label": "Première collection de tissus Edition Henriette, Paloma, avec Fanny Menoret et Flore Larrazet, puis Aika avec Izumi Idoia et Jaune Forêt"
+    },
+    {
+      "date": "2024",
+      "kind": "residence",
+      "label": "Collection de tissus Nora avec la boutique Arü"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Henry & Henriette, page d'accueil",
+      "url": "https://henryethenriette.com"
+    },
+    {
+      "label": "Henry & Henriette, notre histoire",
+      "url": "https://henryethenriette.com/notre-histoire-chez-henry-henriette/"
+    },
+    {
+      "label": "Henry & Henriette, mentions légales",
+      "url": "https://henryethenriette.com/mentions-legales/"
+    },
+    {
+      "label": "Henry & Henriette, FAQ",
+      "url": "https://henryethenriette.com/faq/"
+    },
+    {
+      "label": "Henry & Henriette, ateliers",
+      "url": "https://henryethenriette.com/ateliers/"
+    },
+    {
+      "label": "Henry & Henriette, catégorie kits",
+      "url": "https://henryethenriette.com/categorie-produit/home/kits/"
+    },
+    {
+      "label": "Henry & Henriette, kits broderie triés par popularité",
+      "url": "https://henryethenriette.com/categorie-produit/home/kits/kits-diy/kit-broderie/?orderby=popularity"
+    },
+    {
+      "label": "Henry & Henriette, kits punch needle",
+      "url": "https://henryethenriette.com/categorie-produit/home/kits/kits-diy/kit-punch-needle/"
+    },
+    {
+      "label": "Kit débuter la broderie",
+      "url": "https://henryethenriette.com/produit/set-de-broderie/"
+    },
+    {
+      "label": "Set fil à broder crème glacée",
+      "url": "https://henryethenriette.com/produit/set-fil-a-broder-creme-glacee-10-couleurs/"
+    },
+    {
+      "label": "Kit broderie maxi fleurs",
+      "url": "https://henryethenriette.com/produit/kit-broderie-maxi-fleurs/"
+    },
+    {
+      "label": "Kit broderie maxi colombes",
+      "url": "https://henryethenriette.com/produit/kit-broderie-maxi-colombes/"
+    },
+    {
+      "label": "Kit broderie mini plante",
+      "url": "https://henryethenriette.com/produit/kit-broderie-mini-plante/"
+    },
+    {
+      "label": "Kit point de croix mini oiseau bleu",
+      "url": "https://henryethenriette.com/produit/kit-point-de-croix-mini-oiseau-bleu/"
+    },
+    {
+      "label": "Kit easy broderie matrioshka",
+      "url": "https://henryethenriette.com/produit/kit-easy-broderie-matrioshka/"
+    },
+    {
+      "label": "Kit easy broderie les maisons",
+      "url": "https://henryethenriette.com/produit/kit-easy-broderie-les-maisons/"
+    },
+    {
+      "label": "Kit broderie Oui Mais Non",
+      "url": "https://henryethenriette.com/produit/kit-broderie-oui-mais-non/"
+    },
+    {
+      "label": "Kit broderie let's dance",
+      "url": "https://henryethenriette.com/produit/kit-broderie-let-s-dance/"
+    },
+    {
+      "label": "Kit punch needle S",
+      "url": "https://henryethenriette.com/produit/kit-punch-needle-s/"
+    },
+    {
+      "label": "Societe.com, Henry et Henriette",
+      "url": "https://www.societe.com/societe/henry-et-henriette-532002565.html"
+    },
+    {
+      "label": "API Recherche d'entreprises, SIREN 532002565",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=532002565"
+    },
+    {
+      "label": "Le Bonbon Nantes, loisirs créatifs (2019)",
+      "url": "https://www.lebonbon.fr/nantes/deco-et-design/loisirs-creatifs-nantes-les-bonnes-adresses-du-bonbon/"
+    }
+  ],
+  "researchNotes": "1) Date de création : la boutique dit avoir ouvert le 8 juin 2011 ; l'API Recherche d'entreprises donne une date de création au 28 mai 2011 et Societe.com le 28 avril 2011. Seule l'année 2011 est retenue. 2) Forme juridique : les mentions légales parlent d'EURL au capital de 4 000 €, le registre donne une nature juridique 5499 (SARL) ; l'API liste aussi Aurélia Henry comme « gérant et associé indéfiniment responsable » et Societe.com la dit associée depuis mars 2022, ce qui peut signaler un changement de structure à vérifier sur un extrait Kbis ou sur Pappers (Pappers et l'annuaire data.gouv n'ont pas pu être lus, erreur 403 ou page vide). 3) Chiffre d'affaires : non publié. Societe.com marque les comptes 2022 à 2024 comme non communiqués (comptes confidentiels probables) ; seuls des ratios 2015 apparaissent (marge nette 1,72 %), sans montant lu. Effectif : tranche 3 à 5 salariés. 4) Salon de thé : présent dans l'objet social et dans l'article du Bonbon de 2019, mais absent du site actuel ; on ne sait pas s'il fonctionne encore. 5) Easy broderie : les kits matrioshka et let's dance portent l'étiquette « Britney Pompadour » et les images ont des noms de fichiers évoquant Atelier Mouti et Julie Adore ; il peut s'agir d'illustratrices partenaires, mais la page ne le dit pas. Plusieurs kits easy broderie sont en rupture de stock. 6) Les kits maxi (fleurs, colombes, coccinelle) et mini point de croix ont des fils polyester, des notices en quatre langues et des références d'images numérotées : ils semblent venir d'un fournisseur extérieur, non nommé sur le site. 7) Meilleures ventes : aucun badge best-seller explicite ; l'ordre des produits suit le tri « popularité » de la catégorie kit broderie lu le 2026-10-21, et seuls les deux premiers sont marqués bestseller. Au tri par popularité de tous les kits, les premiers sont le kit crochet débutant (15 €), le patron veste Aika (17 €) et la pochette surprise (15 €). 8) Audience : Instagram @henryethenriette, Facebook et Pinterest (pinterest.fr/henryhenriette) existent, mais aucun nombre d'abonnés n'a pu être lu. Pas de boutique Etsy trouvée. 9) Pas d'image, comme demandé : photoUrl et imageUrl sont vides. Des images produits publiques existent sur henryethenriette.com/wp-content/uploads/ si besoin."
+}

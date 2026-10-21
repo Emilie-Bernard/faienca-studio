@@ -1,0 +1,209 @@
+{
+  "name": "Ederkits (Eder Centro de Labores)",
+  "country": "Espagne",
+  "city": "Saint-Sébastien (Donostia)",
+  "region": "Pays basque (Gipuzkoa)",
+  "foundedDate": "1995-11-08",
+  "closedDate": "",
+  "founders": [],
+  "legalName": "Eder Centro de Labores S.L.",
+  "legalForm": "S.L.",
+  "registrationId": "B20541298",
+  "offers": [
+    "Kits de broderie",
+    "Grilles (esquemas)",
+    "Mercerie",
+    "Laines et fils à tricoter",
+    "Ateliers"
+  ],
+  "styles": [
+    "Tableaux célèbres",
+    "Paysages",
+    "Monuments",
+    "Pays basque",
+    "Religieux",
+    "Équipes de football",
+    "Enfants"
+  ],
+  "techniques": [
+    "Point de croix"
+  ],
+  "threads": [
+    "DMC",
+    "Venus"
+  ],
+  "fabrics": [
+    "Toile Panamá 14 points"
+  ],
+  "salesChannels": [
+    "Site en propre (PrestaShop)",
+    "Boutique physique à Saint-Sébastien"
+  ],
+  "priceRange": "Grilles de 10 à 14 €, kits complets de 22 à 82 € selon la taille, petits kits sur tambour à 30 € (octobre 2026)",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 2874,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/ederlabores/"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Muchacha en la ventana (Dalí)",
+      "format": "kit",
+      "price": "14 € la grille, 59 € le kit complet",
+      "bestseller": true,
+      "description": "Première des ventes du rayon point de croix. 200 x 280 points, environ 36 x 50 cm. La grille comprend la simulation en couleur, le diagramme en symboles noir et blanc et la liste des couleurs avec les références Venus et DMC. Le kit complet ajoute la toile, les fils et l'aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/460-854-muchacha-en-la-ventana.html",
+      "imageUrl": "https://ederlabores.com/499-large_default/muchacha-en-la-ventana.jpg"
+    },
+    {
+      "title": "Baño de Botero hombre",
+      "format": "kit",
+      "price": "14 € la grille, 64 € le kit complet",
+      "bestseller": true,
+      "description": "D'après Fernando Botero. 190 x 245 points, environ 35 x 44 cm. Grille seule ou kit complet avec toile, fils et aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/94-169-bano-de-botero-hombre.html",
+      "imageUrl": "https://ederlabores.com/144-large_default/bano-de-botero-hombre.jpg"
+    },
+    {
+      "title": "Klimt, El beso",
+      "format": "kit",
+      "price": "14 € la grille, 81 € le kit complet",
+      "bestseller": true,
+      "description": "Le Baiser de Klimt, mis en avant en page d'accueil. 220 x 340 points, environ 38 x 61 cm. Grille seule ou kit complet avec toile, fils et aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/71-123-klimt-el-beso.html",
+      "imageUrl": "https://ederlabores.com/122-large_default/klimt-el-beso.jpg"
+    },
+    {
+      "title": "Sorolla, Paseo a orillas del mar",
+      "format": "kit",
+      "price": "14 € la grille, 53 € le kit complet",
+      "bestseller": true,
+      "description": "D'après Joaquín Sorolla. 160 x 165 points, environ 28 x 29 cm. Grille seule ou kit complet avec toile, fils et aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/54-89-sorolla-paseo-a-orillas-del-mar.html",
+      "imageUrl": "https://ederlabores.com/105-large_default/sorolla-paseo-a-orillas-del-mar.jpg"
+    },
+    {
+      "title": "Las Meninas (Velázquez)",
+      "format": "kit",
+      "price": "14 € la grille, 82 € le kit complet",
+      "bestseller": true,
+      "description": "285 x 330 points, environ 50 x 60 cm. Existe en grille, en kit complet et en kit complet DMC. Le kit comprend la grille, la toile, les fils et l'aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/36-53-las-meninas.html",
+      "imageUrl": "https://ederlabores.com/87-large_default/las-meninas.jpg"
+    },
+    {
+      "title": "Picos de Europa",
+      "format": "kit",
+      "price": "10 € la grille, 51,62 € le kit complet",
+      "bestseller": false,
+      "description": "Paysage de montagne. 200 x 200 points, environ 36 x 36 cm. Grille seule ou kit complet avec toile, fils et aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/308-568-picos-de-europa.html",
+      "imageUrl": "https://ederlabores.com/356-large_default/picos-de-europa.jpg"
+    },
+    {
+      "title": "Noche estrellada (Van Gogh)",
+      "format": "kit",
+      "price": "14 € la grille, 70 € le kit complet",
+      "bestseller": false,
+      "description": "La Nuit étoilée. 240 x 320 points, environ 44 x 58 cm. Grille seule ou kit complet avec toile, fils et aiguille.",
+      "url": "https://ederlabores.com/puntodecruz/69-119-noche-estrellada-van-gogh.html",
+      "imageUrl": "https://ederlabores.com/120-large_default/noche-estrellada-van-gogh.jpg"
+    },
+    {
+      "title": "Peine del viento, atardecer",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Collection récente « En bastidor » sur Saint-Sébastien (avec Farola del Kursaal, Ondarreta et Construcción Vacía). 100 x 100 points, environ 18 x 18 cm. Kit complet avec simulation en couleur, diagramme, toile, fils, aiguille et tambour.",
+      "url": "https://ederlabores.com/puntodecruz/en-bastidor/21151-peine-del-viento-atardecer.html",
+      "imageUrl": "https://ederlabores.com/3221-large_default/peine-del-viento-atardecer.jpg"
+    },
+    {
+      "title": "Farola del Kursaal",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit sur tambour de la collection « En bastidor ». 100 x 100 points, environ 18 x 18 cm.",
+      "url": "https://ederlabores.com/puntodecruz/en-bastidor/21152-farola-del-kursaal.html",
+      "imageUrl": "https://ederlabores.com/3223-large_default/farola-del-kursaal.jpg"
+    },
+    {
+      "title": "F. C. Barcelona",
+      "format": "kit",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Écusson de club de football, environ 25 x 25 cm. Le rayon compte aussi l'Athletic de Bilbao et Osasuna.",
+      "url": "https://ederlabores.com/puntodecruz/507-f-c-barcelona.html",
+      "imageUrl": "https://ederlabores.com/873-large_default/f-c-barcelona.jpg"
+    }
+  ],
+  "summary": "Ederkits est la marque de grilles et de kits de point de croix d'Eder Centro de Labores, une mercerie de Saint-Sébastien créée en 1995. Elle reproduit surtout des tableaux célèbres, des paysages et des monuments, en grands formats.",
+  "history": "Eder Centro de Labores S.L. est une société limitée basque immatriculée le 8 novembre 1995 à Saint-Sébastien (Donostia), dans la province de Gipuzkoa. C'est d'abord une boutique de travaux d'aiguille : laines, aiguilles à tricoter, mercerie, tissus de patchwork, et des cours toute l'année. La boutique se trouve aujourd'hui rue Pedro Egaña, près de la plaza Easo.\n\nLa maison dit concevoir ses grilles de point de croix depuis plus de 20 ans sous sa propre marque, Ederkits. Le catalogue couvre des tableaux célèbres (Velázquez, Sorolla, Klimt, Van Gogh, Dalí, Botero), des paysages et des monuments d'Espagne, des sujets religieux, des pendules, des sujets pour enfants, des écussons de clubs de football et une section Euskadi. Elle propose aussi des créations sur mesure.\n\nChaque modèle existe en grille seule, avec simulation en couleur, diagramme en symboles et liste des couleurs avec les références Venus et DMC, ou en kit complet avec la toile Panamá 14 points, les fils et l'aiguille. Certains modèles existent aussi en « kit complet DMC ».\n\nRécemment, la marque a ajouté une petite collection « En bastidor » de quatre kits de 18 x 18 cm sur tambour, tous consacrés à Saint-Sébastien : le Peine del Viento, la Farola del Kursaal, Ondarreta et Construcción Vacía. La société vend en ligne depuis son site PrestaShop et livre en Espagne, dans l'Union européenne et dans le reste du monde.",
+  "positioning": "Ederkits joue la carte du point de croix classique et figuratif : grandes reproductions de chefs-d'œuvre de la peinture et vues de monuments, souvent de 30 à 60 cm de côté, pour une clientèle espagnole de brodeuses confirmées. Ses prix de grilles sont bas (10 à 14 €) et les kits complets montent jusqu'à plus de 80 € pour les grands formats. Sa force tient au catalogue large, à l'ancrage local basque et à la boutique physique avec cours. Ses points faibles visibles : un site en espagnol seulement, une présence sociale modeste (environ 2 900 abonnés Instagram), pas de boutique Etsy repérée et une esthétique traditionnelle, loin des kits modernes et minimalistes. La broderie n'est qu'une partie de l'activité, à côté de la laine et du tricot.",
+  "website": "https://ederlabores.com",
+  "instagram": "https://www.instagram.com/ederlabores/",
+  "etsy": "",
+  "photoUrl": "https://ederlabores.com/img/favicon.ico?1780849511",
+  "timeline": [
+    {
+      "date": "1995-11-08",
+      "kind": "vie",
+      "label": "Constitution d'Eder Centro de Labores S.L. à Saint-Sébastien"
+    },
+    {
+      "date": "2011-03-31",
+      "kind": "vie",
+      "label": "Dernière annonce de la société au BORME"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Eder Labores, page d'accueil et meilleures ventes",
+      "url": "https://ederlabores.com"
+    },
+    {
+      "label": "Eder Labores, Sobre nosotros",
+      "url": "https://ederlabores.com/content/4-sobre-nosotros"
+    },
+    {
+      "label": "Eder Labores, Aviso legal (raison sociale et CIF)",
+      "url": "https://ederlabores.com/content/2-aviso-legal"
+    },
+    {
+      "label": "Eder Labores, conditions de livraison",
+      "url": "https://ederlabores.com/content/1-entrega"
+    },
+    {
+      "label": "Eder Labores, rayon point de croix trié par ventes",
+      "url": "https://ederlabores.com/10000-puntodecruz?order=product.sales.desc"
+    },
+    {
+      "label": "Eder Labores, fiche Las Meninas",
+      "url": "https://ederlabores.com/puntodecruz/36-53-las-meninas.html"
+    },
+    {
+      "label": "Eder Labores, kit Peine del viento, atardecer",
+      "url": "https://ederlabores.com/puntodecruz/en-bastidor/21151-peine-del-viento-atardecer.html"
+    },
+    {
+      "label": "Empresite (El Economista), Eder Centro de Labores SL",
+      "url": "https://empresite.eleconomista.es/EDER-CENTRO-LABORES.html"
+    },
+    {
+      "label": "Infoempresa, Eder Centro de Labores SL",
+      "url": "https://www.infoempresa.com/es-es/es/empresa/eder-centro-de-labores-sl"
+    },
+    {
+      "label": "Instagram @ederlabores",
+      "url": "https://www.instagram.com/ederlabores/"
+    }
+  ],
+  "researchNotes": "Chiffre d'affaires non publié : Empresite signale un « incumplimiento de la obligación de depósito de cuentas » (comptes non déposés) et ne donne qu'une tranche de ventes inférieure à 300 000 € et 5 salariés, des données qui datent d'environ 2006. Infoempresa indique une tranche de moins de 2 millions d'euros, 10 à 49 salariés et un code CNAE 6411 (banque centrale), visiblement erroné ; Empresite donne le CNAE 4751 (commerce de détail de textiles). Ces chiffres se contredisent et ne sont pas repris dans financials.\n\nDirigeants et fondatrices non trouvés : deux mandats sont enregistrés au registre mais leurs noms ne sont visibles que dans les rapports payants. Librebor (BORME) a refusé l'accès (403).\n\nAdresse : le site et les mentions légales donnent C/ Pedro Egaña 5 ; Empresite donne le siège Calle Peñaflorida 6 (20004) et Pedro Egaña 5 comme établissement secondaire. Le domicile social a probablement changé.\n\nLa date de création 1995 est celle de la société ; la marque Ederkits dit « plus de 20 ans » de créations sans date précise.\n\nPrix lus le 2026-10-21 en chargeant la variante « Kit completo » de chaque fiche ; le prix de la variante « Kit completo DMC » n'a pas été relevé. La marque des fils du kit complet standard n'est pas précisée (l'existence d'une option DMC laisse penser qu'il s'agit d'une autre marque, peut-être Venus, non confirmé). Le classement des meilleures ventes vient du tri par ventes du rayon point de croix et du bloc « más vendidos » de l'accueil. Le prix de Picos de Europa (10 € et 51,62 €) peut refléter une remise.\n\nAudience : Instagram 2 874 abonnés, 383 publications (lu le 2026-10-21). Facebook (facebook.com/ederlabores) et Pinterest (es.pinterest.com/ItsasEder) existent mais leurs chiffres n'ont pas été lus. Aucune boutique Etsy, ni interview ou article de presse, n'a été trouvé. Pas de mention d'un nombre de kits vendus ou de clientes.\n\nLa collection « En bastidor » semble récente (numéros de produit élevés) mais sa date de lancement n’est pas affichée, elle n’est donc pas dans la frise. Le support des grilles (papier ou PDF) n’est pas précisé sur les fiches."
+}

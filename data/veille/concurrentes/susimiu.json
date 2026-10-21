@@ -1,0 +1,258 @@
+{
+  "name": "Susimiu",
+  "country": "Espagne",
+  "city": "Cordoue",
+  "region": "Andalousie",
+  "foundedDate": "2014",
+  "closedDate": "",
+  "founders": [
+    "Laura Carmona Sanjuán"
+  ],
+  "legalName": "Laura Carmona Sanjuán",
+  "legalForm": "autónoma",
+  "registrationId": "",
+  "offers": [
+    "Kits de crochet",
+    "Patrons PDF",
+    "Fils",
+    "Mercerie",
+    "Livres",
+    "Cours en ligne"
+  ],
+  "styles": [
+    "Mode et vêtements",
+    "Déco XXL",
+    "Coloré",
+    "Fibres naturelles"
+  ],
+  "techniques": [
+    "Crochet"
+  ],
+  "threads": [
+    "Casasol Filicor (coton peigné, cônes L)",
+    "Veggie Wool",
+    "Cotton Air",
+    "Lino Flamé",
+    "Italian Merino",
+    "Mohair",
+    "Bambú",
+    "Candy Cotton",
+    "Palomita",
+    "Eureka",
+    "Velvet 5 mm"
+  ],
+  "fabrics": [],
+  "salesChannels": [
+    "Site en propre (WooCommerce)",
+    "Domestika"
+  ],
+  "priceRange": "Kits de 15,51 à 140,40 €, PDF de 6,90 à 8,90 €, livres à 19,99 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [
+    {
+      "platform": "Domestika",
+      "followers": 18933,
+      "date": "2026-10",
+      "url": "https://www.domestika.org/en/courses/4396-crochet-garments-with-color-and-texture"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Patrón PDF descargable Chal Cereza",
+      "format": "pdf",
+      "price": "8,90 €",
+      "bestseller": true,
+      "description": "Patron PDF de châle au crochet, niveau moyen à avancé, avec diagrammes, explications et vidéo. Châle de 1,50 x 0,60 m en laine ou 1,80 x 0,80 m en coton. Sans matériel. Accès à un forum d'aide privé. 26 avis, note 4,77 sur 5.",
+      "url": "https://susimiu.es/producto/patron-pdf-descargable-chal-cereza-20-folios-con-diagramas-y-explicaciones-y-video-explicativo-incluido-ganchillo/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Especial 3 conos grosor L Algodón Peinado. Colores a elegir",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": true,
+      "description": "Trois cônes de coton peigné épaisseur L, couleurs au choix, avec aiguille 3,4 ou 5 mm d'après l'adresse de la page. Note 5 sur 5.",
+      "url": "https://susimiu.es/producto/kit-especial-3-conos-algodon-peinado-grosor-l-aguja-3-4-5-mm-colores-a-elegir/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit chal Cereza Versión Algodón",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Trois cônes de coton épaisseur L Casasol Filicor et le patron PDF du châle Cereza avec vidéo. Note 5 sur 5.",
+      "url": "https://susimiu.es/producto/kit-chal-cereza-version-algodon-3-conos-de-algodon-grosor-l-casasol-filicor-patron-pdf-descargable-con-video/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de materiales Bolso Bereber. Materiales + Patrón PDF",
+      "format": "kit",
+      "price": "50 €",
+      "bestseller": false,
+      "description": "Matériel et patron PDF d'un sac au crochet. Note 4,93 sur 5.",
+      "url": "https://susimiu.es/producto/kit-de-materiales-bolso-bereber-materiales-patron-pdf/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Libro Susimiu. Mujeres que Inspiran. Proyectos Inolvidables de Crochet",
+      "format": "livre",
+      "price": "19,99 €",
+      "bestseller": false,
+      "description": "Deuxième livre de la créatrice : six modèles (Cárdigan Venus, Rebeca María Antonieta, Top Beatrix, Rebeca Galadriel, Top Komachi, Bolso Janis) inspirés de six femmes, avec accès à un groupe Telegram d'entraide. 6 avis, note 5 sur 5.",
+      "url": "https://susimiu.es/producto/libro-susimiu-mujeres-que-inspira-proyectos-inolvidables-de-crochet/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Libro Susimiu. De la Idea al Patrón",
+      "format": "livre",
+      "price": "19,99 €",
+      "bestseller": false,
+      "description": "Premier livre de la créatrice, avec des modèles comme le Top Astro, le Kaftán Atardecer ou le Chal Nereida, vendus aussi en kits de matériel. Épuisé lors de la lecture. Note 4,92 sur 5.",
+      "url": "https://susimiu.es/producto/libro-susimiu-de-la-idea-al-patron/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Materiales Manta Mosaic. Patrón PDF Descargable + Eureka",
+      "format": "kit",
+      "price": "103 €",
+      "bestseller": false,
+      "description": "Fil Eureka et patron PDF d'une couverture en crochet mosaïque.",
+      "url": "https://susimiu.es/producto/kit-de-materiales-manta-mosaic-patron-pdf-descargable-eureka/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Top Casiopea: Materiales + Patrón PDF. 5 ovillos Algodón M",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Cinq pelotes de coton épaisseur M et le patron PDF d'un top. Note 5 sur 5.",
+      "url": "https://susimiu.es/producto/top-casiopea-materiales-patron-pdf-5-ovillos-algodon-m/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Alfombra Velvet Mandala. Varios tamaños",
+      "format": "kit",
+      "price": "de 48,24 à 118,80 €",
+      "bestseller": false,
+      "description": "Kit de tapis mandala en fil Velvet, plusieurs tailles, diagramme offert. Note 5 sur 5.",
+      "url": "https://susimiu.es/producto/kit-alfombra-velvet-mandala-varios-tamanos-diagrama-de-regalo/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón PDF descargable Puff Erizo. Versión Cotton Air 5 mm",
+      "format": "pdf",
+      "price": "6,90 €",
+      "bestseller": false,
+      "description": "Patron PDF d'un pouf hérisson au crochet en Cotton Air 5 mm, sans matériel.",
+      "url": "https://susimiu.es/producto/patron-pdf-descargable-puff-erizo-version-cotton-air-5-mm/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Crochet Garments with Color and Texture (Domestika)",
+      "format": "cours",
+      "price": "",
+      "bestseller": true,
+      "description": "Cours en ligne sur Domestika pour créer des vêtements au crochet en jouant sur la couleur et la texture, sans expérience préalable. 18933 élèves, 99 % d'avis positifs sur 526 avis. Le site vend le kit du Jersey Berry lié au cours.",
+      "url": "https://www.domestika.org/en/courses/4396-crochet-garments-with-color-and-texture",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque espagnole de crochet créée à Cordoue par Laura Carmona, qui vend sur son site des patrons PDF, des kits de vêtements et de déco avec fils, des fils, de la mercerie et ses propres livres. Elle enseigne aussi sur Domestika.",
+  "history": "Susimiu est la marque de Laura Carmona Sanjuán, créatrice de crochet originaire de Cordoue, en Andalousie. Elle a étudié l'administration et la direction d'entreprise. Inspirée par les couvertures de sa grand-mère, elle apprend le crochet seule avec des tutoriels en ligne.\n\nAprès sa première couverture, elle ouvre un blog, Sweet and Knit, qui mêle crochet, desserts et recettes, puis se spécialise dans le trapillo, le fil de tissu en coton. Le blog devient ensuite Susimiu, site et boutique en ligne. Un kit anniversaire « 10 años Susimiu, est. 2014 » situe la création de la marque en 2014.\n\nEn 2016, le blog de la marque de fils Katia la présente dans sa série Craft Lovers comme spécialiste du crochet XXL, notamment des tapis en fil de tissu, avec un tuto de tapis mandala en Katia Washi.\n\nElle a depuis collaboré avec Casasol et Katia et avec le magazine Mollie Makes, selon sa présentation Domestika. Son cours « Crochet Garments with Color and Texture » y compte près de 19000 élèves. Elle publie deux livres vendus sur son site : « De la idea al patrón » (fin 2024) et « Mujeres que inspiran » (2025).\n\nAujourd'hui, la boutique susimiu.es propose plus de 70 kits de matériel, des patrons PDF, une large gamme de fils, des aiguilles, des accessoires et des livres, avec livraison en Espagne.",
+  "positioning": "Susimiu vise les crocheteuses hispanophones qui veulent tricoter au crochet des vêtements actuels (tops, gilets, pulls, châles) et de la déco XXL (tapis, coussins, poufs). Sa force est un écosystème complet : patrons avec vidéo, kits de fils assortis, livres, cours Domestika et groupes d'entraide (forum, Telegram). Le catalogue est très large et ancien, avec beaucoup de kits épuisés ou de produits qui datent de 2019 à 2021. Le site est uniquement en espagnol et ne vend pas de broderie : c'est une concurrente indirecte pour Faïença, proche par le modèle patron PDF plus kit, pas par la technique.",
+  "website": "https://susimiu.es",
+  "instagram": "https://www.instagram.com/susimiu/",
+  "etsy": "",
+  "photoUrl": "https://susimiu.es/wp-content/uploads/2021/05/SM-favicon.jpg",
+  "timeline": [
+    {
+      "date": "2013",
+      "kind": "vie",
+      "label": "Premier billet du blog Sweet and Knit, ancêtre de Susimiu (date incertaine)"
+    },
+    {
+      "date": "2014",
+      "kind": "vie",
+      "label": "Création de la marque Susimiu (mention « est. 2014 »)"
+    },
+    {
+      "date": "2016-07-26",
+      "kind": "prix",
+      "label": "Portrait et tuto de tapis mandala sur le blog Katia (série Craft Lovers)"
+    },
+    {
+      "date": "2022-09",
+      "kind": "oeuvre",
+      "label": "Kits du Jersey Berry liés au cours Domestika"
+    },
+    {
+      "date": "2024",
+      "kind": "vie",
+      "label": "Dix ans de la marque, kit tote bag et trousse en édition spéciale"
+    },
+    {
+      "date": "2024-11",
+      "kind": "oeuvre",
+      "label": "Sortie du livre « De la idea al patrón » et de ses kits"
+    },
+    {
+      "date": "2025-04",
+      "kind": "oeuvre",
+      "label": "Sortie du livre « Mujeres que inspiran »"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Susimiu, accueil et boutique",
+      "url": "https://susimiu.es"
+    },
+    {
+      "label": "Susimiu, Sobre mí",
+      "url": "https://susimiu.es/sobre-mi/"
+    },
+    {
+      "label": "Susimiu, Aviso legal",
+      "url": "https://susimiu.es/aviso-legal/"
+    },
+    {
+      "label": "Susimiu, catégorie Kits Susimiu",
+      "url": "https://susimiu.es/categoria-producto/kits-susimiu/"
+    },
+    {
+      "label": "Susimiu, catégorie Kits Casasol",
+      "url": "https://susimiu.es/categoria-producto/kits-casasol/"
+    },
+    {
+      "label": "Susimiu, catégorie Patrones",
+      "url": "https://susimiu.es/categoria-producto/patrones/"
+    },
+    {
+      "label": "Susimiu, patron PDF Chal Cereza",
+      "url": "https://susimiu.es/producto/patron-pdf-descargable-chal-cereza-20-folios-con-diagramas-y-explicaciones-y-video-explicativo-incluido-ganchillo/"
+    },
+    {
+      "label": "Susimiu, livre Mujeres que inspiran",
+      "url": "https://susimiu.es/producto/libro-susimiu-mujeres-que-inspira-proyectos-inolvidables-de-crochet/"
+    },
+    {
+      "label": "Susimiu, kit 10 años",
+      "url": "https://susimiu.es/producto/kit-tote-bag-neceser-fieltro-edicion-especial-10-anos-susimiu-est-2014-crochet-lifestyle/"
+    },
+    {
+      "label": "Domestika, cours de Laura Carmona (Susimiu)",
+      "url": "https://www.domestika.org/en/courses/4396-crochet-garments-with-color-and-texture"
+    },
+    {
+      "label": "Blog Katia, Craft Lovers Mandala Rug by Susimiu (2016)",
+      "url": "https://www.katia.com/blog/en/craft-lovers-mandala-rug-crochet-washi-susimiu/"
+    },
+    {
+      "label": "Ravelry, patron Chal Cereza",
+      "url": "https://www.ravelry.com/patterns/library/chal-cereza"
+    }
+  ],
+  "researchNotes": "Susimiu fait du crochet (ganchillo), pas de la broderie : l'indice de départ parlait de patrons de broderie, ce qui ne correspond pas au site. La rubrique tissus est donc vide. L'aviso legal indique « La presente web pertenece Laura Carmona Sanjuán, con CIF [numéro personnel retiré], y domicilio en Córdoba » : c'est un NIF de personne physique, ce qui suggère une activité en autónoma (forme non écrite sur le site). Une autónoma ne publie pas de comptes : aucun chiffre d'affaires trouvé, aucune recherche infoempresa ou einforma n'a donné de résultat. Date de création : 2014 d'après la mention « est. 2014 » ; la page Sobre mí parle d'un blog lancé en 2013, avec une formulation confuse, et donne deux âges différents selon les sources (26 ans en 2016 chez Katia, 31 ans sur Sobre mí, page non datée). Instagram @susimiu : la page n'a pas affiché le nombre d'abonnés ; HypeAuditor (page non lisible, extrait de recherche) donne environ 350000 abonnés mais classe le compte en mode enfant, chiffre non retenu. Pas de chaîne YouTube, Pinterest ni Etsy confirmés. Les meilleures ventes viennent du bloc « más vendidos » de l'accueil. Les lignes de fils (Veggie Wool, Cotton Air, Lino Flamé, Eureka…) sont vendues sans marque de fabricant visible, sauf Casasol Filicor ; il faut vérifier s'il s'agit de marques maison ou de fils Casasol. L'éditeur des deux livres et leur ISBN ne sont pas indiqués (autoédition possible). Les collections de fascicules (1ª, 2ª, 3ª colección) du menu n'ont pas pu être lues. Prix du cours Domestika non affiché. Images non renseignées à la demande."
+}
