@@ -199,6 +199,8 @@ export default defineSchema({
     // Concurrentes : marques de kits de broderie et de patrons PDF en France et en Espagne.
     // relevance : le classement de l'atelier, « proche » de ce qu'elle veut faire ou « loin » ; absent tant qu'elle n'a pas classé.
     competitors: defineTable({ ...competitorFields, relevance: v.optional(v.union(v.literal('proche'), v.literal('loin'))), nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
+    // Les concurrentes que l'atelier a supprimées : l'import ne les recrée pas, tant qu'elle ne les rajoute pas elle-même.
+    removedCompetitors: defineTable({ nameKey: v.string(), name: v.string(), removedAt: v.number() }).index('by_nameKey', ['nameKey']),
     // Documentaires et vidéos sur la broderie d'art, notamment pour préparer le CAP.
     videos: defineTable({ ...videoFields, createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_url', ['url']),
     // Journal de l'agent de veille : chaque recherche, son déroulé, ce qu'elle a coûté (en dollars, facturé par OpenRouter).

@@ -45,6 +45,8 @@ export const save = mutation({
         const key = nameKey(data.name), now = Date.now();
         const twin = await ctx.db.query('competitors').withIndex('by_nameKey', q => q.eq('nameKey', key)).first();
         if (twin && twin._id !== id) throw new ConvexError(`${twin.name} est déjà dans la liste.`);
+        // Rajoutée à la main : l'import peut de nouveau la compléter.
+        for (const gone of await ctx.db.query('removedCompetitors').withIndex('by_nameKey', q => q.eq('nameKey', key)).collect()) await ctx.db.delete(gone._id);
         if (id) { await ctx.db.patch(id, { ...data, name: data.name.trim(), nameKey: key, updatedAt: now }); return id; }
         return await ctx.db.insert('competitors', { ...data, name: data.name.trim(), nameKey: key, createdAt: now, updatedAt: now, authorName: 'L’atelier' });
     }
@@ -60,7 +62,13 @@ export const setRelevance = mutation({
 });
 
 export const remove = mutation({
-    args: { id: v.id('competitors') }, handler: async (ctx, { id }) => { await requireAdmin(ctx); await ctx.db.delete(id); }
+    args: { id: v.id('competitors') }, handler: async (ctx, { id }) => {
+        await requireAdmin(ctx);
+        const c = await ctx.db.get(id); if (!c) return;
+        await ctx.db.delete(id);
+        if (!await ctx.db.query('removedCompetitors').withIndex('by_nameKey', q => q.eq('nameKey', c.nameKey)).first())
+            await ctx.db.insert('removedCompetitors', { nameKey: c.nameKey, name: c.name, removedAt: Date.now() });
+    }
 });
 
 /**
@@ -75,6 +83,7 @@ export const importCompetitor = internalMutation({
         const key = nameKey(found.name), now = Date.now();
         const twin = await ctx.db.query('competitors').withIndex('by_nameKey', q => q.eq('nameKey', key)).first();
         if (twin) { await ctx.db.patch(twin._id, { ...mergeCompetitor(fieldsOf(twin), found), updatedAt: now }); return { id: twin._id, created: false }; }
+        if (await ctx.db.query('removedCompetitors').withIndex('by_nameKey', q => q.eq('nameKey', key)).first()) return { id: null, created: false, removed: true };
         return { id: await ctx.db.insert('competitors', { ...found, nameKey: key, createdAt: now, updatedAt: now, authorName: 'Agent de veille' }), created: true };
     }
 });

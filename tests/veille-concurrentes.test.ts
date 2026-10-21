@@ -68,6 +68,20 @@ describe('Concurrentes', () => {
         expect([merged.registrationId, merged.researchNotes]).toEqual(['', 'NIF [numéro personnel retiré].']);
     });
 
+    it('ne recrée pas à l’import une concurrente que l’atelier a supprimée, sauf si elle la rajoute', async () => {
+        const { t, atelier } = await setup();
+        const json = JSON.stringify({ name: 'B comme Broderie', country: 'France' });
+        const first = await t.mutation(anyApi.veilleConcurrentes.importCompetitor, { json }) as { id: string, created: boolean };
+        expect(first.created).toBe(true);
+        await atelier.mutation(anyApi.veilleConcurrentes.remove, { id: first.id });
+        expect(await t.mutation(anyApi.veilleConcurrentes.importCompetitor, { json: JSON.stringify({ name: 'b comme broderie' }) })).toMatchObject({ created: false, removed: true });
+        expect(await atelier.query(anyApi.veilleConcurrentes.list)).toHaveLength(0);
+        // Rajoutée à la main, l'import la complète de nouveau.
+        await atelier.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('B comme Broderie') });
+        expect(await t.mutation(anyApi.veilleConcurrentes.importCompetitor, { json })).toMatchObject({ created: false });
+        expect(await atelier.query(anyApi.veilleConcurrentes.list)).toHaveLength(1);
+    });
+
     it('classe une concurrente, garde le classement après une modification ou un import, et le retire', async () => {
         const { t, atelier, lola } = await setup();
         const id = await atelier.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('Marque Proche') });
