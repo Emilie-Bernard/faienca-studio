@@ -146,7 +146,7 @@ export function WorkshopPage({ id, onBack, onOpenArtist, onToast }: { id: string
 }
 
 /** Image de tête d'une carte d'atelier ; sans image, un aplat avec les initiales. */
-function CardCover({ src, name }: { src: string, name: string }) {
+export function CardCover({ src, name }: { src: string, name: string }) {
     const [broken, setBroken] = useState(false);
     return <span className="veille-card-cover" aria-hidden>
         {src && !broken ? <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} /> : <span>{name.split(/\s+/).filter(w => /^[A-ZÀ-Ý]/.test(w)).map(w => w[0]).slice(0, 2).join('')}</span>}
@@ -154,7 +154,7 @@ function CardCover({ src, name }: { src: string, name: string }) {
 }
 
 /** Une image qui ne se charge plus disparaît au lieu de laisser un cadre vide. */
-function GalleryImage({ src, alt }: { src: string, alt: string }) {
+export function GalleryImage({ src, alt }: { src: string, alt: string }) {
     const [broken, setBroken] = useState(false);
     return broken ? <span className="veille-gallery-missing">Image indisponible</span> : <img src={src} alt={alt} loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} />;
 }

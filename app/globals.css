@@ -4102,6 +4102,31 @@ button.edit-link.inline-link {
     .veille-portrait-head h2 { font-size: 32px }
     .veille-avatar.large { width: 84px; height: 84px }
 }
+/* Concurrentes */
+.veille-row.products { grid-template-columns: minmax(0, 3fr) 100px 100px auto 36px }
+.veille-row.products>input:nth-of-type(4), .veille-row.products>input:nth-of-type(5) { grid-column: span 2 }
+.veille-row.products textarea { grid-column: 1 / -2; min-height: 36px }
+.veille-row.products .veille-check { height: auto; align-self: center; white-space: nowrap }
+.veille-row.figures { grid-template-columns: 76px minmax(0, 1fr) minmax(0, 1fr) 90px minmax(0, 1fr) 36px }
+.veille-row.audience { grid-template-columns: minmax(0, 2fr) 110px 100px minmax(0, 2fr) 36px }
+@media (max-width: 640px) {
+    .veille-row.products, .veille-row.figures, .veille-row.audience { grid-template-columns: minmax(0, 1fr) 36px }
+    .veille-row.products>* { grid-column: auto !important }
+    .veille-row.products textarea { grid-column: 1 / -1 !important }
+}
+.veille-facts h4 { margin: 0 0 4px; font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted-text) }
+.veille-threads { display: inline-flex; align-items: center; gap: 5px }
+.veille-bestseller { display: inline-flex; align-items: center; gap: 3px; margin-left: 6px; padding: 0 7px; border-radius: 999px; background: var(--earth-yellow); color: var(--ink); font-size: 11px; vertical-align: 1px }
+.veille-figures { min-width: 0; font-size: 13px }
+.veille-figures th, .veille-figures td { padding: 6px 8px; min-width: 0; font-size: 12px; background: none; white-space: nowrap }
+.veille-figures td:first-child { min-width: 0; font-weight: 600 }
+.veille-audience { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none }
+.veille-audience li { display: flex; align-items: baseline; gap: 8px; font-size: 14px }
+.veille-audience li>:first-child { flex: 1; color: var(--navy) }
+.veille-audience small { font-size: 12px; color: var(--muted-text) }
+.competitors-table td:first-child { min-width: 180px }
+.competitors-table td:first-child .veille-inline-link { font: 500 16px var(--font-heading) }
+.competitors-table td.num { white-space: nowrap; text-align: right }
 /* Journal de l'agent de veille */
 .agent-log { display: flex; flex-direction: column; gap: 14px }
 .agent-log .spin { animation: library-spin 1s linear infinite }

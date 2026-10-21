@@ -67,6 +67,22 @@ export const workshopFields = {
     works: v.array(workItem),
     timeline: v.array(timelineItem), sources: v.array(v.object({ label: v.string(), url: v.string() })), researchNotes: v.string(),
 };
+const amount = v.union(v.number(), v.null());
+export const competitorFields = {
+    name: v.string(), country: v.string(), city: v.string(), region: v.string(),
+    foundedDate: v.string(), closedDate: v.string(), founders: v.array(v.string()),
+    legalName: v.string(), legalForm: v.string(), registrationId: v.string(),
+    offers: v.array(v.string()), styles: v.array(v.string()), techniques: v.array(v.string()), threads: v.array(v.string()), fabrics: v.array(v.string()),
+    salesChannels: v.array(v.string()), priceRange: v.string(), languages: v.array(v.string()),
+    audience: v.array(v.object({ id: v.string(), platform: v.string(), followers: amount, date: v.string(), url: v.string() })),
+    financials: v.array(v.object({ id: v.string(), year: v.string(), revenue: amount, netIncome: amount, employees: v.string(), source: v.string() })),
+    products: v.array(v.object({ id: v.string(), title: v.string(),
+        format: v.union(v.literal('kit'), v.literal('pdf'), v.literal('box'), v.literal('cours'), v.literal('livre'), v.literal('autre')),
+        price: v.string(), bestseller: v.boolean(), description: v.string(), url: v.string(), imageUrl: v.string() })),
+    summary: v.string(), history: v.string(), positioning: v.string(),
+    website: v.string(), instagram: v.string(), etsy: v.string(), photoUrl: v.string(),
+    timeline: v.array(timelineItem), sources: v.array(v.object({ label: v.string(), url: v.string() })), researchNotes: v.string(),
+};
 export const videoFields = {
     title: v.string(), url: v.string(),
     platform: v.union(v.literal('youtube'), v.literal('arte'), v.literal('francetv'), v.literal('ina'), v.literal('vimeo'), v.literal('autre')),
@@ -180,6 +196,8 @@ export default defineSchema({
     }).index('by_url', ['url']),
     // Ateliers et maisons de broderie d'art en France : fondateurs, équipe, histoire.
     workshops: defineTable({ ...workshopFields, works: v.optional(v.array(workItem)), nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
+    // Concurrentes : marques de kits de broderie et de patrons PDF en France et en Espagne.
+    competitors: defineTable({ ...competitorFields, nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
     // Documentaires et vidéos sur la broderie d'art, notamment pour préparer le CAP.
     videos: defineTable({ ...videoFields, createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_url', ['url']),
     // Journal de l'agent de veille : chaque recherche, son déroulé, ce qu'elle a coûté (en dollars, facturé par OpenRouter).

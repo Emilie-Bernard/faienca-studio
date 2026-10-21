@@ -353,3 +353,141 @@ export function cardTags(labels: string[], techniques: string[], max = 3): strin
   const known = labels.map(shortTag).filter(t => ['EPV', 'MOF', 'Maître d’art'].includes(t));
   return [...new Set([...known, ...techniques.map(shortTag)])].filter(Boolean).slice(0, max);
 }
+
+// --- Concurrentes : marques de kits de broderie et de patrons PDF, en France et en Espagne ---
+
+export const productFormats = ['kit', 'pdf', 'box', 'cours', 'livre', 'autre'] as const;
+export type ProductFormat = typeof productFormats[number];
+export const productFormatLabels: Record<ProductFormat, string> = { kit: 'Kit', pdf: 'PDF', box: 'Box', cours: 'Cours', livre: 'Livre', autre: 'Autre' };
+
+export type Product = { id: string; title: string; format: ProductFormat; price: string; bestseller: boolean; description: string; url: string; imageUrl: string };
+/** Un chiffre publié (comptes déposés, presse) ; un montant inconnu vaut null. Les montants sont en euros. */
+export type Financial = { id: string; year: string; revenue: number | null; netIncome: number | null; employees: string; source: string };
+export type Audience = { id: string; platform: string; followers: number | null; date: string; url: string };
+
+/** Ce que l'on sait d'une concurrente : ce qu'elle vend, avec quels fils, à quel prix, depuis quand et ce qu'elle pèse. */
+export interface CompetitorInput {
+  name: string; country: string; city: string; region: string;
+  foundedDate: string; closedDate: string; founders: string[];
+  legalName: string; legalForm: string; registrationId: string;
+  offers: string[]; styles: string[]; techniques: string[]; threads: string[]; fabrics: string[];
+  salesChannels: string[]; priceRange: string; languages: string[];
+  audience: Audience[]; financials: Financial[]; products: Product[];
+  summary: string; history: string; positioning: string;
+  website: string; instagram: string; etsy: string; photoUrl: string;
+  timeline: TimelineItem[]; sources: Link[]; researchNotes: string;
+}
+
+export const emptyCompetitor = (name = ''): CompetitorInput => ({
+  name, country: 'France', city: '', region: '', foundedDate: '', closedDate: '', founders: [],
+  legalName: '', legalForm: '', registrationId: '',
+  offers: [], styles: [], techniques: [], threads: [], fabrics: [], salesChannels: [], priceRange: '', languages: [],
+  audience: [], financials: [], products: [],
+  summary: '', history: '', positioning: '', website: '', instagram: '', etsy: '', photoUrl: '',
+  timeline: [], sources: [], researchNotes: '',
+});
+
+const isAmount = (n: number | null) => n === null || (Number.isFinite(n) && Math.abs(n) < 1e10);
+
+export function competitorError(c: CompetitorInput): string | null {
+  if (!c.name.trim() || c.name.length > 160) return 'Le nom doit contenir entre 1 et 160 caractères.';
+  if (!isDate(c.foundedDate) || !isDate(c.closedDate)) return 'Les dates de création et de fermeture s’écrivent AAAA, AAAA-MM ou AAAA-MM-JJ.';
+  if (c.summary.length > 600) return 'Le résumé ne peut pas dépasser 600 caractères.';
+  if (c.history.length > 20000 || c.positioning.length > 6000) return 'L’histoire ou le positionnement est trop long.';
+  if (c.priceRange.length > 300) return 'Les prix ne peuvent pas dépasser 300 caractères.';
+  for (const list of [c.founders, c.offers, c.styles, c.techniques, c.threads, c.fabrics, c.salesChannels, c.languages]) if (list.length > 40) return 'Trop d’éléments dans cette fiche.';
+  if (c.products.length > 100 || c.financials.length > 30 || c.audience.length > 20 || c.timeline.length > 300 || c.sources.length > 100) return 'Trop d’éléments dans cette fiche.';
+  for (const u of [c.website, c.instagram, c.etsy, c.photoUrl]) if (!isLink(u)) return 'Les liens doivent commencer par https://.';
+  for (const p of c.products) {
+    if (!p.title.trim()) return 'Chaque produit a besoin d’un nom.';
+    if (!productFormats.includes(p.format)) return `« ${p.title} » : format inconnu.`;
+    if (!isLink(p.url) || !isLink(p.imageUrl)) return `Produit « ${p.title} » : les liens doivent commencer par https://.`;
+  }
+  for (const f of c.financials) {
+    if (!/^\d{4}$/.test(f.year)) return 'L’année d’un chiffre d’affaires s’écrit AAAA.';
+    if (!isAmount(f.revenue) || !isAmount(f.netIncome)) return `${f.year} : montant invalide.`;
+  }
+  for (const a of c.audience) {
+    if (!a.platform.trim()) return 'Chaque audience a besoin d’une plateforme.';
+    if (!isAmount(a.followers) || !isDate(a.date) || !isLink(a.url)) return `${a.platform} : nombre, date ou lien invalide.`;
+  }
+  for (const t of c.timeline) {
+    if (!t.label.trim()) return 'Chaque date de la frise a besoin d’un libellé.';
+    if (!t.date || !DATE.test(t.date)) return `« ${t.label} » : la date s’écrit AAAA, AAAA-MM ou AAAA-MM-JJ.`;
+    if (!timelineKinds.includes(t.kind)) return `« ${t.label} » : type de date inconnu.`;
+  }
+  for (const s of c.sources) if (!s.url || !isLink(s.url)) return 'Chaque source doit être un lien https://.';
+  return null;
+}
+
+/** « 185000 », « 185 000 € » ou « 1,2 M€ » deviennent un nombre d'euros ; le reste vaut null. */
+const amount = (v: unknown): number | null => {
+  if (typeof v === 'number') return Number.isFinite(v) ? Math.round(v) : null;
+  if (typeof v !== 'string') return null;
+  const m = v.replace(/\s|€|eur/gi, '').replace(',', '.').match(/^(-?\d+(?:\.\d+)?)(k|m)?$/i);
+  if (!m) return null;
+  return Math.round(Number(m[1]) * (m[2] ? (m[2].toLowerCase() === 'k' ? 1e3 : 1e6) : 1));
+};
+
+export function normalizeCompetitor(raw: unknown, newId: () => string): CompetitorInput {
+  const r = (raw && typeof raw === 'object' ? raw : {}) as Record<string, unknown>;
+  const seenSources = new Set<string>(), seenProducts = new Set<string>(), seenYears = new Set<string>();
+  const format = (v: unknown): ProductFormat => { const s = str(v, 20).toLowerCase(); return productFormats.includes(s as ProductFormat) ? s as ProductFormat : s.includes('pdf') || s.includes('patron') ? 'pdf' : 'autre'; };
+  return {
+    // Pas de pays par défaut : un import en plusieurs envois ne doit pas remettre « France » sur une marque espagnole.
+    name: str(r.name, 160), country: str(r.country, 80), city: str(r.city, 80), region: str(r.region, 80),
+    foundedDate: date(r.foundedDate), closedDate: date(r.closedDate), founders: strings(r.founders, 120, 40),
+    legalName: str(r.legalName, 200), legalForm: str(r.legalForm, 80), registrationId: str(r.registrationId, 40),
+    offers: strings(r.offers, 80, 40), styles: strings(r.styles, 80, 40), techniques: strings(r.techniques, 80, 40), threads: strings(r.threads, 120, 40),
+    fabrics: strings(r.fabrics, 80, 40), salesChannels: strings(r.salesChannels, 120, 40), priceRange: str(r.priceRange, 300), languages: strings(r.languages, 40, 40),
+    audience: arr(r.audience).map(a => ({ id: newId(), platform: str(a.platform, 60), followers: amount(a.followers), date: date(a.date), url: link(a.url) })).filter(a => a.platform).slice(0, 20),
+    financials: arr(r.financials).map(f => ({ id: newId(), year: /^\d{4}$/.test(str(f.year, 4)) ? str(f.year, 4) : '', revenue: amount(f.revenue), netIncome: amount(f.netIncome), employees: str(typeof f.employees === 'number' ? String(f.employees) : f.employees, 40), source: str(f.source, 200) }))
+      .filter(f => f.year && !seenYears.has(f.year) && seenYears.add(f.year)).sort((a, b) => b.year.localeCompare(a.year)).slice(0, 30),
+    products: arr(r.products).map(p => ({ id: newId(), title: str(p.title, 200), format: format(p.format), price: str(typeof p.price === 'number' ? `${p.price} €` : p.price, 60), bestseller: p.bestseller === true, description: str(p.description, 2000), url: link(p.url), imageUrl: link(p.imageUrl) }))
+      .filter(p => p.title && !seenProducts.has(nameKey(p.title)) && seenProducts.add(nameKey(p.title))).slice(0, 100),
+    summary: str(r.summary, 600), history: str(r.history, 20000), positioning: str(r.positioning, 6000),
+    website: link(r.website), instagram: link(r.instagram), etsy: link(r.etsy), photoUrl: link(r.photoUrl),
+    timeline: sortTimeline(arr(r.timeline).map(t => ({ id: newId(), date: date(t.date), kind: (timelineKinds.includes(t.kind as TimelineKind) ? t.kind : 'autre') as TimelineKind, label: str(t.label, 300) })).filter(t => t.date && t.label)).slice(0, 300),
+    sources: arr(r.sources).map(s => ({ label: str(s.label, 200), url: link(s.url) })).filter(s => s.url && !seenSources.has(s.url) && seenSources.add(s.url)).slice(0, 100),
+    researchNotes: str(r.researchNotes, 4000),
+  };
+}
+
+/** Ce qui est trouvé complète la fiche : un produit, une année ou une plateforme déjà connus sont complétés, pas dupliqués. */
+export function mergeCompetitor(current: CompetitorInput, found: CompetitorInput): CompetitorInput {
+  const pick = (a: string, b: string) => b || a;
+  const union = (a: string[], b: string[]) => { const seen = new Set<string>(); return [...a, ...b].filter(x => { const k = nameKey(x); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 40); };
+  const byKey = <T extends object>(a: T[], b: T[], key: (x: T) => string, fill: (x: T, f: T) => T, max: number) =>
+    [...a.map(x => { const f = b.find(y => key(y) === key(x)); return f ? fill(x, f) : x; }), ...b.filter(f => !a.some(x => key(x) === key(f)))].slice(0, max);
+  const timeline = mergePortrait({ ...emptyPortrait(), timeline: current.timeline, sources: current.sources }, { ...emptyPortrait(), timeline: found.timeline, sources: found.sources });
+  return {
+    name: current.name || found.name, country: pick(current.country, found.country), city: pick(current.city, found.city), region: pick(current.region, found.region),
+    foundedDate: pick(current.foundedDate, found.foundedDate), closedDate: pick(current.closedDate, found.closedDate), founders: union(current.founders, found.founders),
+    legalName: pick(current.legalName, found.legalName), legalForm: pick(current.legalForm, found.legalForm), registrationId: pick(current.registrationId, found.registrationId),
+    offers: union(current.offers, found.offers), styles: union(current.styles, found.styles), techniques: union(current.techniques, found.techniques), threads: union(current.threads, found.threads),
+    fabrics: union(current.fabrics, found.fabrics), salesChannels: union(current.salesChannels, found.salesChannels), priceRange: pick(current.priceRange, found.priceRange), languages: union(current.languages, found.languages),
+    // Une audience plus récente remplace l'ancienne sur la même plateforme.
+    audience: byKey(current.audience, found.audience, a => nameKey(a.platform), (x, f) => f.followers !== null && (f.date >= x.date || x.followers === null) ? { ...x, followers: f.followers, date: f.date, url: x.url || f.url } : x, 20),
+    financials: byKey(current.financials, found.financials, f => f.year, (x, f) => ({ ...x, revenue: x.revenue ?? f.revenue, netIncome: x.netIncome ?? f.netIncome, employees: x.employees || f.employees, source: x.source || f.source }), 30).sort((a, b) => b.year.localeCompare(a.year)),
+    products: byKey(current.products, found.products, p => nameKey(p.title), (x, f) => ({ ...x, price: x.price || f.price, bestseller: x.bestseller || f.bestseller, description: x.description || f.description, url: x.url || f.url, imageUrl: x.imageUrl || f.imageUrl }), 100),
+    summary: pick(current.summary, found.summary), history: pick(current.history, found.history), positioning: pick(current.positioning, found.positioning),
+    website: pick(current.website, found.website), instagram: pick(current.instagram, found.instagram), etsy: pick(current.etsy, found.etsy), photoUrl: pick(current.photoUrl, found.photoUrl),
+    timeline: timeline.timeline, sources: timeline.sources,
+    researchNotes: pick(current.researchNotes, found.researchNotes),
+  };
+}
+
+/** « 185 000 € », « 1,2 M€ » ; rien si le montant est inconnu. */
+export function euros(n: number | null): string {
+  if (n === null) return '';
+  if (Math.abs(n) >= 1e6) return (n / 1e6).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' M€';
+  return n.toLocaleString('fr-FR') + ' €';
+}
+
+/** « 12,4 k » abonnés ; le nombre exact en dessous de 10 000. */
+export function followersFr(n: number | null): string {
+  if (n === null) return '';
+  if (n >= 1e6) return (n / 1e6).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' M';
+  if (n >= 1e4) return (n / 1e3).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' k';
+  return n.toLocaleString('fr-FR');
+}

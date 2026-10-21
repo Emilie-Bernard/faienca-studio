@@ -8,7 +8,7 @@ export const studioRoutes: Record<string, string> = {
 };
 
 /** Les pages qui ouvrent une fiche : /produits/<id>, /kits/<id>, /stage/<id>.
- *  La veille a des sous-pages : /veille/ateliers, /veille/nouvelles, /veille/videos, /veille/<portrait>, /veille/atelier/<id>. */
+ *  La veille a des sous-pages : /veille/ateliers, /veille/nouvelles, /veille/videos, /veille/<portrait>, /veille/atelier/<id>, /veille/concurrente/<id>. */
 export const withDetail = ['Produits', 'Kits', 'Stage', 'Veille textile'];
 
 export function studioPath(view: string, id?: string | null): string {

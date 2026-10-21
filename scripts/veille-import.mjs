@@ -2,9 +2,10 @@
 //   node scripts/veille-import.mjs                  → les portraits (data/veille/portraits/*.json), vers dev
 //   node scripts/veille-import.mjs --ateliers       → les ateliers (data/veille/ateliers/*.json)
 //   node scripts/veille-import.mjs --videos         → les vidéos (data/veille/videos.json)
-//   node scripts/veille-import.mjs --tout           → les trois
+//   node scripts/veille-import.mjs --concurrentes   → les concurrentes (data/veille/concurrentes/*.json)
+//   node scripts/veille-import.mjs --tout           → tout
 //   … --prod                                        → vers la production au lieu de dev
-//   node scripts/veille-import.mjs a.json b.json    → seulement ces portraits (avec --ateliers : ces ateliers)
+//   node scripts/veille-import.mjs a.json b.json    → seulement ces portraits (avec --ateliers ou --concurrentes : ces fiches)
 // Une fiche déjà présente (même nom, ou même lien pour une vidéo) est complétée, pas dupliquée.
 // On appelle le CLI Convex avec node directement : sous Windows, npx coupe les longues lignes de commande.
 import { spawnSync } from 'node:child_process';
@@ -61,10 +62,11 @@ function importEach(label, list, fn, report) {
     }
 }
 
-const onlyOthers = args.some(a => a === '--ateliers' || a === '--videos');
+const onlyOthers = args.some(a => a === '--ateliers' || a === '--videos' || a === '--concurrentes');
 const portraits = all ? jsonIn('data/veille/portraits') : onlyOthers ? [] : files.length ? files : jsonIn('data/veille/portraits');
 if (portraits.length) importEach('Portraits', portraits, 'veille:importPortrait', out => `${out.news ?? 0} nouvelle(s) ajoutée(s)`);
 if (all || args.includes('--ateliers')) importEach('Ateliers', files.length && !all ? files : jsonIn('data/veille/ateliers'), 'veilleAteliers:importWorkshop', out => out.created ? 'ajouté' : 'complété');
+if (all || args.includes('--concurrentes')) importEach('Concurrentes', files.length && !all ? files : jsonIn('data/veille/concurrentes'), 'veilleConcurrentes:importCompetitor', out => out.created ? 'ajoutée' : 'complétée');
 if (all || args.includes('--videos')) {
     const file = 'data/veille/videos.json';
     if (!existsSync(file)) console.log('Aucun fichier de vidéos.');
