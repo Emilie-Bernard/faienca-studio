@@ -29,6 +29,7 @@ import type * as users from "../users.js";
 import type * as veille from "../veille.js";
 import type * as veilleAgent from "../veilleAgent.js";
 import type * as veilleAteliers from "../veilleAteliers.js";
+import type * as veilleConcurrentes from "../veilleConcurrentes.js";
 import type * as veilleVideos from "../veilleVideos.js";
 
 import type {
@@ -59,6 +60,7 @@ declare const fullApi: ApiFromModules<{
   veille: typeof veille;
   veilleAgent: typeof veilleAgent;
   veilleAteliers: typeof veilleAteliers;
+  veilleConcurrentes: typeof veilleConcurrentes;
   veilleVideos: typeof veilleVideos;
 }>;
 
