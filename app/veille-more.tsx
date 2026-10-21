@@ -148,8 +148,8 @@ export function WorkshopPage({ id, onBack, onOpenArtist, onToast }: { id: string
 /** Image de tête d'une carte d'atelier ; sans image, un aplat avec les initiales. */
 export function CardCover({ src, name }: { src: string, name: string }) {
     const [broken, setBroken] = useState(false), [logo, setLogo] = useState(false);
-    // Un logo ou une icône (petite image, ou presque carrée) se montre en entier, sans être recadré.
-    const measure = (img: HTMLImageElement) => setLogo(img.naturalWidth < 400 || img.naturalWidth / img.naturalHeight < 1.2);
+    // Une vraie photo (grande, à peu près en 4/3 ou 16/9) remplit la case ; un logo, une icône ou un bandeau se montre en entier, au milieu, sans être recadré.
+    const measure = (img: HTMLImageElement) => { const ratio = img.naturalWidth / img.naturalHeight; setLogo(!(img.naturalWidth >= 800 && ratio >= 1.1 && ratio <= 1.9)); };
     return <span className={logo ? 'veille-card-cover is-logo' : 'veille-card-cover'} aria-hidden>
         {src && !broken ? <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onLoad={e => measure(e.currentTarget)} onError={() => setBroken(true)} /> :<span>{name.split(/\s+/).filter(w => /^[A-ZÀ-Ý]/.test(w)).map(w => w[0]).slice(0, 2).join('')}</span>}
     </span>;
