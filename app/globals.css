@@ -4229,6 +4229,10 @@ button.edit-link.inline-link {
 .veille-card-foot>span:first-child:not(:only-child) { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
 
 /* Concurrentes : une carte en deux colonnes, le logo carré à gauche, les chiffres en pied de carte */
+/* Barre de filtres : les champs et les boutons s'alignent sur le bas, et la liste respire en dessous */
+.comp-toolbar { align-items: flex-end; margin-bottom: 32px }
+.comp-group { margin-top: 36px }
+.comp-group:first-of-type { margin-top: 0 }
 .comp-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)) !important; gap: 14px !important }
 .comp-card { display: flex; gap: 16px; width: 100%; height: 100%; padding: 16px; text-align: left; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .15s }
 .comp-card:hover { border-color: #cfc3b3; box-shadow: 0 6px 20px #2c28251a; transform: translateY(-1px) }

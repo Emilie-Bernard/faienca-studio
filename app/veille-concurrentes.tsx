@@ -81,7 +81,7 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
         </li>;
     };
     return <>
-        <div className="veille-toolbar">
+        <div className="veille-toolbar comp-toolbar">
             <label className="search"><Search size={16} /><input aria-label="Rechercher une concurrente" placeholder="Marque, ville, créatrice, style, fil…" value={search} onChange={e => setSearch(e.target.value)} /></label>
             {countries.length > 1 && <label className="filter-field">Pays<select value={country} onChange={e => setCountry(e.target.value)}><option value="">Tous</option>{countries.map(c => <option key={c}>{c}</option>)}</select></label>}
             {offers.length > 0 && <label className="filter-field">Vend<select value={offer} onChange={e => setOffer(e.target.value)}><option value="">Tout</option>{offers.map(o => <option key={o}>{o}</option>)}</select></label>}
@@ -103,7 +103,7 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
                     <td className="num">{r.revenue?.amount != null ? <>{euros(r.revenue.amount)}<small>{r.revenue.year}</small></> : '—'}</td>
                     <td className="num">{r.instagram !== null ? followersFr(r.instagram) : '—'}</td>
                 </tr>)}</tbody></table></div>
-            : groups.map(g => <section key={g.country} className="veille-group"><h2>{g.country} <span>{g.items.length}</span></h2><ul className="veille-list comp-list">{g.items.map(card)}</ul></section>)}
+            : groups.map(g => <section key={g.country} className="veille-group comp-group"><h2>{g.country} <span>{g.items.length}</span></h2><ul className="veille-list comp-list">{g.items.map(card)}</ul></section>)}
         {adding && <CompetitorDialog competitor={null} onClose={() => setAdding(false)} onSaved={id => { setAdding(false); onOpen(id); }} onToast={onToast} />}
     </>;
 }
