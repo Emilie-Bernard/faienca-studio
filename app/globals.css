@@ -4242,4 +4242,18 @@ button.edit-link.inline-link {
 .comp-main { display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 0 }
 .comp-main>strong { font: 500 20px/1.15 var(--font-heading) }
 .comp-main>small { font-size: 12px; color: var(--muted-text) }
+/* Classement : deux boutons pouce, en haut à droite de la carte ; une proche a un liseré vert, une « pas du tout » s'efface */
+.comp-item { position: relative }
+.comp-item>.comp-relevance { position: absolute; top: 12px; right: 12px; z-index: 1 }
+.comp-item .comp-main>strong { padding-right: 64px }
+.comp-item.proche .comp-card { border-color: #8fa77a; box-shadow: inset 3px 0 0 #8fa77a }
+.comp-item.loin .comp-card, .competitors-table tr.loin td:not(:first-child) { opacity: .5 }
+.comp-item.loin:hover .comp-card { opacity: .85 }
+.comp-relevance { display: inline-flex; gap: 4px }
+.comp-relevance button { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted-text); font-size: 13px; cursor: pointer; transition: background .15s, color .15s, border-color .15s }
+.comp-relevance.compact button { width: 28px; height: 28px; padding: 0; justify-content: center }
+.comp-relevance button:hover { border-color: #cfc3b3; color: var(--ink) }
+.comp-relevance button:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px }
+.comp-relevance button.proche.on { background: #e3ecd8; border-color: #8fa77a; color: #3f5a2c }
+.comp-relevance button.loin.on { background: #f3e1dc; border-color: #c98f80; color: #8a3a26 }
 .comp-stats { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: auto; padding-top: 10px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted-text) }

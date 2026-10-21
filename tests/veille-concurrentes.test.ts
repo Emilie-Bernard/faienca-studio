@@ -55,4 +55,20 @@ describe('Concurrentes', () => {
         await expect(atelier.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('Un chat dans l’aiguille') })).rejects.toThrow('déjà');
         await expect(lola.query(anyApi.veilleConcurrentes.list)).rejects.toThrow('propriétaire');
     });
+
+    it('classe une concurrente, garde le classement après une modification ou un import, et le retire', async () => {
+        const { t, atelier, lola } = await setup();
+        const id = await atelier.mutation(anyApi.veilleConcurrentes.save, { data: emptyCompetitor('Marque Proche') });
+        const relevance = async () => (await atelier.query(anyApi.veilleConcurrentes.list) as { relevance: string | null }[])[0].relevance;
+        expect(await relevance()).toBeNull();
+        await atelier.mutation(anyApi.veilleConcurrentes.setRelevance, { id, relevance: 'proche' });
+        await atelier.mutation(anyApi.veilleConcurrentes.save, { id, data: { ...emptyCompetitor('Marque Proche'), city: 'Lyon' } });
+        await t.mutation(anyApi.veilleConcurrentes.importCompetitor, { json: JSON.stringify({ name: 'marque proche', threads: ['DMC'] }) });
+        expect(await relevance()).toBe('proche');
+        await atelier.mutation(anyApi.veilleConcurrentes.setRelevance, { id, relevance: 'loin' });
+        expect(await relevance()).toBe('loin');
+        await atelier.mutation(anyApi.veilleConcurrentes.setRelevance, { id, relevance: null });
+        expect(await relevance()).toBeNull();
+        await expect(lola.mutation(anyApi.veilleConcurrentes.setRelevance, { id, relevance: 'proche' })).rejects.toThrow('propriétaire');
+    });
 });

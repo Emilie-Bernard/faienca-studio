@@ -197,7 +197,8 @@ export default defineSchema({
     // Ateliers et maisons de broderie d'art en France : fondateurs, équipe, histoire.
     workshops: defineTable({ ...workshopFields, works: v.optional(v.array(workItem)), nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
     // Concurrentes : marques de kits de broderie et de patrons PDF en France et en Espagne.
-    competitors: defineTable({ ...competitorFields, nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
+    // relevance : le classement de l'atelier, « proche » de ce qu'elle veut faire ou « loin » ; absent tant qu'elle n'a pas classé.
+    competitors: defineTable({ ...competitorFields, relevance: v.optional(v.union(v.literal('proche'), v.literal('loin'))), nameKey: v.string(), createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_nameKey', ['nameKey']),
     // Documentaires et vidéos sur la broderie d'art, notamment pour préparer le CAP.
     videos: defineTable({ ...videoFields, createdAt: v.number(), updatedAt: v.number(), authorName: v.string() }).index('by_url', ['url']),
     // Journal de l'agent de veille : chaque recherche, son déroulé, ce qu'elle a coûté (en dollars, facturé par OpenRouter).

@@ -2,7 +2,7 @@
 import { useState, type FormEvent } from 'react';
 import { useMutation, useQuery } from 'convex/react';
 import { anyApi } from 'convex/server';
-import { ArrowLeft, ArrowUpRight, Building2, CalendarDays, Globe, Instagram, LayoutGrid, MapPin, Pencil, Plus, Search, ShoppingBag, Scissors, Star, Table2, Trash2, X } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Building2, CalendarDays, Globe, Instagram, LayoutGrid, MapPin, Pencil, Plus, Search, ShoppingBag, Scissors, Star, Table2, ThumbsDown, ThumbsUp, Trash2, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -19,10 +19,13 @@ import { GalleryImage } from './veille-more';
 type CompetitorRow = {
     _id: string; name: string; country: string; city: string; region: string; foundedDate: string; closedDate: string;
     founders: string[]; offers: string[]; styles: string[]; techniques: string[]; threads: string[]; summary: string; photoUrl: string;
-    products: number; cover: string; revenue: { year: string; amount: number | null } | null; instagram: number | null;
+    products: number; cover: string; revenue: { year: string; amount: number | null } | null; instagram: number | null; relevance: Relevance;
 };
-type Competitor = CompetitorInput & { _id: string; authorName: string; updatedAt: number };
+type Competitor = CompetitorInput & { _id: string; authorName: string; updatedAt: number; relevance?: 'proche' | 'loin' };
 type Sort = 'name' | 'revenue' | 'instagram' | 'founded';
+/** Le classement de l'atelier : proche de ce qu'elle veut faire, pas du tout, ou pas encore classée (null). */
+type Relevance = 'proche' | 'loin' | null;
+const relevanceLabels = { proche: 'Proche de ce que je veux faire', loin: 'Pas du tout ce que je veux faire' } as const;
 
 const newId = () => crypto.randomUUID();
 const csv = (list: string[]) => list.join(', ');
@@ -44,16 +47,33 @@ function CompetitorLogo({ src, name }: { src: string, name: string }) {
     </span>;
 }
 
+/** Deux boutons pour classer une concurrente ; recliquer sur le bouton actif la remet « à classer ». */
+function RelevanceToggle({ id, value, compact, onToast }: { id: string, value: Relevance, compact?: boolean, onToast: (s: string) => void }) {
+    const setRelevance = useMutation(anyApi.veilleConcurrentes.setRelevance);
+    const pick = async (r: 'proche' | 'loin') => {
+        try { await setRelevance({ id, relevance: value === r ? null : r }); }
+        catch (err) { onToast(errorText(err, 'Le classement n’a pas été enregistré.')); }
+    };
+    return <span className={compact ? 'comp-relevance compact' : 'comp-relevance'} role="group" aria-label="Classement">
+        {(['proche', 'loin'] as const).map(r => {
+            const Icon = r === 'proche' ? ThumbsUp : ThumbsDown;
+            return <button key={r} type="button" className={value === r ? `${r} on` : r} aria-pressed={value === r} aria-label={relevanceLabels[r]} title={relevanceLabels[r]} onClick={() => void pick(r)}>
+                <Icon size={compact ? 14 : 15} />{!compact && (r === 'proche' ? 'Proche' : 'Pas du tout')}
+            </button>;
+        })}
+    </span>;
+}
+
 export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void, onToast: (s: string) => void }) {
     const rows = useQuery(anyApi.veilleConcurrentes.list) as CompetitorRow[] | undefined;
-    const [search, setSearch] = useState(''), [country, setCountry] = useState(''), [offer, setOffer] = useState(''), [thread, setThread] = useState('');
+    const [search, setSearch] = useState(''), [country, setCountry] = useState(''), [offer, setOffer] = useState(''), [thread, setThread] = useState(''), [rank, setRank] = useState('');
     const [sort, setSort] = useState<Sort>('name'), [table, setTable] = useState(false), [adding, setAdding] = useState(false);
     if (!rows) return <p className="muted">Chargement des concurrentes…</p>;
     const countries = [...new Set(rows.map(countryOf))].sort((a, b) => countryRank(a) - countryRank(b) || a.localeCompare(b, 'fr'));
     const offers = [...new Set(rows.flatMap(r => r.offers))].sort((a, b) => a.localeCompare(b, 'fr'));
     const threads = [...new Set(rows.flatMap(r => r.threads.map(shortTag)))].sort((a, b) => a.localeCompare(b, 'fr'));
     const q = search.trim().toLowerCase();
-    const shown = rows.filter(r => (!country || countryOf(r) === country) && (!offer || r.offers.includes(offer)) && (!thread || r.threads.some(t => shortTag(t) === thread))
+    const shown = rows.filter(r => (!rank || (r.relevance ?? 'aclasser') === rank) && (!country || countryOf(r) === country) && (!offer || r.offers.includes(offer)) && (!thread || r.threads.some(t => shortTag(t) === thread))
         && (!q || `${r.name} ${r.city} ${r.region} ${r.summary} ${r.founders.join(' ')} ${r.styles.join(' ')} ${r.techniques.join(' ')} ${r.threads.join(' ')}`.toLowerCase().includes(q)));
     // Un chiffre inconnu passe toujours après les chiffres connus.
     const by: Record<Sort, (a: CompetitorRow, b: CompetitorRow) => number> = {
@@ -67,7 +87,8 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
     const card = (r: CompetitorRow) => {
         const tags = [...new Set([...r.offers, ...r.styles].map(shortTag))].slice(0, 3);
         const foot = [r.revenue?.amount != null ? `CA ${r.revenue.year} : ${euros(r.revenue.amount)}` : '', r.instagram !== null ? `${followersFr(r.instagram)} abonnés` : '', r.products ? `${r.products} produit${r.products > 1 ? 's' : ''}` : ''].filter(Boolean);
-        return <li key={r._id}>
+        return <li key={r._id} className={r.relevance ? `comp-item ${r.relevance}` : 'comp-item'}>
+            <RelevanceToggle id={r._id} value={r.relevance} compact onToast={onToast} />
             <button type="button" className="comp-card" onClick={() => onOpen(r._id)}>
                 <CompetitorLogo src={r.photoUrl} name={r.name} />
                 <span className="comp-main">
@@ -83,6 +104,7 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
     return <>
         <div className="veille-toolbar comp-toolbar">
             <label className="search"><Search size={16} /><input aria-label="Rechercher une concurrente" placeholder="Marque, ville, créatrice, style, fil…" value={search} onChange={e => setSearch(e.target.value)} /></label>
+            <label className="filter-field">Classement<select value={rank} onChange={e => setRank(e.target.value)}><option value="">Toutes</option><option value="proche">Proches</option><option value="aclasser">À classer</option><option value="loin">Pas du tout</option></select></label>
             {countries.length > 1 && <label className="filter-field">Pays<select value={country} onChange={e => setCountry(e.target.value)}><option value="">Tous</option>{countries.map(c => <option key={c}>{c}</option>)}</select></label>}
             {offers.length > 0 && <label className="filter-field">Vend<select value={offer} onChange={e => setOffer(e.target.value)}><option value="">Tout</option>{offers.map(o => <option key={o}>{o}</option>)}</select></label>}
             {threads.length > 0 && <label className="filter-field">Fils<select value={thread} onChange={e => setThread(e.target.value)}><option value="">Tous</option>{threads.map(t => <option key={t}>{t}</option>)}</select></label>}
@@ -93,8 +115,9 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
         </div>
         {!rows.length ? <section className="panel client-empty"><ShoppingBag size={28} /><p>Aucune concurrente pour l’instant.</p></section>
             : !shown.length ? <p className="muted">Aucune concurrente ne correspond.</p>
-            : table ? <div className="table-scroll"><table className="competitors-table"><thead><tr>{['Marque', 'Pays', 'Création', 'Vend', 'Fils', 'Chiffre d’affaires', 'Instagram'].map(h => <th key={h}>{h}</th>)}</tr></thead>
-                <tbody>{sorted.map(r => <tr key={r._id}>
+            : table ? <div className="table-scroll"><table className="competitors-table"><thead><tr>{['', 'Marque', 'Pays', 'Création', 'Vend', 'Fils', 'Chiffre d’affaires', 'Instagram'].map(h => <th key={h}>{h}</th>)}</tr></thead>
+                <tbody>{sorted.map(r => <tr key={r._id} className={r.relevance ?? undefined}>
+                    <td><RelevanceToggle id={r._id} value={r.relevance} compact onToast={onToast} /></td>
                     <td><button type="button" className="veille-inline-link" onClick={() => onOpen(r._id)}>{r.name}</button><small>{r.city || r.region}</small></td>
                     <td>{r.country || '—'}</td>
                     <td>{r.foundedDate ? r.foundedDate.slice(0, 4) : '—'}</td>
@@ -127,6 +150,7 @@ export function CompetitorPage({ id, onBack, onToast }: { id: string, onBack: ()
         <div className="veille-portrait-bar">
             <Button type="button" variant="ghost" onClick={onBack}><ArrowLeft size={16} />Toutes les concurrentes</Button>
             <span className="spacer" />
+            <RelevanceToggle id={c._id} value={c.relevance ?? null} onToast={onToast} />
             <Button type="button" variant="outline" onClick={() => setEditing(true)}><Pencil size={15} />Modifier</Button>
             <Button type="button" variant="ghost" size="icon" aria-label="Supprimer la fiche" onClick={() => void erase()}><Trash2 size={16} /></Button>
         </div>

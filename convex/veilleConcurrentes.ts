@@ -9,8 +9,8 @@ import { competitorError, mergeCompetitor, nameKey, normalizeCompetitor, type Co
 
 const newId = () => crypto.randomUUID();
 const fieldsOf = (c: Doc<'competitors'>): CompetitorInput => {
-    const { _id, _creationTime, nameKey: _k, createdAt, updatedAt, authorName, ...rest } = c;
-    void _id; void _creationTime; void _k; void createdAt; void updatedAt; void authorName;
+    const { _id, _creationTime, nameKey: _k, createdAt, updatedAt, authorName, relevance, ...rest } = c;
+    void _id; void _creationTime; void _k; void createdAt; void updatedAt; void authorName; void relevance;
     return rest;
 };
 
@@ -25,7 +25,7 @@ export const list = query({
                 _id: c._id, name: c.name, country: c.country, city: c.city, region: c.region, foundedDate: c.foundedDate, closedDate: c.closedDate,
                 founders: c.founders, offers: c.offers, styles: c.styles, techniques: c.techniques, threads: c.threads, summary: c.summary, photoUrl: c.photoUrl,
                 products: c.products.length, cover: (c.products.find(p => p.bestseller && p.imageUrl) ?? c.products.find(p => p.imageUrl))?.imageUrl ?? '',
-                revenue: latest ? { year: latest.year, amount: latest.revenue } : null, instagram,
+                revenue: latest ? { year: latest.year, amount: latest.revenue } : null, instagram, relevance: c.relevance ?? null,
             };
         });
     }
@@ -47,6 +47,15 @@ export const save = mutation({
         if (twin && twin._id !== id) throw new ConvexError(`${twin.name} est déjà dans la liste.`);
         if (id) { await ctx.db.patch(id, { ...data, name: data.name.trim(), nameKey: key, updatedAt: now }); return id; }
         return await ctx.db.insert('competitors', { ...data, name: data.name.trim(), nameKey: key, createdAt: now, updatedAt: now, authorName: 'L’atelier' });
+    }
+});
+
+/** Classe une concurrente : proche de ce que veut faire l'atelier, ou pas du tout ; null la remet « à classer ». */
+export const setRelevance = mutation({
+    args: { id: v.id('competitors'), relevance: v.union(v.literal('proche'), v.literal('loin'), v.null()) }, handler: async (ctx, { id, relevance }) => {
+        await requireAdmin(ctx);
+        if (!await ctx.db.get(id)) throw new ConvexError('Cette fiche a été supprimée.');
+        await ctx.db.patch(id, { relevance: relevance ?? undefined });
     }
 });
 
