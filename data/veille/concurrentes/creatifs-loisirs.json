@@ -1,0 +1,147 @@
+{
+  "name": "Les Loisirs Créatifs d'Eugénie",
+  "country": "France",
+  "city": "Ressons-sur-Matz",
+  "region": "Hauts-de-France",
+  "foundedDate": "2015-05-01",
+  "closedDate": "",
+  "founders": [
+    "Eugénie Legay"
+  ],
+  "legalName": "Eugénie Legay (nom commercial : Les Loisirs Créatifs d'Eugénie)",
+  "legalForm": "micro-entreprise",
+  "registrationId": "810871988",
+  "offers": [
+    "Kits de broderie",
+    "Patrons de broderie",
+    "Livres",
+    "Mercerie"
+  ],
+  "styles": [
+    "Floral",
+    "Animaux",
+    "Saisonnier (Noël, Pâques)",
+    "Figuratif",
+    "Zodiaque"
+  ],
+  "techniques": [
+    "Broderie sur papier",
+    "String art (fil tendu)",
+    "Carte à broder",
+    "Quilling"
+  ],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": [
+    "Site en propre (E-monsite)"
+  ],
+  "priceRange": "Patrons à l'unité à 3 €, livrets de patrons de 5 à 8 €, kit d'apprentissage à 30 €, magazine à 19,95 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit complet d'apprentissage à la broderie sur papier",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit d'initiation à la broderie sur papier (fil tendu). Le contenu exact du kit n'est pas détaillé sur la fiche.",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/kit-complet-apprentissage-initiation.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/kit-apprentissage-broderie-sur-papier-12-points-a-broder-coeur-initiation-fil-tendu-string-art-apprendre-commencer.jpg"
+    },
+    {
+      "title": "Magazine Broderie papier et Tableau fils n°1",
+      "format": "livre",
+      "price": "19,95 €",
+      "bestseller": false,
+      "description": "Magazine présenté comme le seul magazine en France consacré à la broderie sur papier, avec un tableau à fils.",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/magazine-broderie-papier-et-tableau-fils-n-1.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/magazine-broderie-papier-et-tableaux-fil-n-1-carte-a-broder-page-d-acceuil-1.jpg"
+    },
+    {
+      "title": "Livret de 12 patrons carte à broder « CACTUS »",
+      "format": "autre",
+      "price": "8 €",
+      "bestseller": false,
+      "description": "12 patrons de scrap à broder sur le thème des cactus. Page indiquant « 2 livrets pour le prix d'1 ».",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/livret-de-12-patrons-carte-a-broder-cactus-.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/cactus-1-plante-grasse-succulente-broderie-papier-tableai-fil-tendu-string-art-embellissement-scrap.jpg"
+    },
+    {
+      "title": "Livret de 6 patrons carte à broder « Noël »",
+      "format": "autre",
+      "price": "8 €",
+      "bestseller": false,
+      "description": "Livret de 6 patrons de cartes à broder sur le thème de Noël.",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/livret-de-6-patrons-carte-a-broder-noel.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/livret-carte-a-broder-broderie-sur-papier-noel-les-loisirs-creatifs-d-eugenie.jpg"
+    },
+    {
+      "title": "Patron de broderie sur papier « Lapinou »",
+      "format": "autre",
+      "price": "3 €",
+      "bestseller": false,
+      "description": "Patron de broderie sur papier à l'unité (carte à broder, fil tendu).",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/lapinou-lapin.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/lapin-broderie-papier-patron-carte-a-broder-rabbit-string-art-fil-tendu-diy-loisirs-creatifs.jpg"
+    },
+    {
+      "title": "Patron de broderie sur papier « Licorne »",
+      "format": "autre",
+      "price": "3 €",
+      "bestseller": false,
+      "description": "Patron de broderie sur papier à l'unité (carte à broder, tableau fil tendu).",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/licorne.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/licorne-cheval-corne-fantastique-fantaisie-broderie-papier-carte-a-broder-tableau-fil-tendu-string-art.jpg"
+    },
+    {
+      "title": "Patron de broderie sur papier « Sapin de Noël »",
+      "format": "autre",
+      "price": "3 €",
+      "bestseller": false,
+      "description": "Patron de broderie sur papier à l'unité, sur le thème de Noël.",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/kit-broderie-sur-papier-carte-a-broder-sapin-de-noel.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/sapin-noel-noel-christmas-carte-de-voeux-broderie-papier-patron-modele-etoile-guirlande.jpg"
+    },
+    {
+      "title": "Patron de broderie sur papier « Papillon bleu »",
+      "format": "autre",
+      "price": "3 €",
+      "bestseller": false,
+      "description": "Patron de broderie sur papier à l'unité (carte à broder, fil tendu, string art).",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/papillon-bleu-.html",
+      "imageUrl": "https://www.creatifs-loisirs.com/medias/images/papillon-insecte-bleu-broderie-papier-carte-a-broder-loisirs-creatifs-fil-tendu-string-art.jpg"
+    }
+  ],
+  "summary": "Les Loisirs Créatifs d'Eugénie vend sur son site des patrons de broderie sur papier (cartes à broder, string art), des livrets thématiques et un kit d'apprentissage, à côté de matériel de quilling. La micro-entreprise d'Eugénie Legay, dans l'Oise, se présente comme la référence française du quilling.",
+  "history": "L'activité est immatriculée en auto-entreprise depuis le 1er mai 2015, d'après les mentions légales du site, qui désignent Eugénie Legay comme éditrice.\n\nLa page d'accueil présente la marque comme « la référence française du quilling » et affirme être pionnière de cet art depuis plus de dix ans. Le quilling (bandes de papier roulées) reste la première activité mise en avant sur le site, avec des kits, des bandes de papier made in France et du matériel.\n\nLa broderie sur papier occupe une catégorie propre de la boutique, avec environ 76 références : une soixantaine de patrons à l'unité à 3 €, des livrets de 6 à 12 patrons à 5 ou 8 €, un kit d'apprentissage à 30 € et un magazine à 19,95 €.\n\nAujourd'hui, le site est hébergé par E-monsite et renvoie vers Facebook, Instagram, Pinterest et YouTube. Aucun chiffre d'affaires, effectif ni date de vente n'est publié.",
+  "positioning": "Une offre large et peu chère sur la broderie sur papier en fil tendu : des patrons à 3 € l'unité, des livrets thématiques (Noël, Pâques, animaux, femmes au chapeau, cactus) et des motifs de fête (naissance, Saint-Valentin, Octobre rose). La clientèle visée est celle des cartes faites main et du loisir créatif accessible. Forces : catalogue très fourni, prix bas, thèmes saisonniers. Points faibles visibles : la plupart des fiches produits ne contiennent qu'un titre (pas de description du patron, de la taille ou du format), certains titres ont des fautes de frappe, les prix « à partir de » sont parfois ambigus, et aucune meilleure vente n'est signalée.",
+  "website": "https://www.creatifs-loisirs.com",
+  "instagram": "https://www.instagram.com/quilling_eugenie/",
+  "etsy": "",
+  "photoUrl": "https://www.creatifs-loisirs.com/medias/images/logo-loisirs-creatifs-d-eugenie-quilling-broderie-sur-papier-transparent.png?v=1",
+  "timeline": [
+    {
+      "date": "2015-05",
+      "kind": "vie",
+      "label": "Immatriculation en auto-entreprise (1er mai 2015, selon les mentions légales)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Page d'accueil creatifs-loisirs.com",
+      "url": "https://www.creatifs-loisirs.com"
+    },
+    {
+      "label": "Boutique : patrons de broderie sur papier (liste de 76 produits)",
+      "url": "https://www.creatifs-loisirs.com/boutique/patrons-de-broderie-sur-papier/"
+    },
+    {
+      "label": "Mentions légales",
+      "url": "https://www.creatifs-loisirs.com/about/legal/"
+    }
+  ],
+  "researchNotes": "Nom : la demande parle de « Créatifs Loisirs ». Le site s'appelle « Les Loisirs Créatifs d'Eugénie » (domaine creatifs-loisirs.com). Le nom du site est utilisé ici, à confirmer. Il n'y a pas de raison sociale distincte : l'activité est exercée par Eugénie Legay en nom propre (micro-entreprise). SIREN 810871988 déduit du SIRET affiché sur les mentions légales (810 871 988 00012). Une autre valeur « SIRET: 0683062555 » figure sur la même page, mais ressemble au numéro de téléphone : elle est écartée. Le SIREN n'a pas pu être vérifié sur annuaire-entreprises (page vide à la lecture) : à confirmer. Date de création : 2015-05-01 correspond à l'immatriculation en auto-entreprise ; l'activité de quilling pourrait être plus ancienne (le site dit « plus de dix ans »), à vérifier. Finances : micro-entreprise, aucun compte publié, aucun chiffre d'affaires ni effectif trouvé : rien n'est estimé. Audience : Instagram (@quilling_eugenie) lu seulement par son titre, aucun nombre d'abonnés obtenu ; Facebook, Pinterest et YouTube (liens sur le site) non visités ; pas de boutique Etsy trouvée. Produits : aucune meilleure vente ni coup de cœur signalé sur la page. Le format des patrons (PDF ou papier) n'est pas indiqué sur les pages lues : le format est mis à « autre » et l'offre « Patrons de broderie » sans mention de PDF. Fils et tissus : aucune marque de fil ni tissu nommée (seulement « fil tendu », « fil noir », « fil bleu or » dans les images). Le site présente surtout du quilling : la marque est plus large que la seule broderie sur papier. Un kit de 30 € contient « 12 points à broder » seulement d'après le nom d'une image : non confirmé. Image de marque : aucune, comme demandé."
+}

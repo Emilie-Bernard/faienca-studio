@@ -1,0 +1,187 @@
+{
+  "name": "Figured'Art",
+  "country": "France",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "foundedDate": "2018",
+  "closedDate": "",
+  "founders": [
+    "Anthony Pinna",
+    "Pierre Monnier"
+  ],
+  "legalName": "AP Commerce",
+  "legalForm": "SAS",
+  "registrationId": "890386915",
+  "offers": [
+    "Kits de broderie",
+    "Kits de peinture par numéros",
+    "Puzzles",
+    "Kits de poterie",
+    "Calendriers",
+    "Coffrets"
+  ],
+  "styles": [
+    "Paysage",
+    "Fleurs",
+    "Animaux",
+    "Reproductions d'œuvres",
+    "Personnalisé (photo)"
+  ],
+  "techniques": [
+    "Peinture par numéros",
+    "Broderie diamant",
+    "Punch needle",
+    "Point de croix",
+    "Peinture à gratter",
+    "Feutrage à l'aiguille"
+  ],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": [
+    "Site en propre (figuredart.com, boutique en ligne)",
+    "Boutiques revendeuses (grandes chaînes et commerçants indépendants en France, selon le site)",
+    "Nature & Découvertes (vendeur partenaire)"
+  ],
+  "priceRange": "Kits peinture par numéros de 21,90 à 29,90 € hors promotion, promotions jusqu'à 9,90 €, calendrier 2027 à 34,90 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [
+    {
+      "year": "2025",
+      "revenue": null,
+      "netIncome": 106800,
+      "employees": "non indiqué",
+      "source": "societe.com, historique des comptes (AP Commerce, SIREN 890386915), consulté le 2026-10-21"
+    },
+    {
+      "year": "2024",
+      "revenue": null,
+      "netIncome": 95000,
+      "employees": "non indiqué",
+      "source": "societe.com, historique des comptes (AP Commerce, SIREN 890386915), consulté le 2026-10-21"
+    }
+  ],
+  "products": [
+    {
+      "title": "Kit photo personnalisée (kit sur mesure)",
+      "format": "kit",
+      "price": "29,90 € (à partir de)",
+      "bestseller": false,
+      "description": "Kit peinture par numéros à partir d'une photo, en 40x50 à 80x120 cm. Réalisation graphique offerte selon le site. Contenu standard : toile numérotée, pots de peinture, pinceaux, photo miniature guide, châssis en option.",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros/products/kit-photo-personnalisee-commandez-votre-kit-sur-mesure",
+      "imageUrl": ""
+    },
+    {
+      "title": "Générateur d'images personnalisé",
+      "format": "kit",
+      "price": "29,90 €",
+      "bestseller": false,
+      "description": "Kit peinture par numéros personnalisable, sur le même principe que le kit photo. Taille et contenu non détaillés dans la page lue.",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros/products/generateur-images-peinture-par-numeros-personnalise",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mini peinture par numéros 15x20 cm (6 pièces), Fleurs de Bonheur",
+      "format": "kit",
+      "price": "24,90 €",
+      "bestseller": false,
+      "description": "Lot de 6 mini peintures par numéros de 15x20 cm, thème fleurs. Contenu standard du site : toile numérotée, pots de peinture, pinceaux, photo miniature guide.",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros/products/mini-peinture-par-numeros-15x20cm-6-pieces-fleurs-de-bonheur",
+      "imageUrl": ""
+    },
+    {
+      "title": "Regard envoûtant",
+      "format": "kit",
+      "price": "21,90 €",
+      "bestseller": false,
+      "description": "Kit peinture par numéros. Taille et contenu détaillé non relevés dans la page lue (contenu standard du site : toile numérotée, peintures, pinceaux, photo miniature guide).",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros/products/regard-envoutant",
+      "imageUrl": ""
+    },
+    {
+      "title": "La Grande Vague de Kanagawa (Hokusai)",
+      "format": "kit",
+      "price": "21,90 €",
+      "bestseller": false,
+      "description": "Kit peinture par numéros d'après l'estampe de Hokusai. Taille et contenu détaillé non relevés dans la page lue.",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros/products/la-grande-vague-de-kanagawa-katsushika-hokusai",
+      "imageUrl": ""
+    },
+    {
+      "title": "Beauté derrière les fleurs",
+      "format": "kit",
+      "price": "21,90 €",
+      "bestseller": false,
+      "description": "Kit peinture par numéros, collection peinture par numéros. Taille et contenu non relevés. URL produit non relevée : lien vers la collection.",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros",
+      "imageUrl": ""
+    },
+    {
+      "title": "Barque sur un lac de montagne",
+      "format": "kit",
+      "price": "21,90 €",
+      "bestseller": false,
+      "description": "Kit peinture par numéros, paysage de montagne. Taille et contenu non relevés. URL produit non relevée : lien vers la collection.",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros",
+      "imageUrl": ""
+    },
+    {
+      "title": "Coffret Citrons d'été",
+      "format": "box",
+      "price": "24,90 €",
+      "bestseller": false,
+      "description": "Coffret peinture par numéros, thème citrons. Taille et contenu non relevés dans la page lue.",
+      "url": "https://figuredart.com/collections/coffret-peinture-par-numeros/products/coffret-peinture-par-numeros-citrons-d-ete",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Figured'Art est une marque française de kits créatifs pour adultes, en peinture par numéros d'abord, puis en broderie diamant, punch needle et autres loisirs créatifs. Elle vend surtout en ligne et dans des revendeurs, avec des promotions fréquentes.",
+  "history": "Le site de la marque indique une création en 2018, avec un lancement par la peinture par numéros. Les fondateurs sont présentés comme deux amis d'enfance originaires d'Orléans, Anthony Pinna et Pierre Monnier (noms relevés sur la page « Notre histoire », à confirmer).\n\nLa société qui exploite la marque, AP Commerce, est une SAS au capital de 20 000 €, immatriculée au RCS le 26 octobre 2020 selon societe.com. Son siège est à Paris 8e. Selon le même registre, la présidence a changé le 28 septembre 2021 au profit de FIGURED LIMITED, représentée par Anthony Pinna.\n\nLa gamme s'est élargie vers la broderie diamant, le punch needle, le book nook, les puzzles 2D et 3D, la poterie, le point de croix et la peinture à gratter. La marque annonce des collaborations (Warner Bros, Moulin Rouge) et des artistes indépendants.\n\nAujourd'hui, la marque annonce plus de 500 000 clients et plus de 10 000 avis vérifiés (note 4,84/5). Ces chiffres sont ceux de la marque et ne sont pas vérifiés. Le chiffre d'affaires n'est pas publié, mais le résultat net était de 95 000 € en 2024 et de 106 800 € en 2025.",
+  "positioning": "Catalogue très large (plus de 2 000 modèles de peinture par numéros selon le site) avec des prix d'entrée bas en promotion, jusqu'à -90 % sur certains articles. Forte présence de la marque sur les licences (Harry Potter, Superman, Moulin Rouge) et sur la personnalisation à partir d'une photo. Points visibles : une grande part de promotions, un discours centré sur le chiffre (500 000 clients, 4,84/5) plutôt que sur le savoir-faire, et aucune mention de fils, tissus ou fabrication dans les pages lues.",
+  "website": "https://figuredart.com",
+  "instagram": "https://www.instagram.com/figured.art/",
+  "etsy": "",
+  "photoUrl": "https://cdn.shopify.com/s/files/1/0113/2557/1136/files/Figured_Art_logo_2020-04-29_png_222_for_checkout_page.png?height=628&pad_color=ffffff&v=1614289414&width=1200",
+  "timeline": [
+    {
+      "date": "2018",
+      "kind": "vie",
+      "label": "Création de la marque et lancement de la peinture par numéros (selon le site)"
+    },
+    {
+      "date": "2020-10-26",
+      "kind": "vie",
+      "label": "Immatriculation au RCS de la SAS AP Commerce, capital 20 000 € (societe.com)"
+    },
+    {
+      "date": "2021-09-28",
+      "kind": "vie",
+      "label": "Changement de présidence : FIGURED LIMITED, représentée par Anthony Pinna (societe.com)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Figured'Art, accueil du site (catalogue, promotions, mentions légales, réseaux)",
+      "url": "https://figuredart.com"
+    },
+    {
+      "label": "Figured'Art, page Notre histoire",
+      "url": "https://figuredart.com/pages/notre-histoire"
+    },
+    {
+      "label": "societe.com, fiche AP Commerce (SIREN 890386915)",
+      "url": "https://www.societe.com/societe/ap-commerce-890386915.html"
+    },
+    {
+      "label": "Figured'Art, collection kit peinture par numéros (lien produit Kanagawa)",
+      "url": "https://figuredart.com/collections/kit-peintures-par-numeros/products/la-grande-vague-de-kanagawa-katsushika-hokusai"
+    },
+    {
+      "label": "Figured'Art, coffret Citrons d'été",
+      "url": "https://figuredart.com/collections/coffret-peinture-par-numeros/products/coffret-peinture-par-numeros-citrons-d-ete"
+    }
+  ],
+  "researchNotes": "Vérifications à faire.\n\n1. Date de création : le site dit 2018, mais la SAS AP Commerce n'est immatriculée qu'en octobre 2020 (societe.com). Il est possible que la marque ait existé avant la société, sous une autre structure. Non confirmé.\n\n2. « Entreprise familiale » : cette formule vient d'une fiche produit Nature & Découvertes lue dans un résultat de recherche, pas du site de la marque. Elle n'est pas écrite dans la fiche. Le site parle de deux amis d'enfance.\n\n3. Dirigeants : societe.com ne liste que d'anciens dirigeants (Henri Pinna, président du 30/10/2020 au 28/09/2021, puis Pierre Monnier et Anthony Pinna, directeurs généraux). Le rôle actuel de Pierre Monnier n'est pas confirmé. Les noms complets viennent d'un résumé de la page Notre histoire, à vérifier sur la page.\n\n4. Chiffre d'affaires : non publié par la société (societe.com indique NC de 2022 à 2025). Résultat net relevé : 95 000 € (2024) et 106 800 € (2025), publiés. Effectif non indiqué. Le site ne donne pas de chiffre d'affaires.\n\n5. Audiences : non relevées. Instagram (@figured.art) inaccessible sans abonnés lisibles, YouTube redirigé vers une page de consentement, Pinterest sans compteur lisible. Il faut les relever à la main, avec la date.\n\n6. Chiffres de marque non vérifiés : plus de 500 000 clients, plus de 10 000 avis (4,84/5), plus de 2 000 modèles, présence dans des centaines de magasins en France. Un résultat de recherche (fiche Maison&Objet) parle de plus de 2 000 points de vente en Europe. Cette fiche n'a pas été lue directement.\n\n7. Produits : le site ne désigne pas de meilleures ventes et n'indique pas de fils, ni de marque de peinture, ni de tissu pour les kits. Les tailles et le contenu détaillé ne sont pas relevés pour la plupart des kits. Les URL de « Beauté derrière les fleurs » et « Barque sur un lac de montagne » pointent vers la collection, faute d'URL produit relevée. Aucune image produit n'est relevée.\n\n8. Etsy et TikTok : non trouvés. Le site est probablement sous Shopify (structure des URLs), non vérifié.\n\n9. Ville et région : le siège est à Paris 8e (49 rue de Ponthieu) selon les mentions légales et societe.com. Le site ne précise pas de lieu de fabrication."
+}

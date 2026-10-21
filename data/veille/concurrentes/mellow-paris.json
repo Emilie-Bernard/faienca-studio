@@ -1,0 +1,159 @@
+{
+  "name": "Mellow Paris",
+  "country": "France",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "foundedDate": "2024-11",
+  "closedDate": "",
+  "founders": [
+    "Chloé Jean-Pierre"
+  ],
+  "legalName": "MELI PARIS",
+  "legalForm": "SAS",
+  "registrationId": "935161141",
+  "offers": [
+    "Kits de broderie",
+    "Cartes à broder",
+    "Vêtements à broder (T-shirts)",
+    "Mercerie"
+  ],
+  "styles": [
+    "Moderne",
+    "Fun",
+    "Floral",
+    "Pop culture 90s",
+    "Illustration d'artistes indépendants"
+  ],
+  "techniques": [
+    "Broderie sur papier hydrosoluble"
+  ],
+  "threads": [
+    "DMC (gamme non précisée sur le site)"
+  ],
+  "fabrics": [],
+  "salesChannels": [
+    "Site en propre (Shopify, d'après la structure des URLs)"
+  ],
+  "priceRange": "Kits de 3,45 € à 17,95 € en prix soldé, avec des remises de 40 à 50 % relevées au moment de la lecture",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit de broderie Love (Romane Sérazin)",
+      "format": "kit",
+      "price": "8,95 €",
+      "bestseller": false,
+      "description": "Kit à motif moderne signé Romane Sérazin, illustratrice partenaire. Contenu détaillé du kit (fils, tambour, taille) non relevé à la lecture de la page.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-love-romane-serazin",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie You're my lobster",
+      "format": "kit",
+      "price": "8,95 €",
+      "bestseller": false,
+      "description": "Kit niveau débutant, motif moderne « Friends » (homard) signé Romane Sérazin. Contenu détaillé non relevé.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-youre-my-lobster-facile-pour-debutant-motifs-modernes-friends-homard-by-romane-serazin",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Moonlight Roses",
+      "format": "kit",
+      "price": "11,95 €",
+      "bestseller": false,
+      "description": "Kit à motif floral signé Camille Cauvez, niveau débutant et intermédiaire, motif de 10 x 8 cm.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-moonlight-roses-motifs-modernes-fleurs-printemps-by-camille-cauvez-niveau-debutant-et-intermediaire-10-x-8-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Roller flower",
+      "format": "kit",
+      "price": "11,95 €",
+      "bestseller": false,
+      "description": "Kit à motif fleuri dans l'esprit 90s, signé Limistic, niveau intermédiaire.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-roller-flower-motifs-modernes-90s-by-limisitc-niveau-intermediaire",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Autumn Lover",
+      "format": "kit",
+      "price": "9,50 €",
+      "bestseller": false,
+      "description": "Kit présenté comme nouveauté, signé Didi Sunshine. Prix affiché sur la page lue.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-autumn-lover-by-didi-sunshine",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Sakura Bloom",
+      "format": "kit",
+      "price": "5,35 €",
+      "bestseller": false,
+      "description": "Kit à motif de fleurs de cerisier signé Camille Cauvez, niveau débutant, motif de 12 x 3 cm.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-sakura-bloom-motifs-modernes-fleurs-by-camille-cauvez-niveau-debutant-12-x-3-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Best of the 90's Mixtape",
+      "format": "kit",
+      "price": "4,15 €",
+      "bestseller": false,
+      "description": "Kit à motif cassette, thème playlist années 90, signé Limistic, niveau intermédiaire.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-best-of-the-90s-mixtape-motifs-modernes-90s-music-playlist-cassette-by-limistic-niveau-intermediaire",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Summer Girl",
+      "format": "kit",
+      "price": "4,15 €",
+      "bestseller": false,
+      "description": "Kit à motif de fleurs de tiaré, niveau débutant, motif de 8 x 5 cm.",
+      "url": "https://www.mellowparis.com/collections/kits-de-broderie/products/kit-de-broderie-summer-girl-motifs-modernes-fleurs-tiare-ete-niveau-debutant-8-x-5-cm",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Mellow Paris est une marque de kits de broderie DIY à motifs modernes et fun, dessinés avec des illustratrices et illustrateurs indépendants. La société MELI PARIS (SAS) a été immatriculée en novembre 2024 par Chloé Jean-Pierre, fondatrice.",
+  "history": "Chloé découvre la broderie enfant, dans les ateliers du vendredi après-midi à l'école primaire. Pendant le confinement de 2020, elle la redécouvre en customisant ses tee-shirts.\n\nAu début 2024, une période difficile fait de la broderie un refuge. Elle ne trouve pas de kits aux motifs modernes qui lui plaisent et pense que d'autres personnes sont dans le même cas. Après « quelques mois de réflexion », elle lance Mellow. Le site ne donne pas de date de lancement précise.\n\nDu côté juridique, la société MELI PARIS est une SAS au capital de 1 000 €, inscrite à l'INSEE le 7 novembre 2024 et au RNE le 14 novembre 2024 selon societe.com. Chloé Jean-Pierre en est la présidente depuis le 16 novembre 2024. Son siège est situé au 1 rue de Stockholm, 75008 Paris.\n\nAujourd'hui, la marque vend des kits de broderie, des cartes à broder, des tee-shirts à broder et de la mercerie. Elle affirme fabriquer ses kits en France avec des fournisseurs français, pour la plupart, et européens pour le reste. Les motifs sont signés par des artistes indépendants comme Camille Cauvez, Romane Sérazin, Limistic et Didi Sunshine. Les kits sont accompagnés de tutoriels vidéo.\n\nAucun chiffre d'affaires ni résultat n'est publié, et le registre indique que la société est en défaut de publication de ses comptes.",
+  "positioning": "Mellow vise les débutantes et les personnes qui découvrent la broderie, avec des motifs modernes, colorés et souvent inspirés de la pop culture des années 90. Le ton du site est chaleureux et personnel, tutoiement, emojis, et met en avant la détente. La force visible est la signature d'illustratrices et illustrateurs indépendants, qui donne une identité de collaboration à chaque kit. Points à surveiller : les prix affichés sont souvent des prix soldés avec de fortes remises, les fils et tissus ne sont pas détaillés sur les pages lues, et la société ne publie pas ses comptes.",
+  "website": "https://www.mellowparis.com",
+  "instagram": "https://www.instagram.com/mellowparis_com/",
+  "etsy": "",
+  "photoUrl": "https://www.mellowparis.com/cdn/shop/files/Plan_de_travail_1_3dc044f8-f260-434a-a51b-b88ade3ef2c1.png?crop=center&height=1200&v=1738269007&width=1200",
+  "timeline": [
+    {
+      "date": "2024",
+      "kind": "vie",
+      "label": "Idée de Mellow au début de l'année, puis quelques mois de réflexion avant le lancement"
+    },
+    {
+      "date": "2024-11",
+      "kind": "vie",
+      "label": "Immatriculation de MELI PARIS, SAS au capital de 1 000 €, inscrite à l'INSEE le 7 novembre et au RNE le 14 novembre"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Mellow Paris, accueil (catalogue, prix, réseaux sociaux, fabrication)",
+      "url": "https://www.mellowparis.com"
+    },
+    {
+      "label": "Site Mellow Paris, page « La marque » (histoire, fondatrice, fabrication)",
+      "url": "https://www.mellowparis.com/pages/mission"
+    },
+    {
+      "label": "Site Mellow Paris, mentions légales et CGV (raison sociale, siège, capital)",
+      "url": "https://www.mellowparis.com/policies/terms-of-sale"
+    },
+    {
+      "label": "societe.com, fiche MELI PARIS (SIREN 935161141)",
+      "url": "https://www.societe.com/societe/meli-paris-935161141.html"
+    },
+    {
+      "label": "Instagram @mellowparis_com (titre de la page lu, sans compteur)",
+      "url": "https://www.instagram.com/mellowparis_com/"
+    }
+  ],
+  "researchNotes": "Vérifié : raison sociale MELI PARIS, SAS, SIREN 935161141 (societe.com, mise à jour indiquée au 21/10/2026), siège 1 rue de Stockholm 75008 Paris, capital 1 000 €, présidente Chloé Jean-Pierre depuis le 16 novembre 2024. Le numéro RCS 935 161 141 figure aussi sur les mentions légales du site, cohérent avec le SIREN. Date de création retenue : 2024-11 (inscription RNE, 14 novembre 2024). L'idée date de début 2024, sans date de lancement publique. Comptes non publiés (« en défaut de publication » selon societe.com), donc financials vide. Effectif non trouvé. Audience non relevée : le titre de la page Instagram est visible mais pas le nombre d'abonnés ; TikTok (https://www.tiktok.com/@mellowparis_com) et YouTube (https://www.youtube.com/channel/UCxdsQOmAh2EuaE8xEvk5NSQ) n'ont pas pu être lus (page vide ou redirection vers un consentement), Pinterest non lu. Aucune boutique Etsy trouvée. Aucune interview ni presse trouvée. Prix : les montants relevés sont en prix soldé avec remises de 40 à 50 %, les prix normaux ne sont pas visibles. Best-sellers : le site ne les signale pas, bestseller est à false partout, et l'ordre des produits suit la sélection lue, pas un classement des ventes. Fils : le site dit que les fils DMC sont fabriqués à Mulhouse, la gamme (par exemple Mouliné spécial 25) n'est pas précisée. Tissus non précisés. Contenu des kits (taille de tambour, fils par kit) non relevé. Aucune image produit ni photo de la fondatrice n'a été ajoutée (demande explicite). Nombre de produits : 8, sur la base de la page catalogue lue. Ne pas confondre avec d'autres marques au nom proche."
+}

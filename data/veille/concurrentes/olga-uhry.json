@@ -1,0 +1,118 @@
+{
+  "name": "Olga Uhry Designs",
+  "country": "France", "city": "", "region": "",
+  "foundedDate": "", "closedDate": "",
+  "founders": ["Olga Uhry"],
+  "legalName": "", "legalForm": "", "registrationId": "840298541",
+  "offers": ["Kits de broderie", "Patrons PDF", "Box", "Livres", "Mercerie", "Broderie personnalisée sur commande"],
+  "styles": ["Floral", "Vintage", "Scandinave", "Noël", "Mandala"],
+  "techniques": ["Broderie traditionnelle", "Broderie personnalisée (prénom, annonces de grossesse, mariages)", "Feutrine"],
+  "threads": [],
+  "fabrics": ["Tissu écru", "Tissu imprimé", "Coton", "Feutrine"],
+  "salesChannels": ["Site en propre (Shopify)"],
+  "priceRange": "Kits de 20 à 35 €, box de démarrage à 65 €, livres de 14,95 à 19,90 €, patrons et ebook PDF de 7,50 à 15,50 €",
+  "languages": ["Français"],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit personnalisé prénom bébé",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit de broderie personnalisé avec prénom de bébé. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Amour (motif vintage rose et orange)",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit de broderie au motif vintage rose et orange. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Le vase fleuri",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit de broderie au motif de vase fleuri. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Mon premier Noël personnalisé",
+      "format": "kit",
+      "price": "27 €",
+      "bestseller": false,
+      "description": "Kit de broderie personnalisé sur le thème de Noël. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit mandala relaxant",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Kit de broderie au motif mandala. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Box de démarrage",
+      "format": "box",
+      "price": "65 €",
+      "bestseller": false,
+      "description": "Box de démarrage en broderie avec fournitures et guide vidéo. Liste exacte des fournitures non détaillée dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Les Cartes à broder d'Olga Uhry",
+      "format": "livre",
+      "price": "14,95 €",
+      "bestseller": false,
+      "description": "Livre de broderie de l'autrice. Date de parution et éditeur non indiqués dans les pages lues.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Ebook Noël en feutrine (20 tutoriels et patrons DIY)",
+      "format": "pdf",
+      "price": "15,50 €",
+      "bestseller": false,
+      "description": "Ebook numérique avec 20 tutoriels et patrons DIY de Noël en feutrine.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patron numérique ourson en feutrine (porte-clé)",
+      "format": "pdf",
+      "price": "7,50 €",
+      "bestseller": false,
+      "description": "Patron numérique d'un ourson en feutrine, en porte-clé.",
+      "url": "https://olgauhry.fr",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Olga Uhry Designs est une marque française de kits de broderie et de broderies personnalisées, portée par la créatrice et autrice Olga Uhry. Elle vend aussi des livres, une box de démarrage et des patrons PDF en feutrine.",
+  "history": "Olga pratique la broderie depuis son enfance, selon la page « Mon histoire » du site.\n\nElle indique s'être consacrée pleinement à la broderie en 2019, puis avoir créé son compte Instagram en 2020 pour partager ses créations.\n\nLa marque propose aujourd'hui des kits de broderie, des broderies personnalisées (annonces de grossesse, cadeaux de naissance, mariages), des tutoriels vidéo et plusieurs livres, dont « Les cartes à broder d'Olga Uhry », « Broderies pour bébé », « Les Créations de Noël en Feutrine » et « Broder la laine ».\n\nLa date de création de la boutique ou de la société n'est pas publiée. La raison sociale et la forme juridique ne figurent pas dans les mentions légales lues.",
+  "positioning": "Marque se présentant comme 100 % artisanale et française, avec un ton personnel et pédagogique (tutoriels, kits débutants). Les kits sont à entrée de gamme et milieu de gamme (20 à 35 €), avec une offre orientée naissance, cadeaux et Noël. Points forts visibles : offre de livres, personnalisation par prénom, présence sur plusieurs réseaux. Points faibles visibles : mentions légales incomplètes (pas de raison sociale, pas d'adresse de siège), fils et tissus non précisés, pas de notes ni d'avis relevés.",
+  "website": "https://olgauhry.fr",
+  "instagram": "https://www.instagram.com/olgauhry/",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    { "date": "2019", "kind": "vie", "label": "Olga décide de se consacrer pleinement à la broderie (date indiquée sur la page « Mon histoire »)." },
+    { "date": "2020", "kind": "autre", "label": "Création du compte Instagram pour partager les créations." }
+  ],
+  "sources": [
+    { "label": "Accueil du site Olga Uhry Designs", "url": "https://olgauhry.fr/" },
+    { "label": "Page « Mon histoire » du site", "url": "https://olgauhry.fr/pages/mon-histoire" },
+    { "label": "Mentions légales du site", "url": "https://olgauhry.fr/policies/legal-notice" },
+    { "label": "Profil Instagram @olgauhry (titre de page lu, contenu non chargé)", "url": "https://www.instagram.com/olgauhry/" }
+  ],
+  "researchNotes": "À vérifier. 1) Mentions légales : seuls le SIRET 84029854100029 et le SIREN 840298541 (déduit du SIRET) sont donnés. Aucune raison sociale, forme juridique ni adresse de siège n'est indiquée, et la page contient encore un modèle non rempli (« [Nom de ta boutique] »). 2) Registre : la recherche sur annuaire-entreprises et pappers n'a pas abouti (page vide, puis accès refusé). Le SIREN n'est donc pas confirmé dans un registre. Dirigeante, date de création, activité, effectif et chiffre d'affaires restent non trouvés. Aucun chiffre d'affaires ni résultat n'a été publié. 3) Audience : Instagram lu sans nombre d'abonnés visible. Pas de chiffres YouTube (https://www.youtube.com/olgauhry), TikTok (https://www.tiktok.com/@olgauhry) ou Facebook (https://www.facebook.com/OlgaUhryDesigns) relevés, car ces pages n'ont pas été lues. 4) Produits : les prix viennent de l'accueil du site (TTC). Aucun best-seller n'est signalé, donc bestseller reste à false. Les URL produits précises et les images n'ont pas été relevées. 5) Matériel : la marque de fils et de tissus n'est pas précisée, seul DMC est cité (aiguilles). 6) Livres : aucune date de parution ni éditeur confirmé. Une mention « Créations de Noël en feutrine (éditions Eyrolles) » apparaît seulement dans un texte alternatif d'image, et une recherche n'a pas confirmé l'éditeur. 7) Lieu : ville et région non mentionnées. 8) Date de création : la fiche ne retient pas 2019 comme date de fondation, car c'est la date à laquelle Olga s'est consacrée à la broderie, pas une date d'immatriculation."
+}

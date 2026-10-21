@@ -1,0 +1,219 @@
+{
+  "name": "Hélène Le Berre",
+  "country": "France",
+  "city": "",
+  "region": "",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Hélène Le Berre"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Livres",
+    "Ateliers"
+  ],
+  "styles": [
+    "Floral",
+    "Romantique",
+    "Noël",
+    "Oiseaux"
+  ],
+  "techniques": [
+    "Broderie contemporaine",
+    "Point de croix",
+    "Broderie monochrome et camaïeu",
+    "Broche brodée"
+  ],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": [
+    "Etsy (boutique HeleneLeBerreAtelier)",
+    "Site vitrine qui renvoie vers Etsy",
+    "Ateliers en présentiel à Paris",
+    "Livres vendus en librairie et en ligne (Fnac, Amazon)"
+  ],
+  "priceRange": "",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "EUPLAGIA",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/677698196/kit-de-broderie-euplagia-embroidery-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "MAGNOLIAS",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/691551737/kit-de-broderie-magnolias-embroidery-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "THÈCLES",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/691552905/kit-de-broderie-thecle-embroidery-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "BERIOSA",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/646857753/kit-de-broderie-beriosa",
+      "imageUrl": ""
+    },
+    {
+      "title": "PIN",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/633031558/kit-de-broderie-pin",
+      "imageUrl": ""
+    },
+    {
+      "title": "KALINKA",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/570211993/kit-de-broderie-kalinka-embroidery-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "MURMURE",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/544360264/kit-de-broderie-murmure",
+      "imageUrl": ""
+    },
+    {
+      "title": "MORDORÉE",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/558154225/kit-de-broderie-mordoree",
+      "imageUrl": ""
+    },
+    {
+      "title": "SOUFFLE",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/558155749/kit-de-broderie-souffle",
+      "imageUrl": ""
+    },
+    {
+      "title": "ORIGAN",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/520820884/kit-de-broderie-origan-embroidery-kit",
+      "imageUrl": ""
+    },
+    {
+      "title": "BLEU MELON",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/514762820/kit-de-broderie-bleu-melon-emboirdery",
+      "imageUrl": ""
+    },
+    {
+      "title": "YELLOW",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie (titre et lien relevés sur la boutique Etsy). Contenu, fils, tissu et taille non lus, la boutique Etsy étant inaccessible.",
+      "url": "https://www.etsy.com/fr/listing/511657504/kit-de-broderie-yellow",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Hélène Le Berre est une brodeuse française, autrice de plusieurs livres de broderie publiés chez Mango, qui vend ses kits surtout sur Etsy et anime des ateliers à Paris. Ses kits sont présentés comme des créations d'artiste, mais ni leurs prix ni leur contenu n'ont pu être relevés.",
+  "history": "Diplômée de l'École supérieure des arts appliqués Duperré en 2001, selon la page biographie du site. Elle découvre la broderie comme art textile grâce à l'enseignant Olliver Henry, puis se forme aux techniques de l'aiguille auprès de Fred Sathal et Léa Stansal.\n\nSes premiers projets d'édition lui sont confiés par plusieurs éditrices et éditeurs, dont les dates ne sont pas indiquées sur le site. Sa bibliographie compte au moins quatorze titres, en grande partie chez Mango : broderie de Noël, cartes à broder, initiation à la broderie contemporaine, monochromes et camaïeux, fleurs, oiseaux, pâtisseries, point de croix romantique, Liberty. Les années de parution ne figurent pas sur le site.\n\nLes expositions relevées sont la pièce « Voile », présentée au salon Aiguille en Fête en 2014, puis des pièces exposées au même salon en 2018. Elle a aussi réalisé une pièce collective avec des femmes détenues, montrée à Aiguille en Fête, sans date précisée.\n\nAujourd'hui, le site renvoie vers une boutique de kits dont les fiches sont sur Etsy, vers des ateliers en présentiel à Paris (un atelier mensuel chez Tapisseries de la Bûcherie, et la broche MURANO) et vers un atelier dans l'Aube. La date de création de son activité n'est pas publiée.",
+  "positioning": "Le site met en avant la créatrice et formatrice plus que la marque de kits : livres, expositions, ateliers, avec un ton chaleureux qui s'adresse directement aux lectrices. Les kits sont vendus sur Etsy, avec des titres en majuscules à l'image d'une collection d'auteur. La clientèle visée semble être des brodeuses qui connaissent les bases et aiment les ateliers en petit groupe, ce qui reste une déduction. Le positionnement haut de gamme demandé n'est pas confirmé, faute de prix relevés. Points faibles visibles : le site ne publie ni prix, ni contenu de kit, ni fils, ni tissus, ni mentions légales.",
+  "website": "https://www.heleneleberre.com",
+  "instagram": "https://www.instagram.com/helene.leberre/",
+  "etsy": "https://www.etsy.com/shop/HeleneLeBerreAtelier",
+  "photoUrl": "https://static1.squarespace.com/static/5863fa292e69cfccd3ba22af/t/586f9ba3c534a51ae5f264b6/1483709348114/ok6janv.jpg?format=1500w",
+  "timeline": [
+    {
+      "date": "2001",
+      "kind": "formation",
+      "label": "Diplôme de l'École supérieure des arts appliqués Duperré"
+    },
+    {
+      "date": "2014",
+      "kind": "exposition",
+      "label": "Pièce « Voile » présentée au salon Aiguille en Fête"
+    },
+    {
+      "date": "2018",
+      "kind": "exposition",
+      "label": "Pièces exposées au salon Aiguille en Fête (selon la page créations)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site, page boutique (liste des kits)",
+      "url": "https://www.heleneleberre.com/boutique"
+    },
+    {
+      "label": "Site, page biographie",
+      "url": "https://www.heleneleberre.com/bio"
+    },
+    {
+      "label": "Site, page à propos",
+      "url": "https://www.heleneleberre.com/about"
+    },
+    {
+      "label": "Site, page livres",
+      "url": "https://www.heleneleberre.com/livres"
+    },
+    {
+      "label": "Site, page cours et ateliers",
+      "url": "https://www.heleneleberre.com/cours"
+    },
+    {
+      "label": "Site, page créations",
+      "url": "https://www.heleneleberre.com/creations"
+    },
+    {
+      "label": "Site, page d'accueil",
+      "url": "https://www.heleneleberre.com/"
+    },
+    {
+      "label": "Site, page presse (sans contenu textuel)",
+      "url": "https://www.heleneleberre.com/parutions-presse"
+    },
+    {
+      "label": "Etsy, page de recherche de la boutique (liste des fiches)",
+      "url": "https://www.etsy.com/fr/market/broderie_h%C3%A9l%C3%A8ne_le_berre"
+    }
+  ],
+  "researchNotes": "Vérifié le 2026-10-21. A VÉRIFIER À LA MAIN : la boutique Etsy (https://www.etsy.com/shop/HeleneLeBerreAtelier) et les fiches renvoient une erreur 403 à toute lecture automatique. Non relevés : prix, contenu des kits, fils, tissus, tambours, ventes, note et avis. Un résumé de recherche (page non ouverte) annonçait plus de 3 000 ventes, une note de 4,9 à 5 et plus de 600 avis, une boutique à Troyes et des kits entre 19 et 67 euros. Ces chiffres ne sont pas dans la fiche : à confirmer sur Etsy. Instagram : la page n'a renvoyé que son titre, aucun nombre d'abonnés n'a pu être lu. Audience laissée vide. Date de création : non publiée. Le pied de page du site indique « © 2017 », ce qui ne prouve pas une date de création. Un résumé de recherche parle de 15 ans de broderie, sans page source lue : non retenu. Entreprise : aucune raison sociale, forme juridique ni SIREN trouvés. Les mentions légales ne figurent pas sur le site lu. Une recherche de nom et de ville (Troyes, Aube) n'a rien donné sur les annuaires. A chercher sur annuaire-entreprises.data.gouv.fr ou pappers.fr avec le nom exact. Pas de comptes publiés connus. Ville : le site parle d'un atelier dans l'Aube ; ateliers annoncés à Paris (atelier mensuel chez Tapisseries de la Bûcherie, prix non indiqués, et broche MURANO les 2, 3 et 4 octobre, année non indiquée, un résumé de recherche la date d'octobre 2025). Atelier à Lyon chez Olivia Ferrand annoncé pour fin février 2026 sur l'accueil. Livres : années de parution non précisées sur le site, à compléter sur un catalogue (Fnac, BnF). Pour « Un fabuleux voyage » et « Les petites filles modèles » (LTA) et « Couture rapide » (Fleurus), l'éditeur est indiqué, le sujet non. Produits : liste et liens relevés sur la page Etsy de recherche ; l'ordre est celui de cette liste, pas un classement des ventes. Aucun best-seller identifié, donc bestseller à false partout. Douze fiches sur treize listées ; les quatre images sans titre et l'atelier MURANO ne sont pas dans la liste. Images : laissées vides à la demande. Les mots « haut de gamme » viennent de la brief, non confirmés par les prix. Mots anglais dans les titres des fiches Etsy (embroidery kit) : langues mises en anglais comme indice, à confirmer."
+}

@@ -1,0 +1,108 @@
+{
+  "name": "TheComptoir",
+  "country": "France",
+  "city": "",
+  "region": "",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Elise Benetreau"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie"
+  ],
+  "styles": [
+    "Moderne",
+    "Engagé"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie de perles"
+  ],
+  "threads": [
+    "DMC"
+  ],
+  "fabrics": [
+    "Popeline de coton bio",
+    "Tissu bio imprimé"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress)"
+  ],
+  "priceRange": "Kits de 26 à 45 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/thecomptoir/"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit d'apprentissage de broderie double, points de base de perles",
+      "format": "kit",
+      "price": "45 €",
+      "bestseller": false,
+      "description": "3 fils DMC (nuances de bleu), 2 modèles imprimés sur tissu, 2 cercles de 12,7 cm, 3 aiguilles, 1 sachet de 5 types de perles, 2 livrets illustrés et 2 tutoriels vidéo. Poids 200 g. Français uniquement. Aucun avis.",
+      "url": "https://thecomptoir.com/fr/produit/kit-dapprentissage-de-broderie-double-points-de-base-de-perles/",
+      "imageUrl": "https://thecomptoir.com/fr/wp-content/uploads/2026/02/1000063455-800x800.jpg"
+    },
+    {
+      "title": "Cher Journal - kit de broderie",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "1 cercle à broder de 12,5 cm, 1 photo à broder imprimée sur popeline de coton bio avec le texte « cher journal », la suite du message étant au choix, 1 aiguille, 4 couleurs de fil (marque non précisée), 1 livret et une vidéo tutoriel. Poids 130 g. Aucun avis.",
+      "url": "https://thecomptoir.com/fr/produit/cher-journal-2/",
+      "imageUrl": "https://thecomptoir.com/fr/wp-content/uploads/2026/08/cher-journal-couv.jpg"
+    },
+    {
+      "title": "Kit d'apprentissage de broderie de perles",
+      "format": "kit",
+      "price": "32 €",
+      "bestseller": false,
+      "description": "Un peu de fil de broderie (marque non précisée), 1 patron à broder imprimé sur tissu bio, 1 tambour de 13 cm, 1 aiguille à broder et 1 aiguille à perles, 1 sachet de perles (rocailles, tubes, paillettes), 1 livret. Tutoriel vidéo sur la chaîne YouTube de la créatrice. Aucun avis client.",
+      "url": "https://thecomptoir.com/fr/produit/kit-dapprentissage-de-broderie-de-perles-pre-commande/",
+      "imageUrl": "https://thecomptoir.com/fr/wp-content/uploads/2025/10/perles-800x907.jpg"
+    }
+  ],
+  "summary": "TheComptoir est une marque française de kits de broderie moderne et engagée, présentée par Élise Benetreau. Ses kits, de 26 à 45 €, sont conçus en France, avec des fils DMC ou non précisés et des tissus en coton bio.",
+  "history": "Les informations publiques sur la création de TheComptoir sont rares. La date de création, la raison sociale, la forme juridique et le lieu du siège n'ont été trouvés ni sur le site ni dans les sources consultées.\n\nLa marque est présentée par Élise Benetreau, qui se décrit comme « cheffe d'entreprise spécialisée dans la broderie ». Sur son site, elle affirme concevoir ses produits en France « par moi même », de manière éthique et respectueuse de l'environnement.\n\nLe catalogue consulté en octobre 2026 compte trois kits : deux kits d'apprentissage (points de base et broderie de perles) et un kit d'illustration de message, « Cher Journal ». Les kits d'apprentissage incluent livrets et tutoriels vidéo.\n\nAujourd'hui, la marque est présente sur son site (WordPress), sur Instagram et sur Facebook. Les trois fiches produits lues n'affichent aucun avis client.",
+  "positioning": "Broderie moderne et engagée, avec une entrée pédagogique : les kits d'apprentissage incluent livrets et tutoriels vidéo, ce qui vise des débutantes. Le kit « Cher Journal » mise sur un message personnalisable imprimé sur tissu. Points faibles visibles : aucun avis client sur les fiches lues, marque du fil souvent non précisée, incohérence sur la page du kit de perles (note de 0 sur 5 et un avis à 4 étoiles affiché), et absence de présence Etsy ou Ankorstore sur le site.",
+  "website": "https://thecomptoir.com",
+  "instagram": "https://www.instagram.com/thecomptoir/",
+  "etsy": "",
+  "photoUrl": "https://thecomptoir.com/fr/wp-content/uploads/2022/09/Capture-de%CC%81cran-2022-09-16-a%CC%80-10.11.01-AM.png",
+  "timeline": [],
+  "sources": [
+    {
+      "label": "Site TheComptoir, accueil (lu le 2026-10-21)",
+      "url": "https://thecomptoir.com/fr/"
+    },
+    {
+      "label": "TheComptoir, kit Cher Journal (lu le 2026-10-21)",
+      "url": "https://thecomptoir.com/fr/produit/cher-journal-2/"
+    },
+    {
+      "label": "TheComptoir, kit d'apprentissage broderie double points de base de perles (lu le 2026-10-21)",
+      "url": "https://thecomptoir.com/fr/produit/kit-dapprentissage-de-broderie-double-points-de-base-de-perles/"
+    },
+    {
+      "label": "TheComptoir, kit d'apprentissage de broderie de perles (lu le 2026-10-21)",
+      "url": "https://thecomptoir.com/fr/produit/kit-dapprentissage-de-broderie-de-perles-pre-commande/"
+    },
+    {
+      "label": "Instagram @thecomptoir, titre de la page (lu le 2026-10-21)",
+      "url": "https://www.instagram.com/thecomptoir/"
+    }
+  ],
+  "researchNotes": "NON TROUVÉ, à compléter. (1) Date de création, raison sociale, forme juridique, SIREN : rien dans les recherches. Les pages /fr/mentions-legales/ et /fr/a-propos/ renvoient une erreur 404 ; à vérifier sur annuaire-entreprises.data.gouv.fr avec « Elise Benetreau » ou « TheComptoir ». (2) Chiffre d'affaires et effectif : non publiés à ma connaissance, rien trouvé. (3) Etsy et Ankorstore : demandés dans la commande, mais aucune trace sur le site ni dans les recherches ; champs laissés vides. (4) Livre « Points et poings levés » : aucune trace dans les recherches ; non confirmé, donc absent de la fiche. (5) Ville : un résultat de recherche (profil de marque Faire, page non lue, erreur 403) indique une créatrice installée près d'Angers, avec un passage aux États-Unis (Washington puis Boston). Non vérifié, non écrit dans la fiche. (6) Un résultat de recherche (Heritage Days, non lu) mentionne un kit « La Grenadière » créé par The Comptoir, à 35 €, pour un atelier à Cervières ; non vérifié. (7) Le résumé de la page d'accueil cite aussi broderie au cyanotype, point de croix, punch needle, macramé, papeterie et bois ; ces éléments n'ont pas été reconfirmés à la seconde lecture de l'accueil, donc ils ne sont pas dans la fiche. (8) Audiences : le nombre d'abonnés Instagram n'a pas pu être lu (seul le titre de la page est accessible), donc followers est à null. Facebook, YouTube (chaîne citée sur une fiche produit, sans lien) et Pinterest non vérifiés. (9) Le kit de perles porte « pre-commande » seulement dans son URL ; la page ne mentionne pas de pré-commande. (10) Nom : le titre Instagram donne « Elise Benetreau » sans accent ; à confirmer. (11) Ventes et notes Etsy : aucune donnée. (12) Les trois produits ont aucun avis, donc aucun best-seller n'est identifiable : bestseller est à false par défaut."
+}

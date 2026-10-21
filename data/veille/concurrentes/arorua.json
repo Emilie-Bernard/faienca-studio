@@ -1,0 +1,232 @@
+{
+  "name": "Arorua",
+  "country": "Espagne",
+  "city": "Oviedo",
+  "region": "Asturies",
+  "foundedDate": "2015",
+  "closedDate": "",
+  "founders": [
+    "Aurora Menéndez González"
+  ],
+  "legalName": "Aurora Menéndez González (titulaire du site, aucune raison sociale indiquée)",
+  "legalForm": "Non indiquée (personne physique titulaire du site)",
+  "registrationId": "71646297D",
+  "offers": [
+    "Patrons PDF",
+    "Cours en ligne",
+    "Mercerie",
+    "Pièces brodées (bijoux textiles et décoration)"
+  ],
+  "styles": [
+    "Botanique",
+    "Naturaliste",
+    "Contemporain",
+    "Floral",
+    "Inspiration jardin et oiseaux"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Stumpwork 3D",
+    "Broderie en relief",
+    "Broderie sur métier",
+    "Écoprint botanique (sur lin)"
+  ],
+  "threads": [
+    "DMC (cité sur les patrons et les cours, gamme non précisée)",
+    "Anchor (cité pour des kits conçus avec la marque, gamme non précisée)"
+  ],
+  "fabrics": [
+    "Lin",
+    "Laine",
+    "Coton (tela algodón natural)"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress)",
+    "Téléchargement numérique (patrons PDF et cours)",
+    "Cours en ligne à accès illimité"
+  ],
+  "priceRange": "Patrons PDF de 3,50 à 16,90 €, cours trimestriel Cuaderno de Campo 39,90 €, pièces brodées de 16 à 99,90 €, matériel de 1,50 à 64,90 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": null,
+      "date": "2026-10-21",
+      "url": "https://www.instagram.com/missarorua/"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Cuaderno de Campo: Otoño (cours de broderie botanique trimestriel)",
+      "format": "cours",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "Formation en 3 chapitres (octobre, novembre, décembre) : fougères de la forêt atlantique, lierre en relief, bouvreuil sur métier. Accès illimité, PDF téléchargeables (patrons à taille réelle, fiches matériel, codes DMC), résolution de doutes par e-mail. Aucun avis publié sur la page.",
+      "url": "https://www.arorua.es/producto/cuaderno-de-campo-otono-curso-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón de Bordado Alfabeto Floral + Vídeo Tutorial",
+      "format": "pdf",
+      "price": "15,90 €",
+      "bestseller": false,
+      "description": "Patron PDF à télécharger : abécédaire complet et symbole &, prêt à imprimer en A4 pour un cadre de 15 cm. Guide de 13 pages (matériel, transfert, guide de points avec schémas) et vidéo tutoriel de 35 minutes. Niveau initiation.",
+      "url": "https://www.arorua.es/producto/alfabeto-floral-patron-video-tutorial-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón de Bordado Alfabeto Floral II + Vídeo Tutorial",
+      "format": "pdf",
+      "price": "16,90 €",
+      "bestseller": false,
+      "description": "Deuxième alphabet floral, patron PDF avec vidéo tutoriel. Le contenu détaillé n'a pas été relevé.",
+      "url": "https://www.arorua.es/producto/alfabeto-floral-ii-patron-video-tutorial-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón de Bordado Monograma + Vídeo Tutorial",
+      "format": "pdf",
+      "price": "14,90 €",
+      "bestseller": false,
+      "description": "Patron PDF de monogramme floral avec vidéo tutoriel. Contenu détaillé et fils non relevés.",
+      "url": "https://www.arorua.es/producto/monograma-floral-patron-video-tutorial-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón de Bordado Nombre Personalizado + Vídeo Tutorial",
+      "format": "pdf",
+      "price": "14,90 €",
+      "bestseller": false,
+      "description": "Patron PDF pour broder un prénom personnalisé, avec vidéo tutoriel. Contenu détaillé non relevé.",
+      "url": "https://www.arorua.es/producto/nombre-floral-patron-personalizado-video-tutorial/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón De Bordado Hierbas & Flores Silvestres + Vídeo",
+      "format": "pdf",
+      "price": "10,90 €",
+      "bestseller": false,
+      "description": "Patron PDF de herbes et fleurs sauvages avec vidéo tutoriel. Contenu détaillé non relevé.",
+      "url": "https://www.arorua.es/producto/hierbas-flores-silvestres-patron-video-tutorial-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón De Bordado Primula Primavera 3D",
+      "format": "pdf",
+      "price": "10,90 €",
+      "bestseller": false,
+      "description": "Patron PDF de primevère en broderie 3D (stumpwork). Contenu détaillé non relevé.",
+      "url": "https://www.arorua.es/producto/patron-tutorial-bordado-primula-primavera/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón De Bordado Violeta Stumpwork 3D",
+      "format": "pdf",
+      "price": "8,90 €",
+      "bestseller": false,
+      "description": "Patron PDF de violette en stumpwork 3D. Contenu détaillé non relevé.",
+      "url": "https://www.arorua.es/producto/patron-tutorial-bordado-violeta/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bobina Múltiple 5 Colores de Hilo",
+      "format": "autre",
+      "price": "5,90 €",
+      "bestseller": false,
+      "description": "Bobine multiple de fil pour 5 couleurs, vendue dans la catégorie matériel. Marque et composition non relevées.",
+      "url": "https://www.arorua.es/producto/bobina-multiple-5-colores-de-hilo/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Marco de Bordado",
+      "format": "autre",
+      "price": "12,90 €",
+      "bestseller": false,
+      "description": "Tambour de broderie vendu seul (catégorie matériel). Dimensions non relevées.",
+      "url": "https://www.arorua.es/producto/marco-de-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broche Mirlo",
+      "format": "autre",
+      "price": "32,00 €",
+      "bestseller": false,
+      "description": "Pièce brodée à la main, bijou textile prêt à porter (broche). Pas un kit.",
+      "url": "https://www.arorua.es/producto/broche-mirlo/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Arorua est une marque espagnole de broderie botanique et naturaliste, créée par Aurora, biologiste de formation, à Oviedo (Asturies). Elle vend surtout des patrons PDF avec vidéo tutoriel, des cours en ligne et des bijoux et décorations brodés à la main.",
+  "history": "Aurora se présente comme l'âme d'Arorua. Elle est née en 1980 dans les Asturies, a travaillé plusieurs années en laboratoire, puis a décidé en 2015 de remplacer les instruments scientifiques par l'aiguille et le fil. Le site ne donne pas de date officielle de création de la marque : 2015 correspond au début du projet, selon sa page À propos.\n\nLa boutique du site compte 8 pages de 20 articles, réparties en pièces brodées (bijoux textiles, décoration), matériel de broderie, patrons PDF et formations. Les patrons PDF s'accompagnent de vidéos tutoriels, et les cours sont à accès illimité.\n\nLe cours trimestriel Cuaderno de Campo, dont le premier chapitre est sorti en octobre 2026, est la formation la plus récente visible sur le site. Le cours #elherbariobordado, initiation aux plantes sauvages en six projets, est proposé en ligne sans durée fixe.\n\nLa marque affiche « Hecho con amor en España » et « Artesanía Local ». Aucun chiffre d'affaires, nombre de clientes ou de kits vendus n'est publié.",
+  "positioning": "Arorua mise sur la broderie botanique d'auteur, avec une image savante (la créatrice est docteure en biologie) et un ton calme, centré sur la nature. Sa force visible tient à la richesse du catalogue de patrons PDF, à des tutoriels vidéo par patron et à des cours structurés. Clientèle visée : brodeuses qui aiment les motifs naturalistes et les techniques 3D (stumpwork, relief). Points faibles visibles : peu d'éléments chiffrés (aucun avis ni note relevé sur les patrons et cours), kits complets quasi absents de la boutique (le kit avec DMC et Anchor n'a pas été retrouvé), gammes de fil non précisées, et aucune présence Etsy trouvée.",
+  "website": "https://www.arorua.es",
+  "instagram": "https://www.instagram.com/missarorua/",
+  "etsy": "",
+  "photoUrl": "https://www.arorua.es/wp-content/uploads/2020/04/102.jpg",
+  "timeline": [
+    {
+      "date": "2015",
+      "kind": "vie",
+      "label": "Aurora décide de remplacer son activité de laboratoire par la broderie. Le projet prend forme (page À propos, sans date officielle de création)."
+    },
+    {
+      "date": "2026",
+      "kind": "oeuvre",
+      "label": "Lancement du cours trimestriel Cuaderno de Campo, premier chapitre (fougères) disponible en octobre."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Arorua, accueil",
+      "url": "https://www.arorua.es"
+    },
+    {
+      "label": "Arorua, page À propos",
+      "url": "https://www.arorua.es/arorua/"
+    },
+    {
+      "label": "Arorua, mentions légales (aviso legal)",
+      "url": "https://www.arorua.es/aviso-legal/"
+    },
+    {
+      "label": "Arorua, boutique (page Shop)",
+      "url": "https://www.arorua.es/shop/"
+    },
+    {
+      "label": "Arorua, catégorie patrons PDF",
+      "url": "https://www.arorua.es/categoria-producto/formacion-bordado-botanico/patrones-bordado-pdf/"
+    },
+    {
+      "label": "Arorua, catégorie matériel",
+      "url": "https://www.arorua.es/categoria-producto/materiales/"
+    },
+    {
+      "label": "Arorua, catégorie bijoux textiles",
+      "url": "https://www.arorua.es/tienda-bordado/"
+    },
+    {
+      "label": "Arorua, page formation",
+      "url": "https://www.arorua.es/formacion/"
+    },
+    {
+      "label": "Arorua, cours #elherbariobordado",
+      "url": "https://www.arorua.es/elherbariobordado-2/"
+    },
+    {
+      "label": "Arorua, produit Cuaderno de Campo: Otoño",
+      "url": "https://www.arorua.es/producto/cuaderno-de-campo-otono-curso-bordado/"
+    },
+    {
+      "label": "Arorua, patron Alfabeto Floral + Vídeo Tutorial",
+      "url": "https://www.arorua.es/producto/alfabeto-floral-patron-video-tutorial-bordado/"
+    },
+    {
+      "label": "Arorua, profil Instagram (non lisible, abonnés non relevés)",
+      "url": "https://www.instagram.com/missarorua/"
+    }
+  ],
+  "researchNotes": "Vérifié le 2026-10-21. Points à confirmer : (1) Date de création : non publiée. 2015 retenu comme début du projet (page À propos : « en 2015, decidió cambiar... »), à confirmer. (2) Raison sociale et forme juridique : les mentions légales désignent une personne physique titulaire du site (Aurora Menéndez González), sans raison sociale ni forme juridique (autónoma non précisée). Le NIF 71646297D est repris tel qu'il figure sur la page mentions légales. Pas de registre d'entreprise consulté, donc pas de comptes ni de chiffre d'affaires : financials vide. Aucun chiffre publié. (3) Adresse : seule la ville (Oviedo) est retenue, l'adresse complète figure sur les mentions légales. (4) Kits : la boutique (page /shop/, 20 produits sur 8 pages) et la catégorie bijoux ne listent aucun kit de broderie complet. La page À propos évoque des kits conçus avec DMC et Anchor, et des « kits de materiales » pour un cours, sans fiche trouvée. Le contenu des kits, leur prix et leur fil restent à vérifier. (5) Fils : DMC et Anchor cités sans gamme (Mouliné spécial 25 non confirmé). (6) Best-sellers : aucun badge « best-seller » ou « coup de cœur » relevé sur la boutique. Les bestseller sont donc false partout. (7) Prix : patrons PDF de 3,50 à 16,90 € (catégorie patrons, 20 produits sur 3 pages lus en partie). Cours Cuaderno de Campo 39,90 €. Cours #elherbariobordado sans prix affiché. Frais d'envoi Espagne 6,90 €, gratuits dès 100 €. (8) Audience : compte Instagram @missarorua non lisible (titre seul : « Aurora | Bióloga y Bordadora »), aucun nombre d'abonnés relevé, followers laissé à null. YouTube (chaîne UC4UYcBn8U4Y318KoUu-TwOA) : redirection vers une page de consentement, non lu. Pinterest (es.pinterest.com/arorua/) : non lu. Etsy : aucune boutique trouvée par la recherche. (9) Presse et interviews : aucune trouvée. La recherche n'a donné aucun résultat fiable pour Arorua (les résultats concernaient des homonymes ou un livre de Arounna Khounnoraj). (10) Images : aucune image, comme demandé. photoUrl et imageUrl sont vides. (11) Cours #elherbariobordado : pas de prix, pas de date de lancement, pas de nombre d'inscrites. (12) Formation : la page À propos indique qu'Aurora est docteure en biologie et autodidacte en broderie. (13) Nombre de produits : la boutique compte 8 pages de 20 articles (pagination lue sur /shop/), sans total affiché. Le nombre exact reste à vérifier."
+}

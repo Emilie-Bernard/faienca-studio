@@ -1,0 +1,174 @@
+{
+  "name": "Les Brodeuses Parisiennes",
+  "country": "France",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "foundedDate": "2010",
+  "closedDate": "",
+  "founders": [],
+  "legalName": "LBP IMAGES",
+  "legalForm": "SARL",
+  "registrationId": "519396923",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Mercerie"
+  ],
+  "styles": [
+    "Vintage",
+    "Parisien",
+    "Histoires illustrées",
+    "Noël",
+    "Botanique"
+  ],
+  "techniques": [
+    "Point de croix",
+    "Point compté"
+  ],
+  "threads": [],
+  "fabrics": [
+    "Lin",
+    "Aïda"
+  ],
+  "salesChannels": [
+    "Site en propre (PrestaShop)",
+    "Boutique physique à Paris 11e",
+    "Revendeurs (Atelier Bonheur du Jour, French Needle aux États-Unis)",
+    "Etsy (boutique BrodeusesParisiennes, non lue)"
+  ],
+  "priceRange": "Semi-kits de 32,50 à 37,50 €, grilles de 13 à 16 €, torchons à partir de 34,50 €",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Semi-kit lin « Un jour à Paris au printemps »",
+      "format": "kit",
+      "price": "36,50 €",
+      "bestseller": false,
+      "description": "Semi-kit sur lin, à broder au point de croix. Taille du motif et fils non indiqués sur la fiche de la collection.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/un-jour-a-paris-/647-lin-un-jour-a-paris-au-printemps-a-broder-au-point-de-croix.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Semi-kit lin « Étude au Café » (maxi-grille)",
+      "format": "kit",
+      "price": "37,50 €",
+      "bestseller": false,
+      "description": "Semi-kit sur lin, format maxi-grille. Fils et taille du motif non indiqués sur la fiche de la collection.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/veronique-enginger/1876-lin-etude-au-cafe-maxi-grille.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Semi-kit lin « Étude aux Tournesols » (maxi-grille)",
+      "format": "kit",
+      "price": "37,50 €",
+      "bestseller": false,
+      "description": "Semi-kit sur lin, format maxi-grille, catégorie Les fleurs. Fils et taille du motif non indiqués.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/les-fleurs/1683-lin-etude-aux-tournesols-maxi-grille.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Semi-kit Aïda « Étude à l'Artichaut » (maxi-grille)",
+      "format": "kit",
+      "price": "33,50 €",
+      "bestseller": false,
+      "description": "Semi-kit sur Aïda, format maxi-grille. Fils et taille du motif non indiqués.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/je-brode-au-point-de-croix-sur-de-l-aida/575-aida-etude-a-l-artichaud-maxi-grille-a-broder-au-point-de-croix.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Torchon en lin « Jour de Noël »",
+      "format": "autre",
+      "price": "34,50 €",
+      "bestseller": false,
+      "description": "Torchon en lin de la collection Les torchons, à broder au point de croix sur le thème de Noël. Dimensions non indiquées.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/les-torchons/1922-lin-torchon-collection-jour-de-noel.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "La grande histoire « Noël en forêt »",
+      "format": "autre",
+      "price": "36,50 €",
+      "bestseller": false,
+      "description": "Grille de point de croix grand format, collection Les grandes histoires. Support (papier ou PDF) et nombre de couleurs non indiqués sur la page lue.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/les-grandes-histoires/1814-la-grande-histoire-noel-en-foret.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Grille « Le chant des oiseaux »",
+      "format": "autre",
+      "price": "14,50 €",
+      "bestseller": false,
+      "description": "Grille de point de croix (modèle à broder soi-même, sans toile ni fils). Support papier ou PDF non indiqué.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/les-grilles/829-grille-le-chant-des-oiseaux.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Petite histoire des étiquettes « Senteur printanière »",
+      "format": "autre",
+      "price": "16,00 €",
+      "bestseller": false,
+      "description": "Grille de point de croix de la collection Les grilles. Support papier ou PDF non indiqué.",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/les-grilles/1837-petite-histoire-des-etiquettes-senteur-printaniere.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Les Brodeuses Parisiennes est une marque française de point de croix qui vend des semi-kits sur lin et Aïda, des grilles et des objets brodables (torchons, sacs, coussins), depuis une boutique du 11e arrondissement de Paris. Ses modèles sont présentés comme 100 % made in France et signés en partie par Véronique Enginger.",
+  "history": "La société enregistrée sous le nom LBP IMAGES est indiquée à Paris avec une date de création d'entreprise au 1er janvier 2010 sur Pages Jaunes. Cette date n'est pas confirmée par un registre officiel (voir researchNotes).\n\nLa marque diffuse les créations de Véronique Enginger, dont les grilles de point de croix sont présentées comme originales et « 100 % françaises ». Le site ne raconte pas l'histoire de la marque ni la date d'ouverture de la boutique.\n\nAujourd'hui, la marque vend sur son site en propre (PrestaShop, en français et en anglais), dans sa boutique de la rue François de Neufchâteau (mardi au vendredi de 13 h à 18 h, samedis ponctuels), chez des revendeurs et sur une boutique Etsy dont je n'ai pas pu lire la page.",
+  "positioning": "Marque spécialisée dans le point de croix, avec une identité parisienne et vintage (séries « Un jour à Paris », Belle Époque, années 1950, histoires illustrées). Le ton est patrimonial et soigné, avec un argument fort : fabrication française et modèles originaux. Les semi-kits se situent à 32,50 à 37,50 € sur lin ou Aïda, les grilles entre 13 et 16 €. Forces visibles : catalogue très large (122 semi-kits affichés sur le site) et boutique physique à Paris. Points faibles visibles : marque de fils non indiquée sur les pages lues, pas de chiffres publiés, pas de nombre d'abonnés relevé, site et fiches peu détaillés sur les dimensions des toiles.",
+  "website": "https://www.lesbrodeusesparisiennes.com",
+  "instagram": "https://www.instagram.com/les_brodeuses_parisiennes/",
+  "etsy": "",
+  "photoUrl": "https://www.lesbrodeusesparisiennes.com/img/favicon.ico?1686553429",
+  "timeline": [
+    {
+      "date": "2010",
+      "kind": "vie",
+      "label": "Création de l'entreprise, date indiquée sur Pages Jaunes (à confirmer)"
+    },
+    {
+      "date": "2025",
+      "kind": "vie",
+      "label": "Annonce légale au RCS de Paris sous la dénomination LBP IMAGES (avis du 6 août 2025, indiqué sur Pages Jaunes)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Les Brodeuses Parisiennes, site officiel (accueil)",
+      "url": "https://www.lesbrodeusesparisiennes.com"
+    },
+    {
+      "label": "Les Brodeuses Parisiennes, boutique (adresse, horaires, présentation)",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/content/6-boutique"
+    },
+    {
+      "label": "Les Brodeuses Parisiennes, mentions légales (CNIL, pied de page)",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/content/2-mentions-legales"
+    },
+    {
+      "label": "Les Brodeuses Parisiennes, catégorie semi-kits (page 1 sur 5, 122 produits)",
+      "url": "https://www.lesbrodeusesparisiennes.com/fr/92-les-semi-kits-"
+    },
+    {
+      "label": "Pages Jaunes, fiche LBP IMAGES (SIREN, forme, date de création, effectif, activité)",
+      "url": "https://www.pagesjaunes.fr/pros/52846337"
+    },
+    {
+      "label": "French Needle, marque Les Brodeuses Parisiennes (revendeur américain, prix en dollars)",
+      "url": "https://www.frenchneedle.com/collections/les-brodeuses-parisiennes-cross-stitch"
+    },
+    {
+      "label": "Atelier Bonheur du Jour, marque Les Brodeuses Parisiennes (revendeur, description)",
+      "url": "https://www.atelierbonheurdujour.com/fr/brand/2-les-brodeuse-parisiennes"
+    },
+    {
+      "label": "Instagram, compte @les_brodeuses_parisiennes (page lue, titre seulement)",
+      "url": "https://www.instagram.com/les_brodeuses_parisiennes/"
+    }
+  ],
+  "researchNotes": "Date du relevé : 2026-10-21. Points à vérifier.\n\n1. Site : contrairement à la consigne initiale (« pas de site »), la marque a un site officiel, www.lesbrodeusesparisiennes.com (PrestaShop, boutique en ligne). Fiche renseignée avec ce site.\n\n2. Entité juridique : Pages Jaunes indique la dénomination LBP IMAGES, « autre dénomination » LBP Images, SARL, SIREN 519396923 (SIRET 51939692300020), création d'entreprise le 1er janvier 2010, 1 à 2 salariés, code NAF 4649Z (commerce de gros d'articles de loisirs et de tissus, fabrication). Le site ne publie pas sa raison sociale ni son SIREN dans ses mentions légales (la page lue ne donne que le numéro CNIL 1420989). Je n'ai pas pu confirmer le SIREN sur Pappers (403), annuaire-entreprises (page vide) ni l'API INSEE (erreur réseau). Une recherche sur « LBP IMAGES » n'a rien donné. À confirmer sur Infogreffe ou annuaire-entreprises avant de citer le numéro. Date de création à confirmer : elle vient de Pages Jaunes uniquement.\n\n3. Conflit de date : un extrait de recherche évoque « entreprise artisanale familiale française depuis 2006 ». Il se rapporte à Atelier Bonheur du Jour (revendeur), non à la marque. Non retenu.\n\n4. Fondatrice : le site et les revendeurs citent Véronique Enginger comme créatrice des modèles. Aucune source ne la dit fondatrice ni dirigeante. Champ founders laissé vide. Dirigeant légal non vérifié.\n\n5. Finances : aucun chiffre publié trouvé. Pappers inaccessible. Effectif : 1 à 2 salariés (Pages Jaunes, non daté). Pas de chiffre d'affaires dans la fiche.\n\n6. Audiences : Instagram lu, mais seul le titre de la page est sorti, sans nombre d'abonnés. Facebook (page lue, titre seulement), Pinterest et YouTube (chaîne UC12fBoK15ng3ZCdlC1lJQsw, redirection vers consentement, non lue) : aucun chiffre relevé. Pas de note Pages Jaunes (aucun avis). Champ audience laissé vide.\n\n7. Etsy : la boutique https://www.etsy.com/fr/shop/BrodeusesParisiennes existe dans les résultats de recherche, mais la page renvoie 403 et n'a pas été lue. Nombre de ventes et de produits inconnus. Champ etsy laissé vide.\n\n8. Fils et tissus : aucune marque de fil (DMC, Anchor, etc.) n'est nommée sur les pages lues. Les toiles sont du lin et de l'Aïda (catégories du site). Dimensions des toiles non indiquées. Champs threads à vérifier, laissé vide.\n\n9. Produits : pas de mention de meilleure vente ni de coup de cœur sur le site ou chez les revendeurs. Tous les bestseller sont donc false. Les produits ont été choisis parmi les semi-kits de la page 1 et quelques grilles et objets du site. Pas d'image (demande de l'utilisateur). Le site compte 122 semi-kits, la catégorie grilles et les autres catégories ne sont pas comptées. Le format des grilles (papier ou PDF) n'est pas précisé, d'où « autre ».\n\n10. Boutique : adresse 1 rue François de Neufchâteau, 75011 Paris (métro Voltaire, ligne 9), mardi au vendredi de 13 h à 18 h, samedis annoncés les 24 et 31 octobre (année non précisée). Date d'ouverture de la boutique : non trouvée.\n\n11. Revendeurs : French Needle (États-Unis, produits en dollars, 50 produits dont tous marqués « Sold out » sur la page lue) et Atelier Bonheur du Jour (Lot-et-Garonne). Un eBay vendeur a aussi été vu dans les recherches, non retenu.\n\n12. Presse et interviews : aucune trouvée sur Véronique Enginger ou la marque (recherche sans résultat pertinent). Une fiche TripAdvisor (boutique, ancienne) a été vue dans les résultats de recherche, non ouverte.\n\n13. Photo : aucune image retenue (demande de l'utilisateur). photoUrl vide."
+}

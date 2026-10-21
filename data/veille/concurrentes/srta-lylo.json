@@ -1,0 +1,234 @@
+{
+  "name": "Srta. Lylo",
+  "country": "Espagne",
+  "city": "Barcelone",
+  "region": "Catalogne",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Loly Ghirardi"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Livres",
+    "Cours en ligne",
+    "Ateliers"
+  ],
+  "styles": [
+    "Lettering",
+    "Textes et poèmes",
+    "Art contemporain"
+  ],
+  "techniques": [
+    "Lettering au point classique",
+    "Punch needle",
+    "Stumpwork",
+    "Broderie sur photo (phototransfer)",
+    "Broderie sur feutrage (laine)"
+  ],
+  "threads": [
+    "DMC Mouliné",
+    "DMC Broder spécial 25",
+    "Laines et fils pastel (marque non précisée)"
+  ],
+  "fabrics": [
+    "Coton blanc",
+    "Toile Recycled Canvas (Katia)",
+    "Toile bleue non élastique"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress, boutique intégrée)",
+    "Retrait en atelier à Barcelone",
+    "Domestika (cours)",
+    "Librairies en ligne (livre)"
+  ],
+  "priceRange": "Kits de 24 à 50 €, livres à partir de 22,90 €, ebooks de 6 à 20 €, atelier présentiel de 35 à 120 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": 100000,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/srtalylo/?hl=es"
+    },
+    {
+      "platform": "Domestika",
+      "followers": 150000,
+      "date": "2026-10",
+      "url": "https://www.domestika.org/es/srtalylo"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit « Bordar un poema »",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit A4 avec 2 telas de coton blanc, un cadre magnétique en bois, fils DMC Mouliné noir n° 310 et cyan n° 996, DMC Broder spécial rouge n° 666, un fil surprise, une aiguille et un coupe-fil. Le kit accompagne un cours en ligne. Pas de patron listé.",
+      "url": "https://srtalylo.com/producto/kit-bordar-un-poema/",
+      "imageUrl": "https://srtalylo.com/wp-content/uploads/2024/05/KIT-POEMA-01.jpg"
+    },
+    {
+      "title": "Kit « Bordar nubes »",
+      "format": "kit",
+      "price": "32 €",
+      "bestseller": false,
+      "description": "Toile bleue non élastique de 30 x 30 cm, 2 cerceaux en bois (20 cm et 8 cm), laines et fils blancs et pastel (marque non précisée), une aiguille à broder n° 20 et une aiguille à feutrer, 10 g de vellón blanc, une éponge en forme de cœur, un coupe-fil et un enfile-aiguille. Patron non listé.",
+      "url": "https://srtalylo.com/producto/kit-bordar-nubes/",
+      "imageUrl": "https://srtalylo.com/wp-content/uploads/2026/09/KIT-NUBES_Mesa-de-trabajo-1.png"
+    },
+    {
+      "title": "Kit « Mi refugio »",
+      "format": "kit",
+      "price": "50 € (au lieu de 65 €, en promotion)",
+      "bestseller": false,
+      "description": "Kit pour apprendre le lettering au point classique : 2 pièces de toile Recycled Canvas Katia de 22 x 22 cm, un cadre de 15 cm, 6 écheveaux DMC Broder spécial 25 (32 m chacun, rouge, bleu, cyan, jaune, blanc, vert), une aiguille Pony n° 4, un enfile-aiguille, un coupe-fil et un sac en tissu. Patron numérique PDF envoyé après commande, avec vidéos tutoriels. Stock indiqué : 8 unités.",
+      "url": "https://srtalylo.com/producto/kit-mi-refugio/",
+      "imageUrl": "https://srtalylo.com/wp-content/uploads/2023/12/REFUGIO0.jpg"
+    },
+    {
+      "title": "Diario de una bordadora",
+      "format": "livre",
+      "price": "23,90 € (livre dédicacé), 30 € avec une lámina A4",
+      "bestseller": false,
+      "description": "Premier livre de l'autrice, édité par Lumen, à couverture rigide, format 24 x 17 cm. 192 pages selon la boutique (184 selon la presse). Récit de la manière dont le bordado l'a aidée dans des moments difficiles.",
+      "url": "https://srtalylo.com/producto/diario-de-una-bordadora/",
+      "imageUrl": "https://srtalylo.com/wp-content/uploads/2023/11/LIBRO-FEEED4-copia.jpg"
+    },
+    {
+      "title": "The Art of Embroidery",
+      "format": "livre",
+      "price": "22,90 €",
+      "bestseller": false,
+      "description": "Livre listé dans la boutique à 22,90 €. Contenu, éditeur et date non lus sur la page produit.",
+      "url": "https://srtalylo.com/producto/the-art-of-embroidery/",
+      "imageUrl": ""
+    },
+    {
+      "title": "ebook « Puntos y Puntadas »",
+      "format": "pdf",
+      "price": "20 €",
+      "bestseller": false,
+      "description": "Ebook sur les points de broderie. Contenu détaillé non lu.",
+      "url": "https://srtalylo.com/producto/ebook-puntos-y-puntadas/",
+      "imageUrl": ""
+    },
+    {
+      "title": "ebook « FLORA »",
+      "format": "pdf",
+      "price": "6 € (au lieu de 10 €, en promotion)",
+      "bestseller": false,
+      "description": "Ebook de broderie, thème floral d'après le titre. Contenu détaillé non lu.",
+      "url": "https://srtalylo.com/producto/ebook-flora/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Cercle de broderie en présentiel (Barcelone)",
+      "format": "cours",
+      "price": "35 € à 120 € (cours de 2 h)",
+      "bestseller": false,
+      "description": "Cours en présentiel à Barcelone, séances de 2 heures. Le prix varie selon la formule (fourchette affichée sur la boutique).",
+      "url": "https://srtalylo.com/producto/circulo-de-bordado-clases-en-barcelona/",
+      "imageUrl": ""
+    },
+    {
+      "title": "« Bordo tus recuerdos »",
+      "format": "autre",
+      "price": "150 € à 250 €",
+      "bestseller": false,
+      "description": "Produit listé avec une fourchette de 150 à 250 €. Nature exacte (broderie sur commande à partir de souvenirs, par exemple) non lue sur la page listée.",
+      "url": "https://srtalylo.com/producto/bordo-tus-recuerdos/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Bolsita « Feliz »",
+      "format": "autre",
+      "price": "3 €",
+      "bestseller": false,
+      "description": "Petit produit listé à 3 €, probablement une petite pochette. Contenu non lu sur la page listée.",
+      "url": "https://srtalylo.com/producto/bolsita-feliz/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Srta. Lylo est la marque de Loly Ghirardi, brodeuse et graphiste argentine installée à Barcelone. Elle vend kits, patrons PDF, livres et cours, en ligne et en présentiel, depuis son propre site, sans boutique Etsy repérée.",
+  "history": "Loly Ghirardi, dite Srta. Lylo, est argentine. Selon le Diario de Tarragona, elle est née à Buenos Aires et s'est installée jeune à Barcelone, où elle a travaillé comme graphiste. Son site indique qu'elle a étudié à l'UBA. Elle dit vivre à Barcelone depuis environ vingt ans.\n\nElle découvre la couture et le bordado vers ses trente ans, dans un moment personnel difficile. Elle raconte ce parcours dans son livre, qui commence par la phrase « A mí, el bordado me salvó ».\n\nEn 2023, elle publie « Diario de una bordadora » chez Lumen, son premier livre. Elle enseigne aussi sur Domestika, où elle propose plusieurs cours, dont « Técnicas básicas de bordado : puntadas, composiciones y gamas cromáticas ».\n\nAujourd'hui, la marque vend sur srtalylo.com des kits, des patrons et ebooks PDF, des livres, des láminas et des cours. Elle propose aussi des ateliers présentiels à Barcelone et un club de bordado. Elle animera un atelier de deux jours au Museo Picasso de Málaga les 24 et 25 septembre 2026. La date de création de la marque n'est pas publiée.",
+  "positioning": "Ton personnel et émotionnel, avec une image d'artiste plus que de marque de kits : les textes, la poésie et l'histoire personnelle sont au centre. L'offre combine kits à prix moyen (24 à 50 €), patrons et ebooks, livres et cours, avec une clientèle qui suit la créatrice sur Instagram et Domestika. Points forts visibles : audience importante, livre publié chez un éditeur, cours Domestika. Points faibles visibles : pas de présence Etsy ni de données sur les ventes, fils et tissus parfois non précisés, pas d'avis clients relevés, mentions légales incomplètes.",
+  "website": "https://srtalylo.com/",
+  "instagram": "https://www.instagram.com/srtalylo/?hl=es",
+  "etsy": "",
+  "photoUrl": "https://srtalylo.com/wp-content/uploads/2023/09/logo-srtalylo.png",
+  "timeline": [
+    {
+      "date": "2023",
+      "kind": "oeuvre",
+      "label": "Publication de « Diario de una bordadora » (Lumen), son premier livre."
+    },
+    {
+      "date": "2026",
+      "kind": "autre",
+      "label": "Atelier « A stitch in time » au Museo Picasso Málaga, les 24 et 25 septembre 2026, 40 € par participante."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Article Domestika sur Señorita Lylo",
+      "url": "https://www.domestika.org/es/blog/12628-senorita-lylo-el-bordado-fue-mi-salvavidas"
+    },
+    {
+      "label": "Accueil srtalylo.com",
+      "url": "https://www.srtalylo.com/"
+    },
+    {
+      "label": "Boutique srtalylo.com",
+      "url": "https://srtalylo.com/shop/"
+    },
+    {
+      "label": "Page « Sobre mí » srtalylo.com",
+      "url": "https://srtalylo.com/sobre-mi/"
+    },
+    {
+      "label": "Aviso legal srtalylo.com",
+      "url": "https://srtalylo.com/aviso-legal/"
+    },
+    {
+      "label": "Produit : kit Bordar un poema",
+      "url": "https://srtalylo.com/producto/kit-bordar-un-poema/"
+    },
+    {
+      "label": "Produit : kit Bordar nubes",
+      "url": "https://srtalylo.com/producto/kit-bordar-nubes/"
+    },
+    {
+      "label": "Produit : kit Mi refugio",
+      "url": "https://srtalylo.com/producto/kit-mi-refugio/"
+    },
+    {
+      "label": "Produit : Diario de una bordadora",
+      "url": "https://srtalylo.com/producto/diario-de-una-bordadora/"
+    },
+    {
+      "label": "Profil Domestika de Señorita Lylo",
+      "url": "https://www.domestika.org/es/srtalylo"
+    },
+    {
+      "label": "Article Diario de Tarragona (7 nov. 2023)",
+      "url": "https://www.diaridetarragona.com/ocio/178598/senorita-lylo-a-mi-el-bordado-me-salvo-ih17458347.html"
+    },
+    {
+      "label": "Atelier « A stitch in time », Museo Picasso Málaga",
+      "url": "https://www.museopicassomalaga.org/en/actividades/a-stitch-in-time"
+    },
+    {
+      "label": "Profil Instagram @srtalylo (titre lu, chiffres non chargés)",
+      "url": "https://www.instagram.com/srtalylo/?hl=es"
+    }
+  ],
+  "researchNotes": "À vérifier. 1) Aucune date de création de la marque ni de début des ventes n'est publiée. « Dos décadas » à Barcelone ne donne pas la date de la marque. 2) Entreprise : le site (aviso legal) indique comme titulaire « Paola Ghirardi (Loly) », un prénom différent de Loly, à vérifier. Aucune raison sociale, forme juridique ni NIF ou CIF n'est indiquée. Le site affiche un NIE, identifiant de personne étrangère : je ne l'ai pas reporté, car c'est une donnée personnelle. Forme probablement autónoma, non confirmée. Les recherches web n'ont pas trouvé de fiche infoempresa, einforma ou librebor, et ces registres n'ont pas été consultés directement. 3) Aucun chiffre d'affaires, résultat ni effectif publié. Aucune estimation retenue. 4) Audience Instagram : 100 000 est le chiffre « más de cien mil » affiché sur srtalylo.com (lu le 2026-10-21). L'article Domestika (date non lue) annonce plus de 110 000 abonnés Instagram. La page Instagram n'a montré que son titre, sans compteur. Le chiffre de 150 000 est celui du profil Domestika, pas des réseaux sociaux. Facebook, X et Pinterest existent (liens sur le site) mais sans compteur relevé. 5) Élèves : la carte du cours Domestika affiche 35 942 inscrits (article), alors que le site et la presse disent plus de 50 000 élèves sur Domestika. 6) Livre : 184 pages selon la presse, 192 selon la boutique. Date de parution non indiquée sur la boutique, 2023 selon la presse. 7) Prix du kit Mi refugio : 50 € barrés 65 € sur la liste de la boutique, mais la page produit n'affiche pas de prix. 8) Best-sellers : aucun badge « más vendido » ou « destacado » sur la boutique, donc bestseller reste à false partout. Pas de données de ventes. 9) Boutique : seule la première page (12 produits) a été lue. Une deuxième page existe. « Cuadernos bordados » (8,50 €) est en rupture de stock et n'est pas repris. 10) Une recherche a évoqué une collaboration avec DMC (10 patrons gratuits), mais aucune page ne l'a confirmé : elle n'est pas dans la fiche. 11) Pas d'Etsy ni de YouTube trouvés. 12) Photo de la créatrice et logo : non renseignés, comme demandé. 13) Fils de « Bordar un poema » : DMC Mouliné indiqué, grosseur non précisée. Fils de « Mi refugio » : DMC Broder spécial 25. Les autres kits n'indiquent pas la marque."
+}

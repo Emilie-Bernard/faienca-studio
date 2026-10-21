@@ -1,0 +1,192 @@
+{
+  "name": "Maison Camomille",
+  "country": "France",
+  "city": "Le Coudray-Macouard",
+  "region": "Pays de la Loire",
+  "foundedDate": "2023",
+  "closedDate": "",
+  "founders": [
+    "Delphine Pasquier"
+  ],
+  "legalName": "Delphine Pasquier (DEL - LA P'TITE FABRIQUE ETHIQUE)",
+  "legalForm": "Entrepreneur individuel (auto-entrepreneur selon les mentions légales)",
+  "registrationId": "539240820",
+  "offers": [
+    "Kits de broderie",
+    "Kits à broder sur vêtements (Mon vestiaire à broder)",
+    "Cartes à broder",
+    "Motifs hydrosolubles",
+    "Mercerie",
+    "Ateliers",
+    "Patrons PDF"
+  ],
+  "styles": [
+    "Floral",
+    "Pour débutantes",
+    "Doux et bienveillant"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur vêtement"
+  ],
+  "threads": [
+    "DMC (coton, gamme non précisée sur les fiches)",
+    "Fil métallisé n°4 (marque non précisée)"
+  ],
+  "fabrics": [
+    "Lin (toile imprimée)"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress)",
+    "Ateliers en présentiel"
+  ],
+  "priceRange": "Kits de 18 à 39 €, carte à broder à 12 €, fil métallisé à 2,80 €. Prix des patrons PDF non relevé.",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit broderie « Fleurs des Champs »",
+      "format": "kit",
+      "price": "32 € à 39 € (selon avec ou sans tambour)",
+      "bestseller": false,
+      "description": "Toile de lin imprimée de 11 x 9 cm, 6 écheveaux de fil DMC, aiguille Bohin n°9, tambour en bois de 13 cm en option, livret papier pas à pas et tutoriel vidéo. Ciseaux non inclus. 5 avis, note moyenne 5/5.",
+      "url": "https://maison-camomille.fr/product/kit-broderie-fleurs-fleurs-des-champs/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fleurs Sauvages, kit broderie poche salopette",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Motif hydrosoluble adhésif pré-imprimé (à utiliser en un seul morceau ou à couper en deux), fil DMC dans les coloris du motif, une aiguille, diagramme des points et tutoriels vidéo. Tissu et tambour non inclus. Dimensions du produit 18 x 16 x 3 cm. Aucun avis à ce jour.",
+      "url": "https://maison-camomille.fr/product/fleurs-sauvages-kit-broderie-poche-salopette-a-broder-2/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fil métallisé n°4",
+      "format": "autre",
+      "price": "2,80 €",
+      "bestseller": true,
+      "description": "Fil métallisé vendu à l'unité. Badge « Meilleures ventes » affiché sur sa fiche produit. Composition et longueur non relevées.",
+      "url": "https://maison-camomille.fr/product/fil-metallise/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Carte à broder « L'enveloppe fleurie »",
+      "format": "autre",
+      "price": "12 €",
+      "bestseller": false,
+      "description": "Carte à broder livrée avec enveloppe kraft et tutoriel vidéo, parmi une collection de 8 modèles (mariage, naissance, départ en retraite, nouvelle année).",
+      "url": "https://maison-camomille.fr/product/carte-a-broder-enveloppe/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Cascade de Fleurs, kit broderie épaules",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit « Mon vestiaire à broder » pour décorer les épaules d'un tee-shirt, d'un sweat ou d'une veste. Motif, fil DMC, aiguille, schéma et tutoriels vidéo.",
+      "url": "https://maison-camomille.fr/product/cascade-de-fleurs-kit-broderie-epaules-a-broder/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Échappée Florale, kit broderie short",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit « Mon vestiaire à broder » pour décorer un short. Motif, fil DMC, aiguille, schéma et tutoriels vidéo.",
+      "url": "https://maison-camomille.fr/product/echappee-florale-broderie-short-a-broder/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Au Gré des Fleurs, kit broderie manche",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Kit « Mon vestiaire à broder » pour décorer une manche. Motif, fil DMC, aiguille, schéma et tutoriels vidéo.",
+      "url": "https://maison-camomille.fr/product/au-gre-des-fleurs-kit-broderie-manche-a-broder/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Premier Printemps, kit broderie poche pantalon",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Kit « Mon vestiaire à broder » pour décorer une poche de pantalon. Motif, fil DMC, aiguille, schéma et tutoriels vidéo.",
+      "url": "https://maison-camomille.fr/product/premier-printemps-kit-broderie-poche-pantalon-a-broder/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Rosée Matinale, kit broderie col chemise",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Kit « Mon vestiaire à broder » pour décorer le col d'une chemise. Motif, fil DMC, aiguille, schéma et tutoriels vidéo.",
+      "url": "https://maison-camomille.fr/product/rosee-matinale-kit-broderie-col-chemise-a-broder/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Maison Camomille est une marque française de kits de broderie pour débutantes, fabriqués à la main dans un atelier de Coudray-Macouard (Anjou). Elle propose aussi des kits pour personnaliser des vêtements, des cartes à broder et des ateliers.",
+  "history": "Delphine Pasquier, créatrice de la marque, est entrepreneure individuelle. Le registre public (annuaire-entreprises) recense une entreprise individuelle à son nom, « DEL - LA P'TITE FABRIQUE ETHIQUE », créée le 2012-01-01, avec un établissement au 6 rue des Mûriers, au Coudray-Macouard, ouvert le 2021-06-01. Le SIRET de cet établissement figure dans les mentions légales du site de Maison Camomille.\n\nLe site présente la marque comme née « d'une volonté profonde de créer un espace de douceur et de créativité ». Il indique que « depuis 2023, les ateliers Maison Camomille fleurissent », sans donner de date de création de la marque.\n\nÀ l'aube de 2025, la marque se réinvente selon sa page À propos. Elle développe la gamme « Mon vestiaire à broder », des kits pour décorer des vêtements, en plus des kits à fleurs et des cartes à broder.\n\nAujourd'hui, les kits sont confectionnés à la main dans l'atelier en Anjou. Le site annonce aussi des ateliers à Angers et à Saumur. La marque se présente comme un lieu d'inspiration où l'on apprend et où l'on se ressource.",
+  "positioning": "Marque tournée vers les débutantes : chaque kit contient le nécessaire (tissu imprimé, fil DMC, aiguille, livret et tutoriel vidéo), avec un ton doux et une promesse de pause créative. Points forts visibles : fabrication artisanale locale, gamme vêtements (Mon vestiaire à broder), cartes à broder, ateliers. Points faibles visibles : peu d'avis (5 avis sur le kit principal, 0 sur Fleurs Sauvages), gamme de fil DMC non précisée sur les fiches, aucune présence Etsy relevée, prix des patrons PDF non affichés sur le site.",
+  "website": "https://maison-camomille.fr",
+  "instagram": "https://www.instagram.com/maisoncamomille_broderie/",
+  "etsy": "",
+  "photoUrl": "https://maison-camomille.fr/wp-content/uploads/2025/03/cc4b4642-f7a9-4c32-b5af-982ef436339a-1024x768.jpeg",
+  "timeline": [
+    {
+      "date": "2012",
+      "kind": "vie",
+      "label": "Création de l'entreprise individuelle de Delphine Pasquier (DEL - LA P'TITE FABRIQUE ETHIQUE), selon annuaire-entreprises. Lien avec la marque : SIRET cité dans les mentions légales du site."
+    },
+    {
+      "date": "2021",
+      "kind": "vie",
+      "label": "Ouverture de l'établissement au 6 rue des Mûriers, au Coudray-Macouard (1er juin 2021, selon annuaire-entreprises)."
+    },
+    {
+      "date": "2023",
+      "kind": "vie",
+      "label": "Début des ateliers Maison Camomille (« Depuis 2023 », selon le site)."
+    },
+    {
+      "date": "2025",
+      "kind": "vie",
+      "label": "Maison Camomille se réinvente (page À propos)."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Maison Camomille, accueil",
+      "url": "https://maison-camomille.fr"
+    },
+    {
+      "label": "Maison Camomille, page À propos",
+      "url": "https://maison-camomille.fr/about/"
+    },
+    {
+      "label": "Maison Camomille, mentions légales",
+      "url": "https://maison-camomille.fr/mentions-legales/"
+    },
+    {
+      "label": "Annuaire des entreprises, SIRET 53924082000024",
+      "url": "https://annuaire-entreprises.data.gouv.fr/rechercher?terme=53924082000024"
+    },
+    {
+      "label": "Kit « Fleurs des Champs »",
+      "url": "https://maison-camomille.fr/product/kit-broderie-fleurs-fleurs-des-champs/"
+    },
+    {
+      "label": "Kit « Fleurs Sauvages »",
+      "url": "https://maison-camomille.fr/product/fleurs-sauvages-kit-broderie-poche-salopette-a-broder-2/"
+    },
+    {
+      "label": "Catégorie Mon vestiaire à broder",
+      "url": "https://maison-camomille.fr/product-category/motifs-a-broder/mon-vestiaire-a-broder/"
+    }
+  ],
+  "researchNotes": "Vérifié le 2026-10-21. Points à confirmer : (1) Date de création de la marque non publiée : la fiche retient 2023 (« Depuis 2023 », page À propos). L'entreprise individuelle de Delphine Pasquier date de 2012, sous un autre nom commercial, et son lien avec la marque n'est pas explicite hors SIRET. (2) Forme juridique : entrepreneur individuel (auto-entrepreneur) d'après les mentions légales. Le SIREN 539240820 est déduit des 9 premiers chiffres du SIRET 53924082000024, qui est celui affiché par annuaire-entreprises. Pas de comptes publiés, donc financials vide. Pas de dirigeant nommé dans le registre, seule la responsable de publication (Mme Delphine Pasquier) apparaît sur le site. (3) Best-seller : la catégorie Mon vestiaire à broder signale « Fleurs Sauvages » comme meilleure vente, mais sa fiche produit ne porte pas ce badge (le badge figure sur le fil métallisé). Mis à false, à revérifier. (4) Prix : le kit Fleurs des Champs est affiché de 32 € à 39 € selon l'option tambour. Les prix des kits Mon vestiaire vont de 18 € à 25 €. (5) Patrons PDF : mentionnés sur l'accueil, mais aucune fiche PDF relevée, donc aucun prix. (6) Fil : la fiche indique seulement « DMC » sans gamme, à demander à la marque ou à vérifier sur les étiquettes. (7) Fabrication : la marque affiche « Produit en Anjou ». Une page Faire de gros (faire.com/brand/b_4bzfbh5qa3) n'a été lue qu'à travers un extrait de recherche, elle n'est pas dans les sources. (8) Audience : compte Instagram (@maisoncamomille_broderie) non lisible (page incomplète ou bloquée), aucun nombre d'abonnés relevé. Pas de présence Etsy trouvée. Le site annonce 50 avis Google, note « Excellent » (non reporté dans audience, car ce n'est pas une audience sociale). (9) Ateliers : Angers et Saumur cités en pied de page, sans date ni fréquence. (10) Image : aucune image dans la fiche, comme demandé, photoUrl et imageUrl sont vides."
+}

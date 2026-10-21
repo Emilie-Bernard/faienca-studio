@@ -1,0 +1,190 @@
+{
+  "name": "Le Bonheur des Dames",
+  "country": "France",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "foundedDate": "1979",
+  "closedDate": "",
+  "founders": [
+    "Cécile Vessière"
+  ],
+  "legalName": "LE BONHEUR DES DAMES",
+  "legalForm": "SASU (société par actions simplifiée à associé unique)",
+  "registrationId": "338183973",
+  "offers": [
+    "Kits de broderie",
+    "Mercerie",
+    "Livres",
+    "Cartes de voeux à broder",
+    "Supports à broder"
+  ],
+  "styles": [
+    "Animalier",
+    "Nature et saisons",
+    "Minutieux"
+  ],
+  "techniques": [
+    "Point compté",
+    "Point de croix",
+    "Petit point",
+    "Broderie traditionnelle"
+  ],
+  "threads": [
+    "DMC",
+    "Anchor",
+    "Permin of Copenhagen (distribuée)",
+    "Thea Gouverneur (distribuée)",
+    "Mill Hill (distribuée)"
+  ],
+  "fabrics": [
+    "Étamine de lin"
+  ],
+  "salesChannels": [
+    "Site en propre (e-commerce, en français et en anglais)",
+    "Boutique physique à Paris 9e (Passage Verdeau)",
+    "Vente par correspondance",
+    "Catalogues papier",
+    "Chèques cadeaux"
+  ],
+  "priceRange": "Cartes à broder à partir de 12,30 €, kits de 14,40 € à 26,90 €, grand kit petit point à 80,40 €",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Tapis oiseaux (réf. 3670)",
+      "format": "kit",
+      "price": "80,40 €",
+      "bestseller": false,
+      "description": "Kit au petit point compté sur étamine de lin à 12 fils/cm. Douze oiseaux, un par mois de l'année, dans une composition miniature. Fils DMC (nombre de couleurs non indiqué), diagramme, une aiguille. Dimensions brodées 30 x 20,5 cm. Niveau 4 ou 5 sur 5, réservé aux brodeurs avancés. Diagramme conçu par Cécile Vessière. Aucun avis affiché. Collection « Couronnes, oiseaux, les mois de l'année ».",
+      "url": "https://www.bonheurdesdames.com/fr/23151675-tapis-oiseaux.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Écureuil roux (réf. 341832)",
+      "format": "kit",
+      "price": "12,30 €",
+      "bestseller": false,
+      "description": "Carte de voeux à broder au point de croix, marque Textile Heritage. Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/23151470-ecureuil-roux.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Rouge-gorge (réf. 349623)",
+      "format": "kit",
+      "price": "12,30 €",
+      "bestseller": false,
+      "description": "Carte de voeux à broder au point de croix, marque Textile Heritage. Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/23151471-rouge-gorge.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Marque-page Les Animaux de la Forêt (réf. 4710)",
+      "format": "kit",
+      "price": "16,60 €",
+      "bestseller": false,
+      "description": "Kit imprimé en broderie traditionnelle (écureuil, hiboux, renard). Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/23151160-marque-page-les-animaux-de-la-foret.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Marque-pages écureuil (réf. 229543)",
+      "format": "kit",
+      "price": "16,40 €",
+      "bestseller": false,
+      "description": "Kit au point de croix et point compté, marque Textile Heritage. Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/229543-marque-pages-ecureuil.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Marque-page automne (réf. 4525)",
+      "format": "kit",
+      "price": "14,40 €",
+      "bestseller": false,
+      "description": "Kit au point de croix, thème automne. Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/4525-marque-page-automne.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Porte-ciseaux Automne, baies (réf. 3350)",
+      "format": "kit",
+      "price": "23,40 €",
+      "bestseller": false,
+      "description": "Kit au point de croix, point compté, thème baies d'automne. Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/3350-porte-ciseaux-automne.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Porte-aiguilles Baies (réf. 3450)",
+      "format": "kit",
+      "price": "26,90 €",
+      "bestseller": false,
+      "description": "Kit au point de croix, point compté, thème baies. Contenu et taille non détaillés sur la fiche lue.",
+      "url": "https://www.bonheurdesdames.com/fr/3450-porte-aiguilles-baies.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Le Bonheur des Dames est une boutique parisienne de broderie au point compté, avec un site e-commerce, une vente par correspondance et des catalogues papier. Elle se présente comme créatrice de kits depuis 1979, sous la direction de Cécile Vessière, puis d'Arthur Vessière, président de la société depuis 2012 selon Societe.com (lien de parenté non confirmé).",
+  "history": "Selon un guide parisien (Evous), Cécile Vessière ouvre son premier magasin en 1979 dans le Passage Jouffroy, voisin du Passage Verdeau. Le site du Bonheur des Dames affirme des « créations depuis 1979 », à Paris.\n\nLa société Le Bonheur des Dames, immatriculée sous le SIREN 338183973, a été créée en 1986 selon l'annuaire des entreprises (date de création 1986-06-25) et Societe.com (11 juillet 1986). Elle est aujourd'hui une SASU au capital de 160 000 €, dont le président est Arthur Vessière, depuis le 20 juillet 2012 selon Societe.com. Le siège est au 8 passage Verdeau, Paris 9e, où se trouve la boutique.\n\nUn guide de 2012 décrit une seconde boutique, plus grande, le long du Viaduc des Arts dans le 12e arrondissement. Le site actuel indique une vente par correspondance à Montreuil (93100), au siège de la société avenue de la Résistance.\n\nAujourd'hui, la marque vend des kits de broderie au point compté et traditionnel, de la mercerie et des livres, avec des marques distribuées comme DMC, Anchor, Permin of Copenhagen, Thea Gouverneur ou Mill Hill. L'effectif est indiqué entre 6 et 9 salariés par Societe.com.",
+  "positioning": "La marque s'adresse aux brodeuses expérimentées qui recherchent le point compté et des diagrammes détaillés. Les kits sont présentés avec un niveau de difficulté (le Tapis oiseaux est noté 4 ou 5 sur 5), une toile en étamine de lin et des fils DMC. Le ton est traditionnel et patrimonial : boutique historique, catalogues papier, chèques cadeaux, paiement en plusieurs fois. Elle se distingue par une double activité, boutique et vente à distance, et par la vente de marques étrangères reconnues. Points faibles visibles : fiches produits souvent sans taille, sans nombre de couleurs ni contenu détaillé, aucun avis client affichés sur les pages lues, et les réseaux sociaux ne donnent pas d'audience lisible.",
+  "website": "https://www.bonheurdesdames.com",
+  "instagram": "https://www.instagram.com/bonheur_des_dames/",
+  "etsy": "",
+  "photoUrl": "https://www.bonheurdesdames.com/img/favicon.ico?1513178468",
+  "timeline": [
+    {
+      "date": "1979",
+      "kind": "vie",
+      "label": "Cécile Vessière ouvre son premier magasin dans le Passage Jouffroy, à Paris (selon un guide Evous)."
+    },
+    {
+      "date": "1986",
+      "kind": "vie",
+      "label": "Création de la société Le Bonheur des Dames (SIREN 338183973)."
+    },
+    {
+      "date": "2012",
+      "kind": "vie",
+      "label": "Arthur Vessière devient président de la société (Societe.com)."
+    },
+    {
+      "date": "2012",
+      "kind": "vie",
+      "label": "Une seconde boutique, plus grande, est située le long du Viaduc des Arts, Paris 12e (guide de mai 2012)."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Le Bonheur des Dames, accueil du site (créations depuis 1979, boutiques, moyens de paiement)",
+      "url": "https://www.bonheurdesdames.com"
+    },
+    {
+      "label": "Le Bonheur des Dames, fiche Tapis oiseaux (réf. 3670)",
+      "url": "https://www.bonheurdesdames.com/fr/23151675-tapis-oiseaux.html"
+    },
+    {
+      "label": "Le Bonheur des Dames, mentions légales (raison sociale, SASU, capital, SIRET)",
+      "url": "https://www.bonheurdesdames.com/fr/content/2-mentions-legales"
+    },
+    {
+      "label": "Societe.com, fiche Le Bonheur des Dames (SIREN 338183973)",
+      "url": "https://www.societe.com/societe/le-bonheur-des-dames-338183973.html"
+    },
+    {
+      "label": "Recherche d'entreprises (API gouv.fr), SIREN 338183973",
+      "url": "https://recherche-entreprises.api.gouv.fr/search?q=338183973"
+    },
+    {
+      "label": "Evous, guide Le Bonheur des Dames, Passage Verdeau",
+      "url": "https://www.evous.fr/paris/9eme-Arrondissement/Guide-Paris-9e/Faire-du-shopping-Paris-9e/Boutiques-cadeaux-Bazars-Paris-9e/Le-Bonheur-des-Dames-magasin-de-broderie-dans-le-Passage-Verdeau,1176246.html"
+    },
+    {
+      "label": "Instagram, compte @bonheur_des_dames (titre de la page lu, abonnés non lisibles)",
+      "url": "https://www.instagram.com/bonheur_des_dames/"
+    }
+  ],
+  "researchNotes": "Date du relevé : 2026-10-21. Points à vérifier.\n\n1. Date de création : la marque dit « depuis 1979 » (site) et Cécile Vessière ouvre son premier magasin en 1979 selon Evous (ce guide ne cite pas de source). La société SASU est immatriculée en 1986 (API recherche d'entreprises : 1986-06-25 ; Societe.com : 11 juillet 1986). Les deux dates sont à garder distinctes : foundedDate retient 1979, date de la marque.\n\n2. Lien familial : Arthur Vessière, président de la société depuis 2012 (Societe.com) et directeur de publication (mentions légales), porte le même nom que Cécile Vessière. Le lien de parenté n'est pas confirmé dans les sources lues. Le résumé ne le présente pas comme un membre de la famille pour cette raison.\n\n3. Finances : aucun chiffre d'affaires publié. Societe.com indique NC. L'API recherche d'entreprises indique un CA 2023 à 0 et un résultat net de 28165 €. Societe.com attribue le résultat 28165 € à 2024 et -12980 € à 2023. Les années ne concordent pas : financials est donc laissé vide. Effectif : 6 à 9 salariés (Societe.com), tranche 03 référence 2024 (API). Compte à vérifier sur les comptes déposés au greffe.\n\n4. Audience : l'Instagram @bonheur_des_dames a été ouvert mais le nombre d'abonnés n'a pas pu être lu. Facebook (facebook.com/lebonheurdesdames) et Pinterest (pinterest.fr/bonheur1105) sont listés sur le site, non ouverts. Pas de compte Etsy relevé, pas de YouTube ni TikTok relevé.\n\n5. Produits : les 8 produits viennent de la page d'accueil du site (sélection mise en avant). Le site ne marque aucun best-seller : bestseller est à false partout, faute d'information. Seul le Tapis oiseaux a une fiche complète (fils DMC, toile étamine de lin 12 fils/cm, 30 x 20,5 cm, niveau 4 ou 5). Les autres fiches n'indiquent ni taille ni fils. Les marques de fils des autres kits restent à confirmer.\n\n6. Images : aucune image retenue, comme demandé. Les vignettes du site (domaine bonheurdesdames.com, dossiers de type home_default) sont disponibles pour une étape ultérieure.\n\n7. Adresse : le siège et la vente par correspondance sont à Montreuil (93100) selon le site, alors que le siège de la société est au 8 passage Verdeau (Paris 9e) selon Societe.com et l'API. Le site ne précise pas la ville du siège. Le champ city est mis à Paris, la boutique et le siège étant dans Paris 9e.\n\n8. Nombre de kits vendus, de clientes ou de pays : non communiqué.\n\n9. Avis : aucun avis client affiché sur la fiche lue. Le site propose un tableau des niveaux de difficulté et une rubrique de conseils, non lus en détail.\n\n10. Forme juridique : les mentions légales disent SASU. Societe.com et l'API donnent une SAS (nature 5710), ce qui est compatible avec une SASU."
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Broderies de Caractère",
+  "country": "France",
+  "city": "",
+  "region": "",
+  "foundedDate": "2025-09",
+  "closedDate": "",
+  "founders": [
+    "Lorette"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie"
+  ],
+  "styles": [
+    "Floral",
+    "Animaux",
+    "Personnalisé"
+  ],
+  "techniques": [
+    "Broderie traditionnelle"
+  ],
+  "threads": [
+    "DMC (gamme et références non précisées)"
+  ],
+  "fabrics": [
+    "Coton"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify)"
+  ],
+  "priceRange": "Kits à 34 €, porte-alliance à 44 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit de broderie - Le Coeur Eclatant",
+      "format": "kit",
+      "price": "34 €",
+      "bestseller": false,
+      "description": "Tambour en bois de hêtre de 20 cm, tissu blanc 100 % coton, fils de couleurs DMC (nombre non précisé), aiguille taille 7 Bohin (DMC), autocollant soluble avec le motif, livret explicatif en français (PDF sur demande). Niveau débutant à intermédiaire, 5 à 7 heures de broderie. Produit affiché comme épuisé au moment de la lecture. Pas de dimension de broderie finie indiquée.",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-le-coeur-eclatant",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie - La Croix Printanière",
+      "format": "kit",
+      "price": "34 €",
+      "bestseller": false,
+      "description": "Mêmes composants que le Coeur Eclatant : tambour en bois de hêtre de 20 cm, tissu blanc 100 % coton, fils DMC, aiguille Bohin taille 7, autocollant soluble, livret en français. Niveau débutant à intermédiaire, 5 à 7 heures. Affiché comme épuisé. Trois avis, tous à 5 étoiles.",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-la-croix-printaniere",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie - Porte-alliance Modèle CHIC à personnaliser",
+      "format": "kit",
+      "price": "44 €",
+      "bestseller": false,
+      "description": "Kit de porte-alliance à personnaliser. La FAQ précise qu'un tissu supplémentaire sert à cacher les fils derrière le tambour. Composition détaillée non relue sur la fiche produit.",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-porte-alliance-modele-chic-a-personnaliser",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie - Léon le Hérisson",
+      "format": "kit",
+      "price": "34 €",
+      "bestseller": false,
+      "description": "Mêmes composants que les autres kits : tambour en bois de hêtre de 20 cm, tissu blanc 100 % coton, fils DMC, aiguille Bohin taille 7, autocollant soluble avec le motif, livret en français. Affiché comme épuisé. Deux avis, tous à 5 étoiles.",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-leon-le-herisson",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque de kits de broderie lancée en septembre 2025 par Lorette, qui dessine elle-même ses motifs sur iPad et propose un livret illustré avec chaque kit. Les kits sont vendus à 34 € et les trois kits dont la fiche a été lue étaient épuisés au moment de la lecture.",
+  "history": "Lorette apprend la broderie pendant le confinement, grâce aux réseaux sociaux et à quelques livres. Elle se présente comme une jeune maman de 25 ans qui brode depuis 6 ans.\n\nLa marque Broderies de Caractère est lancée en septembre 2025, date que la créatrice indique elle-même comme le « grand départ » de son activité d'entrepreneuse. Elle crée alors ses premiers kits de broderie, dans un atelier qu'elle décrit comme « mon nouvel atelier », sans en préciser la localisation.\n\nLa boutique est un site Shopify en propre, sans présence Etsy repérée. Elle propose des kits de broderie à 34 €, un porte-alliance à 44 €, ainsi que des broderies de naissance et des photos brodées sur mesure, selon la page d'accueil.\n\nAujourd'hui, la marque publie sur Instagram et Pinterest. Les pages produits affichent des avis très positifs, mais en nombre réduit (de 2 à 3 avis par kit), et les kits lus sont épuisés.",
+  "positioning": "Kits pensés pour les débutantes et les intermédiaires : tout le matériel est fourni (tambour en bois, tissu coton, fils DMC, aiguille Bohin, motif à coller), avec un livret illustré en français. La créatrice met en avant le dessin fait main de chaque motif (iPad), l'absence d'IA dans les kits, les textes et les photos, et un souci du made in France (sauf autocollants et tambours). Points à noter : pas de tutoriel vidéo inclus pour le moment (des vidéos de points sont sur Instagram), mentions légales et dimensions de broderie non publiées, les trois kits lus épuisés, peu d'avis.",
+  "website": "https://broderiesdecaractere.fr",
+  "instagram": "https://www.instagram.com/broderiesdecaractere/",
+  "etsy": "",
+  "photoUrl": "https://broderiesdecaractere.fr/cdn/shop/files/Logo_BLEU.png?height=628&pad_color=ffffff&v=1784558584&width=1200",
+  "timeline": [
+    {
+      "date": "2020",
+      "kind": "formation",
+      "label": "Apprend la broderie pendant le confinement, grâce aux réseaux sociaux et à quelques livres (année déduite de « je brode depuis 6 ans », en 2026)"
+    },
+    {
+      "date": "2025-09",
+      "kind": "vie",
+      "label": "Lancement de la marque Broderies de Caractère et des premiers kits de broderie"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Page d'accueil du site",
+      "url": "https://broderiesdecaractere.fr"
+    },
+    {
+      "label": "Page À propos (Qui suis-je)",
+      "url": "https://broderiesdecaractere.fr/pages/a-propos"
+    },
+    {
+      "label": "FAQ",
+      "url": "https://broderiesdecaractere.fr/pages/faq"
+    },
+    {
+      "label": "Page contact",
+      "url": "https://broderiesdecaractere.fr/pages/contact"
+    },
+    {
+      "label": "Kit Le Coeur Eclatant",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-le-coeur-eclatant"
+    },
+    {
+      "label": "Kit La Croix Printanière",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-la-croix-printaniere"
+    },
+    {
+      "label": "Kit Léon le Hérisson",
+      "url": "https://broderiesdecaractere.fr/products/kit-de-broderie-leon-le-herisson"
+    },
+    {
+      "label": "Instagram (titre de la page lu, sans chiffres)",
+      "url": "https://www.instagram.com/broderiesdecaractere/"
+    }
+  ],
+  "researchNotes": "Vérifié le 2026-10-21. Non trouvé : raison sociale, forme juridique, SIREN, adresse ; les pages /pages/mentions-legales et /policies/legal-notice renvoient une erreur 404 et la page de contact n'indique ni ville ni société. Une recherche sur le nom et « Lorette » n'a donné aucune société correspondante dans les résultats (à vérifier sur annuaire-entreprises.data.gouv.fr avec le nom de la créatrice). Nom de famille de Lorette non publié. Audience non relevée : la page Instagram lue ne renvoie que son titre, sans nombre d'abonnés ; Pinterest non lu. Aucun chiffre de ventes, de clientes ni de chiffre d'affaires publié. La date de 2020 dans la frise est déduite de « je brode depuis 6 ans » (écrit en 2026). Styles déduits des titres de produits (cœur, croix, hérisson, porte-alliance). Aucun produit n'est signalé comme meilleure vente sur le site. Le livret est décrit comme illustré dans la FAQ, mais la fiche produit ne dit pas explicitement qui le rédige ; la FAQ indique que les motifs sont dessinés par l'auteure sur iPad. La fiche produit indique que le livret vient de Touraine : cela ne dit pas où se trouve le siège de la marque, donc region est laissée vide. Le porte-alliance n a pas été ouvert, seule sa description dans la liste d accueil et la FAQ est connue. Le tambour et les autocollants ne sont pas fabriqués en France selon la FAQ. Pas d'image produit récupérée (à ajouter ensuite)."
+}

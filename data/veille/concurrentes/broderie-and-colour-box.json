@@ -1,0 +1,169 @@
+{
+  "name": "Broderie & Colour Box",
+  "country": "France",
+  "city": "Saint-Jean-Pla-de-Corts",
+  "region": "Occitanie (Pyrénées-Orientales, près de Perpignan)",
+  "foundedDate": "2006",
+  "closedDate": "",
+  "founders": [
+    "Mélanie Couffe"
+  ],
+  "legalName": "TOM ET LILY",
+  "legalForm": "Entrepreneur individuel",
+  "registrationId": "SIREN 488105917 (SIRET du siège 48810591700022)",
+  "offers": [
+    "Box",
+    "Patrons PDF",
+    "Mercerie"
+  ],
+  "styles": [
+    "Botanique",
+    "Animalier",
+    "Saisonnier"
+  ],
+  "techniques": [
+    "Point de croix",
+    "Broderie au ruban de soie",
+    "Point compté",
+    "Broderie traditionnelle",
+    "Blackwork",
+    "Punch needle"
+  ],
+  "threads": [
+    "Fils Colour Gems (teints à la main, marque maison)"
+  ],
+  "fabrics": [
+    "Aida",
+    "Étamine de lin"
+  ],
+  "salesChannels": [
+    "Site en propre (abonnements gérés avec Subbly)",
+    "Groupe Facebook de la communauté"
+  ],
+  "priceRange": "Box d'abonnement à 39,90 € tous les deux mois, box uniques de 42 € à 49,90 €, abonnements fils et toiles au prix non affiché",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Box Broderie Créative (abonnement)",
+      "format": "box",
+      "price": "39,90 €",
+      "bestseller": false,
+      "description": "Box tous les deux mois, frais de port inclus. Contient une création exclusive en tirage limité pour point de croix ou broderie, grilles en couleur et instructions, toile teintée à la main et aiguille, fils teints à la main « Fils Colour Gems », un petit cadeau broderie et un sachet de thé ou tisane. Accès à la communauté Facebook et aux tutos vidéo. Taille de la toile et du motif non indiquées. Pause, saut d'une box ou annulation possibles à tout moment.",
+      "url": "https://www.broderieandcolourbox.fr/abonnements",
+      "imageUrl": ""
+    },
+    {
+      "title": "Box Unique Hérisson des Bois",
+      "format": "box",
+      "price": "49,90 €",
+      "bestseller": false,
+      "description": "Box unique de point de croix à thème, « même qualité que les box par abonnement ». Variante de toile « Aida Etamine Lin » affichée. Fils, nombre de couleurs et taille du motif non indiqués. Lien produit à vérifier (voir researchNotes).",
+      "url": "https://www.broderieandcolourbox.fr/boutique/box-unique-tentaculaire-xcmy",
+      "imageUrl": ""
+    },
+    {
+      "title": "Box Unique Plumes de Paon",
+      "format": "box",
+      "price": "49,90 €",
+      "bestseller": false,
+      "description": "Box unique de point de croix à thème. Prix affiché sur la page des box uniques (49,90 €), contenu non détaillé.",
+      "url": "https://www.broderieandcolourbox.fr/boutique/box-unique-plumes-de-paon-vgje",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie & Colour Box: Balade à Bali",
+      "format": "kit",
+      "price": "42,00 €",
+      "bestseller": false,
+      "description": "Kit de broderie de la boutique. Contenu (toile, fils, taille) non indiqué sur la page produit lue.",
+      "url": "https://www.broderieandcolourbox.fr/boutique/broderie-colour-box-august",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie & Colour Box: Biscornus",
+      "format": "kit",
+      "price": "42,00 €",
+      "bestseller": false,
+      "description": "Kit de broderie de la boutique. Contenu (toile, fils, taille) non indiqué sur la page produit lue.",
+      "url": "https://www.broderieandcolourbox.fr/boutique/broderie-colour-box-biscornus",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie & Colour Box: Broderie Suisse",
+      "format": "kit",
+      "price": "42,00 €",
+      "bestseller": false,
+      "description": "Kit de broderie de la boutique. Contenu (toile, fils, taille) non indiqué sur la page produit lue.",
+      "url": "https://www.broderieandcolourbox.fr/boutique/broderie-colour-box-faune-oceane-pswp",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie & Colour Box: Casse Noisettes",
+      "format": "kit",
+      "price": "42,00 €",
+      "bestseller": false,
+      "description": "Kit de broderie de la boutique (thème lièvre au printemps selon l'URL). Contenu non indiqué sur la page produit lue.",
+      "url": "https://www.broderieandcolourbox.fr/boutique/broderie-colour-box-lievre-au-printemps-kzuo",
+      "imageUrl": ""
+    },
+    {
+      "title": "Broderie & Colour Box: Citrouilles",
+      "format": "kit",
+      "price": "42,00 €",
+      "bestseller": false,
+      "description": "Kit de broderie de la boutique. Contenu (toile, fils, taille) non indiqué sur la page produit lue.",
+      "url": "https://www.broderieandcolourbox.fr/boutique/broderie-colour-box-september",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque française de box de broderie au point de croix, créée par Mélanie Couffe, avec des box d'abonnement tous les deux mois à 39,90 € et des box uniques à thème. Les fils et toiles sont teints à la main sous la marque Colour Gems.",
+  "history": "Les données publiques de l'INSEE et de societe.com donnent une entreprise individuelle nommée TOM ET LILY, immatriculée au nom de Melanie Couffe et située à Saint-Jean-Pla-de-Corts (66). La date de création indiquée est le 1er janvier 2006, qui peut être une date administrative par défaut : elle reste à confirmer.\n\nSur sa page « à propos », Mélanie Couffe se présente comme la fondatrice de Tom & Lily Creations. Elle était professeure de langues et a lancé son activité de design après la naissance de ses enfants, Thomas et Lily, sans date précise. Elle dit créer ses propres designs depuis 18 ans et cite cinq années d'études de graphisme aux Arts Décoratifs de Genève.\n\nLa page mentionne aussi « Le Jardin d'Emilie », dont « la première fleur a éclos » en 2009. Le lien entre ce projet et la marque actuelle n'est pas expliqué sur le site.\n\nLe site (copyright 2022) propose aujourd'hui des box d'abonnement tous les deux mois, des abonnements mensuels fils et toiles, un pack PDF de point de croix tous les deux mois par e-mail, des box uniques et une boutique de kits à 42 €. Aucun chiffre de vente, de clientes ou de pays n'est publié.",
+  "positioning": "Marque centrée sur l'abonnement : la box tous les deux mois, avec création exclusive en tirage limité, fils et toiles teints à la main, et un petit cadeau. Le ton est doux et communautaire, avec un groupe Facebook et des tutos vidéo. Elle mise sur le point de croix et sur des fils de qualité colorés à la main, plus que sur les kits débutants. Points faibles visibles : les prix des abonnements fils et toiles ne sont pas affichés, la toile, les fils et la taille des motifs ne sont pas détaillés sur les fiches produits, et aucune date de création ni chiffre de ventes n'est publié.",
+  "website": "https://www.broderieandcolourbox.fr",
+  "instagram": "https://instagram.com/tometlilycreations",
+  "etsy": "",
+  "photoUrl": "https://static.subbly.me/fs/subbly/userFiles/tom-et-lily-creations-1-631090859226a/images/1-seo-screen-shot-2022-09-02-at-135233-16621264194055.png?v=1662126444",
+  "timeline": [
+    {
+      "date": "2006",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle TOM ET LILY (date de création selon societe.com, à confirmer)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Broderie & Colour Box, accueil",
+      "url": "https://www.broderieandcolourbox.fr"
+    },
+    {
+      "label": "Site Broderie & Colour Box, à propos",
+      "url": "https://www.broderieandcolourbox.fr/a-propos"
+    },
+    {
+      "label": "Site Broderie & Colour Box, abonnements",
+      "url": "https://www.broderieandcolourbox.fr/abonnements"
+    },
+    {
+      "label": "Site Broderie & Colour Box, boutique",
+      "url": "https://www.broderieandcolourbox.fr/boutique"
+    },
+    {
+      "label": "Site Broderie & Colour Box, box uniques",
+      "url": "https://www.broderieandcolourbox.fr/box-uniques"
+    },
+    {
+      "label": "societe.com, fiche SIREN 488105917",
+      "url": "https://www.societe.com/societe/tom-lily-creations-488105917.html"
+    },
+    {
+      "label": "Instagram @tometlilycreations (titre de la page seul lu)",
+      "url": "https://www.instagram.com/tometlilycreations/"
+    }
+  ],
+  "researchNotes": "Vérifié le 2026-10-21. Non trouvé : chiffre d'affaires et résultat (entreprise individuelle non soumise à publication des comptes, selon societe.com), effectif, nombre d'abonnés Instagram (la page lue ne donne que le titre), nombre de ventes, page mentions légales (URL /mentions-legales en 404), code NAF, dates exactes de création de la box. Date de création : societe.com indique le 1er janvier 2006 pour l'EI, mais le site dit « depuis 18 ans » sans année de référence, ce qui ne colle pas exactement. A confirmer. Dirigeante : societe.com indique Melanie Couffe. La page À propos est aussi signée Dominique Molière (« Créatrice de Parenthèse Poétique et Bucolique »), lien non expliqué. Incohérence de nom : le site écrit « Colour Gems » (Fils Colour Gems) et « Color Gem Threads » sur la même page. Le site est sur Subbly (images static.subbly.me). Lien produit à vérifier : le produit « Box Unique Hérisson des Bois » de la boutique renvoie vers l'URL box-unique-tentaculaire, qui figure aussi sur la page des box uniques comme « Box Unique Tentaculaire ». Le prix 49,90 € de la page box-uniques n'est pas rattaché à un produit précis. Les fiches kits de la boutique (42 €) ne détaillent ni toile ni fils ni taille. Aucune image retenue pour l'instant (pas d'image demandée). Le groupe Facebook de la communauté est mentionné sans lien direct."
+}

@@ -1,0 +1,184 @@
+{
+  "name": "VintageMadbyM",
+  "country": "France",
+  "city": "Strasbourg",
+  "region": "Grand Est",
+  "foundedDate": "2015",
+  "closedDate": "",
+  "founders": [
+    "Muriel Grimont"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Box",
+    "Ateliers",
+    "Mercerie",
+    "Broderies finies"
+  ],
+  "styles": [
+    "Tatouage traditionnel",
+    "Pin-up",
+    "Anatomie",
+    "Vintage",
+    "Humour décalé",
+    "Culture alternative",
+    "Floral"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur calicot imprimé"
+  ],
+  "threads": [
+    "Fil à broder (marque non précisée sur les pages lues)"
+  ],
+  "fabrics": [
+    "Calicot imprimé"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify)",
+    "Etsy",
+    "Airbnb (ateliers)"
+  ],
+  "priceRange": "Kits de 24 à 49 €, patrons PDF de 9 à 15 €",
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
+  "audience": [
+    {
+      "platform": "Instagram",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/vintagemadbym/"
+    }
+  ],
+  "financials": [],
+  "products": [
+    {
+      "title": "Vampira Embalming Self-Taught, Embroidery Kit",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Calicot imprimé avec le motif à suivre, un écheveau de fil à broder noir (marque non précisée), un cerceau en bois de 15 cm de fabrication britannique, une aiguille, une fiche d'instructions en anglais. Diamètre fini d'environ 15 cm. Niveau intermédiaire. Ciseaux à broder en option.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/vampira-embalming-self-taught-embroidery-kit",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/Vamp2_GR_300x300.jpg"
+    },
+    {
+      "title": "Et Mes Fesses ... Embroidery Kit",
+      "format": "kit",
+      "price": "31 €",
+      "bestseller": false,
+      "description": "Kit de broderie au motif humoristique. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/et-mes-fesses-embroidery-kit",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/DSC_0081_3_300x300.jpg"
+    },
+    {
+      "title": "Alsacienne, Kit de Broderie",
+      "format": "kit",
+      "price": "31 €",
+      "bestseller": false,
+      "description": "Kit de broderie au motif alsacien, en français. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/alsacienne-kit-de-broderie",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/AlsacienneLR_300x300.jpg"
+    },
+    {
+      "title": "Victorian Hands Sew Tote Bag Embroidery Kit",
+      "format": "kit",
+      "price": "49 €",
+      "bestseller": false,
+      "description": "Kit de broderie pour tote bag. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/victorian-hands-sew-tote-bag-embroidery-kit",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/telechargement_66_300x300.jpg"
+    },
+    {
+      "title": "Frida Kahlo, Embroidery Kit",
+      "format": "kit",
+      "price": "26 €",
+      "bestseller": false,
+      "description": "Kit de broderie à l'effigie de Frida Kahlo. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/frida-kahlo-embroidery-kit",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/telechargement_14_300x300.jpg"
+    },
+    {
+      "title": "Bones Embroidery Kits",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit de broderie au thème de l'anatomie (os). Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/anatomy-bones-embroidery-kits",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/DSC_0123_1_300x300.jpg"
+    },
+    {
+      "title": "Femme Fatale, Embroidery Kit",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit de broderie à motif pin-up. Contenu, fils et taille non détaillés dans les pages lues.",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/femme-fatale-embroidery-kit",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/2_6dcbc848-a89a-41c7-9677-164759bad40d_300x300.jpg"
+    },
+    {
+      "title": "Alice, les Dessous Chics ... Patron & Tutoriel (fichier PDF)",
+      "format": "pdf",
+      "price": "13 €",
+      "bestseller": false,
+      "description": "Patron PDF avec tutoriel, en français. Le patron est vendu seul, sans fils ni tissu.",
+      "url": "https://vintagemadbym.com/collections/pdf-patterns/products/alice-les-dessous-chics-patron-tutoriel-fichier-pdf",
+      "imageUrl": "https://vintagemadbym.com/cdn/shop/products/1_08e171bf-525f-405c-a31e-6edbf6f9116d_300x300.jpg"
+    }
+  ],
+  "summary": "VintageMadbyM est une marque strasbourgeoise de kits et de patrons de broderie au style moderne et décalé, qui mêle tatouage traditionnel, pin-up, anatomie et humour. Elle vend en anglais et en français, principalement sur son site et sur Etsy.",
+  "history": "La boutique Etsy de VintageMadbyM ouvre en septembre 2015, d'après la page « à propos » du site. La créatrice, Muriel, dit être passionnée de broderie depuis longtemps. Elle commence par des pièces personnalisées, puis crée des kits pour débutantes et brodeuses confirmées, en visant aussi un public issu de l'univers alternatif et rock.\n\nLa marque se présente comme une activité gérée par une seule personne, de la création du motif au conditionnement du kit. Le site annonce plus de 2 000 ventes sur Etsy et de nombreuses clientes fidèles. La page d'accueil parle de plus de 5 000 ventes, chiffre qui n'a pas pu être vérifié (voir researchNotes).\n\nLa créatrice anime aussi des ateliers de broderie à Strasbourg, proposés sur Airbnb, et des sew-along en ligne. Une collaboration artistique avec Nick Cave (tote bags et T-shirts) est citée sur la page « à propos », sans date.\n\nAujourd'hui, le site propose des kits en anglais et en français, des patrons PDF, des broderies finies, des coffrets cadeaux et des accessoires. Le ton reste décalé, avec le slogan « Not your grandma's designs ».",
+  "positioning": "Marque au style affirmé : broderie moderne et décalée, avec des motifs de tatouage traditionnel, de pin-up, d'anatomie et d'humour adulte. La clientèle visée est proche de l'univers alternatif et rock, plus que de la broderie florale classique. Le site est bilingue, avec une offre française (Rita, Magique Frida, Alsacienne, Alice). Forces visibles : un catalogue large (56 kits et 42 patrons annoncés en collection), une ancienneté de dix ans sur Etsy, des ateliers locaux. Points faibles visibles : pas de gamme de fils ni de tissu précisée sur les pages lues, pas d'info sur les livres, et une présentation du site qui ne dit pas clairement la taille de la structure.",
+  "website": "https://vintagemadbym.com",
+  "instagram": "https://www.instagram.com/vintagemadbym/",
+  "etsy": "https://www.etsy.com/shop/VintageMadbyM",
+  "photoUrl": "https://vintagemadbym.com/cdn/shop/files/Clipboard01_1200x1200.jpg?v=1613708173",
+  "timeline": [
+    {
+      "date": "2015",
+      "kind": "vie",
+      "label": "Ouverture de la boutique Etsy (septembre 2015, d'après la page à propos)"
+    },
+    {
+      "date": "2015",
+      "kind": "vie",
+      "label": "Lancement des kits de broderie sur Etsy à l'automne 2015 (d'après une annonce d'atelier sur Airbnb)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site VintageMadbyM, accueil",
+      "url": "https://vintagemadbym.com"
+    },
+    {
+      "label": "Site VintageMadbyM, page à propos",
+      "url": "https://vintagemadbym.com/pages/about-me"
+    },
+    {
+      "label": "Collection kits de broderie",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits"
+    },
+    {
+      "label": "Collection patrons PDF",
+      "url": "https://vintagemadbym.com/collections/pdf-patterns"
+    },
+    {
+      "label": "Fiche kit Vampira Embalming Self-Taught",
+      "url": "https://vintagemadbym.com/collections/embroidery-kits/products/vampira-embalming-self-taught-embroidery-kit"
+    },
+    {
+      "label": "Atelier Airbnb à Strasbourg (hôte Muriel)",
+      "url": "https://www.airbnb.ca/experiences/241586"
+    },
+    {
+      "label": "Instagram @vintagemadbym (titre de la page)",
+      "url": "https://www.instagram.com/vintagemadbym/"
+    }
+  ],
+  "researchNotes": "Non trouvé : raison sociale, forme juridique, SIREN (recherches sans résultat sur VintageMadbyM ni Muriel Grimont ; à chercher sur annuaire-entreprises.data.gouv.fr, et l'activité est peut-être exercée sans société). Aucun chiffre d'affaires publié. Nom de famille « Grimont » : seul le titre de la page Instagram le donne, à confirmer. Ville et région : Strasbourg d'après l'annonce Airbnb (code postal 67000). Chiffres contradictoires : 2 000 ventes Etsy sur la page à propos, plus de 5 000 sur l'accueil, à vérifier. Etsy : la boutique n'a pas pu être lue (erreur 403), donc pas de note, nombre d'avis ni de ventes vérifiés. Instagram : seul le titre de la page a été lu, pas le nombre d'abonnés ; followers laissé à null. YouTube, Pinterest, TikTok non vérifiés (le site renvoie à Pinterest, Facebook et Twitter). Meilleures ventes : aucun badge sur les pages lues, le tri « Best Selling » existe sans être affiché, donc bestseller reste à false. Les produits sont listés dans l'ordre affiché par la collection, sans garantie qu'il s'agisse du classement des ventes. Prix : tous les produits affichent un prix identique au prix normal. Atelier Airbnb : 104 avis et note 4,97 sur la page lue au moment de la recherche, 98 ou 99 avis dans les résultats de recherche. Plateforme du site : chemins /cdn/shop/ et /pages/ indiquent Shopify, non confirmé directement. Kits : fils, tissus et cerceau décrits seulement sur le kit Vampira, pas sur les autres. Frise : la collaboration avec Nick Cave n'a pas de date, elle n'est pas dans la frise. Les 56 kits et 42 patrons sont les totaux affichés par les collections au moment de la lecture, la pagination n'a pas été parcourue."
+}

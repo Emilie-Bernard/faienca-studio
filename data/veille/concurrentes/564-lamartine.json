@@ -1,0 +1,197 @@
+{
+  "name": "564 Lamartine",
+  "country": "France",
+  "city": "Le Versoud",
+  "region": "Auvergne-Rhône-Alpes",
+  "foundedDate": "2021",
+  "closedDate": "",
+  "founders": [
+    "Justine"
+  ],
+  "legalName": "564Lamartine",
+  "legalForm": "SARL",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Kits crochet",
+    "Patrons PDF",
+    "Livres",
+    "Mercerie",
+    "Cours en ligne",
+    "Ateliers"
+  ],
+  "styles": [
+    "Amigurumi",
+    "Floral",
+    "Forêt",
+    "Noël",
+    "Saisons"
+  ],
+  "techniques": [
+    "Broderie",
+    "Crochet",
+    "Amigurumi",
+    "Micro-crochet"
+  ],
+  "threads": [],
+  "fabrics": [
+    "Toile de coton",
+    "Coton"
+  ],
+  "salesChannels": [
+    "Site en propre",
+    "Événements, salons et CAL"
+  ],
+  "priceRange": "Kits broderie de 24 à 28 €, kits crochet de 16 à 70 €, patrons PDF de 2,50 à 9,90 €, livres numériques de 15 à 18 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit Broderie Initiale fleurie 15 cm",
+      "format": "kit",
+      "price": "28 €",
+      "bestseller": false,
+      "description": "Kit de broderie débutant, tambour de 15 cm. Contenu détaillé non relevé pour cette taille (la fiche 10 cm détaille le contenu). Initiale et palette de couleurs au choix.",
+      "url": "https://www.564lamartine.com/product-page/kit-broderie-initiale-fleurie-15cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Broderie Initiale fleurie 10 cm",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Tambour de 10 cm inclus, 1 aiguille à broder (marque non précisée), 8 écheveaux de fil à broder (marque et mouliné ou non non précisés, un écheveau vert assorti), 1 toile de coton (couleur non précisée), patron PDF de 8 pages à imprimer soi-même, pochon en coton. Initiale facultative et palette de couleurs au choix (8 écheveaux maximum).",
+      "url": "https://www.564lamartine.com/product-page/kit-broderie-initiale-fleurie-10cm-1",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit crochet Quercus, amigurumi gland (Les Mimi)",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit crochet amigurumi avec pelotes de coton, fils à broder si besoin, marqueur de rang, aiguille à laine, patron illustré et yeux de sécurité. Taille non indiquée.",
+      "url": "https://www.564lamartine.com/kits-crochet",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit crochet Dînette de champignons",
+      "format": "kit",
+      "price": "20 €",
+      "bestseller": false,
+      "description": "Kit crochet, plusieurs modèles. Contenu selon la FAQ de la marque (coton, marqueur, aiguille, patron illustré, accessoires), taille non indiquée.",
+      "url": "https://www.564lamartine.com/kits-crochet",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit crochet sac Jasmin",
+      "format": "kit",
+      "price": "29 €",
+      "bestseller": false,
+      "description": "Kit crochet pour fabriquer un sac, avec patron PDF vendu séparément à 5,80 €. Fils et taille non détaillés.",
+      "url": "https://www.564lamartine.com/kits-crochet",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patron PDF Boucles d'oreilles Fleur et Feuille (micro-crochet)",
+      "format": "pdf",
+      "price": "2,50 €",
+      "bestseller": false,
+      "description": "Patron PDF de bijoux floraux au micro-crochet. Rubrique bijoux et fleurs.",
+      "url": "https://www.564lamartine.com/product-page/boucles-doreilles-fleur-et-feuille-au-microcrochet",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patron PDF Mimi Booh Bloom, petit fantôme fleuri (amigurumi)",
+      "format": "pdf",
+      "price": "5,80 €",
+      "bestseller": false,
+      "description": "Patron PDF amigurumi au thème fleuri.",
+      "url": "https://www.564lamartine.com/product-page/patron-crochet-pdf-mimi-booh-bloom-petit-fantôme-fleuri-amigurumi",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patron au crochet Léon, le mouton fleuri (amigurumi)",
+      "format": "pdf",
+      "price": "5,80 €",
+      "bestseller": false,
+      "description": "Patron PDF amigurumi au thème fleuri.",
+      "url": "https://www.564lamartine.com/product-page/patron-au-crochet-léon-le-mouton-fleuri-564lamartine",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patron PDF Élune (amigurumi)",
+      "format": "pdf",
+      "price": "5,80 €",
+      "bestseller": false,
+      "description": "Patron PDF amigurumi. Fils et taille non détaillés dans la liste.",
+      "url": "https://www.564lamartine.com/product-page/élune-patron-au-crochet-amigurumi-564lamartine",
+      "imageUrl": ""
+    },
+    {
+      "title": "Noctua, livre numérique de patrons crochet",
+      "format": "livre",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Livre numérique (PDF) de patrons crochet, collection féerique. Nombre de pages non relevé.",
+      "url": "https://www.564lamartine.com/product-page/noctua-livre-numérique-de-patrons-crochet-564lamartine",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "564 Lamartine est une marque française de kits et de patrons de crochet et de broderie, créée en 2021 par Justine à Le Versoud (Isère). Elle se présente comme une référence pour les débutants comme pour les confirmés, avec une forte présence sur l'amigurumi et les patrons PDF.",
+  "history": "La marque est née en 2021, quand Justine a fondé 564Lamartine. Le site indique que les débuts portaient sur des créations faites main, avant une bascule vers des kits et des patrons accessibles aux débutants comme aux confirmés. Le nom rend hommage à la première adresse de l'atelier, rue Lamartine.\n\nLe site présente Justine comme la créatrice de la marque. Léo a rejoint l'activité en 2025, selon la page À propos. Il apparaît aussi comme responsable légal et de publication dans les mentions légales.\n\nL'offre couvre aujourd'hui des kits de broderie (initiale fleurie en 10 et 15 cm), des kits crochet, des patrons PDF en amigurumi, des livres numériques, une mercerie spécialisée et des tutoriels « Lamartine fait son tuto ». La marque organise aussi des événements, des salons et des CAL (défis crochet en groupe).\n\nLa société est une SARL au capital de 1000 €, dont le siège est indiqué à Le Versoud (38420). Aucun chiffre d'affaires, effectif ni nombre de clientes n'est publié.",
+  "positioning": "Marque tournée vers le crochet, avec un fort accent sur les amigurumi et les patrons PDF à petits prix (de 2,50 à 9,90 € pour la plupart). Le ton est chaleureux et pédagogique, avec des tutoriels, des CAL et une communauté autour de la marque. La broderie reste secondaire : deux kits « initiale fleurie » à entrée de gamme (24 et 28 €), avec tambour et pochon inclus. Points forts visibles : catalogue large, prix d'entrée bas, événements réguliers, mercerie. Points faibles visibles : fiches produit incomplètes (fils de broderie sans marque, tissu sans couleur, tailles non indiquées), mentions légales à compléter (champs entre crochets restés vides, numéro CNIL absent).",
+  "website": "https://www.564lamartine.com",
+  "instagram": "https://www.instagram.com/564lamartine/",
+  "etsy": "",
+  "photoUrl": "https://static.wixstatic.com/media/1f4798_7518bc74e347432fad69ac592187cd12~mv2.jpeg/v1/fill/w_2500,h_3333,al_c/1f4798_7518bc74e347432fad69ac592187cd12~mv2.jpeg",
+  "timeline": [
+    {
+      "date": "2021",
+      "kind": "vie",
+      "label": "Justine fonde 564Lamartine, d'abord avec des créations faites main."
+    },
+    {
+      "date": "2025",
+      "kind": "vie",
+      "label": "Léo rejoint la marque (indiqué sur la page À propos)."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Accueil du site 564Lamartine",
+      "url": "https://www.564lamartine.com"
+    },
+    {
+      "label": "Page À propos",
+      "url": "https://www.564lamartine.com/a-propos"
+    },
+    {
+      "label": "Mentions légales",
+      "url": "https://www.564lamartine.com/mentions-légales"
+    },
+    {
+      "label": "Catégorie kits de broderie (deux kits Initiale fleurie)",
+      "url": "https://www.564lamartine.com/kits-broderie"
+    },
+    {
+      "label": "Fiche kit Initiale fleurie 10 cm",
+      "url": "https://www.564lamartine.com/product-page/kit-broderie-initiale-fleurie-10cm-1"
+    },
+    {
+      "label": "Catégorie patrons crochet",
+      "url": "https://www.564lamartine.com/patron-crochet"
+    },
+    {
+      "label": "Catégorie patrons broderie (page tronquée, rien de lisible)",
+      "url": "https://www.564lamartine.com/patrons-broderie"
+    },
+    {
+      "label": "Profil Instagram @564lamartine (en-tête seulement)",
+      "url": "https://www.instagram.com/564lamartine/"
+    }
+  ],
+  "researchNotes": "À vérifier. 1) Identité légale : les mentions légales donnent « SARL au capital social de 1000€ » et l'adresse 564 rue Lamartine, 38420 Le Versoud. Le numéro indiqué (7939.574.737, 9 chiffres) est présenté comme SIRET, mais il a la forme d'un SIREN. Il n'a pas pu être confirmé : annuaire-entreprises (fiche 793957473) renvoie une page vide, et la recherche societe.com et pappers n'a pas abouti (accès refusé ou page sans résultat). Le champ registrationId est donc laissé vide. Aucune date d'immatriculation, ni numéro RCS ou TVA n'est indiqué. 2) Ville : le site indique Grenoble dans la rubrique Contact, et le siège est à Le Versoud dans les mentions légales. La fiche retient Le Versoud. 3) Dirigeants : les mentions légales citent « Justine & Léo Branquart Loison » comme responsables de publication. Le nom de famille de Justine n'est pas confirmé, et la fiche ne retient que « Justine ». 4) Chiffre d'affaires, résultat, effectif : non publiés et non trouvés. Aucune estimation n'est donc retenue. 5) Audience : l'Instagram lu n'affiche pas de nombre d'abonnés. Aucun chiffre TikTok, YouTube, Pinterest ni Facebook n'a été relevé. Les notes et avis Etsy ne s'appliquent pas, car aucune boutique Etsy n'a été trouvée. 6) Lettres : aucun patron de lettres n'a été trouvé dans les rubriques lues. La rubrique patrons broderie a été tronquée. La liste des patrons de fleurs est donc partielle. 7) Best-sellers : aucune mention de best-seller ou d'avis n'a été relevée, donc bestseller reste à false partout. 8) Produits : les prix des patrons viennent de la rubrique patron-crochet, les prix des kits crochet viennent de l'accueil (non revérifiés sur leurs fiches). Les images produit n'ont pas été relevées, à la demande. 9) Matériel : la marque des fils de broderie et la matière exacte du tissu ne sont pas indiquées. 10) Présence Shopify ou Wix : la plateforme est supposée Wix d'après les URL d'images (static.wixstatic.com). À confirmer. 11) Événements : des CAL (dont un CAL Crochet mystère de février à mars 2026 et un CAL Souffle d'été 2026) existent, mais leurs dates n'ont pas été reprises dans la frise, faute de lecture complète."
+}

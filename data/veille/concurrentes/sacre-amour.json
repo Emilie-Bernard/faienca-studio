@@ -1,0 +1,52 @@
+{
+  "name": "Sacré Amour",
+  "country": "France", "city": "Toulouse", "region": "Occitanie",
+  "foundedDate": "", "closedDate": "",
+  "founders": ["Paola"],
+  "legalName": "", "legalForm": "", "registrationId": "",
+  "offers": ["Ateliers", "Kits de broderie"],
+  "styles": ["Poétique", "Coloré", "Upcycling"],
+  "techniques": ["Broderie à la main", "Punch needle", "Broderie sur vêtement existant"],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": ["Funbooker (ateliers réservables en ligne)", "Superprof (cours particuliers)"],
+  "priceRange": "Atelier de 2 h à 45 € par personne (Funbooker), cours particuliers annoncés à 30 € de l'heure (Superprof, non vérifié sur la page)",
+  "languages": ["Français"],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Atelier broderie sur vêtement (Toulouse)",
+      "format": "cours",
+      "price": "45 €",
+      "bestseller": true,
+      "description": "Atelier d'initiation de 2 h, jusqu'à 15 personnes. Les participantes apprennent les points de base et personnalisent un vêtement ou accessoire apporté (chemise, jean, tote bag). Fils et motifs colorés fournis, le tissu ou vêtement est à apporter. Badge « Top vente » sur Funbooker (7 avis, note 5,0/5).",
+      "url": "https://www.funbooker.com/fr/annonce/atelier-dinitiation-a-la-broderie-a-toulouse-31/voir",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier d'initiation au punch needle (Toulouse)",
+      "format": "cours",
+      "price": "45 €",
+      "bestseller": false,
+      "description": "Atelier de 2 h, jusqu'à 15 personnes, en punch needle (broderie à l'aiguille qui crée du relief). Aiguilles, toile, laine et outils fournis. Les participantes repartent avec leur création et le nécessaire pour continuer chez elles (kit à emporter). Note 5,0/5 sur 3 avis.",
+      "url": "https://www.funbooker.com/fr/annonce/atelier-dinitiation-au-punch-needle-a-toulouse-31/voir",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Paola, brodeuse et upcycleuse à Toulouse, anime des ateliers de broderie à la main et de punch needle, et propose aussi des kits et des pièces uniques. Elle vend surtout ses ateliers via Funbooker, sans boutique en ligne repérée.",
+  "history": "Date de création, statut juridique et chiffre d'affaires non trouvés dans les sources lues. Aucun SIREN n'apparaît dans les résultats de recherche.\n\nSacré Amour se présente sur Instagram comme « Broderie main & upcycling » à Toulouse, avec des ateliers, des kits et des pièces uniques. La bio complète n'a pas pu être lue (la page Instagram ne renvoie que son titre).\n\nLes ateliers sont proposés sur Funbooker, plateforme de réservation d'activités : un atelier broderie sur vêtement et un atelier punch needle, tous deux à 45 € par personne. Le lieu est communiqué après réservation.",
+  "positioning": "Ton poétique et coloré, orienté vers des particuliers qui veulent apprendre la broderie en un après-midi et repartir avec une pièce personnalisée ou un kit. L'accent est mis sur l'upcycling : on brode un vêtement déjà porté plutôt qu'un tissu neuf. Points forts visibles : avis très positifs sur Funbooker et format atelier accessible. Points faibles visibles : pas de boutique en ligne ni de kit vendu à l'unité trouvé, pas de site propre, prix et contenus de kit peu détaillés.",
+  "website": "",
+  "instagram": "https://www.instagram.com/sacre_amour/",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [],
+  "sources": [
+    { "label": "Instagram Sacré Amour (titre de la page lu, bio non accessible)", "url": "https://www.instagram.com/sacre_amour/" },
+    { "label": "Funbooker, atelier broderie sur vêtements à Toulouse (Paola)", "url": "https://www.funbooker.com/fr/annonce/atelier-dinitiation-a-la-broderie-a-toulouse-31/voir" },
+    { "label": "Funbooker, atelier d'initiation au punch needle à Toulouse (Paola)", "url": "https://www.funbooker.com/fr/annonce/atelier-dinitiation-au-punch-needle-a-toulouse-31/voir" },
+    { "label": "Funbooker, catégorie ateliers broderie Toulouse", "url": "https://www.funbooker.com/fr/category/atelier-broderie/toulouse" }
+  ],
+  "researchNotes": "Pas de site propre, pas de boutique Etsy ni de kit en vente trouvés. Le compte Instagram n'a pas pu être lu : seul le titre de la page est accessible. Abonnés Instagram (environ 8 250 selon un extrait de recherche, non relu sur la page, date inconnue) : non ajoutés à audience faute de date fiable. Superprof (profil de Paola, 30 € de l'heure, 7 avis, 6 élèves, techniques sashiko et visible mending, broderie personnalisée sur vêtement) : la page renvoie 403, les éléments viennent seulement d'un extrait de recherche, publié il y a environ 293 jours, donc à vérifier. Un guide local décrit Sacré Amour avec un atelier de 2 h et un atelier punch needle, mais rien ne confirme la date de création ni la forme juridique. Aucun SIREN trouvé sur les recherches (INSEE, annuaires) : statut micro-entrepreneur ou EI probable mais non confirmé, donc pas de chiffre d'affaires. Le lien entre Paola et la fiche Funbooker « Atelier à la broderie sur vêtements » est confirmé par la page elle-même (animatrice Paola). Les fils, tissus et contenus exacts des kits restent inconnus. Frise vide faute de dates publiées. Photo et image produits à ajouter."
+}

@@ -1,0 +1,182 @@
+{
+  "name": "Les Pointillés",
+  "country": "France",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Léa Lallinec"
+  ],
+  "legalName": "Léa Lallinec (EI, nom commercial Les Pointillés)",
+  "legalForm": "EI",
+  "registrationId": "937642577",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Ateliers"
+  ],
+  "styles": [
+    "Botanique",
+    "Enfantin",
+    "Customisation de vêtements"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur papier hydrosoluble"
+  ],
+  "threads": [
+    "DMC Mouliné (numéros de couleur non précisés)"
+  ],
+  "fabrics": [
+    "Calicot pré-imprimé 22 x 22 cm",
+    "Toile prédessinée au stylo effaçable à la chaleur",
+    "Papier hydrosoluble à coller sur le tissu de son choix"
+  ],
+  "salesChannels": [
+    "Site en propre (Shopify)",
+    "Ateliers en présentiel à Toulouse et Montauban",
+    "Remise en main propre à Toulouse sur rendez-vous"
+  ],
+  "priceRange": "Kits de 23,99 à 27,99 €, tambour en option (+5 €), ateliers de 30 à 35 €, carte cadeau à 15 €, motif gratuit en PDF",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit broderie La couronne d'automne",
+      "format": "kit",
+      "price": "27,99 €",
+      "bestseller": false,
+      "description": "Toile en calicot de 22 x 22 cm dessinée au stylo effaçable à la chaleur, ou papier hydrosoluble à coller sur tissu au choix. 7 teintes de fils DMC Mouliné (numéros non précisés), 1 aiguille à broder, guide PDF avec tutoriels, schémas, photos et vidéos. Tambour non inclus, en option à 32,99 € avec pochon offert.",
+      "url": "https://lespointilles.com/products/couronne-automne-kit-broderie",
+      "imageUrl": "https://lespointilles.com/cdn/shop/files/kit-broderie-debutants-automne-fleurs1.jpg?v=1766696208"
+    },
+    {
+      "title": "Motifs à broder sur papier hydrosoluble, kit débutant",
+      "format": "kit",
+      "price": "23,99 €",
+      "bestseller": false,
+      "description": "19 motifs à coller sur le textile, 1 aiguille à broder et 1 guide PDF. Le kit ne fournit ni tissu ni fils mentionnés. Tambour à 28,99 € avec pochon de transport offert.",
+      "url": "https://lespointilles.com/products/motifs-hydrosoluble-kit-broderie-debutant",
+      "imageUrl": "https://lespointilles.com/cdn/shop/files/kit-broderie-customisation-vetements_8.jpg?v=1765205022"
+    },
+    {
+      "title": "Kit broderie La couronne de printemps",
+      "format": "kit",
+      "price": "27,99 €",
+      "bestseller": false,
+      "description": "Kit débutant sur le thème du printemps. Contenu détaillé non relevé sur la page produit (même format que la couronne d'automne d'après le site, à vérifier).",
+      "url": "https://lespointilles.com/products/couronne-printemps-kit-broderie-debutant",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit broderie La petite souris",
+      "format": "kit",
+      "price": "25,99 €",
+      "bestseller": false,
+      "description": "Kit débutant au motif de petite souris. Contenu détaillé non relevé sur la page produit.",
+      "url": "https://lespointilles.com/products/petite-souris-kit-broderie-debutant",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit matériel broderie débutant",
+      "format": "kit",
+      "price": "25,50 €",
+      "bestseller": false,
+      "description": "Kit de matériel complet pour débuter la broderie. Détail des fournitures non relevé sur la page produit.",
+      "url": "https://lespointilles.com/products/kit-materiel-broderie-debutant",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier customisation de vêtements à Toulouse",
+      "format": "autre",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Atelier de broderie sur vêtements à Toulouse, environ 2h30. Affiché comme épuisé lors de la lecture.",
+      "url": "https://lespointilles.com/products/customise-tes-vetements-atelier-de-broderie-a-toulouse",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier suspension de Noël brodée à Toulouse",
+      "format": "autre",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Atelier de broderie d'une suspension de Noël à Toulouse. Affiché comme épuisé lors de la lecture.",
+      "url": "https://lespointilles.com/products/suspension-de-noel-brodee-atelier-de-broderie-a-toulouse",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier broche brodée à Montauban",
+      "format": "autre",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Atelier de broderie d'une broche, proposé à Toulouse et à Montauban. Affiché comme épuisé lors de la lecture.",
+      "url": "https://lespointilles.com/products/atelier-broderie-montauban-broche",
+      "imageUrl": ""
+    },
+    {
+      "title": "Carte cadeau broderie, ateliers et kits",
+      "format": "autre",
+      "price": "15 €",
+      "bestseller": false,
+      "description": "Carte cadeau utilisable pour les ateliers de broderie et les kits de la boutique.",
+      "url": "https://lespointilles.com/products/carte-cadeau-broderie-atelier-kits",
+      "imageUrl": ""
+    },
+    {
+      "title": "Motif de broderie gratuit « Créative »",
+      "format": "pdf",
+      "price": "Gratuit",
+      "bestseller": false,
+      "description": "Motif en PDF à imprimer sur papier hydrosoluble ou à tracer à la main. Seul motif gratuit visible sur la page lue.",
+      "url": "https://lespointilles.com/pages/motifs-broderie-gratuits",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Les Pointillés est une petite boutique toulousaine de kits de broderie pour débutants, avec des motifs sur papier hydrosoluble, un motif PDF gratuit et des ateliers en présentiel à Toulouse et Montauban. Le site la présente comme une entreprise individuelle portée par Léa.",
+  "history": "Les Pointillés vend en ligne sur Shopify des kits de broderie pour débutants, des motifs à coller sur tissu et un motif PDF gratuit. Elle propose aussi des ateliers de broderie en présentiel à Toulouse, et un atelier de broche à Montauban.\n\nSelon la page d'accueil du site, la fondatrice, prénommée Léa, est originaire de Normandie et installée à Toulouse. Elle a d'abord été graphiste, puis a travaillé dans l'édition jeunesse. Le site ne donne ni date de création, ni date de lancement de la marque.\n\nLes mentions légales indiquent une entreprise individuelle exploitée par Léa Lallinec, à Toulouse. Le numéro SIREN 937642577 figure sur le site mais n'a pas été confirmé dans un registre public.\n\nLe blog du site publie des articles jusqu'en avril 2026 (guides de kits, idées d'ateliers, fête des mères). Les produits affichés en octobre 2026 comprennent des ateliers épuisés, ce qui suggère une activité d'ateliers régulière.",
+  "positioning": "La marque se concentre sur la broderie débutante, avec un ton chaleureux et pédagogique (« on brode la nature et ses petits trésors enfantins »). Elle cible les débutants et les familles, avec des kits à 24 à 28 € et des ateliers à Toulouse. Points forts visibles : pédagogie (guide PDF, tutoriels, motifs gratuits), présence en ateliers, positionnement écologique affiché (matériel en grande partie d'occasion, mention « sans IA »). Points faibles visibles : mentions légales incomplètes (adresse complète absente, médiateur non renseigné), fils sans numéros de couleur, pas de date de création, peu de produits PDF payants, plusieurs ateliers affichés comme épuisés.",
+  "website": "https://lespointilles.com",
+  "instagram": "https://www.instagram.com/lespointilles",
+  "etsy": "",
+  "photoUrl": "https://lespointilles.com/cdn/shop/files/kit-broderie-fleurs-couronne-etsy.png?v=1764676579",
+  "timeline": [],
+  "sources": [
+    {
+      "label": "Accueil du site Les Pointillés (présentation, ateliers, produits)",
+      "url": "https://lespointilles.com"
+    },
+    {
+      "label": "Mentions légales (entreprise individuelle, SIREN)",
+      "url": "https://lespointilles.com/policies/legal-notice"
+    },
+    {
+      "label": "Produit : kit La couronne d'automne",
+      "url": "https://lespointilles.com/products/couronne-automne-kit-broderie"
+    },
+    {
+      "label": "Produit : motifs à broder sur papier hydrosoluble",
+      "url": "https://lespointilles.com/products/motifs-hydrosoluble-kit-broderie-debutant"
+    },
+    {
+      "label": "Page motifs de broderie gratuits",
+      "url": "https://lespointilles.com/pages/motifs-broderie-gratuits"
+    },
+    {
+      "label": "FAQ du site",
+      "url": "https://lespointilles.com/pages/faq"
+    },
+    {
+      "label": "Blog du site (liste des articles, 2026)",
+      "url": "https://lespointilles.com/blogs/infos"
+    },
+    {
+      "label": "Profil Instagram @lespointilles (titre lu, contenu non chargé)",
+      "url": "https://www.instagram.com/lespointilles"
+    }
+  ],
+  "researchNotes": "À vérifier. 1) SIREN 937642577 et nom Léa Lallinec (EI) : données relevées uniquement sur les mentions légales du site. Annuaire-entreprises renvoie une page vide et Pappers un accès refusé (403). Le SIREN n'est donc pas confirmé dans un registre. Aucune date de création, adresse complète ni chiffre d'affaires n'est publié. Une EI ne publie pas ses comptes, donc financials reste vide. 2) Homonymie à lever : une annonce Funbooker (recherche web, non ouverte) décrit un atelier « Les Pointillés » à Toulouse animé par une certaine Fanny, et une autre annonce montre une Léa animant des ateliers chez Pause Biscuit à Toulouse. Aucun lien avec la marque n'est établi, donc ces informations ne sont pas dans la fiche. 3) Fondatrice : le nom Lallinec vient des mentions légales ; le prénom Léa vient de la page d'accueil. 4) Audience : Instagram lu sans nombre d'abonnés (contenu non chargé). YouTube, Facebook et TikTok non relevés. Aucune donnée Etsy. 5) Produits : les prix de la couronne de printemps, de la petite souris et du kit matériel viennent de la page d'accueil, pas de leur fiche produit. Leur contenu n'a pas été lu en détail. Aucun best-seller n'est signalé, donc bestseller reste à false. 6) Fils : seule la marque DMC Mouliné est citée, sans numéros de couleur. Le site cite aussi des aiguilles DMC et un feutre effaçable à la chaleur FriXion Pilot, sans les détailler. 7) Motifs PDF : seul un motif PDF gratuit (« Créative ») est visible. Aucun motif PDF payant n'a été trouvé. Les motifs hydrosolubles sont des papiers à imprimer et non des planches. 8) « Fabriqué à Toulouse » : formulation relevée sur le site (page d'accueil). 9) Ateliers « épuisés » : état relevé au 2026-10-21, susceptible de changer. 10) Mentions légales incomplètes : médiateur resté au modèle « [À COMPLÉTER] », pas de RCS (normal pour une EI) ni de SIRET."
+}

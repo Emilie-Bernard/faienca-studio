@@ -1,0 +1,184 @@
+{
+  "name": "C'Reparti",
+  "country": "France",
+  "city": "Versailles",
+  "region": "Île-de-France",
+  "foundedDate": "2020",
+  "closedDate": "",
+  "founders": [
+    "Marie-Anaïs Ruze (probablement « Anaïs », à confirmer)",
+    "Chloé (nom de famille non trouvé)"
+  ],
+  "legalName": "C'REPARTI",
+  "legalForm": "SAS",
+  "registrationId": "890769268",
+  "offers": [
+    "Kits de broderie (punch needle)",
+    "Box coussin et box cadeau",
+    "Kits sac et trousse",
+    "Accessoires (aiguilles, tambours, laine)"
+  ],
+  "styles": [
+    "Ludique",
+    "Saisonnier (automne, hiver, Halloween)",
+    "Animaux et personnages",
+    "Paysages",
+    "Écoresponsable"
+  ],
+  "techniques": [
+    "Punch needle"
+  ],
+  "threads": [
+    "Laine recyclée fabriquée en France (filée en Occitanie selon Marques de France, non confirmé par le site)"
+  ],
+  "fabrics": [
+    "Lin (pur lin cultivé et tissé en France)"
+  ],
+  "salesChannels": [
+    "Site en propre (c-reparti.fr)",
+    "Marques de France (fiche vitrine, achat renvoyé vers le site)"
+  ],
+  "priceRange": "Kits 1 motif à 25 €, kits 3 motifs de 38 à 45 € (prix barrés sur certaines fiches), kits sac et trousse à partir de 30 à 40 €, box coussin de 45 à 48 €, box cadeau 5 motifs à 50 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit Punch Needle 3 Motifs Paysages",
+      "format": "kit",
+      "price": "38 € (au lieu de 45 €)",
+      "bestseller": false,
+      "description": "Tambour en bois de 13 cm, aiguille et passe-fil, 3 coupons de toile en pur lin, 3 gabarits papier, laine pour les 3 motifs, notice en français, sac en tissu upcyclé, accès à l'Atelier Privé (tutoriels vidéo). Cadre non mentionné. Niveau débutant, dès 8 ans et adultes selon la fiche. Aucun avis publié à la date de lecture (21/10/2026).",
+      "url": "https://www.c-reparti.fr/product/kit-punch-needle-3-paysages/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Punch Needle 1 Motif Pandi le Panda",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Tambour en bois de 13 cm, aiguille et passe-fil fabriqués en France, coupon de toile en pur lin, gabarit papier imprimé en ESAT dans les Yvelines, toute la laine du motif, notice en français, sac en tissu upcyclé, accès à l'Atelier Privé. Pas de cadre dans le contenu listé. Dès 5 ans. Aucun avis publié à la date de lecture (21/10/2026).",
+      "url": "https://www.c-reparti.fr/product/pandi-le-panda-kit-de-punch-needle-durable-et-francais/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Box Cadeau Punch Needle 5 Motifs",
+      "format": "box",
+      "price": "50 € (au lieu de 65 €)",
+      "bestseller": false,
+      "description": "Box cadeau avec 5 motifs au choix. Contenu détaillé non relevé à la lecture de la fiche.",
+      "url": "https://www.c-reparti.fr/product/box-punch-needle/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Box coussin Punch Needle Arbre d'automne",
+      "format": "box",
+      "price": "45 €",
+      "bestseller": false,
+      "description": "Box pour réaliser un coussin en punch needle, motif arbre d'automne. Contenu détaillé non relevé à la lecture de la fiche.",
+      "url": "https://www.c-reparti.fr/product/box-coussin-punch-needle-arbre-dautomne/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Punch Needle Tableau Cubo",
+      "format": "kit",
+      "price": "40 €",
+      "bestseller": false,
+      "description": "Kit de tableau en punch needle, motif Cubo. Contenu et taille non relevés à la lecture de la fiche.",
+      "url": "https://www.c-reparti.fr/product/kit-punch-needle-tableau-cubo/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Punch Needle 1 Motif Arbre d'automne",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit punch needle un motif, arbre d'automne. Contenu détaillé non relevé (la gamme 1 motif a le même format que Pandi le Panda).",
+      "url": "https://www.c-reparti.fr/product/kit-punch-needle-1-motif-arbre-automne/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Sac Paon",
+      "format": "autre",
+      "price": "35 € à 40 €",
+      "bestseller": false,
+      "description": "Kit de sac en punch needle, nouveauté de la gamme. Contenu et dimensions non relevés à la lecture de la fiche.",
+      "url": "https://www.c-reparti.fr/product/kit-sac-paon/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Punch Needle Trousse GM personnalisée",
+      "format": "autre",
+      "price": "À partir de 35 € (au lieu de 45 €)",
+      "bestseller": false,
+      "description": "Kit de trousse grand modèle en punch needle, motif au choix. Contenu et dimensions non relevés à la lecture de la fiche.",
+      "url": "https://www.c-reparti.fr/products/kit-punch-needle-trousse-gm-motif-au-choix/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque française de kits de punch needle écoresponsables, conçus et fabriqués en France avec des matières recyclées et des ateliers ESAT. SAS immatriculée à Versailles en 2020, sans chiffre d'affaires publié.",
+  "history": "C'Reparti est une SAS immatriculée à Versailles (78000). Le SIREN 890 769 268 figure sur le site, dans les mentions légales, et sur Societe.com, qui donne la date de création au 6 novembre 2020. Le capital social est de 1 000 €.\n\nLe projet naît de l'idée de deux amies, Chloé et Anaïs. L'une est fan de loisirs créatifs et hypnothérapeute, l'autre est maman de quatre enfants. Elles cherchent une activité qui plaise aux enfants et que des personnes de tous âges puissent pratiquer. Selon Marques de France, Anaïs décide de lancer l'entreprise en 2019, soit un an avant la date d'immatriculation.\n\nLa marque s'appuie sur trois piliers : matières recyclées ou upcyclées, emploi de personnes en situation de handicap ou en réinsertion (ESAT, chantiers d'insertion), et production française. Le punch needle est le produit phare. La gamme a commencé avec des kits pour enfants puis s'est ouverte aux adultes, avec des kits 1 motif, des kits 3 motifs, des box coussin et des kits sac et trousse.\n\nEn 2025, C'Reparti est élue Marque de France de l'année dans la catégorie Jeux et loisirs, par vote des visiteurs.\n\nAujourd'hui, la vente se fait sur le site en propre, qui affiche des promotions et des nouveautés. La marque ne publie ni chiffre d'affaires ni nombre de kits vendus.",
+  "positioning": "Positionnement écoresponsable et français : matières recyclées, fabrication en France, travail avec des ESAT. Clientèle enfants (dès 5 ans) et adultes (dès 13 ans selon les fiches). Ton pédagogique et rassurant : notice en français, accès à un espace de tutoriels vidéo, niveau débutant. Forces visibles : fabrication française détaillée sur le site, distinction Marques de France 2025. Points faibles visibles : peu d'avis clients (aucun sur les fiches lues), aucun réseau social relié au site, aucun produit marqué meilleure vente, origine des fils et toiles décrite différemment selon les sources.",
+  "website": "https://www.c-reparti.fr",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://www.c-reparti.fr/wp-content/uploads/2023/11/punch-needle-motifs-savane.jpg",
+  "timeline": [
+    {
+      "date": "2019",
+      "kind": "vie",
+      "label": "Anaïs lance le projet (année selon Marques de France, à confirmer)"
+    },
+    {
+      "date": "2020",
+      "kind": "vie",
+      "label": "Immatriculation de la SAS C'Reparti à Versailles, le 6 novembre 2020"
+    },
+    {
+      "date": "2025",
+      "kind": "prix",
+      "label": "Élue Marque de France de l'année, catégorie Jeux et loisirs, par vote des visiteurs"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site C'Reparti, accueil et sélection de produits",
+      "url": "https://www.c-reparti.fr/"
+    },
+    {
+      "label": "C'Reparti, page histoire et objectif (valeurs, origine du projet)",
+      "url": "https://www.c-reparti.fr/lobjectif-de-creparti-limpact-positif/"
+    },
+    {
+      "label": "C'Reparti, page fabrication ESAT et origine des matières",
+      "url": "https://www.c-reparti.fr/fabrication-esat/"
+    },
+    {
+      "label": "C'Reparti, mentions légales (raison sociale, SIREN)",
+      "url": "https://www.c-reparti.fr/mentions-legales/"
+    },
+    {
+      "label": "C'Reparti, fiche Kit Punch Needle 3 Motifs Paysages",
+      "url": "https://www.c-reparti.fr/product/kit-punch-needle-3-paysages/"
+    },
+    {
+      "label": "C'Reparti, fiche Kit Punch Needle 1 Motif Pandi le Panda",
+      "url": "https://www.c-reparti.fr/product/pandi-le-panda-kit-de-punch-needle-durable-et-francais/"
+    },
+    {
+      "label": "Marques de France, fiche de la marque C'Reparti",
+      "url": "https://www.marques-de-france.fr/listing/creparti/"
+    },
+    {
+      "label": "Marques de France, fiche Kit Punch Needle 3 Motifs Espace",
+      "url": "https://www.marques-de-france.fr/produit/kit-punch-needle-3-motifs-espace/"
+    },
+    {
+      "label": "Societe.com, fiche C'Reparti (SIREN 890769268)",
+      "url": "https://www.societe.com/societe/c-reparti-890769268.html"
+    }
+  ],
+  "researchNotes": "A VÉRIFIER. 1) Origine des matières : le site dit que la laine est française, 100 % recyclée, bobinée en ESAT dans les Yvelines, et que la toile de lin est cultivée en Haute-Normandie et tissée en France. Il ne parle ni d'Occitanie ni de Hauts-de-France. Marques de France dit que les fils viennent d'Occitanie, et que les toiles et les cadres en bois sont faits dans les Hauts-de-France. L'indice de départ (Occitanie, Hauts-de-France) ne vient donc que de Marques de France. Le kit Paysages ne liste pas de cadre. Non tranché. 2) Date : 2019 selon Marques de France (lancement par Anaïs), 2020 selon le registre et le pied de page du site. foundedDate retient 2020. 3) Fondatrices : le site cite Chloé et Anaïs sans nom de famille. Societe.com donne Marie-Anaïs Ruze comme directrice générale depuis le 10 novembre 2020, ce qui est probablement Anaïs, mais ce lien n'est pas confirmé. Marie Ruze est aussi responsable de publication sur les mentions légales. La présidente est une personne morale, MAVIP, non identifiée. 4) Une première lecture du site citait Philippe Duport, interviewé sur France Info, et des chiffres de fabrication (93 % fabriqué en France, 86 % recyclé, 100 % ESAT). Les recherches n'ont trouvé ni l'interview ni Philippe Duport. Ces éléments sont exclus de la fiche. La fiche Paysages donne 94 % de composants français et 85 % de matières recyclées ou upcyclées, et indique deux composants venant du Portugal (pointe de l'aiguille) et du Royaume-Uni (tambour). 5) ESAT : le site dit tantôt 7 ateliers en Île-de-France, tantôt 8 avec le Pas-de-Calais. Les noms des ESAT ne sont pas publics. Les pochons sont cousus en ESAT dans les Yvelines et en chantier d'insertion dans le Nord. 6) Chiffres : capital 1 000 €, effectif de 1 à 2 salariés actifs (Societe.com). Les comptes sont déposés sous clause de confidentialité et seules les annonces BODACC 2021 à 2025 apparaissent, sans chiffres. Aucun chiffre d'affaires ni résultat publié : financials reste vide. 7) Audience : aucun lien vers Instagram, Facebook, Etsy ou YouTube dans le pied de page du site, et aucune recherche n'a trouvé de compte. Audience reste vide. Marques de France affiche 190 produits, 5 avis et une note de 5/5 (lu le 21/10/2026). Ce n'est pas un réseau social. 8) Prix : la fourchette annoncée (25 à 45 €) est dépassée sur le site, avec une box cadeau à 50 € et des boxes coussin personnalisées à 48 €. Marques de France indique un prix moyen de 31,50 € pour les produits français. 9) Produits : seuls les kits Paysages et Pandi le Panda ont été lus en entier. Le contenu des autres fiches n'a pas été relevé. Aucun produit n'est marqué meilleure vente, donc bestseller reste false partout. Gamme String Art, bracelets macramé et accessoires vendus à l'unité : cités dans une première lecture, non vérifiés, donc non repris en produits. 10) Distinction : Marques de France de l'année 2025, catégorie Jeux et loisirs, vote des visiteurs. La date exacte de la remise n'a pas été relevée. 11) Pas d'image : photoUrl et imageUrl sont vides, comme demandé."
+}

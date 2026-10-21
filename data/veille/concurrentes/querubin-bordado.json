@@ -1,0 +1,125 @@
+{
+  "name": "Querubín Bordado",
+  "country": "Espagne",
+  "city": "Valencia",
+  "region": "Communauté valencienne",
+  "foundedDate": "2025-03-27",
+  "closedDate": "",
+  "founders": [],
+  "legalName": "Querubín Bordados, S.L.",
+  "legalForm": "S.L.",
+  "registrationId": "B21755749",
+  "offers": [
+    "Kits de broderie",
+    "Ateliers",
+    "Objets brodés sur commande (ours souvenir fait à partir d'un vêtement)"
+  ],
+  "styles": [
+    "Personnalisé",
+    "Commémoratif",
+    "Cadeau"
+  ],
+  "techniques": [
+    "Broderie personnalisée à partir d'une photo, d'une silhouette ou d'un message",
+    "Broderie sur vêtement (ours souvenir)",
+    "Point arrière, point satin, point de chaînette, point français (kit Venus)"
+  ],
+  "threads": [],
+  "fabrics": [
+    "Coton"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress, boutique en ligne)",
+    "Commande par e-mail ou WhatsApp pour les créations sur mesure",
+    "Réservation d'ateliers sur le site"
+  ],
+  "priceRange": "Kit Venus à 18 €, kit personnalisé à 22 €, ateliers à 42 €, ours souvenir à 83 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Oso memorial (ours souvenir à partir d'un vêtement)",
+      "format": "autre",
+      "price": "83 €",
+      "bestseller": false,
+      "description": "Ours en peluche cousu main à partir d'un vêtement du client. Deux modèles : l'Oso clásico (environ 49 cm de haut et 33 cm de large) et l'Oso Querubín rond. Broderie des deux semelles incluse (nom, date ou courte phrase). Options : béret (+6 €), veste (+15 €). Fils et rembourrage non précisés.",
+      "url": "https://querubinbordado.com/producto/oso-memorial/",
+      "imageUrl": "https://querubinbordado.com/wp-content/uploads/2025/11/ChatGPT-Image-25-sept-2026-08_44_24.png"
+    },
+    {
+      "title": "Kit Querubín personnalisé",
+      "format": "kit",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Kit pour broder une photo, une silhouette ou un message : le client envoie son idée par e-mail ou WhatsApp, l'équipe dessine un motif linéaire prêt à broder. Contenu : cadre en bois, aiguilles et fils à broder, tissu en coton, papier soluble pour transférer le dessin, guide pas à pas pour débutants. Taille et marque de fil non précisées. Aucun avis à la date de lecture.",
+      "url": "https://querubinbordado.com/producto/kit-querubin/",
+      "imageUrl": "https://querubinbordado.com/wp-content/uploads/2025/04/Copia-de-POST-QUERUBIN-SEPTIEMBRE-29.png"
+    },
+    {
+      "title": "Kit de bordado completo Venus",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Kit pour débutants et confirmés, avec guide d'instructions détaillé. Contenu : cercle à broder de 15 cm, 4 écheveaux de fil (marque non précisée), un morceau de tissu (composition non précisée), aiguille, ciseaux, marqueur, papier calque, motif. Aucun avis à la date de lecture.",
+      "url": "https://querubinbordado.com/producto/kit-de-bordado-completo-venus/",
+      "imageUrl": "https://querubinbordado.com/wp-content/uploads/2024/08/Caja-de-Bordado-Venus-1_34.jpg"
+    },
+    {
+      "title": "Taller de bordado en Valencia (débutants)",
+      "format": "cours",
+      "price": "42 €",
+      "bestseller": false,
+      "description": "Atelier de broderie à Valencia, proposé en plus de variantes « principiantes » (débutants) et « Halloween » au même prix de 42 €. Date, durée, nombre de places et lieu exact non indiqués sur la page. Ateliers privés pour petits groupes sur demande.",
+      "url": "https://querubinbordado.com/categoria-producto/talleres/talleres-de-bordado-en-valencia/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque espagnole de broderie personnalisée basée à Valencia : ours souvenir fait à partir d'un vêtement, kits de broderie sur photo ou message, et ateliers. Société créée en mars 2025, sans chiffre d'affaires publié.",
+  "history": "La société Querubín Bordados, S.L. a été constituée le 27 mars 2025 selon infoempresa, avec une adresse à Valencia (Carrer de Vicent Sancho Tello). Le site est inscrit au Registro Mercantil de Valencia (hoja V-224871).\n\nLe site porte la mention « 2024 » dans son pied de page, et des images de logo et de produits datent de 2024 (médias téléversés en juillet et août 2024). L'activité semble donc antérieure à la constitution de la société, mais cela n'est pas confirmé par une source publique datée.\n\nLe site propose aujourd'hui des ours souvenir (83 €), un kit personnalisé (22 €), un kit Venus (18 €) et des ateliers à Valencia, Madrid et Barcelone, selon le menu. Aucune fondatrice ni histoire de marque n'est présentée sur les pages lues.",
+  "positioning": "Positionnement sur le cadeau personnalisé et l'émotion : le souvenir d'un proche transformé en ours, la photo ou le message brodé. Les kits (18 et 22 €) sont plus accessibles que l'ours (83 €) et l'atelier (42 €). Le site est en espagnol uniquement et ne montre ni avis clients ni nombre de ventes. Points faibles visibles : pas de compte Instagram ni de réseau social relié au site, fils et tissus rarement détaillés, pas de fondatrice présentée.",
+  "website": "https://querubinbordado.com",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://querubinbordado.com/wp-content/uploads/2024/07/cropped-Favicon-Querubin-180x180.png",
+  "timeline": [
+    {
+      "date": "2025-03-27",
+      "kind": "vie",
+      "label": "Constitution de Querubín Bordados, S.L. à Valencia (infoempresa)"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Site Querubín Bordado, accueil",
+      "url": "https://querubinbordado.com/"
+    },
+    {
+      "label": "Mentions légales (Aviso legal)",
+      "url": "https://querubinbordado.com/aviso-legal/"
+    },
+    {
+      "label": "Fiche produit Oso memorial",
+      "url": "https://querubinbordado.com/producto/oso-memorial/"
+    },
+    {
+      "label": "Fiche produit Kit Querubín",
+      "url": "https://querubinbordado.com/producto/kit-querubin/"
+    },
+    {
+      "label": "Fiche produit Kit Venus",
+      "url": "https://querubinbordado.com/producto/kit-de-bordado-completo-venus/"
+    },
+    {
+      "label": "Catégorie Talleres de bordado en Valencia",
+      "url": "https://querubinbordado.com/categoria-producto/talleres/talleres-de-bordado-en-valencia/"
+    },
+    {
+      "label": "infoempresa, fiche Querubin Bordados SL",
+      "url": "https://www.infoempresa.com/es-es/es/empresa/querubin-bordados-sl"
+    }
+  ],
+  "researchNotes": "Vérifié le jour de la lecture, 2026-10-21. Aucun chiffre d'affaires publié : infoempresa indique seulement « moins de 2 millions d'euros » et ne donne pas de résultat. Effectif déclaré : 1 à 9 salariés (infoempresa). Les dirigeants ne sont pas nommés sur infoempresa. La page Aviso legal cite Lester Guillermo López Estrada comme représentant, sans qu'il soit confirmé comme fondateur : founders est donc vide. Adresse exacte non donnée sur le site (rue sans numéro sur les mentions légales, « C/ Vicente Sancho Tello 11 Bajo » sur infoempresa). Le kit « initiales sur papier soluble » annoncé dans la demande n'a pas été trouvé sur le site : le papier soluble n'apparaît que dans le kit Querubín. Les autres kits du menu (Retrato, Pulseras, Creación) n'ont pas été lus : pas de prix ni d'URL vérifiés. Marque et type de fil non précisés sur les pages lues. Aucun compte Instagram, Facebook, TikTok ou Pinterest trouvé par la recherche ni relié au site : audience vide. Le site affiche Valencia, Madrid et Barcelone pour les ateliers, pas seulement Valencia. La date d'activité 2024 (pied de page, médias) diffère de la date de constitution de la société (2025-03-27) : à vérifier. Un lien WhatsApp de contact est présent sur le site, sans numéro recopié."
+}
