@@ -1,63 +1,245 @@
 {
   "name": "Studio Francosse",
-  "country": "France", "city": "Marseille", "region": "Provence-Alpes-Côte d'Azur",
-  "foundedDate": "2020", "closedDate": "",
-  "founders": ["Jeanne Causse"],
-  "legalName": "STUDIO FRANCOSSE", "legalForm": "SASU", "registrationId": "942460221",
-  "offers": ["Kits de broderie", "Ateliers", "Vêtements brodés", "Broderie sur mesure"],
-  "styles": ["Féministe", "Body positive", "Moderne", "Impertinent"],
-  "techniques": ["Broderie traditionnelle", "Broderie sur vêtement"],
-  "threads": ["DMC (gamme non précisée)"],
-  "fabrics": ["Coton", "T-shirt 100 % coton"],
-  "salesChannels": ["Site en propre", "Faire (gros)", "Grands magasins (Printemps Haussmann, BHV, Bon Marché)", "Ateliers"],
+  "country": "France",
+  "city": "Marseille",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "foundedDate": "2020",
+  "closedDate": "",
+  "founders": [
+    "Jeanne Causse"
+  ],
+  "legalName": "STUDIO FRANCOSSE",
+  "legalForm": "SASU",
+  "registrationId": "942460221",
+  "offers": [
+    "Kits de broderie",
+    "Ateliers",
+    "Vêtements brodés",
+    "Broderie sur mesure"
+  ],
+  "styles": [
+    "Féministe",
+    "Body positive",
+    "Moderne",
+    "Impertinent"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur vêtement"
+  ],
+  "threads": [
+    "DMC (gamme non précisée)"
+  ],
+  "fabrics": [
+    "Coton",
+    "T-shirt 100 % coton"
+  ],
+  "salesChannels": [
+    "Site en propre",
+    "Faire (gros)",
+    "Grands magasins (Printemps Haussmann, BHV, Bon Marché)",
+    "Ateliers"
+  ],
   "priceRange": "Kits d'environ 24,50 à 49 € selon le support (toile ou t-shirt, +10 € pour le t-shirt), atelier de 2 h à 55-60 €",
-  "languages": ["Français", "Anglais"],
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
   "audience": [],
   "financials": [],
   "products": [
-    { "title": "Kit de broderie « Bouquet »", "format": "kit", "price": "24,50 à 34,30 €", "bestseller": false, "description": "Pochette en tissu recyclé, toile de coton ou t-shirt 100 % coton (+10 €), feuille de transfert hydrosoluble avec le motif, toile d'entraînement, tambour, fils et aiguille DMC, livret « manuel de survie » avec QR code vers une vidéo.", "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-avec-tissu/", "imageUrl": "" },
-    { "title": "Kit de broderie « Les mains libres »", "format": "kit", "price": "", "bestseller": false, "description": "Kit de broderie débutant, existe aussi en anglais (« Hands-Free »).", "url": "https://studio-francosse.fr/produit/kit-de-broderie-les-mains-libres", "imageUrl": "" },
-    { "title": "Kit de broderie « Boobs »", "format": "kit", "price": "", "bestseller": false, "description": "Kit de broderie avec t-shirt à broder.", "url": "https://studio-francosse.fr/produit/kit-de-broderie-avec-t-shirt", "imageUrl": "" },
-    { "title": "Kit de broderie « Gaïa »", "format": "kit", "price": "", "bestseller": false, "description": "Kit de broderie débutant, prix selon le tissu choisi.", "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-gaia/", "imageUrl": "" },
-    { "title": "Kit de broderie « Garden Party »", "format": "kit", "price": "", "bestseller": false, "description": "Kit de broderie débutant, prix selon le tissu choisi.", "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-garden-party/", "imageUrl": "" },
-    { "title": "Kit de broderie « Self Love »", "format": "kit", "price": "", "bestseller": false, "description": "Kit de broderie sur le thème de l'amour de soi.", "url": "https://studio-francosse.fr/produit/sweat-brode-merry-xmas/", "imageUrl": "" },
-    { "title": "Atelier de broderie débutant à Marseille", "format": "cours", "price": "55 à 60 €", "bestseller": false, "description": "Atelier de 2 h à Marseille 6e (cours Pierre Puget), matériel fourni, on repart avec un t-shirt brodé ; groupes de 8, bon cadeau à 60 €.", "url": "https://studio-francosse.fr/produit/atelier-de-broderie/", "imageUrl": "" }
+    {
+      "title": "Kit de broderie « Bouquet »",
+      "format": "kit",
+      "price": "24,50 à 34,30 €",
+      "bestseller": false,
+      "description": "Pochette en tissu recyclé, toile de coton ou t-shirt 100 % coton (+10 €), feuille de transfert hydrosoluble avec le motif, toile d'entraînement, tambour, fils et aiguille DMC, livret « manuel de survie » avec QR code vers une vidéo.",
+      "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-avec-tissu/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie « Les mains libres »",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie débutant, existe aussi en anglais (« Hands-Free »).",
+      "url": "https://studio-francosse.fr/produit/kit-de-broderie-les-mains-libres",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie « Boobs »",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie avec t-shirt à broder.",
+      "url": "https://studio-francosse.fr/produit/kit-de-broderie-avec-t-shirt",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie « Gaïa »",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie débutant, prix selon le tissu choisi.",
+      "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-gaia/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie « Garden Party »",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie débutant, prix selon le tissu choisi.",
+      "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-garden-party/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie « Self Love »",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie sur le thème de l'amour de soi.",
+      "url": "https://studio-francosse.fr/produit/sweat-brode-merry-xmas/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Atelier de broderie débutant à Marseille",
+      "format": "cours",
+      "price": "55 à 60 €",
+      "bestseller": false,
+      "description": "Atelier de 2 h à Marseille 6e (cours Pierre Puget), matériel fourni, on repart avec un t-shirt brodé ; groupes de 8, bon cadeau à 60 €.",
+      "url": "https://studio-francosse.fr/produit/atelier-de-broderie/",
+      "imageUrl": ""
+    }
   ],
   "summary": "Marque de vêtements brodés main fondée en 2020 par Jeanne Causse, d'abord à Paris puis à Marseille, qui vend aussi des kits de broderie débutant sur toile ou t-shirt et des ateliers.",
   "history": "Jeanne Causse découvre la broderie en février 2020, en voyage en Amérique du Sud ; elle reste au Chili pendant le confinement et continue de broder. Elle commence par des t-shirts brodés pour ses proches, puis lance Studio Francosse en 2020 (son profil Malt indique une activité depuis septembre 2020).\n\nLa marque grandit à Paris, où Jeanne vit une dizaine d'années : atelier parisien, petite équipe, présence au Printemps Haussmann, au BHV et au Bon Marché. Elle signe une collaboration avec Uniqlo (8 motifs brodés autour de l'amour et de l'amour de soi, proposés dans les espaces RE-UNIQLO jusqu'en juillet 2025). En décembre 2023, le média Herstory lui consacre un portrait.\n\nEn mars 2025, une SASU STUDIO FRANCOSSE est immatriculée (SIREN 942460221) avec Jeanne Causse comme présidente, pour la vente à distance de vêtements et accessoires. La marque s'installe à Marseille, où les broderies sont faites main dans l'atelier.\n\nAujourd'hui, Studio Francosse vend des vêtements brodés, de la broderie sur mesure pour entreprises (dès 6 pièces), des kits de broderie débutant et des ateliers de 2 h à Marseille. La marque est aussi distribuée en gros sur Faire.",
   "positioning": "Broderie « impertinente et libérée », féministe et body positive, pensée d'abord comme une marque de mode. Les kits sont un produit d'appel pour débutantes, souvent sur t-shirt, avec motif hydrosoluble, matériel DMC et tuto vidéo. Forces : notoriété grands magasins et collaboration Uniqlo, ateliers en présentiel, broderie personnalisée B2B. Points faibles visibles : les kits restent secondaires face aux vêtements, pas de patrons PDF repérés, pas de boutique Etsy trouvée, structure juridique récente et adresses contradictoires.",
-  "website": "https://studio-francosse.fr/", "instagram": "", "etsy": "", "photoUrl": "",
+  "website": "https://studio-francosse.fr/",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "https://studio-francosse.fr/cdn/shop/files/INSTA_SF_rose_82d839ad-0c6d-4acf-b2b5-b005c4dca3c1.png?v=1768469809&width=2048",
   "timeline": [
-    { "date": "2020-02", "kind": "vie", "label": "Jeanne Causse découvre la broderie en voyage en Amérique du Sud" },
-    { "date": "2020", "kind": "vie", "label": "Lancement de Studio Francosse (t-shirts brodés)" },
-    { "date": "2023-12-04", "kind": "prix", "label": "Portrait dans Herstory" },
-    { "date": "2025", "kind": "residence", "label": "Collaboration Uniqlo : 8 motifs brodés dans les espaces RE-UNIQLO (jusqu'en juillet 2025)" },
-    { "date": "2025-03-14", "kind": "vie", "label": "Création de la SASU STUDIO FRANCOSSE (SIREN 942460221)" },
-    { "date": "2025", "kind": "vie", "label": "Installation de l'atelier à Marseille" }
+    {
+      "date": "2020-02",
+      "kind": "vie",
+      "label": "Jeanne Causse découvre la broderie en voyage en Amérique du Sud"
+    },
+    {
+      "date": "2020",
+      "kind": "vie",
+      "label": "Lancement de Studio Francosse (t-shirts brodés)"
+    },
+    {
+      "date": "2023-12-04",
+      "kind": "prix",
+      "label": "Portrait dans Herstory"
+    },
+    {
+      "date": "2025",
+      "kind": "residence",
+      "label": "Collaboration Uniqlo : 8 motifs brodés dans les espaces RE-UNIQLO (jusqu'en juillet 2025)"
+    },
+    {
+      "date": "2025-03-14",
+      "kind": "vie",
+      "label": "Création de la SASU STUDIO FRANCOSSE (SIREN 942460221)"
+    },
+    {
+      "date": "2025",
+      "kind": "vie",
+      "label": "Installation de l'atelier à Marseille"
+    }
   ],
   "sources": [
-    { "label": "Site, accueil (EN)", "url": "https://studio-francosse.fr/en" },
-    { "label": "Site, la marque (notre histoire)", "url": "https://studio-francosse.fr/pages/notre-histoire" },
-    { "label": "Site, collection kits de broderie", "url": "https://studio-francosse.fr/en/collections/kit-de-broderie" },
-    { "label": "Kit Bouquet", "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-avec-tissu/" },
-    { "label": "Kit Les mains libres", "url": "https://studio-francosse.fr/produit/kit-de-broderie-les-mains-libres" },
-    { "label": "Kit Boobs", "url": "https://studio-francosse.fr/produit/kit-de-broderie-avec-t-shirt" },
-    { "label": "Kit Gaïa", "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-gaia/" },
-    { "label": "Kit Garden Party", "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-garden-party/" },
-    { "label": "Kit Self Love", "url": "https://studio-francosse.fr/produit/sweat-brode-merry-xmas/" },
-    { "label": "Atelier de broderie débutant à Marseille", "url": "https://studio-francosse.fr/produit/atelier-de-broderie/" },
-    { "label": "Bon cadeau atelier", "url": "https://studio-francosse.fr/produit/bon-cadeau-atelier-de-broderie" },
-    { "label": "Broderie sur mesure", "url": "https://studio-francosse.fr/pages/broderie-sur-mesure-1" },
-    { "label": "Nos collaborations brodées", "url": "https://studio-francosse.fr/pages/nos-collaborations-brodees" },
-    { "label": "Mentions légales", "url": "https://studio-francosse.fr/mentions-legales/" },
-    { "label": "Pappers, STUDIO FRANCOSSE", "url": "https://www.pappers.fr/entreprise/studio-francosse-942460221" },
-    { "label": "Pappers, dirigeante Jeanne Causse", "url": "https://www.pappers.fr/dirigeant/jeanne_causse_1996-03" },
-    { "label": "Annuaire des entreprises, STUDIO FRANCOSSE", "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/studio-francosse-942460221" },
-    { "label": "Societe.com, STUDIO FRANCOSSE", "url": "https://www.societe.com/societe/studio-francosse-942460221.html" },
-    { "label": "Herstory, portrait de Jeanne", "url": "https://www.herstory-media.com/style/portrait-de-boss-francosse-de-la-broderie-grace-a-sa-fondatrice-jeanne-zhf" },
-    { "label": "Faire, page marque", "url": "https://www.faire.com/brand/b_336a5msnsc" },
-    { "label": "Malt, profil de Jeanne Causse", "url": "https://www.malt.fr/profile/jeannecausse" },
-    { "label": "LinkedIn, Jeanne Causse", "url": "https://www.linkedin.com/in/jeanne-causse-aa6669157/" }
+    {
+      "label": "Site, accueil (EN)",
+      "url": "https://studio-francosse.fr/en"
+    },
+    {
+      "label": "Site, la marque (notre histoire)",
+      "url": "https://studio-francosse.fr/pages/notre-histoire"
+    },
+    {
+      "label": "Site, collection kits de broderie",
+      "url": "https://studio-francosse.fr/en/collections/kit-de-broderie"
+    },
+    {
+      "label": "Kit Bouquet",
+      "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-avec-tissu/"
+    },
+    {
+      "label": "Kit Les mains libres",
+      "url": "https://studio-francosse.fr/produit/kit-de-broderie-les-mains-libres"
+    },
+    {
+      "label": "Kit Boobs",
+      "url": "https://studio-francosse.fr/produit/kit-de-broderie-avec-t-shirt"
+    },
+    {
+      "label": "Kit Gaïa",
+      "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-gaia/"
+    },
+    {
+      "label": "Kit Garden Party",
+      "url": "https://studio-francosse.fr/produit-broderie/kit-de-broderie-garden-party/"
+    },
+    {
+      "label": "Kit Self Love",
+      "url": "https://studio-francosse.fr/produit/sweat-brode-merry-xmas/"
+    },
+    {
+      "label": "Atelier de broderie débutant à Marseille",
+      "url": "https://studio-francosse.fr/produit/atelier-de-broderie/"
+    },
+    {
+      "label": "Bon cadeau atelier",
+      "url": "https://studio-francosse.fr/produit/bon-cadeau-atelier-de-broderie"
+    },
+    {
+      "label": "Broderie sur mesure",
+      "url": "https://studio-francosse.fr/pages/broderie-sur-mesure-1"
+    },
+    {
+      "label": "Nos collaborations brodées",
+      "url": "https://studio-francosse.fr/pages/nos-collaborations-brodees"
+    },
+    {
+      "label": "Mentions légales",
+      "url": "https://studio-francosse.fr/mentions-legales/"
+    },
+    {
+      "label": "Pappers, STUDIO FRANCOSSE",
+      "url": "https://www.pappers.fr/entreprise/studio-francosse-942460221"
+    },
+    {
+      "label": "Pappers, dirigeante Jeanne Causse",
+      "url": "https://www.pappers.fr/dirigeant/jeanne_causse_1996-03"
+    },
+    {
+      "label": "Annuaire des entreprises, STUDIO FRANCOSSE",
+      "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/studio-francosse-942460221"
+    },
+    {
+      "label": "Societe.com, STUDIO FRANCOSSE",
+      "url": "https://www.societe.com/societe/studio-francosse-942460221.html"
+    },
+    {
+      "label": "Herstory, portrait de Jeanne",
+      "url": "https://www.herstory-media.com/style/portrait-de-boss-francosse-de-la-broderie-grace-a-sa-fondatrice-jeanne-zhf"
+    },
+    {
+      "label": "Faire, page marque",
+      "url": "https://www.faire.com/brand/b_336a5msnsc"
+    },
+    {
+      "label": "Malt, profil de Jeanne Causse",
+      "url": "https://www.malt.fr/profile/jeannecausse"
+    },
+    {
+      "label": "LinkedIn, Jeanne Causse",
+      "url": "https://www.linkedin.com/in/jeanne-causse-aa6669157/"
+    }
   ],
   "researchNotes": "Pages non ouvertes : WebFetch et curl étaient bloqués, tout vient des extraits de résultats WebSearch (octobre 2026). Le quota de recherches de la session a été épuisé pendant cette fiche : les prix kit par kit, la gamme des fils DMC et les audiences n'ont pas pu être vérifiés. Prix : un extrait donne « la plupart autour de 35 à 49 € » sans préciser quel kit coûte quoi ; seul le Bouquet (24,50 à 34,30 €) est attribué. L'URL du kit Self Love porte le slug « sweat-brode-merry-xmas », à vérifier. Meilleures ventes inconnues. Juridique contradictoire : Pappers donne une SASU créée le 2025-03-14, présidente depuis le 2025-03-26, capital 15 000 €, siège 4 avenue de Provence à Cassis, SIRET 94246022100016 ; l'annuaire data.gouv donne une SAS, siège 9 rue Gustave Ricard, Marseille 6e, SIRET 94246022100024 ; une annonce légale cite un capital de 1 000 € ; les mentions légales du site parlent d'une micro-entreprise à Cassis, ce qui laisse penser que la marque a d'abord été exploitée en micro-entreprise (2020 à 2025) sans que le SIREN antérieur ait été trouvé. Aucun compte publié (société créée en 2025). Instagram : compte non trouvé dans les résultats, nombre d'abonnés inconnu ; une page Pinterest studiofrancosse et une page Facebook StudioFrancosse existent. Les pages ateliers semblaient anciennes, calendrier à vérifier. Aucune boutique Etsy trouvée."
 }

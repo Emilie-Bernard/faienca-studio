@@ -1,86 +1,355 @@
 {
   "name": "Britney Pompadour",
-  "country": "France", "city": "Paris", "region": "Île-de-France",
-  "foundedDate": "2016", "closedDate": "",
-  "founders": ["Maÿlis Puyfaucher"],
-  "legalName": "POMPOMPADOUR", "legalForm": "SAS (dissolution anticipée décidée en février 2025)", "registrationId": "831708839",
-  "offers": ["Kits de broderie", "Recharges (motif et fils)", "Écussons thermocollants", "Livres", "Ateliers", "Vente en gros"],
-  "styles": ["Pop", "Messages et expressions", "Paris", "Fleurs", "Collaborations avec des illustratrices"],
-  "techniques": ["Broderie traditionnelle", "Broderie sur vêtement", "Motif autocollant hydrosoluble"],
-  "threads": ["DMC (coton)"],
-  "fabrics": ["Aucun tissu fourni : on brode sur ses propres vêtements (t-shirts, chemises)"],
-  "salesChannels": ["Site en propre (britneypompadour.com)", "Etsy", "Faire (gros)", "Boutiques revendeuses (La Droguerie, Nature & Découvertes, merceries et concept stores)", "Ventes éphémères et salons"],
+  "country": "France",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "foundedDate": "2016",
+  "closedDate": "",
+  "founders": [
+    "Maÿlis Puyfaucher"
+  ],
+  "legalName": "POMPOMPADOUR",
+  "legalForm": "SAS (dissolution anticipée décidée en février 2025)",
+  "registrationId": "831708839",
+  "offers": [
+    "Kits de broderie",
+    "Recharges (motif et fils)",
+    "Écussons thermocollants",
+    "Livres",
+    "Ateliers",
+    "Vente en gros"
+  ],
+  "styles": [
+    "Pop",
+    "Messages et expressions",
+    "Paris",
+    "Fleurs",
+    "Collaborations avec des illustratrices"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Broderie sur vêtement",
+    "Motif autocollant hydrosoluble"
+  ],
+  "threads": [
+    "DMC (coton)"
+  ],
+  "fabrics": [
+    "Aucun tissu fourni : on brode sur ses propres vêtements (t-shirts, chemises)"
+  ],
+  "salesChannels": [
+    "Site en propre (britneypompadour.com)",
+    "Etsy",
+    "Faire (gros)",
+    "Boutiques revendeuses (La Droguerie, Nature & Découvertes, merceries et concept stores)",
+    "Ventes éphémères et salons"
+  ],
   "priceRange": "Kits de 14 à 28 € environ, livre avec matériel à 40 €",
-  "languages": ["Français", "Anglais"],
+  "languages": [
+    "Français",
+    "Anglais"
+  ],
   "audience": [
-    { "platform": "Instagram", "followers": 19000, "date": "2026-10", "url": "https://www.instagram.com/britneypompadour/" },
-    { "platform": "Etsy", "followers": null, "date": "2026-10", "url": "https://www.etsy.com/fr/shop/BritneyPompadour" },
-    { "platform": "Facebook", "followers": 1606, "date": "2026-10", "url": "https://www.facebook.com/britneyPompadour/" },
-    { "platform": "Pinterest", "followers": 180, "date": "2026-10", "url": "https://fr.pinterest.com/britneypompadour/" }
+    {
+      "platform": "Instagram",
+      "followers": 19000,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/britneypompadour/"
+    },
+    {
+      "platform": "Etsy",
+      "followers": null,
+      "date": "2026-10",
+      "url": "https://www.etsy.com/fr/shop/BritneyPompadour"
+    },
+    {
+      "platform": "Facebook",
+      "followers": 1606,
+      "date": "2026-10",
+      "url": "https://www.facebook.com/britneyPompadour/"
+    },
+    {
+      "platform": "Pinterest",
+      "followers": 180,
+      "date": "2026-10",
+      "url": "https://fr.pinterest.com/britneypompadour/"
+    }
   ],
   "financials": [
-    { "year": "2019", "revenue": 57428, "netIncome": null, "employees": "", "source": "Verif et Manageo, exercice clos le 31/03/2019 (SAS POMPOMPADOUR)" }
+    {
+      "year": "2019",
+      "revenue": 57428,
+      "netIncome": null,
+      "employees": "",
+      "source": "Verif et Manageo, exercice clos le 31/03/2019 (SAS POMPOMPADOUR)"
+    }
   ],
   "products": [
-    { "title": "Kit de broderie Summer in Paris (Paris skyline)", "format": "kit", "price": "20 €", "bestseller": false, "description": "Kit Easy broderie sur le thème de la skyline de Paris, proposé en kit complet ou en recharge.", "url": "https://britneypompadour.com/fr/broderie/kit-de-broderie-summer-in-paris-paris-skyline", "imageUrl": "" },
-    { "title": "Big kit de broderie Flowers", "format": "kit", "price": "26,67 €", "bestseller": false, "description": "Grand kit Easy broderie à motif fleuri.", "url": "https://britneypompadour.com/fr/big-kit-de-broderie-flowers", "imageUrl": "" },
-    { "title": "Big kit de broderie Sœurs (mimosa)", "format": "kit", "price": "28,33 €", "bestseller": false, "description": "Kit de broderie complet, motif mimosa et message « sœurs ».", "url": "https://britneypompadour.com/fr/big-kit-de-broderie-soeurs", "imageUrl": "" },
-    { "title": "Kit de broderie Parisien(ne)", "format": "kit", "price": "18,33 €", "bestseller": false, "description": "Kit complet avec motif autocollant hydrosoluble, fils, cercle et aiguille.", "url": "https://britneypompadour.com/en/embroidery/parisien-parisienne", "imageUrl": "" },
-    { "title": "Kit de broderie Sacré-Cœur, Atelier Mouti x Britney Pompadour", "format": "kit", "price": "25 €", "bestseller": false, "description": "Kit en collaboration avec l'illustratrice Atelier Mouti.", "url": "https://britneypompadour.com/fr/broderie/illustratrices-collaborations/kit-de-broderie-atelier-mouti-sacre-coeur", "imageUrl": "" },
-    { "title": "Kit de broderie Crabe et coquillage (Plouf)", "format": "kit", "price": "14 €", "bestseller": false, "description": "Petit kit Easy broderie à motifs marins.", "url": "https://www.britneypompadour.com/kit-de-broderie-crabe-coquillage-plouf", "imageUrl": "" },
-    { "title": "Kit Easy broderie Liberté, La Droguerie x Britney Pompadour", "format": "kit", "price": "", "bestseller": false, "description": "Kit qui associe broderie et écusson thermocollant en forme de montgolfière, vendu par La Droguerie.", "url": "https://www.ladroguerie.com/produit/kit-easy-broderie-liberte-britney-pompadour/", "imageUrl": "" },
-    { "title": "Easy broderie, livre et nécessaire de broderie", "format": "livre", "price": "40 €", "bestseller": false, "description": "Livre Easy broderie (Glénat, 2020, 144 pages, 20 projets, plus de 80 motifs) avec un cercle en hêtre de 10 cm, deux feuilles A4 de Solufix et des aiguilles Bohin.", "url": "https://britneypompadour.com/fr/easy-broderie-livre-necessaire-de-broderie", "imageUrl": "" }
+    {
+      "title": "Kit de broderie Summer in Paris (Paris skyline)",
+      "format": "kit",
+      "price": "20 €",
+      "bestseller": false,
+      "description": "Kit Easy broderie sur le thème de la skyline de Paris, proposé en kit complet ou en recharge.",
+      "url": "https://britneypompadour.com/fr/broderie/kit-de-broderie-summer-in-paris-paris-skyline",
+      "imageUrl": ""
+    },
+    {
+      "title": "Big kit de broderie Flowers",
+      "format": "kit",
+      "price": "26,67 €",
+      "bestseller": false,
+      "description": "Grand kit Easy broderie à motif fleuri.",
+      "url": "https://britneypompadour.com/fr/big-kit-de-broderie-flowers",
+      "imageUrl": ""
+    },
+    {
+      "title": "Big kit de broderie Sœurs (mimosa)",
+      "format": "kit",
+      "price": "28,33 €",
+      "bestseller": false,
+      "description": "Kit de broderie complet, motif mimosa et message « sœurs ».",
+      "url": "https://britneypompadour.com/fr/big-kit-de-broderie-soeurs",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Parisien(ne)",
+      "format": "kit",
+      "price": "18,33 €",
+      "bestseller": false,
+      "description": "Kit complet avec motif autocollant hydrosoluble, fils, cercle et aiguille.",
+      "url": "https://britneypompadour.com/en/embroidery/parisien-parisienne",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Sacré-Cœur, Atelier Mouti x Britney Pompadour",
+      "format": "kit",
+      "price": "25 €",
+      "bestseller": false,
+      "description": "Kit en collaboration avec l'illustratrice Atelier Mouti.",
+      "url": "https://britneypompadour.com/fr/broderie/illustratrices-collaborations/kit-de-broderie-atelier-mouti-sacre-coeur",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie Crabe et coquillage (Plouf)",
+      "format": "kit",
+      "price": "14 €",
+      "bestseller": false,
+      "description": "Petit kit Easy broderie à motifs marins.",
+      "url": "https://www.britneypompadour.com/kit-de-broderie-crabe-coquillage-plouf",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Easy broderie Liberté, La Droguerie x Britney Pompadour",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit qui associe broderie et écusson thermocollant en forme de montgolfière, vendu par La Droguerie.",
+      "url": "https://www.ladroguerie.com/produit/kit-easy-broderie-liberte-britney-pompadour/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Easy broderie, livre et nécessaire de broderie",
+      "format": "livre",
+      "price": "40 €",
+      "bestseller": false,
+      "description": "Livre Easy broderie (Glénat, 2020, 144 pages, 20 projets, plus de 80 motifs) avec un cercle en hêtre de 10 cm, deux feuilles A4 de Solufix et des aiguilles Bohin.",
+      "url": "https://britneypompadour.com/fr/easy-broderie-livre-necessaire-de-broderie",
+      "imageUrl": ""
+    }
   ],
   "summary": "Marque parisienne de kits de broderie pour débutantes, lancée en 2016 par Maÿlis Puyfaucher, fondée sur un motif autocollant hydrosoluble qu'on colle sur un vêtement, qu'on brode puis qu'on lave. Ton pop, motifs à messages et collaborations avec des illustratrices.",
   "history": "Britney Pompadour est créée à Paris par Maÿlis Puyfaucher. Avant de se lancer, elle a passé une quinzaine d'années en entreprise et a participé au lancement du lapin connecté Nabaztag, où elle était responsable éditoriale. Elle se présente elle-même comme débutante en couture, et c'est ce regard qui guide la marque : des kits conçus par une débutante pour des débutantes.\n\nL'idée naît chez un grossiste, où elle découvre un papier qui fond dans l'eau. Les premiers kits sont présentés en mai 2016 lors d'une vente de créatrices et la marque est lancée en novembre 2016 (une interview de 2018 parle de mai 2015). Juridiquement, une entreprise individuelle à son nom est immatriculée en août 2015, puis la SAS POMPOMPADOUR est créée en août ou septembre 2017 à Paris 10e.\n\nLes kits se diffusent d'abord chez La Mercerie Fine, au concept store French Touche et au corner Etsy des Galeries Lafayette. La marque expose à Maison&Objet en janvier 2019 et sort de nouveaux motifs deux fois par an, dessinés par la fondatrice ou par des illustratrices (Atelier Mouti, Aloÿse Mendoza, Lisa Junius, Csil, Julie Adore…). Elle collabore aussi avec La Droguerie et avec la créatrice de mode Maison Fauve.\n\nEn septembre 2020, Maÿlis Puyfaucher publie le livre Easy broderie chez Glénat. Le dernier chiffre d'affaires publié de la SAS est de 57 428 € (exercice clos en mars 2019).\n\nEn février 2025, l'assemblée de la SAS POMPOMPADOUR décide sa dissolution anticipée, avec Maÿlis Puyfaucher comme liquidatrice. La boutique Etsy et le site restent pourtant visibles en 2025, avec de nouvelles annonces et un article de Bande de Créateurs en mars 2025.",
   "positioning": "Broderie « pop » et sans contrainte : on ne fournit pas de tissu, on brode directement sur ses vêtements grâce au motif autocollant hydrosoluble. Les titres sont des phrases ou des clins d'œil (Oops I did it again, Courir nue, Rock it) et le nom même de la marque joue sur la culture pop. Clientèle : jeunes adultes urbaines débutantes, cadeaux, concept stores. Forces : concept simple à expliquer, prix accessibles, réseau de revendeurs et présence sur Faire, collaborations avec des illustratrices, un livre chez Glénat. Points faibles visibles : petite taille (57 k€ de CA en 2019), audience modeste hors Instagram, structure juridique en dissolution depuis 2025, ce qui pose la question de la pérennité.",
-  "website": "https://britneypompadour.com", "instagram": "https://www.instagram.com/britneypompadour/", "etsy": "https://www.etsy.com/fr/shop/BritneyPompadour", "photoUrl": "",
+  "website": "https://britneypompadour.com",
+  "instagram": "https://www.instagram.com/britneypompadour/",
+  "etsy": "https://www.etsy.com/fr/shop/BritneyPompadour",
+  "photoUrl": "https://media.cdnws.com/_i/422133/40/515/40/logo.png",
   "timeline": [
-    { "date": "2015-08-01", "kind": "vie", "label": "Immatriculation de l'entreprise individuelle de Maÿlis Puyfaucher (Paris 10e)" },
-    { "date": "2016-05", "kind": "oeuvre", "label": "Premiers kits présentés lors d'une vente de créatrices" },
-    { "date": "2016-11", "kind": "vie", "label": "Lancement officiel de la marque Britney Pompadour" },
-    { "date": "2017-09-04", "kind": "vie", "label": "Immatriculation de la SAS POMPOMPADOUR au RCS de Paris" },
-    { "date": "2017-10-13", "kind": "vie", "label": "Radiation de l'entreprise individuelle" },
-    { "date": "2018-08", "kind": "prix", "label": "Interview sur le blog Tea&Poppies" },
-    { "date": "2019-01", "kind": "exposition", "label": "Exposante au salon Maison&Objet Paris" },
-    { "date": "2020-09-09", "kind": "oeuvre", "label": "Parution du livre Easy broderie chez Glénat" },
-    { "date": "2025-02-05", "kind": "vie", "label": "Dissolution anticipée de la SAS POMPOMPADOUR" },
-    { "date": "2025-03", "kind": "prix", "label": "Article dans le Journal de Bande de Créateurs" }
+    {
+      "date": "2015-08-01",
+      "kind": "vie",
+      "label": "Immatriculation de l'entreprise individuelle de Maÿlis Puyfaucher (Paris 10e)"
+    },
+    {
+      "date": "2016-05",
+      "kind": "oeuvre",
+      "label": "Premiers kits présentés lors d'une vente de créatrices"
+    },
+    {
+      "date": "2016-11",
+      "kind": "vie",
+      "label": "Lancement officiel de la marque Britney Pompadour"
+    },
+    {
+      "date": "2017-09-04",
+      "kind": "vie",
+      "label": "Immatriculation de la SAS POMPOMPADOUR au RCS de Paris"
+    },
+    {
+      "date": "2017-10-13",
+      "kind": "vie",
+      "label": "Radiation de l'entreprise individuelle"
+    },
+    {
+      "date": "2018-08",
+      "kind": "prix",
+      "label": "Interview sur le blog Tea&Poppies"
+    },
+    {
+      "date": "2019-01",
+      "kind": "exposition",
+      "label": "Exposante au salon Maison&Objet Paris"
+    },
+    {
+      "date": "2020-09-09",
+      "kind": "oeuvre",
+      "label": "Parution du livre Easy broderie chez Glénat"
+    },
+    {
+      "date": "2025-02-05",
+      "kind": "vie",
+      "label": "Dissolution anticipée de la SAS POMPOMPADOUR"
+    },
+    {
+      "date": "2025-03",
+      "kind": "prix",
+      "label": "Article dans le Journal de Bande de Créateurs"
+    }
   ],
   "sources": [
-    { "label": "Britney Pompadour, page À propos", "url": "https://britneypompadour.com/fr/a-propos" },
-    { "label": "Britney Pompadour, kits de broderie débutant", "url": "https://britneypompadour.com/fr/broderie/kit-de-broderie/kit-broderie-debutant?rewrite=kit-de-broderie" },
-    { "label": "Britney Pompadour, kit Summer in Paris", "url": "https://britneypompadour.com/fr/broderie/kit-de-broderie-summer-in-paris-paris-skyline" },
-    { "label": "Britney Pompadour, big kit Flowers", "url": "https://britneypompadour.com/fr/big-kit-de-broderie-flowers" },
-    { "label": "Britney Pompadour, big kit Sœurs", "url": "https://britneypompadour.com/fr/big-kit-de-broderie-soeurs" },
-    { "label": "Britney Pompadour, kit Parisien(ne)", "url": "https://britneypompadour.com/en/embroidery/parisien-parisienne" },
-    { "label": "Britney Pompadour, kit Atelier Mouti Sacré-Cœur", "url": "https://britneypompadour.com/fr/broderie/illustratrices-collaborations/kit-de-broderie-atelier-mouti-sacre-coeur" },
-    { "label": "Britney Pompadour, kit Crabe et coquillage", "url": "https://www.britneypompadour.com/kit-de-broderie-crabe-coquillage-plouf" },
-    { "label": "Britney Pompadour, big kit Rock it", "url": "https://www.britneypompadour.com/big-kit-de-broderie-rock-it" },
-    { "label": "Britney Pompadour, livre et nécessaire Easy broderie", "url": "https://britneypompadour.com/fr/easy-broderie-livre-necessaire-de-broderie" },
-    { "label": "Britney Pompadour, FAQ", "url": "https://britneypompadour.com/en/faq?rewrite=faq" },
-    { "label": "Boutique Etsy BritneyPompadour", "url": "https://www.etsy.com/fr/shop/BritneyPompadour" },
-    { "label": "Instagram @britneypompadour", "url": "https://www.instagram.com/britneypompadour/" },
-    { "label": "Facebook Britney Pompadour", "url": "https://www.facebook.com/britneyPompadour/" },
-    { "label": "Pinterest Britney Pompadour", "url": "https://fr.pinterest.com/britneypompadour/" },
-    { "label": "Faire, page grossiste Britney Pompadour", "url": "https://www.faire.com/brand/b_4x03qenak7" },
-    { "label": "Faire, Kit Easy Broderie Planet", "url": "https://www.faire.com/fr-ca/product/p_7d360apyfr" },
-    { "label": "Do It in Paris, Britney Pompadour la nouvelle passion des Parisiennes", "url": "https://www.doitinparis.com/fr/broderie-facile-avec-les-kits-britney-pompadour-21793" },
-    { "label": "Coquerico, Portrait de créateur #29", "url": "https://www.coquerico.fr/content/82-portrait-de-createur-29-britney-pompadour" },
-    { "label": "Tea&Poppies, Rencontre avec Britney Pompadour", "url": "https://teaandpoppies.com/britney-pompadour-broderie/" },
-    { "label": "Bande de Créateurs, Les kits de Britney Pompadour (2025)", "url": "https://www.bandedecreateurs.fr/2025/03/11/les-kits-de-britney-pompadour/" },
-    { "label": "Maif Social Club, Britney Pompadour", "url": "https://store.maifsocialclub.fr/brand/283-britney-pompadour" },
-    { "label": "Maison Fauve, les Ballets Russes en broderie", "url": "https://www.maison-fauve.com/en/blogs/oeil-fauve/motif-broderie" },
-    { "label": "Maison&Objet, exposants janvier 2019", "url": "https://www.maison-objet.com/fr/paris/exposants/janvier-2019/britney-pompadour-broderie" },
-    { "label": "La Droguerie, kit Easy broderie Liberté", "url": "https://www.ladroguerie.com/produit/kit-easy-broderie-liberte-britney-pompadour/" },
-    { "label": "Nature & Découvertes, kit Easy broderie Planète", "url": "https://www.natureetdecouvertes.com/livres-loisirs/loisirs-creatifs/kits-materiel-creatifs/kit-easy-broderie-planete-97230610" },
-    { "label": "Librest, Easy broderie de Maÿlis Puyfaucher (Glénat)", "url": "https://www.librest.com/livres/easy-broderie--20-projets-tres-faciles-pour-debuter-en-broderie-maylis-puyfaucher_0-6613671_9782344042847.html?add_review=1" },
-    { "label": "Le Bal Littéraire des Sardines, test d'un kit (2021)", "url": "https://leballitterairedessardines.com/2021/07/11/jai-teste-un-kit-easy-broderie-de-britney-pompadour-et-je-suis-a-la-lisiere-de-laddiction/" },
-    { "label": "Societe.com, POMPOMPADOUR", "url": "https://www.societe.com/societe/pompompadour-831708839.html" },
-    { "label": "Verif, POMPOMPADOUR", "url": "https://www.verif.com/societe/POMPOMPADOUR-831708839/" },
-    { "label": "Manageo, POMPOMPADOUR", "url": "https://www.manageo.fr/entreprises/831708839.html" },
-    { "label": "North Data, Pompompadour SAS", "url": "https://www.northdata.com/Pompompadour+SAS,+Paris/Siren+831708839" },
-    { "label": "Pappers, entreprise individuelle Puyfaucher Maylis", "url": "https://www.pappers.fr/entreprise/puyfaucher-maylis-812680353" }
+    {
+      "label": "Britney Pompadour, page À propos",
+      "url": "https://britneypompadour.com/fr/a-propos"
+    },
+    {
+      "label": "Britney Pompadour, kits de broderie débutant",
+      "url": "https://britneypompadour.com/fr/broderie/kit-de-broderie/kit-broderie-debutant?rewrite=kit-de-broderie"
+    },
+    {
+      "label": "Britney Pompadour, kit Summer in Paris",
+      "url": "https://britneypompadour.com/fr/broderie/kit-de-broderie-summer-in-paris-paris-skyline"
+    },
+    {
+      "label": "Britney Pompadour, big kit Flowers",
+      "url": "https://britneypompadour.com/fr/big-kit-de-broderie-flowers"
+    },
+    {
+      "label": "Britney Pompadour, big kit Sœurs",
+      "url": "https://britneypompadour.com/fr/big-kit-de-broderie-soeurs"
+    },
+    {
+      "label": "Britney Pompadour, kit Parisien(ne)",
+      "url": "https://britneypompadour.com/en/embroidery/parisien-parisienne"
+    },
+    {
+      "label": "Britney Pompadour, kit Atelier Mouti Sacré-Cœur",
+      "url": "https://britneypompadour.com/fr/broderie/illustratrices-collaborations/kit-de-broderie-atelier-mouti-sacre-coeur"
+    },
+    {
+      "label": "Britney Pompadour, kit Crabe et coquillage",
+      "url": "https://www.britneypompadour.com/kit-de-broderie-crabe-coquillage-plouf"
+    },
+    {
+      "label": "Britney Pompadour, big kit Rock it",
+      "url": "https://www.britneypompadour.com/big-kit-de-broderie-rock-it"
+    },
+    {
+      "label": "Britney Pompadour, livre et nécessaire Easy broderie",
+      "url": "https://britneypompadour.com/fr/easy-broderie-livre-necessaire-de-broderie"
+    },
+    {
+      "label": "Britney Pompadour, FAQ",
+      "url": "https://britneypompadour.com/en/faq?rewrite=faq"
+    },
+    {
+      "label": "Boutique Etsy BritneyPompadour",
+      "url": "https://www.etsy.com/fr/shop/BritneyPompadour"
+    },
+    {
+      "label": "Instagram @britneypompadour",
+      "url": "https://www.instagram.com/britneypompadour/"
+    },
+    {
+      "label": "Facebook Britney Pompadour",
+      "url": "https://www.facebook.com/britneyPompadour/"
+    },
+    {
+      "label": "Pinterest Britney Pompadour",
+      "url": "https://fr.pinterest.com/britneypompadour/"
+    },
+    {
+      "label": "Faire, page grossiste Britney Pompadour",
+      "url": "https://www.faire.com/brand/b_4x03qenak7"
+    },
+    {
+      "label": "Faire, Kit Easy Broderie Planet",
+      "url": "https://www.faire.com/fr-ca/product/p_7d360apyfr"
+    },
+    {
+      "label": "Do It in Paris, Britney Pompadour la nouvelle passion des Parisiennes",
+      "url": "https://www.doitinparis.com/fr/broderie-facile-avec-les-kits-britney-pompadour-21793"
+    },
+    {
+      "label": "Coquerico, Portrait de créateur #29",
+      "url": "https://www.coquerico.fr/content/82-portrait-de-createur-29-britney-pompadour"
+    },
+    {
+      "label": "Tea&Poppies, Rencontre avec Britney Pompadour",
+      "url": "https://teaandpoppies.com/britney-pompadour-broderie/"
+    },
+    {
+      "label": "Bande de Créateurs, Les kits de Britney Pompadour (2025)",
+      "url": "https://www.bandedecreateurs.fr/2025/03/11/les-kits-de-britney-pompadour/"
+    },
+    {
+      "label": "Maif Social Club, Britney Pompadour",
+      "url": "https://store.maifsocialclub.fr/brand/283-britney-pompadour"
+    },
+    {
+      "label": "Maison Fauve, les Ballets Russes en broderie",
+      "url": "https://www.maison-fauve.com/en/blogs/oeil-fauve/motif-broderie"
+    },
+    {
+      "label": "Maison&Objet, exposants janvier 2019",
+      "url": "https://www.maison-objet.com/fr/paris/exposants/janvier-2019/britney-pompadour-broderie"
+    },
+    {
+      "label": "La Droguerie, kit Easy broderie Liberté",
+      "url": "https://www.ladroguerie.com/produit/kit-easy-broderie-liberte-britney-pompadour/"
+    },
+    {
+      "label": "Nature & Découvertes, kit Easy broderie Planète",
+      "url": "https://www.natureetdecouvertes.com/livres-loisirs/loisirs-creatifs/kits-materiel-creatifs/kit-easy-broderie-planete-97230610"
+    },
+    {
+      "label": "Librest, Easy broderie de Maÿlis Puyfaucher (Glénat)",
+      "url": "https://www.librest.com/livres/easy-broderie--20-projets-tres-faciles-pour-debuter-en-broderie-maylis-puyfaucher_0-6613671_9782344042847.html?add_review=1"
+    },
+    {
+      "label": "Le Bal Littéraire des Sardines, test d'un kit (2021)",
+      "url": "https://leballitterairedessardines.com/2021/07/11/jai-teste-un-kit-easy-broderie-de-britney-pompadour-et-je-suis-a-la-lisiere-de-laddiction/"
+    },
+    {
+      "label": "Societe.com, POMPOMPADOUR",
+      "url": "https://www.societe.com/societe/pompompadour-831708839.html"
+    },
+    {
+      "label": "Verif, POMPOMPADOUR",
+      "url": "https://www.verif.com/societe/POMPOMPADOUR-831708839/"
+    },
+    {
+      "label": "Manageo, POMPOMPADOUR",
+      "url": "https://www.manageo.fr/entreprises/831708839.html"
+    },
+    {
+      "label": "North Data, Pompompadour SAS",
+      "url": "https://www.northdata.com/Pompompadour+SAS,+Paris/Siren+831708839"
+    },
+    {
+      "label": "Pappers, entreprise individuelle Puyfaucher Maylis",
+      "url": "https://www.pappers.fr/entreprise/puyfaucher-maylis-812680353"
+    }
   ],
   "researchNotes": "Recherche faite le 2026-10-21 uniquement par moteur de recherche : aucune page n'a pu être ouverte (WebFetch et curl bloqués). Tous les faits viennent d'extraits de résultats de recherche, à reconfirmer sur les pages elles-mêmes.\n\nDate de création contradictoire : le site, Faire, Maif Social Club et Bande de Créateurs disent 2016 (Coquerico : premiers kits en mai 2016, lancement en novembre 2016) ; l'interview Tea&Poppies de 2018 cite « mai 2015 ». L'entreprise individuelle 812680353 a été créée le 2015-08-01 et radiée le 2017-10-13 (Pappers, infonet ; Verif et Manageo la donnent encore active). La SAS POMPOMPADOUR (831708839, capital 25 500 €, 168 avenue Parmentier 75010 Paris, NAF 4778C) a une date de création de 2017-08-23 ou 2017-09-04 selon les sources.\n\nStatut : une AGE du 2025-02-04 a décidé la dissolution anticipée de la SAS au 2025-02-05 (Societe.com, Verif), Maylis Puyfaucher liquidatrice ; Societe.com affiche aussi une date de dissolution au 2025-04-16. Le site et la boutique Etsy semblent pourtant actifs (annonces Etsy datées de 2025). On ne sait pas si l'activité a été reprise par une autre structure (micro-entreprise ?) : à vérifier dans les mentions légales du site. closedDate laissé vide pour cette raison.\n\nFinances : seul chiffre publié trouvé, 57 428 € de CA pour l'exercice clos le 31/03/2019 (Verif, Manageo). Résultat net et effectif non trouvés. North Data signale des comptes déposés pour les exercices clos en mars 2020 et mars 2021, sans chiffres visibles (probablement confidentiels).\n\nProduits : aucun best-seller n'est identifiable depuis les extraits, d'où bestseller à false partout. Les prix du site varient selon la langue (ex. Summer in Paris : 20 € sur la page française, 21,67 € sur la page anglaise ; 18,33 €, 26,67 €, 28,33 € ressemblent à des prix hors taxe affichés) : à vérifier. Prix Etsy vus de 8 à 26 €. Ancien prix presse : Kit Easy broderie à 22 €. Prix revendeur Faire : 27,80 USD pour le kit Planet. Fils : DMC coton cités par la presse et le site ; gamme exacte (Mouliné spécial 25 ?) non confirmée. Aiguilles Bohin dans le pack livre, aiguille « made in France » chez un revendeur, cercle hêtre 10 cm. Aucune URL d'image vue telle quelle, donc imageUrl et photoUrl vides.\n\nAudiences (extraits non datés, notés 2026-10) : Instagram environ 19K abonnés et 1 405 publications ; Etsy 5,6K ventes, note 4,9 sur 5, environ 448 avis, 10 ans sur Etsy (champ followers laissé à null car Etsy n'affiche pas d'abonnés) ; Facebook 1 606 ; Pinterest 180. Une chaîne YouTube existe (tutoriel « remplir une surface »), nombre d'abonnés non trouvé."
 }

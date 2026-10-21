@@ -1,45 +1,170 @@
 {
   "name": "El Mussol Mercería",
-  "country": "Espagne", "city": "Sabadell", "region": "Catalogne",
-  "foundedDate": "", "closedDate": "",
-  "founders": ["Yolanda", "Ester Chaos Hernández"],
-  "legalName": "Ester Chaos Hernández", "legalForm": "autónoma (à confirmer)", "registrationId": "",
-  "offers": ["Kits de broderie", "Patrons PDF", "Mercerie", "Ateliers", "Tutoriels vidéo"],
-  "styles": ["Botanique", "Nature", "Slow patchwork"],
-  "techniques": ["Broderie traditionnelle", "Punch needle", "Patchwork"],
-  "threads": ["Fils mouliné 6 brins", "Fils perlé", "Fils dégradés (matizados)", "Fil satiné"],
+  "country": "Espagne",
+  "city": "Sabadell",
+  "region": "Catalogne",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [
+    "Yolanda",
+    "Ester Chaos Hernández"
+  ],
+  "legalName": "Ester Chaos Hernández",
+  "legalForm": "autónoma (à confirmer)",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Mercerie",
+    "Ateliers",
+    "Tutoriels vidéo"
+  ],
+  "styles": [
+    "Botanique",
+    "Nature",
+    "Slow patchwork"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Punch needle",
+    "Patchwork"
+  ],
+  "threads": [
+    "Fils mouliné 6 brins",
+    "Fils perlé",
+    "Fils dégradés (matizados)",
+    "Fil satiné"
+  ],
   "fabrics": [],
-  "salesChannels": ["Site en propre (WooCommerce)", "Boutique physique à Sabadell sur rendez-vous", "Salons (Creativa Barcelona)"],
+  "salesChannels": [
+    "Site en propre (WooCommerce)",
+    "Boutique physique à Sabadell sur rendez-vous",
+    "Salons (Creativa Barcelona)"
+  ],
   "priceRange": "Kits de 15 à 34 €, patrons PDF à 4 €",
-  "languages": ["Espagnol"],
+  "languages": [
+    "Espagnol"
+  ],
   "audience": [],
   "financials": [],
   "products": [
-    { "title": "Kit materiales iniciación al bordado", "format": "kit", "price": "34 €", "bestseller": false, "description": "Kit de matériel pour débuter : tambour moyen en bois, 50 x 150 cm du tissu de base utilisé dans les tutoriels de la boutique, fils de plusieurs types (satiné, perlé épais, 2 fils dégradés et 5 mouliné 6 brins). Ciseaux non inclus. Une seule unité en stock lors de la lecture.", "url": "https://elmussolmerceria.com/producto/kit-materiales-iniciacion-al-bordado/", "imageUrl": "" },
-    { "title": "Kit Eguzkilore", "format": "kit", "price": "15 €", "bestseller": false, "description": "Kit de broderie maison (motif de l'eguzkilore, fleur porte-bonheur basque) : tissu, tambour, fils et patrons ; aiguille et crayon marron non inclus. Indiqué épuisé.", "url": "https://elmussolmerceria.com/producto/kit-eguzkilore/", "imageUrl": "" },
-    { "title": "Kit bordado Dandelion", "format": "kit", "price": "", "bestseller": false, "description": "Kit de broderie pissenlit, listé dans la catégorie kits ; prix non lisible dans l'extrait.", "url": "https://elmussolmerceria.com/categoria-producto/bordado/kits-bordado/", "imageUrl": "" },
-    { "title": "Kit punch needle girasol", "format": "kit", "price": "", "bestseller": false, "description": "Kit de punch needle au motif de tournesol, listé dans la catégorie kits ; contenu et prix non lus.", "url": "https://elmussolmerceria.com/categoria-producto/bordado/kits-bordado/", "imageUrl": "" },
-    { "title": "Patrón bordado Golondrinas (PDF)", "format": "pdf", "price": "4 €", "bestseller": false, "description": "Patron de broderie téléchargeable de création maison (hirondelles), avec les explications.", "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/", "imageUrl": "" },
-    { "title": "Patrón bordado Primavera (PDF)", "format": "pdf", "price": "4 €", "bestseller": false, "description": "Patron de broderie téléchargeable de création maison sur le thème du printemps.", "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/", "imageUrl": "" },
-    { "title": "Patrón bordado Magic (PDF)", "format": "pdf", "price": "4 €", "bestseller": false, "description": "Patron de broderie téléchargeable de création maison.", "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/", "imageUrl": "" }
+    {
+      "title": "Kit materiales iniciación al bordado",
+      "format": "kit",
+      "price": "34 €",
+      "bestseller": false,
+      "description": "Kit de matériel pour débuter : tambour moyen en bois, 50 x 150 cm du tissu de base utilisé dans les tutoriels de la boutique, fils de plusieurs types (satiné, perlé épais, 2 fils dégradés et 5 mouliné 6 brins). Ciseaux non inclus. Une seule unité en stock lors de la lecture.",
+      "url": "https://elmussolmerceria.com/producto/kit-materiales-iniciacion-al-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Eguzkilore",
+      "format": "kit",
+      "price": "15 €",
+      "bestseller": false,
+      "description": "Kit de broderie maison (motif de l'eguzkilore, fleur porte-bonheur basque) : tissu, tambour, fils et patrons ; aiguille et crayon marron non inclus. Indiqué épuisé.",
+      "url": "https://elmussolmerceria.com/producto/kit-eguzkilore/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit bordado Dandelion",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de broderie pissenlit, listé dans la catégorie kits ; prix non lisible dans l'extrait.",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/kits-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit punch needle girasol",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de punch needle au motif de tournesol, listé dans la catégorie kits ; contenu et prix non lus.",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/kits-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón bordado Golondrinas (PDF)",
+      "format": "pdf",
+      "price": "4 €",
+      "bestseller": false,
+      "description": "Patron de broderie téléchargeable de création maison (hirondelles), avec les explications.",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón bordado Primavera (PDF)",
+      "format": "pdf",
+      "price": "4 €",
+      "bestseller": false,
+      "description": "Patron de broderie téléchargeable de création maison sur le thème du printemps.",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patrón bordado Magic (PDF)",
+      "format": "pdf",
+      "price": "4 €",
+      "bestseller": false,
+      "description": "Patron de broderie téléchargeable de création maison.",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/",
+      "imageUrl": ""
+    }
   ],
   "summary": "Mercerie créative de Sabadell tenue par une mère et sa fille, centrée sur le patchwork et la broderie. Elle vend en ligne des fournitures, quelques kits maison et des patrons PDF à 4 €, soutenus par des tutoriels YouTube.",
   "history": "El Mussol est une mercerie créative fondée à Sabadell (Catalogne) par Yolanda et Ester, mère et fille. Selon leur page de présentation, l'une est assistante en clinique et l'autre designer ; elles ont ouvert leur petite boutique physique « il y a environ 13 ans », puis ajouté la boutique en ligne.\n\nLeur univers tourne autour du patchwork et de la broderie, avec une approche qu'elles appellent « Slow Patchwork ». La boutique publie des guides de points de broderie sur son blog et une série de tutoriels sur sa chaîne YouTube.\n\nAujourd'hui la boutique physique (rue Sol i Padrís à Sabadell) ne reçoit que sur rendez-vous ; l'atelier prépare les commandes en ligne (livraison offerte dès 60 €), tourne les vidéos, participe à des salons comme Creativa Barcelona et donne des cours.",
   "positioning": "Mercerie généraliste avant d'être une marque de kits : la broderie maison (motifs nature, fleurs, eguzkilore) n'est qu'une partie du catalogue, à côté des tissus et du patchwork. Ses atouts : prix très bas des patrons PDF (4 €), contenu pédagogique gratuit (guides de points, YouTube) et ancrage local catalan. Points faibles visibles : peu de kits, souvent en rupture, site uniquement en espagnol, pas de boutique Etsy repérée.",
-  "website": "https://elmussolmerceria.com/", "instagram": "https://www.instagram.com/elmussolmerceria/", "etsy": "", "photoUrl": "",
+  "website": "https://elmussolmerceria.com/",
+  "instagram": "https://www.instagram.com/elmussolmerceria/",
+  "etsy": "",
+  "photoUrl": "https://elmussolmerceria.com/wp-content/uploads/2022/09/cropped-favicon-180x180.png",
   "timeline": [],
   "sources": [
-    { "label": "El Mussol Mercería, accueil", "url": "https://elmussolmerceria.com/" },
-    { "label": "Page « El Mussol » (qui sommes-nous)", "url": "https://elmussolmerceria.com/el-mussol/" },
-    { "label": "Aviso legal", "url": "https://elmussolmerceria.com/aviso-legal/" },
-    { "label": "Catégorie patrons de broderie", "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/" },
-    { "label": "Catégorie kits de broderie", "url": "https://elmussolmerceria.com/categoria-producto/bordado/kits-bordado/" },
-    { "label": "Kit Eguzkilore", "url": "https://elmussolmerceria.com/producto/kit-eguzkilore/" },
-    { "label": "Kit materiales iniciación al bordado", "url": "https://elmussolmerceria.com/producto/kit-materiales-iniciacion-al-bordado/" },
-    { "label": "Instagram @elmussolmerceria", "url": "https://www.instagram.com/elmussolmerceria/" },
-    { "label": "Chaîne YouTube El Mussol Merceria", "url": "https://www.youtube.com/@elmussolmerceria" },
-    { "label": "Creativa Barcelona, fiche exposant", "url": "https://creativabarcelona.com/expositores/el-mussol-merceria/" },
-    { "label": "Cylex, fiche Merceria El Mussol", "url": "https://www.cylex.es/sabadell/merceria-el-mussol-13234368.html" }
+    {
+      "label": "El Mussol Mercería, accueil",
+      "url": "https://elmussolmerceria.com/"
+    },
+    {
+      "label": "Page « El Mussol » (qui sommes-nous)",
+      "url": "https://elmussolmerceria.com/el-mussol/"
+    },
+    {
+      "label": "Aviso legal",
+      "url": "https://elmussolmerceria.com/aviso-legal/"
+    },
+    {
+      "label": "Catégorie patrons de broderie",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/patrones-bordado/"
+    },
+    {
+      "label": "Catégorie kits de broderie",
+      "url": "https://elmussolmerceria.com/categoria-producto/bordado/kits-bordado/"
+    },
+    {
+      "label": "Kit Eguzkilore",
+      "url": "https://elmussolmerceria.com/producto/kit-eguzkilore/"
+    },
+    {
+      "label": "Kit materiales iniciación al bordado",
+      "url": "https://elmussolmerceria.com/producto/kit-materiales-iniciacion-al-bordado/"
+    },
+    {
+      "label": "Instagram @elmussolmerceria",
+      "url": "https://www.instagram.com/elmussolmerceria/"
+    },
+    {
+      "label": "Chaîne YouTube El Mussol Merceria",
+      "url": "https://www.youtube.com/@elmussolmerceria"
+    },
+    {
+      "label": "Creativa Barcelona, fiche exposant",
+      "url": "https://creativabarcelona.com/expositores/el-mussol-merceria/"
+    },
+    {
+      "label": "Cylex, fiche Merceria El Mussol",
+      "url": "https://www.cylex.es/sabadell/merceria-el-mussol-13234368.html"
+    }
   ],
   "researchNotes": "Recherche faite le 2026-10-21 uniquement à partir d'extraits de résultats WebSearch : les pages n'ont pas pu être ouvertes (WebFetch et curl bloqués), et le quota de recherches a été épuisé pendant cette fiche, donc audiences (Instagram, YouTube, Facebook) non relevées. Titulaire : l'aviso legal (page ancienne selon le moteur) désigne Ester Chaos Hernández comme titulaire, avec un NIF de personne physique, ce qui suggère une activité en autónoma sans comptes publiés ; mais Cylex affiche un autre NIF. NIF laissé vide dans la fiche en raison de cette contradiction, à vérifier. Le nom de famille de Yolanda n'est pas connu. Date de création non fixée : la page de présentation dit « il y a environ 13 ans » sans date de publication visible, ce qui placerait l'ouverture vers 2011-2013, à confirmer. Prix et stocks issus d'extraits possiblement anciens ; le prix du kit Dandelion est ambigu (15 € et « Agotado » apparaissent à côté de deux kits). Marques des fils non précisées (les fiches parlent de fils génériques, DMC non confirmé). Aucun best-seller identifiable. Pas de chiffre d'affaires public."
 }

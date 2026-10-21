@@ -4214,6 +4214,8 @@ button.edit-link.inline-link {
 .veille-card-cover { display: grid; place-items: center; aspect-ratio: 16 / 9; background: var(--purple); color: var(--jasper); font: 400 34px var(--font-heading); overflow: hidden }
 .veille-card-cover img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s }
 .veille-card:hover .veille-card-cover img { transform: scale(1.03) }
+.veille-card-cover.is-logo { background: #fff }
+.veille-card-cover.is-logo img { object-fit: contain; padding: 18px 24px }
 .veille-card-head { display: flex; align-items: center; gap: 12px; padding: 16px 16px 0 }
 .veille-card-head>span:last-child { display: flex; flex-direction: column; gap: 2px; min-width: 0 }
 .veille-card-head strong, .veille-card-body>strong { font: 500 20px/1.15 var(--font-heading) }

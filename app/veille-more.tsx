@@ -147,9 +147,11 @@ export function WorkshopPage({ id, onBack, onOpenArtist, onToast }: { id: string
 
 /** Image de tête d'une carte d'atelier ; sans image, un aplat avec les initiales. */
 export function CardCover({ src, name }: { src: string, name: string }) {
-    const [broken, setBroken] = useState(false);
-    return <span className="veille-card-cover" aria-hidden>
-        {src && !broken ? <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} /> : <span>{name.split(/\s+/).filter(w => /^[A-ZÀ-Ý]/.test(w)).map(w => w[0]).slice(0, 2).join('')}</span>}
+    const [broken, setBroken] = useState(false), [logo, setLogo] = useState(false);
+    // Un logo ou une icône (petite image, ou presque carrée) se montre en entier, sans être recadré.
+    const measure = (img: HTMLImageElement) => setLogo(img.naturalWidth < 400 || img.naturalWidth / img.naturalHeight < 1.2);
+    return <span className={logo ? 'veille-card-cover is-logo' : 'veille-card-cover'} aria-hidden>
+        {src && !broken ? <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onLoad={e => measure(e.currentTarget)} onError={() => setBroken(true)} /> :<span>{name.split(/\s+/).filter(w => /^[A-ZÀ-Ý]/.test(w)).map(w => w[0]).slice(0, 2).join('')}</span>}
     </span>;
 }
 

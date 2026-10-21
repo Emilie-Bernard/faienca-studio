@@ -5,37 +5,184 @@
   "region": "Catalogne",
   "foundedDate": "",
   "closedDate": "",
-  "founders": ["Teresa Domínguez Díaz"],
+  "founders": [
+    "Teresa Domínguez Díaz"
+  ],
   "legalName": "Teresa Domínguez Díaz",
   "legalForm": "autónoma (personne physique, à confirmer)",
   "registrationId": "",
-  "offers": ["Kits de broderie", "Ateliers", "Cours", "Mercerie", "Gabarits sashiko"],
-  "styles": ["Botanique", "Animaux", "Japonisant", "Débutant"],
-  "techniques": ["Broderie traditionnelle", "Sashiko", "Peinture à l'aiguille", "Point de croix", "Broderie à la laine"],
-  "threads": ["DMC Mouliné", "Fil sashiko japonais", "Fil métallisé", "Laine"],
-  "fabrics": ["Coton imprimé", "Lin", "Coton indigo japonais", "Tissu japonais"],
-  "salesChannels": ["Site en propre (WordPress / WooCommerce)", "Ateliers en présentiel à Barcelone", "Salons (Handmade Festival)", "Boutiques revendeuses (à confirmer)"],
+  "offers": [
+    "Kits de broderie",
+    "Ateliers",
+    "Cours",
+    "Mercerie",
+    "Gabarits sashiko"
+  ],
+  "styles": [
+    "Botanique",
+    "Animaux",
+    "Japonisant",
+    "Débutant"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Sashiko",
+    "Peinture à l'aiguille",
+    "Point de croix",
+    "Broderie à la laine"
+  ],
+  "threads": [
+    "DMC Mouliné",
+    "Fil sashiko japonais",
+    "Fil métallisé",
+    "Laine"
+  ],
+  "fabrics": [
+    "Coton imprimé",
+    "Lin",
+    "Coton indigo japonais",
+    "Tissu japonais"
+  ],
+  "salesChannels": [
+    "Site en propre (WordPress / WooCommerce)",
+    "Ateliers en présentiel à Barcelone",
+    "Salons (Handmade Festival)",
+    "Boutiques revendeuses (à confirmer)"
+  ],
   "priceRange": "Kits de 8 à 35 €, gabarits sashiko 15 €, ateliers de 32 à 65 €, cours continu 60 € par mois",
-  "languages": ["Espagnol"],
+  "languages": [
+    "Espagnol"
+  ],
   "audience": [
-    { "platform": "Instagram", "followers": 21000, "date": "2026-10", "url": "https://www.instagram.com/kitealo/" },
-    { "platform": "Threads", "followers": 1600, "date": "2026-10", "url": "https://www.threads.com/@kitealo" },
-    { "platform": "Pinterest", "followers": 262, "date": "2026-10", "url": "https://es.pinterest.com/kitealo/" }
+    {
+      "platform": "Instagram",
+      "followers": 21000,
+      "date": "2026-10",
+      "url": "https://www.instagram.com/kitealo/"
+    },
+    {
+      "platform": "Threads",
+      "followers": 1600,
+      "date": "2026-10",
+      "url": "https://www.threads.com/@kitealo"
+    },
+    {
+      "platform": "Pinterest",
+      "followers": 262,
+      "date": "2026-10",
+      "url": "https://es.pinterest.com/kitealo/"
+    }
   ],
   "financials": [],
   "products": [
-    { "title": "Kit de bordado Pink Robin", "format": "kit", "price": "30 €", "bestseller": false, "description": "Kit de peinture à l'aiguille : rouge-gorge imprimé sur coton, fils DMC Mouliné, 2 aiguilles n° 10, tambour de 15 cm (6 pouces), instructions et guide pour débutantes.", "url": "https://kitealo.com/producto/kit-de-bordado-pink-robin/", "imageUrl": "" },
-    { "title": "Kit iniciación al bordado sashiko", "format": "kit", "price": "24 €", "bestseller": false, "description": "Coton indigo avec le motif imprimé, écheveaux de fil sashiko, aiguille ; matériel importé du Japon.", "url": "https://kitealo.com/producto/kit-iniciacion-al-bordado-sashiko/", "imageUrl": "" },
-    { "title": "Kit Clutch de Bordado", "format": "kit", "price": "24 €", "bestseller": false, "description": "Kit pour broder et monter une pochette : tissu japonais, fils et patron.", "url": "https://kitealo.com/producto/kit-clutch-de-bordado-bolso-de-mano-diy/", "imageUrl": "" },
-    { "title": "Kit Atrapasueños", "format": "kit", "price": "35 €", "bestseller": false, "description": "Coton 100 % avec dessin imprimé, fils DMC Mouliné, aiguille et instructions ; pas de tambour mentionné.", "url": "https://kitealo.com/producto/atrapasuenos/", "imageUrl": "" },
-    { "title": "Kit bolso flores de lana", "format": "kit", "price": "30 €", "bestseller": false, "description": "Pochette à fleurs brodées en laine : lin, 6 écheveaux de laine, aiguille, patron et instructions.", "url": "https://kitealo.com/producto/kit-bolso-flores-lana/", "imageUrl": "" },
-    { "title": "Kit de bordado Árbol de la Vida", "format": "kit", "price": "22 €", "bestseller": false, "description": "Tissu peint à l'aquarelle, fils mouliné dégradés et unis, aiguille, instructions ; sans tambour.", "url": "https://kitealo.com/producto/kit-de-bordado-arbol-de-la-vida/", "imageUrl": "" },
-    { "title": "Kit Bolsa Limosnera", "format": "kit", "price": "22 €", "bestseller": false, "description": "Petit sac à cordon : coton 100 % imprimé (2 coloris), cordon de coton, fils mouliné, aiguille, instructions de broderie et de montage. Kit déjà vendu en 2017.", "url": "https://kitealo.com/producto/bolsa-de-iniciacion-2/", "imageUrl": "" },
-    { "title": "Kit Bolsa Oveja", "format": "kit", "price": "17 €", "bestseller": false, "description": "Coton 100 % avec dessin imprimé, fils DMC Mouliné, instructions de broderie et de montage d'un sac.", "url": "https://kitealo.com/producto/kit-bolsa-oveja/", "imageUrl": "" },
-    { "title": "Kit bordado Rápido y Fácil, Mimosa", "format": "kit", "price": "8 €", "bestseller": false, "description": "Mini kit d'initiation avec motif autocollant hydrosoluble (mimosa).", "url": "https://kitealo.com/producto/kit-facil-y-rapido-mimosa/", "imageUrl": "" },
-    { "title": "Plantilla Sashiko Hitomerashi", "format": "autre", "price": "15 €", "bestseller": false, "description": "Gabarit rigide en méthacrylate de 11 x 11 cm pour tracer une grille de points sashiko et reproduire de nombreux motifs.", "url": "https://kitealo.com/producto/plantilla-sashiko-hitomerashi/", "imageUrl": "" },
-    { "title": "Curso monográfico iniciación Sashiko", "format": "cours", "price": "65 €", "bestseller": false, "description": "Cours d'initiation au sashiko à Barcelone, matériel compris.", "url": "https://kitealo.com/producto/curso-monografico-de-bordado-iniciacion-sashiko/", "imageUrl": "" },
-    { "title": "Taller Continuo de bordado", "format": "cours", "price": "60 € par mois", "bestseller": false, "description": "Cours hebdomadaire (jeudi 17h30-19h30) à Barcelone, inscription de 20 € qui comprend tissu, tambour, aiguilles, fils DMC et feutre indélébile. Session annoncée pour octobre 2023, affichée épuisée.", "url": "https://kitealo.com/producto/taller-continuo-de-bordado/", "imageUrl": "" }
+    {
+      "title": "Kit de bordado Pink Robin",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit de peinture à l'aiguille : rouge-gorge imprimé sur coton, fils DMC Mouliné, 2 aiguilles n° 10, tambour de 15 cm (6 pouces), instructions et guide pour débutantes.",
+      "url": "https://kitealo.com/producto/kit-de-bordado-pink-robin/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit iniciación al bordado sashiko",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Coton indigo avec le motif imprimé, écheveaux de fil sashiko, aiguille ; matériel importé du Japon.",
+      "url": "https://kitealo.com/producto/kit-iniciacion-al-bordado-sashiko/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Clutch de Bordado",
+      "format": "kit",
+      "price": "24 €",
+      "bestseller": false,
+      "description": "Kit pour broder et monter une pochette : tissu japonais, fils et patron.",
+      "url": "https://kitealo.com/producto/kit-clutch-de-bordado-bolso-de-mano-diy/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Atrapasueños",
+      "format": "kit",
+      "price": "35 €",
+      "bestseller": false,
+      "description": "Coton 100 % avec dessin imprimé, fils DMC Mouliné, aiguille et instructions ; pas de tambour mentionné.",
+      "url": "https://kitealo.com/producto/atrapasuenos/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit bolso flores de lana",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Pochette à fleurs brodées en laine : lin, 6 écheveaux de laine, aiguille, patron et instructions.",
+      "url": "https://kitealo.com/producto/kit-bolso-flores-lana/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de bordado Árbol de la Vida",
+      "format": "kit",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Tissu peint à l'aquarelle, fils mouliné dégradés et unis, aiguille, instructions ; sans tambour.",
+      "url": "https://kitealo.com/producto/kit-de-bordado-arbol-de-la-vida/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Bolsa Limosnera",
+      "format": "kit",
+      "price": "22 €",
+      "bestseller": false,
+      "description": "Petit sac à cordon : coton 100 % imprimé (2 coloris), cordon de coton, fils mouliné, aiguille, instructions de broderie et de montage. Kit déjà vendu en 2017.",
+      "url": "https://kitealo.com/producto/bolsa-de-iniciacion-2/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit Bolsa Oveja",
+      "format": "kit",
+      "price": "17 €",
+      "bestseller": false,
+      "description": "Coton 100 % avec dessin imprimé, fils DMC Mouliné, instructions de broderie et de montage d'un sac.",
+      "url": "https://kitealo.com/producto/kit-bolsa-oveja/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit bordado Rápido y Fácil, Mimosa",
+      "format": "kit",
+      "price": "8 €",
+      "bestseller": false,
+      "description": "Mini kit d'initiation avec motif autocollant hydrosoluble (mimosa).",
+      "url": "https://kitealo.com/producto/kit-facil-y-rapido-mimosa/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Plantilla Sashiko Hitomerashi",
+      "format": "autre",
+      "price": "15 €",
+      "bestseller": false,
+      "description": "Gabarit rigide en méthacrylate de 11 x 11 cm pour tracer une grille de points sashiko et reproduire de nombreux motifs.",
+      "url": "https://kitealo.com/producto/plantilla-sashiko-hitomerashi/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curso monográfico iniciación Sashiko",
+      "format": "cours",
+      "price": "65 €",
+      "bestseller": false,
+      "description": "Cours d'initiation au sashiko à Barcelone, matériel compris.",
+      "url": "https://kitealo.com/producto/curso-monografico-de-bordado-iniciacion-sashiko/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Taller Continuo de bordado",
+      "format": "cours",
+      "price": "60 € par mois",
+      "bestseller": false,
+      "description": "Cours hebdomadaire (jeudi 17h30-19h30) à Barcelone, inscription de 20 € qui comprend tissu, tambour, aiguilles, fils DMC et feutre indélébile. Session annoncée pour octobre 2023, affichée épuisée.",
+      "url": "https://kitealo.com/producto/taller-continuo-de-bordado/",
+      "imageUrl": ""
+    }
   ],
   "summary": "Petite marque barcelonaise de Teresa Domínguez Díaz qui conçoit des kits de broderie main accessibles (8 à 35 €), des gabarits sashiko de sa création et des ateliers en présentiel à Barcelone.",
   "history": "Kitéalo est la micro-entreprise de Teresa Domínguez Díaz, brodeuse installée à Barcelone. Sur son blog, elle raconte avoir brodé dès l'enfance et être arrivée presque par hasard à créer Kitéalo, qui conçoit et produit des kits de broderie.\n\nLa marque existe au moins depuis 2017 : en avril 2017, le blog Labores de Tania présente le kit Bolsa limosnera acheté à « Teresa, l'âme de Kitéalo », croisée sur des salons de patchwork. La date exacte de création n'a pas été trouvée.\n\nLe catalogue mêle kits sur coton imprimé (sacs, pochettes, tambours), mini kits « Rápido y Fácil » sur motif hydrosoluble, un kit de peinture à l'aiguille et, plus récemment, une ligne sashiko : kit d'initiation avec matériel japonais et gabarits en méthacrylate qu'elle a dessinés pour faciliter le report des motifs.\n\nTeresa anime aussi des ateliers et des cours à Barcelone (cours continu hebdomadaire, ateliers boutons brodés et cœur, cours monographique de sashiko) et participe à des salons comme le Handmade Festival. Le projet web a bénéficié d'une aide du Fonds européen de développement régional (FEDER).",
@@ -43,36 +190,116 @@
   "website": "https://kitealo.com/",
   "instagram": "https://www.instagram.com/kitealo/",
   "etsy": "",
-  "photoUrl": "",
+  "photoUrl": "https://kitealo.com/wp-content/uploads/2021/02/teresa3.jpg",
   "timeline": [
-    { "date": "2017-04", "kind": "oeuvre", "label": "Le kit Bolsa limosnera est déjà en vente et présenté sur le blog Labores de Tania" },
-    { "date": "2023-10", "kind": "vie", "label": "Lancement d'un cours continu de broderie hebdomadaire à Barcelone" }
+    {
+      "date": "2017-04",
+      "kind": "oeuvre",
+      "label": "Le kit Bolsa limosnera est déjà en vente et présenté sur le blog Labores de Tania"
+    },
+    {
+      "date": "2023-10",
+      "kind": "vie",
+      "label": "Lancement d'un cours continu de broderie hebdomadaire à Barcelone"
+    }
   ],
   "sources": [
-    { "label": "Kitéalo, page d'accueil", "url": "https://kitealo.com/" },
-    { "label": "Kitéalo, boutique", "url": "https://kitealo.com/tienda/" },
-    { "label": "Kitéalo, page kits de broderie", "url": "https://kitealo.com/kits-de-bordado/" },
-    { "label": "Kitéalo, politique de confidentialité", "url": "https://kitealo.com/politica-de-privacidad-de-kitealo/" },
-    { "label": "Kitéalo, blog : Mi historia con las plantillas de sashiko", "url": "https://kitealo.com/mi-historia-con-las-plantillas-de-sashiko-diseno-por-necesidad/" },
-    { "label": "Kitéalo, tutoriels, cours et ateliers", "url": "https://kitealo.com/tutoriales-clases-y-talleres/" },
-    { "label": "Kitéalo, Kit Pink Robin", "url": "https://kitealo.com/producto/kit-de-bordado-pink-robin/" },
-    { "label": "Kitéalo, Kit initiation sashiko", "url": "https://kitealo.com/producto/kit-iniciacion-al-bordado-sashiko/" },
-    { "label": "Kitéalo, Kit Clutch", "url": "https://kitealo.com/producto/kit-clutch-de-bordado-bolso-de-mano-diy/" },
-    { "label": "Kitéalo, Kit Atrapasueños", "url": "https://kitealo.com/producto/atrapasuenos/" },
-    { "label": "Kitéalo, Kit bolso flores de lana", "url": "https://kitealo.com/producto/kit-bolso-flores-lana/" },
-    { "label": "Kitéalo, Kit Árbol de la Vida", "url": "https://kitealo.com/producto/kit-de-bordado-arbol-de-la-vida/" },
-    { "label": "Kitéalo, Kit Bolsa Limosnera", "url": "https://kitealo.com/producto/bolsa-de-iniciacion-2/" },
-    { "label": "Kitéalo, Kit Bolsa Oveja", "url": "https://kitealo.com/producto/kit-bolsa-oveja/" },
-    { "label": "Kitéalo, Kit Mimosa", "url": "https://kitealo.com/producto/kit-facil-y-rapido-mimosa/" },
-    { "label": "Kitéalo, Plantilla Sashiko Hitomerashi", "url": "https://kitealo.com/producto/plantilla-sashiko-hitomerashi/" },
-    { "label": "Kitéalo, Curso monográfico sashiko", "url": "https://kitealo.com/producto/curso-monografico-de-bordado-iniciacion-sashiko/" },
-    { "label": "Kitéalo, Taller continuo de bordado", "url": "https://kitealo.com/producto/taller-continuo-de-bordado/" },
-    { "label": "Instagram @kitealo", "url": "https://www.instagram.com/kitealo/" },
-    { "label": "Threads @kitealo", "url": "https://www.threads.com/@kitealo" },
-    { "label": "Pinterest kitealo", "url": "https://es.pinterest.com/kitealo/" },
-    { "label": "Facebook Kitealo", "url": "https://www.facebook.com/kitealo/" },
-    { "label": "Labores de Tania, Bolsa limosnera (2017)", "url": "https://laboresdetania.blogspot.com/2017/04/bolsa-limosnera.html" },
-    { "label": "BCN Fabrics, annuaire des boutiques", "url": "https://www.bcnfabrics.com/tiendas/index.php/cataluna/item/140-kitealo" }
+    {
+      "label": "Kitéalo, page d'accueil",
+      "url": "https://kitealo.com/"
+    },
+    {
+      "label": "Kitéalo, boutique",
+      "url": "https://kitealo.com/tienda/"
+    },
+    {
+      "label": "Kitéalo, page kits de broderie",
+      "url": "https://kitealo.com/kits-de-bordado/"
+    },
+    {
+      "label": "Kitéalo, politique de confidentialité",
+      "url": "https://kitealo.com/politica-de-privacidad-de-kitealo/"
+    },
+    {
+      "label": "Kitéalo, blog : Mi historia con las plantillas de sashiko",
+      "url": "https://kitealo.com/mi-historia-con-las-plantillas-de-sashiko-diseno-por-necesidad/"
+    },
+    {
+      "label": "Kitéalo, tutoriels, cours et ateliers",
+      "url": "https://kitealo.com/tutoriales-clases-y-talleres/"
+    },
+    {
+      "label": "Kitéalo, Kit Pink Robin",
+      "url": "https://kitealo.com/producto/kit-de-bordado-pink-robin/"
+    },
+    {
+      "label": "Kitéalo, Kit initiation sashiko",
+      "url": "https://kitealo.com/producto/kit-iniciacion-al-bordado-sashiko/"
+    },
+    {
+      "label": "Kitéalo, Kit Clutch",
+      "url": "https://kitealo.com/producto/kit-clutch-de-bordado-bolso-de-mano-diy/"
+    },
+    {
+      "label": "Kitéalo, Kit Atrapasueños",
+      "url": "https://kitealo.com/producto/atrapasuenos/"
+    },
+    {
+      "label": "Kitéalo, Kit bolso flores de lana",
+      "url": "https://kitealo.com/producto/kit-bolso-flores-lana/"
+    },
+    {
+      "label": "Kitéalo, Kit Árbol de la Vida",
+      "url": "https://kitealo.com/producto/kit-de-bordado-arbol-de-la-vida/"
+    },
+    {
+      "label": "Kitéalo, Kit Bolsa Limosnera",
+      "url": "https://kitealo.com/producto/bolsa-de-iniciacion-2/"
+    },
+    {
+      "label": "Kitéalo, Kit Bolsa Oveja",
+      "url": "https://kitealo.com/producto/kit-bolsa-oveja/"
+    },
+    {
+      "label": "Kitéalo, Kit Mimosa",
+      "url": "https://kitealo.com/producto/kit-facil-y-rapido-mimosa/"
+    },
+    {
+      "label": "Kitéalo, Plantilla Sashiko Hitomerashi",
+      "url": "https://kitealo.com/producto/plantilla-sashiko-hitomerashi/"
+    },
+    {
+      "label": "Kitéalo, Curso monográfico sashiko",
+      "url": "https://kitealo.com/producto/curso-monografico-de-bordado-iniciacion-sashiko/"
+    },
+    {
+      "label": "Kitéalo, Taller continuo de bordado",
+      "url": "https://kitealo.com/producto/taller-continuo-de-bordado/"
+    },
+    {
+      "label": "Instagram @kitealo",
+      "url": "https://www.instagram.com/kitealo/"
+    },
+    {
+      "label": "Threads @kitealo",
+      "url": "https://www.threads.com/@kitealo"
+    },
+    {
+      "label": "Pinterest kitealo",
+      "url": "https://es.pinterest.com/kitealo/"
+    },
+    {
+      "label": "Facebook Kitealo",
+      "url": "https://www.facebook.com/kitealo/"
+    },
+    {
+      "label": "Labores de Tania, Bolsa limosnera (2017)",
+      "url": "https://laboresdetania.blogspot.com/2017/04/bolsa-limosnera.html"
+    },
+    {
+      "label": "BCN Fabrics, annuaire des boutiques",
+      "url": "https://www.bcnfabrics.com/tiendas/index.php/cataluna/item/140-kitealo"
+    }
   ],
   "researchNotes": "Fiche établie le 2026-10-21 uniquement à partir d'extraits de résultats de recherche (WebSearch) : WebFetch et curl étaient bloqués, aucune page n'a pu être ouverte. Prix, contenus de kits et audiences sont repris des extraits et peuvent être anciens (plusieurs fiches datent de 2023 ou avant). Abonnés lus dans les extraits en octobre 2026 : Instagram environ 21 000 (434 publications), Threads 1 600, Pinterest 262. Aucune meilleure vente identifiable (pas d'avis ni de classement visible dans les extraits), donc bestseller=false partout. Statut juridique : la politique de confidentialité désigne Teresa Domínguez Díaz, personne physique, comme titulaire avec un NIF personnel et une adresse Travessera de Gràcia à Barcelone, ce qui suggère une activité d'autónoma ; le NIF personnel n'est pas reproduit ici. Une autónoma ne publie pas de comptes : aucun chiffre d'affaires disponible. Date de création non trouvée ; activité attestée dès avril 2017. Un extrait évoque des études d'ingénierie textile de la fondatrice, non confirmé par une seconde recherche. Aucune boutique Etsy trouvée. Présence en revendeurs non confirmée (seule une fiche d'annuaire BCN Fabrics la classe parmi les boutiques de patchwork). Participation au Handmade Festival lue sur Threads, sans date."
 }
