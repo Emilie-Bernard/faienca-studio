@@ -4227,3 +4227,15 @@ button.edit-link.inline-link {
 .veille-tags.compact>span { max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; line-height: 1.6 }
 .veille-card-foot { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 10px 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted-text); background: #fbf8f2 }
 .veille-card-foot>span:first-child:not(:only-child) { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+
+/* Concurrentes : une carte en deux colonnes, le logo carré à gauche, les chiffres en pied de carte */
+.comp-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)) !important; gap: 14px !important }
+.comp-card { display: flex; gap: 16px; width: 100%; height: 100%; padding: 16px; text-align: left; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--ink); cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .15s }
+.comp-card:hover { border-color: #cfc3b3; box-shadow: 0 6px 20px #2c28251a; transform: translateY(-1px) }
+.comp-card:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px }
+.comp-logo { flex: none; display: grid; place-items: center; width: 84px; height: 84px; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: #fff; font: 400 26px var(--font-heading); color: var(--navy) }
+.comp-logo img { width: 100%; height: 100%; object-fit: contain; padding: 10px }
+.comp-main { display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 0 }
+.comp-main>strong { font: 500 20px/1.15 var(--font-heading) }
+.comp-main>small { font-size: 12px; color: var(--muted-text) }
+.comp-stats { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: auto; padding-top: 10px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted-text) }

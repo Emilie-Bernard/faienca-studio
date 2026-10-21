@@ -12,7 +12,7 @@ import { ask } from '@/components/confirm-dialog';
 import { competitorError, dateFr, emptyCompetitor, euros, followersFr, productFormatLabels, productFormats, shortTag, sortTimeline, timelineKinds, type CompetitorInput, type Link, type ProductFormat, type TimelineItem } from '../lib/veille';
 import { errorText } from './client';
 import { Avatar } from './veille';
-import { CardCover, GalleryImage } from './veille-more';
+import { GalleryImage } from './veille-more';
 
 // Concurrentes de Faïença : marques de kits de broderie et de patrons PDF, en France et en Espagne.
 
@@ -34,6 +34,15 @@ const countryOf = (c: { country: string }) => c.country || 'Pays inconnu';
 /** France, puis Espagne, puis le reste par ordre alphabétique. */
 const countryRank = (c: string) => c === 'France' ? 0 : c === 'Espagne' ? 1 : 2;
 const numberOrNull = (s: string) => { const n = Number(s.replace(/\s/g, '').replace(',', '.')); return s.trim() === '' || !Number.isFinite(n) ? null : Math.round(n); };
+
+/** Le logo de la marque dans une case carrée : il se montre en entier ; sans logo, les initiales. */
+function CompetitorLogo({ src, name }: { src: string, name: string }) {
+    const [broken, setBroken] = useState(false);
+    return <span className="comp-logo" aria-hidden>
+        {src && !broken ? <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setBroken(true)} />
+            : <span>{name.split(/\s+/).filter(w => /^[A-ZÀ-Ý]/.test(w)).map(w => w[0]).slice(0, 2).join('')}</span>}
+    </span>;
+}
 
 export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void, onToast: (s: string) => void }) {
     const rows = useQuery(anyApi.veilleConcurrentes.list) as CompetitorRow[] | undefined;
@@ -59,16 +68,15 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
         const tags = [...new Set([...r.offers, ...r.styles].map(shortTag))].slice(0, 3);
         const foot = [r.revenue?.amount != null ? `CA ${r.revenue.year} : ${euros(r.revenue.amount)}` : '', r.instagram !== null ? `${followersFr(r.instagram)} abonnés` : '', r.products ? `${r.products} produit${r.products > 1 ? 's' : ''}` : ''].filter(Boolean);
         return <li key={r._id}>
-            <button type="button" className="veille-card" onClick={() => onOpen(r._id)}>
-                <CardCover src={r.cover || r.photoUrl} name={r.name} />
-                <span className="veille-card-body">
+            <button type="button" className="comp-card" onClick={() => onOpen(r._id)}>
+                <CompetitorLogo src={r.photoUrl} name={r.name} />
+                <span className="comp-main">
                     <strong>{r.name}</strong>
                     <small>{[r.city || r.region, since(r)].filter(Boolean).join(' · ')}</small>
                     {r.summary && <span className="veille-card-summary">{r.summary}</span>}
-                    {r.threads.length > 0 && <small className="veille-threads"><Scissors size={12} />{r.threads.slice(0, 2).map(shortTag).join(', ')}</small>}
                     {tags.length > 0 && <span className="veille-tags compact">{tags.map(t => <span key={t} title={t}>{t}</span>)}</span>}
+                    {foot.length > 0 && <span className="comp-stats">{foot.map(f => <span key={f}>{f}</span>)}</span>}
                 </span>
-                {foot.length > 0 && <span className="veille-card-foot">{foot.map(f => <span key={f}>{f}</span>)}</span>}
             </button>
         </li>;
     };
@@ -95,7 +103,7 @@ export function Competitors({ onOpen, onToast }: { onOpen: (id: string) => void,
                     <td className="num">{r.revenue?.amount != null ? <>{euros(r.revenue.amount)}<small>{r.revenue.year}</small></> : '—'}</td>
                     <td className="num">{r.instagram !== null ? followersFr(r.instagram) : '—'}</td>
                 </tr>)}</tbody></table></div>
-            : groups.map(g => <section key={g.country} className="veille-group"><h2>{g.country} <span>{g.items.length}</span></h2><ul className="veille-list">{g.items.map(card)}</ul></section>)}
+            : groups.map(g => <section key={g.country} className="veille-group"><h2>{g.country} <span>{g.items.length}</span></h2><ul className="veille-list comp-list">{g.items.map(card)}</ul></section>)}
         {adding && <CompetitorDialog competitor={null} onClose={() => setAdding(false)} onSaved={id => { setAdding(false); onOpen(id); }} onToast={onToast} />}
     </>;
 }
