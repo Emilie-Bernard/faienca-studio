@@ -1,0 +1,55 @@
+{
+  "name": "Lilipoints",
+  "country": "France",
+  "city": "",
+  "region": "",
+  "foundedDate": "",
+  "closedDate": "",
+  "founders": [],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": ["Grilles papier"],
+  "styles": [],
+  "techniques": ["Point de croix"],
+  "threads": [],
+  "fabrics": [],
+  "salesChannels": ["Merceries et boutiques spécialisées en ligne (à confirmer)", "Revente d'occasion (Vinted)"],
+  "priceRange": "",
+  "languages": ["Français"],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Grille point de croix Lili Points (annonce d'occasion)",
+      "format": "autre",
+      "price": "5 €",
+      "bestseller": false,
+      "description": "Grille neuve pour point de croix de la marque « Lili Point », couleur menthe, revendue par une particulière sur Vinted. Ce n'est pas le prix public de la marque.",
+      "url": "https://www.vinted.fr/items/8478390707-lili-points",
+      "imageUrl": ""
+    },
+    {
+      "title": "Fiche point de croix lili points (annonce d'occasion)",
+      "format": "autre",
+      "price": "10 €",
+      "bestseller": false,
+      "description": "Fiche point de croix neuve sans étiquette, revendue sur Vinted dans la catégorie kits de broderie. Ce n'est pas le prix public de la marque.",
+      "url": "https://www.vinted.fr/catalog/5227-kits-de-broderie",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Marque française de grilles de point de croix dont on ne trouve presque aucune trace publique en dehors de revendeurs. Les recherches n'ont donné que des annonces d'occasion.",
+  "history": "Aucune information publique sur la création de la marque, sa créatrice ou son siège n'a été trouvée dans les résultats de recherche.\n\nLa marque apparaît sur Vinted sous les noms « Lili Point » et « lili points », avec des grilles de point de croix revendues entre 5 et 10 €.",
+  "positioning": "Créatrice de grilles au point compté vendue surtout par les merceries spécialisées, sans présence propre visible en ligne (ni site, ni Instagram, ni Etsy trouvés). Pour Faïença, c'est une concurrente peu visible, qui dépend des revendeurs.",
+  "website": "",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [],
+  "sources": [
+    { "label": "Vinted, annonce grille Lili Points", "url": "https://www.vinted.fr/items/8478390707-lili-points" },
+    { "label": "Vinted, catégorie kits de broderie (fiche lili points)", "url": "https://www.vinted.fr/catalog/5227-kits-de-broderie" }
+  ],
+  "researchNotes": "Recherche faite le 2026-10-21 uniquement à partir d'extraits de résultats WebSearch : aucune page n'a pu être ouverte (WebFetch et curl bloqués). Huit requêtes (créatrice, SIREN/Pappers, grilles et prix, nom exact, broderiepassion, site lilipoints.com) n'ont rien donné sur la marque elle-même : ni créatrice, ni date de création, ni société, ni réseau social. La page revendeur indiquée dans les indices internes (https://www.broderiepassion.com/85-lilipoints) n'est jamais sortie dans les résultats ; l'indice interne parle de près de 300 grilles et kits au point compté (voyages, mer, cuisine), information non vérifiée et donc absente de la fiche. Les deux produits listés sont des annonces d'occasion, pas le catalogue de la marque : il manque au moins deux produits pour atteindre le minimum de quatre. Une boutique eBay « Au Point de Croix Passion » (Brive-la-Gaillarde) est sortie dans les résultats mais rien ne la relie à Lilipoints. Fiche à reprendre quand les pages pourront être ouvertes."
+}

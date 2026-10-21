@@ -1,0 +1,155 @@
+{
+  "name": "Craft Terapia",
+  "country": "Espagne",
+  "city": "Madrid",
+  "region": "Communauté de Madrid",
+  "foundedDate": "2013",
+  "closedDate": "",
+  "founders": [
+    "Marta González González"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Cours en ligne",
+    "Abonnement (membership)"
+  ],
+  "styles": [
+    "Botanique",
+    "Bien-être",
+    "Slow craft"
+  ],
+  "techniques": [
+    "Broderie traditionnelle",
+    "Punch needle",
+    "Broderie sur papier",
+    "Sashiko"
+  ],
+  "threads": [
+    "DMC Mouliné",
+    "DMC Perlé n° 8"
+  ],
+  "fabrics": [
+    "Lin écru"
+  ],
+  "salesChannels": [
+    "Site en propre"
+  ],
+  "priceRange": "Kits de 18,50 à 30,50 €, cours en ligne autour de 55 €",
+  "languages": [
+    "Espagnol"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit de Iniciación al Bordado Botánico",
+      "format": "kit",
+      "price": "18,50 €",
+      "bestseller": false,
+      "description": "Kit d'initiation qui accompagne le cours Corona Floral Luna (cours non inclus) : tambour de 12 cm, deux morceaux de lin écru, 13 échevettes de fil Mouliné de couleurs, aiguille à broder et recharge de feutre effaçable. Sur réservation, envoi en Espagne uniquement.",
+      "url": "https://craftterapia.com/producto/kit-de-iniciacion-al-bordado/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de Iniciación al Punch Needle",
+      "format": "kit",
+      "price": "30,50 €",
+      "bestseller": false,
+      "description": "Kit en unités limitées, sur réservation : tambour de 12 cm, quatre morceaux de lin écru, 2 bobines de DMC Perlé n° 8, aiguille punch needle à 3 têtes. Cours vendu à part.",
+      "url": "https://craftterapia.com/producto/kit-de-iniciacion-al-punch-needle/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curso Online Monográfico de Bordado Botánico (Corona Floral Luna)",
+      "format": "cours",
+      "price": "55 €",
+      "bestseller": false,
+      "description": "Cours en ligne sans prérequis qui enseigne les points de broderie traditionnelle à travers une couronne florale, avec accès à un groupe Telegram privé pour les questions.",
+      "url": "https://craftterapia.com/producto/curso-de-bordado-botanico/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curso de Iniciación al Bordado en Papel Libreta Primavera",
+      "format": "cours",
+      "price": "",
+      "bestseller": false,
+      "description": "Cours d'initiation à la broderie sur papier, autour d'un carnet de printemps.",
+      "url": "https://craftterapia.com/courses/curso-de-iniciacion-al-bordado-en-papel-libreta-primavera/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Curso Gratuito de Bordado: Banderola Calma",
+      "format": "cours",
+      "price": "Gratuit",
+      "bestseller": false,
+      "description": "Cours gratuit de broderie servant de porte d'entrée vers les cours payants.",
+      "url": "https://craftterapia.com/curso-de-bordado-banderola-calma/",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Projet madrilène de Marta González González qui présente la broderie et le punch needle comme un outil de bien-être (« craft terapia »). Il vend surtout des cours en ligne et une adhésion trimestrielle, avec quelques kits d'initiation en complément.",
+  "history": "Le projet démarre en 2013 sous le nom Little Noa, d'après le récit à la première personne publié sur le blog de la marque. Un ancien profil Pinterest de la marque porte d'ailleurs encore l'identifiant mylittlenoa.\n\nEn 2019, avec l'aide d'une mentore, la créatrice rebaptise le projet Craft Terapia et le recentre sur l'idée de l'artisanat comme outil de bien-être, « une herramienta de bienestar en la que tus manos son las protagonistas ».\n\nLe site est édité par Marta González González ; les conditions générales renvoient aux tribunaux de Madrid, domicile de la titulaire. Le site a été conçu par WIR estudio creativo.\n\nAujourd'hui l'offre tourne autour de cours monographiques (broderie botanique, broderie sur papier, punch needle) et de l'adhésion Mi Refugio, qui ouvre quelques jours tous les trois mois et donne accès à des cours trimestriels publiés chaque semaine. Les kits d'initiation sont vendus en complément des cours, sur réservation et pour l'Espagne seulement.",
+  "positioning": "Positionnement bien-être et calme plus que design : la broderie est vendue comme une pratique apaisante. Le modèle repose sur la formation (cours, adhésion récurrente, cours gratuit d'appel) plutôt que sur le kit, qui reste un accessoire bon marché (18,50 €) et peu fourni (envoi en Espagne uniquement, unités limitées). Contenu uniquement en espagnol. Points faibles visibles : pas de boutique Etsy, catalogue de kits très court, audience non mesurée publiquement.",
+  "website": "https://craftterapia.com/",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "2013",
+      "kind": "vie",
+      "label": "Lancement du projet sous le nom Little Noa"
+    },
+    {
+      "date": "2019",
+      "kind": "vie",
+      "label": "Changement de nom en Craft Terapia, recentrage bien-être"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Craft Terapia, accueil",
+      "url": "https://craftterapia.com/"
+    },
+    {
+      "label": "¿Qué es la Craft Terapia? (histoire du projet)",
+      "url": "https://craftterapia.com/que-es-la-craft-terapia/"
+    },
+    {
+      "label": "Termes et conditions (titulaire, juridiction Madrid)",
+      "url": "https://craftterapia.com/terminos-y-condiciones/"
+    },
+    {
+      "label": "Kit de Iniciación al Bordado Botánico",
+      "url": "https://craftterapia.com/producto/kit-de-iniciacion-al-bordado/"
+    },
+    {
+      "label": "Kit de Iniciación al Punch Needle",
+      "url": "https://craftterapia.com/producto/kit-de-iniciacion-al-punch-needle/"
+    },
+    {
+      "label": "Curso Online Monográfico de Bordado Botánico",
+      "url": "https://craftterapia.com/producto/curso-de-bordado-botanico/"
+    },
+    {
+      "label": "Cursos Monográficos de Craft",
+      "url": "https://craftterapia.com/cursos-de-craft/"
+    },
+    {
+      "label": "Curso Gratuito Banderola Calma",
+      "url": "https://craftterapia.com/curso-de-bordado-banderola-calma/"
+    },
+    {
+      "label": "Facebook MartaCraftTerapia",
+      "url": "https://www.facebook.com/MartaCraftTerapia/"
+    },
+    {
+      "label": "Pinterest craftterapia",
+      "url": "https://es.pinterest.com/craftterapia/"
+    }
+  ],
+  "researchNotes": "Recherche faite le 2026-10-21 uniquement à partir d'extraits de résultats WebSearch : les pages du site n'ont pas pu être ouvertes (WebFetch et curl bloqués). Aucun NIF, raison sociale ni forme juridique trouvé : la page « Aviso legal » existe mais son contenu n'est pas apparu. L'activité semble exercée en nom propre par Marta González González (probablement autónoma, donc sans comptes publiés), à confirmer. Pas de chiffre d'affaires public. Ville déduite de la clause de juridiction (tribunaux de Madrid, domicile de la titulaire). Les fiches kits datent d'environ 586 jours selon le moteur de recherche : prix et stock possiblement périmés ; délai d'envoi contradictoire sur la fiche (4-5 jours ou jusqu'à 10 jours). Prix de l'adhésion Mi Refugio non trouvé. Instagram non identifié ; abonnés Facebook et Pinterest non lus. Le profil Pinterest mylittlenoa est intitulé Craft Terapia, cohérent avec l'ancien nom Little Noa. Les fils du kit broderie sont décrits comme « hilo Mouliné » sans marque explicite ; DMC est cité pour le Perlé du kit punch needle."
+}

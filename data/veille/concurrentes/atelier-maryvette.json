@@ -1,0 +1,231 @@
+{
+  "name": "Atelier Maryvette",
+  "country": "France",
+  "city": "Maulévrier",
+  "region": "Pays de la Loire",
+  "foundedDate": "2023",
+  "closedDate": "",
+  "founders": [
+    "Alexandra Bouchet"
+  ],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": [
+    "Kits de broderie",
+    "Patrons PDF",
+    "Motifs hydrosolubles",
+    "Kits de broche à broder",
+    "Ateliers"
+  ],
+  "styles": [
+    "Floral",
+    "Romantique",
+    "Rétro",
+    "Graphique"
+  ],
+  "techniques": [
+    "Broderie traditionnelle"
+  ],
+  "threads": [
+    "DMC Mouliné spécial 25"
+  ],
+  "fabrics": [
+    "Coton"
+  ],
+  "salesChannels": [
+    "Site en propre (Wix)",
+    "Ankorstore (vente en gros)"
+  ],
+  "priceRange": "Kits à partir de 17,90 €, patrons PDF à 11,90 €, packs de motifs hydrosolubles à partir de 11,90 €, mini-packs et bandes de motifs de 3,90 à 6,90 €",
+  "languages": [
+    "Français"
+  ],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Bande de motifs à broder \"Chemin fleuri\"",
+      "format": "autre",
+      "price": "6,90 €",
+      "bestseller": true,
+      "description": "Bande de motifs à broder, présentée en premier dans la sélection \"Vos kits et motifs de broderie préférés\" de la page d'accueil.",
+      "url": "https://www.maryvette.fr/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Pack de motifs à broder \"Soleil dans le coeur\"",
+      "format": "autre",
+      "price": "à partir de 11,90 €",
+      "bestseller": true,
+      "description": "Motifs imprimés sur papier hydrosoluble autocollant, à coller sur le tissu puis à rincer après broderie. Mis en avant sur la page d'accueil.",
+      "url": "https://www.maryvette.fr/product-page/motifs-%C3%A0-broder-soleil-dans-le-coeur",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie \"Mon bazar à broder\"",
+      "format": "kit",
+      "price": "à partir de 17,90 €",
+      "bestseller": true,
+      "description": "Kit complet avec tambour, fils, aiguilles et pochon, motif de 13 x 11,5 cm. Mis en avant sur la page d'accueil, aussi vendu en gros sur Ankorstore. Prix affiché différemment selon les pages (17,90 € sur la page des kits, 35,90 € sur l'accueil).",
+      "url": "https://fr.ankorstore.com/brand/atelier-maryvette-54767/kit-de-broderie-mon-bazar-a-broder-6643132",
+      "imageUrl": ""
+    },
+    {
+      "title": "Mini-pack de motifs \"Léopard graou fleuri\"",
+      "format": "autre",
+      "price": "3,90 €",
+      "bestseller": true,
+      "description": "Mini-pack de motifs à broder, mis en avant sur la page d'accueil.",
+      "url": "https://www.maryvette.fr/",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie \"Friandises de Fraises\" Ø 15 cm",
+      "format": "kit",
+      "price": "à partir de 17,90 €",
+      "bestseller": false,
+      "description": "Coupon de coton 100 % coloris papaye 25 x 25 cm avec motif tracé, ou feuille hydrosoluble adhésive imprimée, échevettes DMC, aiguille, livret illustré, tambour en hêtre de 15 cm en option. Motif de 10 x 10 cm.",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-friandises-de-fraises-%C3%B8-15-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie \"Mon amour\" Ø 15 cm",
+      "format": "kit",
+      "price": "à partir de 17,90 €",
+      "bestseller": false,
+      "description": "Kit personnalisable, fils DMC, aiguille, livret illustré de 12 pages, tambour en hêtre de 15 cm en option.",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-mon-amour-%C3%B8-15-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie \"Mon cœur\" Ø 15 cm",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Fils DMC, aiguille, livret illustré de 16 pages, tambour en hêtre de 15 cm en option.",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-mon-c%C5%93ur-%C3%B8-15-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broderie \"Femme rétro - Rockabilly\" Ø 15 cm",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Motif de 13 x 10 cm imprimé à taille réelle, échevettes de fils, aiguille, tambour en hêtre en option (15 cm minimum conseillé).",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-femme-retro-rockabilly-%C3%B8-15-cm",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit de broche à broder \"Feuille\"",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Tissu, fils DMC, support de broche et livret illustré de 20 pages, difficulté 4/5.",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broche-%C3%A0-broder-feuille",
+      "imageUrl": ""
+    },
+    {
+      "title": "Patron de broderie PDF \"Bisous bisous\"",
+      "format": "pdf",
+      "price": "11,90 €",
+      "bestseller": false,
+      "description": "Téléchargement immédiat : guide de 12 pages (matériel, couleurs de fils, points) et motif à taille réelle pour un tambour de 15 cm. Usage personnel.",
+      "url": "https://www.maryvette.fr/product-page/patron-pdf-bisous-bisous",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Petit atelier de Maulévrier (Maine-et-Loire) tenu par Alexandra, graphiste de formation, qui dessine et fabrique des kits de broderie, des patrons PDF illustrés et des motifs hydrosolubles autocollants, avec des ateliers autour de Cholet.",
+  "history": "Atelier Maryvette est la marque d'Alexandra, graphiste qui dit avoir travaillé plus de quinze ans dans le design graphique, notamment en agence. L'atelier est né de la rencontre entre ce métier et sa passion pour les arts du fil, la broderie lui servant aussi, selon ses mots, de thérapie anti-stress.\n\nLe nom rend hommage à ses deux grands-mères, Marie-Josèphe et Yvette, qui lui ont appris les travaux manuels. Le pied de page du blog la nomme Alexandra Bouchet, et un profil LinkedIn la présente comme graphiste et créatrice à l'atelier Maryvette à Maulévrier.\n\nSa fiche Ankorstore indique une activité depuis 2023 à Maulévrier, en Pays de la Loire. Alexandra réalise tout elle-même : dessin des motifs, prototypes, guides et photos.\n\nAujourd'hui la boutique propose des kits sur tambour de 15 cm, des kits de broches, des patrons PDF avec guide illustré, des packs et bandes de motifs sur papier hydrosoluble autocollant, des tutoriels sur un blog et une chaîne YouTube, et des ateliers à domicile ou en structure dans un rayon de 20 à 25 km autour de Cholet et Maulévrier.",
+  "positioning": "Une approche de graphiste : motifs dessinés, livrets illustrés détaillés (12 à 20 pages) et motifs prêts à coller sur papier hydrosoluble, ce qui vise les débutantes et les brodeuses qui veulent broder sur leurs vêtements. Univers floral, romantique et un peu rétro, avec des messages tendres (Mon amour, Bisous bisous). Prix d'entrée bas (motifs dès 3,90 €, kits dès 17,90 €). Points faibles visibles : très petite structure, faible notoriété en ligne (3 avis Trustpilot), pas d'Etsy repéré, affichage des prix incohérent entre certaines pages.",
+  "website": "https://www.maryvette.fr",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    {
+      "date": "2023",
+      "kind": "vie",
+      "label": "Début d'activité de l'Atelier Maryvette à Maulévrier selon sa fiche Ankorstore"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Maryvette, accueil",
+      "url": "https://www.maryvette.fr/"
+    },
+    {
+      "label": "Maryvette, Qui se cache derrière Maryvette ?",
+      "url": "https://www.maryvette.fr/l-atelier"
+    },
+    {
+      "label": "Maryvette, kits de broderie",
+      "url": "https://www.maryvette.fr/kits-de-broderie"
+    },
+    {
+      "label": "Maryvette, patrons PDF",
+      "url": "https://www.maryvette.fr/pdf-patron-num%C3%A9rique"
+    },
+    {
+      "label": "Maryvette, kits de broche à broder",
+      "url": "https://www.maryvette.fr/kitdebrocheabroder"
+    },
+    {
+      "label": "Maryvette, ateliers de broderie",
+      "url": "https://www.maryvette.fr/ateliers-broderie-maryvette"
+    },
+    {
+      "label": "Maryvette, kit Friandises de Fraises",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-friandises-de-fraises-%C3%B8-15-cm"
+    },
+    {
+      "label": "Maryvette, kit Mon amour",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-mon-amour-%C3%B8-15-cm"
+    },
+    {
+      "label": "Maryvette, kit Mon cœur",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-mon-c%C5%93ur-%C3%B8-15-cm"
+    },
+    {
+      "label": "Maryvette, kit Femme rétro Rockabilly",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broderie-femme-retro-rockabilly-%C3%B8-15-cm"
+    },
+    {
+      "label": "Maryvette, kit de broche Feuille",
+      "url": "https://www.maryvette.fr/product-page/kit-de-broche-%C3%A0-broder-feuille"
+    },
+    {
+      "label": "Maryvette, patron PDF Bisous bisous",
+      "url": "https://www.maryvette.fr/product-page/patron-pdf-bisous-bisous"
+    },
+    {
+      "label": "Maryvette, pack Soleil dans le coeur",
+      "url": "https://www.maryvette.fr/product-page/motifs-%C3%A0-broder-soleil-dans-le-coeur"
+    },
+    {
+      "label": "Maryvette, blog (séparer les fils mouliné)",
+      "url": "https://www.maryvette.fr/post/s%C3%A9parer-et-pr%C3%A9parer-les-fils-de-broderie"
+    },
+    {
+      "label": "Ankorstore, fiche Atelier Maryvette",
+      "url": "https://www.ankorstore.com/brand/atelier-maryvette-54767"
+    },
+    {
+      "label": "Ankorstore, kit Mon bazar à broder",
+      "url": "https://fr.ankorstore.com/brand/atelier-maryvette-54767/kit-de-broderie-mon-bazar-a-broder-6643132"
+    },
+    {
+      "label": "Trustpilot, avis Atelier Maryvette",
+      "url": "https://fr.trustpilot.com/review/maryvette.fr"
+    },
+    {
+      "label": "Trustpilot, catégorie magasins de broderie",
+      "url": "https://fr.trustpilot.com/categories/embroidery_shop?page=2"
+    },
+    {
+      "label": "YouTube, chaîne Atelier Maryvette",
+      "url": "https://www.youtube.com/channel/UCv2TGxiEED9jocqqo-l6-iw/about"
+    }
+  ],
+  "researchNotes": "Recherche faite le 2026-10-21 uniquement avec un moteur de recherche : WebFetch et curl étaient bloqués, aucune page n'a pu être ouverte. Tous les faits viennent d'extraits de résultats de recherche. Identité légale non trouvée : aucun SIREN, raison sociale ni forme juridique n'est apparu dans les extraits (pappers, societe.com, annuaire-entreprises non indexés pour cette marque, mentions légales du site non visibles). Il s'agit très probablement d'une entreprise individuelle ou micro-entreprise, qui ne publie pas de comptes : à vérifier sur annuaire-entreprises.data.gouv.fr. Ne pas confondre avec \"Atelier Maryvonne\" (céramique, Drôme) ni avec \"L'atelier de Maryvette\" à La Rochelle (calligraphie, autre personne). Nom de famille Bouchet tiré d'un extrait du pied de page du blog et d'un profil LinkedIn, à confirmer. Date de création 2023 tirée de la mention \"Since 2023\" d'Ankorstore, pas d'un registre. Adresse donnée par Trustpilot : 7 rue des Meuniers, 49360 Maulévrier. Les \"favoris\" de la page d'accueil (Chemin fleuri, Soleil dans le coeur, Mon bazar, Léopard graou fleuri) sont une sélection mise en avant, pas des chiffres de ventes. Prix incohérents vus dans les extraits pour le kit Mon bazar (17,90 € puis 35,90 € en promotion). Audience : Trustpilot note 4,0 sur 3 avis ; compte Instagram et nombre d'abonnés non trouvés ; chaîne YouTube existante, abonnés inconnus. Aucune image publique repérée dans les extraits, imageUrl et photoUrl laissés vides. Pas de boutique Etsy trouvée."
+}

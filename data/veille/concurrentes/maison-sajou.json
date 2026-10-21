@@ -1,0 +1,111 @@
+{
+  "name": "Maison Sajou",
+  "country": "France",
+  "city": "Versailles",
+  "region": "Île-de-France",
+  "foundedDate": "2004-11",
+  "closedDate": "",
+  "founders": ["Frédérique Crestin-Billet"],
+  "legalName": "",
+  "legalForm": "",
+  "registrationId": "",
+  "offers": ["Kits de broderie", "Grilles papier", "Mercerie", "Fils", "Boîtes et accessoires de mercerie"],
+  "styles": ["Vintage", "Patrimonial", "Rétro XIXe siècle"],
+  "techniques": ["Point de croix", "Broderie traditionnelle"],
+  "threads": ["Retors du Nord (Sajou)", "Fil au Chinois (Sajou)", "Fil à gant (Sajou)"],
+  "fabrics": ["Lin 32 fils au cm"],
+  "salesChannels": ["Site en propre (sajou.fr)", "Espace professionnel B2B (sajou.fr/b2b)", "Boutique à Versailles", "Revendeurs à l'étranger (Royaume-Uni, États-Unis, Australie)"],
+  "priceRange": "Kits de 18 € (boîtes rondes) à 38 € (bloc-notes), jusqu'à 213 € pour le grand kit anniversaire",
+  "languages": ["Français", "Anglais"],
+  "audience": [],
+  "financials": [],
+  "products": [
+    {
+      "title": "Kit point de croix boîte ronde « Sajou Embroidery Girls »",
+      "format": "kit",
+      "price": "18 €",
+      "bestseller": false,
+      "description": "Toile 32 fils au cm, carte de fils Retors du Nord avec les dix couleurs nécessaires, boîte ronde en métal. Gamme de boîtes rondes aussi revendue à l'étranger (Coquecigrues, Jaipur).",
+      "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/12098-cross-stitch-kit-sajou-girls-round-box-3701098626758.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit point de croix bloc-notes « Allegory » bordeaux",
+      "format": "kit",
+      "price": "38 €",
+      "bestseller": false,
+      "description": "Lin, fils Retors du Nord et support en carton, livré dans un étui réutilisable en carton. Version bleue affichée en promotion à 26,60 € (moins 30 %).",
+      "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/9819-cross-stitch-kit-allegory-bordeaux-note-pad-3665546111770.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit point de croix « Caudry cocoons »",
+      "format": "kit",
+      "price": "30 €",
+      "bestseller": false,
+      "description": "Kit livré dans une boîte en carton Sajou réutilisable. Une version « Calais cocoons » apparaît à 28,20 €.",
+      "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/9391-cross-stitch-kit-caudry-cocoons-3665546111756.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kits plaids au point de croix (Chambord, Chenonceau, Fables de La Fontaine)",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Plaids à broder au point de croix. Le Chambord est né d'une idée de livre, a été retiré du catalogue puis remis en vente ; la marque dit en avoir vendu des centaines dans le monde.",
+      "url": "https://sajou.fr/en/1390-cross-stitch-kit-plaids",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit point de croix « Sajou History since 2005 »",
+      "format": "kit",
+      "price": "",
+      "bestseller": false,
+      "description": "Kit de la série « Histoire de la Maison Sajou », qui retrace la relance de la marque et son bureau de Versailles.",
+      "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/6958-cross-stitch-kit-sajou-history-since-2005-3665546110780.html",
+      "imageUrl": ""
+    },
+    {
+      "title": "Kit point de croix « Sajou 20e anniversaire »",
+      "format": "kit",
+      "price": "213 €",
+      "bestseller": false,
+      "description": "Grand ouvrage anniversaire, format fini 57,3 x 57,8 cm.",
+      "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/12853-cross-stitch-kit-sajou-20th-anniversary-3665546110728.html",
+      "imageUrl": ""
+    }
+  ],
+  "summary": "Maison de mercerie parisienne fondée en 1828, relancée en 2004-2005 par Frédérique Crestin-Billet. Elle vend des kits et grilles de point de croix inspirés de ses albums anciens, et ses propres fils fabriqués dans le Nord.",
+  "history": "Jacques-Simon Sajou ouvre en 1828 à Paris une maison qui vend du matériel de broderie, de tapisserie, de dentelle et de crochet, et qui publie des albums de modèles. La marque disparaît en 1954.\n\nFrédérique Crestin-Billet, venue de l'édition et collectionneuse d'objets de mercerie, dépose la marque en novembre 2004. Le site sajou.fr ouvre le 25 mai 2005, avec des rééditions d'albums et de cartes anciennes. Le succès vient vite, en particulier au Japon, aux États-Unis et en Europe.\n\nEn 2009, la création du fil Retors du Nord ouvre une longue collaboration avec les Ets Toulemonde à Lille, puis toute la gamme Fil au Chinois rejoint la maison. Une boutique ouvre à Paris en 2013, rue du Caire dans le quartier du Sentier ; elle est aujourd'hui fermée.\n\nLa maison est aujourd'hui installée à Versailles, près du château, où se trouvent son bureau et sa boutique. Elle vend en ligne, en français et en anglais, avec un espace professionnel pour les revendeurs.",
+  "positioning": "Mercerie patrimoniale haut de gamme : l'image de marque repose sur l'histoire de 1828 et sur des emballages rétro (boîtes métal, étuis carton réutilisables). Elle maîtrise toute la chaîne avec ses propres fils (Retors du Nord, Fil au Chinois), ce qui la rend très différente d'une créatrice qui assemble des fils DMC. Forte présence chez les revendeurs anglophones. Points faibles visibles : univers très ancré dans le vintage, peu de modèles modernes, et aucune information publique trouvée sur ses audiences.",
+  "website": "https://www.sajou.fr",
+  "instagram": "",
+  "etsy": "",
+  "photoUrl": "",
+  "timeline": [
+    { "date": "1828", "kind": "vie", "label": "Jacques-Simon Sajou fonde la maison à Paris" },
+    { "date": "1954", "kind": "vie", "label": "Fin de la première Maison Sajou" },
+    { "date": "2004-11", "kind": "vie", "label": "Frédérique Crestin-Billet dépose la marque Sajou" },
+    { "date": "2005-05-25", "kind": "vie", "label": "Ouverture de la boutique en ligne sajou.fr" },
+    { "date": "2009", "kind": "oeuvre", "label": "Lancement du fil Retors du Nord avec les Ets Toulemonde" },
+    { "date": "2013", "kind": "vie", "label": "Ouverture de la boutique parisienne rue du Caire (fermée depuis)" },
+    { "date": "2016-02-05", "kind": "prix", "label": "Reportage France 3 dans la mercerie de la rue du Caire (archive INA)" }
+  ],
+  "sources": [
+    { "label": "Sajou, histoire de la Maison Sajou", "url": "https://sajou.fr/en/content/4-history-of-maison-sajou" },
+    { "label": "Sajou, Versailles berceau de la mercerie", "url": "https://sajou.fr/en/content/156-the-sajou-haberdashery-in-versailles" },
+    { "label": "Sajou, kit Sajou History since 2005", "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/6958-cross-stitch-kit-sajou-history-since-2005-3665546110780.html" },
+    { "label": "Sajou, kit boîte ronde Embroidery Girls", "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/12098-cross-stitch-kit-sajou-girls-round-box-3701098626758.html" },
+    { "label": "Sajou, kit bloc-notes Allegory bordeaux", "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/9819-cross-stitch-kit-allegory-bordeaux-note-pad-3665546111770.html" },
+    { "label": "Sajou, kit Caudry cocoons", "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/9391-cross-stitch-kit-caudry-cocoons-3665546111756.html" },
+    { "label": "Sajou, kit 20e anniversaire", "url": "https://sajou.fr/en/the-cross-stitch-kits-and-patterns-history-of-maison-sajou/12853-cross-stitch-kit-sajou-20th-anniversary-3665546110728.html" },
+    { "label": "Sajou, kits plaids", "url": "https://sajou.fr/en/1390-cross-stitch-kit-plaids" },
+    { "label": "Paris Zigzag, La maison Sajou symbole de l'excellence à la française", "url": "https://www.pariszigzag.fr/sortir-paris/la-mercerie-parisienne-sajou-symbole-de-lexcellence-a-la-francaise/" },
+    { "label": "Time Out Paris, Sajou", "url": "https://www.timeout.fr/paris/shopping/sajou" },
+    { "label": "Piecework, Three centuries at Sajou", "url": "https://pieceworkmagazine.com/three-centuries-at-sajou-purveyors-of-french-needlework-supplie/" },
+    { "label": "Paris Perfect, Maison Sajou", "url": "https://parisperfect.com/blog/2015/10/maison-sajou" },
+    { "label": "INA, La mercerie Sajou (2016)", "url": "https://mediaclip.ina.fr/en/i20119149-the-haberdashery-sajou.html" },
+    { "label": "Stitched Modern, kit boîte ronde Jaipur (revendeur)", "url": "https://stitchedmodern.com/products/round-box-cross-stitch-kit-jaipur" }
+  ],
+  "researchNotes": "Recherche faite le 2026-10-21 uniquement à partir d'extraits de résultats WebSearch : aucune page n'a pu être ouverte (WebFetch et curl bloqués). Raison sociale, forme juridique, SIREN, dirigeants et comptes non trouvés : les recherches Pappers, societe.com et mentions légales n'ont rien renvoyé de lié à sajou.fr (une société SAJEV à Gazeran est sans rapport). À vérifier sur annuaire-entreprises.data.gouv.fr et dans les mentions légales de sajou.fr. Date de relance : la marque est déposée en novembre 2004 et le site ouvre en mai 2005 ; certaines sources disent 2005. Un extrait indique un siège à Versailles depuis fin 2022, non confirmé. L'adresse 16 bis rue de la Chancellerie à Versailles (Paris Zigzag) est peut-être ancienne. Le prix « à partir de 55 € » de Time Out est ancien. Aucune liste de meilleures ventes ni nombre d'abonnés Instagram trouvés : bestseller laissé à false partout. Les plaids (« des centaines vendus ») sont peut-être un succès, à confirmer. Une boutique Etsy de revendeur (Sewquirkystore, environ 2,9K ventes) vend ses boîtes rondes, ce n'est pas la boutique de Sajou. Aucune URL d'image vue dans les extraits."
+}

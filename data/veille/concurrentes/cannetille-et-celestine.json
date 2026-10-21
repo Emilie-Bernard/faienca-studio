@@ -1,0 +1,31 @@
+{
+  "name": "Cannetille & Célestine",
+  "country": "France", "city": "Paris", "region": "Île-de-France",
+  "foundedDate": "2025-06", "closedDate": "",
+  "founders": ["Lucie Karam"],
+  "legalName": "", "legalForm": "", "registrationId": "",
+  "offers": ["Kits de broderie", "Ateliers"],
+  "styles": ["Broderie d'art"],
+  "techniques": ["Broderie or", "Crochet de Lunéville", "Crochet Aari"],
+  "threads": ["Cannetille", "Jaseron"],
+  "fabrics": [],
+  "salesChannels": [],
+  "priceRange": "",
+  "languages": ["Français"],
+  "audience": [],
+  "financials": [],
+  "products": [],
+  "summary": "Jeune marque parisienne de kits et de formations en broderie or, fondée en juin 2025 par la brodeuse Lucie Karam. Concurrente périphérique : elle vise la broderie d'art (or, Lunéville) plutôt que la broderie décorative au fil mouliné.",
+  "history": "Cannetille & Célestine est la marque de Lucie Karam, brodeuse professionnelle basée à Paris, qui se présente sur Malt comme « brodeuse d'or et Lunéville ». Elle y indique avoir fondé la marque en juin 2025, pour vendre des kits et des formations en broderie or.\n\nAvant de lancer la marque, elle a suivi en 2025 une formation en broderie haute couture et un certificat en goldwork, et fait de courts stages dans deux ateliers parisiens de broderie au crochet de Lunéville au début de 2025.\n\nEn parallèle de la marque, elle travaille en freelance pour le luxe, la haute couture et l'ameublement, avec un tarif affiché de 150 € par jour, et se dit disponible à Paris et à Lyon.",
+  "positioning": "Niche de la broderie d'art : broderie or (cannetille, jaseron), crochet de Lunéville et crochet Aari, avec une double activité de kits et de formations. Le savoir-faire haute couture est un atout d'image. Points faibles visibles : marque très récente, aucun site, aucune boutique ni compte Instagram trouvés par la recherche, et aucun prix de kit publié. Recoupe peu l'offre de Faïença (fils mouliné, broderie décorative).",
+  "website": "", "instagram": "", "etsy": "", "photoUrl": "",
+  "timeline": [
+    { "date": "2025", "kind": "formation", "label": "Formation en broderie haute couture, certificat goldwork et stages dans deux ateliers parisiens de Lunéville" },
+    { "date": "2025-06", "kind": "vie", "label": "Création de la marque Cannetille & Célestine par Lucie Karam" }
+  ],
+  "sources": [
+    { "label": "Malt, profil de Lucie Karam (fr)", "url": "https://www.malt.fr/profile/luciekaram1" },
+    { "label": "Malt, profil de Lucie Karam (en)", "url": "https://www.malt.com/profile/luciekaram1" }
+  ],
+  "researchNotes": "Recherche faite le 2026-10-21 uniquement par moteur de recherche : aucune page n'a pu être ouverte (WebFetch et curl bloqués). Les faits viennent des extraits du profil Malt, déclaratif et non vérifié. Aucun site, boutique, compte Instagram ou Etsy de la marque n'est ressorti (recherches sur « Cannetille et Célestine », « cannetilleetcelestine », « cannetille_celestine »). Aucun produit, prix ni contenu de kit trouvé : la liste products est vide plutôt qu'inventée. Pas de SIREN trouvé : forme juridique inconnue (probablement une entreprise individuelle vu la taille, à confirmer sur annuaire-entreprises.data.gouv.fr sous le nom Lucie Karam). Aucun compte publié. La fiche est donc à compléter dès que le site ou l'Instagram de la marque sont identifiés."
+}
