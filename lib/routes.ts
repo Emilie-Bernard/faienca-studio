@@ -2,7 +2,7 @@
 
 /** Page du studio → chemin. « /newsletter » est déjà la page publique d'inscription : le studio prend « /newsletters ». */
 export const studioRoutes: Record<string, string> = {
-  Accueil: '', Calendrier: 'calendrier', Projets: 'projets', Produits: 'produits', Concurrentes: 'concurrentes', Stratégie: 'strategie', Résultats: 'resultats',
+  Accueil: '', Calendrier: 'calendrier', Produits: 'produits', Concurrentes: 'concurrentes',
   Newsletter: 'newsletters', Dépenses: 'depenses', Kits: 'kits', Demandes: 'demandes', Questions: 'questions', Clientes: 'clientes',
   Stage: 'stage', Bibliothèque: 'bibliotheque', 'Veille textile': 'veille', 'Journal de l’agent': 'journal-agent',
 };

@@ -388,6 +388,10 @@ small,
     margin: 23px 0 29px
 }
 
+.stats--two {
+    grid-template-columns: repeat(2, 1fr)
+}
+
 .stat {
     background: var(--surface);
     border: 1px solid var(--line);
