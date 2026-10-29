@@ -36,7 +36,15 @@
     --purple: #fbe9e3;
     --cream: var(--yellow-cream);
     --font-heading: 'Faienca Edensor', 'Cormorant Garamond', Georgia, serif;
-    --font-body: 'Faienca Myriad', 'Source Sans 3', 'Segoe UI', Arial, sans-serif
+    --font-body: 'Faienca Myriad', 'Source Sans 3', 'Segoe UI', Arial, sans-serif;
+    /* Hauteur de l'en-tête collant de l'espace (h-14, md:h-16 dans app-nav) : les barres de page se collent juste dessous. */
+    --app-header-h: 56px
+}
+
+@media (min-width: 768px) {
+    :root {
+        --app-header-h: 64px
+    }
 }
 
 * {
@@ -2114,12 +2122,6 @@ summary {
 }
 
 /* E-mails : éditeur en pleine page dans la vue Newsletter */
-@media (max-width: 1023px) {
-    .editor--page {
-        --page-sticky-top: 60px
-    }
-}
-
 .editor.editor--page {
     position: static;
     width: 100%;
@@ -2137,7 +2139,7 @@ summary {
 
 .editor--page header {
     position: sticky;
-    top: var(--page-sticky-top, 0px);
+    top: var(--app-header-h);
     z-index: 3;
     background: #fff;
     border-radius: 13px 13px 0 0
@@ -2167,7 +2169,7 @@ summary {
     background: #fff;
     border-radius: 8px 8px 0 0;
     position: sticky;
-    top: calc(var(--page-sticky-top, 0px) + 90px);
+    top: calc(var(--app-header-h) + 90px);
     z-index: 2
 }
 
@@ -2994,7 +2996,7 @@ button.kit-card:hover {
 /* ——— Page de création / modification d'un kit ——— */
 .kit-page-bar {
     position: sticky;
-    top: 72px;
+    top: var(--app-header-h);
     z-index: 15;
     display: flex;
     align-items: center;
@@ -3361,12 +3363,6 @@ button.kit-card:hover {
     }
 }
 
-@media(max-width:1023px) {
-    .kit-page-bar {
-        top: 60px
-    }
-
-}
 
 @media(max-width:760px) {
     .kit-page-bar {
